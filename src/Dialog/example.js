@@ -4,12 +4,15 @@ import Button from '../Button/Button';
 import ExampleConfirmation from './exampleConfirmation';
 
 export default class DialogExample extends React.Component {
+  constructor(props) {
+    super(props);
 
-  state = {
-    visible: false,
-    width: 600,
-    destroyOnClose: false,
-    center: false,
+    this.state = {
+      visible: false,
+      width: 600,
+      destroyOnClose: false,
+      center: false,
+    };
   }
 
   onClick = (e) => {
@@ -36,8 +39,10 @@ export default class DialogExample extends React.Component {
   }
 
   changeWidth = () => {
+    const { width } = this.state;
+
     this.setState({
-      width: this.state.width === 600 ? 800 : 600,
+      width: width === 600 ? 800 : 600,
     });
   }
 
@@ -48,29 +53,43 @@ export default class DialogExample extends React.Component {
   }
 
   render() {
+    const {
+      visible,
+      destroyOnClose,
+      center,
+      width,
+      mousePosition,
+    } = this.state;
+
     let dialog;
-    if (this.state.visible || !this.state.destroyOnClose) {
-      const style = {
-        width: this.state.width,
-      };
+
+    if (visible || !destroyOnClose) {
+      const style = { width };
       let wrapClassName = '';
-      if (this.state.center) {
-        wrapClassName = 'center';
-      }
+
+      if (center) { wrapClassName = 'center'; }
+
       dialog = (
         <Dialog
-          visible={this.state.visible}
+          visible={visible}
           wrapClassName={wrapClassName}
           onClose={this.onClose}
           style={style}
-          mousePosition={this.state.mousePosition}
+          mousePosition={mousePosition}
           title={<div>Загрузка фотографий</div>}
-          footer={
+          footer={(
             <div>
-              <Button mix='is-good rc-dialog-button'>Сохранить и продолжить</Button>
-              <Button onClick={this.onClose} mix='rc-dialog-button'>Отмена</Button>
+              <Button mix="is-good rc-dialog-button">
+                Сохранить и продолжить
+              </Button>
+              <Button
+                onClick={this.onClose}
+                mix="rc-dialog-button"
+              >
+                Отмена
+              </Button>
             </div>
-          }
+          )}
         >
           <input />
           <p>basic modal</p>
@@ -79,23 +98,29 @@ export default class DialogExample extends React.Component {
             Выбранная область будет показываться в категориях товаров на главной странице
             вашего сайта.
           </p>
-          <button onClick={this.changeWidth}>change width</button>
-          {[...new Array(10)].map((k, index) =>
-            <p key={index}>
+          <button onClick={this.changeWidth} type="button">
+            change width
+          </button>
+          {[...new Array(10)].map(() => (
+            <p>
               Пожалуйста, откадрируйте изображение для корректного отображения на сайте.
               Выбранная область будет показываться в категориях товаров на главной странице
               вашего сайта.
             </p>
-          )}
+          ))}
         </Dialog>
       );
     }
     return (
       <div>
-        <h3>Dialog: based on <a href='https://github.com/react-component/dialog'>rc-dialog</a></h3>
+        <h3>
+          Dialog: based on
+          <a href="https://github.com/react-component/dialog">rc-dialog</a>
+        </h3>
         <p>
           <button
             onClick={this.onClick}
+            type="button"
           >
             show dialog
           </button>

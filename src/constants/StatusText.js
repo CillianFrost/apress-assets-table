@@ -1,7 +1,7 @@
 const statusTextStatuses = {
   success: 'success',
   error: 'error',
-  progress: 'progress'
+  progress: 'progress',
 };
 
 export default statusTextStatuses;

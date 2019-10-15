@@ -6,18 +6,18 @@ import {
   _toInteger,
 } from './import';
 
-const {TREE_LOAD_START, TREE_SET_NODE} = actionsTree;
-const {TABLE_EDITOR_LOAD_START} = actionsTable;
+const { TREE_LOAD_START, TREE_SET_NODE } = actionsTree;
+const { TABLE_EDITOR_LOAD_START } = actionsTable;
 const {
   CONFIG_LOAD_SUCCESS,
   CONFIG_SET_PAGE,
   CONFIG_SET_SORT,
-  CONFIG_SET_FILTER
+  CONFIG_SET_FILTER,
 } = actionsFilter;
 
 export default function* loadConfig(action) {
   const config = action.payload.config || app.config.scenarios.current.config;
-  yield put({type: CONFIG_LOAD_SUCCESS, payload: config});
+  yield put({ type: CONFIG_LOAD_SUCCESS, payload: config });
   const actions = [];
 
 
@@ -36,8 +36,8 @@ export default function* loadConfig(action) {
           name: key,
           onLoad: true,
           id: params.sort.direction,
-          priority: params.sort.priority
-        }
+          priority: params.sort.priority,
+        },
       }));
     }
 
@@ -48,7 +48,7 @@ export default function* loadConfig(action) {
           name: key,
           onLoad: true,
           id: params.filter,
-        }
+        },
       }));
     }
 
@@ -58,8 +58,8 @@ export default function* loadConfig(action) {
         payload: {
           name: key,
           onLoad: true,
-          urlName: params.url_name
-        }
+          urlName: params.url_name,
+        },
       }));
     }
 
@@ -68,13 +68,13 @@ export default function* loadConfig(action) {
         type: CONFIG_SET_PAGE,
         payload: {
           page: _toInteger(params),
-          onLoad: true
-        }
+          onLoad: true,
+        },
       }));
     }
   });
 
   yield actions;
-  yield put({type: TABLE_EDITOR_LOAD_START, payload: {}});
-  yield put({type: TREE_LOAD_START, payload: null});
+  yield put({ type: TABLE_EDITOR_LOAD_START, payload: {} });
+  yield put({ type: TREE_LOAD_START, payload: null });
 }

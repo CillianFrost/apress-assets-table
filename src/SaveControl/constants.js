@@ -1,1 +1,3 @@
-export const successRemoveMessageDelay = 3000;
+const successRemoveMessageDelay = 3000;
+
+export default successRemoveMessageDelay;

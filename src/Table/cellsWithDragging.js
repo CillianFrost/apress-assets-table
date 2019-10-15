@@ -1,21 +1,21 @@
-import {connect} from 'react-redux';
+import { connect } from 'react-redux';
 import {
   bindActionCreators,
-  compose
+  compose,
 } from 'redux';
 import withDragging from './withDragging';
 import Check from './Check';
 import Image from './Image';
 import Path from './Path';
 import Text from './Text';
-import {selectCellActions} from './utils';
-import {setFocus} from './actions';
+import { selectCellActions } from './utils';
+import { setFocus } from './actions';
 
-const mapStateToProps = state => ({selected: state.table.selected});
+const mapStateToProps = (state) => ({ selected: state.table.selected });
 
-const mapDispatchToProps = dispatch => bindActionCreators({
+const mapDispatchToProps = (dispatch) => bindActionCreators({
   ...selectCellActions,
-  setFocus
+  setFocus,
 }, dispatch);
 
 const enhance = compose(connect(mapStateToProps, mapDispatchToProps), withDragging);

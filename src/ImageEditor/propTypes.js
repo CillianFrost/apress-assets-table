@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 
-export const imageEditorPropTypes = {
+const imageEditorPropTypes = {
   hideImageEditor: PropTypes.func.isRequired,
   saveProductGroupImages: PropTypes.func.isRequired,
   clearImageEditor: PropTypes.func.isRequired,
@@ -18,5 +18,7 @@ export const imageEditorPropTypes = {
   updateHaveMaximumImagesCount: PropTypes.func.isRequired,
   maxSize: PropTypes.number,
   maxLength: PropTypes.number,
-  accept: PropTypes.string
+  accept: PropTypes.string,
 };
+
+export default imageEditorPropTypes;

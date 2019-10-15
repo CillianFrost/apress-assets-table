@@ -1,34 +1,36 @@
 import React from 'react';
-import {connect} from 'react-redux';
+import { connect } from 'react-redux';
 import Dialog from '../Dialog/Dialog';
 import ProgressCircle from '../ProgressCircle/ProgressCircle';
 import Button from '../Button/Button';
-import {hideMassRemoveConfirmation} from '../dialogs/actions';
+import { hideMassRemoveConfirmation } from '../dialogs/actions';
 import * as remove from '../remove/actions';
 
 class RemoveMassConfirmDialog extends React.Component {
-
   cancel = () => {
-    if (this.props.removeInProgress) {
-      return;
-    }
-    this.props.dispatch(hideMassRemoveConfirmation());
+    const { removeInProgress, dispatch } = this.props;
+
+    if (removeInProgress) { return; }
+
+    dispatch(hideMassRemoveConfirmation());
   }
 
   handleRemoveRow = () => {
-    const {props} = this;
-    props.dispatch(remove.deleteGroup({
-      id: props.selectedRowId,
+    const { dispatch, selectedRowId } = this.props;
+
+    dispatch(remove.deleteGroup({
+      id: selectedRowId,
       destroy: {},
       massRemove: true,
     }));
   }
 
   renderRemoveInProgress = () => {
-    const {props} = this;
+    const { processStatus } = this.props;
+
     return (
       <div>
-        <ProgressCircle percent={props.processStatus} />
+        <ProgressCircle percent={processStatus} />
         <div>
           <p>Процесс удаления групп начался - дождитесь его окончания.</p>
         </div>
@@ -37,53 +39,59 @@ class RemoveMassConfirmDialog extends React.Component {
   }
 
   renderConfirmation = () => {
-    const {props} = this;
+    const { error, isFetching } = this.props;
+
     return (
       <div>
-        {props.error && <p className='e-simple-error'>{props.error}</p>}
-        {!props.isFetching ?
-          <div className='rc-dialog-full-width'>
-            <section className='rc-dialog-button-container'>
-              <Button
-                onClick={this.handleRemoveRow}
-                mix='rc-dialog-button is-good is-big-size'
-              >
-                Да
-              </Button>
-              <Button
-                onClick={this.cancel}
-                mix='rc-dialog-button is-cancel is-big-size'
-              >
-                Не удалять
-              </Button>
-            </section>
-          </div> :
-          <div>
-            <div className='e-preloader' />
-          </div>
-          }
+        {error && <p className="e-simple-error">{error}</p>}
+        {!isFetching
+          ? (
+            <div className="rc-dialog-full-width">
+              <section className="rc-dialog-button-container">
+                <Button
+                  onClick={this.handleRemoveRow}
+                  mix="rc-dialog-button is-good is-big-size"
+                >
+                  Да
+                </Button>
+                <Button
+                  onClick={this.cancel}
+                  mix="rc-dialog-button is-cancel is-big-size"
+                >
+                  Не удалять
+                </Button>
+              </section>
+            </div>
+          )
+          : (
+            <div>
+              <div className="e-preloader" />
+            </div>
+          )}
       </div>
     );
   }
 
   render() {
-    const {props} = this;
+    const { removeInProgress, open } = this.props;
 
     return (
       <Dialog
-        className='is-remove-confirmation'
-        closable={!props.removeInProgress}
-        visible={props.open}
+        className="is-remove-confirmation"
+        closable={!removeInProgress}
+        visible={open}
         onClose={this.cancel}
-        title={!props.removeInProgress ?
-          'Удалить выбранные группы ?' : 'Удаляем группы, пожалуйста ожидайте ...'}
+        title={!removeInProgress
+          ? 'Удалить выбранные группы ?'
+          : 'Удаляем группы, пожалуйста ожидайте ...'}
       >
-        {props.removeInProgress ? this.renderRemoveInProgress() : this.renderConfirmation() }
-      </Dialog>);
+        {removeInProgress ? this.renderRemoveInProgress() : this.renderConfirmation() }
+      </Dialog>
+    );
   }
 }
 
-const mapStateToProps = state => ({
+const mapStateToProps = (state) => ({
   open: state.dialogs.removeRowsConfirmOpen,
   selectedRowsId: state.table.checked,
   isFetching: state.remove.isFetching,

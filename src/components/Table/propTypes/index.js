@@ -3,14 +3,14 @@ import PropTypes from 'prop-types';
 const cellPropType = PropTypes.shape({
   id: PropTypes.number.isRequired,
   isFocus: PropTypes.bool.isRequired,
-  classMix: PropTypes.string.isRequired
+  classMix: PropTypes.string.isRequired,
 });
 
 export const selectCellContainerPropType = PropTypes.shape({
   cell: cellPropType.isRequired,
   options: PropTypes.array.isRequired,
   activeOption: PropTypes.object.isRequired,
-  handleSelect: PropTypes.func.isRequired
+  handleSelect: PropTypes.func.isRequired,
 });
 
 export const selectCellViewPropType = PropTypes.shape({
@@ -20,13 +20,13 @@ export const selectCellViewPropType = PropTypes.shape({
   options: PropTypes.array.isRequired,
   activeOption: PropTypes.object.isRequired,
   handleSelect: PropTypes.func.isRequired,
-  setEditState: PropTypes.func.isRequired
+  setEditState: PropTypes.func.isRequired,
 });
 
 export const popupProportiesCellContainerPropType = PropTypes.shape({
   cell: cellPropType.isRequired,
   activeOption: PropTypes.object.isRequired,
-  handleSelect: PropTypes.func.isRequired
+  handleSelect: PropTypes.func.isRequired,
 });
 
 export const popupProportiesCellViewPropType = PropTypes.shape({
@@ -35,5 +35,5 @@ export const popupProportiesCellViewPropType = PropTypes.shape({
   classMix: PropTypes.string.isRequired,
   activeOption: PropTypes.object.isRequired,
   handleSelect: PropTypes.func.isRequired,
-  setEditState: PropTypes.func.isRequired
+  setEditState: PropTypes.func.isRequired,
 });

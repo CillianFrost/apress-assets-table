@@ -25,14 +25,14 @@
     }
     ~ .cke:after,
     &:after {
-      content: attr(data-charactersLeft);
+      content: attr(data-charactersleft);
       position: absolute;
       right: 10px;
       bottom: 10px;
       font-size: 12px;
     }
-    ~.cke[data-charactersLeft='0']:after,
-    &[data-charactersLeft='0']:after {
+    ~.cke[data-charactersleft='0']:after,
+    &[data-charactersleft='0']:after {
       color: #dc6263;
     }
     ~ .cke {

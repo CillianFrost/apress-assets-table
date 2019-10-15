@@ -1,7 +1,7 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
 
-import {textCellEditorPropType} from '../../../propTypes';
-import {block, getCallback} from '../../../utils';
+import { textCellEditorPropType } from '../../../propTypes';
+import { block, getCallback } from '../../../utils';
 import EditControlPanel from '../views/EditControlPanel';
 
 
@@ -12,38 +12,47 @@ class TextCellEditor extends Component {
     super();
 
     this.state = {
-      value: this.getValidValue(props.text)
+      value: this.getValidValue(props.text),
     };
   }
 
-  componentWillReceiveProps(nextProps) {
-    if (this.props.text !== nextProps.text || this.props.isEdit !== nextProps.isEdit) {
+  UNSAFE_componentWillReceiveProps(nextProps) {
+    const { text, isEdit } = this.props;
+
+    if (text !== nextProps.text || isEdit !== nextProps.isEdit) {
       this.setState({
-        value: this.getValidValue(nextProps.text)
+        value: this.getValidValue(nextProps.text),
       });
     }
   }
 
-  getCharactersCountLeft = () => (
-    this.props.isEdit ? this.props.maxLen - this.state.value.length : ''
-  );
+  getCharactersCountLeft = () => {
+    const { maxLen, isEdit } = this.props;
+    const { value } = this.state;
+
+    return isEdit ? maxLen - value.length : '';
+  };
 
   getEventHandlers = () => {
-    const {isEdit, isTouchDevice} = this.props;
+    const { isEdit, isTouchDevice } = this.props;
+
     return {
-      onKeyDown: getCallback(e => this.handleKeyDown(e), isEdit),
-      onInput: getCallback(e => this.handleInput(e), isEdit),
-      onBlur: getCallback(() => this.save(), isEdit && !isTouchDevice)
+      onKeyDown: getCallback((e) => this.handleKeyDown(e), isEdit),
+      onInput: getCallback((e) => this.handleInput(e), isEdit),
+      onBlur: getCallback(() => this.save(), isEdit && !isTouchDevice),
     };
   };
 
-  getValidValue = value => (
+  getValidValue = (value) => (
     value.replace(/\n/g, ' ').replace(/<.*?>/g, '')
   );
 
   save = () => {
-    this.props.handlerEdit(false);
-    this.props.handlerSave(this.state.value);
+    const { handlerEdit, handlerSave } = this.props;
+    const { value } = this.state;
+
+    handlerEdit(false);
+    handlerSave(value);
   };
 
   handleKeyDown = (e) => {
@@ -55,34 +64,45 @@ class TextCellEditor extends Component {
   };
 
   handleInput = (e) => {
-    this.setState({value: e.currentTarget.value});
+    this.setState({ value: e.currentTarget.value });
   };
 
   render() {
-    const {isEdit, maxLen, handlerEdit, isTouchDevice} = this.props;
-    const {value} = this.state;
+    const {
+      isEdit,
+      maxLen,
+      handlerEdit,
+      isTouchDevice,
+    } = this.props;
+
+    const { value } = this.state;
+
+    const { onKeyDown, onInput, onBlur } = this.getEventHandlers();
 
     return (
       <div
-        data-charactersLeft={this.getCharactersCountLeft()}
-        className={b('cell-text').is({edit: isEdit})}
+        data-charactersleft={this.getCharactersCountLeft()}
+        className={b('cell-text').is({ edit: isEdit })}
       >
         { isEdit
-          ? <textarea
-            ref={elem => elem && isEdit && elem.focus()}
-            maxLength={maxLen}
-            readOnly={!isEdit}
-            value={value}
-            {...this.getEventHandlers()}
-          />
-          : <div className={b('cell-text-output')}>{value}</div>
-        }
-        {isEdit && isTouchDevice &&
+          ? (
+            <textarea
+              ref={(elem) => elem && isEdit && elem.focus()}
+              maxLength={maxLen}
+              readOnly={!isEdit}
+              defaultValue={value}
+              onKeyDown={onKeyDown}
+              onInput={onInput}
+              onBlur={onBlur}
+            />
+          )
+          : <div className={b('cell-text-output')}>{value}</div> }
+        {isEdit && isTouchDevice && (
           <EditControlPanel
             onSave={this.save}
             onClose={() => { handlerEdit(false); }}
           />
-        }
+        )}
       </div>
     );
   }
@@ -91,7 +111,7 @@ class TextCellEditor extends Component {
 TextCellEditor.propTypes = textCellEditorPropType.isRequired;
 
 TextCellEditor.defaultProps = {
-  text: ''
+  text: '',
 };
 
 export default TextCellEditor;

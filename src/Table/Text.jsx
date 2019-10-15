@@ -1,75 +1,39 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import {connect} from 'react-redux';
-import {bindActionCreators} from 'redux';
+import { connect } from 'react-redux';
+import { bindActionCreators } from 'redux';
 import RcDropdown from 'rc-dropdown';
 import _isEqual from 'lodash/isEqual';
-import {block} from '../utils';
+import { block } from '../utils';
 import {
   startTextEdit,
   endTextEdit,
 } from './actions';
-import {mapFocusProps} from './utils';
+import { mapFocusProps } from './utils';
 import TextCellEditor from '../components/Table/containers/TextCellEditor';
 import ConnectedTextCellCKEditor from '../components/Table/containers/TextCellCKEditor';
 import TouchEditTool from '../components/Table/views/TouchEditTool';
 import DragTool from '../components/Table/views/DragTool';
 
-
 const b = block('e-table');
 
 class TextCell extends Component {
-
-  static propTypes = {
-    cell: PropTypes.shape({
-      classMix: PropTypes.string,
-      config: PropTypes.object,
-      data: PropTypes.shape({
-        common: PropTypes.shape({
-          text: PropTypes.string
-        }),
-        binder: PropTypes.object
-      }),
-      id: PropTypes.number,
-      isDragged: PropTypes.bool,
-      isFocus: PropTypes.bool,
-      isLast: PropTypes.bool,
-      isSelected: PropTypes.bool,
-      name: PropTypes.string,
-      placeholder: PropTypes.string
-    }),
-    handleSelection: PropTypes.func,
-    handleStartSelection: PropTypes.func,
-    handleEndSelection: PropTypes.func,
-    handleDrag: PropTypes.func
-  };
-
-  static defaultProps = {
-    cell: {
-      data: {
-        common: {
-          text: ''
-        }
-      }
-    }
-  };
-
   constructor(props) {
     super();
 
     this.state = {
       edit: false,
       visible: false,
-      text: props.cell.data.common.text
+      text: props.cell.data.common.text,
     };
   }
 
-  componentWillReceiveProps(nextProps) {
-    const {cell: {data: {common: {text}}}} = nextProps;
+  UNSAFE_componentWillReceiveProps(nextProps) {
+    const { cell: { data: { common: { text } } } } = nextProps;
 
     if (this.props.cell.data.common.text !== text) {
       this.setState({
-        text
+        text,
       });
     }
   }
@@ -82,25 +46,31 @@ class TextCell extends Component {
     edit ? this.props.startTextEdit() : this.props.endTextEdit();
 
     this.setState({
-      edit
+      edit,
     });
   };
 
   handlerSave = (text) => {
-    const {setData, cell} = this.props;
-    const {data, id, name} = cell;
+    const { setData, cell } = this.props;
+    const { data, id, name } = cell;
     if (text !== data.common.text) {
-      setData({id, name, field: 'text', text});
+      setData({
+        id,
+        name,
+        field: 'text',
+        text,
+      });
     }
   };
 
   handleKeyPress = (e) => {
-    const {cell: {isFocus}} = this.props;
+    const { cell: { isFocus } } = this.props;
+    const { edit } = this.state;
 
-    if (isFocus && !this.state.edit && e.key.length === 1 && !e.ctrlKey) {
+    if (isFocus && !edit && e.key.length === 1 && !e.ctrlKey) {
       this.handlerEdit(true);
       this.setState({
-        text: e.key
+        text: e.key,
       });
       e.preventDefault();
     }
@@ -114,29 +84,50 @@ class TextCell extends Component {
   };
 
   render() {
-    const {cell, handleSelection, handleStartSelection, handleEndSelection, handleDrag} = this.props;
-    const {config, data, name, placeholder, isFocus, classMix, isSelected, isDragged, isLast, readonly, isTouchDevice} = cell;
-    const cellText = this.state.text;
-    const binder = data.binder;
+    const {
+      cell,
+      handleSelection,
+      handleStartSelection,
+      handleEndSelection,
+      handleDrag,
+    } = this.props;
 
-    let text = null;
-    if (cellText || this.state.edit) {
-      if (this.state.edit && config.ckeditor) {
-        text = (
+    const { text, edit, visible } = this.state;
+
+    const {
+      config,
+      data,
+      name,
+      placeholder,
+      isFocus,
+      classMix,
+      isSelected,
+      isDragged,
+      isLast,
+      readonly,
+      isTouchDevice,
+    } = cell;
+    const cellText = text;
+    const { binder } = data;
+
+    let resultText = null;
+    if (cellText || edit) {
+      if (edit && config.ckeditor) {
+        resultText = (
           <ConnectedTextCellCKEditor
             text={cellText || undefined}
-            maxLen={this.props.cell.config.maxLen}
+            maxLen={cell.config.maxLen}
             name={name}
             handlerEdit={this.handlerEdit}
             handlerSave={this.handlerSave}
           />
         );
       } else {
-        text = (
+        resultText = (
           <TextCellEditor
             text={cellText || undefined}
-            maxLen={this.props.cell.config.maxLen}
-            isEdit={this.state.edit}
+            maxLen={cell.config.maxLen}
+            isEdit={edit}
             handlerEdit={this.handlerEdit}
             handlerSave={this.handlerSave}
             isTouchDevice={isTouchDevice}
@@ -144,20 +135,19 @@ class TextCell extends Component {
         );
       }
     } else {
-      text = <div className={b('cell-placeholder')}>{placeholder}</div>;
+      resultText = <div className={b('cell-placeholder')}>{placeholder}</div>;
     }
 
     return (
       <div
-        ref={($td) => { $td && isFocus && !this.state.edit && $td.focus(); }}
+        ref={($td) => { $td && isFocus && !edit && $td.focus(); }}
         className={b('cell').mix(`is-${classMix}`)
           .is({
             focus: isFocus,
             selected: isSelected,
             'selected-to': isDragged,
-            required: config.required && !cellText && !this.state.edit
-          })
-        }
+            required: config.required && !cellText && !edit,
+          })}
         title={readonly && cellText}
         tabIndex={-1}
         onDoubleClick={() => binder && this.handlerEdit(true)}
@@ -165,53 +155,91 @@ class TextCell extends Component {
         onMouseEnter={binder && handleSelection}
         onMouseDown={binder && handleStartSelection}
         onMouseUp={binder && handleEndSelection}
-        onDragStart={e => e.preventDefault}
-        onSelect={e => e.preventDefault}
+        onDragStart={(e) => e.preventDefault}
+        onSelect={(e) => e.preventDefault}
+        role="presentation"
       >
-        {text}
-        {isLast && binder && !isTouchDevice &&
-          <DragTool
-            onMouseDown={handleDrag}
-          />
-        }
-        {isLast && isTouchDevice && !config.ckeditor &&
-          <TouchEditTool
-            onClick={() => binder && this.handlerEdit(true)}
-          />
-        }
-        {!this.state.edit && config.ckeditor && cellText &&
-          <RcDropdown
-            visible={this.state.visible}
-            trigger={['hover']}
-            overlay={
-              <div className={b('preview')}>
-                <div
-                  className={b('preview-body')}
-                  dangerouslySetInnerHTML={{__html: cellText}}
-                />
-              </div>
-            }
-            onVisibleChange={(visible) => { this.setState({visible}); }}
-            closeOnSelect={false}
-          >
-            <div className={b('cell-preview-icon')} />
-          </RcDropdown>
-        }
+        {resultText}
+        {isLast && binder && !isTouchDevice
+          && (
+            <DragTool
+              onMouseDown={handleDrag}
+            />
+          )}
+        {isLast && isTouchDevice && !config.ckeditor
+          && (
+            <TouchEditTool
+              onClick={() => binder && this.handlerEdit(true)}
+            />
+          )}
+        {!edit && config.ckeditor && cellText
+          && (
+            <RcDropdown
+              visible={visible}
+              trigger={['hover']}
+              overlay={(
+                <div className={b('preview')}>
+                  <div
+                    className={b('preview-body')}
+                    dangerouslySetInnerHTML={{ __html: cellText }}
+                  />
+                </div>
+              )}
+              onVisibleChange={(isVisible) => { this.setState({ visible: isVisible }); }}
+              closeOnSelect={false}
+            >
+              <div className={b('cell-preview-icon')} />
+            </RcDropdown>
+          )}
       </div>
     );
   }
 }
 
 const mapStateToProps = (state, ownProps) => {
-  const focus = state.table.focus;
+  const { focus } = state.table;
   return {
     ...mapFocusProps(focus, ownProps),
   };
 };
 
-const mapDispatchToProps = dispatch => bindActionCreators({
+const mapDispatchToProps = (dispatch) => bindActionCreators({
   startTextEdit,
   endTextEdit,
 }, dispatch);
+
+TextCell.propTypes = {
+  cell: PropTypes.shape({
+    classMix: PropTypes.string,
+    config: PropTypes.object,
+    data: PropTypes.shape({
+      common: PropTypes.shape({
+        text: PropTypes.string,
+      }),
+      binder: PropTypes.object,
+    }),
+    id: PropTypes.number,
+    isDragged: PropTypes.bool,
+    isFocus: PropTypes.bool,
+    isLast: PropTypes.bool,
+    isSelected: PropTypes.bool,
+    name: PropTypes.string,
+    placeholder: PropTypes.string,
+  }),
+  handleSelection: PropTypes.func,
+  handleStartSelection: PropTypes.func,
+  handleEndSelection: PropTypes.func,
+  handleDrag: PropTypes.func,
+};
+
+TextCell.defaultProps = {
+  cell: {
+    data: {
+      common: {
+        text: '',
+      },
+    },
+  },
+};
 
 export default connect(mapStateToProps, mapDispatchToProps)(TextCell);

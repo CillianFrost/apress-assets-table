@@ -1,9 +1,9 @@
 import React from 'react';
 
-
-export default ({onClick}) => (
+export default ({ onClick }) => (
   <div
-    className='e-table-edit-tool'
+    className="e-table-edit-tool"
     onClick={onClick}
+    role="presentation"
   />
 );

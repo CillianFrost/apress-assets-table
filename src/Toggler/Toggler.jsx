@@ -1,20 +1,22 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import {block} from '../utils';
 import './e-toggler.scss';
 
-const b = block('e-toggler');
+const Toggler = (props) => {
+  const { onToggle, title } = props;
 
-const Toggler = props =>
-  <div
-    onClick={props.onToggle}
-    className={b.mix(props.mix).is({on: props.on})}
-    title={props.title}
-  />;
+  return (
+    <div
+      onClick={onToggle}
+      className="e-toggler"
+      title={title}
+      role="presentation"
+    />
+  );
+};
 
 Toggler.propTypes = {
   onToggle: PropTypes.func.isRequired,
-  mix: PropTypes.string,
   title: PropTypes.string,
 };
 

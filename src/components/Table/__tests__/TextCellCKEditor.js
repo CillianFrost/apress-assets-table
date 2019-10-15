@@ -45,7 +45,7 @@ describe('TextCellCKEditor', () => {
       instance.setCharactersCountLeft(editor);
 
       expect(editor.container.setAttribute)
-        .toHaveBeenCalledWith('data-charactersLeft', instance.getCharectersCountLeft(editor));
+        .toHaveBeenCalledWith('data-charactersleft', instance.getCharectersCountLeft(editor));
     });
   });
 
@@ -87,7 +87,7 @@ describe('TextCellCKEditor', () => {
     });
 
     it('should add the error message', () => {
-      const errorText = `Превышен лимит по количеству символов в колонке "Подробное описание". 
+      const errorText = `Превышен лимит по количеству символов в колонке "Подробное описание".
           Допустимый лимит с учетом специальных символов ${componentProps.maxLen}. Уменьшите количество символов и сохраните заново`;
       const editor = {
         getData: () => 'a'.repeat(maxLength + 1)

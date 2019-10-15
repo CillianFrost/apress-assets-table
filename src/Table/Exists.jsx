@@ -1,12 +1,11 @@
 import React from 'react';
-import {connect} from 'react-redux';
+import { connect } from 'react-redux';
 import _isEqual from 'lodash/isEqual';
-import {block} from '../utils';
+import { block } from '../utils';
 
 const b = block('e-table');
 
 class Exists extends React.Component {
-
   shouldComponentUpdate(nextProps) {
     return !_isEqual(this.props, nextProps);
   }
@@ -23,16 +22,17 @@ class Exists extends React.Component {
   };
 
   render() {
-    const props = this.props;
+    const { cell } = this.props;
+
     const existenceText =
-      this.getExistenceLocale(props.cell.data.common.exists) ||
-      (<div className={b('cell-placeholder')}>{props.cell.placeholder}</div>);
+      this.getExistenceLocale(cell.data.common.exists)
+      || (<div className={b('cell-placeholder')}>{cell.placeholder}</div>);
 
     return (
       <div
         tabIndex={-1}
-        ref={($td) => { $td && props.cell.isFocus && $td.focus(); }}
-        className={b('cell').is({focus: props.cell.isFocus, [props.cell.classMix]: true})}
+        ref={($td) => { $td && cell.isFocus && $td.focus(); }}
+        className={b('cell').is({ focus: cell.isFocus, [cell.classMix]: true })}
       >
         {existenceText}
       </div>

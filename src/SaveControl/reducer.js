@@ -1,11 +1,11 @@
-import {transformFromServer} from '../utils';
+import { transformFromServer } from '../utils';
 import {
   SAVE_SUCCESS,
   SAVE_CREATE_DIFF,
   SAVE_START,
   SAVE_DIFF,
   CONTINUE_SAVE,
-  SUCCESS_REMOVE_MESSAGE
+  SUCCESS_REMOVE_MESSAGE,
 } from './actions';
 import {
   TABLE_EDITOR_LOAD_SUCCESS,
@@ -20,7 +20,7 @@ import {
   UPDATE_TABLE_EDITOR_ROWS,
   INSERT_DATA,
   SET_TRAIT_FILTERS_DISPLAYING,
-  SET_PRODUCT_PROPORTIES_DISPLAYING
+  SET_PRODUCT_PROPORTIES_DISPLAYING,
 } from '../Table/actions';
 import rows from '../Table/rowReducer';
 
@@ -32,7 +32,7 @@ const initialState = {
   isSuccess: false,
   fetchDiff: false,
   waitingState: [],
-  saveState: []
+  saveState: [],
 };
 
 export default function (state = initialState, action) {
@@ -40,7 +40,7 @@ export default function (state = initialState, action) {
     case TABLE_EDITOR_LOAD_SUCCESS:
       return {
         ...state,
-        prevState: [...action.payload.rows]
+        prevState: [...action.payload.rows],
       };
 
     case CONTINUE_SAVE:
@@ -55,7 +55,7 @@ export default function (state = initialState, action) {
     case SET_PRODUCT_PROPORTIES_DISPLAYING:
       return {
         ...state,
-        withUnsavedChanges: true
+        withUnsavedChanges: true,
       };
 
     case TABLE_EDITOR_ROW_COPY: {
@@ -66,25 +66,25 @@ export default function (state = initialState, action) {
       }
 
       const tmpWaitingState = [...state.waitingState];
-      const tmpWaitingItemIndex = tmpWaitingState.findIndex(item => item.id === targetId);
+      const tmpWaitingItemIndex = tmpWaitingState.findIndex((item) => item.id === targetId);
 
       if (tmpWaitingItemIndex !== -1) {
-        tmpWaitingState[tmpWaitingItemIndex] = {...tmpWaitingState[tmpWaitingItemIndex], copy: true};
+        tmpWaitingState[tmpWaitingItemIndex] = { ...tmpWaitingState[tmpWaitingItemIndex], copy: true };
       } else {
-        tmpWaitingState.push({id: targetId, copy: true});
+        tmpWaitingState.push({ id: targetId, copy: true });
       }
 
       return {
         ...state,
         waitingState: tmpWaitingState,
-        withUnsavedChanges: true
+        withUnsavedChanges: true,
       };
     }
 
     case TABLE_EDITOR_ROW_COPY_SUCCESS: {
       const newPrevState = [...state.prevState];
       action.payload.rows.forEach((item) => {
-        const target = newPrevState.findIndex(newPrevStateItem => newPrevStateItem.check.common.id === item.id);
+        const target = newPrevState.findIndex((newPrevStateItem) => newPrevStateItem.check.common.id === item.id);
 
         if (target > -1) {
           newPrevState.push(transformFromServer(item.copy.columns, action.payload.new_row));
@@ -93,7 +93,7 @@ export default function (state = initialState, action) {
 
       return {
         ...state,
-        prevState: newPrevState
+        prevState: newPrevState,
       };
     }
 
@@ -109,18 +109,18 @@ export default function (state = initialState, action) {
         ...state,
         waitingState: action.payload.waitingState,
         fetchDiff: false,
-        prevState: action.payload.prevState
+        prevState: action.payload.prevState,
       };
 
     case SAVE_START: {
       const saveState = [];
 
       state.waitingState.forEach((row) => {
-        const columns = row.columns;
+        const { columns } = row;
 
         if (columns) {
-          const tmpColumns = {...columns};
-          const tmpRow = {...row, columns: tmpColumns};
+          const tmpColumns = { ...columns };
+          const tmpRow = { ...row, columns: tmpColumns };
 
           if (row.id > 0 && tmpColumns.product_group) {
             delete tmpColumns.product_group;
@@ -140,19 +140,19 @@ export default function (state = initialState, action) {
         saveState,
         isProgress: true,
         isError: false,
-        waitingState: []
+        waitingState: [],
       };
     }
 
     case TABLE_EDITOR_ROW_ADD_DEFAULT_ID:
     case TABLE_EDITOR_ROW_ADD_ID: {
       const tmpWaitingState = state.waitingState.map((row) => {
-        const payloadItem = action.payload.find(payloadRow => row.id === payloadRow.id);
+        const payloadItem = action.payload.find((payloadRow) => row.id === payloadRow.id);
 
         if (payloadItem) {
           return {
             ...row,
-            id: payloadItem.record_id
+            id: payloadItem.record_id,
           };
         }
 
@@ -162,7 +162,7 @@ export default function (state = initialState, action) {
       return {
         ...state,
         waitingState: tmpWaitingState,
-        prevState: rows(state.prevState, action)
+        prevState: rows(state.prevState, action),
       };
     }
 
@@ -172,14 +172,14 @@ export default function (state = initialState, action) {
           ...state,
           saveState: [],
           isProgress: false,
-          isSuccess: true
+          isSuccess: true,
         };
       }
 
-      const saveState = state.saveState;
+      const { saveState } = state;
 
       state.waitingState.forEach((record) => {
-        const saveItem = saveState.find(item => item.id === record.id);
+        const saveItem = saveState.find((item) => item.id === record.id);
 
         if (saveItem) {
           if (saveItem.destroy && !record.destroy) {
@@ -188,7 +188,7 @@ export default function (state = initialState, action) {
 
           Object.keys(record).forEach((key) => {
             if (typeof record[key] === 'object' && record[key] !== null) {
-              saveItem[key] = {...saveItem[key], ...record[key]};
+              saveItem[key] = { ...saveItem[key], ...record[key] };
             } else {
               saveItem[key] = record[key];
             }
@@ -204,20 +204,20 @@ export default function (state = initialState, action) {
         waitingState: saveState,
         isProgress: false,
         withUnsavedChanges: true,
-        isError: true
+        isError: true,
       };
     }
 
     case UPDATE_TABLE_EDITOR_ROWS:
       return {
         ...state,
-        prevState: rows(state.prevState, action)
+        prevState: rows(state.prevState, action),
       };
 
     case SUCCESS_REMOVE_MESSAGE:
       return {
         ...state,
-        isSuccess: false
+        isSuccess: false,
       };
 
     default:

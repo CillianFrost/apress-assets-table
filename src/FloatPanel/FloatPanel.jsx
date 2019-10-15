@@ -1,40 +1,51 @@
 /* eslint react/no-unused-prop-types: 0 */
-import React, {Component} from 'react';
+import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import _isEqual from 'lodash/isEqual';
-import {block} from '../utils';
+import { block } from '../utils';
 import './e-float-panel.scss';
 
 const b = block('e-float-panel');
 
 export default class FloatPanel extends Component {
-  static propTypes = {
-    onSlide: PropTypes.func,
-  }
+  constructor(props) {
+    super(props);
 
-  state = {togglerVisible: true};
+    this.state = { togglerVisible: true };
+  }
 
   shouldComponentUpdate(nextProps, nextState) {
     return !_isEqual(this.props, nextProps) || !_isEqual(this.state, nextState);
   }
 
   switchToggler = () => {
-    this.setState({togglerVisible: !this.state.togglerVisible});
-    this.props.onSlide(this.state.togglerVisible);
+    const { onSlide } = this.props;
+    const { togglerVisible } = this.state;
+
+    this.setState({ togglerVisible: !togglerVisible });
+    onSlide(togglerVisible);
   }
 
   render() {
+    const { mix, children } = this.props;
+    const { togglerVisible } = this.state;
+
     return (
       <div
-        className={b.mix(this.props.mix).is({hide: !this.state.togglerVisible})}
+        className={b.mix(mix).is({ hide: !togglerVisible })}
       >
         <div
-          title={this.state.togglerVisible ? 'Свернуть' : 'Развернуть'}
+          title={togglerVisible ? 'Свернуть' : 'Развернуть'}
           className={b('toggler')}
           onClick={() => this.switchToggler()}
+          role="presentation"
         />
-        <div className={b('wrapper')}>{this.props.children}</div>
+        <div className={b('wrapper')}>{children}</div>
       </div>
     );
   }
 }
+
+FloatPanel.propTypes = {
+  onSlide: PropTypes.func.isRequired,
+};

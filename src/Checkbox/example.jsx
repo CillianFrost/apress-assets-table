@@ -4,9 +4,9 @@ import React from 'react';
 import Checkbox from './Checkbox';
 
 export default class Example extends React.Component {
-
-  state = {
-    val: true,
+  constructor(props) {
+    super(props);
+    this.state = { val: true };
   }
 
   changeVal = (val) => {
@@ -17,12 +17,14 @@ export default class Example extends React.Component {
   }
 
   render() {
+    const { val } = this.state;
+
     return (
-      <section className='example-wrapper'>
+      <section className="example-wrapper">
         <h3>Checkbox:</h3>
         <Checkbox
           onChange={this.changeVal}
-          checked={this.state.val}
+          checked={val}
         />
       </section>
     );

@@ -1,24 +1,37 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
 
-import {PopupProportiesCellView} from '../views';
-import {popupProportiesCellContainerPropType} from '../propTypes';
+import { PopupProportiesCellView } from '../views';
+import { popupProportiesCellContainerPropType } from '../propTypes';
 
 
 class PopupProportiesCellContainer extends Component {
-  state = {
-    isEdit: false
-  };
+  constructor(props) {
+    super(props);
+
+    this.state = { isEdit: false };
+  }
 
   setEditState = (isEdit) => {
-    this.setState({isEdit});
+    this.setState({ isEdit });
   }
 
   render() {
-    const {cell: {isFocus, classMix, data, id}, handleSelect, activeOption} = this.props;
+    const {
+      cell: {
+        isFocus,
+        classMix,
+        data,
+        id,
+      },
+      handleSelect,
+      activeOption,
+    } = this.props;
+
+    const { isEdit } = this.state;
 
     return (
       <PopupProportiesCellView
-        isEdit={this.state.isEdit}
+        isEdit={isEdit}
         isFocus={isFocus}
         classMix={classMix}
         activeOption={activeOption}

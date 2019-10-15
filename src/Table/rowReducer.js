@@ -1,4 +1,4 @@
-import {transformFromServer, cloneDeep} from '../utils';
+import { transformFromServer, cloneDeep } from '../utils';
 import {
   TABLE_EDITOR_LOAD_SUCCESS,
   TABLE_EDITOR_SET_TEXT,
@@ -10,7 +10,7 @@ import {
   TABLE_EDITOR_ROW_COPY_SUCCESS,
   UPDATE_TABLE_EDITOR_ROWS,
   SET_TRAIT_FILTERS_DISPLAYING,
-  SET_PRODUCT_PROPORTIES_DISPLAYING
+  SET_PRODUCT_PROPORTIES_DISPLAYING,
 } from './actions';
 
 let newId = -1;
@@ -31,9 +31,9 @@ export default function rows(state = [], action) {
               ...cell,
               common: {
                 ...cell.common,
-                [action.payload.field]: action.payload.text
-              }
-            }
+                [action.payload.field]: action.payload.text,
+              },
+            },
           };
         }
 
@@ -51,18 +51,18 @@ export default function rows(state = [], action) {
               ...cell,
               common: {
                 ...cell.common,
-                images: [...action.payload.images]
-              }
-            }
+                images: [...action.payload.images],
+              },
+            },
           };
         }
         return row;
       });
 
     case TABLE_EDITOR_ROW_ADD: {
-      const target = (action.payload && action.payload.target) ?
-        state.indexOf(action.payload.target) + 1 : 0;
-      let productGroup = {...action.payload.new_row.product_group};
+      const target = (action.payload && action.payload.target)
+        ? state.indexOf(action.payload.target) + 1 : 0;
+      let productGroup = { ...action.payload.new_row.product_group };
 
       if (action.payload && action.payload.parent) {
         const ancentors = [...action.payload.parent.product_group.common.ancestors];
@@ -75,10 +75,10 @@ export default function rows(state = [], action) {
             ancestors: [...ancentors, {
               id: action.payload.parent.check.common.id,
               parent_id: ancentorsLastId,
-              name: action.payload.parent.name.common.text
+              name: action.payload.parent.name.common.text,
             }],
-            parent_id: action.payload.parent.check.common.id
-          }
+            parent_id: action.payload.parent.check.common.id,
+          },
         };
       }
 
@@ -89,10 +89,10 @@ export default function rows(state = [], action) {
           ...action.payload.new_row.check,
           common: {
             ...action.payload.new_row.check.common,
-            id: newId
-          }
+            id: newId,
+          },
         },
-        product_group: productGroup
+        product_group: productGroup,
       };
 
       newId -= 1;
@@ -105,9 +105,8 @@ export default function rows(state = [], action) {
     case TABLE_EDITOR_ROW_ADD_DEFAULT_ID:
     case TABLE_EDITOR_ROW_ADD_ID:
       return state.map((row) => {
-        const payloadItem = action.payload.find(payloadRow =>
-          row.check.common.id === payloadRow.id);
-        const payloadChildItem = action.payload.find(payloadRow =>
+        const payloadItem = action.payload.find((payloadRow) => row.check.common.id === payloadRow.id);
+        const payloadChildItem = action.payload.find((payloadRow) =>
           row.product_group && row.product_group.common.parent_id === payloadRow.id);
 
         if (payloadItem) {
@@ -117,9 +116,9 @@ export default function rows(state = [], action) {
               ...row.check,
               common: {
                 ...row.check.common,
-                id: payloadItem.record_id
-              }
-            }
+                id: payloadItem.record_id,
+              },
+            },
           };
         }
 
@@ -128,7 +127,7 @@ export default function rows(state = [], action) {
             if (ancestor.id === payloadChildItem.id) {
               return {
                 ...ancestor,
-                id: payloadChildItem.record_id
+                id: payloadChildItem.record_id,
               };
             }
 
@@ -142,9 +141,9 @@ export default function rows(state = [], action) {
               common: {
                 ...row.product_group.common,
                 parent_id: payloadChildItem.record_id,
-                ancestors
-              }
-            }
+                ancestors,
+              },
+            },
           };
         }
 
@@ -154,7 +153,7 @@ export default function rows(state = [], action) {
     case TABLE_EDITOR_ROW_COPY_SUCCESS: {
       const newState = [...state];
       action.payload.rows.forEach((item) => {
-        const target = newState.findIndex(newStateItem => newStateItem.check.common.id === item.id);
+        const target = newState.findIndex((newStateItem) => newStateItem.check.common.id === item.id);
 
         if (target > -1) {
           newState.splice(target + 1, 0, transformFromServer(item.copy.columns, action.payload.new_row));
@@ -165,22 +164,22 @@ export default function rows(state = [], action) {
     }
 
     case TABLE_EDITOR_ROW_REMOVE: {
-      return state.filter(row => row.check.common.id !== action.payload.id);
+      return state.filter((row) => row.check.common.id !== action.payload.id);
     }
 
     case UPDATE_TABLE_EDITOR_ROWS:
       return state.map((stateRow) => {
-        const payloadRow = action.payload.rows.find(row => row.id === stateRow.check.common.id);
+        const payloadRow = action.payload.rows.find((row) => row.id === stateRow.check.common.id);
 
         if (payloadRow) {
           const transformedPayloadRow = transformFromServer(payloadRow.columns, action.payload.new_row);
 
           return Object.keys(transformedPayloadRow).reduce((result, nextKey) => {
-            /* eslint no-param-reassign: ['error', { 'props': false }]*/
+            /* eslint no-param-reassign: ['error', { 'props': false }] */
             result[nextKey] = transformedPayloadRow[nextKey];
 
             return result;
-          }, {...stateRow});
+          }, { ...stateRow });
         }
 
         return stateRow;
@@ -197,9 +196,9 @@ export default function rows(state = [], action) {
               ...cell,
               common: {
                 ...cell.common,
-                enabled: action.payload.enabled
-              }
-            }
+                enabled: action.payload.enabled,
+              },
+            },
           };
         }
         return row;
@@ -214,8 +213,8 @@ export default function rows(state = [], action) {
           ...row,
           product_properties: {
             ...cell,
-            common: action.payload.proporties
-          }
+            common: action.payload.proporties,
+          },
         };
       });
 

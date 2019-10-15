@@ -20,7 +20,7 @@ export default (state = initialState, action) => {
       return {
         ...initialState,
         groupId: action.payload.id,
-        groupName: action.payload.name
+        groupName: action.payload.name,
       };
 
     case removeActions.REQUEST_INFO_ABOUT_GROUP_START:

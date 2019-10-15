@@ -1,4 +1,3 @@
-import {PreloaderView} from './views';
-
+import PreloaderView from './views';
 
 export default PreloaderView;

@@ -1,8 +1,8 @@
 import React from 'react';
-import {connect} from 'react-redux';
+import { connect } from 'react-redux';
 import _isEqual from 'lodash/isEqual';
-import {remove} from './actions';
-import {block} from '../utils';
+import { remove } from './actions';
+import { block } from '../utils';
 
 import './e-error.scss';
 
@@ -13,32 +13,47 @@ class ComponentError extends React.Component {
     return !_isEqual(this.props, nextProps);
   }
 
-  createServerError = error =>
-    <div className={b}>
-      <p className={b('title')}>{error.title}</p>
-      <a
-        className={b('repeat')}
-        onClick={() => {
-          this.props.dispatch({type: error.action});
-          this.props.dispatch(remove({id: error.id}));
-        }}
-      >
-        Повторить
-      </a>
-      <div
-        className={b('close')}
-        onClick={() => this.props.dispatch(remove({id: error.id}))}
-      />
-    </div>;
+  createServerError = (error) => {
+    const { dispatch } = this.props;
 
-  createDefaultError = error =>
-    <div className={b} key={error.id}>
-      <div className={b('title')}>{error.title}</div>
-      <div
-        className={b('close')}
-        onClick={() => this.props.dispatch(remove({id: error.id}))}
-      />
-    </div>;
+    return (
+      <div className={b}>
+        <p className={b('title')}>
+          {error.title}
+        </p>
+        <div
+          className={b('repeat')}
+          onClick={() => {
+            dispatch({ type: error.action });
+            dispatch(remove({ id: error.id }));
+          }}
+          role="presentation"
+        >
+          Повторить
+        </div>
+        <div
+          className={b('close')}
+          onClick={() => dispatch(remove({ id: error.id }))}
+          role="presentation"
+        />
+      </div>
+    );
+  };
+
+  createDefaultError = (error) => {
+    const { dispatch } = this.props;
+
+    return (
+      <div className={b} key={error.id}>
+        <div className={b('title')}>{error.title}</div>
+        <div
+          className={b('close')}
+          onClick={() => dispatch(remove({ id: error.id }))}
+          role="presentation"
+        />
+      </div>
+    );
+  }
 
   createError = (error) => {
     switch (error.type) {
@@ -52,15 +67,17 @@ class ComponentError extends React.Component {
 
 
   render() {
+    const { errors } = this.props;
+
     return (
       <div className={b('wrapper')}>
-        {this.props.errors.slice(0, 3).map(this.createError)}
+        {errors.slice(0, 3).map(this.createError)}
       </div>
     );
   }
 }
 
-const mapStateToProps = state => ({
+const mapStateToProps = (state) => ({
   errors: state.error,
 });
 

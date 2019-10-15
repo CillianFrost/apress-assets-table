@@ -1,4 +1,5 @@
 import TreeDndContext from './TreeDndContext';
+
 import {
   React,
   PropTypes,
@@ -8,17 +9,18 @@ import {
   actions,
   configSetId,
   Search,
-  b
+  b,
 } from './import';
-import {removeGroup} from '../remove/actions';
+
+import { removeGroup } from '../remove/actions';
 
 class ContainerTree extends Component {
-  static propTypes = {
-    tree: PropTypes.object,
-  };
+  constructor(props) {
+    super(props);
 
-  state = {
-    filter: ''
+    this.state = {
+      filter: '',
+    };
   }
 
   shouldComponentUpdate(nextProps, nextState) {
@@ -47,7 +49,7 @@ class ContainerTree extends Component {
         if (node.tree_nodes && node.tree_nodes.length) {
           filteredTreeData.push({
             ...node,
-            tree_nodes: this.filterTree(node.tree_nodes, regexp)
+            tree_nodes: this.filterTree(node.tree_nodes, regexp),
           });
         } else {
           filteredTreeData.push(node);
@@ -58,7 +60,7 @@ class ContainerTree extends Component {
         if (childNodes.length) {
           filteredTreeData.push({
             ...node,
-            tree_nodes: childNodes
+            tree_nodes: childNodes,
           });
         }
       }
@@ -68,7 +70,9 @@ class ContainerTree extends Component {
   }
 
   renderEmpty = (treeData) => {
-    if (!treeData.length && this.state.filter) {
+    const { filter } = this.state;
+
+    if (!treeData.length && filter) {
       return (
         <p className={b('empty')}>Ничего не найдено</p>
       );
@@ -78,25 +82,34 @@ class ContainerTree extends Component {
   }
 
   render() {
-    const treeData = this.state.filter ?
-      this.filterTree(this.props.tree.data, new RegExp(this.state.filter, 'i')) :
-      this.props.tree.data;
+    const { filter } = this.state;
+    const {
+      tree,
+      isLoaded,
+      withoutSearch,
+      config,
+      children,
+    } = this.props;
+
+    const treeData = filter
+      ? this.filterTree(tree.data, new RegExp(filter, 'i'))
+      : tree.data;
 
     const searchHtml = (
       <div className={b('search')}>
-        <Search onChange={value => this.setState({filter: value})} />
+        <Search onChange={(value) => this.setState({ filter: value })} />
       </div>
     );
 
     return (
-      <div className={b('conteiner').is({spinner: !this.props.isLoaded})}>
-        {!this.props.withoutSearch && searchHtml}
+      <div className={b('conteiner').is({ spinner: !isLoaded })}>
+        {!withoutSearch && searchHtml}
 
         <div className={b('wrapper')}>
           <TreeDndContext
             tree={treeData}
-            moveNode={this.props.tree.moveNode}
-            config={this.props.config}
+            moveNode={tree.moveNode}
+            config={config}
             actionMoveNodeRequest={this.actionMoveNodeRequest}
             actionMoveNode={this.actionMoveNode}
             actionSetExpanded={this.actionSetExpanded}
@@ -107,7 +120,7 @@ class ContainerTree extends Component {
             actionShowRemoveConfirmation={this.actionShowRemoveConfirmation}
             actionConfigSetId={this.actionConfigSetId}
           >
-            {this.props.children}
+            {children}
 
             {this.renderEmpty(treeData)}
           </TreeDndContext>
@@ -117,10 +130,14 @@ class ContainerTree extends Component {
   }
 }
 
-const mapStateToProps = state => ({
+ContainerTree.propTypes = {
+  tree: PropTypes.object,
+};
+
+const mapStateToProps = (state) => ({
   tree: state.tree,
   isLoaded: state.tree.isLoaded,
-  config: state.config
+  config: state.config,
 });
 
 export default connect(mapStateToProps)(ContainerTree);

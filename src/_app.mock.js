@@ -66,6 +66,24 @@ const app = {
         uploadPhoto: 'Загрузить фотографию',
         duringLoadingRecommendedImagesTitle: 'Сейчас предложим картинки из товаров в группе'
       }
+    },
+    productPropertiesMeasure: {
+      length: {
+        measure: 'см',
+        label: 'Длина'
+      },
+      width: {
+        measure: 'см',
+        label: 'Ширина'
+      },
+      height: {
+        measure: 'см',
+        label: 'Высота'
+      },
+      weight: {
+        measure: 'кг',
+        label: 'Вес'
+      }
     }
   }
 };

@@ -1,5 +1,4 @@
-import {put, call, select} from 'redux-saga/effects';
-import {delay} from 'redux-saga';
+import {put, call, select, delay} from 'redux-saga/effects';
 
 import * as onlineStoreImportSagas from '../onlineStoreImport';
 import * as onlineStoreImportActions from '../../actions/onlineStoreImport';

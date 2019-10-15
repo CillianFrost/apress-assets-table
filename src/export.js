@@ -70,7 +70,7 @@ export const sagas = {
   removeSagas,
   switchCategorySaga,
   cableSagas,
-  onlineStoreImportSagas
+  onlineStoreImportSagas,
 };
 
 export const reducers = {
@@ -88,7 +88,7 @@ export const reducers = {
   removeReducer,
   switchCategoryReducer,
   reducerCable,
-  onlineStoreImportReducer
+  onlineStoreImportReducer,
 };
 
 export const actions = {
@@ -106,7 +106,7 @@ export const actions = {
 
 export const actionTypes = {
   imageEditorActionTypes,
-  onlineStoreImportActionTypes
+  onlineStoreImportActionTypes,
 };
 
 export const components = {
@@ -127,5 +127,5 @@ export const components = {
   ContainerDialog,
   SwitchCategory,
   Dialog,
-  OnlineStoreImportStatus
+  OnlineStoreImportStatus,
 };

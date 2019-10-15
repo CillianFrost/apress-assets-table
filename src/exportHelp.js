@@ -7,9 +7,9 @@ import loadHelp from './Help/sagas';
 export {
   Help,
   actions,
-  reducer
+  reducer,
 };
 
 export const sagas = {
-  loadHelp
+  loadHelp,
 };

@@ -1,6 +1,6 @@
 /* eslint no-console: 0 */
 import React from 'react';
-import {connect} from 'react-redux';
+import { connect } from 'react-redux';
 import Header from './Header';
 import {
   showRemoveEmptyRowsConfirmation,
@@ -8,41 +8,50 @@ import {
 import * as remove from '../remove/actions';
 
 class HeaderExample extends React.Component {
-  state = {togglerActive: false};
+  constructor(props) {
+    super(props);
+
+    this.state = { togglerActive: false };
+  }
 
   switchToggler = () => {
+    const { togglerActive } = this.state;
+
     this.setState({
-      togglerActive: !this.state.togglerActive,
+      togglerActive: !togglerActive,
     });
-    location.href = app.config.productsEditorUrl;
+
+    window.location.href = app.config.productsEditorUrl;
   }
 
   render() {
+    const { togglerActive } = this.state;
+    const { dispatch } = this.props;
+
     return (
       <div>
         <Header
-          instructionHref='/about/questions/editor'
-          toSiteHref='/catalog'
-          toggler={this.state.togglerActive}
+          instructionHref="/about/questions/editor"
+          toSiteHref="/catalog"
+          toggler={togglerActive}
           onToggle={this.switchToggler}
           selectedGroupsCount={33}
           onCallProductsAndGroups={() => { console.log('вызов модальника'); }}
           onDeleteSelectedGroup={() => {
-            this.props.dispatch(remove.removeGroups());
+            dispatch(remove.removeGroups());
           }}
           onDeleteEmptyGroup={() => {
-            this.props.dispatch(showRemoveEmptyRowsConfirmation());
+            dispatch(showRemoveEmptyRowsConfirmation());
           }}
         />
         <Header
-          instructionHref='/about/questions/editor'
-          toSiteHref='/catalog'
+          instructionHref="/about/questions/editor"
+          toSiteHref="/catalog"
           onCallProductsAndGroups={() => { console.log('вызов модальника'); }}
         />
       </div>
     );
   }
 }
-
 
 export default connect()(HeaderExample);

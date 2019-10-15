@@ -2,13 +2,21 @@ import React from 'react';
 import classNames from 'classnames';
 
 import PreviewImageView from './PreviewImageView';
-import {previewImagesBoxViewPropType} from '../propTypes';
-import {noop} from '../../../utils';
+import { previewImagesBoxViewPropType } from '../propTypes';
+import { noop } from '../../../utils';
 
 
-const PreviewImagesBoxView = ({previews, className, actionType, disabled, onPreviewClick, onLoadError, onLoadSuccess}) => (
+const PreviewImagesBoxView = ({
+  previews,
+  className,
+  actionType,
+  disabled,
+  onPreviewClick,
+  onLoadError,
+  onLoadSuccess,
+}) => (
   <div className={classNames('preview-images-box', [className])}>
-    {previews.map((preview, index) =>
+    {previews.map((preview, index) => (
       <PreviewImageView
         key={index}
         preview={preview}
@@ -18,7 +26,7 @@ const PreviewImagesBoxView = ({previews, className, actionType, disabled, onPrev
         onLoadError={() => onLoadError(preview, index)}
         onLoadSuccess={() => onLoadSuccess(preview, index)}
       />
-    )}
+    ))}
   </div>
 );
 
@@ -27,7 +35,7 @@ PreviewImagesBoxView.propTypes = previewImagesBoxViewPropType;
 PreviewImagesBoxView.defaultProps = {
   onPreviewClick: noop,
   onLoadError: noop,
-  onLoadSuccess: noop
+  onLoadSuccess: noop,
 };
 
 export default PreviewImagesBoxView;

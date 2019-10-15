@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
 
 import onlineStoreImportStatusContainerPropType from '../propTypes';
 import statusTextStatuses from '../../../constants/StatusText';
@@ -7,11 +7,15 @@ import StatusText from '../../StatusText';
 
 class OnlineStoreImportStatusContainer extends Component {
   componentDidMount() {
-    this.props.pollingOnlineStoreImportStatus();
+    const { pollingOnlineStoreImportStatus } = this.props;
+
+    pollingOnlineStoreImportStatus();
   }
 
   render() {
-    if (!this.props.duringImportProcess) {
+    const { duringImportProcess } = this.props;
+
+    if (!duringImportProcess) {
       return null;
     }
 

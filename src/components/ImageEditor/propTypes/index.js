@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 
-import {previewImageActionTypes} from '../../../constants/imageEditor';
+import { previewImageActionTypes } from '../../../constants/imageEditor';
 
 
 export const previewImageViewPropType = {
@@ -9,7 +9,7 @@ export const previewImageViewPropType = {
   disabled: PropTypes.bool,
   onClick: PropTypes.func,
   onLoadError: PropTypes.func,
-  onLoadSuccess: PropTypes.func
+  onLoadSuccess: PropTypes.func,
 };
 
 export const previewImagesBoxViewPropType = {
@@ -19,5 +19,5 @@ export const previewImagesBoxViewPropType = {
   disabled: PropTypes.bool,
   onPreviewClick: PropTypes.func,
   onLoadError: PropTypes.func,
-  onLoadSuccess: PropTypes.func
+  onLoadSuccess: PropTypes.func,
 };

@@ -9,47 +9,47 @@ export const CONFIG_RESET = 'CONFIG_RESET';
 export const CONFIG_SET_ID = 'CONFIG_SET_ID';
 export const CONFIG_SET_SCENARIO = 'CONFIG_SET_SCENARIO';
 
-export const setPage = payload => ({
+export const setPage = (payload) => ({
   type: CONFIG_SET_PAGE,
-  payload
+  payload,
 });
 
-export const noChange = payload => ({
+export const noChange = (payload) => ({
   type: CONFIG_NO_CHANGE,
-  payload
+  payload,
 });
 
-export const setPerPage = payload => ({
+export const setPerPage = (payload) => ({
   type: CONFIG_SET_PER_PAGE,
-  payload
+  payload,
 });
 
-export const setFilter = payload => ({
+export const setFilter = (payload) => ({
   type: CONFIG_SET_FILTER,
-  payload
+  payload,
 });
 
-export const setSort = payload => ({
+export const setSort = (payload) => ({
   type: CONFIG_SET_SORT,
-  payload
+  payload,
 });
 
-export const configSetId = payload => ({
+export const configSetId = (payload) => ({
   type: CONFIG_SET_ID,
-  payload
+  payload,
 });
 
-export const loadConfig = payload => ({
+export const loadConfig = (payload) => ({
   type: CONFIG_LOAD_START,
-  payload
+  payload,
 });
 
-export const reset = payload => ({
+export const reset = (payload) => ({
   type: CONFIG_RESET,
-  payload
+  payload,
 });
 
-export const setScenario = payload => ({
+export const setScenario = (payload) => ({
   type: CONFIG_SET_SCENARIO,
-  payload
+  payload,
 });

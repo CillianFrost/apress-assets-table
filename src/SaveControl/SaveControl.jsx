@@ -1,14 +1,18 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 
 import StatusText from '../components/StatusText';
 import statusTextStatuses from '../constants/StatusText';
 
-
 class SaveControl extends Component {
   getStatus() {
-    const {isError, isProgress, isSuccess, removeInProgress} = this.props;
-    const {success, error, progress} = statusTextStatuses;
+    const {
+      isError,
+      isProgress,
+      isSuccess,
+      removeInProgress,
+    } = this.props;
+    const { success, error, progress } = statusTextStatuses;
 
     if (isProgress || removeInProgress) {
       return progress;
@@ -25,14 +29,17 @@ class SaveControl extends Component {
 
   render() {
     const status = this.getStatus();
+    const { message } = this.props;
 
     return (
-      status ?
-        <StatusText
-          status={status}
-          text={this.props.message[status]}
-        /> :
-        null
+      status
+        ? (
+          <StatusText
+            status={status}
+            text={message[status]}
+          />
+        )
+        : null
     );
   }
 }
@@ -45,8 +52,8 @@ SaveControl.propTypes = {
   message: PropTypes.shape({
     error: PropTypes.string,
     progress: PropTypes.string,
-    success: PropTypes.string
-  })
+    success: PropTypes.string,
+  }),
 };
 
 export default SaveControl;

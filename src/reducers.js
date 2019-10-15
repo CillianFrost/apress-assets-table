@@ -1,4 +1,4 @@
-import {combineReducers} from 'redux';
+import { combineReducers } from 'redux';
 import table from './Table/tableReducer';
 import tree from './Tree/reducer';
 import save from './SaveControl/reducer';
@@ -23,5 +23,5 @@ export default combineReducers({
   switchCategoryView,
   onlineStoreImport,
 
-  config: () => ({})
+  config: () => ({}),
 });

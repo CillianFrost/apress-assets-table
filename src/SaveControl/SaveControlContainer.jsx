@@ -1,23 +1,28 @@
-import React, {Component} from 'react';
-import {connect} from 'react-redux';
+import React, { Component } from 'react';
+import { connect } from 'react-redux';
 
 import SaveControl from './SaveControl';
-
 
 class SaveControlContainer extends Component {
   componentDidMount() {
     window.addEventListener('beforeunload', this.handleBeforeUnload);
   }
 
-  componentWillReceiveProps(nextProps) {
+  UNSAFE_componentWillReceiveProps(nextProps) {
     const {
-      save: {withUnsavedChanges, fetchDiff, isProgress, waitingState, prevState},
+      save: {
+        withUnsavedChanges,
+        fetchDiff,
+        isProgress,
+        waitingState,
+        prevState,
+      },
       rows: curState,
-      actions: {saveCreateDiff, saveStart}
+      actions: { saveCreateDiff, saveStart },
     } = nextProps;
 
     if (withUnsavedChanges && !fetchDiff) {
-      saveCreateDiff({curState, prevState});
+      saveCreateDiff({ curState, prevState });
     }
 
     if (!isProgress && !fetchDiff && waitingState.length) {
@@ -30,7 +35,7 @@ class SaveControlContainer extends Component {
   }
 
   handleBeforeUnload = (e) => {
-    const {removeInProgress, save: {fetchDiff, isProgress, waitingState}} = this.props;
+    const { removeInProgress, save: { fetchDiff, isProgress, waitingState } } = this.props;
 
     if (isProgress || waitingState.length || fetchDiff || removeInProgress) {
       const message = 'Возможно, внесенные изменения не сохранятся';
@@ -44,7 +49,7 @@ class SaveControlContainer extends Component {
   };
 
   render() {
-    const {message, removeInProgress, save: {isProgress, isError, isSuccess}} = this.props;
+    const { message, removeInProgress, save: { isProgress, isError, isSuccess } } = this.props;
 
     return (
       <SaveControl
@@ -58,7 +63,7 @@ class SaveControlContainer extends Component {
   }
 }
 
-const mapStateToProps = state => ({
+const mapStateToProps = (state) => ({
   removeInProgress: state.remove.removeInProgress,
 });
 

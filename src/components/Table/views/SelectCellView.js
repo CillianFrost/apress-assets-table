@@ -1,19 +1,27 @@
 import React from 'react';
-import {Option} from 'rc-select';
+import { Option } from 'rc-select';
 import classNames from 'classnames';
 
 import Select from '../../../ComboSelect/ComboSelect';
 import PseudoLink from '../../PseudoLink';
-import {selectCellViewPropType} from '../propTypes';
+import { selectCellViewPropType } from '../propTypes';
 import '../styles/table.scss';
 
-
 function SelectCellView(props) {
-  const {isEdit, isFocus, classMix, setEditState, handleSelect, options, activeOption} = props;
+  const {
+    isEdit,
+    isFocus,
+    classMix,
+    setEditState,
+    handleSelect,
+    options,
+    activeOption,
+  } = props;
+
   const selectCellClassNames = classNames('e-table-cell', {
     'is-focus': isFocus,
     'is-edit': isEdit,
-    [`is-${classMix}`]: true
+    [`is-${classMix}`]: true,
   });
 
   return (
@@ -24,18 +32,17 @@ function SelectCellView(props) {
           onBlur={() => setEditState(false)}
           value={activeOption.text}
           showSearch={false}
-          dropdownClassNameMix='select-cell'
+          dropdownClassNameMix="select-cell"
           autoOpen
         >
-          {options.map((option, index) =>
+          {options.map((option) => (
             <Option
-              key={index}
               value={String(option.value)}
               text={option.text}
             >
               {option.text}
             </Option>
-          )}
+          ))}
         </Select>
       ) : (
         <PseudoLink text={activeOption.text} onClick={() => setEditState(true)} />

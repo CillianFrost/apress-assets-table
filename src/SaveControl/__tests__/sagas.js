@@ -1,7 +1,5 @@
-import {delay} from 'redux-saga';
-
 import {getStateSetter} from '../../../test/testUtils';
-import {put, call, select} from 'redux-saga/effects';
+import {put, call, select, delay} from 'redux-saga/effects';
 import {cloneableGenerator} from 'redux-saga/utils';
 import {
   save,

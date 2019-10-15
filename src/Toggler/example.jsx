@@ -2,20 +2,27 @@ import React from 'react';
 import Toggler from './Toggler';
 
 export default class App extends React.Component {
+  constructor(props) {
+    super(props);
 
-  state = {togglerActive: false};
+    this.state = { togglerActive: false };
+  }
 
   switchToggler = () => {
+    const { togglerActive } = this.state;
+
     this.setState({
-      togglerActive: !this.state.togglerActive,
+      togglerActive: !togglerActive,
     });
   }
 
   render() {
+    const { togglerActive } = this.state;
+
     return (
       <div>
         <h3>Toggler:</h3>
-        <Toggler on={this.state.togglerActive} onToggle={this.switchToggler} />
+        <Toggler on={togglerActive} onToggle={this.switchToggler} />
       </div>
     );
   }

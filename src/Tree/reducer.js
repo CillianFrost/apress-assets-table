@@ -1,5 +1,5 @@
-import {actions} from './import';
-import {CONFIG_RESET, CONFIG_SET_ID} from '../Filter/actions';
+import { actions } from './import';
+import { CONFIG_RESET, CONFIG_SET_ID } from '../Filter/actions';
 
 const {
   TREE_LOAD_START,
@@ -8,7 +8,7 @@ const {
   TREE_SET_NODE,
   TREE_SET_EXPANDED,
   TREE_MOVE_NODE,
-  TREE_MOVE_NODE_REQUEST
+  TREE_MOVE_NODE_REQUEST,
 } = actions;
 
 const initialState = {
@@ -22,13 +22,14 @@ const isSelected = (treeState, action) => {
   let selected = [];
 
   if (action.payload) {
-    treeState.forEach(nodeState =>
+    treeState.forEach((nodeState) =>
       (function _isSelected(state, id, urlName) {
         if (state.id === id || state.url_name === urlName) {
           selected.push(state);
           return true;
-        } else if (state.tree_nodes && state.tree_nodes.length) {
-          const childSelected = state.tree_nodes.filter(node => _isSelected(node, id, urlName));
+        }
+        if (state.tree_nodes && state.tree_nodes.length) {
+          const childSelected = state.tree_nodes.filter((node) => _isSelected(node, id, urlName));
 
           if (childSelected.length) {
             selected = [...selected, state];
@@ -37,7 +38,7 @@ const isSelected = (treeState, action) => {
         }
 
         return null;
-      }(nodeState, action.payload.id, action.payload.urlName))
+      }(nodeState, action.payload.id, action.payload.urlName)),
     );
   }
 
@@ -53,13 +54,13 @@ const deleteNode = (state, id) => {
     if (node.id === id) {
       moveNode = node;
     } else {
-      let newNode = {...node};
+      let newNode = { ...node };
 
       if (node.tree_nodes && node.tree_nodes.length) {
         const childNode = deleteNode(node.tree_nodes, id);
         newNode = {
           ...node,
-          tree_nodes: childNode.newState
+          tree_nodes: childNode.newState,
         };
 
         if (childNode.moveNode) {
@@ -79,7 +80,7 @@ const deleteNode = (state, id) => {
 
   return {
     newState,
-    moveNode
+    moveNode,
   };
 };
 
@@ -89,7 +90,7 @@ const addNode = (state, hover, currentNode) => {
   let position;
 
   state.forEach((node, index) => {
-    let newNode = {...node};
+    let newNode = { ...node };
 
     if (node.id === hover.id) {
       position = index;
@@ -101,7 +102,7 @@ const addNode = (state, hover, currentNode) => {
             expanded: true,
             expandable: true,
             items_count: newNode['items_count'] + currentNode['items_count'],
-            tree_nodes: [...node.tree_nodes, currentNode]
+            tree_nodes: [...node.tree_nodes, currentNode],
           };
         } else {
           newNode = {
@@ -109,7 +110,7 @@ const addNode = (state, hover, currentNode) => {
             expanded: true,
             expandable: true,
             items_count: newNode['items_count'] + currentNode['items_count'],
-            tree_nodes: [currentNode]
+            tree_nodes: [currentNode],
           };
         }
       } else if (hover.target === 'top') {
@@ -125,7 +126,7 @@ const addNode = (state, hover, currentNode) => {
 
       newNode = {
         ...node,
-        tree_nodes: child.newState
+        tree_nodes: child.newState,
       };
 
       if (child.isAdd) {
@@ -149,7 +150,7 @@ const addNode = (state, hover, currentNode) => {
   return {
     newState,
     position,
-    isAdd
+    isAdd,
   };
 };
 
@@ -159,38 +160,38 @@ const treeNode = (state, action) => {
       if (state.id === action.payload.id) {
         return {
           ...state,
-          tree_nodes: action.payload.nodes
+          tree_nodes: action.payload.nodes,
         };
       }
 
       return {
         ...state,
-        tree_nodes: state.tree_nodes && state.tree_nodes.length ?
-          state.tree_nodes.map(node => treeNode(node, action)) : undefined
+        tree_nodes: state.tree_nodes && state.tree_nodes.length
+          ? state.tree_nodes.map((node) => treeNode(node, action)) : undefined,
       };
 
     case TREE_SET_NODE:
       return {
         ...state,
         selected: action.payload ? state.id === action.payload.id : false,
-        tree_nodes: state.tree_nodes && state.tree_nodes.length ?
-          state.tree_nodes.map(node => treeNode(node, action)) : undefined
+        tree_nodes: state.tree_nodes && state.tree_nodes.length
+          ? state.tree_nodes.map((node) => treeNode(node, action)) : undefined,
       };
 
     case CONFIG_RESET:
       return {
         ...state,
         selected: false,
-        tree_nodes: state.tree_nodes && state.tree_nodes.length ?
-          state.tree_nodes.map(node => treeNode(node, action)) : undefined
+        tree_nodes: state.tree_nodes && state.tree_nodes.length
+          ? state.tree_nodes.map((node) => treeNode(node, action)) : undefined,
       };
 
     case TREE_SET_EXPANDED:
       return {
         ...state,
         expanded: state.id === action.payload.id ? action.payload.expanded : state.expanded,
-        tree_nodes: state.tree_nodes && state.tree_nodes.length ?
-          state.tree_nodes.map(node => treeNode(node, action)) : undefined
+        tree_nodes: state.tree_nodes && state.tree_nodes.length
+          ? state.tree_nodes.map((node) => treeNode(node, action)) : undefined,
       };
 
     default:
@@ -203,7 +204,7 @@ export default function tree(state = initialState, action) {
     case TREE_LOAD_START:
       return {
         ...state,
-        isLoaded: false
+        isLoaded: false,
       };
 
     case TREE_LOAD_SUCCESS: {
@@ -215,7 +216,7 @@ export default function tree(state = initialState, action) {
           selected: isSelected(action.payload, {
             payload: state.tmpSelectedNode,
           }),
-          tmpSelectedNode: null
+          tmpSelectedNode: null,
         };
       }
 
@@ -229,29 +230,29 @@ export default function tree(state = initialState, action) {
     case TREE_UPDATE_SUCCESS:
       return {
         ...state,
-        data: state.data.map(node => treeNode(node, action))
+        data: state.data.map((node) => treeNode(node, action)),
       };
 
     case TREE_SET_NODE: {
       if (state.data.length) {
         return {
           ...state,
-          data: state.data.map(node => treeNode(node, action)),
-          selected: isSelected(state.data, action)
+          data: state.data.map((node) => treeNode(node, action)),
+          selected: isSelected(state.data, action),
         };
       }
 
       return {
         ...state,
-        data: state.data.map(node => treeNode(node, action)),
-        tmpSelectedNode: action.payload
+        data: state.data.map((node) => treeNode(node, action)),
+        tmpSelectedNode: action.payload,
       };
     }
 
     case TREE_SET_EXPANDED:
       return {
         ...state,
-        data: state.data.map(node => treeNode(node, action))
+        data: state.data.map((node) => treeNode(node, action)),
       };
 
     case TREE_MOVE_NODE: {
@@ -259,7 +260,7 @@ export default function tree(state = initialState, action) {
       const addData = addNode(
         deleteData.newState,
         action.payload.hover,
-        deleteData.moveNode
+        deleteData.moveNode,
       );
 
       return {
@@ -269,25 +270,25 @@ export default function tree(state = initialState, action) {
           id: action.payload.id,
           product_group: {
             position: addData.position + 1,
-            parent_id: action.payload.hover.target === 'center' ?
-              action.payload.hover.id : action.payload.hover.parentId
-          }
-        }
+            parent_id: action.payload.hover.target === 'center'
+              ? action.payload.hover.id : action.payload.hover.parentId,
+          },
+        },
       };
     }
 
     case TREE_MOVE_NODE_REQUEST:
       return {
         ...state,
-        moveNode: null
+        moveNode: null,
       };
 
     case CONFIG_SET_ID:
     case CONFIG_RESET:
       return {
         ...state,
-        data: state.data.map(node => treeNode(node, action)),
-        selected: []
+        data: state.data.map((node) => treeNode(node, action)),
+        selected: [],
       };
 
     default:

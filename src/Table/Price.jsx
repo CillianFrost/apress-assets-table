@@ -1,17 +1,16 @@
 import React from 'react';
-import {connect} from 'react-redux';
+import { connect } from 'react-redux';
 import _isEqual from 'lodash/isEqual';
-import {block} from '../utils';
+import { block } from '../utils';
 
 const b = block('e-table');
 
 class Price extends React.Component {
-
   shouldComponentUpdate(nextProps) {
     return !_isEqual(this.props, nextProps);
   }
 
-  getRangePrice = ({price, price_max: priceMax, currency_name: currencyName}) => (
+  getRangePrice = ({ price, price_max: priceMax, currency_name: currencyName }) => (
     `${price ? `от ${price}` : ''}\
      ${price && priceMax ? ' ' : ''}\
      ${priceMax ? `до ${priceMax}` : ''} \
@@ -44,21 +43,22 @@ class Price extends React.Component {
         );
 
       default:
-        return priceObject.currency === 11 ?
-          (<div>Договорная</div>) :
-          (<div className={priceElement('amount')}>{`${priceObject.price} ${priceObject.currency_name}`}</div>);
+        return priceObject.currency === 11
+          ? (<div>Договорная</div>)
+          : (<div className={priceElement('amount')}>{`${priceObject.price} ${priceObject.currency_name}`}</div>);
     }
   };
 
   render() {
-    const props = this.props;
+    const { cell } = this.props;
+
     return (
       <div
         tabIndex={-1}
-        ref={($td) => { $td && props.cell.isFocus && $td.focus(); }}
-        className={b('cell').is({focus: props.cell.isFocus, [props.cell.classMix]: true})}
+        ref={($td) => { $td && pcell.isFocus && $td.focus(); }}
+        className={b('cell').is({ focus: cell.isFocus, [cell.classMix]: true })}
       >
-        {this.renderPriceByType(props.cell.data.common)}
+        {this.renderPriceByType(cell.data.common)}
       </div>
     );
   }

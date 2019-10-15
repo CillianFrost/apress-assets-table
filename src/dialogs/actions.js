@@ -10,42 +10,42 @@ export const HIDE_REMOVE_EMPTY_ROWS_CONFIRMATION = 'HIDE_REMOVE_EMPTY_ROWS_CONFI
 export const SHOW_IMAGE_EDITOR = 'SHOW_IMAGE_EDITOR';
 export const HIDE_IMAGE_EDITOR = 'HIDE_IMAGE_EDITOR ';
 
-export const showRemoveConfirmation = payload => ({
+export const showRemoveConfirmation = (payload) => ({
   type: SHOW_REMOVE_ROW_CONFIRMATION,
-  payload
+  payload,
 });
 
-export const hideRemoveConfirmation = payload => ({
+export const hideRemoveConfirmation = (payload) => ({
   type: HIDE_REMOVE_ROW_CONFIRMATION,
-  payload
+  payload,
 });
 
-export const showMassRemoveConfirmation = payload => ({
+export const showMassRemoveConfirmation = (payload) => ({
   type: SHOW_REMOVE_ROWS_CONFIRMATION,
-  payload
+  payload,
 });
 
-export const hideMassRemoveConfirmation = payload => ({
+export const hideMassRemoveConfirmation = (payload) => ({
   type: HIDE_REMOVE_ROWS_CONFIRMATION,
-  payload
+  payload,
 });
 
-export const showRemoveEmptyRowsConfirmation = payload => ({
+export const showRemoveEmptyRowsConfirmation = (payload) => ({
   type: SHOW_REMOVE_EMPTY_ROWS_CONFIRMATION,
-  payload
+  payload,
 });
 
-export const hideRemoveEmptyRowsConfirmation = payload => ({
+export const hideRemoveEmptyRowsConfirmation = (payload) => ({
   type: HIDE_REMOVE_EMPTY_ROWS_CONFIRMATION,
-  payload
+  payload,
 });
 
-export const showImageEditor = payload => ({
+export const showImageEditor = (payload) => ({
   type: SHOW_IMAGE_EDITOR,
-  payload
+  payload,
 });
 
-export const hideImageEditor = payload => ({
+export const hideImageEditor = (payload) => ({
   type: HIDE_IMAGE_EDITOR,
-  payload
+  payload,
 });

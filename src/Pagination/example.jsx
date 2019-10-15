@@ -3,19 +3,22 @@ import React from 'react';
 import Pagination from './Pagination';
 
 export default class PaginationExample extends React.Component {
+  constructor(props) {
+    super(props);
 
-  state = {
-    activePage: 3
-  };
+    this.state = { activePage: 3 };
+  }
 
-  handleSelect = ({page}) => {
+  handleSelect = ({ page }) => {
     console.log(`change page - ${page}`);
     this.setState({
-      activePage: page
+      activePage: page,
     });
   }
 
   render() {
+    const { activePage } = this.state;
+
     return (
       <div>
         <h3>Pagination:</h3>
@@ -23,15 +26,15 @@ export default class PaginationExample extends React.Component {
           <Pagination
             items={5}
             onSelect={this.handleSelect}
-            activePage={this.state.activePage}
+            activePage={activePage}
           />
         </div>
         <br />
         <Pagination
-          mix='mixed-class other-class'
+          mix="mixed-class other-class"
           items={145}
           onSelect={this.handleSelect}
-          activePage={this.state.activePage}
+          activePage={activePage}
         />
       </div>
     );

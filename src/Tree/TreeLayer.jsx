@@ -12,19 +12,7 @@ import {
 } from './import';
 
 class TreeLayer extends Component {
-  static propTypes = {
-    item: PropTypes.object,
-    itemType: PropTypes.string,
-    initialOffset: PropTypes.shape({
-      x: PropTypes.number.isRequired,
-      y: PropTypes.number.isRequired,
-    }),
-    currentOffset: PropTypes.shape({
-      x: PropTypes.number.isRequired,
-      y: PropTypes.number.isRequired,
-    }),
-    isDragging: PropTypes.bool.isRequired,
-  };
+  elem = null;
 
   componentDidMount() {
     this.elem = findDOMNode(this);
@@ -39,7 +27,7 @@ class TreeLayer extends Component {
   }
 
   getItemStyles() {
-    const {initialOffset, currentOffset, initialSourceOffset} = this.props;
+    const { initialOffset, currentOffset, initialSourceOffset } = this.props;
 
     if (this.elem) {
       const parentPosition = this.elem.parentElement.getBoundingClientRect();
@@ -47,7 +35,7 @@ class TreeLayer extends Component {
       let y = 0;
 
       if (!initialOffset || !currentOffset || !initialSourceOffset) {
-        return {display: 'none'};
+        return { display: 'none' };
       }
 
       y = currentOffset.y;
@@ -61,18 +49,16 @@ class TreeLayer extends Component {
         y = parentPosition.bottom;
       }
 
-      return {transform: `translateY(${y - (constants.NODE_HEIGHT / 2)}px) translateX(${x}px)`};
+      return { transform: `translateY(${y - (constants.NODE_HEIGHT / 2)}px) translateX(${x}px)` };
     }
 
     return {};
   }
 
-  elem = null;
-
   renderItem(type = this.props.itemType, item = this.props.item) {
     switch (type) {
       case constants.TREE: {
-        const {count, expandable, name} = item;
+        const { count, expandable, name } = item;
         return (
           <div
             className={b('item')}
@@ -92,9 +78,9 @@ class TreeLayer extends Component {
   }
 
   render() {
-    if (!this.props.isDragging) {
-      return null;
-    }
+    const { isDragging } = this.props;
+
+    if (!isDragging) { return null; }
 
     return (
       <div className={b('layer')}>
@@ -106,7 +92,21 @@ class TreeLayer extends Component {
   }
 }
 
-export default DragLayer(monitor => ({
+TreeLayer.propTypes = {
+  item: PropTypes.object,
+  itemType: PropTypes.string,
+  initialOffset: PropTypes.shape({
+    x: PropTypes.number.isRequired,
+    y: PropTypes.number.isRequired,
+  }),
+  currentOffset: PropTypes.shape({
+    x: PropTypes.number.isRequired,
+    y: PropTypes.number.isRequired,
+  }),
+  isDragging: PropTypes.bool.isRequired,
+};
+
+export default DragLayer((monitor) => ({
   item: monitor.getItem(),
   itemType: monitor.getItemType(),
   initialOffset: monitor.getInitialClientOffset(),

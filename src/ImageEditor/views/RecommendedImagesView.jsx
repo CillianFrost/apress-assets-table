@@ -1,12 +1,13 @@
 import React from 'react';
 import classNames from 'classnames';
-import {connect} from 'react-redux';
+import { connect } from 'react-redux';
 
 import {
   imageTypes,
-  previewImageActionTypes
+  previewImageActionTypes,
 } from '../../constants/imageEditor';
-import {PreviewImagesBoxView} from '../../components/ImageEditor/views/index';
+
+import { PreviewImagesBoxView } from '../../components/ImageEditor/views/index';
 import DropDownMenu from '../../DropDownMenu/DropDownMenu';
 import Preloader from '../../components/Preloader/index';
 
@@ -18,29 +19,29 @@ const RecommendedImagesView = (props) => {
     haveMaximumImagesCount,
     isOpenedTextZone,
     onChangeVisibilityTextZone,
-    recommendedImages
+    recommendedImages,
   } = props;
-  const {imageEditor: imageEditorLocales} = app.config.tigerLocales;
+  const { imageEditor: imageEditorLocales } = app.config.tigerLocales;
 
   const renderTextZone = () => (
     <DropDownMenu
       items={[{
-        title: <div dangerouslySetInnerHTML={{__html: app.config.imageEditor.imageSelectTextZone}} />
+        title: <div dangerouslySetInnerHTML={{ __html: app.config.imageEditor.imageSelectTextZone }} />,
       }]}
       trigger={['hover']}
       onVisibleChange={onChangeVisibilityTextZone}
-      mix='textzone'
+      mix="textzone"
       disableItemClick
     >
-      <span className={classNames('question-icon', {'is-active': isOpenedTextZone})} />
+      <span className={classNames('question-icon', { 'is-active': isOpenedTextZone })} />
     </DropDownMenu>
   );
 
   if (duringLoadingRecommendedImages) {
     return (
       <div>
-        <div className='e-image-editor-upload-title'>{imageEditorLocales.duringLoadingRecommendedImagesTitle}</div>
-        <div className='preview-images-box'>
+        <div className="e-image-editor-upload-title">{imageEditorLocales.duringLoadingRecommendedImagesTitle}</div>
+        <div className="preview-images-box">
           <Preloader />
         </div>
       </div>
@@ -50,32 +51,32 @@ const RecommendedImagesView = (props) => {
   if (recommendedImages.length) {
     return (
       <div>
-        <div className='e-image-editor-upload-title'>
+        <div className="e-image-editor-upload-title">
           {imageEditorLocales.recommendImagesTitle}
           {renderTextZone()}
         </div>
         <PreviewImagesBoxView
-          previews={recommendedImages.map(imageStyles =>
-            imageStyles.find(imageStyle => imageStyle.name === 'original').url
+          previews={recommendedImages.map((imageStyles) => (
+            imageStyles.find((imageStyle) => imageStyle.name === 'original').url
+          ))}
+          onPreviewClick={(preview) => (
+            addImage(preview.includes('http') ? preview : window.location.origin + preview, imageTypes.unsavedImages)
           )}
-          onPreviewClick={preview =>
-            addImage(preview.includes('http') ? preview : location.origin + preview, imageTypes.unsavedImages)
-          }
           actionType={previewImageActionTypes.add}
           disabled={haveMaximumImagesCount}
         />
-        <div className='e-image-editor-upload-title'>{imageEditorLocales.uploadNewImage}</div>
+        <div className="e-image-editor-upload-title">{imageEditorLocales.uploadNewImage}</div>
       </div>
     );
   }
 
-  return <div className='e-image-editor-upload-title'>{imageEditorLocales.uploadPhoto}</div>;
+  return <div className="e-image-editor-upload-title">{imageEditorLocales.uploadPhoto}</div>;
 };
 
-const mapStateToProps = ({imageEditor: {duringLoadingRecommendedImages, recommendedImages, haveMaximumImagesCount}}) => ({
+const mapStateToProps = ({ imageEditor: { duringLoadingRecommendedImages, recommendedImages, haveMaximumImagesCount } }) => ({
   duringLoadingRecommendedImages,
   recommendedImages,
-  haveMaximumImagesCount
+  haveMaximumImagesCount,
 });
 
 export default connect(mapStateToProps)(RecommendedImagesView);

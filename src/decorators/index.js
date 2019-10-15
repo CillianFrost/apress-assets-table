@@ -1,4 +1,4 @@
 import withPaste from './withPaste';
 
 
-export {withPaste};
+export default { withPaste };

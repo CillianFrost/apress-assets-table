@@ -8,22 +8,9 @@
   },
   "rules": {
     "max-len": ["error", 130],
-    "object-curly-spacing": ["error", "never"],
-    "jsx-a11y/no-static-element-interactions": 0,
-    "no-unused-expressions": ["error", { "allowShortCircuit": true, "allowTernary": true }],
-    "react/forbid-prop-types": [0],
-    "comma-dangle": ["error", "ignore"],
     "react/jsx-filename-extension": [1, { "extensions": [".js", ".jsx"] }],
-    "jsx-quotes": ["error", "prefer-single"],
-    "no-underscore-dangle": 0,
-    "react/prefer-stateless-function": 0,
-    "react/prop-types": 0,
-    "react/require-default-props": 0,
-    "no-plusplus": 0,
-    "react/no-array-index-key": 0,
-    "dot-notation": 0,
-    "no-lonely-if": 0,
-    "import/prefer-default-export": 0
+    "no-plusplus": ["error", { "allowForLoopAfterthoughts": true }],
+    "dot-notation": ["error", { "allowPattern": "^[a-z]+(_[a-z]+)+$" }]
   },
   "globals": {
     "CKEDITOR": true,

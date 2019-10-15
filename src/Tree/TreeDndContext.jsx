@@ -4,10 +4,10 @@ import {
   React,
   Component,
   b,
-  DragDropContext,
+  DndProvider,
   HTML5Backend,
   _isEqual,
-  } from './import';
+} from './import';
 
 class ContainerTree extends Component {
   shouldComponentUpdate(nextProps) {
@@ -15,17 +15,21 @@ class ContainerTree extends Component {
   }
 
   render() {
+    const { children } = this.props;
+
     return (
-      <div className={b}>
-        <Tree
-          {...this.props}
-        >
-          {this.props.children}
-        </Tree>
-        <TreeLayer />
-      </div>
+      <DndProvider backend={HTML5Backend}>
+        <div className={b()}>
+          <Tree
+            {...this.props}
+          >
+            {children}
+          </Tree>
+          <TreeLayer />
+        </div>
+      </DndProvider>
     );
   }
 }
 
-export default DragDropContext(HTML5Backend)(ContainerTree);
+export default ContainerTree;

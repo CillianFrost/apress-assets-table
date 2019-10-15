@@ -3,30 +3,23 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import _throttle from 'lodash/throttle';
 import _isEqual from 'lodash/isEqual';
-import {block} from '../utils';
+import { block } from '../utils';
 import './e-scroller.scss';
 
 const b = block('e-scroller');
 
 class Scroller extends React.Component {
+  handleWindowResize = _throttle(() => { this.init(); }, 500);
 
-  static propTypes = {
-    mix: PropTypes.string,
-    step: PropTypes.number,
-    wrapped: PropTypes.bool,
-  }
+  constructor(props) {
+    super(props);
 
-  static defaultProps = {
-    mix: '',
-    step: 100,
-    wrapped: false,
-  }
-
-  state = {
-    offset: 0,
-    isOverflow: false,
-    isLastPosition: false,
-    isFirstPosition: false,
+    this.state = {
+      offset: 0,
+      isOverflow: false,
+      isLastPosition: false,
+      isFirstPosition: false,
+    };
   }
 
   componentDidMount() {
@@ -34,7 +27,7 @@ class Scroller extends React.Component {
     this.init();
   }
 
-  componentWillReceiveProps() {
+  UNSAFE_componentWillReceiveProps() {
     this.init();
   }
 
@@ -45,8 +38,6 @@ class Scroller extends React.Component {
   componentWillUnmount() {
     window.removeEventListener('resize', this.handleWindowResize, false);
   }
-
-  handleWindowResize = _throttle(() => { this.init(); }, 500);
 
   calculateView = (offsetX) => {
     let isLastPosition = false;
@@ -73,16 +64,19 @@ class Scroller extends React.Component {
   }
 
   init = () => {
-    this.setState(this.calculateView(this.state.offset));
+    const { offset } = this.state;
+
+    this.setState(this.calculateView(offset));
   }
 
   slide = (direction) => {
-    let offset;
+    const { offset, step } = this.state;
+    let resultOffset;
 
     if (direction === 'next') {
-      offset = this.state.offset + this.props.step;
+      resultOffset = offset + step;
     } else {
-      offset = this.state.offset - this.props.step;
+      resultOffset = offset - step;
     }
 
     this.setState(this.calculateView(offset));
@@ -93,68 +87,98 @@ class Scroller extends React.Component {
   handleSlideNext = () => { this.slide('back'); }
 
   handleWell = (e) => {
-    if (this.state.isOverflow) {
-      if (e.deltaY > 0 && !this.state.isLastPosition) {
+    const { isOverflow, isFirstPosition, isLastPosition } = this.state;
+
+    if (isOverflow) {
+      if (e.deltaY > 0 && !isLastPosition) {
         this.slide('next');
         e.preventDefault();
-      } else if (e.deltaY < 0 && !this.state.isFirstPosition) {
+      } else if (e.deltaY < 0 && !isFirstPosition) {
         this.slide('back');
         e.preventDefault();
       }
     }
   }
 
-  renderChildren = () => (
-    this.props.wrapped ?
-      React.Children.map(this.props.children, child =>
-        <div className={b('element')}>{child}</div>) : this.props.children
-  );
+  renderChildren = () => {
+    const { wrapped, children } = this.props;
+
+    return wrapped
+      ? React.Children.map(children, (child) =>
+        <div className={b('element')}>{child}</div>)
+      : children;
+  };
 
   render() {
-    const props = this.props;
-    const state = this.state;
+    const { mix } = this.props;
+    const {
+      isOverflow,
+      isFirstPosition,
+      isLastPosition,
+      offset,
+    } = this.state;
+
     return (
       <div
         onWheel={this.handleWell}
-        className={b.mix(props.mix)}
+        className={b.mix(mix)}
       >
         <div className={b('root')}>
           <section
             ref={(node) => { this.$wrapper = node; }}
             className={b('wrapper').is({
-              overflow: state.isOverflow,
-              'first-position': state.isFirstPosition,
-              'last-position': state.isLastPosition,
+              overflow: isOverflow,
+              'first-position': isFirstPosition,
+              'last-position': isLastPosition,
             })}
           >
             <div
-              style={{left: state.offset}}
+              style={{ left: offset }}
               ref={(node) => { this.$container = node; }}
               className={b('container')}
             >
               {this.renderChildren()}
             </div>
           </section>
-          {state.isOverflow &&
-            <div className={b('button-box')}>
-              {!state.isLastPosition &&
-                <button
-                  onClick={this.handleSlideBack}
-                  type='button' className={b('button').is({back: true})}
-                />
-              }
-              {true &&
-                <button
-                  onClick={this.handleSlideNext}
-                  type='button' className={b('button').is({next: true})}
-                />
-              }
-            </div>
-          }
+          {isOverflow
+            && (
+              <div className={b('button-box')}>
+                {!isLastPosition
+                && (
+                  <button
+                    onClick={this.handleSlideBack}
+                    type="button"
+                    className={b('button').is({ back: true })}
+                    aria-label="Slide back"
+                  />
+                )}
+                {true
+                  && (
+                    <button
+                      onClick={this.handleSlideNext}
+                      type="button"
+                      className={b('button').is({ next: true })}
+                      aria-label="Slide next"
+                    />
+                  )}
+              </div>
+            )}
         </div>
       </div>
     );
   }
 }
+
+Scroller.propTypes = {
+  mix: PropTypes.string,
+  step: PropTypes.number,
+  wrapped: PropTypes.bool,
+};
+
+Scroller.defaultProps = {
+  mix: '',
+  step: 100,
+  wrapped: false,
+};
 
 export default Scroller;

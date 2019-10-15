@@ -1,11 +1,11 @@
 /* eslint react/no-unused-prop-types: 0 */
-import React, {Component} from 'react';
+import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import {connect} from 'react-redux';
+import { connect } from 'react-redux';
 import _isEqual from 'lodash/isEqual';
 import Header from './Header';
 import Body from './Body';
-import {block} from '../utils';
+import { block } from '../utils';
 import './styles/e-table.scss';
 import {
   focusNext,
@@ -14,44 +14,18 @@ import {
   focusUp,
   historyNext,
   historyPrev,
-  insertData
+  insertData,
 } from './actions';
 
 const b = block('e-table');
 
 class Table extends Component {
-
-  static propTypes = {
-    actions: PropTypes.objectOf(PropTypes.func),
-    config: PropTypes.objectOf(PropTypes.object),
-    countRow: PropTypes.number,
-    dispatch: PropTypes.func,
-    edit: PropTypes.bool,
-    history: PropTypes.shape({
-      current: PropTypes.arrayOf(PropTypes.object),
-      prev: PropTypes.array
-    }),
-    placeholder: PropTypes.object,
-    selectFilter: PropTypes.func,
-    selectSort: PropTypes.func,
-    table: PropTypes.shape({
-      columns: PropTypes.arrayOf(PropTypes.object),
-      isLoaded: PropTypes.bool
-    }),
-    pastedData: PropTypes.string,
-    isTouchDevice: PropTypes.bool
-  };
-
-  static defaultProps = {
-    pastedData: '',
-    isTouchDevice: false
-  };
-
   componentWillReceiveProps(nextProps) {
-    const {pastedData, config, edit} = nextProps;
+    const { pastedData, config, edit } = nextProps;
+    const { dispatch } = this.props;
 
     if (pastedData.length && !edit) {
-      this.props.dispatch(insertData(pastedData, config));
+      dispatch(insertData(pastedData, config));
     }
   }
 
@@ -60,7 +34,7 @@ class Table extends Component {
   }
 
   handleKeyDown = (event) => {
-    const {edit, history, dispatch} = this.props;
+    const { edit, history, dispatch } = this.props;
     if (!edit) {
       if (event.keyCode === 90 && (event.ctrlKey || event.metaKey)) {
         if (history.prev.length) {
@@ -74,16 +48,16 @@ class Table extends Component {
       }
 
       if (event.keyCode === 38) {
-        dispatch(focusUp({rows: history.current}));
+        dispatch(focusUp({ rows: history.current }));
       } else {
         if (event.keyCode === 40) {
-          dispatch(focusDown({rows: history.current}));
+          dispatch(focusDown({ rows: history.current }));
         } else {
           if (event.keyCode === 37) {
-            dispatch(focusPrev({rows: history.current}));
+            dispatch(focusPrev({ rows: history.current }));
           } else {
             if (event.keyCode === 39) {
-              dispatch(focusNext({rows: history.current}));
+              dispatch(focusNext({ rows: history.current }));
             }
           }
         }
@@ -92,7 +66,18 @@ class Table extends Component {
   };
 
   render() {
-    const {table, selectFilter, selectSort, actions, countRow, config, placeholder, readonly, tableContainer} = this.props;
+    const {
+      table,
+      selectFilter,
+      selectSort,
+      actions,
+      countRow,
+      config,
+      placeholder,
+      readonly,
+      tableContainer,
+      isTouchDevice,
+    } = this.props;
 
     return (
       <div
@@ -100,41 +85,68 @@ class Table extends Component {
         onKeyDown={this.handleKeyDown}
         ref={(node) => { this.$node = node; }}
         className={b.mix(`is-columns-${table.columns.length}`)}
+        role="presentation"
       >
-        {table.isLoaded ?
-          <div
-            className={b('wrapper')}
-          >
-            <div className={b('header')}>
-              <Header
+        {table.isLoaded
+          ? (
+            <div
+              className={b('wrapper')}
+            >
+              <div className={b('header')}>
+                <Header
+                  table={table}
+                  selectFilter={selectFilter}
+                  selectSort={selectSort}
+                  setCheckAll={actions.setCheckAll}
+                  countRow={countRow}
+                />
+              </div>
+              <Body
                 table={table}
-                selectFilter={selectFilter}
-                selectSort={selectSort}
-                setCheckAll={actions.setCheckAll}
-                countRow={countRow}
+                config={config}
+                placeholder={placeholder}
+                actions={actions}
+                $rootNode={this.$node}
+                readonly={readonly}
+                isTouchDevice={isTouchDevice}
+                tableContainer={tableContainer}
               />
             </div>
-            <Body
-              table={table}
-              config={config}
-              placeholder={placeholder}
-              actions={actions}
-              $rootNode={this.$node}
-              readonly={readonly}
-              isTouchDevice={this.props.isTouchDevice}
-              tableContainer={tableContainer}
-            />
-          </div> :
-          <div className='e-spinner' />
-        }
+          ) : <div className="e-spinner" />}
       </div>
     );
   }
 }
 
-const mapStateToProps = state => ({
+const mapStateToProps = (state) => ({
   edit: state.table.focus.edit,
   history: state.table.history,
 });
 
-export default connect(mapStateToProps, null, null, {withRef: true})(Table);
+Table.propTypes = {
+  actions: PropTypes.objectOf(PropTypes.func),
+  config: PropTypes.objectOf(PropTypes.object),
+  countRow: PropTypes.number,
+  dispatch: PropTypes.func,
+  edit: PropTypes.bool,
+  history: PropTypes.shape({
+    current: PropTypes.arrayOf(PropTypes.object),
+    prev: PropTypes.array,
+  }),
+  placeholder: PropTypes.object,
+  selectFilter: PropTypes.func,
+  selectSort: PropTypes.func,
+  table: PropTypes.shape({
+    columns: PropTypes.arrayOf(PropTypes.object),
+    isLoaded: PropTypes.bool,
+  }),
+  pastedData: PropTypes.string,
+  isTouchDevice: PropTypes.bool,
+};
+
+Table.defaultProps = {
+  pastedData: '',
+  isTouchDevice: false,
+};
+
+export default connect(mapStateToProps, null, null, { forwardRef: true })(Table);

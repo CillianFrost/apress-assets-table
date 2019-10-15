@@ -14,7 +14,7 @@ import {
   UPDATE_TABLE_EDITOR_ROWS,
   INSERT_DATA,
   SET_TRAIT_FILTERS_DISPLAYING,
-  SET_PRODUCT_PROPORTIES_DISPLAYING
+  SET_PRODUCT_PROPORTIES_DISPLAYING,
 } from '../actions';
 
 const initialState = {
@@ -28,9 +28,9 @@ export const addHistory = (state, action) => {
   return {
     ...state,
     newRows: null,
-    prev: state.prev.length > 99 ?
-      [state.current, ...state.prev].slice(0, 100) :
-      [state.current, ...state.prev],
+    prev: state.prev.length > 99
+      ? [state.current, ...state.prev].slice(0, 100)
+      : [state.current, ...state.prev],
     current: rows(newRows, action),
     next: [],
   };
@@ -63,7 +63,7 @@ export default function history(state = initialState, action) {
     case TABLE_EDITOR_ROW_ADD_ID: {
       return {
         ...state,
-        prev: state.prev.map(prev => rows(prev, action)),
+        prev: state.prev.map((prev) => rows(prev, action)),
         current: rows(state.current, action),
       };
     }
@@ -71,7 +71,7 @@ export default function history(state = initialState, action) {
     case TABLE_EDITOR_ROW_ADD_DEFAULT_ID: {
       return {
         ...state,
-        next: state.next.map(next => rows(next, action)),
+        next: state.next.map((next) => rows(next, action)),
       };
     }
 
@@ -80,7 +80,7 @@ export default function history(state = initialState, action) {
         ...state,
         current: rows(state.current, action),
         prev: [],
-        next: []
+        next: [],
       };
 
     case HISTORY_PREV:
@@ -88,7 +88,7 @@ export default function history(state = initialState, action) {
         ...state,
         current: state.prev[0],
         prev: state.prev.slice(1, state.prev.length),
-        next: [state.current, ...state.next]
+        next: [state.current, ...state.next],
       };
 
     case HISTORY_NEXT:
@@ -102,7 +102,7 @@ export default function history(state = initialState, action) {
     case UPDATE_TABLE_EDITOR_ROWS:
       return {
         ...state,
-        current: rows(state.current, action)
+        current: rows(state.current, action),
       };
 
     default:

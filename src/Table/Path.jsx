@@ -1,42 +1,36 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import RcDropdown from 'rc-dropdown';
 import _isEqual from 'lodash/isEqual';
-import {block} from '../utils';
+import { block } from '../utils';
 
 
 const b = block('e-table');
 
 export default class PathCell extends Component {
+  constructor(props) {
+    super(props);
 
-  static propTypes = {
-    cell: PropTypes.shape({
-      classMix: PropTypes.string,
-      isFocus: PropTypes.bool,
-      data: PropTypes.shape({
-        common: PropTypes.shape({
-          ancestors: PropTypes.array
-        })
-      })
-    }),
-    handleResetSelection: PropTypes.func,
-    handleSelection: PropTypes.func,
-    handleEndSelection: PropTypes.func,
-    handleCellClick: PropTypes.func
-  };
-
-  state = {
-    visible: false,
-  };
+    this.state = {
+      visible: false,
+    };
+  }
 
   shouldComponentUpdate(nextProps, nextState) {
     return !_isEqual(this.props, nextProps) || !_isEqual(this.state, nextState);
   }
 
   render() {
-    const {handleCellClick, handleSelection, handleEndSelection, handleResetSelection, cell} = this.props;
-    const {classMix, isFocus, data} = cell;
-    const ancestors = data.common.ancestors;
+    const {
+      handleCellClick,
+      handleSelection,
+      handleEndSelection,
+      handleResetSelection,
+      cell,
+    } = this.props;
+    const { visible } = this.state;
+    const { classMix, isFocus, data } = cell;
+    const { ancestors } = data.common;
     const originalAncestorsLength = ancestors.length;
     let path = null;
     let fullPath = null;
@@ -49,7 +43,7 @@ export default class PathCell extends Component {
           key={index}
           className={b('path-text').is({
             'path-arrow': true,
-            last: index + 1 === displayedAncestors.length && originalAncestorsLength > maxPathLength
+            last: index + 1 === displayedAncestors.length && originalAncestorsLength > maxPathLength,
           })}
         >
           {ancestor.name}
@@ -59,7 +53,7 @@ export default class PathCell extends Component {
         <span className={b('path-text')} key={index}>
           {ancestor.name}
           <span
-            className={b('path-text').is({'path-arrow': index + 1 !== originalAncestorsLength})}
+            className={b('path-text').is({ 'path-arrow': index + 1 !== originalAncestorsLength })}
           />
         </span>);
     } else {
@@ -67,7 +61,7 @@ export default class PathCell extends Component {
         path = ancestors.map((ancestor, index) =>
           <span
             key={index}
-            className={b('path-text').is({'path-arrow': index + 1 !== originalAncestorsLength})}
+            className={b('path-text').is({ 'path-arrow': index + 1 !== originalAncestorsLength })}
           >
             {ancestor.name}
           </span>);
@@ -82,28 +76,46 @@ export default class PathCell extends Component {
         tabIndex={-1}
         ref={($td) => { $td && isFocus && $td.focus(); }}
         className={b('cell').mix(`is-${classMix}`)
-          .is({focus: isFocus})}
+          .is({ focus: isFocus })}
         onMouseEnter={handleSelection}
         onMouseUp={handleEndSelection}
         onMouseDown={handleResetSelection}
+        role="presentation"
       >
         <div className={b('path-cell')}>{path}</div>
-        {fullPath &&
+        {fullPath
+        && (
           <RcDropdown
-            visible={this.state.visible}
+            visible={visible}
             trigger={['hover']}
-            overlay={
+            overlay={(
               <div className={b('preview')}>
                 <div className={b('preview-body')}>{fullPath}</div>
               </div>
-            }
-            onVisibleChange={(visible) => { this.setState({visible}); }}
+            )}
+            onVisibleChange={(isVisible) => { this.setState({ visible: isVisible }); }}
             closeOnSelect={false}
           >
             <div className={b('cell-preview-icon')} />
           </RcDropdown>
-        }
+        )}
       </div>
     );
   }
 }
+
+PathCell.propTypes = {
+  cell: PropTypes.shape({
+    classMix: PropTypes.string,
+    isFocus: PropTypes.bool,
+    data: PropTypes.shape({
+      common: PropTypes.shape({
+        ancestors: PropTypes.array,
+      }),
+    }),
+  }),
+  handleResetSelection: PropTypes.func,
+  handleSelection: PropTypes.func,
+  handleEndSelection: PropTypes.func,
+  handleCellClick: PropTypes.func,
+};

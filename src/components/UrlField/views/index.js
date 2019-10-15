@@ -1,3 +1,3 @@
 import UrlFieldView from './UrlFieldView';
 
-export {UrlFieldView};
+export default { UrlFieldView };

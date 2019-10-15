@@ -1,6 +1,6 @@
-import {actionsTree, actionsFilter} from './import';
+import { actionsTree, actionsFilter } from './import';
 
-const {TREE_SET_NODE} = actionsTree;
+const { TREE_SET_NODE } = actionsTree;
 const {
   CONFIG_LOAD_SUCCESS,
   CONFIG_SET_PAGE,
@@ -10,14 +10,14 @@ const {
   CONFIG_SET_SORT,
   CONFIG_RESET,
   CONFIG_SET_ID,
-  CONFIG_SET_SCENARIO
+  CONFIG_SET_SCENARIO,
 } = actionsFilter;
 
 const initialState = {
   config: {},
   isChange: false,
   prioritySort: 0,
-  params: {}
+  params: {},
 };
 
 const setPrioritySort = (prioritySort, sorter, payload) => {
@@ -32,28 +32,29 @@ const setPrioritySort = (prioritySort, sorter, payload) => {
   return prioritySort;
 };
 
-const reset = state => ({
+const reset = (state) => ({
   ...state,
   config: {
     ...state.config,
     columns: state.config.columns.map((col) => {
-      const filter = col.filter ? {...col.filter, value: null} : null;
-      const sorter = col.sorter ?
-        {...col.sorter, direction: null, priority: null} : null;
+      const filter = col.filter ? { ...col.filter, value: null } : null;
+      const sorter = col.sorter
+        ? { ...col.sorter, direction: null, priority: null }
+        : null;
 
       return {
         ...col,
         filter,
-        sorter
+        sorter,
       };
     }),
     product_group: null,
     page: 1,
-    id: null
+    id: null,
   },
   isChange: true,
   prioritySort: 0,
-  params: {}
+  params: {},
 });
 
 export default function app(state = initialState, action) {
@@ -67,13 +68,13 @@ export default function app(state = initialState, action) {
     case CONFIG_NO_CHANGE:
       return {
         ...state,
-        isChange: false
+        isChange: false,
       };
 
     case CONFIG_SET_PAGE: {
       const params = {
         ...state.params,
-        page: action.payload.page
+        page: action.payload.page,
       };
 
       if (!action.payload.page || action.payload.page === 1) {
@@ -84,10 +85,10 @@ export default function app(state = initialState, action) {
         ...state,
         config: {
           ...state.config,
-          page: action.payload.page
+          page: action.payload.page,
         },
         isChange: !action.payload.onLoad,
-        params
+        params,
       };
     }
 
@@ -96,9 +97,9 @@ export default function app(state = initialState, action) {
         ...state,
         config: {
           ...state.config,
-          per_page: action.payload
+          per_page: action.payload,
         },
-        isChange: true
+        isChange: true,
       };
     }
 
@@ -109,26 +110,26 @@ export default function app(state = initialState, action) {
         ...newState,
         config: {
           ...newState.config,
-          id: action.payload
+          id: action.payload,
         },
-        isChange: true
+        isChange: true,
       };
     }
 
     case TREE_SET_NODE: {
       let group = null;
-      let params = {...state.params};
+      let params = { ...state.params };
       let change = true;
 
       if (action.payload) {
         group = {
           url_name: action.payload.urlName,
-          without: (action.payload.urlName === 'k-unbinded')
+          without: (action.payload.urlName === 'k-unbinded'),
         };
 
         params = {
           ...params,
-          group
+          group,
         };
 
         change = !action.payload.onLoad;
@@ -142,10 +143,10 @@ export default function app(state = initialState, action) {
           ...state.config,
           product_group: group,
           page: 1,
-          id: null
+          id: null,
         },
         isChange: change,
-        params
+        params,
       };
     }
 
@@ -154,8 +155,8 @@ export default function app(state = initialState, action) {
         ...state.params,
         [action.payload.name]: {
           ...state.params[action.payload.name],
-          filter: action.payload.id
-        }
+          filter: action.payload.id,
+        },
       };
 
       if (action.payload.id === 'all') {
@@ -176,22 +177,22 @@ export default function app(state = initialState, action) {
                 ...col,
                 filter: {
                   ...col.filter,
-                  value: action.payload.id
-                }
+                  value: action.payload.id,
+                },
               };
             }
 
             return col;
           }),
-          id: null
+          id: null,
         },
         isChange: !action.payload.onLoad,
-        params
+        params,
       };
     }
 
     case CONFIG_SET_SORT: {
-      let prioritySort = state.prioritySort;
+      let { prioritySort } = state;
       let sorter;
 
       const columns = state.config.columns.map((col) => {
@@ -200,11 +201,11 @@ export default function app(state = initialState, action) {
           sorter = {
             ...col.sorter,
             direction: action.payload.id,
-            priority: action.payload.priority ? action.payload.priority : prioritySort
+            priority: action.payload.priority ? action.payload.priority : prioritySort,
           };
           return {
             ...col,
-            sorter
+            sorter,
           };
         }
 
@@ -215,8 +216,8 @@ export default function app(state = initialState, action) {
         ...state.params,
         [action.payload.name]: {
           ...state.params[action.payload.name],
-          sort: sorter
-        }
+          sort: sorter,
+        },
       };
 
       if (!action.payload.id) {
@@ -231,11 +232,11 @@ export default function app(state = initialState, action) {
         ...state,
         config: {
           ...state.config,
-          columns
+          columns,
         },
         isChange: !action.payload.onLoad,
         prioritySort,
-        params
+        params,
       };
     }
 
@@ -246,7 +247,7 @@ export default function app(state = initialState, action) {
     case CONFIG_SET_SCENARIO: {
       return {
         ...state,
-        scenario: action.payload
+        scenario: action.payload,
       };
     }
 

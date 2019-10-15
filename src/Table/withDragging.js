@@ -1,4 +1,4 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
 
 function getDisplayName(Cell) {
   return Cell.displayName || Cell.name || 'Cell';
@@ -6,46 +6,59 @@ function getDisplayName(Cell) {
 
 export default function withDragging(Cell) {
   class WithDragging extends Component {
-
     handleStartSelection = () => {
-      this.props.startSelection({row: this.props.cell.row, column: this.props.cell.column});
+      const { cell, startSelection } = this.props;
+
+      startSelection({ row: cell.row, column: cell.column });
     };
 
     handleSelection = (e) => {
+      const { selected, continueSelection, cell } = this.props;
+
       e.preventDefault();
-      if (this.props.selected.isSelecting || this.props.selected.isDragging) {
-        this.props.continueSelection({row: this.props.cell.row, column: this.props.cell.column});
+      if (selected.isSelecting || selected.isDragging) {
+        continueSelection({ row: cell.row, column: cell.column });
       }
     };
 
     handleResetSelection = () => {
-      this.props.resetSelection({row: this.props.cell.row, column: this.props.cell.column});
+      const { resetSelection, cell } = this.props;
+
+      resetSelection({ row: cell.row, column: cell.column });
     };
 
     handleEndSelection = () => {
-      this.props.endSelection();
+      const { endSelection } = this.props;
+
+      endSelection();
     };
 
     handleDrag = (e) => {
+      const { startDrag, cell } = this.props;
+
       e.stopPropagation();
       e.preventDefault();
-      this.props.startDrag({row: this.props.cell.row, column: this.props.cell.column});
+      startDrag({ row: cell.row, column: cell.column });
     };
 
     handleCellClick = () => {
-      this.props.setFocus({name: this.props.cell.name, id: this.props.cell.id});
+      const { setFocus, cell } = this.props;
+
+      setFocus({ name: cell.name, id: cell.id });
     };
 
     render() {
-      return (<Cell
-        {...this.props}
-        handleStartSelection={this.handleStartSelection}
-        handleSelection={this.handleSelection}
-        handleResetSelection={this.handleResetSelection}
-        handleEndSelection={this.handleEndSelection}
-        handleDrag={this.handleDrag}
-        handleCellClick={this.handleCellClick}
-      />);
+      return (
+        <Cell
+          {...this.props}
+          handleStartSelection={this.handleStartSelection}
+          handleSelection={this.handleSelection}
+          handleResetSelection={this.handleResetSelection}
+          handleEndSelection={this.handleEndSelection}
+          handleDrag={this.handleDrag}
+          handleCellClick={this.handleCellClick}
+        />
+      );
     }
   }
 

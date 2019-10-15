@@ -1,7 +1,6 @@
 import {
   connect,
   Component,
-  browserHistory,
   actionsTable,
   actionsCable,
   actionsFilter,
@@ -10,23 +9,19 @@ import {
 class Filter extends Component {
   componentDidUpdate() {
     const query = {};
+    const { config, dispatch } = this.props;
 
-    if (this.props.config.isChange) {
-      Object.keys(this.props.config.params)
-        .forEach((key) => { query[key] = JSON.stringify(this.props.config.params[key]); });
+    if (config.isChange) {
+      Object.keys(config.params)
+        .forEach((key) => { query[key] = JSON.stringify(config.params[key]); });
 
-      this.props.dispatch(actionsTable.load());
+      dispatch(actionsTable.load());
 
-      if (this.props.config.cableEnabled) {
+      if (config.cableEnabled) {
         actionsCable.setQuery(query);
-      } else {
-        browserHistory.push({
-          pathname: browserHistory.getCurrentLocation().pathname,
-          query
-        });
       }
 
-      this.props.dispatch(actionsFilter.noChange());
+      dispatch(actionsFilter.noChange());
     }
   }
 
@@ -35,8 +30,8 @@ class Filter extends Component {
   }
 }
 
-const mapStateToProps = state => ({
-  config: state.config
+const mapStateToProps = (state) => ({
+  config: state.config,
 });
 
 export default connect(mapStateToProps)(Filter);

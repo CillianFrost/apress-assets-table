@@ -42,60 +42,60 @@ export const SET_PRODUCT_PROPORTIES_DISPLAYING = 'SET_PRODUCT_PROPORTIES_DISPLAY
 
 export const load = (payload = {}) => ({
   type: TABLE_EDITOR_LOAD_START,
-  payload
+  payload,
 });
 
-export const setText = payload => ({
+export const setText = (payload) => ({
   type: TABLE_EDITOR_SET_TEXT,
-  payload
+  payload,
 });
 
-export const addNewRow = payload => ({
+export const addNewRow = (payload) => ({
   type: TABLE_EDITOR_ROW_ADD,
-  payload
+  payload,
 });
 
-export const removeRow = payload => ({
+export const removeRow = (payload) => ({
   type: TABLE_EDITOR_ROW_REMOVE,
-  payload
+  payload,
 });
 
-export const copyRow = payload => ({
+export const copyRow = (payload) => ({
   type: TABLE_EDITOR_ROW_COPY,
-  payload
+  payload,
 });
 
-export const copyRowSuccess = payload => ({
+export const copyRowSuccess = (payload) => ({
   type: TABLE_EDITOR_ROW_COPY_SUCCESS,
-  payload
+  payload,
 });
 
-export const startSelection = payload => ({
+export const startSelection = (payload) => ({
   type: TABLE_EDITOR_CELL_SELECT_START,
-  payload
+  payload,
 });
 
-export const endSelection = payload => ({
+export const endSelection = (payload) => ({
   type: TABLE_EDITOR_CELL_SELECT_END,
-  payload
+  payload,
 });
 
-export const continueSelection = payload => ({
+export const continueSelection = (payload) => ({
   type: TABLE_EDITOR_CELL_SELECT_CONTINUE,
-  payload
+  payload,
 });
 
-export const resetSelection = payload => ({
+export const resetSelection = (payload) => ({
   type: TABLE_EDITOR_CELL_SELECT_RESET,
-  payload
+  payload,
 });
 
-export const startDrag = payload => ({
+export const startDrag = (payload) => ({
   type: TABLE_EDITOR_CELL_START_DRAG,
-  payload
+  payload,
 });
 
-export const imagesAssign = payload => ({
+export const imagesAssign = (payload) => ({
   // mock
   // copied_images : [
   //   {
@@ -107,94 +107,94 @@ export const imagesAssign = payload => ({
   payload,
 });
 
-export const setCheck = payload => ({
+export const setCheck = (payload) => ({
   type: TABLE_EDITOR_SET_CHECK,
-  payload
+  payload,
 });
 
-export const setCheckAll = payload => ({
+export const setCheckAll = (payload) => ({
   type: TABLE_EDITOR_SET_CHECK_ALL,
-  payload
+  payload,
 });
 
-export const setCheckAllReset = payload => ({
+export const setCheckAllReset = (payload) => ({
   type: TABLE_EDITOR_SET_CHECK_ALL_RESET,
-  payload
+  payload,
 });
 
-export const historyPrev = payload => ({
+export const historyPrev = (payload) => ({
   type: HISTORY_PREV,
-  payload
+  payload,
 });
 
-export const historyNext = payload => ({
+export const historyNext = (payload) => ({
   type: HISTORY_NEXT,
-  payload
+  payload,
 });
 
-export const focusNext = payload => ({
+export const focusNext = (payload) => ({
   type: TABLE_EDITOR_CELL_FOCUS_NEXT,
-  payload
+  payload,
 });
 
-export const focusPrev = payload => ({
+export const focusPrev = (payload) => ({
   type: TABLE_EDITOR_CELL_FOCUS_PREV,
-  payload
+  payload,
 });
 
-export const focusDown = payload => ({
+export const focusDown = (payload) => ({
   type: TABLE_EDITOR_CELL_FOCUS_DOWN,
-  payload
+  payload,
 });
 
-export const focusUp = payload => ({
+export const focusUp = (payload) => ({
   type: TABLE_EDITOR_CELL_FOCUS_UP,
-  payload
+  payload,
 });
 
-export const setFocus = payload => ({
+export const setFocus = (payload) => ({
   type: TABLE_EDITOR_CELL_FOCUS_SET,
-  payload
+  payload,
 });
 
-export const startTextEdit = payload => ({
+export const startTextEdit = (payload) => ({
   type: TABLE_EDITOR_START_TEXT_EDIT,
-  payload
+  payload,
 });
 
-export const endTextEdit = payload => ({
+export const endTextEdit = (payload) => ({
   type: TABLE_EDITOR_END_TEXT_EDIT,
-  payload
+  payload,
 });
 
-export const editImages = payload => ({
+export const editImages = (payload) => ({
   type: TABLE_EDITOR_SET_IMAGES,
   payload: {
     images: payload.images,
     name: payload.activeCell,
     id: payload.activeRow,
-  }
+  },
 });
 
-export const updateTableEditorRows = payload => ({
+export const updateTableEditorRows = (payload) => ({
   type: UPDATE_TABLE_EDITOR_ROWS,
-  payload
+  payload,
 });
 
 export const insertData = (data, cellsConfig) => ({
   type: INSERT_DATA,
-  payload: {data, cellsConfig}
+  payload: { data, cellsConfig },
 });
 
 export const setTraitFiltersDisplaying = (groupId, enabled) => ({
   type: SET_TRAIT_FILTERS_DISPLAYING,
-  payload: {groupId, enabled}
+  payload: { groupId, enabled },
 });
 
 export const setProductProportiesDisplaying = (groupId, dataProporties) => ({
   type: SET_PRODUCT_PROPORTIES_DISPLAYING,
   payload: {
     groupId,
-    proporties: dataProporties
-  }
+    proporties: dataProporties,
+  },
 });

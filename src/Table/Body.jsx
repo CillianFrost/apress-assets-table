@@ -1,88 +1,84 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
 import PropTypes from 'prop-types';
-import {connect} from 'react-redux';
+import { connect } from 'react-redux';
 import Trigger from 'rc-trigger';
 import _isEqual from 'lodash/isEqual';
 import Dropzone from 'react-dropzone';
-import 'rc-trigger/assets/index.css';
+import 'rc-trigger/assets/index.less';
 import Price from './Price';
 import Exists from './Exists';
 import CheckRelatedProducts from './CheckRelatedProducts';
-import {SelectCellContainer, PopupProportiesCellContainer} from '../components/Table/containers';
+import { SelectCellContainer, PopupProportiesCellContainer } from '../components/Table/containers';
 import {
   block,
   inRange,
-  swap
+  swap,
 } from '../utils';
 import Actions from '../Actions/Actions';
-import {removeGroup as removeGroupAction} from '../remove/actions';
+import { removeGroup as removeGroupAction } from '../remove/actions';
 import {
   CheckWithDragging,
   ImageWithDragging,
   PathWithDragging,
-  TextWithDragging
+  TextWithDragging,
 } from './cellsWithDragging';
 import {
   saveProductGroupImages as saveProductGroupImagesAction,
   editProductGroupImages as editProductGroupImagesAction,
-  setRejectedFiles as setRejectedFilesAction
+  setRejectedFiles as setRejectedFilesAction,
 } from '../actions/imageEditor';
-import {showImageEditor as showImageEditorAction} from '../dialogs/actions';
-import {imageEditorSettings} from '../ImageEditor/constants';
+import { showImageEditor as showImageEditorAction } from '../dialogs/actions';
+import imageEditorSettings from '../ImageEditor/constants';
 
 const b = block('e-table');
 
 class Body extends Component {
+  constructor(props) {
+    super(props);
 
-  static propTypes= {
-    actions: PropTypes.objectOf(PropTypes.func),
-    config: PropTypes.objectOf(PropTypes.object),
-    placeholder: PropTypes.object,
-    readonly: PropTypes.bool,
-    isTouchDevice: PropTypes.bool,
-    table: PropTypes.shape({
-      checked: PropTypes.arrayOf(PropTypes.number),
-      focus: PropTypes.shape({
-        activeCell: PropTypes.string,
-        activeRow: PropTypes.number,
-        edit: PropTypes.bool,
-        rows: PropTypes.array
-      }),
-      new_row: PropTypes.objectOf(PropTypes.object),
-      rows: PropTypes.arrayOf(PropTypes.object),
-      selected: PropTypes.shape({
-        cellDragged: PropTypes.object,
-        cellFrom: PropTypes.object,
-        cellTo: PropTypes.object,
-        isDragging: PropTypes.bool,
-        isSelecting: PropTypes.bool
-      })
-    })
-  };
-
-  state = {
-    dragRowId: null
-  };
+    this.state = {
+      dragRowId: null,
+    };
+  }
 
   shouldComponentUpdate(nextProps, nextState) {
     return !_isEqual(this.props, nextProps) || !_isEqual(this.state, nextState);
   }
 
-  getRowId = row => (row.check ? row.check.common.id : row.check_related_products.common.id);
+  getRowId = (row) => (row.check ? row.check.common.id : row.check_related_products.common.id);
 
   isCurrentCellLastInSelection = (rowIndex, columnIndex) => {
-    const {isDragging, cellDragged, cellTo, cellFrom} = this.props.table.selected;
+    const { table } = this.props;
+
+    const {
+      isDragging,
+      cellDragged,
+      cellTo,
+      cellFrom,
+    } = table.selected;
+
     const cells = [cellFrom, cellTo];
+
     if (isDragging) { cells.push(cellDragged); }
+
     const lastInSelection = cells.reduce((cell1, cell2) => (cell1.row > cell2.row ? cell1 : cell2));
 
     return lastInSelection.row === rowIndex && lastInSelection.column === columnIndex;
   };
 
   isCurrentCellDragged = (rowIndex, columnIndex) => {
-    const {isDragging, cellDragged, cellTo, cellFrom} = this.props.table.selected;
+    const { table } = this.props;
+
+    const {
+      isDragging,
+      cellDragged,
+      cellTo,
+      cellFrom,
+    } = table.selected;
     const [lowerCell, upperCell] = swap(cellFrom, cellTo, cellFrom.row < cellTo.row);
+
     let num;
+
     if (cellDragged.row > lowerCell.row) {
       num = lowerCell.row + 1;
     } else {
@@ -96,17 +92,27 @@ class Body extends Component {
     return isDragging && cellTo.column === columnIndex && inRange(num, cellDragged.row, rowIndex);
   };
 
-  isRowChecked = rowId => this.props.table.checked.includes(rowId);
+  isRowChecked = (rowId) => {
+    const { table } = this.props;
+
+    return table.checked.includes(rowId);
+  }
 
   handleDrag = (rowId = null) => {
-    this.setState({dragRowId: rowId});
+    this.setState({ dragRowId: rowId });
   };
 
   handleDrop = (acceptedFiles, rejectedFiles, row) => {
     this.handleDrag();
 
-    const {editProductGroupImages, setRejectedFiles, saveProductGroupImages, showImageEditor} = this.props;
-    const {maxLength} = imageEditorSettings;
+    const {
+      editProductGroupImages,
+      setRejectedFiles,
+      saveProductGroupImages,
+      showImageEditor,
+    } = this.props;
+
+    const { maxLength } = imageEditorSettings;
     const existedImages = row.photo.common.images;
     const unsavedImages = acceptedFiles.slice(0, maxLength);
 
@@ -114,13 +120,13 @@ class Body extends Component {
       productGroupId: this.getRowId(row),
       productGroupName: row.name.common.text,
       productGroupImages: existedImages,
-      columnName: 'photo'
+      columnName: 'photo',
     });
 
-    setRejectedFiles({rejectedFiles});
+    setRejectedFiles({ rejectedFiles });
 
     if (existedImages.length + unsavedImages.length <= maxLength && !rejectedFiles.length) {
-      saveProductGroupImages({existedImages, unsavedImages});
+      saveProductGroupImages({ existedImages, unsavedImages });
     } else {
       showImageEditor();
     }
@@ -137,8 +143,15 @@ class Body extends Component {
   }
 
   renderCell = (row, rowId, cell, columnIndex, rowIndex) => {
-    const {placeholder, config, actions, table, readonly, isTouchDevice} = this.props;
-    const {focus, selected} = table;
+    const {
+      placeholder,
+      config,
+      actions,
+      table,
+      readonly,
+      isTouchDevice,
+    } = this.props;
+    const { focus, selected } = table;
     const dataRow = {
       id: rowId,
       data: row[cell],
@@ -147,18 +160,18 @@ class Body extends Component {
       placeholder: placeholder[cell],
       config: config[cell],
       isFocus: rowId === focus.activeRow && cell === focus.activeCell,
-      isSelected: !readonly && selected.cellFrom.column === columnIndex &&
-        inRange(selected.cellFrom.row, selected.cellTo.row, rowIndex),
+      isSelected: !readonly && selected.cellFrom.column === columnIndex
+        && inRange(selected.cellFrom.row, selected.cellTo.row, rowIndex),
       isLast: !readonly && this.isCurrentCellLastInSelection(rowIndex, columnIndex),
       isDragged: !readonly && this.isCurrentCellDragged(rowIndex, columnIndex),
       column: columnIndex,
       row: rowIndex,
       readonly,
-      isTouchDevice
+      isTouchDevice,
     };
     const tableWidth = Object.keys(row).length;
     const key = (rowIndex * tableWidth) + columnIndex;
-    const {options: traitFiltersDisplayingOptions} = app.config.traitFiltersDisplaying;
+    const { options: traitFiltersDisplayingOptions } = app.config.traitFiltersDisplaying;
     const componentsCell = {
       text: <TextWithDragging
         key={key}
@@ -197,9 +210,8 @@ class Body extends Component {
         key={key}
         cell={dataRow}
         options={traitFiltersDisplayingOptions}
-        activeOption={traitFiltersDisplayingOptions.find(option =>
-          option.value === dataRow.data.common.enabled
-        )}
+        activeOption={traitFiltersDisplayingOptions.find((option) =>
+          option.value === dataRow.data.common.enabled)}
         handleSelect={actions.setTraitFiltersDisplaying}
       />,
       product_properties_popup: <PopupProportiesCellContainer
@@ -207,22 +219,33 @@ class Body extends Component {
         cell={dataRow}
         activeOption={this.returnCellTextProporties(dataRow)}
         handleSelect={actions.setProductProportiesDisplaying}
-      />
+      />,
     };
 
     return componentsCell[config[cell].type];
   };
 
   renderRow = (row, rowIndex) => {
-    const {table, readonly, actions, removeGroup} = this.props;
+    const {
+      table,
+      readonly,
+      actions,
+      removeGroup,
+    } = this.props;
+
+    const { dragRowId } = this.state;
+
     const rowId = this.getRowId(row);
+
+    const isChecked = this.isRowChecked(rowId) ? 'is-checked' : null;
+    const isNew = String(rowId).includes('-') ? 'is-new' : null;
+
+    const dropzoneClass = `e-table-body-tr ${isChecked} ${isNew}`;
+
     const rowHtml = (
       <Dropzone
         key={rowId}
-        className={b('body-tr').is({
-          checked: this.isRowChecked(rowId),
-          new: String(rowId).includes('-')
-        })()}
+        className={dropzoneClass}
         onDragEnter={() => { this.handleDrag(rowId); }}
         onDragLeave={this.handleDrag}
         onDrop={(acceptedFiles, rejectedFiles) => { this.handleDrop(acceptedFiles, rejectedFiles, row); }}
@@ -230,48 +253,49 @@ class Body extends Component {
         accept={imageEditorSettings.accept}
         disableClick
       >
-        {this.state.dragRowId === rowId &&
-          <div className='row-image-dropzone'>
-            Перетащите картинку в эту область
-          </div>
-        }
+        {dragRowId === rowId
+          && <div className="row-image-dropzone">Перетащите картинку в эту область</div>}
         {Object.keys(row).map((cell, index) => this.renderCell(row, rowId, cell, index, rowIndex))}
       </Dropzone>
     );
+
+    const actionsProps = [
+      {
+        name: 'add',
+        title: 'Добавить группу',
+        onClick: () => actions.addNewRow({
+          target: row,
+          parent: row,
+          new_row: table.new_row,
+        }),
+      },
+      {
+        name: 'copy',
+        title: 'Копировать группу',
+        onClick: () => actions.copyRow({
+          target: row,
+        }),
+      },
+      {
+        name: 'delete',
+        title: 'Удалить группу',
+        onClick: () => removeGroup({
+          id: rowId,
+          name: row.name.common.text,
+        }),
+      },
+    ];
 
     return readonly ? (rowHtml) : (
       <Trigger
         key={rowId}
         action={['hover']}
-        popup={<Actions
-          mix={b('actions')()}
-          actions={[
-            {
-              name: 'add',
-              title: 'Добавить группу',
-              onClick: () => actions.addNewRow({
-                target: row,
-                parent: row,
-                new_row: table.new_row
-              })
-            },
-            {
-              name: 'copy',
-              title: 'Копировать группу',
-              onClick: () => actions.copyRow({
-                target: row
-              })
-            },
-            {
-              name: 'delete',
-              title: 'Удалить группу',
-              onClick: () => removeGroup({
-                id: rowId,
-                name: row.name.common.text,
-              })
-            },
-          ]}
-        />}
+        popup={(
+          <Actions
+            mix="e-table-actions"
+            actions={actionsProps}
+          />
+        )}
         popupAlign={{
           points: ['cl', 'cl'],
           destroyPopupOnHide: true,
@@ -288,16 +312,44 @@ class Body extends Component {
   };
 
   render() {
+    const { table } = this.props;
+
     return (
       <div className={b('body')}>
-        {this.props.table.rows.map(this.renderRow)}
+        {table.rows.map(this.renderRow)}
       </div>
     );
   }
 }
 
-const mapStateToProps = state => ({
-  cell: state.cell
+Body.propTypes = {
+  actions: PropTypes.objectOf(PropTypes.func),
+  config: PropTypes.objectOf(PropTypes.object),
+  placeholder: PropTypes.object,
+  readonly: PropTypes.bool,
+  isTouchDevice: PropTypes.bool,
+  table: PropTypes.shape({
+    checked: PropTypes.arrayOf(PropTypes.number),
+    focus: PropTypes.shape({
+      activeCell: PropTypes.string,
+      activeRow: PropTypes.number,
+      edit: PropTypes.bool,
+      rows: PropTypes.array,
+    }),
+    new_row: PropTypes.objectOf(PropTypes.object),
+    rows: PropTypes.arrayOf(PropTypes.object),
+    selected: PropTypes.shape({
+      cellDragged: PropTypes.object,
+      cellFrom: PropTypes.object,
+      cellTo: PropTypes.object,
+      isDragging: PropTypes.bool,
+      isSelecting: PropTypes.bool,
+    }),
+  }),
+};
+
+const mapStateToProps = (state) => ({
+  cell: state.cell,
 });
 
 const mapDispatchToProps = {
@@ -305,7 +357,7 @@ const mapDispatchToProps = {
   setRejectedFiles: setRejectedFilesAction,
   saveProductGroupImages: saveProductGroupImagesAction,
   showImageEditor: showImageEditorAction,
-  removeGroup: removeGroupAction
+  removeGroup: removeGroupAction,
 };
 
 export default connect(mapStateToProps, mapDispatchToProps)(Body);

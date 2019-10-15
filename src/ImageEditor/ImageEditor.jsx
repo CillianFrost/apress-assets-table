@@ -1,21 +1,21 @@
 import React from 'react';
-import {connect} from 'react-redux';
+import { connect } from 'react-redux';
 
-import {hideImageEditor as hideImageEditorAction} from '../dialogs/actions';
+import { hideImageEditor as hideImageEditorAction } from '../dialogs/actions';
 import {
   saveProductGroupImages as saveProductGroupImagesAction,
   clearImageEditor as clearImageEditorActon,
   getRecommendedImages as getRecommendedImagesAction,
   setRejectedFiles as setRejectedFilesAction,
-  updateHaveMaximumImagesCount as updateHaveMaximumImagesCountAction
+  updateHaveMaximumImagesCount as updateHaveMaximumImagesCountAction,
 } from '../actions/imageEditor';
 import Dialog from '../Dialog/Dialog';
 import ImageDialogBodyView from './views/ImageDialogBodyView';
 import ImageDialogTitleView from './views/ImageDialogTitleView';
 import ImageDialogFooterView from './views/ImageDialogFooterView';
-import {isEqual, merge, pick} from '../utils';
-import {imageEditorPropTypes} from './propTypes';
-import {imageEditorSettings} from './constants';
+import { isEqual, merge, pick } from '../utils';
+import { imageEditorPropTypes } from './propTypes';
+import { imageEditorSettings } from './constants';
 import './e-image-editor.scss';
 
 
@@ -25,26 +25,31 @@ const initialState = Object.freeze({
   unsavedImagesByUrl: [],
   isOpenedTextZone: false,
   urlFieldValue: '',
-  showPopupLoader: false
+  showPopupLoader: false,
 });
 
 class ImageEditor extends React.Component {
-  state = initialState;
+  constructor(props) {
+    super(props);
 
-  componentWillReceiveProps(nextProps) {
-    const {productGroupImages, duringSavingProductGroupImages, errorSavingProductGroupImages} = nextProps;
+    this.state = initialState;
+  }
+
+  UNSAFE_componentWillReceiveProps(nextProps) {
+    const { productGroupImages, duringSavingProductGroupImages, errorSavingProductGroupImages } = nextProps;
+    const { showPopupLoader } = this.state;
 
     if (!isEqual(this.props.productGroupImages, productGroupImages)) {
-      this.setState({existedImages: productGroupImages});
+      this.setState({ existedImages: productGroupImages });
       this.updateHaveMaximumImagesCount(productGroupImages.length);
     }
 
-    if (this.state.showPopupLoader && !duringSavingProductGroupImages && !errorSavingProductGroupImages) {
+    if (showPopupLoader && !duringSavingProductGroupImages && !errorSavingProductGroupImages) {
       this.closeImageEditor();
     }
 
     if (errorSavingProductGroupImages) {
-      this.setState({showPopupLoader: false});
+      this.setState({ showPopupLoader: false });
     }
   }
 
@@ -55,12 +60,14 @@ class ImageEditor extends React.Component {
       getRecommendedImages,
       recommendedImagesWasLoaded,
       isImageEditorVisible,
-      haveMaximumImagesCount
+      haveMaximumImagesCount,
     } = this.props;
 
-    if (!haveMaximumImagesCount && !duringLoadingRecommendedImages && !recommendedImagesWasLoaded && isImageEditorVisible &&
-      !this.state.existedImages.length) {
-      getRecommendedImages({productGroupId});
+    const { existedImages } = this.state;
+
+    if (!haveMaximumImagesCount && !duringLoadingRecommendedImages && !recommendedImagesWasLoaded && isImageEditorVisible
+      && !existedImages.length) {
+      getRecommendedImages({ productGroupId });
     }
 
     if (prevProps.isImageEditorVisible && !isImageEditorVisible) {
@@ -69,15 +76,16 @@ class ImageEditor extends React.Component {
   }
 
   getTotalCount = () => {
-    const {existedImages, unsavedImages} = this.state;
+    const { existedImages, unsavedImages } = this.state;
 
     return existedImages.length + unsavedImages.length;
   };
 
   addImage = (image, imageType) => {
     this.setState({
-      [imageType]: [...this.state[imageType], image]
+      [imageType]: [...this.state[imageType], image],
     });
+
     this.updateHaveMaximumImagesCount(this.getTotalCount() + 1);
   };
 
@@ -85,18 +93,19 @@ class ImageEditor extends React.Component {
     this.setState({
       [imageType]: this.state[imageType].filter((imageInState, i) => (
         imageInState.id ? imageInState.id !== index : i !== index
-      ))
+      )),
     });
+
     this.updateHaveMaximumImagesCount(this.getTotalCount() - 1);
   };
 
   handleChangeVisibilityTextZone = (visible) => {
-    this.setState({isOpenedTextZone: visible});
+    this.setState({ isOpenedTextZone: visible });
   };
 
   handleDrop = (acceptedFiles, rejectedFiles) => {
     const images = [...acceptedFiles];
-    const {props: {maxLength, setRejectedFiles}, state: {unsavedImages}} = this;
+    const { props: { maxLength, setRejectedFiles }, state: { unsavedImages } } = this;
     const currentImagesCount = this.getTotalCount();
     const nextImagesCount = currentImagesCount + acceptedFiles.length;
     const haveMaximumImagesCount = nextImagesCount >= maxLength;
@@ -109,23 +118,23 @@ class ImageEditor extends React.Component {
       images.splice(0, nextImagesCount - maxLength);
     }
 
-    setRejectedFiles({rejectedFiles});
-    this.setState({unsavedImages: [...unsavedImages, ...images]});
+    setRejectedFiles({ rejectedFiles });
+    this.setState({ unsavedImages: [...unsavedImages, ...images] });
     this.updateHaveMaximumImagesCount(nextImagesCount);
   };
 
-  handleUrlFieldChange = ({currentTarget: {value}}) => {
-    this.setState({urlFieldValue: value});
+  handleUrlFieldChange = ({ currentTarget: { value } }) => {
+    this.setState({ urlFieldValue: value });
   };
 
   updateHaveMaximumImagesCount = (currentCount) => {
-    const {updateHaveMaximumImagesCount, maxLength} = this.props;
+    const { updateHaveMaximumImagesCount, maxLength } = this.props;
 
-    updateHaveMaximumImagesCount({haveMaximumImagesCount: currentCount >= maxLength});
+    updateHaveMaximumImagesCount({ haveMaximumImagesCount: currentCount >= maxLength });
   };
 
   closeImageEditor = () => {
-    const {duringSavingProductGroupImages, hideImageEditor} = this.props;
+    const { duringSavingProductGroupImages, hideImageEditor } = this.props;
 
     if (!duringSavingProductGroupImages) {
       hideImageEditor();
@@ -133,28 +142,38 @@ class ImageEditor extends React.Component {
   };
 
   clearImageEditor = () => {
-    this.props.clearImageEditor();
+    const { clearImageEditor } = this.props;
+
+    clearImageEditor();
     this.setState(initialState);
   };
 
   saveImages = () => {
-    const {props: {saveProductGroupImages}, state: {existedImages, unsavedImages}} = this;
+    const { props: { saveProductGroupImages }, state: { existedImages, unsavedImages } } = this;
 
-    this.setState({showPopupLoader: true});
-    saveProductGroupImages({existedImages, unsavedImages});
+    this.setState({ showPopupLoader: true });
+    saveProductGroupImages({ existedImages, unsavedImages });
   };
 
   render() {
-    const {showPopupLoader, isOpenedTextZone, urlFieldValue, unsavedImagesByUrl, existedImages, unsavedImages} = this.state;
-    const {isImageEditorVisible, productGroupName} = this.props;
+    const {
+      showPopupLoader,
+      isOpenedTextZone,
+      urlFieldValue,
+      unsavedImagesByUrl,
+      existedImages,
+      unsavedImages,
+    } = this.state;
+
+    const { isImageEditorVisible, productGroupName } = this.props;
 
     return (
       <Dialog
-        className='is-image-editor e-image-editor'
+        className="is-image-editor e-image-editor"
         visible={isImageEditorVisible}
         onClose={this.closeImageEditor}
         closable={!showPopupLoader}
-        title={
+        title={(
           <ImageDialogTitleView
             productGroupName={productGroupName}
             showPopupLoader={showPopupLoader}
@@ -162,13 +181,14 @@ class ImageEditor extends React.Component {
             existedImages={existedImages}
             unsavedImages={unsavedImages}
           />
-        }
-        footer={!showPopupLoader &&
-          <ImageDialogFooterView
-            saveImages={this.saveImages}
-            closeImageEditor={this.closeImageEditor}
-          />
-        }
+        )}
+        footer={!showPopupLoader
+          && (
+            <ImageDialogFooterView
+              saveImages={this.saveImages}
+              closeImageEditor={this.closeImageEditor}
+            />
+          )}
       >
         <ImageDialogBodyView
           showPopupLoader={showPopupLoader}
@@ -186,8 +206,8 @@ class ImageEditor extends React.Component {
   }
 }
 
-const mapStateToProps = ({imageEditor, dialogs: {imageEditor: isImageEditorVisible}}) =>
-  merge({isImageEditorVisible}, pick(imageEditor, [
+const mapStateToProps = ({ imageEditor, dialogs: { imageEditor: isImageEditorVisible } }) => (
+  merge({ isImageEditorVisible }, pick(imageEditor, [
     'productGroupId',
     'productGroupName',
     'productGroupImages',
@@ -195,8 +215,8 @@ const mapStateToProps = ({imageEditor, dialogs: {imageEditor: isImageEditorVisib
     'duringLoadingRecommendedImages',
     'errorSavingProductGroupImages',
     'recommendedImagesWasLoaded',
-    'haveMaximumImagesCount'
-  ]));
+    'haveMaximumImagesCount',
+  ])));
 
 const mapDispatchToProps = {
   hideImageEditor: hideImageEditorAction,
@@ -204,7 +224,7 @@ const mapDispatchToProps = {
   clearImageEditor: clearImageEditorActon,
   getRecommendedImages: getRecommendedImagesAction,
   setRejectedFiles: setRejectedFilesAction,
-  updateHaveMaximumImagesCount: updateHaveMaximumImagesCountAction
+  updateHaveMaximumImagesCount: updateHaveMaximumImagesCountAction,
 };
 
 ImageEditor.propTypes = imageEditorPropTypes;

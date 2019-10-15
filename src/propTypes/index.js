@@ -5,7 +5,7 @@ export const textCellEditorPropType = PropTypes.shape({
   maxLen: PropTypes.number.isRequired,
   isEdit: PropTypes.bool.isRequired,
   handlerEdit: PropTypes.func.isRequired,
-  handlerSave: PropTypes.func.isRequired
+  handlerSave: PropTypes.func.isRequired,
 });
 
 export const textCellCKEditorPropType = PropTypes.shape({
@@ -13,5 +13,5 @@ export const textCellCKEditorPropType = PropTypes.shape({
   maxLen: PropTypes.number.isRequired,
   name: PropTypes.string.isRequired,
   handlerEdit: PropTypes.func.isRequired,
-  handlerSave: PropTypes.func.isRequired
+  handlerSave: PropTypes.func.isRequired,
 });

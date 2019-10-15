@@ -1,32 +1,43 @@
-import React, {Component} from 'react';
+import React, { Component } from 'react';
 
-import {SelectCellView} from '../views';
-import {selectCellContainerPropType} from '../propTypes';
+import { SelectCellView } from '../views';
+import { selectCellContainerPropType } from '../propTypes';
 
 
 class SelectCellContainer extends Component {
-  state = {
-    isEdit: false
-  };
+  constructor(props) {
+    super(props);
+
+    this.state = { isEdit: false };
+  }
 
   setEditState = (isEdit) => {
-    this.setState({isEdit});
+    this.setState({ isEdit });
   }
 
   handleSelect = (value) => {
-    const {cell: {id}, options, handleSelect} = this.props;
-    const option = options.find(opt => value === String(opt.value));
+    const { cell: { id }, options, handleSelect } = this.props;
+    const option = options.find((opt) => value === String(opt.value));
 
     this.setEditState(false);
     handleSelect(id, option.value);
   }
 
   render() {
-    const {cell: {isFocus, classMix}, options, activeOption} = this.props;
+    const {
+      cell: {
+        isFocus,
+        classMix,
+      },
+      options,
+      activeOption,
+    } = this.props;
+
+    const { isEdit } = this.state;
 
     return (
       <SelectCellView
-        isEdit={this.state.isEdit}
+        isEdit={isEdit}
         isFocus={isFocus}
         classMix={classMix}
         options={options}

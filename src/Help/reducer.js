@@ -1,4 +1,4 @@
-import {HELP_LOAD_SUCCESS} from './actions';
+import { HELP_LOAD_SUCCESS } from './actions';
 
 export default function help(state = [], action) {
   switch (action.type) {

@@ -1,10 +1,10 @@
-import {CABLE_INIT, CABLE_SET_QUERY} from './actions';
+import { CABLE_INIT, CABLE_SET_QUERY } from './actions';
 
 const initialState = {
   pathname: '/',
   search: '',
   hash: '',
-  query: {}
+  query: {},
 };
 
 export default function cable(state = initialState, action) {
@@ -12,13 +12,13 @@ export default function cable(state = initialState, action) {
     case CABLE_INIT:
       return action.payload ? {
         ...state,
-        ...action.payload
+        ...action.payload,
       } : state;
 
     case CABLE_SET_QUERY:
       return {
         ...state,
-        query: action.payload
+        query: action.payload,
       };
 
     default:

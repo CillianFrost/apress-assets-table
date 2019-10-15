@@ -1,4 +1,3 @@
-import {TableWithPasteContainer} from './containers';
-
+import TableWithPasteContainer from './containers';
 
 export default TableWithPasteContainer;

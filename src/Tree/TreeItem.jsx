@@ -12,113 +12,75 @@ import {
   constants,
   _isEqual,
   DropDownMenu,
-  getEmptyImage
 } from './import';
 
 const setExpanded = (props, expanded) => {
-  props.actionSetExpanded({id: props.id, expanded});
+  props.actionSetExpanded({ id: props.id, expanded });
 
   if (!Array.isArray(props.tree_nodes)) {
     props.actionUpdate({
       id: props.id,
       urlName: props.urlName,
-      config: props.config
+      config: props.config,
     });
   }
 };
 
 class TreeItem extends Component {
-  static propTypes = {
-    connectDragSource: PropTypes.func.isRequired,
-    connectDragPreview: PropTypes.func.isRequired,
-    connectDropTarget: PropTypes.func.isRequired,
-
-    moveStart: PropTypes.func.isRequired,
-    moveStep: PropTypes.func.isRequired,
-    moveEnd: PropTypes.func.isRequired,
-
-    actionSetExpanded: PropTypes.func.isRequired,
-    actionUpdate: PropTypes.func.isRequired,
-    actionSetNode: PropTypes.func.isRequired,
-    actionShowRemoveConfirmation: PropTypes.func.isRequired,
-
-    id: PropTypes.any.isRequired,
-    index: PropTypes.number.isRequired,
-    name: PropTypes.string.isRequired,
-    count: PropTypes.number.isRequired,
-    expandable: PropTypes.bool,
-    selected: PropTypes.bool,
-    expanded: PropTypes.bool,
-    urlName: PropTypes.string.isRequired,
-    tree_nodes: PropTypes.array,
-
-    isDragging: PropTypes.bool.isRequired,
-    hasDragNode: PropTypes.bool.isRequired,
-    hasSettingsNode: PropTypes.bool.isRequired,
-    config: PropTypes.object,
-    hoverNode: PropTypes.shape({
-      id: PropTypes.number,
-      index: PropTypes.number,
-      target: PropTypes.string,
-    }),
-  };
-
-  componentDidMount() {
+  /* componentDidMount() {
     this.props.connectDragPreview(getEmptyImage(), {captureDraggingState: true});
-  }
+  } */
 
   shouldComponentUpdate(nextProps) {
     return !_isEqual(this.props, nextProps);
   }
 
   getClassName() {
-    const {selected, expanded, hoverNode, id, isDragging} = this.props;
+    const {
+      selected,
+      expanded,
+      hoverNode,
+      id,
+      isDragging,
+    } = this.props;
 
     if (hoverNode && (hoverNode.id === id) && !isDragging) {
       return b('item').is({
         active: selected,
         open: expanded,
-        [hoverNode.target]: true
+        [hoverNode.target]: true,
       });
     }
 
     return b('item').is({
       active: selected,
       open: expanded,
-      move: isDragging
+      move: isDragging,
     });
   }
 
-  hendlerClickExpanded(e) {
-    e.stopPropagation();
+  replaceUrlName = (url) => {
+    const { urlName } = this.props;
 
-    this.clickExpanded(!this.props.expanded);
-  }
-
-  hendlerClickSelected() {
-    this.props.actionSetNode({id: this.props.id, urlName: this.props.urlName});
-
-    if (this.props.expandable) { this.clickExpanded(true); }
-  }
-
-  clickExpanded(expanded) {
-    setExpanded(this.props, expanded);
-  }
-
-  replaceUrlName = url => (
-    url.replace('_url_name_', this.props.urlName)
-  );
+    return url.replace('_url_name_', urlName);
+  };
 
   handleSelect = (action) => {
-    const {id, orderUrl, actionShowRemoveConfirmation, actionConfigSetId, name} = this.props;
-    const {productsEditorGroupUrl, catalogRubricOrGroupUrl} = app.config;
+    const {
+      id,
+      orderUrl,
+      actionShowRemoveConfirmation,
+      actionConfigSetId,
+      name,
+    } = this.props;
+    const { productsEditorGroupUrl, catalogRubricOrGroupUrl } = app.config;
 
     switch (action) {
       case 'edit':
         actionConfigSetId(id);
         break;
       case 'remove':
-        actionShowRemoveConfirmation({id, name});
+        actionShowRemoveConfirmation({ id, name });
         break;
       case 'reorderGoods':
         window.open(orderUrl);
@@ -134,9 +96,33 @@ class TreeItem extends Component {
     }
   };
 
+  hendlerClickExpanded(e) {
+    e.stopPropagation();
+    const { expanded } = this.props;
+
+    this.clickExpanded(!expanded);
+  }
+
+  hendlerClickSelected() {
+    const {
+      actionSetNode,
+      id,
+      urlName,
+      expandable,
+    } = this.props;
+
+    actionSetNode({ id, urlName });
+
+    if (expandable) { this.clickExpanded(true); }
+  }
+
+  clickExpanded(expanded) {
+    setExpanded(this.props, expanded);
+  }
+
   renderSettingsMenu = () => (
     <DropDownMenu
-      mix='is-settings'
+      mix="is-settings"
       trigger={['hover']}
       items={[
         {
@@ -182,15 +168,20 @@ class TreeItem extends Component {
         className={this.getClassName()}
         data-count={`(${count})`}
         onClick={() => this.hendlerClickSelected()}
+        role="presentation"
       >
-        { expandable && <span
-          className={b('arrow')}
-          onClick={e => this.hendlerClickExpanded(e)}
-        /> }
+        { expandable
+          && (
+            <span
+              className={b('arrow')}
+              onClick={(e) => this.hendlerClickExpanded(e)}
+              role="presentation"
+            />
+          )}
         <span className={b('item-title')}>{name}</span>
         {hasSettingsNode && (!hover || (hover && !hover.id)) && this.renderSettingsMenu()}
         <span className={b('drag')} />
-      </div>
+      </div>,
     ));
   }
 }
@@ -203,12 +194,12 @@ const nodeSource = {
   },
 
   endDrag(props) {
-    props.moveEnd({id: props.id, tree_nodes: props.tree_nodes});
+    props.moveEnd({ id: props.id, tree_nodes: props.tree_nodes });
   },
 
   canDrag(props) {
     return props.hasDragNode;
-  }
+  },
 };
 
 const nodeTarget = {
@@ -232,13 +223,48 @@ const nodeTarget = {
 
       props.moveStep(props.id, props.index, target, props.parentId);
     }
-  }, 50)
+  }, 50),
+};
+
+TreeItem.propTypes = {
+  connectDragSource: PropTypes.func.isRequired,
+  connectDragPreview: PropTypes.func.isRequired,
+  connectDropTarget: PropTypes.func.isRequired,
+
+  moveStart: PropTypes.func.isRequired,
+  moveStep: PropTypes.func.isRequired,
+  moveEnd: PropTypes.func.isRequired,
+
+  actionSetExpanded: PropTypes.func.isRequired,
+  actionUpdate: PropTypes.func.isRequired,
+  actionSetNode: PropTypes.func.isRequired,
+  actionShowRemoveConfirmation: PropTypes.func.isRequired,
+
+  id: PropTypes.any.isRequired,
+  index: PropTypes.number.isRequired,
+  name: PropTypes.string.isRequired,
+  count: PropTypes.number.isRequired,
+  expandable: PropTypes.bool,
+  selected: PropTypes.bool,
+  expanded: PropTypes.bool,
+  urlName: PropTypes.string.isRequired,
+  tree_nodes: PropTypes.array,
+
+  isDragging: PropTypes.bool.isRequired,
+  hasDragNode: PropTypes.bool.isRequired,
+  hasSettingsNode: PropTypes.bool.isRequired,
+  config: PropTypes.object,
+  hoverNode: PropTypes.shape({
+    id: PropTypes.number,
+    index: PropTypes.number,
+    target: PropTypes.string,
+  }),
 };
 
 export default DropTarget(
   constants.TREE,
   nodeTarget,
-  connect => ({connectDropTarget: connect.dropTarget()})
+  (connect) => ({ connectDropTarget: connect.dropTarget() }),
 )(
   DragSource(
     constants.TREE,
@@ -246,7 +272,7 @@ export default DropTarget(
     (connect, monitor) => ({
       connectDragSource: connect.dragSource(),
       connectDragPreview: connect.dragPreview(),
-      isDragging: monitor.isDragging()
-    })
-  )(TreeItem)
+      isDragging: monitor.isDragging(),
+    }),
+  )(TreeItem),
 );

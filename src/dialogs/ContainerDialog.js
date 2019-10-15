@@ -1,10 +1,10 @@
 import React from 'react';
-import {connect} from 'react-redux';
+import { connect } from 'react-redux';
 import PropTypes from 'prop-types';
 
-import {isEqual} from '../utils';
+import { isEqual } from '../utils';
 
-import {imageEditorSettings} from '../ImageEditor/constants';
+import { imageEditorSettings } from '../ImageEditor/constants';
 import ImageEditor from '../ImageEditor/ImageEditor';
 import RemoveConfirmationDialog from '../RemoveConfirmationDialog/RemoveConfirmationDialog';
 import RemoveEmptyGroupsDialog from '../RemoveEmptyGroupsDialog/RemoveEmptyGroupsDialog';
@@ -14,7 +14,7 @@ class ContainerDialog extends React.Component {
   static propTypes = {
     removeRowConfirmOpen: PropTypes.bool,
     removeRowsConfirmOpen: PropTypes.bool,
-    removeEmptyRowConfirmOpen: PropTypes.bool
+    removeEmptyRowConfirmOpen: PropTypes.bool,
   };
 
   shouldComponentUpdate(nextProps) {
@@ -22,7 +22,7 @@ class ContainerDialog extends React.Component {
   }
 
   render() {
-    const {removeRowConfirmOpen, removeRowsConfirmOpen, removeEmptyRowConfirmOpen} = this.props;
+    const { removeRowConfirmOpen, removeRowsConfirmOpen, removeEmptyRowConfirmOpen } = this.props;
 
     return (
       <div>
@@ -35,7 +35,7 @@ class ContainerDialog extends React.Component {
   }
 }
 
-const mapStateToProps = state => ({
+const mapStateToProps = (state) => ({
   removeRowsConfirmOpen: state.dialogs.removeRowsConfirmOpen,
   removeEmptyRowConfirmOpen: state.dialogs.removeEmptyRowConfirmOpen,
   selectedRow: state.dialogs.selectedIds,

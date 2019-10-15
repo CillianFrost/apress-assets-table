@@ -1,6 +1,6 @@
 import React from 'react';
-import {connect} from 'react-redux';
-import {bindActionCreators} from 'redux';
+import { connect } from 'react-redux';
+import { bindActionCreators } from 'redux';
 import '../_app.mock';
 import ButtonExample from '../Button/example';
 import TogglerExample from '../Toggler/example';
@@ -25,21 +25,30 @@ import OnlineStoreImportStatus from '../components/OnlineStoreImportStatus';
 import * as actionsTable from '../Table/actions';
 import * as actionsTree from '../Tree/actions';
 import * as actionsSave from '../SaveControl/actions';
-import {block} from '../utils';
+import { block } from '../utils';
 
 
 import '../styles/global.scss';
 import './style.scss';
+import { PropTypes } from '../Tree/import';
 
 const b = block('example-wrapper');
 
 class App extends React.Component {
-  componentWillMount() {
-    this.props.actionsTable.load();
-    this.props.actionsTree.load();
+  UNSAFE_componentWillMount() {
+    const { actionsTable, actionsTree } = this.props;
+
+    actionsTable.load();
+    actionsTree.load();
   }
 
   render() {
+    const {
+      history,
+      table,
+      save,
+    } = this.props;
+
     const message = {
       success: 'Все изменения сохранены',
       progress: 'Изменения сохраняются',
@@ -48,62 +57,63 @@ class App extends React.Component {
 
     return (
       <div>
-
-        <div className={b}>
+        <div className={b()}>
           <DialogExample />
         </div>
-        <div className={b}>
+        <div className={b()}>
           <ButtonExample />
         </div>
-        <div className={b}>
+        <div className={b()}>
           <TogglerExample />
         </div>
         <CheckboxExample />
         <ActionsExample />
-        <div className={b}>
+        <div className={b()}>
           <PaginationExample />
         </div>
-        <div className={b}>
+        <div className={b()}>
           <ComboSelectExample />
         </div>
         <div>
           <ScrollerExample />
         </div>
         <ActionsPanelExample />
-        <div className={b}>
+        <div className={b()}>
           <DropDownExample />
         </div>
-        <div className={b}>
+        <div className={b()}>
           <SaveControl
-            save={this.props.save}
-            actions={this.props.actionsSave}
+            save={save}
+            actions={actionsSave}
             message={message}
-            rows={this.props.table.rows}
+            rows={table.rows}
           />
           <OnlineStoreImportStatus />
         </div>
-        <div className={b}>
+        <div className={b()}>
           <button
-            onClick={() => this.props.actionsTable.historyPrev()}
-            disabled={!this.props.history.prev.length}
+            type="button"
+            onClick={() => actionsTable.historyPrev()}
+            disabled={!history.prev.length}
           >
             Undo
           </button>
           <button
-            onClick={() => this.props.actionsTable.historyNext()}
-            disabled={!this.props.history.next.length}
+            type="button"
+            onClick={() => actionsTable.historyNext()}
+            disabled={!history.next.length}
           >
             Redo
           </button>
         </div>
-        <div className={b}>
+        <div className={b()}>
           <HeaderExample />
         </div>
-        <div style={{marginLeft: 120}}>
+        <div style={{ marginLeft: 120 }}>
           <div className={b('table')}>
             <TableExample
-              table={this.props.table}
-              actions={this.props.actionsTable}
+              table={table}
+              actions={actionsTable}
             />
           </div>
         </div>
@@ -119,7 +129,7 @@ class App extends React.Component {
         <div>
           <ContainerDialog />
         </div>
-        <div className={b}>
+        <div className={b()}>
           <ErrorExample />
         </div>
         <SwitchCategoryExample />
@@ -128,20 +138,30 @@ class App extends React.Component {
   }
 }
 
-const mapStateToProps = state => ({
+const mapStateToProps = (state) => ({
   table: {
     ...state.table,
-    rows: state.table.history.current
+    rows: state.table.history.current,
   },
   history: state.table.history,
   tree: state.tree,
-  save: state.save
+  save: state.save,
 });
 
-const mapDispatchToProps = dispatch => ({
+const mapDispatchToProps = (dispatch) => ({
   actionsTable: bindActionCreators(actionsTable, dispatch),
   actionsTree: bindActionCreators(actionsTree, dispatch),
-  actionsSave: bindActionCreators(actionsSave, dispatch)
+  actionsSave: bindActionCreators(actionsSave, dispatch),
 });
+
+App.propTypes = {
+  history: PropTypes.shape,
+  table: PropTypes.shape.isRequired,
+  save: PropTypes.func.isRequired,
+};
+
+App.defaultProps = {
+  history: {},
+};
 
 export default connect(mapStateToProps, mapDispatchToProps)(App);

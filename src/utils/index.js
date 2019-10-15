@@ -1,4 +1,4 @@
-import b from 'bem-cn';
+import { setup } from 'bem-cn';
 import axios from 'axios';
 
 export {
@@ -9,21 +9,20 @@ export {
   unset,
   merge,
   pick,
-  noop
+  noop,
 } from 'lodash';
 
-export const api = axios.create({baseURL: ''});
+export const api = axios.create({ baseURL: '' });
 
-b.setup({el: '-'});
-
-export const block = b;
+export const block = setup({ el: '-' });
 
 export function handleChange(e) {
-  const value = e.target.value;
+  const { value } = e.target;
+
   if (!e.target.id) {
     throw new Error('no target id');
   }
-  this.setState({[e.target.id]: value});
+  this.setState({ [e.target.id]: value });
 }
 
 export function handleBlur(e) {
@@ -31,7 +30,7 @@ export function handleBlur(e) {
   if (!e.target.id) {
     throw new Error('no target id');
   }
-  this.setState({[e.target.id]: value});
+  this.setState({ [e.target.id]: value });
 }
 
 export function checkStatus(response) {
@@ -59,7 +58,7 @@ export const transformForServer = (records) => {
   return records.map((record) => {
     const newObj = {
       id: record.check.common.id,
-      columns: {}
+      columns: {},
     };
 
     Object.keys(record).forEach((key) => {
@@ -85,7 +84,7 @@ export const transformFromServer = (record, templateRecord) => {
     if (recordField) {
       newRecord[key] = {
         ...templateRecord[key],
-        common: recordField
+        common: recordField,
       };
     }
   });

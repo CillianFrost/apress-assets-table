@@ -1,12 +1,12 @@
 import {
   cloneDeep,
   isEqual,
-  swap
+  swap,
 } from '../utils';
 import selected from './reducers/selected';
 import focus from './reducers/focus';
 import history from './reducers/history';
-import {CONFIG_SET_PER_PAGE} from '../Filter/actions';
+import { CONFIG_SET_PER_PAGE } from '../Filter/actions';
 import {
   TABLE_EDITOR_LOAD_START,
   TABLE_EDITOR_LOAD_SUCCESS,
@@ -37,23 +37,23 @@ import {
   UPDATE_TABLE_EDITOR_ROWS,
   INSERT_DATA,
   SET_TRAIT_FILTERS_DISPLAYING,
-  SET_PRODUCT_PROPORTIES_DISPLAYING
+  SET_PRODUCT_PROPORTIES_DISPLAYING,
 } from './actions';
 
 const initialState = {
   columns: [],
   checked: [],
-  isLoaded: false
+  isLoaded: false,
 };
 
 function changePhotoColumnData(sourceRowId, destinationCell) {
   const cell = {
     ...destinationCell,
     common: {
-      ...destinationCell.common
-    }
+      ...destinationCell.common,
+    },
   };
-  cell.common.images = cell.common.images.map(image => ({...image, id: -1}));
+  cell.common.images = cell.common.images.map((image) => ({ ...image, id: -1 }));
   if (sourceRowId !== -1) {
     cell['copy_from'] = sourceRowId;
   }
@@ -88,10 +88,10 @@ function getCopyVars(lowerCell, upperCell, cellDragged) {
     },
     nextRow() {
       if (isDraggingDown) {
-        this.rowNum++;
+        this.rowNum += 1;
         this.rowOffset = (this.rowOffset + 1) % selectionHeight;
       } else {
-        this.rowNum--;
+        this.rowNum -= 1;
         this.rowOffset = ((this.rowOffset - 1) + selectionHeight) % selectionHeight;
       }
     },
@@ -103,7 +103,7 @@ export default (state = initialState, action) => {
     case TABLE_EDITOR_LOAD_START:
       return {
         ...state,
-        isLoaded: false
+        isLoaded: false,
       };
 
     case TABLE_EDITOR_LOAD_SUCCESS:
@@ -113,15 +113,15 @@ export default (state = initialState, action) => {
         new_row: action.payload.new_row,
         total: action.payload.total,
         isLoaded: true,
-        history: history(state.history, action)
+        history: history(state.history, action),
       };
 
     case TABLE_EDITOR_SET_CHECK:
       return {
         ...state,
-        checked: action.payload.checked ?
-          [...state.checked, action.payload.id] :
-          state.checked.filter(id => id !== action.payload.id)
+        checked: action.payload.checked
+          ? [...state.checked, action.payload.id]
+          : state.checked.filter((id) => id !== action.payload.id),
       };
 
     case TABLE_EDITOR_SET_CHECK_ALL_RESET:
@@ -134,11 +134,16 @@ export default (state = initialState, action) => {
     case TABLE_EDITOR_SET_CHECK_ALL:
       return {
         ...state,
-        checked: action.payload.checked ? action.payload.id : []
+        checked: action.payload.checked ? action.payload.id : [],
       };
 
     case TABLE_EDITOR_CELL_SELECT_END: {
-      const {cellFrom, cellTo, cellDragged, isDragging} = state.selected;
+      const {
+        cellFrom,
+        cellTo,
+        cellDragged,
+        isDragging,
+      } = state.selected;
       const [lowerCell, upperCell] = swap(cellFrom, cellTo, cellFrom.row < cellTo.row);
       let newRows = null;
 
@@ -153,16 +158,16 @@ export default (state = initialState, action) => {
         }
       }
 
-      return {...state, selected: selected(state.selected, action), history: history({...state.history, newRows}, action)};
+      return { ...state, selected: selected(state.selected, action), history: history({ ...state.history, newRows }, action) };
     }
 
     case TABLE_EDITOR_CELL_SELECT_START:
-      return {...state, selected: selected(state.selected, action), focus: focus(state.focus, action)};
+      return { ...state, selected: selected(state.selected, action), focus: focus(state.focus, action) };
 
     case TABLE_EDITOR_CELL_SELECT_CONTINUE:
     case TABLE_EDITOR_CELL_START_DRAG:
     case TABLE_EDITOR_CELL_SELECT_RESET:
-      return {...state, selected: selected(state.selected, action)};
+      return { ...state, selected: selected(state.selected, action) };
 
     case TABLE_EDITOR_START_TEXT_EDIT:
     case TABLE_EDITOR_END_TEXT_EDIT:
@@ -172,7 +177,7 @@ export default (state = initialState, action) => {
     case TABLE_EDITOR_CELL_FOCUS_UP:
     case TABLE_EDITOR_CELL_FOCUS_SET:
     case TABLE_EDITOR_ROW_ADD_ID:
-      return {...state, focus: focus(state.focus, action), history: history(state.history, action)};
+      return { ...state, focus: focus(state.focus, action), history: history(state.history, action) };
 
     case TABLE_EDITOR_ROW_REMOVE:
     case TABLE_EDITOR_SET_TEXT:
@@ -185,17 +190,17 @@ export default (state = initialState, action) => {
     case UPDATE_TABLE_EDITOR_ROWS:
     case SET_TRAIT_FILTERS_DISPLAYING:
     case SET_PRODUCT_PROPORTIES_DISPLAYING:
-      return {...state, history: history(state.history, action)};
+      return { ...state, history: history(state.history, action) };
 
     case INSERT_DATA: {
-      const {focus: {activeCell, activeRow}, selected: {cellFrom, cellTo}, history: historyState} = state;
+      const { focus: { activeCell, activeRow }, selected: { cellFrom, cellTo }, history: historyState } = state;
       const newRows = cloneDeep(historyState.current);
       let columnName;
       let rowNumber;
 
       if (activeCell && activeRow) {
         columnName = activeCell;
-        rowNumber = newRows.findIndex(row => row.check.common.id === activeRow);
+        rowNumber = newRows.findIndex((row) => row.check.common.id === activeRow);
       } else if (Object.keys(cellFrom).length && Object.keys(cellTo).length) {
         rowNumber = Math.min(cellFrom.row, cellTo.row);
         columnName = Object.keys(newRows[rowNumber])[cellFrom.column];
@@ -219,7 +224,7 @@ export default (state = initialState, action) => {
         return !!row;
       });
 
-      return {...state, history: history({...historyState, newRows}, action)};
+      return { ...state, history: history({ ...historyState, newRows }, action) };
     }
 
     default:
@@ -227,7 +232,7 @@ export default (state = initialState, action) => {
         ...state,
         history: history(state.history, action),
         focus: focus(state.focus, action),
-        selected: selected(state.selected, action)
+        selected: selected(state.selected, action),
       };
   }
 };

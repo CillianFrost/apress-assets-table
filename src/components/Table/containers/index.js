@@ -8,5 +8,5 @@ export {
   PopupProportiesCellContainer,
   SelectCellContainer,
   TextCellCkEditor,
-  TextCellEditor
+  TextCellEditor,
 };

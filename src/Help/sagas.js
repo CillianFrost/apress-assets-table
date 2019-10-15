@@ -1,6 +1,6 @@
-import {call, put} from 'redux-saga/effects';
-import {HELP_LOAD_SUCCESS} from './actions';
-import {api} from '../utils';
+import { call, put } from 'redux-saga/effects';
+import { HELP_LOAD_SUCCESS } from './actions';
+import { api } from '../utils';
 
 const objToParams = (obj) => {
   const params = [];
@@ -12,9 +12,9 @@ const objToParams = (obj) => {
 
 const getHelp = () =>
   api.get(`${app.config.help.url}?${objToParams(app.config.help.data)}`)
-    .then(response => response.data);
+    .then((response) => response.data);
 
 export default function* loadHelp() {
   const help = yield call(getHelp);
-  yield put({type: HELP_LOAD_SUCCESS, payload: help.hints});
+  yield put({ type: HELP_LOAD_SUCCESS, payload: help.hints });
 }

@@ -8,37 +8,37 @@ export const TREE_MOVE_NODE = 'TREE_MOVE_NODE';
 export const TREE_MOVE_NODE_REQUEST = 'TREE_MOVE_NODE_REQUEST';
 export const REMOVE_NODE = 'REMOVE_NODE';
 
-export const setExpanded = payload => ({
+export const setExpanded = (payload) => ({
   type: TREE_SET_EXPANDED,
-  payload
+  payload,
 });
 
-export const load = payload => ({
+export const load = (payload) => ({
   type: TREE_LOAD_START,
-  payload
+  payload,
 });
 
-export const update = payload => ({
+export const update = (payload) => ({
   type: TREE_UPDATE_START,
-  payload
+  payload,
 });
 
-export const setNode = payload => ({
+export const setNode = (payload) => ({
   type: TREE_SET_NODE,
-  payload
+  payload,
 });
 
-export const moveNodeRequest = payload => ({
+export const moveNodeRequest = (payload) => ({
   type: TREE_MOVE_NODE_REQUEST,
-  payload
+  payload,
 });
 
-export const moveNode = payload => ({
+export const moveNode = (payload) => ({
   type: TREE_MOVE_NODE,
-  payload
+  payload,
 });
 
-export const removeNode = payload => ({
+export const removeNode = (payload) => ({
   type: REMOVE_NODE,
-  payload
+  payload,
 });

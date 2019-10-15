@@ -4,22 +4,35 @@ import classNames from 'classnames';
 import ProportiesForm from './ProportiesForm';
 
 import PseudoLink from '../../PseudoLink';
-import {popupProportiesCellViewPropType} from '../propTypes';
+import { popupProportiesCellViewPropType } from '../propTypes';
 import '../styles/table.scss';
 
 
 function PopupProportiesCellView(props) {
-  const {isEdit, isFocus, classMix, setEditState, activeOption} = props;
+  const {
+    isEdit,
+    isFocus,
+    classMix,
+    setEditState,
+    activeOption,
+  } = props;
+
   const selectCellClassNames = classNames('e-table-cell', {
     'is-focus': isFocus,
     'is-edit': isEdit,
-    [`is-${classMix}`]: true
+    [`is-${classMix}`]: true,
   });
   const text = activeOption.length ? activeOption : 'Указать вес и габариты';
   return (
     <div className={selectCellClassNames}>
       {isEdit ? (
-        <ProportiesForm {...props} />
+        <ProportiesForm
+          isEdit={isEdit}
+          isFocus={isFocus}
+          classMix={classMix}
+          setEditState={setEditState}
+          activeOption={activeOption}
+        />
       ) : (
         <PseudoLink text={text} onClick={() => setEditState(true)} />
       )}

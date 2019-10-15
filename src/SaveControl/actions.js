@@ -7,20 +7,20 @@ export const SUCCESS_REMOVE_MESSAGE = 'SUCCESS_REMOVE_MESSAGE';
 
 
 export const saveStart = () => ({
-  type: SAVE_START
+  type: SAVE_START,
 });
 
 export const saveSuccess = (payload = {}) => ({
   type: SAVE_SUCCESS,
-  payload
+  payload,
 });
 
-export const saveCreateDiff = payload => ({
+export const saveCreateDiff = (payload) => ({
   type: SAVE_CREATE_DIFF,
-  payload
+  payload,
 });
 
-export const continueSave = payload => ({
+export const continueSave = (payload) => ({
   type: CONTINUE_SAVE,
-  payload
+  payload,
 });

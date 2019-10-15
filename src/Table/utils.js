@@ -9,7 +9,7 @@ import {
 
 export function mapFocusProps(focus, ownProps) {
   return ({
-    focus: focus.activeRow === ownProps.cell.name && focus.activeCell === ownProps.cell.id
+    focus: focus.activeRow === ownProps.cell.name && focus.activeCell === ownProps.cell.id,
   });
 }
 

@@ -1,23 +1,31 @@
 import React from 'react';
 
-import {urlFieldwPropType} from '../propTypes';
+import urlFieldwPropType from '../propTypes';
 import '../styles/url-field.scss';
 
 
-function UrlFieldView({value, placeholder, disabled, onButtonClick, onChange}) {
+function UrlFieldView({
+  value,
+  placeholder,
+  disabled,
+  onButtonClick,
+  onChange,
+}) {
   return (
-    <div className='url-field-wrapper'>
+    <div className="url-field-wrapper">
       <input
-        className='url-field'
+        className="url-field"
         value={value}
         placeholder={placeholder}
         disabled={disabled}
         onChange={onChange}
       />
       <button
-        className='button'
+        className="button"
+        type="button"
         onClick={() => onButtonClick(value)}
         disabled={disabled}
+        aria-label="url"
       />
     </div>
   );
@@ -28,7 +36,7 @@ UrlFieldView.propTypes = urlFieldwPropType;
 UrlFieldView.defaultProps = {
   value: '',
   onChange: () => {},
-  onButtonClick: () => {}
+  onButtonClick: () => {},
 };
 
 export default UrlFieldView;

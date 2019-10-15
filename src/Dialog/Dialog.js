@@ -9,13 +9,15 @@ class Dialog extends React.Component {
   }
 
   render() {
+    const { children } = this.props;
+
     return (
       <RcDialog
-        animation='slide-fade'
-        maskAnimation='fade'
+        animation="slide-fade"
+        maskAnimation="fade"
         {...this.props}
       >
-        {this.props.children}
+        {children}
       </RcDialog>
     );
   }

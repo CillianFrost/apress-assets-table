@@ -1,15 +1,18 @@
 /* eslint no-console: 0 */
 import React from 'react';
-import {Option} from 'rc-select';
+import { Option } from 'rc-select';
 import 'rc-select/assets/index.css';
 import './e-select.scss';
 import ComboSelect from './ComboSelect';
 
 
 class ComboSelectExample extends React.Component {
-  state = {
-    destroy: false,
-    value: String(9),
+  constructor(props) {
+    super(props);
+    this.state = {
+      destroy: false,
+      value: String(9),
+    };
   }
 
   onChange = (e) => {
@@ -40,27 +43,30 @@ class ComboSelectExample extends React.Component {
   }
 
   render() {
-    if (this.state.destroy) {
+    const { destroy, value } = this.state;
+
+    if (destroy) {
       return null;
     }
     return (
       <div>
 
         <h3>
-          ComboSelect: Based on: {' '}
+          ComboSelect: Based on:
+          {' '}
           <a
-            rel='noreferrer noopener' target='_blank'
-            href='https://github.com/react-component/select'
+            rel="noreferrer noopener"
+            target="_blank"
+            href="https://github.com/react-component/select"
           >
-          rc-select
-        </a>
+            rc-select
+          </a>
         </h3>
 
         <ComboSelect
-          value={this.state.value}
-          placeholder='placeholder'
-          dropdownMenuStyle={{maxHeight: 200, overflow: 'auto'}}
-          style={{width: 85}}
+          value={value}
+          placeholder="placeholder"
+          style={{ width: 85 }}
           onBlur={this.onBlur}
           onFocus={this.onFocus}
             // optionLabelProp="children"
@@ -68,31 +74,7 @@ class ComboSelectExample extends React.Component {
           onChange={this.onChange}
           showSearch={false}
         >
-          <Option value='01' text='jack' title='jack'>
-            <b
-              style={{
-                color: 'red',
-              }}
-            >
-                jack
-              </b>
-          </Option>
-          <Option value='11' text='lucy'>lucy</Option>
-          <Option value='21' disabled text='disabled'>disabled</Option>
-          <Option value='31' text='yiminghe'>yiminghe</Option>
-          {[0, 1, 2, 3, 4, 5, 6, 7, 8, 9].map(i => <Option key={i} text={String(i)}>{i}</Option>)}
-        </ComboSelect>
-        {' '}
-        <ComboSelect
-          placeholder='Сделай выбор'
-          // dropdownMenuStyle={{maxHeight: 200, overflow: 'auto'}}
-          value={this.state.value}
-          style={{width: 155}}
-          onBlur={this.onBlur}
-          onFocus={this.onFocus}
-          onChange={this.onChange}
-        >
-          <Option value='01' text='jack' title='jack'>
+          <Option value="01" text="jack" title="jack">
             <b
               style={{
                 color: 'red',
@@ -101,13 +83,41 @@ class ComboSelectExample extends React.Component {
               jack
             </b>
           </Option>
-          <Option value='11' text='lucy'>lucy</Option>
-          <Option value='21' disabled text='disabled'>disabled</Option>
-          <Option value='31' text='yiminghe'>yiminghead</Option>
-          {[0, 1, 2, 3, 4, 5, 6, 7, 8, 9].map(i => <Option key={i} text={String(i)}>{i}</Option>)}
+          <Option value="11" text="lucy">lucy</Option>
+          <Option value="21" disabled text="disabled">disabled</Option>
+          <Option value="31" text="yiminghe">yiminghe</Option>
+          {[0, 1, 2, 3, 4, 5, 6, 7, 8, 9].map((i) => <Option key={i} text={String(i)}>{i}</Option>)}
+        </ComboSelect>
+        {' '}
+        <ComboSelect
+          placeholder="Сделай выбор"
+          value={value}
+          style={{ width: 155 }}
+          onBlur={this.onBlur}
+          onFocus={this.onFocus}
+          onChange={this.onChange}
+        >
+          <Option value="01" text="jack" title="jack">
+            <b
+              style={{
+                color: 'red',
+              }}
+            >
+              jack
+            </b>
+          </Option>
+          <Option value="11" text="lucy">lucy</Option>
+          <Option value="21" disabled text="disabled">disabled</Option>
+          <Option value="31" text="yiminghe">yiminghead</Option>
+          {[0, 1, 2, 3, 4, 5, 6, 7, 8, 9].map((i) => <Option key={i} text={String(i)}>{i}</Option>)}
         </ComboSelect>
         <p>
-          <button onClick={this.onDestroy}>destroy</button>
+          <button
+            onClick={this.onDestroy}
+            type="button"
+          >
+            destroy
+          </button>
         </p>
       </div>
     );

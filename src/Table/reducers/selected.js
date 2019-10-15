@@ -5,7 +5,7 @@ const initialState = {
   isDragging: false,
   cellFrom: {},
   cellTo: {},
-  cellDragged: {}
+  cellDragged: {},
 };
 
 export default (state = initialState, action) => {
@@ -15,11 +15,11 @@ export default (state = initialState, action) => {
         ...state,
         cellFrom: {
           row: action.payload.row,
-          column: action.payload.column
+          column: action.payload.column,
         },
         cellTo: {
           row: action.payload.row,
-          column: action.payload.column
+          column: action.payload.column,
         },
         isSelecting: true,
       };
@@ -37,7 +37,7 @@ export default (state = initialState, action) => {
           ...state,
           cellTo: {
             row: action.payload.row,
-            column: state.cellFrom.column
+            column: state.cellFrom.column,
           },
         };
       }
@@ -46,7 +46,7 @@ export default (state = initialState, action) => {
           ...state,
           cellDragged: {
             row: action.payload.row,
-            column: state.cellFrom.column
+            column: state.cellFrom.column,
           },
         };
       }
@@ -59,8 +59,8 @@ export default (state = initialState, action) => {
         isDragging: true,
         cellDragged: {
           row: action.payload.row,
-          column: state.cellFrom.column
-        }
+          column: state.cellFrom.column,
+        },
       };
 
     case types.TABLE_EDITOR_CELL_SELECT_RESET:

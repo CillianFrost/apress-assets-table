@@ -155,9 +155,9 @@
       textarea { height: 100%; padding: 20px; }
     }
     ~ .cke:after,
-    &:after { content: attr(data-charactersLeft); position: absolute; right: 10px; bottom: 10px; font-size: 12px; }
-    ~.cke[data-charactersLeft='0']:after,
-    &[data-charactersLeft='0']:after { color: #dc6263; }
+    &:after { content: attr(data-charactersleft); position: absolute; right: 10px; bottom: 10px; font-size: 12px; }
+    ~.cke[data-charactersleft='0']:after,
+    &[data-charactersleft='0']:after { color: #dc6263; }
     ~ .cke {
       width: 707px; padding: 0; border: 1px solid #b6b6b6; height: auto; max-height: 5000px;
       &:after { bottom: 4px; }
