@@ -1,0 +1,48 @@
+body {
+  font-family: "OpenSans";
+  margin: 0;
+}
+a,
+a:visited {
+  color: #028dd8;
+}
+a:hover {
+  color: #00a6ff;
+}
+button {
+  outline: none;
+}
+.example-wrapper {
+  margin: 50px;
+}
+.example-wrapper-table {
+  width: 1570px;
+  height: 448px;
+  overflow: auto;
+}
+.example-wrapper-tree {
+  width: 310px;
+  height: 500px;
+  margin: 50px;
+}
+.example-wrapper-help {
+  position: relative;
+  width: 100%;
+}
+.example-test-box {
+  border: 1px solid black;
+}
+.example-table {
+  width: 1570px;
+  height: 748px;
+  margin: 50px;
+}
+.example-float-panel {
+  width: 310px;
+  height: 200px;
+  margin: 50px;
+}
+.example-just-inline-block {
+  display: inline-block;
+  vertical-align: middle;
+}

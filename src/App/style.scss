@@ -6,7 +6,7 @@ button { outline: none; }
 .example {
   &-wrapper {
     margin: 50px;
-    &-table { width: 1570px; height: 448px; }
+    &-table { width: 1570px; height: 448px; overflow: auto; }
     &-tree { width: 310px; height: 500px; margin: 50px; }
   }
   &-wrapper-help { position: relative; width: 100%; }

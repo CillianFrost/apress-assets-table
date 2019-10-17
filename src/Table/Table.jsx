@@ -121,9 +121,6 @@ class Table extends Component {
         {table.isLoaded ?
           <div
             className={b('wrapper')}
-            style={{
-              width: this.$node.clientWidth + scrollLeft
-            }}
           >
             <div className={b('header')}>
               <Header

@@ -4,7 +4,7 @@
 
 .e-table {
   $root: &;
-  box-sizing: border-box; border: 1px solid #e0e0e0; height: 100%; overflow-x: auto; overflow-y: hidden;
+  box-sizing: border-box; border: 1px solid #e0e0e0;
   &-wrapper { min-width: 100%; position: relative; height: 100%; display: inline-block; }
   &-header-cell {
     box-sizing: border-box; padding: 0 20px; font: 300 13px/1 'OpenSans'; text-align: left; color: #1f2532;
@@ -29,7 +29,7 @@
       &:before { @include cloud-upload-icon(#61656f); content: ''; display: block; width: 32px; height: 32px; margin-right: 25px; }
     }
   }
-  &-body { display: block; overflow-y: auto; overflow-x: hidden; width: 100%; height: calc(100% - 40px); }
+  &-body { display: block; overflow-y: hidden; overflow-x: hidden; width: 100%; }
   &-cell {
     cursor: pointer; outline: none; user-select: none; font-size: 12px; color: #1f2532; height: 80px; box-sizing: border-box; padding: 10px 20px; text-align: left; position: relative; display: flex; align-items: center;
     &:before { border: 1px solid rgba(255, 255, 255, 0); content: ''; transition: border .5s; z-index: 1; position: absolute; top: 0px; left: 0px; right: 0px; bottom: -2px; }
@@ -248,6 +248,6 @@
       padding: 20px; height: 100px;
       &.is-check { padding: 20px 14px 20px 30px; }
     }
-    &-body { height: calc(100% - 60px); }
+    // &-body { height: calc(100% - 60px); }
   }
 }
