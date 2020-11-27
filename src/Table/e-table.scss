@@ -31,7 +31,7 @@
   }
   &-body { display: block; overflow-y: hidden; overflow-x: hidden; width: 100%; }
   &-cell {
-    cursor: pointer; outline: none; user-select: none; font-size: 12px; color: #1f2532; height: 80px; box-sizing: border-box; padding: 10px 20px; text-align: left; position: relative; display: flex; align-items: center;
+    cursor: pointer; outline: none; user-select: none; font-size: 12px; color: blue; height: 80px; box-sizing: border-box; padding: 10px 20px; text-align: left; position: relative; display: flex; align-items: center;
     &:before { border: 1px solid rgba(255, 255, 255, 0); content: ''; transition: border .5s; z-index: 1; position: absolute; top: 0px; left: 0px; right: 0px; bottom: -2px; }
     &:hover {
       &:before { pointer-events: none; content: ''; border: solid 1px #e3b61c; position: absolute; top: 0; left: 0; right: 0; bottom: 0; }

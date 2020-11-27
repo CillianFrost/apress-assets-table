@@ -219,8 +219,7 @@ class Body extends Component {
           <div
             className='row-image-dropzone'
             style={{
-              width: tableContainer ? tableContainer.offsetWidth - 6 : '100%',
-              left: scrollLeft
+              width: '100%'
             }}
           >
             Перетащите картинку в эту область

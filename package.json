@@ -81,7 +81,7 @@
     "clean-webpack-plugin": "^0.1.15",
     "extract-text-webpack-plugin": "^2.1.0",
     "lodash": "^4.17.4",
-    "node-sass": "^4.5.3",
+    "node-sass": "^4.12.0",
     "pluralize-ru": "^1.0.1",
     "prop-types": "^15.5.10",
     "rc-dialog": "^6.5.8",

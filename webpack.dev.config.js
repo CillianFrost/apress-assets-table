@@ -20,47 +20,49 @@ const config = {
     publicPath: '/static/',
   },
   module: {
-    rules: [{
-      enforce: 'pre',
-      test: /\.js|jsx$/,
-      exclude: /node_modules/,
-      use: ['eslint-loader'],
-    },
-    {
-      test: /\.js|jsx$/,
-      exclude: /node_modules/,
-      use: ['react-hot-loader', 'babel-loader'],
-    },
-    {
-      test: /\.scss|.sass$/,
-      use: [
-        {
-          loader: 'style-loader'
-        },
-        {
-          loader: 'css-loader?sourceMap'
-        },
-        {
-          loader: 'sass-loader?sourceMap',
-          options: {
-            functions: {
-              'encode-base64($string)': ($string) => {
-                const buffer = new Buffer($string.getValue());
-                return nodeSass.types.String(buffer.toString('base64'));
-              }
-            },
+    rules: [
+      /* {
+        enforce: 'pre',
+        test: /\.js|jsx$/,
+        exclude: /node_modules/,
+        use: ['eslint-loader'],
+      }, */
+      {
+        test: /\.js|jsx$/,
+        exclude: /node_modules/,
+        use: ['react-hot-loader', 'babel-loader'],
+      },
+      {
+        test: /\.scss|.sass$/,
+        use: [
+          {
+            loader: 'style-loader'
+          },
+          {
+            loader: 'css-loader?sourceMap'
+          },
+          {
+            loader: 'sass-loader?sourceMap',
+            options: {
+              functions: {
+                'encode-base64($string)': ($string) => {
+                  const buffer = new Buffer($string.getValue());
+                  return nodeSass.types.String(buffer.toString('base64'));
+                }
+              },
+            }
           }
-        }
-      ],
-    },
-    {
-      test: /\.css$/,
-      use: ['style-loader', 'css-loader?sourceMap'],
-    },
-    {
-      test: /\.woff$/,
-      use: 'url-loader?limit=65000000&mimetype=application/font-woff2&name=public/fonts/[name].[ext]'
-    }]
+        ],
+      },
+      {
+        test: /\.css$/,
+        use: ['style-loader', 'css-loader?sourceMap'],
+      },
+      {
+        test: /\.woff$/,
+        use: 'url-loader?limit=65000000&mimetype=application/font-woff2&name=public/fonts/[name].[ext]'
+      }
+    ]
   },
   resolve: {
     extensions: ['.js', '.jsx', '.css', '.scss'],
