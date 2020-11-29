@@ -165,3 +165,8 @@
   $svg-string: encode-base64('<svg fill="#{$color}" width="1792" height="1792" viewBox="0 0 1792 1792" xmlns="http://www.w3.org/2000/svg"><path d="M1490 1322q0 40-28 68l-136 136q-28 28-68 28t-68-28l-294-294-294 294q-28 28-68 28t-68-28l-136-136q-28-28-28-68t28-68l294-294-294-294q-28-28-28-68t28-68l136-136q28-28 68-28t68 28l294 294 294-294q28-28 68-28t68 28l136 136q28 28 28 68t-28 68l-294 294 294 294q28 28 28 68z"/></svg>');
   background: url("data:image/svg+xml;base64,#{$svg-string}") 50% / contain no-repeat;
 }
+
+@mixin close-icon-light($color: #000) {
+  $svg-string: encode-base64('<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M15.4718 16L0.52832 0.546369L1.05665 0L16.0001 15.4536L15.4718 16Z" fill="#808080"/><path fill-rule="evenodd" clip-rule="evenodd" d="M0.52833 16L15.4718 0.546369L14.9434 0L0 15.4536L0.52833 16Z" fill="#808080"/></svg>');
+  background: url("data:image/svg+xml;base64,#{$svg-string}") 50% / contain no-repeat;
+}

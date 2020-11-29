@@ -14,10 +14,12 @@
   &.is-checked {
     @include check-icon($color: #a3bd49);
   }
+  &.is-address-checked {
+    @include check-icon($color: #61656f);
+  }
   &.is-radio {
     border-radius: 100px;
   }
-
   &.is-related-products-check {
     @include related-products-icon(#c1c1c1);
     border: 0;

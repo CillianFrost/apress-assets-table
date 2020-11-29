@@ -9,6 +9,7 @@ import imageEditor from './reducers/imageEditor';
 import remove from './remove/reducer';
 import switchCategoryView from './SwitchCategory/reducer';
 import onlineStoreImport from './reducers/onlineStoreImport';
+import paymentDelivery from './PaymentDeliveryPopup/reducers';
 
 
 export default combineReducers({
@@ -22,6 +23,7 @@ export default combineReducers({
   remove,
   switchCategoryView,
   onlineStoreImport,
+  paymentDelivery,
 
   config: () => ({})
 });

@@ -86,5 +86,9 @@
     &.is-check-related-products {
       @include cell-width(60px);
     }
+    &.is-payment-methods-unbinds,
+    &.is-delivery-methods-unbinds {
+      @include cell-width(300px);
+    }
   }
 }

@@ -10,7 +10,11 @@
 		exports["Assets-table"] = factory(require("react"), require("react-redux"), require("redux"));
 	else
 		root["Assets-table"] = factory(root["React"], root["ReactRedux"], root["Redux"]);
+<<<<<<< HEAD
 })(this, function(__WEBPACK_EXTERNAL_MODULE_0__, __WEBPACK_EXTERNAL_MODULE_10__, __WEBPACK_EXTERNAL_MODULE_64__) {
+=======
+})(this, function(__WEBPACK_EXTERNAL_MODULE_0__, __WEBPACK_EXTERNAL_MODULE_10__, __WEBPACK_EXTERNAL_MODULE_54__) {
+>>>>>>> feat: add payment and delivery popups
 return /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
 /******/ 	var installedModules = {};
@@ -76,7 +80,11 @@ return /******/ (function(modules) { // webpackBootstrap
 /******/ 	__webpack_require__.p = "";
 /******/
 /******/ 	// Load entry module and return exports
+<<<<<<< HEAD
 /******/ 	return __webpack_require__(__webpack_require__.s = 984);
+=======
+/******/ 	return __webpack_require__(__webpack_require__.s = 992);
+>>>>>>> feat: add payment and delivery popups
 /******/ })
 /************************************************************************/
 /******/ ([
@@ -118,7 +126,11 @@ var _create = __webpack_require__(256);
 
 var _create2 = _interopRequireDefault(_create);
 
+<<<<<<< HEAD
 var _typeof2 = __webpack_require__(59);
+=======
+var _typeof2 = __webpack_require__(60);
+>>>>>>> feat: add payment and delivery popups
 
 var _typeof3 = _interopRequireDefault(_typeof2);
 
@@ -149,7 +161,11 @@ exports.default = function (subClass, superClass) {
 
 exports.__esModule = true;
 
+<<<<<<< HEAD
 var _typeof2 = __webpack_require__(59);
+=======
+var _typeof2 = __webpack_require__(60);
+>>>>>>> feat: add payment and delivery popups
 
 var _typeof3 = _interopRequireDefault(_typeof2);
 
@@ -164,6 +180,10 @@ exports.default = function (self, call) {
 };
 
 /***/ }),
+<<<<<<< HEAD
+=======
+/* 4 */,
+>>>>>>> feat: add payment and delivery popups
 /* 5 */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -217,7 +237,11 @@ if (false) {
 } else {
   // By explicitly using `prop-types` you are opting into new production behavior.
   // http://fb.me/prop-types-in-prod
+<<<<<<< HEAD
   module.exports = __webpack_require__(375)();
+=======
+  module.exports = __webpack_require__(376)();
+>>>>>>> feat: add payment and delivery popups
 }
 
 
@@ -245,7 +269,11 @@ var _defineProperty2 = __webpack_require__(13);
 
 var _defineProperty3 = _interopRequireDefault(_defineProperty2);
 
+<<<<<<< HEAD
 var _lodash = __webpack_require__(368);
+=======
+var _lodash = __webpack_require__(369);
+>>>>>>> feat: add payment and delivery popups
 
 Object.defineProperty(exports, 'cloneDeep', {
   enumerable: true,
@@ -302,11 +330,19 @@ exports.inRange = inRange;
 exports.swap = swap;
 exports.getDisplayName = getDisplayName;
 
+<<<<<<< HEAD
 var _bemCn = __webpack_require__(263);
 
 var _bemCn2 = _interopRequireDefault(_bemCn);
 
 var _axios = __webpack_require__(224);
+=======
+var _bemCn = __webpack_require__(264);
+
+var _bemCn2 = _interopRequireDefault(_bemCn);
+
+var _axios = __webpack_require__(226);
+>>>>>>> feat: add payment and delivery popups
 
 var _axios2 = _interopRequireDefault(_axios);
 
@@ -404,7 +440,11 @@ var getCallback = exports.getCallback = function getCallback(callback, withCallb
 /* 8 */
 /***/ (function(module, exports, __webpack_require__) {
 
+<<<<<<< HEAD
 module.exports = { "default": __webpack_require__(269), __esModule: true };
+=======
+module.exports = { "default": __webpack_require__(270), __esModule: true };
+>>>>>>> feat: add payment and delivery popups
 
 /***/ }),
 /* 9 */
@@ -415,7 +455,11 @@ module.exports = { "default": __webpack_require__(269), __esModule: true };
 
 exports.__esModule = true;
 
+<<<<<<< HEAD
 var _assign = __webpack_require__(255);
+=======
+var _assign = __webpack_require__(180);
+>>>>>>> feat: add payment and delivery popups
 
 var _assign2 = _interopRequireDefault(_assign);
 
@@ -445,7 +489,11 @@ module.exports = __WEBPACK_EXTERNAL_MODULE_10__;
 /* 11 */
 /***/ (function(module, exports) {
 
+<<<<<<< HEAD
 var core = module.exports = { version: '2.6.11' };
+=======
+var core = module.exports = { version: '2.6.12' };
+>>>>>>> feat: add payment and delivery popups
 if (typeof __e == 'number') __e = core; // eslint-disable-line no-undef
 
 
@@ -453,7 +501,11 @@ if (typeof __e == 'number') __e = core; // eslint-disable-line no-undef
 /* 12 */
 /***/ (function(module, exports, __webpack_require__) {
 
+<<<<<<< HEAD
 var baseIsEqual = __webpack_require__(322);
+=======
+var baseIsEqual = __webpack_require__(323);
+>>>>>>> feat: add payment and delivery popups
 
 /**
  * Performs a deep comparison between two values to determine if they are
@@ -528,7 +580,11 @@ exports.default = function (obj, key, value) {
 "use strict";
 
 
+<<<<<<< HEAD
 var bind = __webpack_require__(148);
+=======
+var bind = __webpack_require__(147);
+>>>>>>> feat: add payment and delivery popups
 
 /*global toString:true*/
 
@@ -831,7 +887,12 @@ module.exports = {
 /* 16 */,
 /* 17 */,
 /* 18 */,
+<<<<<<< HEAD
 /* 19 */
+=======
+/* 19 */,
+/* 20 */
+>>>>>>> feat: add payment and delivery popups
 /***/ (function(module, exports, __webpack_require__) {
 
 var freeGlobal = __webpack_require__(164);
@@ -846,7 +907,11 @@ module.exports = root;
 
 
 /***/ }),
+<<<<<<< HEAD
 /* 20 */
+=======
+/* 21 */
+>>>>>>> feat: add payment and delivery popups
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1166,7 +1231,10 @@ var cloneableGenerator = function cloneableGenerator(generatorFunc) {
 };
 
 /***/ }),
+<<<<<<< HEAD
 /* 21 */,
+=======
+>>>>>>> feat: add payment and delivery popups
 /* 22 */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -1190,7 +1258,11 @@ $exports.store = store;
 /* 26 */
 /***/ (function(module, exports, __webpack_require__) {
 
+<<<<<<< HEAD
 module.exports = { "default": __webpack_require__(270), __esModule: true };
+=======
+module.exports = { "default": __webpack_require__(271), __esModule: true };
+>>>>>>> feat: add payment and delivery popups
 
 /***/ }),
 /* 27 */
@@ -1215,14 +1287,25 @@ if (typeof __g == 'number') __g = global; // eslint-disable-line no-undef
 
 
 /***/ }),
+<<<<<<< HEAD
 /* 29 */
+=======
+/* 29 */,
+/* 30 */
+>>>>>>> feat: add payment and delivery popups
 /***/ (function(module, exports, __webpack_require__) {
 
 var global = __webpack_require__(28);
 var core = __webpack_require__(11);
+<<<<<<< HEAD
 var ctx = __webpack_require__(119);
 var hide = __webpack_require__(47);
 var has = __webpack_require__(33);
+=======
+var ctx = __webpack_require__(118);
+var hide = __webpack_require__(47);
+var has = __webpack_require__(34);
+>>>>>>> feat: add payment and delivery popups
 var PROTOTYPE = 'prototype';
 
 var $export = function (type, name, source) {
@@ -1283,7 +1366,11 @@ module.exports = $export;
 
 
 /***/ }),
+<<<<<<< HEAD
 /* 30 */
+=======
+/* 31 */
+>>>>>>> feat: add payment and delivery popups
 /***/ (function(module, exports, __webpack_require__) {
 
 var anObject = __webpack_require__(43);
@@ -1305,9 +1392,13 @@ exports.f = __webpack_require__(27) ? Object.defineProperty : function definePro
 
 
 /***/ }),
-/* 31 */,
 /* 32 */,
+<<<<<<< HEAD
 /* 33 */
+=======
+/* 33 */,
+/* 34 */
+>>>>>>> feat: add payment and delivery popups
 /***/ (function(module, exports) {
 
 var hasOwnProperty = {}.hasOwnProperty;
@@ -1317,8 +1408,13 @@ module.exports = function (it, key) {
 
 
 /***/ }),
+<<<<<<< HEAD
 /* 34 */,
 /* 35 */
+=======
+/* 35 */,
+/* 36 */
+>>>>>>> feat: add payment and delivery popups
 /***/ (function(module, exports) {
 
 /**
@@ -1350,7 +1446,7 @@ module.exports = isArray;
 
 
 /***/ }),
-/* 36 */
+/* 37 */
 /***/ (function(module, exports) {
 
 /**
@@ -1387,7 +1483,7 @@ module.exports = isObject;
 
 
 /***/ }),
-/* 37 */
+/* 38 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1417,7 +1513,11 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 /***/ }),
+<<<<<<< HEAD
 /* 38 */
+=======
+/* 39 */
+>>>>>>> feat: add payment and delivery popups
 /***/ (function(module, exports) {
 
 module.exports = function (it) {
@@ -1426,11 +1526,19 @@ module.exports = function (it) {
 
 
 /***/ }),
+<<<<<<< HEAD
 /* 39 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var baseIsNative = __webpack_require__(324),
     getValue = __webpack_require__(336);
+=======
+/* 40 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var baseIsNative = __webpack_require__(325),
+    getValue = __webpack_require__(337);
+>>>>>>> feat: add payment and delivery popups
 
 /**
  * Gets the native function at `key` of `object`.
@@ -1449,19 +1557,30 @@ module.exports = getNative;
 
 
 /***/ }),
+<<<<<<< HEAD
 /* 40 */,
+=======
+>>>>>>> feat: add payment and delivery popups
 /* 41 */,
 /* 42 */
 /***/ (function(module, exports, __webpack_require__) {
 
+<<<<<<< HEAD
 module.exports = __webpack_require__(261);
+=======
+module.exports = __webpack_require__(262);
+>>>>>>> feat: add payment and delivery popups
 
 
 /***/ }),
 /* 43 */
 /***/ (function(module, exports, __webpack_require__) {
 
+<<<<<<< HEAD
 var isObject = __webpack_require__(38);
+=======
+var isObject = __webpack_require__(39);
+>>>>>>> feat: add payment and delivery popups
 module.exports = function (it) {
   if (!isObject(it)) throw TypeError(it + ' is not an object!');
   return it;
@@ -1521,8 +1640,13 @@ module.exports = function (exec) {
 /* 47 */
 /***/ (function(module, exports, __webpack_require__) {
 
+<<<<<<< HEAD
 var dP = __webpack_require__(30);
 var createDesc = __webpack_require__(60);
+=======
+var dP = __webpack_require__(31);
+var createDesc = __webpack_require__(61);
+>>>>>>> feat: add payment and delivery popups
 module.exports = __webpack_require__(27) ? function (object, key, value) {
   return dP.f(object, key, createDesc(1, value));
 } : function (object, key, value) {
@@ -1572,8 +1696,13 @@ module.exports = function (it) {
 /* harmony export (immutable) */ __webpack_exports__["t"] = takeLatest;
 /* harmony export (immutable) */ __webpack_exports__["u"] = throttle;
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "w", function() { return asEffect; });
+<<<<<<< HEAD
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__utils__ = __webpack_require__(20);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__sagaHelpers__ = __webpack_require__(213);
+=======
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__utils__ = __webpack_require__(21);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__sagaHelpers__ = __webpack_require__(215);
+>>>>>>> feat: add payment and delivery popups
 
 
 
@@ -1863,8 +1992,13 @@ module.exports = function (it) {
 /***/ (function(module, exports, __webpack_require__) {
 
 var Symbol = __webpack_require__(78),
+<<<<<<< HEAD
     getRawTag = __webpack_require__(333),
     objectToString = __webpack_require__(357);
+=======
+    getRawTag = __webpack_require__(334),
+    objectToString = __webpack_require__(358);
+>>>>>>> feat: add payment and delivery popups
 
 /** `Object#toString` result references. */
 var nullTag = '[object Null]',
@@ -1893,6 +2027,7 @@ module.exports = baseGetTag;
 
 
 /***/ }),
+<<<<<<< HEAD
 /* 54 */,
 /* 55 */
 /***/ (function(module, exports) {
@@ -1911,10 +2046,38 @@ var enumBugKeys = __webpack_require__(92);
 module.exports = Object.keys || function keys(O) {
   return $keys(O, enumBugKeys);
 };
+=======
+/* 54 */
+/***/ (function(module, exports) {
+
+module.exports = __WEBPACK_EXTERNAL_MODULE_54__;
+
+/***/ }),
+/* 55 */,
+/* 56 */
+/***/ (function(module, exports) {
+>>>>>>> feat: add payment and delivery popups
+
 
 
 /***/ }),
 /* 57 */
+<<<<<<< HEAD
+=======
+/***/ (function(module, exports, __webpack_require__) {
+
+// 19.1.2.14 / 15.2.3.14 Object.keys(O)
+var $keys = __webpack_require__(158);
+var enumBugKeys = __webpack_require__(92);
+
+module.exports = Object.keys || function keys(O) {
+  return $keys(O, enumBugKeys);
+};
+
+
+/***/ }),
+/* 58 */
+>>>>>>> feat: add payment and delivery popups
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1926,9 +2089,15 @@ module.exports = Object.keys || function keys(O) {
 /* harmony export (immutable) */ __webpack_exports__["c"] = channel;
 /* harmony export (immutable) */ __webpack_exports__["b"] = eventChannel;
 /* harmony export (immutable) */ __webpack_exports__["d"] = stdChannel;
+<<<<<<< HEAD
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__utils__ = __webpack_require__(20);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__buffers__ = __webpack_require__(89);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__scheduler__ = __webpack_require__(214);
+=======
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__utils__ = __webpack_require__(21);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__buffers__ = __webpack_require__(89);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__scheduler__ = __webpack_require__(216);
+>>>>>>> feat: add payment and delivery popups
 var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
 
 
@@ -2131,8 +2300,13 @@ function stdChannel(subscribe) {
 }
 
 /***/ }),
+<<<<<<< HEAD
 /* 58 */,
 /* 59 */
+=======
+/* 59 */,
+/* 60 */
+>>>>>>> feat: add payment and delivery popups
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2159,7 +2333,11 @@ exports.default = typeof _symbol2.default === "function" && _typeof(_iterator2.d
 };
 
 /***/ }),
+<<<<<<< HEAD
 /* 60 */
+=======
+/* 61 */
+>>>>>>> feat: add payment and delivery popups
 /***/ (function(module, exports) {
 
 module.exports = function (bitmap, value) {
@@ -2173,6 +2351,7 @@ module.exports = function (bitmap, value) {
 
 
 /***/ }),
+<<<<<<< HEAD
 /* 61 */,
 /* 62 */,
 /* 63 */,
@@ -2182,6 +2361,11 @@ module.exports = function (bitmap, value) {
 module.exports = __WEBPACK_EXTERNAL_MODULE_64__;
 
 /***/ }),
+=======
+/* 62 */,
+/* 63 */,
+/* 64 */,
+>>>>>>> feat: add payment and delivery popups
 /* 65 */
 /***/ (function(module, exports) {
 
@@ -2210,11 +2394,19 @@ module.exports = function (key) {
 /* 68 */
 /***/ (function(module, exports, __webpack_require__) {
 
+<<<<<<< HEAD
 var listCacheClear = __webpack_require__(344),
     listCacheDelete = __webpack_require__(345),
     listCacheGet = __webpack_require__(346),
     listCacheHas = __webpack_require__(347),
     listCacheSet = __webpack_require__(348);
+=======
+var listCacheClear = __webpack_require__(345),
+    listCacheDelete = __webpack_require__(346),
+    listCacheGet = __webpack_require__(347),
+    listCacheHas = __webpack_require__(348),
+    listCacheSet = __webpack_require__(349);
+>>>>>>> feat: add payment and delivery popups
 
 /**
  * Creates an list cache object.
@@ -2275,7 +2467,11 @@ module.exports = assocIndexOf;
 /* 70 */
 /***/ (function(module, exports, __webpack_require__) {
 
+<<<<<<< HEAD
 var isKeyable = __webpack_require__(342);
+=======
+var isKeyable = __webpack_require__(343);
+>>>>>>> feat: add payment and delivery popups
 
 /**
  * Gets the data for `map`.
@@ -2299,7 +2495,11 @@ module.exports = getMapData;
 /* 71 */
 /***/ (function(module, exports, __webpack_require__) {
 
+<<<<<<< HEAD
 var getNative = __webpack_require__(39);
+=======
+var getNative = __webpack_require__(40);
+>>>>>>> feat: add payment and delivery popups
 
 /* Built-in method references that are verified to be native. */
 var nativeCreate = getNative(Object, 'create');
@@ -2343,7 +2543,11 @@ module.exports = g;
 /* 78 */
 /***/ (function(module, exports, __webpack_require__) {
 
+<<<<<<< HEAD
 var root = __webpack_require__(19);
+=======
+var root = __webpack_require__(20);
+>>>>>>> feat: add payment and delivery popups
 
 /** Built-in value references. */
 var Symbol = root.Symbol;
@@ -2360,7 +2564,11 @@ module.exports = Symbol;
 /***/ (function(module, exports, __webpack_require__) {
 
 // most Object methods by ES6 should accept primitives
+<<<<<<< HEAD
 var $export = __webpack_require__(29);
+=======
+var $export = __webpack_require__(30);
+>>>>>>> feat: add payment and delivery popups
 var core = __webpack_require__(11);
 var fails = __webpack_require__(46);
 module.exports = function (KEY, exec) {
@@ -2425,7 +2633,11 @@ module.exports = eq;
 "use strict";
 /* unused harmony export BUFFER_OVERFLOW */
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return buffers; });
+<<<<<<< HEAD
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__utils__ = __webpack_require__(20);
+=======
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__utils__ = __webpack_require__(21);
+>>>>>>> feat: add payment and delivery popups
 
 
 var BUFFER_OVERFLOW = "Channel's Buffer overflow!";
@@ -2537,7 +2749,11 @@ var buffers = {
 /* WEBPACK VAR INJECTION */(function(process) {
 
 var utils = __webpack_require__(15);
+<<<<<<< HEAD
 var normalizeHeaderName = __webpack_require__(239);
+=======
+var normalizeHeaderName = __webpack_require__(241);
+>>>>>>> feat: add payment and delivery popups
 
 var PROTECTION_PREFIX = /^\)\]\}',?\n/;
 var DEFAULT_CONTENT_TYPE = {
@@ -2554,10 +2770,17 @@ function getDefaultAdapter() {
   var adapter;
   if (typeof XMLHttpRequest !== 'undefined') {
     // For browsers use XHR adapter
+<<<<<<< HEAD
     adapter = __webpack_require__(144);
   } else if (typeof process !== 'undefined') {
     // For node use HTTP adapter
     adapter = __webpack_require__(144);
+=======
+    adapter = __webpack_require__(143);
+  } else if (typeof process !== 'undefined') {
+    // For node use HTTP adapter
+    adapter = __webpack_require__(143);
+>>>>>>> feat: add payment and delivery popups
   }
   return adapter;
 }
@@ -2628,7 +2851,11 @@ utils.forEach(['post', 'put', 'patch'], function forEachMethodWithData(method) {
 
 module.exports = defaults;
 
+<<<<<<< HEAD
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(374)))
+=======
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(375)))
+>>>>>>> feat: add payment and delivery popups
 
 /***/ }),
 /* 91 */
@@ -2657,7 +2884,11 @@ module.exports = (
 
 // 19.1.2.2 / 15.2.3.5 Object.create(O [, Properties])
 var anObject = __webpack_require__(43);
+<<<<<<< HEAD
 var dPs = __webpack_require__(284);
+=======
+var dPs = __webpack_require__(285);
+>>>>>>> feat: add payment and delivery popups
 var enumBugKeys = __webpack_require__(92);
 var IE_PROTO = __webpack_require__(96)('IE_PROTO');
 var Empty = function () { /* empty */ };
@@ -2672,7 +2903,11 @@ var createDict = function () {
   var gt = '>';
   var iframeDocument;
   iframe.style.display = 'none';
+<<<<<<< HEAD
   __webpack_require__(279).appendChild(iframe);
+=======
+  __webpack_require__(280).appendChild(iframe);
+>>>>>>> feat: add payment and delivery popups
   iframe.src = 'javascript:'; // eslint-disable-line no-script-url
   // createDict = iframe.contentWindow.Object;
   // html.removeChild(iframe);
@@ -2709,8 +2944,13 @@ exports.f = Object.getOwnPropertySymbols;
 /* 95 */
 /***/ (function(module, exports, __webpack_require__) {
 
+<<<<<<< HEAD
 var def = __webpack_require__(30).f;
 var has = __webpack_require__(33);
+=======
+var def = __webpack_require__(31).f;
+var has = __webpack_require__(34);
+>>>>>>> feat: add payment and delivery popups
 var TAG = __webpack_require__(22)('toStringTag');
 
 module.exports = function (it, tag, stat) {
@@ -2743,7 +2983,11 @@ var store = global[SHARED] || (global[SHARED] = {});
 })('versions', []).push({
   version: core.version,
   mode: __webpack_require__(65) ? 'pure' : 'global',
+<<<<<<< HEAD
   copyright: '© 2019 Denis Pushkarev (zloirock.ru)'
+=======
+  copyright: '© 2020 Denis Pushkarev (zloirock.ru)'
+>>>>>>> feat: add payment and delivery popups
 });
 
 
@@ -2764,7 +3008,11 @@ module.exports = function (it) {
 /***/ (function(module, exports, __webpack_require__) {
 
 // 7.1.1 ToPrimitive(input [, PreferredType])
+<<<<<<< HEAD
 var isObject = __webpack_require__(38);
+=======
+var isObject = __webpack_require__(39);
+>>>>>>> feat: add payment and delivery popups
 // instead of the ES6 spec version, we didn't implement @@toPrimitive case
 // and the second argument - flag - preferred type is a string
 module.exports = function (it, S) {
@@ -2785,7 +3033,11 @@ var global = __webpack_require__(28);
 var core = __webpack_require__(11);
 var LIBRARY = __webpack_require__(65);
 var wksExt = __webpack_require__(101);
+<<<<<<< HEAD
 var defineProperty = __webpack_require__(30).f;
+=======
+var defineProperty = __webpack_require__(31).f;
+>>>>>>> feat: add payment and delivery popups
 module.exports = function (name) {
   var $Symbol = core.Symbol || (core.Symbol = LIBRARY ? {} : global.Symbol || {});
   if (name.charAt(0) != '_' && !(name in $Symbol)) defineProperty($Symbol, name, { value: wksExt.f(name) });
@@ -2805,7 +3057,11 @@ exports.f = __webpack_require__(22);
 
 "use strict";
 
+<<<<<<< HEAD
 var $at = __webpack_require__(286)(true);
+=======
+var $at = __webpack_require__(287)(true);
+>>>>>>> feat: add payment and delivery popups
 
 // 21.1.3.27 String.prototype[@@iterator]()
 __webpack_require__(154)(String, 'String', function (iterated) {
@@ -2832,8 +3088,13 @@ __webpack_require__(154)(String, 'String', function (iterated) {
 /* 108 */
 /***/ (function(module, exports, __webpack_require__) {
 
+<<<<<<< HEAD
 var getNative = __webpack_require__(39),
     root = __webpack_require__(19);
+=======
+var getNative = __webpack_require__(40),
+    root = __webpack_require__(20);
+>>>>>>> feat: add payment and delivery popups
 
 /* Built-in method references that are verified to be native. */
 var Map = getNative(root, 'Map');
@@ -2845,9 +3106,15 @@ module.exports = Map;
 /* 109 */
 /***/ (function(module, exports, __webpack_require__) {
 
+<<<<<<< HEAD
 var MapCache = __webpack_require__(124),
     setCacheAdd = __webpack_require__(358),
     setCacheHas = __webpack_require__(359);
+=======
+var MapCache = __webpack_require__(123),
+    setCacheAdd = __webpack_require__(359),
+    setCacheHas = __webpack_require__(360);
+>>>>>>> feat: add payment and delivery popups
 
 /**
  *
@@ -2941,7 +3208,11 @@ module.exports = isArrayLike;
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return qEnd; });
 /* harmony export (immutable) */ __webpack_exports__["c"] = safeName;
 /* harmony export (immutable) */ __webpack_exports__["a"] = fsmIterator;
+<<<<<<< HEAD
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__utils__ = __webpack_require__(20);
+=======
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__utils__ = __webpack_require__(21);
+>>>>>>> feat: add payment and delivery popups
 
 
 var done = { done: true, value: undefined };
@@ -3023,8 +3294,7 @@ module.exports = function(module) {
 /***/ }),
 /* 115 */,
 /* 116 */,
-/* 117 */,
-/* 118 */
+/* 117 */
 /***/ (function(module, exports) {
 
 var toString = {}.toString;
@@ -3035,11 +3305,15 @@ module.exports = function (it) {
 
 
 /***/ }),
-/* 119 */
+/* 118 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // optional / simple context binding
+<<<<<<< HEAD
 var aFunction = __webpack_require__(274);
+=======
+var aFunction = __webpack_require__(275);
+>>>>>>> feat: add payment and delivery popups
 module.exports = function (fn, that, length) {
   aFunction(fn);
   if (that === undefined) return fn;
@@ -3061,18 +3335,29 @@ module.exports = function (fn, that, length) {
 
 
 /***/ }),
+<<<<<<< HEAD
+=======
+/* 119 */,
+>>>>>>> feat: add payment and delivery popups
 /* 120 */,
 /* 121 */,
 /* 122 */,
-/* 123 */,
-/* 124 */
+/* 123 */
 /***/ (function(module, exports, __webpack_require__) {
 
+<<<<<<< HEAD
 var mapCacheClear = __webpack_require__(349),
     mapCacheDelete = __webpack_require__(350),
     mapCacheGet = __webpack_require__(351),
     mapCacheHas = __webpack_require__(352),
     mapCacheSet = __webpack_require__(353);
+=======
+var mapCacheClear = __webpack_require__(350),
+    mapCacheDelete = __webpack_require__(351),
+    mapCacheGet = __webpack_require__(352),
+    mapCacheHas = __webpack_require__(353),
+    mapCacheSet = __webpack_require__(354);
+>>>>>>> feat: add payment and delivery popups
 
 /**
  * Creates a map cache object to store key-value pairs.
@@ -3103,6 +3388,7 @@ module.exports = MapCache;
 
 
 /***/ }),
+/* 124 */,
 /* 125 */,
 /* 126 */,
 /* 127 */,
@@ -3110,10 +3396,17 @@ module.exports = MapCache;
 /* 129 */
 /***/ (function(module, exports, __webpack_require__) {
 
+<<<<<<< HEAD
 __webpack_require__(289);
 var global = __webpack_require__(28);
 var hide = __webpack_require__(47);
 var Iterators = __webpack_require__(55);
+=======
+__webpack_require__(290);
+var global = __webpack_require__(28);
+var hide = __webpack_require__(47);
+var Iterators = __webpack_require__(56);
+>>>>>>> feat: add payment and delivery popups
 var TO_STRING_TAG = __webpack_require__(22)('toStringTag');
 
 var DOMIterables = ('CSSRuleList,CSSStyleDeclaration,CSSValueList,ClientRectList,DOMRectList,DOMStringList,' +
@@ -3135,8 +3428,12 @@ for (var i = 0; i < DOMIterables.length; i++) {
 /* 130 */,
 /* 131 */,
 /* 132 */,
+<<<<<<< HEAD
 /* 133 */,
 /* 134 */
+=======
+/* 133 */
+>>>>>>> feat: add payment and delivery popups
 /***/ (function(module, exports) {
 
 /**
@@ -3156,7 +3453,11 @@ module.exports = baseUnary;
 
 
 /***/ }),
+<<<<<<< HEAD
 /* 135 */
+=======
+/* 134 */
+>>>>>>> feat: add payment and delivery popups
 /***/ (function(module, exports) {
 
 /**
@@ -3180,12 +3481,17 @@ module.exports = setToArray;
 
 
 /***/ }),
+<<<<<<< HEAD
 /* 136 */,
 /* 137 */
+=======
+/* 135 */,
+/* 136 */
+>>>>>>> feat: add payment and delivery popups
 /***/ (function(module, exports, __webpack_require__) {
 
-var debounce = __webpack_require__(207),
-    isObject = __webpack_require__(36);
+var debounce = __webpack_require__(208),
+    isObject = __webpack_require__(37);
 
 /** Error message constants. */
 var FUNC_ERROR_TEXT = 'Expected a function';
@@ -3256,25 +3562,42 @@ module.exports = throttle;
 
 
 /***/ }),
+<<<<<<< HEAD
+=======
+/* 137 */,
+>>>>>>> feat: add payment and delivery popups
 /* 138 */,
 /* 139 */,
 /* 140 */,
 /* 141 */,
 /* 142 */,
+<<<<<<< HEAD
 /* 143 */,
 /* 144 */
+=======
+/* 143 */
+>>>>>>> feat: add payment and delivery popups
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
 var utils = __webpack_require__(15);
+<<<<<<< HEAD
 var settle = __webpack_require__(231);
 var buildURL = __webpack_require__(234);
 var parseHeaders = __webpack_require__(240);
 var isURLSameOrigin = __webpack_require__(238);
 var createError = __webpack_require__(147);
 var btoa = (typeof window !== 'undefined' && window.btoa && window.btoa.bind(window)) || __webpack_require__(233);
+=======
+var settle = __webpack_require__(233);
+var buildURL = __webpack_require__(236);
+var parseHeaders = __webpack_require__(242);
+var isURLSameOrigin = __webpack_require__(240);
+var createError = __webpack_require__(146);
+var btoa = (typeof window !== 'undefined' && window.btoa && window.btoa.bind(window)) || __webpack_require__(235);
+>>>>>>> feat: add payment and delivery popups
 
 module.exports = function xhrAdapter(config) {
   return new Promise(function dispatchXhrRequest(resolve, reject) {
@@ -3370,7 +3693,11 @@ module.exports = function xhrAdapter(config) {
     // This is only done if running in a standard browser environment.
     // Specifically not if we're in a web worker, or react-native.
     if (utils.isStandardBrowserEnv()) {
+<<<<<<< HEAD
       var cookies = __webpack_require__(236);
+=======
+      var cookies = __webpack_require__(238);
+>>>>>>> feat: add payment and delivery popups
 
       // Add xsrf header
       var xsrfValue = (config.withCredentials || isURLSameOrigin(config.url)) && config.xsrfCookieName ?
@@ -3446,7 +3773,11 @@ module.exports = function xhrAdapter(config) {
 
 
 /***/ }),
+<<<<<<< HEAD
 /* 145 */
+=======
+/* 144 */
+>>>>>>> feat: add payment and delivery popups
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3472,7 +3803,11 @@ module.exports = Cancel;
 
 
 /***/ }),
+<<<<<<< HEAD
 /* 146 */
+=======
+/* 145 */
+>>>>>>> feat: add payment and delivery popups
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3484,13 +3819,21 @@ module.exports = function isCancel(value) {
 
 
 /***/ }),
+<<<<<<< HEAD
 /* 147 */
+=======
+/* 146 */
+>>>>>>> feat: add payment and delivery popups
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
+<<<<<<< HEAD
 var enhanceError = __webpack_require__(230);
+=======
+var enhanceError = __webpack_require__(232);
+>>>>>>> feat: add payment and delivery popups
 
 /**
  * Create an Error with the specified message, config, error code, and response.
@@ -3508,7 +3851,11 @@ module.exports = function createError(message, config, code, response) {
 
 
 /***/ }),
+<<<<<<< HEAD
 /* 148 */
+=======
+/* 147 */
+>>>>>>> feat: add payment and delivery popups
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3526,6 +3873,10 @@ module.exports = function bind(fn, thisArg) {
 
 
 /***/ }),
+<<<<<<< HEAD
+=======
+/* 148 */,
+>>>>>>> feat: add payment and delivery popups
 /* 149 */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -3549,13 +3900,21 @@ var helpLoadStart = exports.helpLoadStart = function helpLoadStart(payload) {
 /* 150 */
 /***/ (function(module, exports, __webpack_require__) {
 
+<<<<<<< HEAD
 module.exports = { "default": __webpack_require__(268), __esModule: true };
+=======
+module.exports = { "default": __webpack_require__(269), __esModule: true };
+>>>>>>> feat: add payment and delivery popups
 
 /***/ }),
 /* 151 */
 /***/ (function(module, exports, __webpack_require__) {
 
+<<<<<<< HEAD
 var isObject = __webpack_require__(38);
+=======
+var isObject = __webpack_require__(39);
+>>>>>>> feat: add payment and delivery popups
 var document = __webpack_require__(28).document;
 // typeof document.createElement is 'object' in old IE
 var is = isObject(document) && isObject(document.createElement);
@@ -3578,7 +3937,11 @@ module.exports = !__webpack_require__(27) && !__webpack_require__(46)(function (
 /***/ (function(module, exports, __webpack_require__) {
 
 // fallback for non-array-like ES3 and non-enumerable old V8 strings
+<<<<<<< HEAD
 var cof = __webpack_require__(118);
+=======
+var cof = __webpack_require__(117);
+>>>>>>> feat: add payment and delivery popups
 // eslint-disable-next-line no-prototype-builtins
 module.exports = Object('z').propertyIsEnumerable(0) ? Object : function (it) {
   return cof(it) == 'String' ? it.split('') : Object(it);
@@ -3592,11 +3955,19 @@ module.exports = Object('z').propertyIsEnumerable(0) ? Object : function (it) {
 "use strict";
 
 var LIBRARY = __webpack_require__(65);
+<<<<<<< HEAD
 var $export = __webpack_require__(29);
 var redefine = __webpack_require__(159);
 var hide = __webpack_require__(47);
 var Iterators = __webpack_require__(55);
 var $iterCreate = __webpack_require__(281);
+=======
+var $export = __webpack_require__(30);
+var redefine = __webpack_require__(159);
+var hide = __webpack_require__(47);
+var Iterators = __webpack_require__(56);
+var $iterCreate = __webpack_require__(282);
+>>>>>>> feat: add payment and delivery popups
 var setToStringTag = __webpack_require__(95);
 var getPrototypeOf = __webpack_require__(157);
 var ITERATOR = __webpack_require__(22)('iterator');
@@ -3666,10 +4037,17 @@ module.exports = function (Base, NAME, Constructor, next, DEFAULT, IS_SET, FORCE
 /***/ (function(module, exports, __webpack_require__) {
 
 var pIE = __webpack_require__(66);
+<<<<<<< HEAD
 var createDesc = __webpack_require__(60);
 var toIObject = __webpack_require__(48);
 var toPrimitive = __webpack_require__(99);
 var has = __webpack_require__(33);
+=======
+var createDesc = __webpack_require__(61);
+var toIObject = __webpack_require__(48);
+var toPrimitive = __webpack_require__(99);
+var has = __webpack_require__(34);
+>>>>>>> feat: add payment and delivery popups
 var IE8_DOM_DEFINE = __webpack_require__(152);
 var gOPD = Object.getOwnPropertyDescriptor;
 
@@ -3701,7 +4079,11 @@ exports.f = Object.getOwnPropertyNames || function getOwnPropertyNames(O) {
 /***/ (function(module, exports, __webpack_require__) {
 
 // 19.1.2.9 / 15.2.3.2 Object.getPrototypeOf(O)
+<<<<<<< HEAD
 var has = __webpack_require__(33);
+=======
+var has = __webpack_require__(34);
+>>>>>>> feat: add payment and delivery popups
 var toObject = __webpack_require__(51);
 var IE_PROTO = __webpack_require__(96)('IE_PROTO');
 var ObjectProto = Object.prototype;
@@ -3719,9 +4101,15 @@ module.exports = Object.getPrototypeOf || function (O) {
 /* 158 */
 /***/ (function(module, exports, __webpack_require__) {
 
+<<<<<<< HEAD
 var has = __webpack_require__(33);
 var toIObject = __webpack_require__(48);
 var arrayIndexOf = __webpack_require__(276)(false);
+=======
+var has = __webpack_require__(34);
+var toIObject = __webpack_require__(48);
+var arrayIndexOf = __webpack_require__(277)(false);
+>>>>>>> feat: add payment and delivery popups
 var IE_PROTO = __webpack_require__(96)('IE_PROTO');
 
 module.exports = function (object, names) {
@@ -3753,7 +4141,11 @@ module.exports = __webpack_require__(47);
 /***/ (function(module, exports, __webpack_require__) {
 
 var SetCache = __webpack_require__(109),
+<<<<<<< HEAD
     arraySome = __webpack_require__(317),
+=======
+    arraySome = __webpack_require__(318),
+>>>>>>> feat: add payment and delivery popups
     cacheHas = __webpack_require__(111);
 
 /** Used to compose bitmasks for value comparisons. */
@@ -3885,8 +4277,13 @@ module.exports = toSource;
 /* 166 */
 /***/ (function(module, exports, __webpack_require__) {
 
+<<<<<<< HEAD
 /* WEBPACK VAR INJECTION */(function(module) {var root = __webpack_require__(19),
     stubFalse = __webpack_require__(372);
+=======
+/* WEBPACK VAR INJECTION */(function(module) {var root = __webpack_require__(20),
+    stubFalse = __webpack_require__(373);
+>>>>>>> feat: add payment and delivery popups
 
 /** Detect free variable `exports`. */
 var freeExports = typeof exports == 'object' && exports && !exports.nodeType && exports;
@@ -3931,7 +4328,11 @@ module.exports = isBuffer;
 /***/ (function(module, exports, __webpack_require__) {
 
 var baseGetTag = __webpack_require__(53),
+<<<<<<< HEAD
     isObject = __webpack_require__(36);
+=======
+    isObject = __webpack_require__(37);
+>>>>>>> feat: add payment and delivery popups
 
 /** `Object#toString` result references. */
 var asyncTag = '[object AsyncFunction]',
@@ -4014,9 +4415,15 @@ module.exports = isLength;
 /* 169 */
 /***/ (function(module, exports, __webpack_require__) {
 
+<<<<<<< HEAD
 var baseIsTypedArray = __webpack_require__(325),
     baseUnary = __webpack_require__(134),
     nodeUtil = __webpack_require__(356);
+=======
+var baseIsTypedArray = __webpack_require__(326),
+    baseUnary = __webpack_require__(133),
+    nodeUtil = __webpack_require__(357);
+>>>>>>> feat: add payment and delivery popups
 
 /* Node.js helper references. */
 var nodeIsTypedArray = nodeUtil && nodeUtil.isTypedArray;
@@ -4055,12 +4462,28 @@ module.exports = isTypedArray;
 /* 178 */,
 /* 179 */,
 /* 180 */
+<<<<<<< HEAD
 /***/ (function(module, exports, __webpack_require__) {
 
 var META = __webpack_require__(67)('meta');
 var isObject = __webpack_require__(38);
 var has = __webpack_require__(33);
 var setDesc = __webpack_require__(30).f;
+=======
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = { "default": __webpack_require__(267), __esModule: true };
+
+/***/ }),
+/* 181 */,
+/* 182 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var META = __webpack_require__(67)('meta');
+var isObject = __webpack_require__(39);
+var has = __webpack_require__(34);
+var setDesc = __webpack_require__(31).f;
+>>>>>>> feat: add payment and delivery popups
 var id = 0;
 var isExtensible = Object.isExtensible || function () {
   return true;
@@ -4113,7 +4536,11 @@ var meta = module.exports = {
 
 
 /***/ }),
+<<<<<<< HEAD
 /* 181 */
+=======
+/* 183 */
+>>>>>>> feat: add payment and delivery popups
 /***/ (function(module, exports, __webpack_require__) {
 
 // fallback for IE11 buggy Object.getOwnPropertyNames with iframe and window
@@ -4138,7 +4565,11 @@ module.exports.f = function getOwnPropertyNames(it) {
 
 
 /***/ }),
+<<<<<<< HEAD
 /* 182 */
+=======
+/* 184 */
+>>>>>>> feat: add payment and delivery popups
 /***/ (function(module, exports, __webpack_require__) {
 
 // 7.1.15 ToLength
@@ -4150,8 +4581,11 @@ module.exports = function (it) {
 
 
 /***/ }),
+<<<<<<< HEAD
 /* 183 */,
 /* 184 */,
+=======
+>>>>>>> feat: add payment and delivery popups
 /* 185 */,
 /* 186 */,
 /* 187 */,
@@ -4164,11 +4598,20 @@ module.exports = function (it) {
 /* 194 */,
 /* 195 */,
 /* 196 */,
+<<<<<<< HEAD
 /* 197 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var getNative = __webpack_require__(39),
     root = __webpack_require__(19);
+=======
+/* 197 */,
+/* 198 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var getNative = __webpack_require__(40),
+    root = __webpack_require__(20);
+>>>>>>> feat: add payment and delivery popups
 
 /* Built-in method references that are verified to be native. */
 var Set = getNative(root, 'Set');
@@ -4177,7 +4620,7 @@ module.exports = Set;
 
 
 /***/ }),
-/* 198 */
+/* 199 */
 /***/ (function(module, exports) {
 
 /**
@@ -4208,16 +4651,24 @@ module.exports = arrayFilter;
 
 
 /***/ }),
-/* 199 */,
 /* 200 */,
-/* 201 */
+/* 201 */,
+/* 202 */
 /***/ (function(module, exports, __webpack_require__) {
 
+<<<<<<< HEAD
 var baseTimes = __webpack_require__(327),
     isArguments = __webpack_require__(208),
     isArray = __webpack_require__(35),
     isBuffer = __webpack_require__(166),
     isIndex = __webpack_require__(204),
+=======
+var baseTimes = __webpack_require__(328),
+    isArguments = __webpack_require__(209),
+    isArray = __webpack_require__(36),
+    isBuffer = __webpack_require__(166),
+    isIndex = __webpack_require__(205),
+>>>>>>> feat: add payment and delivery popups
     isTypedArray = __webpack_require__(169);
 
 /** Used for built-in method references. */
@@ -4265,8 +4716,8 @@ module.exports = arrayLikeKeys;
 
 
 /***/ }),
-/* 202 */,
-/* 203 */
+/* 203 */,
+/* 204 */
 /***/ (function(module, exports) {
 
 /**
@@ -4292,7 +4743,7 @@ module.exports = arrayPush;
 
 
 /***/ }),
-/* 204 */
+/* 205 */
 /***/ (function(module, exports) {
 
 /** Used as references for various `Number` constants. */
@@ -4323,7 +4774,7 @@ module.exports = isIndex;
 
 
 /***/ }),
-/* 205 */
+/* 206 */
 /***/ (function(module, exports) {
 
 /** Used for built-in method references. */
@@ -4347,7 +4798,7 @@ module.exports = isPrototype;
 
 
 /***/ }),
-/* 206 */
+/* 207 */
 /***/ (function(module, exports) {
 
 /**
@@ -4368,12 +4819,18 @@ module.exports = overArg;
 
 
 /***/ }),
-/* 207 */
+/* 208 */
 /***/ (function(module, exports, __webpack_require__) {
 
+<<<<<<< HEAD
 var isObject = __webpack_require__(36),
     now = __webpack_require__(370),
     toNumber = __webpack_require__(222);
+=======
+var isObject = __webpack_require__(37),
+    now = __webpack_require__(371),
+    toNumber = __webpack_require__(224);
+>>>>>>> feat: add payment and delivery popups
 
 /** Error message constants. */
 var FUNC_ERROR_TEXT = 'Expected a function';
@@ -4565,10 +5022,14 @@ module.exports = debounce;
 
 
 /***/ }),
-/* 208 */
+/* 209 */
 /***/ (function(module, exports, __webpack_require__) {
 
+<<<<<<< HEAD
 var baseIsArguments = __webpack_require__(321),
+=======
+var baseIsArguments = __webpack_require__(322),
+>>>>>>> feat: add payment and delivery popups
     isObjectLike = __webpack_require__(45);
 
 /** Used for built-in method references. */
@@ -4607,21 +5068,29 @@ module.exports = isArguments;
 
 
 /***/ }),
-/* 209 */,
 /* 210 */,
 /* 211 */,
 /* 212 */,
-/* 213 */
+/* 213 */,
+/* 214 */,
+/* 215 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "d", function() { return takeEvery; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "e", function() { return takeLatest; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "f", function() { return throttle; });
+<<<<<<< HEAD
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__takeEvery__ = __webpack_require__(398);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__takeLatest__ = __webpack_require__(399);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__throttle__ = __webpack_require__(400);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__utils__ = __webpack_require__(20);
+=======
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__takeEvery__ = __webpack_require__(399);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__takeLatest__ = __webpack_require__(400);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__throttle__ = __webpack_require__(401);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__utils__ = __webpack_require__(21);
+>>>>>>> feat: add payment and delivery popups
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_0__takeEvery__["a"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return __WEBPACK_IMPORTED_MODULE_1__takeLatest__["a"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "c", function() { return __WEBPACK_IMPORTED_MODULE_2__throttle__["a"]; });
@@ -4642,7 +5111,7 @@ var throttle = /*#__PURE__*/__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_3__u
 
 
 /***/ }),
-/* 214 */
+/* 216 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -4713,8 +5182,8 @@ function flush() {
 }
 
 /***/ }),
-/* 215 */,
-/* 216 */
+/* 217 */,
+/* 218 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -4752,7 +5221,11 @@ var _propTypes = __webpack_require__(6);
 
 var _propTypes2 = _interopRequireDefault(_propTypes);
 
+<<<<<<< HEAD
 var _throttle2 = __webpack_require__(137);
+=======
+var _throttle2 = __webpack_require__(136);
+>>>>>>> feat: add payment and delivery popups
 
 var _throttle3 = _interopRequireDefault(_throttle2);
 
@@ -4762,7 +5235,7 @@ var _isEqual3 = _interopRequireDefault(_isEqual2);
 
 var _utils = __webpack_require__(7);
 
-__webpack_require__(309);
+__webpack_require__(310);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -4814,16 +5287,24 @@ Search.propTypes = {
 exports.default = Search;
 
 /***/ }),
-/* 217 */,
-/* 218 */,
 /* 219 */,
 /* 220 */,
 /* 221 */,
+<<<<<<< HEAD
 /* 222 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var isObject = __webpack_require__(36),
     isSymbol = __webpack_require__(366);
+=======
+/* 222 */,
+/* 223 */,
+/* 224 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var isObject = __webpack_require__(37),
+    isSymbol = __webpack_require__(367);
+>>>>>>> feat: add payment and delivery popups
 
 /** Used as references for various `Number` constants. */
 var NAN = 0 / 0;
@@ -4891,6 +5372,7 @@ module.exports = toNumber;
 
 
 /***/ }),
+<<<<<<< HEAD
 /* 223 */,
 /* 224 */
 /***/ (function(module, exports, __webpack_require__) {
@@ -4901,12 +5383,29 @@ module.exports = __webpack_require__(225);
 /* 225 */
 /***/ (function(module, exports, __webpack_require__) {
 
+=======
+/* 225 */,
+/* 226 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__(227);
+
+/***/ }),
+/* 227 */
+/***/ (function(module, exports, __webpack_require__) {
+
+>>>>>>> feat: add payment and delivery popups
 "use strict";
 
 
 var utils = __webpack_require__(15);
+<<<<<<< HEAD
 var bind = __webpack_require__(148);
 var Axios = __webpack_require__(227);
+=======
+var bind = __webpack_require__(147);
+var Axios = __webpack_require__(229);
+>>>>>>> feat: add payment and delivery popups
 var defaults = __webpack_require__(90);
 
 /**
@@ -4940,15 +5439,25 @@ axios.create = function create(instanceConfig) {
 };
 
 // Expose Cancel & CancelToken
+<<<<<<< HEAD
 axios.Cancel = __webpack_require__(145);
 axios.CancelToken = __webpack_require__(226);
 axios.isCancel = __webpack_require__(146);
+=======
+axios.Cancel = __webpack_require__(144);
+axios.CancelToken = __webpack_require__(228);
+axios.isCancel = __webpack_require__(145);
+>>>>>>> feat: add payment and delivery popups
 
 // Expose all/spread
 axios.all = function all(promises) {
   return Promise.all(promises);
 };
+<<<<<<< HEAD
 axios.spread = __webpack_require__(241);
+=======
+axios.spread = __webpack_require__(243);
+>>>>>>> feat: add payment and delivery popups
 
 module.exports = axios;
 
@@ -4957,13 +5466,21 @@ module.exports.default = axios;
 
 
 /***/ }),
+<<<<<<< HEAD
 /* 226 */
+=======
+/* 228 */
+>>>>>>> feat: add payment and delivery popups
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
+<<<<<<< HEAD
 var Cancel = __webpack_require__(145);
+=======
+var Cancel = __webpack_require__(144);
+>>>>>>> feat: add payment and delivery popups
 
 /**
  * A `CancelToken` is an object that can be used to request cancellation of an operation.
@@ -5021,7 +5538,11 @@ module.exports = CancelToken;
 
 
 /***/ }),
+<<<<<<< HEAD
 /* 227 */
+=======
+/* 229 */
+>>>>>>> feat: add payment and delivery popups
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -5029,10 +5550,17 @@ module.exports = CancelToken;
 
 var defaults = __webpack_require__(90);
 var utils = __webpack_require__(15);
+<<<<<<< HEAD
 var InterceptorManager = __webpack_require__(228);
 var dispatchRequest = __webpack_require__(229);
 var isAbsoluteURL = __webpack_require__(237);
 var combineURLs = __webpack_require__(235);
+=======
+var InterceptorManager = __webpack_require__(230);
+var dispatchRequest = __webpack_require__(231);
+var isAbsoluteURL = __webpack_require__(239);
+var combineURLs = __webpack_require__(237);
+>>>>>>> feat: add payment and delivery popups
 
 /**
  * Create a new instance of Axios
@@ -5113,7 +5641,11 @@ module.exports = Axios;
 
 
 /***/ }),
+<<<<<<< HEAD
 /* 228 */
+=======
+/* 230 */
+>>>>>>> feat: add payment and delivery popups
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -5172,15 +5704,24 @@ module.exports = InterceptorManager;
 
 
 /***/ }),
+<<<<<<< HEAD
 /* 229 */
+=======
+/* 231 */
+>>>>>>> feat: add payment and delivery popups
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
 var utils = __webpack_require__(15);
+<<<<<<< HEAD
 var transformData = __webpack_require__(232);
 var isCancel = __webpack_require__(146);
+=======
+var transformData = __webpack_require__(234);
+var isCancel = __webpack_require__(145);
+>>>>>>> feat: add payment and delivery popups
 var defaults = __webpack_require__(90);
 
 /**
@@ -5200,6 +5741,7 @@ function throwIfCancellationRequested(config) {
  */
 module.exports = function dispatchRequest(config) {
   throwIfCancellationRequested(config);
+<<<<<<< HEAD
 
   // Ensure headers exist
   config.headers = config.headers || {};
@@ -5456,12 +5998,274 @@ module.exports = function buildURL(url, params, paramsSerializer) {
     url += (url.indexOf('?') === -1 ? '?' : '&') + serializedParams;
   }
 
-  return url;
+=======
+
+  // Ensure headers exist
+  config.headers = config.headers || {};
+
+  // Transform request data
+  config.data = transformData(
+    config.data,
+    config.headers,
+    config.transformRequest
+  );
+
+  // Flatten headers
+  config.headers = utils.merge(
+    config.headers.common || {},
+    config.headers[config.method] || {},
+    config.headers || {}
+  );
+
+  utils.forEach(
+    ['delete', 'get', 'head', 'post', 'put', 'patch', 'common'],
+    function cleanHeaderConfig(method) {
+      delete config.headers[method];
+    }
+  );
+
+  var adapter = config.adapter || defaults.adapter;
+
+  return adapter(config).then(function onAdapterResolution(response) {
+    throwIfCancellationRequested(config);
+
+    // Transform response data
+    response.data = transformData(
+      response.data,
+      response.headers,
+      config.transformResponse
+    );
+
+    return response;
+  }, function onAdapterRejection(reason) {
+    if (!isCancel(reason)) {
+      throwIfCancellationRequested(config);
+
+      // Transform response data
+      if (reason && reason.response) {
+        reason.response.data = transformData(
+          reason.response.data,
+          reason.response.headers,
+          config.transformResponse
+        );
+      }
+    }
+
+    return Promise.reject(reason);
+  });
+};
+
+
+/***/ }),
+/* 232 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+/**
+ * Update an Error with the specified config, error code, and response.
+ *
+ * @param {Error} error The error to update.
+ * @param {Object} config The config.
+ * @param {string} [code] The error code (for example, 'ECONNABORTED').
+ @ @param {Object} [response] The response.
+ * @returns {Error} The error.
+ */
+module.exports = function enhanceError(error, config, code, response) {
+  error.config = config;
+  if (code) {
+    error.code = code;
+  }
+  error.response = response;
+  return error;
+};
+
+
+/***/ }),
+/* 233 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var createError = __webpack_require__(146);
+
+/**
+ * Resolve or reject a Promise based on response status.
+ *
+ * @param {Function} resolve A function that resolves the promise.
+ * @param {Function} reject A function that rejects the promise.
+ * @param {object} response The response.
+ */
+module.exports = function settle(resolve, reject, response) {
+  var validateStatus = response.config.validateStatus;
+  // Note: status is not exposed by XDomainRequest
+  if (!response.status || !validateStatus || validateStatus(response.status)) {
+    resolve(response);
+  } else {
+    reject(createError(
+      'Request failed with status code ' + response.status,
+      response.config,
+      null,
+      response
+    ));
+  }
+};
+
+
+/***/ }),
+/* 234 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var utils = __webpack_require__(15);
+
+/**
+ * Transform the data for a request or a response
+ *
+ * @param {Object|String} data The data to be transformed
+ * @param {Array} headers The headers for the request or response
+ * @param {Array|Function} fns A single function or Array of functions
+ * @returns {*} The resulting transformed data
+ */
+module.exports = function transformData(data, headers, fns) {
+  /*eslint no-param-reassign:0*/
+  utils.forEach(fns, function transform(fn) {
+    data = fn(data, headers);
+  });
+
+  return data;
 };
 
 
 /***/ }),
 /* 235 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+// btoa polyfill for IE<10 courtesy https://github.com/davidchambers/Base64.js
+
+var chars = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=';
+
+function E() {
+  this.message = 'String contains an invalid character';
+}
+E.prototype = new Error;
+E.prototype.code = 5;
+E.prototype.name = 'InvalidCharacterError';
+
+function btoa(input) {
+  var str = String(input);
+  var output = '';
+  for (
+    // initialize result and counter
+    var block, charCode, idx = 0, map = chars;
+    // if the next str index does not exist:
+    //   change the mapping table to "="
+    //   check if d has no fractional digits
+    str.charAt(idx | 0) || (map = '=', idx % 1);
+    // "8 - idx % 1 * 8" generates the sequence 2, 4, 6, 8
+    output += map.charAt(63 & block >> 8 - idx % 1 * 8)
+  ) {
+    charCode = str.charCodeAt(idx += 3 / 4);
+    if (charCode > 0xFF) {
+      throw new E();
+    }
+    block = block << 8 | charCode;
+  }
+  return output;
+}
+
+module.exports = btoa;
+
+
+/***/ }),
+/* 236 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+var utils = __webpack_require__(15);
+
+function encode(val) {
+  return encodeURIComponent(val).
+    replace(/%40/gi, '@').
+    replace(/%3A/gi, ':').
+    replace(/%24/g, '$').
+    replace(/%2C/gi, ',').
+    replace(/%20/g, '+').
+    replace(/%5B/gi, '[').
+    replace(/%5D/gi, ']');
+}
+
+/**
+ * Build a URL by appending params to the end
+ *
+ * @param {string} url The base of the url (e.g., http://www.google.com)
+ * @param {object} [params] The params to be appended
+ * @returns {string} The formatted url
+ */
+module.exports = function buildURL(url, params, paramsSerializer) {
+  /*eslint no-param-reassign:0*/
+  if (!params) {
+    return url;
+  }
+
+  var serializedParams;
+  if (paramsSerializer) {
+    serializedParams = paramsSerializer(params);
+  } else if (utils.isURLSearchParams(params)) {
+    serializedParams = params.toString();
+  } else {
+    var parts = [];
+
+    utils.forEach(params, function serialize(val, key) {
+      if (val === null || typeof val === 'undefined') {
+        return;
+      }
+
+      if (utils.isArray(val)) {
+        key = key + '[]';
+      }
+
+      if (!utils.isArray(val)) {
+        val = [val];
+      }
+
+      utils.forEach(val, function parseValue(v) {
+        if (utils.isDate(v)) {
+          v = v.toISOString();
+        } else if (utils.isObject(v)) {
+          v = JSON.stringify(v);
+        }
+        parts.push(encode(key) + '=' + encode(v));
+      });
+    });
+
+    serializedParams = parts.join('&');
+  }
+
+  if (serializedParams) {
+    url += (url.indexOf('?') === -1 ? '?' : '&') + serializedParams;
+  }
+
+>>>>>>> feat: add payment and delivery popups
+  return url;
+};
+
+
+/***/ }),
+<<<<<<< HEAD
+/* 235 */
+=======
+/* 237 */
+>>>>>>> feat: add payment and delivery popups
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -5480,7 +6284,11 @@ module.exports = function combineURLs(baseURL, relativeURL) {
 
 
 /***/ }),
+<<<<<<< HEAD
 /* 236 */
+=======
+/* 238 */
+>>>>>>> feat: add payment and delivery popups
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -5540,7 +6348,11 @@ module.exports = (
 
 
 /***/ }),
+<<<<<<< HEAD
 /* 237 */
+=======
+/* 239 */
+>>>>>>> feat: add payment and delivery popups
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -5561,7 +6373,11 @@ module.exports = function isAbsoluteURL(url) {
 
 
 /***/ }),
+<<<<<<< HEAD
 /* 238 */
+=======
+/* 240 */
+>>>>>>> feat: add payment and delivery popups
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -5636,7 +6452,11 @@ module.exports = (
 
 
 /***/ }),
+<<<<<<< HEAD
 /* 239 */
+=======
+/* 241 */
+>>>>>>> feat: add payment and delivery popups
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -5655,7 +6475,11 @@ module.exports = function normalizeHeaderName(headers, normalizedName) {
 
 
 /***/ }),
+<<<<<<< HEAD
 /* 240 */
+=======
+/* 242 */
+>>>>>>> feat: add payment and delivery popups
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -5699,7 +6523,11 @@ module.exports = function parseHeaders(headers) {
 
 
 /***/ }),
+<<<<<<< HEAD
 /* 241 */
+=======
+/* 243 */
+>>>>>>> feat: add payment and delivery popups
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -5733,8 +6561,11 @@ module.exports = function spread(callback) {
 
 
 /***/ }),
+<<<<<<< HEAD
 /* 242 */,
 /* 243 */,
+=======
+>>>>>>> feat: add payment and delivery popups
 /* 244 */,
 /* 245 */,
 /* 246 */,
@@ -5746,6 +6577,7 @@ module.exports = function spread(callback) {
 /* 252 */,
 /* 253 */,
 /* 254 */,
+<<<<<<< HEAD
 /* 255 */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -5778,6 +6610,36 @@ module.exports = { "default": __webpack_require__(273), __esModule: true };
 /***/ }),
 /* 260 */,
 /* 261 */
+=======
+/* 255 */,
+/* 256 */,
+/* 257 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = { "default": __webpack_require__(268), __esModule: true };
+
+/***/ }),
+/* 258 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = { "default": __webpack_require__(272), __esModule: true };
+
+/***/ }),
+/* 259 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = { "default": __webpack_require__(273), __esModule: true };
+
+/***/ }),
+/* 260 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = { "default": __webpack_require__(274), __esModule: true };
+
+/***/ }),
+/* 261 */,
+/* 262 */
+>>>>>>> feat: add payment and delivery popups
 /***/ (function(module, exports, __webpack_require__) {
 
 /**
@@ -5790,6 +6652,7 @@ module.exports = { "default": __webpack_require__(273), __esModule: true };
 // This method of obtaining a reference to the global object needs to be
 // kept identical to the way it is obtained in runtime.js
 var g = (function() { return this })() || Function("return this")();
+<<<<<<< HEAD
 
 // Use `getOwnPropertyNames` because not all browsers support calling
 // `hasOwnProperty` on the global `self` object in a worker. See #183.
@@ -5815,8 +6678,15 @@ if (hadRuntime) {
     g.regeneratorRuntime = undefined;
   }
 }
+=======
+>>>>>>> feat: add payment and delivery popups
 
+// Use `getOwnPropertyNames` because not all browsers support calling
+// `hasOwnProperty` on the global `self` object in a worker. See #183.
+var hadRuntime = g.regeneratorRuntime &&
+  Object.getOwnPropertyNames(g).indexOf("regeneratorRuntime") >= 0;
 
+<<<<<<< HEAD
 /***/ }),
 /* 262 */
 /***/ (function(module, exports) {
@@ -6072,6 +6942,296 @@ if (hadRuntime) {
     return function invoke(method, arg) {
       if (state === GenStateExecuting) {
         throw new Error("Generator is already running");
+=======
+// Save the old regeneratorRuntime in case it needs to be restored later.
+var oldRuntime = hadRuntime && g.regeneratorRuntime;
+
+// Force reevalutation of runtime.js.
+g.regeneratorRuntime = undefined;
+
+module.exports = __webpack_require__(263);
+
+if (hadRuntime) {
+  // Restore the original runtime.
+  g.regeneratorRuntime = oldRuntime;
+} else {
+  // Remove the global property added by runtime.js.
+  try {
+    delete g.regeneratorRuntime;
+  } catch(e) {
+    g.regeneratorRuntime = undefined;
+  }
+}
+
+
+/***/ }),
+/* 263 */
+/***/ (function(module, exports) {
+
+/**
+ * Copyright (c) 2014-present, Facebook, Inc.
+ *
+ * This source code is licensed under the MIT license found in the
+ * LICENSE file in the root directory of this source tree.
+ */
+
+!(function(global) {
+  "use strict";
+
+  var Op = Object.prototype;
+  var hasOwn = Op.hasOwnProperty;
+  var undefined; // More compressible than void 0.
+  var $Symbol = typeof Symbol === "function" ? Symbol : {};
+  var iteratorSymbol = $Symbol.iterator || "@@iterator";
+  var asyncIteratorSymbol = $Symbol.asyncIterator || "@@asyncIterator";
+  var toStringTagSymbol = $Symbol.toStringTag || "@@toStringTag";
+
+  var inModule = typeof module === "object";
+  var runtime = global.regeneratorRuntime;
+  if (runtime) {
+    if (inModule) {
+      // If regeneratorRuntime is defined globally and we're in a module,
+      // make the exports object identical to regeneratorRuntime.
+      module.exports = runtime;
+    }
+    // Don't bother evaluating the rest of this file if the runtime was
+    // already defined globally.
+    return;
+  }
+
+  // Define the runtime globally (as expected by generated code) as either
+  // module.exports (if we're in a module) or a new, empty object.
+  runtime = global.regeneratorRuntime = inModule ? module.exports : {};
+
+  function wrap(innerFn, outerFn, self, tryLocsList) {
+    // If outerFn provided and outerFn.prototype is a Generator, then outerFn.prototype instanceof Generator.
+    var protoGenerator = outerFn && outerFn.prototype instanceof Generator ? outerFn : Generator;
+    var generator = Object.create(protoGenerator.prototype);
+    var context = new Context(tryLocsList || []);
+
+    // The ._invoke method unifies the implementations of the .next,
+    // .throw, and .return methods.
+    generator._invoke = makeInvokeMethod(innerFn, self, context);
+
+    return generator;
+  }
+  runtime.wrap = wrap;
+
+  // Try/catch helper to minimize deoptimizations. Returns a completion
+  // record like context.tryEntries[i].completion. This interface could
+  // have been (and was previously) designed to take a closure to be
+  // invoked without arguments, but in all the cases we care about we
+  // already have an existing method we want to call, so there's no need
+  // to create a new function object. We can even get away with assuming
+  // the method takes exactly one argument, since that happens to be true
+  // in every case, so we don't have to touch the arguments object. The
+  // only additional allocation required is the completion record, which
+  // has a stable shape and so hopefully should be cheap to allocate.
+  function tryCatch(fn, obj, arg) {
+    try {
+      return { type: "normal", arg: fn.call(obj, arg) };
+    } catch (err) {
+      return { type: "throw", arg: err };
+    }
+  }
+
+  var GenStateSuspendedStart = "suspendedStart";
+  var GenStateSuspendedYield = "suspendedYield";
+  var GenStateExecuting = "executing";
+  var GenStateCompleted = "completed";
+
+  // Returning this object from the innerFn has the same effect as
+  // breaking out of the dispatch switch statement.
+  var ContinueSentinel = {};
+
+  // Dummy constructor functions that we use as the .constructor and
+  // .constructor.prototype properties for functions that return Generator
+  // objects. For full spec compliance, you may wish to configure your
+  // minifier not to mangle the names of these two functions.
+  function Generator() {}
+  function GeneratorFunction() {}
+  function GeneratorFunctionPrototype() {}
+
+  // This is a polyfill for %IteratorPrototype% for environments that
+  // don't natively support it.
+  var IteratorPrototype = {};
+  IteratorPrototype[iteratorSymbol] = function () {
+    return this;
+  };
+
+  var getProto = Object.getPrototypeOf;
+  var NativeIteratorPrototype = getProto && getProto(getProto(values([])));
+  if (NativeIteratorPrototype &&
+      NativeIteratorPrototype !== Op &&
+      hasOwn.call(NativeIteratorPrototype, iteratorSymbol)) {
+    // This environment has a native %IteratorPrototype%; use it instead
+    // of the polyfill.
+    IteratorPrototype = NativeIteratorPrototype;
+  }
+
+  var Gp = GeneratorFunctionPrototype.prototype =
+    Generator.prototype = Object.create(IteratorPrototype);
+  GeneratorFunction.prototype = Gp.constructor = GeneratorFunctionPrototype;
+  GeneratorFunctionPrototype.constructor = GeneratorFunction;
+  GeneratorFunctionPrototype[toStringTagSymbol] =
+    GeneratorFunction.displayName = "GeneratorFunction";
+
+  // Helper for defining the .next, .throw, and .return methods of the
+  // Iterator interface in terms of a single ._invoke method.
+  function defineIteratorMethods(prototype) {
+    ["next", "throw", "return"].forEach(function(method) {
+      prototype[method] = function(arg) {
+        return this._invoke(method, arg);
+      };
+    });
+  }
+
+  runtime.isGeneratorFunction = function(genFun) {
+    var ctor = typeof genFun === "function" && genFun.constructor;
+    return ctor
+      ? ctor === GeneratorFunction ||
+        // For the native GeneratorFunction constructor, the best we can
+        // do is to check its .name property.
+        (ctor.displayName || ctor.name) === "GeneratorFunction"
+      : false;
+  };
+
+  runtime.mark = function(genFun) {
+    if (Object.setPrototypeOf) {
+      Object.setPrototypeOf(genFun, GeneratorFunctionPrototype);
+    } else {
+      genFun.__proto__ = GeneratorFunctionPrototype;
+      if (!(toStringTagSymbol in genFun)) {
+        genFun[toStringTagSymbol] = "GeneratorFunction";
+>>>>>>> feat: add payment and delivery popups
+      }
+    }
+    genFun.prototype = Object.create(Gp);
+    return genFun;
+  };
+
+<<<<<<< HEAD
+      if (state === GenStateCompleted) {
+        if (method === "throw") {
+          throw arg;
+        }
+
+        // Be forgiving, per 25.3.3.3.3 of the spec:
+        // https://people.mozilla.org/~jorendorff/es6-draft.html#sec-generatorresume
+        return doneResult();
+      }
+
+=======
+  // Within the body of any async function, `await x` is transformed to
+  // `yield regeneratorRuntime.awrap(x)`, so that the runtime can test
+  // `hasOwn.call(value, "__await")` to determine if the yielded value is
+  // meant to be awaited.
+  runtime.awrap = function(arg) {
+    return { __await: arg };
+  };
+
+  function AsyncIterator(generator) {
+    function invoke(method, arg, resolve, reject) {
+      var record = tryCatch(generator[method], generator, arg);
+      if (record.type === "throw") {
+        reject(record.arg);
+      } else {
+        var result = record.arg;
+        var value = result.value;
+        if (value &&
+            typeof value === "object" &&
+            hasOwn.call(value, "__await")) {
+          return Promise.resolve(value.__await).then(function(value) {
+            invoke("next", value, resolve, reject);
+          }, function(err) {
+            invoke("throw", err, resolve, reject);
+          });
+        }
+
+        return Promise.resolve(value).then(function(unwrapped) {
+          // When a yielded Promise is resolved, its final value becomes
+          // the .value of the Promise<{value,done}> result for the
+          // current iteration. If the Promise is rejected, however, the
+          // result for this iteration will be rejected with the same
+          // reason. Note that rejections of yielded Promises are not
+          // thrown back into the generator function, as is the case
+          // when an awaited Promise is rejected. This difference in
+          // behavior between yield and await is important, because it
+          // allows the consumer to decide what to do with the yielded
+          // rejection (swallow it and continue, manually .throw it back
+          // into the generator, abandon iteration, whatever). With
+          // await, by contrast, there is no opportunity to examine the
+          // rejection reason outside the generator function, so the
+          // only option is to throw it from the await expression, and
+          // let the generator function handle the exception.
+          result.value = unwrapped;
+          resolve(result);
+        }, reject);
+      }
+    }
+
+    var previousPromise;
+
+    function enqueue(method, arg) {
+      function callInvokeWithMethodAndArg() {
+        return new Promise(function(resolve, reject) {
+          invoke(method, arg, resolve, reject);
+        });
+      }
+
+      return previousPromise =
+        // If enqueue has been called before, then we want to wait until
+        // all previous Promises have been resolved before calling invoke,
+        // so that results are always delivered in the correct order. If
+        // enqueue has not been called before, then it is important to
+        // call invoke immediately, without waiting on a callback to fire,
+        // so that the async generator function has the opportunity to do
+        // any necessary setup in a predictable way. This predictability
+        // is why the Promise constructor synchronously invokes its
+        // executor callback, and why async functions synchronously
+        // execute code before the first await. Since we implement simple
+        // async functions in terms of async generators, it is especially
+        // important to get this right, even though it requires care.
+        previousPromise ? previousPromise.then(
+          callInvokeWithMethodAndArg,
+          // Avoid propagating failures to Promises returned by later
+          // invocations of the iterator.
+          callInvokeWithMethodAndArg
+        ) : callInvokeWithMethodAndArg();
+    }
+
+    // Define the unified helper method that is used to implement .next,
+    // .throw, and .return (see defineIteratorMethods).
+    this._invoke = enqueue;
+  }
+
+  defineIteratorMethods(AsyncIterator.prototype);
+  AsyncIterator.prototype[asyncIteratorSymbol] = function () {
+    return this;
+  };
+  runtime.AsyncIterator = AsyncIterator;
+
+  // Note that simple async functions are implemented on top of
+  // AsyncIterator objects; they just return a Promise for the value of
+  // the final result produced by the iterator.
+  runtime.async = function(innerFn, outerFn, self, tryLocsList) {
+    var iter = new AsyncIterator(
+      wrap(innerFn, outerFn, self, tryLocsList)
+    );
+
+    return runtime.isGeneratorFunction(outerFn)
+      ? iter // If outerFn is a generator, return the full iterator.
+      : iter.next().then(function(result) {
+          return result.done ? result.value : iter.next();
+        });
+  };
+
+  function makeInvokeMethod(innerFn, self, context) {
+    var state = GenStateSuspendedStart;
+
+    return function invoke(method, arg) {
+      if (state === GenStateExecuting) {
+        throw new Error("Generator is already running");
       }
 
       if (state === GenStateCompleted) {
@@ -6084,6 +7244,7 @@ if (hadRuntime) {
         return doneResult();
       }
 
+>>>>>>> feat: add payment and delivery popups
       context.method = method;
       context.arg = arg;
 
@@ -6219,6 +7380,7 @@ if (hadRuntime) {
       // Re-yield the result returned by the delegate method.
       return info;
     }
+<<<<<<< HEAD
 
     // The delegate iterator is finished, so forget it and continue with
     // the outer generator.
@@ -6539,6 +7701,328 @@ if (hadRuntime) {
         this.arg = undefined;
       }
 
+=======
+
+    // The delegate iterator is finished, so forget it and continue with
+    // the outer generator.
+    context.delegate = null;
+    return ContinueSentinel;
+  }
+
+  // Define Generator.prototype.{next,throw,return} in terms of the
+  // unified ._invoke helper method.
+  defineIteratorMethods(Gp);
+
+  Gp[toStringTagSymbol] = "Generator";
+
+  // A Generator should always return itself as the iterator object when the
+  // @@iterator function is called on it. Some browsers' implementations of the
+  // iterator prototype chain incorrectly implement this, causing the Generator
+  // object to not be returned from this call. This ensures that doesn't happen.
+  // See https://github.com/facebook/regenerator/issues/274 for more details.
+  Gp[iteratorSymbol] = function() {
+    return this;
+  };
+
+  Gp.toString = function() {
+    return "[object Generator]";
+  };
+
+  function pushTryEntry(locs) {
+    var entry = { tryLoc: locs[0] };
+
+    if (1 in locs) {
+      entry.catchLoc = locs[1];
+    }
+
+    if (2 in locs) {
+      entry.finallyLoc = locs[2];
+      entry.afterLoc = locs[3];
+    }
+
+    this.tryEntries.push(entry);
+  }
+
+  function resetTryEntry(entry) {
+    var record = entry.completion || {};
+    record.type = "normal";
+    delete record.arg;
+    entry.completion = record;
+  }
+
+  function Context(tryLocsList) {
+    // The root entry object (effectively a try statement without a catch
+    // or a finally block) gives us a place to store values thrown from
+    // locations where there is no enclosing try statement.
+    this.tryEntries = [{ tryLoc: "root" }];
+    tryLocsList.forEach(pushTryEntry, this);
+    this.reset(true);
+  }
+
+  runtime.keys = function(object) {
+    var keys = [];
+    for (var key in object) {
+      keys.push(key);
+    }
+    keys.reverse();
+
+    // Rather than returning an object with a next method, we keep
+    // things simple and return the next function itself.
+    return function next() {
+      while (keys.length) {
+        var key = keys.pop();
+        if (key in object) {
+          next.value = key;
+          next.done = false;
+          return next;
+        }
+      }
+
+      // To avoid creating an additional object, we just hang the .value
+      // and .done properties off the next function object itself. This
+      // also ensures that the minifier will not anonymize the function.
+      next.done = true;
+      return next;
+    };
+  };
+
+  function values(iterable) {
+    if (iterable) {
+      var iteratorMethod = iterable[iteratorSymbol];
+      if (iteratorMethod) {
+        return iteratorMethod.call(iterable);
+      }
+
+      if (typeof iterable.next === "function") {
+        return iterable;
+      }
+
+      if (!isNaN(iterable.length)) {
+        var i = -1, next = function next() {
+          while (++i < iterable.length) {
+            if (hasOwn.call(iterable, i)) {
+              next.value = iterable[i];
+              next.done = false;
+              return next;
+            }
+          }
+
+          next.value = undefined;
+          next.done = true;
+
+          return next;
+        };
+
+        return next.next = next;
+      }
+    }
+
+    // Return an iterator with no values.
+    return { next: doneResult };
+  }
+  runtime.values = values;
+
+  function doneResult() {
+    return { value: undefined, done: true };
+  }
+
+  Context.prototype = {
+    constructor: Context,
+
+    reset: function(skipTempReset) {
+      this.prev = 0;
+      this.next = 0;
+      // Resetting context._sent for legacy support of Babel's
+      // function.sent implementation.
+      this.sent = this._sent = undefined;
+      this.done = false;
+      this.delegate = null;
+
+      this.method = "next";
+      this.arg = undefined;
+
+      this.tryEntries.forEach(resetTryEntry);
+
+      if (!skipTempReset) {
+        for (var name in this) {
+          // Not sure about the optimal order of these conditions:
+          if (name.charAt(0) === "t" &&
+              hasOwn.call(this, name) &&
+              !isNaN(+name.slice(1))) {
+            this[name] = undefined;
+          }
+        }
+      }
+    },
+
+    stop: function() {
+      this.done = true;
+
+      var rootEntry = this.tryEntries[0];
+      var rootRecord = rootEntry.completion;
+      if (rootRecord.type === "throw") {
+        throw rootRecord.arg;
+      }
+
+      return this.rval;
+    },
+
+    dispatchException: function(exception) {
+      if (this.done) {
+        throw exception;
+      }
+
+      var context = this;
+      function handle(loc, caught) {
+        record.type = "throw";
+        record.arg = exception;
+        context.next = loc;
+
+        if (caught) {
+          // If the dispatched exception was caught by a catch block,
+          // then let that catch block handle the exception normally.
+          context.method = "next";
+          context.arg = undefined;
+        }
+
+        return !! caught;
+      }
+
+      for (var i = this.tryEntries.length - 1; i >= 0; --i) {
+        var entry = this.tryEntries[i];
+        var record = entry.completion;
+
+        if (entry.tryLoc === "root") {
+          // Exception thrown outside of any try block that could handle
+          // it, so set the completion value of the entire function to
+          // throw the exception.
+          return handle("end");
+        }
+
+        if (entry.tryLoc <= this.prev) {
+          var hasCatch = hasOwn.call(entry, "catchLoc");
+          var hasFinally = hasOwn.call(entry, "finallyLoc");
+
+          if (hasCatch && hasFinally) {
+            if (this.prev < entry.catchLoc) {
+              return handle(entry.catchLoc, true);
+            } else if (this.prev < entry.finallyLoc) {
+              return handle(entry.finallyLoc);
+            }
+
+          } else if (hasCatch) {
+            if (this.prev < entry.catchLoc) {
+              return handle(entry.catchLoc, true);
+            }
+
+          } else if (hasFinally) {
+            if (this.prev < entry.finallyLoc) {
+              return handle(entry.finallyLoc);
+            }
+
+          } else {
+            throw new Error("try statement without catch or finally");
+          }
+        }
+      }
+    },
+
+    abrupt: function(type, arg) {
+      for (var i = this.tryEntries.length - 1; i >= 0; --i) {
+        var entry = this.tryEntries[i];
+        if (entry.tryLoc <= this.prev &&
+            hasOwn.call(entry, "finallyLoc") &&
+            this.prev < entry.finallyLoc) {
+          var finallyEntry = entry;
+          break;
+        }
+      }
+
+      if (finallyEntry &&
+          (type === "break" ||
+           type === "continue") &&
+          finallyEntry.tryLoc <= arg &&
+          arg <= finallyEntry.finallyLoc) {
+        // Ignore the finally entry if control is not jumping to a
+        // location outside the try/catch block.
+        finallyEntry = null;
+      }
+
+      var record = finallyEntry ? finallyEntry.completion : {};
+      record.type = type;
+      record.arg = arg;
+
+      if (finallyEntry) {
+        this.method = "next";
+        this.next = finallyEntry.finallyLoc;
+        return ContinueSentinel;
+      }
+
+      return this.complete(record);
+    },
+
+    complete: function(record, afterLoc) {
+      if (record.type === "throw") {
+        throw record.arg;
+      }
+
+      if (record.type === "break" ||
+          record.type === "continue") {
+        this.next = record.arg;
+      } else if (record.type === "return") {
+        this.rval = this.arg = record.arg;
+        this.method = "return";
+        this.next = "end";
+      } else if (record.type === "normal" && afterLoc) {
+        this.next = afterLoc;
+      }
+
+      return ContinueSentinel;
+    },
+
+    finish: function(finallyLoc) {
+      for (var i = this.tryEntries.length - 1; i >= 0; --i) {
+        var entry = this.tryEntries[i];
+        if (entry.finallyLoc === finallyLoc) {
+          this.complete(entry.completion, entry.afterLoc);
+          resetTryEntry(entry);
+          return ContinueSentinel;
+        }
+      }
+    },
+
+    "catch": function(tryLoc) {
+      for (var i = this.tryEntries.length - 1; i >= 0; --i) {
+        var entry = this.tryEntries[i];
+        if (entry.tryLoc === tryLoc) {
+          var record = entry.completion;
+          if (record.type === "throw") {
+            var thrown = record.arg;
+            resetTryEntry(entry);
+          }
+          return thrown;
+        }
+      }
+
+      // The context.catch method must only be called with a location
+      // argument that corresponds to a known catch block.
+      throw new Error("illegal catch attempt");
+    },
+
+    delegateYield: function(iterable, resultName, nextLoc) {
+      this.delegate = {
+        iterator: values(iterable),
+        resultName: resultName,
+        nextLoc: nextLoc
+      };
+
+      if (this.method === "next") {
+        // Deliberately forget the last sent value so that we don't
+        // accidentally pass it on to the delegate.
+        this.arg = undefined;
+      }
+
+>>>>>>> feat: add payment and delivery popups
       return ContinueSentinel;
     }
   };
@@ -6551,7 +8035,11 @@ if (hadRuntime) {
 
 
 /***/ }),
+<<<<<<< HEAD
 /* 263 */
+=======
+/* 264 */
+>>>>>>> feat: add payment and delivery popups
 /***/ (function(module, exports, __webpack_require__) {
 
 /*!
@@ -6967,20 +8455,30 @@ return /******/ (function(modules) { // webpackBootstrap
 ;
 
 /***/ }),
+<<<<<<< HEAD
 /* 264 */,
 /* 265 */,
 /* 266 */
+=======
+/* 265 */,
+/* 266 */,
+/* 267 */
+>>>>>>> feat: add payment and delivery popups
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(290);
+__webpack_require__(291);
 module.exports = __webpack_require__(11).Object.assign;
 
 
 /***/ }),
+<<<<<<< HEAD
 /* 267 */
+=======
+/* 268 */
+>>>>>>> feat: add payment and delivery popups
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(291);
+__webpack_require__(292);
 var $Object = __webpack_require__(11).Object;
 module.exports = function create(P, D) {
   return $Object.create(P, D);
@@ -6988,10 +8486,14 @@ module.exports = function create(P, D) {
 
 
 /***/ }),
+<<<<<<< HEAD
 /* 268 */
+=======
+/* 269 */
+>>>>>>> feat: add payment and delivery popups
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(292);
+__webpack_require__(293);
 var $Object = __webpack_require__(11).Object;
 module.exports = function defineProperty(it, key, desc) {
   return $Object.defineProperty(it, key, desc);
@@ -6999,51 +8501,79 @@ module.exports = function defineProperty(it, key, desc) {
 
 
 /***/ }),
+<<<<<<< HEAD
 /* 269 */
+=======
+/* 270 */
+>>>>>>> feat: add payment and delivery popups
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(293);
+__webpack_require__(294);
 module.exports = __webpack_require__(11).Object.getPrototypeOf;
 
 
 /***/ }),
+<<<<<<< HEAD
 /* 270 */
+=======
+/* 271 */
+>>>>>>> feat: add payment and delivery popups
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(294);
+__webpack_require__(295);
 module.exports = __webpack_require__(11).Object.keys;
 
 
 /***/ }),
+<<<<<<< HEAD
 /* 271 */
+=======
+/* 272 */
+>>>>>>> feat: add payment and delivery popups
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(295);
+__webpack_require__(296);
 module.exports = __webpack_require__(11).Object.setPrototypeOf;
 
 
 /***/ }),
+<<<<<<< HEAD
 /* 272 */
+=======
+/* 273 */
+>>>>>>> feat: add payment and delivery popups
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(297);
-__webpack_require__(296);
 __webpack_require__(298);
+__webpack_require__(297);
 __webpack_require__(299);
+__webpack_require__(300);
 module.exports = __webpack_require__(11).Symbol;
 
 
 /***/ }),
+<<<<<<< HEAD
 /* 273 */
 /***/ (function(module, exports, __webpack_require__) {
 
 __webpack_require__(102);
 __webpack_require__(129);
+=======
+/* 274 */
+/***/ (function(module, exports, __webpack_require__) {
+
+__webpack_require__(102);
+__webpack_require__(128);
+>>>>>>> feat: add payment and delivery popups
 module.exports = __webpack_require__(101).f('iterator');
 
 
 /***/ }),
+<<<<<<< HEAD
 /* 274 */
+=======
+/* 275 */
+>>>>>>> feat: add payment and delivery popups
 /***/ (function(module, exports) {
 
 module.exports = function (it) {
@@ -7053,21 +8583,34 @@ module.exports = function (it) {
 
 
 /***/ }),
+<<<<<<< HEAD
 /* 275 */
+=======
+/* 276 */
+>>>>>>> feat: add payment and delivery popups
 /***/ (function(module, exports) {
 
 module.exports = function () { /* empty */ };
 
 
 /***/ }),
+<<<<<<< HEAD
 /* 276 */
+=======
+/* 277 */
+>>>>>>> feat: add payment and delivery popups
 /***/ (function(module, exports, __webpack_require__) {
 
 // false -> Array#indexOf
 // true  -> Array#includes
 var toIObject = __webpack_require__(48);
+<<<<<<< HEAD
 var toLength = __webpack_require__(182);
 var toAbsoluteIndex = __webpack_require__(287);
+=======
+var toLength = __webpack_require__(184);
+var toAbsoluteIndex = __webpack_require__(288);
+>>>>>>> feat: add payment and delivery popups
 module.exports = function (IS_INCLUDES) {
   return function ($this, el, fromIndex) {
     var O = toIObject($this);
@@ -7089,12 +8632,21 @@ module.exports = function (IS_INCLUDES) {
 
 
 /***/ }),
+<<<<<<< HEAD
 /* 277 */,
 /* 278 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // all enumerable object keys, includes symbols
 var getKeys = __webpack_require__(56);
+=======
+/* 278 */,
+/* 279 */
+/***/ (function(module, exports, __webpack_require__) {
+
+// all enumerable object keys, includes symbols
+var getKeys = __webpack_require__(57);
+>>>>>>> feat: add payment and delivery popups
 var gOPS = __webpack_require__(94);
 var pIE = __webpack_require__(66);
 module.exports = function (it) {
@@ -7111,7 +8663,11 @@ module.exports = function (it) {
 
 
 /***/ }),
+<<<<<<< HEAD
 /* 279 */
+=======
+/* 280 */
+>>>>>>> feat: add payment and delivery popups
 /***/ (function(module, exports, __webpack_require__) {
 
 var document = __webpack_require__(28).document;
@@ -7119,24 +8675,40 @@ module.exports = document && document.documentElement;
 
 
 /***/ }),
+<<<<<<< HEAD
 /* 280 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // 7.2.2 IsArray(argument)
 var cof = __webpack_require__(118);
+=======
+/* 281 */
+/***/ (function(module, exports, __webpack_require__) {
+
+// 7.2.2 IsArray(argument)
+var cof = __webpack_require__(117);
+>>>>>>> feat: add payment and delivery popups
 module.exports = Array.isArray || function isArray(arg) {
   return cof(arg) == 'Array';
 };
 
 
 /***/ }),
+<<<<<<< HEAD
 /* 281 */
+=======
+/* 282 */
+>>>>>>> feat: add payment and delivery popups
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 var create = __webpack_require__(93);
+<<<<<<< HEAD
 var descriptor = __webpack_require__(60);
+=======
+var descriptor = __webpack_require__(61);
+>>>>>>> feat: add payment and delivery popups
 var setToStringTag = __webpack_require__(95);
 var IteratorPrototype = {};
 
@@ -7148,6 +8720,7 @@ module.exports = function (Constructor, NAME, next) {
   setToStringTag(Constructor, NAME + ' Iterator');
 };
 
+<<<<<<< HEAD
 
 /***/ }),
 /* 282 */
@@ -7156,17 +8729,32 @@ module.exports = function (Constructor, NAME, next) {
 module.exports = function (done, value) {
   return { value: value, done: !!done };
 };
-
+=======
 
 /***/ }),
 /* 283 */
+/***/ (function(module, exports) {
+
+module.exports = function (done, value) {
+  return { value: value, done: !!done };
+};
+
+>>>>>>> feat: add payment and delivery popups
+
+
+/***/ }),
+/* 284 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 // 19.1.2.1 Object.assign(target, source, ...)
 var DESCRIPTORS = __webpack_require__(27);
+<<<<<<< HEAD
 var getKeys = __webpack_require__(56);
+=======
+var getKeys = __webpack_require__(57);
+>>>>>>> feat: add payment and delivery popups
 var gOPS = __webpack_require__(94);
 var pIE = __webpack_require__(66);
 var toObject = __webpack_require__(51);
@@ -7204,12 +8792,18 @@ module.exports = !$assign || __webpack_require__(46)(function () {
 
 
 /***/ }),
-/* 284 */
+/* 285 */
 /***/ (function(module, exports, __webpack_require__) {
 
+<<<<<<< HEAD
 var dP = __webpack_require__(30);
 var anObject = __webpack_require__(43);
 var getKeys = __webpack_require__(56);
+=======
+var dP = __webpack_require__(31);
+var anObject = __webpack_require__(43);
+var getKeys = __webpack_require__(57);
+>>>>>>> feat: add payment and delivery popups
 
 module.exports = __webpack_require__(27) ? Object.defineProperties : function defineProperties(O, Properties) {
   anObject(O);
@@ -7223,12 +8817,16 @@ module.exports = __webpack_require__(27) ? Object.defineProperties : function de
 
 
 /***/ }),
-/* 285 */
+/* 286 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // Works with __proto__ only. Old v8 can't work with null proto objects.
 /* eslint-disable no-proto */
+<<<<<<< HEAD
 var isObject = __webpack_require__(38);
+=======
+var isObject = __webpack_require__(39);
+>>>>>>> feat: add payment and delivery popups
 var anObject = __webpack_require__(43);
 var check = function (O, proto) {
   anObject(O);
@@ -7238,7 +8836,11 @@ module.exports = {
   set: Object.setPrototypeOf || ('__proto__' in {} ? // eslint-disable-line
     function (test, buggy, set) {
       try {
+<<<<<<< HEAD
         set = __webpack_require__(119)(Function.call, __webpack_require__(155).f(Object.prototype, '__proto__').set, 2);
+=======
+        set = __webpack_require__(118)(Function.call, __webpack_require__(155).f(Object.prototype, '__proto__').set, 2);
+>>>>>>> feat: add payment and delivery popups
         set(test, []);
         buggy = !(test instanceof Array);
       } catch (e) { buggy = true; }
@@ -7254,7 +8856,7 @@ module.exports = {
 
 
 /***/ }),
-/* 286 */
+/* 287 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var toInteger = __webpack_require__(98);
@@ -7277,7 +8879,7 @@ module.exports = function (TO_STRING) {
 
 
 /***/ }),
-/* 287 */
+/* 288 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var toInteger = __webpack_require__(98);
@@ -7290,15 +8892,21 @@ module.exports = function (index, length) {
 
 
 /***/ }),
-/* 288 */,
-/* 289 */
+/* 289 */,
+/* 290 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
+<<<<<<< HEAD
 var addToUnscopables = __webpack_require__(275);
 var step = __webpack_require__(282);
 var Iterators = __webpack_require__(55);
+=======
+var addToUnscopables = __webpack_require__(276);
+var step = __webpack_require__(283);
+var Iterators = __webpack_require__(56);
+>>>>>>> feat: add payment and delivery popups
 var toIObject = __webpack_require__(48);
 
 // 22.1.3.4 Array.prototype.entries()
@@ -7332,35 +8940,51 @@ addToUnscopables('entries');
 
 
 /***/ }),
-/* 290 */
-/***/ (function(module, exports, __webpack_require__) {
-
-// 19.1.3.1 Object.assign(target, source)
-var $export = __webpack_require__(29);
-
-$export($export.S + $export.F, 'Object', { assign: __webpack_require__(283) });
-
-
-/***/ }),
 /* 291 */
 /***/ (function(module, exports, __webpack_require__) {
 
+// 19.1.3.1 Object.assign(target, source)
+<<<<<<< HEAD
 var $export = __webpack_require__(29);
-// 19.1.2.2 / 15.2.3.5 Object.create(O [, Properties])
-$export($export.S, 'Object', { create: __webpack_require__(93) });
+
+$export($export.S + $export.F, 'Object', { assign: __webpack_require__(283) });
+=======
+var $export = __webpack_require__(30);
+
+$export($export.S + $export.F, 'Object', { assign: __webpack_require__(284) });
+>>>>>>> feat: add payment and delivery popups
 
 
 /***/ }),
 /* 292 */
 /***/ (function(module, exports, __webpack_require__) {
 
+<<<<<<< HEAD
 var $export = __webpack_require__(29);
-// 19.1.2.4 / 15.2.3.6 Object.defineProperty(O, P, Attributes)
-$export($export.S + $export.F * !__webpack_require__(27), 'Object', { defineProperty: __webpack_require__(30).f });
+=======
+var $export = __webpack_require__(30);
+>>>>>>> feat: add payment and delivery popups
+// 19.1.2.2 / 15.2.3.5 Object.create(O [, Properties])
+$export($export.S, 'Object', { create: __webpack_require__(93) });
 
 
 /***/ }),
 /* 293 */
+/***/ (function(module, exports, __webpack_require__) {
+
+<<<<<<< HEAD
+var $export = __webpack_require__(29);
+// 19.1.2.4 / 15.2.3.6 Object.defineProperty(O, P, Attributes)
+$export($export.S + $export.F * !__webpack_require__(27), 'Object', { defineProperty: __webpack_require__(30).f });
+=======
+var $export = __webpack_require__(30);
+// 19.1.2.4 / 15.2.3.6 Object.defineProperty(O, P, Attributes)
+$export($export.S + $export.F * !__webpack_require__(27), 'Object', { defineProperty: __webpack_require__(31).f });
+>>>>>>> feat: add payment and delivery popups
+
+
+/***/ }),
+/* 294 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // 19.1.2.9 Object.getPrototypeOf(O)
@@ -7375,12 +8999,16 @@ __webpack_require__(83)('getPrototypeOf', function () {
 
 
 /***/ }),
-/* 294 */
+/* 295 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // 19.1.2.14 Object.keys(O)
 var toObject = __webpack_require__(51);
+<<<<<<< HEAD
 var $keys = __webpack_require__(56);
+=======
+var $keys = __webpack_require__(57);
+>>>>>>> feat: add payment and delivery popups
 
 __webpack_require__(83)('keys', function () {
   return function keys(it) {
@@ -7390,33 +9018,46 @@ __webpack_require__(83)('keys', function () {
 
 
 /***/ }),
-/* 295 */
+/* 296 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // 19.1.3.19 Object.setPrototypeOf(O, proto)
+<<<<<<< HEAD
 var $export = __webpack_require__(29);
 $export($export.S, 'Object', { setPrototypeOf: __webpack_require__(285).set });
+=======
+var $export = __webpack_require__(30);
+$export($export.S, 'Object', { setPrototypeOf: __webpack_require__(286).set });
+>>>>>>> feat: add payment and delivery popups
 
 
 /***/ }),
-/* 296 */
+/* 297 */
 /***/ (function(module, exports) {
 
 
 
 /***/ }),
-/* 297 */
+/* 298 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 // ECMAScript 6 symbols shim
 var global = __webpack_require__(28);
+<<<<<<< HEAD
 var has = __webpack_require__(33);
 var DESCRIPTORS = __webpack_require__(27);
 var $export = __webpack_require__(29);
 var redefine = __webpack_require__(159);
 var META = __webpack_require__(180).KEY;
+=======
+var has = __webpack_require__(34);
+var DESCRIPTORS = __webpack_require__(27);
+var $export = __webpack_require__(30);
+var redefine = __webpack_require__(159);
+var META = __webpack_require__(182).KEY;
+>>>>>>> feat: add payment and delivery popups
 var $fails = __webpack_require__(46);
 var shared = __webpack_require__(97);
 var setToStringTag = __webpack_require__(95);
@@ -7424,6 +9065,7 @@ var uid = __webpack_require__(67);
 var wks = __webpack_require__(22);
 var wksExt = __webpack_require__(101);
 var wksDefine = __webpack_require__(100);
+<<<<<<< HEAD
 var enumKeys = __webpack_require__(278);
 var isArray = __webpack_require__(280);
 var anObject = __webpack_require__(43);
@@ -7438,6 +9080,22 @@ var $GOPD = __webpack_require__(155);
 var $GOPS = __webpack_require__(94);
 var $DP = __webpack_require__(30);
 var $keys = __webpack_require__(56);
+=======
+var enumKeys = __webpack_require__(279);
+var isArray = __webpack_require__(281);
+var anObject = __webpack_require__(43);
+var isObject = __webpack_require__(39);
+var toObject = __webpack_require__(51);
+var toIObject = __webpack_require__(48);
+var toPrimitive = __webpack_require__(99);
+var createDesc = __webpack_require__(61);
+var _create = __webpack_require__(93);
+var gOPNExt = __webpack_require__(183);
+var $GOPD = __webpack_require__(155);
+var $GOPS = __webpack_require__(94);
+var $DP = __webpack_require__(31);
+var $keys = __webpack_require__(57);
+>>>>>>> feat: add payment and delivery popups
 var gOPD = $GOPD.f;
 var dP = $DP.f;
 var gOPN = gOPNExt.f;
@@ -7658,21 +9316,20 @@ setToStringTag(global.JSON, 'JSON', true);
 
 
 /***/ }),
-/* 298 */
+/* 299 */
 /***/ (function(module, exports, __webpack_require__) {
 
 __webpack_require__(100)('asyncIterator');
 
 
 /***/ }),
-/* 299 */
+/* 300 */
 /***/ (function(module, exports, __webpack_require__) {
 
 __webpack_require__(100)('observable');
 
 
 /***/ }),
-/* 300 */,
 /* 301 */,
 /* 302 */,
 /* 303 */,
@@ -7681,12 +9338,7 @@ __webpack_require__(100)('observable');
 /* 306 */,
 /* 307 */,
 /* 308 */,
-/* 309 */
-/***/ (function(module, exports) {
-
-// removed by extract-text-webpack-plugin
-
-/***/ }),
+/* 309 */,
 /* 310 */
 /***/ (function(module, exports) {
 
@@ -7694,10 +9346,23 @@ __webpack_require__(100)('observable');
 
 /***/ }),
 /* 311 */
+<<<<<<< HEAD
 /***/ (function(module, exports, __webpack_require__) {
 
 var getNative = __webpack_require__(39),
     root = __webpack_require__(19);
+=======
+/***/ (function(module, exports) {
+
+// removed by extract-text-webpack-plugin
+
+/***/ }),
+/* 312 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var getNative = __webpack_require__(40),
+    root = __webpack_require__(20);
+>>>>>>> feat: add payment and delivery popups
 
 /* Built-in method references that are verified to be native. */
 var DataView = getNative(root, 'DataView');
@@ -7709,11 +9374,19 @@ module.exports = DataView;
 /* 312 */
 /***/ (function(module, exports, __webpack_require__) {
 
+<<<<<<< HEAD
 var hashClear = __webpack_require__(337),
     hashDelete = __webpack_require__(338),
     hashGet = __webpack_require__(339),
     hashHas = __webpack_require__(340),
     hashSet = __webpack_require__(341);
+=======
+var hashClear = __webpack_require__(338),
+    hashDelete = __webpack_require__(339),
+    hashGet = __webpack_require__(340),
+    hashHas = __webpack_require__(341),
+    hashSet = __webpack_require__(342);
+>>>>>>> feat: add payment and delivery popups
 
 /**
  * Creates a hash object.
@@ -7747,8 +9420,13 @@ module.exports = Hash;
 /* 313 */
 /***/ (function(module, exports, __webpack_require__) {
 
+<<<<<<< HEAD
 var getNative = __webpack_require__(39),
     root = __webpack_require__(19);
+=======
+var getNative = __webpack_require__(40),
+    root = __webpack_require__(20);
+>>>>>>> feat: add payment and delivery popups
 
 /* Built-in method references that are verified to be native. */
 var Promise = getNative(root, 'Promise');
@@ -7761,11 +9439,19 @@ module.exports = Promise;
 /***/ (function(module, exports, __webpack_require__) {
 
 var ListCache = __webpack_require__(68),
+<<<<<<< HEAD
     stackClear = __webpack_require__(360),
     stackDelete = __webpack_require__(361),
     stackGet = __webpack_require__(362),
     stackHas = __webpack_require__(363),
     stackSet = __webpack_require__(364);
+=======
+    stackClear = __webpack_require__(361),
+    stackDelete = __webpack_require__(362),
+    stackGet = __webpack_require__(363),
+    stackHas = __webpack_require__(364),
+    stackSet = __webpack_require__(365);
+>>>>>>> feat: add payment and delivery popups
 
 /**
  * Creates a stack cache object to store key-value pairs.
@@ -7793,7 +9479,11 @@ module.exports = Stack;
 /* 315 */
 /***/ (function(module, exports, __webpack_require__) {
 
+<<<<<<< HEAD
 var root = __webpack_require__(19);
+=======
+var root = __webpack_require__(20);
+>>>>>>> feat: add payment and delivery popups
 
 /** Built-in value references. */
 var Uint8Array = root.Uint8Array;
@@ -7805,8 +9495,13 @@ module.exports = Uint8Array;
 /* 316 */
 /***/ (function(module, exports, __webpack_require__) {
 
+<<<<<<< HEAD
 var getNative = __webpack_require__(39),
     root = __webpack_require__(19);
+=======
+var getNative = __webpack_require__(40),
+    root = __webpack_require__(20);
+>>>>>>> feat: add payment and delivery popups
 
 /* Built-in method references that are verified to be native. */
 var WeakMap = getNative(root, 'WeakMap');
@@ -7815,7 +9510,11 @@ module.exports = WeakMap;
 
 
 /***/ }),
+<<<<<<< HEAD
 /* 317 */
+=======
+/* 318 */
+>>>>>>> feat: add payment and delivery popups
 /***/ (function(module, exports) {
 
 /**
@@ -7844,13 +9543,19 @@ module.exports = arraySome;
 
 
 /***/ }),
+<<<<<<< HEAD
 /* 318 */,
 /* 319 */,
 /* 320 */
+=======
+/* 319 */,
+/* 320 */,
+/* 321 */
+>>>>>>> feat: add payment and delivery popups
 /***/ (function(module, exports, __webpack_require__) {
 
-var arrayPush = __webpack_require__(203),
-    isArray = __webpack_require__(35);
+var arrayPush = __webpack_require__(204),
+    isArray = __webpack_require__(36);
 
 /**
  * The base implementation of `getAllKeys` and `getAllKeysIn` which uses
@@ -7872,7 +9577,11 @@ module.exports = baseGetAllKeys;
 
 
 /***/ }),
+<<<<<<< HEAD
 /* 321 */
+=======
+/* 322 */
+>>>>>>> feat: add payment and delivery popups
 /***/ (function(module, exports, __webpack_require__) {
 
 var baseGetTag = __webpack_require__(53),
@@ -7896,10 +9605,17 @@ module.exports = baseIsArguments;
 
 
 /***/ }),
+<<<<<<< HEAD
 /* 322 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var baseIsEqualDeep = __webpack_require__(323),
+=======
+/* 323 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var baseIsEqualDeep = __webpack_require__(324),
+>>>>>>> feat: add payment and delivery popups
     isObjectLike = __webpack_require__(45);
 
 /**
@@ -7930,6 +9646,7 @@ module.exports = baseIsEqual;
 
 
 /***/ }),
+<<<<<<< HEAD
 /* 323 */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -7939,6 +9656,17 @@ var Stack = __webpack_require__(314),
     equalObjects = __webpack_require__(331),
     getTag = __webpack_require__(335),
     isArray = __webpack_require__(35),
+=======
+/* 324 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var Stack = __webpack_require__(315),
+    equalArrays = __webpack_require__(163),
+    equalByTag = __webpack_require__(331),
+    equalObjects = __webpack_require__(332),
+    getTag = __webpack_require__(336),
+    isArray = __webpack_require__(36),
+>>>>>>> feat: add payment and delivery popups
     isBuffer = __webpack_require__(166),
     isTypedArray = __webpack_require__(169);
 
@@ -8019,12 +9747,21 @@ module.exports = baseIsEqualDeep;
 
 
 /***/ }),
+<<<<<<< HEAD
 /* 324 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var isFunction = __webpack_require__(167),
     isMasked = __webpack_require__(343),
     isObject = __webpack_require__(36),
+=======
+/* 325 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var isFunction = __webpack_require__(167),
+    isMasked = __webpack_require__(344),
+    isObject = __webpack_require__(37),
+>>>>>>> feat: add payment and delivery popups
     toSource = __webpack_require__(165);
 
 /**
@@ -8072,7 +9809,11 @@ module.exports = baseIsNative;
 
 
 /***/ }),
+<<<<<<< HEAD
 /* 325 */
+=======
+/* 326 */
+>>>>>>> feat: add payment and delivery popups
 /***/ (function(module, exports, __webpack_require__) {
 
 var baseGetTag = __webpack_require__(53),
@@ -8138,11 +9879,19 @@ module.exports = baseIsTypedArray;
 
 
 /***/ }),
+<<<<<<< HEAD
 /* 326 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var isPrototype = __webpack_require__(205),
     nativeKeys = __webpack_require__(355);
+=======
+/* 327 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var isPrototype = __webpack_require__(206),
+    nativeKeys = __webpack_require__(356);
+>>>>>>> feat: add payment and delivery popups
 
 /** Used for built-in method references. */
 var objectProto = Object.prototype;
@@ -8174,7 +9923,11 @@ module.exports = baseKeys;
 
 
 /***/ }),
+<<<<<<< HEAD
 /* 327 */
+=======
+/* 328 */
+>>>>>>> feat: add payment and delivery popups
 /***/ (function(module, exports) {
 
 /**
@@ -8200,11 +9953,19 @@ module.exports = baseTimes;
 
 
 /***/ }),
+<<<<<<< HEAD
 /* 328 */,
 /* 329 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var root = __webpack_require__(19);
+=======
+/* 329 */,
+/* 330 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var root = __webpack_require__(20);
+>>>>>>> feat: add payment and delivery popups
 
 /** Used to detect overreaching core-js shims. */
 var coreJsData = root['__core-js_shared__'];
@@ -8213,6 +9974,7 @@ module.exports = coreJsData;
 
 
 /***/ }),
+<<<<<<< HEAD
 /* 330 */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -8222,6 +9984,17 @@ var Symbol = __webpack_require__(78),
     equalArrays = __webpack_require__(163),
     mapToArray = __webpack_require__(354),
     setToArray = __webpack_require__(135);
+=======
+/* 331 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var Symbol = __webpack_require__(78),
+    Uint8Array = __webpack_require__(316),
+    eq = __webpack_require__(88),
+    equalArrays = __webpack_require__(163),
+    mapToArray = __webpack_require__(355),
+    setToArray = __webpack_require__(134);
+>>>>>>> feat: add payment and delivery popups
 
 /** Used to compose bitmasks for value comparisons. */
 var COMPARE_PARTIAL_FLAG = 1,
@@ -8331,10 +10104,17 @@ module.exports = equalByTag;
 
 
 /***/ }),
+<<<<<<< HEAD
 /* 331 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var getAllKeys = __webpack_require__(332);
+=======
+/* 332 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var getAllKeys = __webpack_require__(333);
+>>>>>>> feat: add payment and delivery popups
 
 /** Used to compose bitmasks for value comparisons. */
 var COMPARE_PARTIAL_FLAG = 1;
@@ -8427,12 +10207,21 @@ module.exports = equalObjects;
 
 
 /***/ }),
+<<<<<<< HEAD
 /* 332 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var baseGetAllKeys = __webpack_require__(320),
     getSymbols = __webpack_require__(334),
     keys = __webpack_require__(367);
+=======
+/* 333 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var baseGetAllKeys = __webpack_require__(321),
+    getSymbols = __webpack_require__(335),
+    keys = __webpack_require__(368);
+>>>>>>> feat: add payment and delivery popups
 
 /**
  * Creates an array of own enumerable property names and symbols of `object`.
@@ -8449,7 +10238,11 @@ module.exports = getAllKeys;
 
 
 /***/ }),
+<<<<<<< HEAD
 /* 333 */
+=======
+/* 334 */
+>>>>>>> feat: add payment and delivery popups
 /***/ (function(module, exports, __webpack_require__) {
 
 var Symbol = __webpack_require__(78);
@@ -8501,11 +10294,19 @@ module.exports = getRawTag;
 
 
 /***/ }),
+<<<<<<< HEAD
 /* 334 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var arrayFilter = __webpack_require__(198),
     stubArray = __webpack_require__(371);
+=======
+/* 335 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var arrayFilter = __webpack_require__(199),
+    stubArray = __webpack_require__(372);
+>>>>>>> feat: add payment and delivery popups
 
 /** Used for built-in method references. */
 var objectProto = Object.prototype;
@@ -8537,6 +10338,7 @@ module.exports = getSymbols;
 
 
 /***/ }),
+<<<<<<< HEAD
 /* 335 */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -8545,6 +10347,16 @@ var DataView = __webpack_require__(311),
     Promise = __webpack_require__(313),
     Set = __webpack_require__(197),
     WeakMap = __webpack_require__(316),
+=======
+/* 336 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var DataView = __webpack_require__(312),
+    Map = __webpack_require__(108),
+    Promise = __webpack_require__(314),
+    Set = __webpack_require__(198),
+    WeakMap = __webpack_require__(317),
+>>>>>>> feat: add payment and delivery popups
     baseGetTag = __webpack_require__(53),
     toSource = __webpack_require__(165);
 
@@ -8601,7 +10413,11 @@ module.exports = getTag;
 
 
 /***/ }),
+<<<<<<< HEAD
 /* 336 */
+=======
+/* 337 */
+>>>>>>> feat: add payment and delivery popups
 /***/ (function(module, exports) {
 
 /**
@@ -8620,7 +10436,11 @@ module.exports = getValue;
 
 
 /***/ }),
+<<<<<<< HEAD
 /* 337 */
+=======
+/* 338 */
+>>>>>>> feat: add payment and delivery popups
 /***/ (function(module, exports, __webpack_require__) {
 
 var nativeCreate = __webpack_require__(71);
@@ -8641,7 +10461,11 @@ module.exports = hashClear;
 
 
 /***/ }),
+<<<<<<< HEAD
 /* 338 */
+=======
+/* 339 */
+>>>>>>> feat: add payment and delivery popups
 /***/ (function(module, exports) {
 
 /**
@@ -8664,7 +10488,11 @@ module.exports = hashDelete;
 
 
 /***/ }),
+<<<<<<< HEAD
 /* 339 */
+=======
+/* 340 */
+>>>>>>> feat: add payment and delivery popups
 /***/ (function(module, exports, __webpack_require__) {
 
 var nativeCreate = __webpack_require__(71);
@@ -8700,7 +10528,11 @@ module.exports = hashGet;
 
 
 /***/ }),
+<<<<<<< HEAD
 /* 340 */
+=======
+/* 341 */
+>>>>>>> feat: add payment and delivery popups
 /***/ (function(module, exports, __webpack_require__) {
 
 var nativeCreate = __webpack_require__(71);
@@ -8729,7 +10561,11 @@ module.exports = hashHas;
 
 
 /***/ }),
+<<<<<<< HEAD
 /* 341 */
+=======
+/* 342 */
+>>>>>>> feat: add payment and delivery popups
 /***/ (function(module, exports, __webpack_require__) {
 
 var nativeCreate = __webpack_require__(71);
@@ -8758,7 +10594,11 @@ module.exports = hashSet;
 
 
 /***/ }),
+<<<<<<< HEAD
 /* 342 */
+=======
+/* 343 */
+>>>>>>> feat: add payment and delivery popups
 /***/ (function(module, exports) {
 
 /**
@@ -8779,10 +10619,17 @@ module.exports = isKeyable;
 
 
 /***/ }),
+<<<<<<< HEAD
 /* 343 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var coreJsData = __webpack_require__(329);
+=======
+/* 344 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var coreJsData = __webpack_require__(330);
+>>>>>>> feat: add payment and delivery popups
 
 /** Used to detect methods masquerading as native. */
 var maskSrcKey = (function() {
@@ -8805,7 +10652,11 @@ module.exports = isMasked;
 
 
 /***/ }),
+<<<<<<< HEAD
 /* 344 */
+=======
+/* 345 */
+>>>>>>> feat: add payment and delivery popups
 /***/ (function(module, exports) {
 
 /**
@@ -8824,7 +10675,11 @@ module.exports = listCacheClear;
 
 
 /***/ }),
+<<<<<<< HEAD
 /* 345 */
+=======
+/* 346 */
+>>>>>>> feat: add payment and delivery popups
 /***/ (function(module, exports, __webpack_require__) {
 
 var assocIndexOf = __webpack_require__(69);
@@ -8865,7 +10720,11 @@ module.exports = listCacheDelete;
 
 
 /***/ }),
+<<<<<<< HEAD
 /* 346 */
+=======
+/* 347 */
+>>>>>>> feat: add payment and delivery popups
 /***/ (function(module, exports, __webpack_require__) {
 
 var assocIndexOf = __webpack_require__(69);
@@ -8890,7 +10749,11 @@ module.exports = listCacheGet;
 
 
 /***/ }),
+<<<<<<< HEAD
 /* 347 */
+=======
+/* 348 */
+>>>>>>> feat: add payment and delivery popups
 /***/ (function(module, exports, __webpack_require__) {
 
 var assocIndexOf = __webpack_require__(69);
@@ -8912,7 +10775,11 @@ module.exports = listCacheHas;
 
 
 /***/ }),
+<<<<<<< HEAD
 /* 348 */
+=======
+/* 349 */
+>>>>>>> feat: add payment and delivery popups
 /***/ (function(module, exports, __webpack_require__) {
 
 var assocIndexOf = __webpack_require__(69);
@@ -8944,10 +10811,17 @@ module.exports = listCacheSet;
 
 
 /***/ }),
+<<<<<<< HEAD
 /* 349 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var Hash = __webpack_require__(312),
+=======
+/* 350 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var Hash = __webpack_require__(313),
+>>>>>>> feat: add payment and delivery popups
     ListCache = __webpack_require__(68),
     Map = __webpack_require__(108);
 
@@ -8971,7 +10845,11 @@ module.exports = mapCacheClear;
 
 
 /***/ }),
+<<<<<<< HEAD
 /* 350 */
+=======
+/* 351 */
+>>>>>>> feat: add payment and delivery popups
 /***/ (function(module, exports, __webpack_require__) {
 
 var getMapData = __webpack_require__(70);
@@ -8995,7 +10873,11 @@ module.exports = mapCacheDelete;
 
 
 /***/ }),
+<<<<<<< HEAD
 /* 351 */
+=======
+/* 352 */
+>>>>>>> feat: add payment and delivery popups
 /***/ (function(module, exports, __webpack_require__) {
 
 var getMapData = __webpack_require__(70);
@@ -9017,7 +10899,11 @@ module.exports = mapCacheGet;
 
 
 /***/ }),
+<<<<<<< HEAD
 /* 352 */
+=======
+/* 353 */
+>>>>>>> feat: add payment and delivery popups
 /***/ (function(module, exports, __webpack_require__) {
 
 var getMapData = __webpack_require__(70);
@@ -9039,7 +10925,11 @@ module.exports = mapCacheHas;
 
 
 /***/ }),
+<<<<<<< HEAD
 /* 353 */
+=======
+/* 354 */
+>>>>>>> feat: add payment and delivery popups
 /***/ (function(module, exports, __webpack_require__) {
 
 var getMapData = __webpack_require__(70);
@@ -9067,7 +10957,11 @@ module.exports = mapCacheSet;
 
 
 /***/ }),
+<<<<<<< HEAD
 /* 354 */
+=======
+/* 355 */
+>>>>>>> feat: add payment and delivery popups
 /***/ (function(module, exports) {
 
 /**
@@ -9091,10 +10985,14 @@ module.exports = mapToArray;
 
 
 /***/ }),
+<<<<<<< HEAD
 /* 355 */
+=======
+/* 356 */
+>>>>>>> feat: add payment and delivery popups
 /***/ (function(module, exports, __webpack_require__) {
 
-var overArg = __webpack_require__(206);
+var overArg = __webpack_require__(207);
 
 /* Built-in method references for those with the same name as other `lodash` methods. */
 var nativeKeys = overArg(Object.keys, Object);
@@ -9103,7 +11001,11 @@ module.exports = nativeKeys;
 
 
 /***/ }),
+<<<<<<< HEAD
 /* 356 */
+=======
+/* 357 */
+>>>>>>> feat: add payment and delivery popups
 /***/ (function(module, exports, __webpack_require__) {
 
 /* WEBPACK VAR INJECTION */(function(module) {var freeGlobal = __webpack_require__(164);
@@ -9140,7 +11042,11 @@ module.exports = nodeUtil;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(114)(module)))
 
 /***/ }),
+<<<<<<< HEAD
 /* 357 */
+=======
+/* 358 */
+>>>>>>> feat: add payment and delivery popups
 /***/ (function(module, exports) {
 
 /** Used for built-in method references. */
@@ -9168,7 +11074,11 @@ module.exports = objectToString;
 
 
 /***/ }),
+<<<<<<< HEAD
 /* 358 */
+=======
+/* 359 */
+>>>>>>> feat: add payment and delivery popups
 /***/ (function(module, exports) {
 
 /** Used to stand-in for `undefined` hash values. */
@@ -9193,7 +11103,11 @@ module.exports = setCacheAdd;
 
 
 /***/ }),
+<<<<<<< HEAD
 /* 359 */
+=======
+/* 360 */
+>>>>>>> feat: add payment and delivery popups
 /***/ (function(module, exports) {
 
 /**
@@ -9213,7 +11127,11 @@ module.exports = setCacheHas;
 
 
 /***/ }),
+<<<<<<< HEAD
 /* 360 */
+=======
+/* 361 */
+>>>>>>> feat: add payment and delivery popups
 /***/ (function(module, exports, __webpack_require__) {
 
 var ListCache = __webpack_require__(68);
@@ -9234,7 +11152,11 @@ module.exports = stackClear;
 
 
 /***/ }),
+<<<<<<< HEAD
 /* 361 */
+=======
+/* 362 */
+>>>>>>> feat: add payment and delivery popups
 /***/ (function(module, exports) {
 
 /**
@@ -9258,7 +11180,11 @@ module.exports = stackDelete;
 
 
 /***/ }),
+<<<<<<< HEAD
 /* 362 */
+=======
+/* 363 */
+>>>>>>> feat: add payment and delivery popups
 /***/ (function(module, exports) {
 
 /**
@@ -9278,7 +11204,11 @@ module.exports = stackGet;
 
 
 /***/ }),
+<<<<<<< HEAD
 /* 363 */
+=======
+/* 364 */
+>>>>>>> feat: add payment and delivery popups
 /***/ (function(module, exports) {
 
 /**
@@ -9298,12 +11228,20 @@ module.exports = stackHas;
 
 
 /***/ }),
+<<<<<<< HEAD
 /* 364 */
+=======
+/* 365 */
+>>>>>>> feat: add payment and delivery popups
 /***/ (function(module, exports, __webpack_require__) {
 
 var ListCache = __webpack_require__(68),
     Map = __webpack_require__(108),
+<<<<<<< HEAD
     MapCache = __webpack_require__(124);
+=======
+    MapCache = __webpack_require__(123);
+>>>>>>> feat: add payment and delivery popups
 
 /** Used as the size to enable large array optimizations. */
 var LARGE_ARRAY_SIZE = 200;
@@ -9338,8 +11276,13 @@ module.exports = stackSet;
 
 
 /***/ }),
+<<<<<<< HEAD
 /* 365 */,
 /* 366 */
+=======
+/* 366 */,
+/* 367 */
+>>>>>>> feat: add payment and delivery popups
 /***/ (function(module, exports, __webpack_require__) {
 
 var baseGetTag = __webpack_require__(53),
@@ -9374,11 +11317,19 @@ module.exports = isSymbol;
 
 
 /***/ }),
+<<<<<<< HEAD
 /* 367 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var arrayLikeKeys = __webpack_require__(201),
     baseKeys = __webpack_require__(326),
+=======
+/* 368 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var arrayLikeKeys = __webpack_require__(202),
+    baseKeys = __webpack_require__(327),
+>>>>>>> feat: add payment and delivery popups
     isArrayLike = __webpack_require__(112);
 
 /**
@@ -9417,7 +11368,11 @@ module.exports = keys;
 
 
 /***/ }),
+<<<<<<< HEAD
 /* 368 */
+=======
+/* 369 */
+>>>>>>> feat: add payment and delivery popups
 /***/ (function(module, exports, __webpack_require__) {
 
 /* WEBPACK VAR INJECTION */(function(global, module) {var __WEBPACK_AMD_DEFINE_RESULT__;/**
@@ -26586,11 +28541,19 @@ module.exports = keys;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(72), __webpack_require__(114)(module)))
 
 /***/ }),
+<<<<<<< HEAD
 /* 369 */,
 /* 370 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var root = __webpack_require__(19);
+=======
+/* 370 */,
+/* 371 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var root = __webpack_require__(20);
+>>>>>>> feat: add payment and delivery popups
 
 /**
  * Gets the timestamp of the number of milliseconds that have elapsed since
@@ -26616,7 +28579,11 @@ module.exports = now;
 
 
 /***/ }),
+<<<<<<< HEAD
 /* 371 */
+=======
+/* 372 */
+>>>>>>> feat: add payment and delivery popups
 /***/ (function(module, exports) {
 
 /**
@@ -26645,7 +28612,11 @@ module.exports = stubArray;
 
 
 /***/ }),
+<<<<<<< HEAD
 /* 372 */
+=======
+/* 373 */
+>>>>>>> feat: add payment and delivery popups
 /***/ (function(module, exports) {
 
 /**
@@ -26669,8 +28640,13 @@ module.exports = stubFalse;
 
 
 /***/ }),
+<<<<<<< HEAD
 /* 373 */,
 /* 374 */
+=======
+/* 374 */,
+/* 375 */
+>>>>>>> feat: add payment and delivery popups
 /***/ (function(module, exports) {
 
 // shim for using process in browser
@@ -26860,7 +28836,11 @@ process.umask = function() { return 0; };
 
 
 /***/ }),
+<<<<<<< HEAD
 /* 375 */
+=======
+/* 376 */
+>>>>>>> feat: add payment and delivery popups
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -26873,7 +28853,11 @@ process.umask = function() { return 0; };
 
 
 
+<<<<<<< HEAD
 var ReactPropTypesSecret = __webpack_require__(376);
+=======
+var ReactPropTypesSecret = __webpack_require__(377);
+>>>>>>> feat: add payment and delivery popups
 
 function emptyFunction() {}
 function emptyFunctionWithReset() {}
@@ -26931,7 +28915,11 @@ module.exports = function() {
 
 
 /***/ }),
+<<<<<<< HEAD
 /* 376 */
+=======
+/* 377 */
+>>>>>>> feat: add payment and delivery popups
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -26950,7 +28938,10 @@ module.exports = ReactPropTypesSecret;
 
 
 /***/ }),
+<<<<<<< HEAD
 /* 377 */,
+=======
+>>>>>>> feat: add payment and delivery popups
 /* 378 */,
 /* 379 */,
 /* 380 */,
@@ -26978,7 +28969,11 @@ module.exports = ReactPropTypesSecret;
 /* harmony export (immutable) */ __webpack_exports__["a"] = takeEvery;
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__fsmIterator__ = __webpack_require__(113);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__io__ = __webpack_require__(50);
+<<<<<<< HEAD
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__channel__ = __webpack_require__(57);
+=======
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__channel__ = __webpack_require__(58);
+>>>>>>> feat: add payment and delivery popups
 
 
 
@@ -27016,7 +29011,11 @@ function takeEvery(patternOrChannel, worker) {
 /* harmony export (immutable) */ __webpack_exports__["a"] = takeLatest;
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__fsmIterator__ = __webpack_require__(113);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__io__ = __webpack_require__(50);
+<<<<<<< HEAD
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__channel__ = __webpack_require__(57);
+=======
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__channel__ = __webpack_require__(58);
+>>>>>>> feat: add payment and delivery popups
 
 
 
@@ -27064,9 +29063,15 @@ function takeLatest(patternOrChannel, worker) {
 /* harmony export (immutable) */ __webpack_exports__["a"] = throttle;
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__fsmIterator__ = __webpack_require__(113);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__io__ = __webpack_require__(50);
+<<<<<<< HEAD
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__channel__ = __webpack_require__(57);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__buffers__ = __webpack_require__(89);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__utils__ = __webpack_require__(20);
+=======
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__channel__ = __webpack_require__(58);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__buffers__ = __webpack_require__(89);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__utils__ = __webpack_require__(21);
+>>>>>>> feat: add payment and delivery popups
 
 
 
@@ -27114,7 +29119,10 @@ function throttle(delayLength, pattern, worker) {
 }
 
 /***/ }),
+<<<<<<< HEAD
 /* 401 */,
+=======
+>>>>>>> feat: add payment and delivery popups
 /* 402 */,
 /* 403 */,
 /* 404 */,
@@ -27148,7 +29156,8 @@ function throttle(delayLength, pattern, worker) {
 /* 432 */,
 /* 433 */,
 /* 434 */,
-/* 435 */
+/* 435 */,
+/* 436 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -27184,7 +29193,11 @@ var _react2 = _interopRequireDefault(_react);
 
 var _reactRedux = __webpack_require__(10);
 
+<<<<<<< HEAD
 var _redux = __webpack_require__(64);
+=======
+var _redux = __webpack_require__(54);
+>>>>>>> feat: add payment and delivery popups
 
 var _isEqual2 = __webpack_require__(12);
 
@@ -27192,11 +29205,11 @@ var _isEqual3 = _interopRequireDefault(_isEqual2);
 
 var _utils = __webpack_require__(7);
 
-var _HelpItem = __webpack_require__(436);
+var _HelpItem = __webpack_require__(437);
 
 var _HelpItem2 = _interopRequireDefault(_HelpItem);
 
-var _Search = __webpack_require__(216);
+var _Search = __webpack_require__(218);
 
 var _Search2 = _interopRequireDefault(_Search);
 
@@ -27204,7 +29217,11 @@ var _actions = __webpack_require__(149);
 
 var actions = _interopRequireWildcard(_actions);
 
+<<<<<<< HEAD
 __webpack_require__(591);
+=======
+__webpack_require__(597);
+>>>>>>> feat: add payment and delivery popups
 
 function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj.default = obj; return newObj; } }
 
@@ -27331,7 +29348,7 @@ var mapDispatchToProps = function mapDispatchToProps(dispatch) {
 exports.default = (0, _reactRedux.connect)(mapStateToProps, mapDispatchToProps)(Help);
 
 /***/ }),
-/* 436 */
+/* 437 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -27428,7 +29445,7 @@ var HelpItem = function (_React$Component) {
 exports.default = HelpItem;
 
 /***/ }),
-/* 437 */
+/* 438 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -27455,7 +29472,7 @@ function help() {
 }
 
 /***/ }),
-/* 438 */
+/* 439 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -27475,7 +29492,7 @@ var _keys2 = _interopRequireDefault(_keys);
 
 exports.default = loadHelp;
 
-var _effects = __webpack_require__(37);
+var _effects = __webpack_require__(38);
 
 var _actions = __webpack_require__(149);
 
@@ -27524,7 +29541,6 @@ function loadHelp() {
 }
 
 /***/ }),
-/* 439 */,
 /* 440 */,
 /* 441 */,
 /* 442 */,
@@ -27687,7 +29703,16 @@ function loadHelp() {
 /* 594 */,
 /* 595 */,
 /* 596 */,
+<<<<<<< HEAD
 /* 597 */,
+=======
+/* 597 */
+/***/ (function(module, exports) {
+
+// removed by extract-text-webpack-plugin
+
+/***/ }),
+>>>>>>> feat: add payment and delivery popups
 /* 598 */,
 /* 599 */,
 /* 600 */,
@@ -27830,7 +29855,18 @@ function loadHelp() {
 /* 737 */,
 /* 738 */,
 /* 739 */,
+<<<<<<< HEAD
 /* 740 */
+=======
+/* 740 */,
+/* 741 */,
+/* 742 */,
+/* 743 */,
+/* 744 */,
+/* 745 */,
+/* 746 */,
+/* 747 */
+>>>>>>> feat: add payment and delivery popups
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -27841,7 +29877,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.sagas = exports.reducer = exports.actions = exports.Help = undefined;
 
-var _Help = __webpack_require__(435);
+var _Help = __webpack_require__(436);
 
 var _Help2 = _interopRequireDefault(_Help);
 
@@ -27849,13 +29885,13 @@ var _actions = __webpack_require__(149);
 
 var actions = _interopRequireWildcard(_actions);
 
-var _reducer = __webpack_require__(437);
+var _reducer = __webpack_require__(438);
 
 var _reducer2 = _interopRequireDefault(_reducer);
 
-__webpack_require__(310);
+__webpack_require__(311);
 
-var _sagas = __webpack_require__(438);
+var _sagas = __webpack_require__(439);
 
 var _sagas2 = _interopRequireDefault(_sagas);
 
@@ -27871,6 +29907,7 @@ var sagas = exports.sagas = {
 };
 
 /***/ }),
+<<<<<<< HEAD
 /* 741 */,
 /* 742 */,
 /* 743 */,
@@ -27878,6 +29915,8 @@ var sagas = exports.sagas = {
 /* 745 */,
 /* 746 */,
 /* 747 */,
+=======
+>>>>>>> feat: add payment and delivery popups
 /* 748 */,
 /* 749 */,
 /* 750 */,
@@ -28114,10 +30153,25 @@ var sagas = exports.sagas = {
 /* 981 */,
 /* 982 */,
 /* 983 */,
+<<<<<<< HEAD
 /* 984 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__(740);
+=======
+/* 984 */,
+/* 985 */,
+/* 986 */,
+/* 987 */,
+/* 988 */,
+/* 989 */,
+/* 990 */,
+/* 991 */,
+/* 992 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__(747);
+>>>>>>> feat: add payment and delivery popups
 
 
 /***/ })

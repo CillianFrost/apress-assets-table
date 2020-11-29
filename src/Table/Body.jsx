@@ -20,7 +20,8 @@ import {
   CheckWithDragging,
   ImageWithDragging,
   PathWithDragging,
-  TextWithDragging
+  TextWithDragging,
+  PaymentDeliveryWithDragging,
 } from './cellsWithDragging';
 import {
   saveProductGroupImages as saveProductGroupImagesAction,
@@ -29,6 +30,7 @@ import {
 } from '../actions/imageEditor';
 import {showImageEditor as showImageEditorAction} from '../dialogs/actions';
 import {imageEditorSettings} from '../ImageEditor/constants';
+import {showPaymentDeliveryPopup as showPaymentDeliveryPopupAction} from '../PaymentDeliveryPopup/actions';
 
 const b = block('e-table');
 
@@ -184,6 +186,11 @@ class Body extends Component {
         key={key}
         cell={dataRow}
       />,
+      paymentDelivery: <PaymentDeliveryWithDragging
+        key={key}
+        cell={dataRow}
+        row={row}
+      />,
       exists: <Exists
         key={key}
         cell={dataRow}
@@ -305,6 +312,7 @@ const mapDispatchToProps = {
   setRejectedFiles: setRejectedFilesAction,
   saveProductGroupImages: saveProductGroupImagesAction,
   showImageEditor: showImageEditorAction,
+  showPaymentDeliveryPopup: showPaymentDeliveryPopupAction,
   removeGroup: removeGroupAction
 };
 
