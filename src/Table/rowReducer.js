@@ -10,7 +10,8 @@ import {
   TABLE_EDITOR_ROW_COPY_SUCCESS,
   UPDATE_TABLE_EDITOR_ROWS,
   SET_TRAIT_FILTERS_DISPLAYING,
-  SET_PRODUCT_PROPORTIES_DISPLAYING
+  SET_PRODUCT_PROPORTIES_DISPLAYING,
+  EDIT_PAYMENT_DELIVERY_DATA,
 } from './actions';
 
 let newId = -1;
@@ -176,7 +177,7 @@ export default function rows(state = [], action) {
           const transformedPayloadRow = transformFromServer(payloadRow.columns, action.payload.new_row);
 
           return Object.keys(transformedPayloadRow).reduce((result, nextKey) => {
-            /* eslint no-param-reassign: ['error', { 'props': false }]*/
+            /* eslint no-param-reassign: ['error', { 'props': false }] */
             result[nextKey] = transformedPayloadRow[nextKey];
 
             return result;
@@ -199,6 +200,22 @@ export default function rows(state = [], action) {
                 ...cell.common,
                 enabled: action.payload.enabled
               }
+            }
+          };
+        }
+        return row;
+      });
+
+    case EDIT_PAYMENT_DELIVERY_DATA:
+      return state.map((row) => {
+        if (row.check.common.id === action.payload.groupId) {
+          const cell = row[action.payload.name];
+
+          return {
+            ...row,
+            [action.payload.name]: {
+              ...cell,
+              common: action.payload.data,
             }
           };
         }

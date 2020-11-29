@@ -8,6 +8,8 @@ import Check from './Check';
 import Image from './Image';
 import Path from './Path';
 import Text from './Text';
+import PaymentDelivery from './PaymentDelivery';
+
 import {selectCellActions} from './utils';
 import {setFocus} from './actions';
 
@@ -24,3 +26,4 @@ export const CheckWithDragging = enhance(Check);
 export const ImageWithDragging = enhance(Image);
 export const PathWithDragging = enhance(Path);
 export const TextWithDragging = enhance(Text);
+export const PaymentDeliveryWithDragging = enhance(PaymentDelivery);

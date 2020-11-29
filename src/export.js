@@ -12,6 +12,7 @@ import Filter from './Filter/Filter';
 import ComponentError from './Error/Error';
 import Dialog from './Dialog/Dialog';
 import OnlineStoreImportStatus from './components/OnlineStoreImportStatus';
+import PaymentDeliveryPopup from './PaymentDeliveryPopup/PaymentDeliveryPopup';
 
 import * as actionsTree from './Tree/actions';
 import * as actionsTable from './Table/actions';
@@ -37,6 +38,8 @@ import dialogs from './dialogs/reducers';
 import ContainerDialog from './dialogs/ContainerDialog';
 import reducerCable from './Cable/reducer';
 import onlineStoreImportReducer from './reducers/onlineStoreImport';
+import paymentDelivery from './PaymentDeliveryPopup/reducers';
+
 
 import imageEditor from './reducers/imageEditor';
 import * as imageEditorActions from './actions/imageEditor';
@@ -88,7 +91,8 @@ export const reducers = {
   removeReducer,
   switchCategoryReducer,
   reducerCable,
-  onlineStoreImportReducer
+  onlineStoreImportReducer,
+  paymentDelivery,
 };
 
 export const actions = {
@@ -127,5 +131,6 @@ export const components = {
   ContainerDialog,
   SwitchCategory,
   Dialog,
-  OnlineStoreImportStatus
+  OnlineStoreImportStatus,
+  PaymentDeliveryPopup,
 };
