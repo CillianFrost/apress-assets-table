@@ -31,9 +31,8 @@
     overflow: hidden;
   }
   &-header {
-    padding: 60px;
-    padding-top: 40px;
-    padding-bottom: 25px;
+    padding: 50px 0 30px 50px;
+    text-align: initial;
   }
   &-close {
     cursor: pointer;
@@ -44,25 +43,21 @@
     text-decoration: none;
     text-indent: -9999999px;
     overflow: hidden;
-    width: 24px;
-    height: 24px;
-    border: 2px solid #9c9da1;
-    border-radius: 12px;
+    width: 20px;
+    height: 20px;
+    border: none;
     background: #fff;
     padding: 0;
-    &-x:after {
-      @include close-icon(#9c9da1);
+    &-x {
+      @include close-icon-light(#9c9da1);
       content: '';
       display: block;
-      width: 12px;
-      height: 12px;
       margin: 0 auto;
+      width: 20px;
+      height: 20px;
     }
     &:hover {
-      border-color: #dc6263;
-    }
-    &:hover &-x:after {
-      @include close-icon(#dc6263);
+      @include close-icon-light(#dc6263);
     }
   }
   &-title {
@@ -74,16 +69,19 @@
     color: #1f2532;
   }
   &-body {
-    padding: 0px 60px;
-    margin-bottom: 40px;
     font-size: 12px;
     color: #61656f;
+    padding: 0 50px;
+    margin-bottom: 50px;
   }
   &-footer {
-    padding: 40px 60px;
+    padding: 50px;
   }
   &-button {
     margin-right: 20px;
+    &:last-child {
+      margin-right: 0;
+    }
   }
   &-button-container {
     text-align: center;
@@ -166,13 +164,6 @@
     animation-play-state: running;
   }
   &.is-confirmation {
-    text-align: center;
-    & #{$root}-body {
-      min-height: 60px;
-      display: flex;
-      align-items: flex-end;
-      justify-content: center;
-    }
   }
   &.is-image-editor {
     & #{$root}-body {
