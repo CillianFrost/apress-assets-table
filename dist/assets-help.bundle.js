@@ -490,10 +490,14 @@ module.exports = __WEBPACK_EXTERNAL_MODULE_10__;
 /***/ (function(module, exports) {
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 var core = module.exports = { version: '2.6.11' };
 =======
 var core = module.exports = { version: '2.6.12' };
 >>>>>>> feat: add payment and delivery popups
+=======
+var core = module.exports = { version: '2.6.11' };
+>>>>>>> feat: tiger popups redesign
 if (typeof __e == 'number') __e = core; // eslint-disable-line no-undef
 
 
@@ -888,11 +892,15 @@ module.exports = {
 /* 17 */,
 /* 18 */,
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* 19 */
 =======
 /* 19 */,
 /* 20 */
 >>>>>>> feat: add payment and delivery popups
+=======
+/* 19 */
+>>>>>>> feat: tiger popups redesign
 /***/ (function(module, exports, __webpack_require__) {
 
 var freeGlobal = __webpack_require__(164);
@@ -908,10 +916,14 @@ module.exports = root;
 
 /***/ }),
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* 20 */
 =======
 /* 21 */
 >>>>>>> feat: add payment and delivery popups
+=======
+/* 20 */
+>>>>>>> feat: tiger popups redesign
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1232,9 +1244,13 @@ var cloneableGenerator = function cloneableGenerator(generatorFunc) {
 
 /***/ }),
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* 21 */,
 =======
 >>>>>>> feat: add payment and delivery popups
+=======
+/* 21 */,
+>>>>>>> feat: tiger popups redesign
 /* 22 */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -1697,10 +1713,14 @@ module.exports = function (it) {
 /* harmony export (immutable) */ __webpack_exports__["u"] = throttle;
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "w", function() { return asEffect; });
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__utils__ = __webpack_require__(20);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__sagaHelpers__ = __webpack_require__(213);
 =======
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__utils__ = __webpack_require__(21);
+=======
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__utils__ = __webpack_require__(20);
+>>>>>>> feat: tiger popups redesign
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__sagaHelpers__ = __webpack_require__(215);
 >>>>>>> feat: add payment and delivery popups
 
@@ -2090,11 +2110,15 @@ module.exports = Object.keys || function keys(O) {
 /* harmony export (immutable) */ __webpack_exports__["b"] = eventChannel;
 /* harmony export (immutable) */ __webpack_exports__["d"] = stdChannel;
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__utils__ = __webpack_require__(20);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__buffers__ = __webpack_require__(89);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__scheduler__ = __webpack_require__(214);
 =======
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__utils__ = __webpack_require__(21);
+=======
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__utils__ = __webpack_require__(20);
+>>>>>>> feat: tiger popups redesign
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__buffers__ = __webpack_require__(89);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__scheduler__ = __webpack_require__(216);
 >>>>>>> feat: add payment and delivery popups
@@ -2544,10 +2568,14 @@ module.exports = g;
 /***/ (function(module, exports, __webpack_require__) {
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 var root = __webpack_require__(19);
 =======
 var root = __webpack_require__(20);
 >>>>>>> feat: add payment and delivery popups
+=======
+var root = __webpack_require__(19);
+>>>>>>> feat: tiger popups redesign
 
 /** Built-in value references. */
 var Symbol = root.Symbol;
@@ -2634,10 +2662,14 @@ module.exports = eq;
 /* unused harmony export BUFFER_OVERFLOW */
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return buffers; });
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__utils__ = __webpack_require__(20);
 =======
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__utils__ = __webpack_require__(21);
 >>>>>>> feat: add payment and delivery popups
+=======
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__utils__ = __webpack_require__(20);
+>>>>>>> feat: tiger popups redesign
 
 
 var BUFFER_OVERFLOW = "Channel's Buffer overflow!";
@@ -2984,10 +3016,14 @@ var store = global[SHARED] || (global[SHARED] = {});
   version: core.version,
   mode: __webpack_require__(65) ? 'pure' : 'global',
 <<<<<<< HEAD
+<<<<<<< HEAD
   copyright: '© 2019 Denis Pushkarev (zloirock.ru)'
 =======
   copyright: '© 2020 Denis Pushkarev (zloirock.ru)'
 >>>>>>> feat: add payment and delivery popups
+=======
+  copyright: '© 2019 Denis Pushkarev (zloirock.ru)'
+>>>>>>> feat: tiger popups redesign
 });
 
 
@@ -3093,8 +3129,12 @@ var getNative = __webpack_require__(39),
     root = __webpack_require__(19);
 =======
 var getNative = __webpack_require__(40),
+<<<<<<< HEAD
     root = __webpack_require__(20);
 >>>>>>> feat: add payment and delivery popups
+=======
+    root = __webpack_require__(19);
+>>>>>>> feat: tiger popups redesign
 
 /* Built-in method references that are verified to be native. */
 var Map = getNative(root, 'Map');
@@ -3209,10 +3249,14 @@ module.exports = isArrayLike;
 /* harmony export (immutable) */ __webpack_exports__["c"] = safeName;
 /* harmony export (immutable) */ __webpack_exports__["a"] = fsmIterator;
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__utils__ = __webpack_require__(20);
 =======
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__utils__ = __webpack_require__(21);
 >>>>>>> feat: add payment and delivery popups
+=======
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__utils__ = __webpack_require__(20);
+>>>>>>> feat: tiger popups redesign
 
 
 var done = { done: true, value: undefined };
@@ -3490,7 +3534,7 @@ module.exports = setToArray;
 >>>>>>> feat: add payment and delivery popups
 /***/ (function(module, exports, __webpack_require__) {
 
-var debounce = __webpack_require__(208),
+var debounce = __webpack_require__(209),
     isObject = __webpack_require__(37);
 
 /** Error message constants. */
@@ -4278,10 +4322,14 @@ module.exports = toSource;
 /***/ (function(module, exports, __webpack_require__) {
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* WEBPACK VAR INJECTION */(function(module) {var root = __webpack_require__(19),
     stubFalse = __webpack_require__(372);
 =======
 /* WEBPACK VAR INJECTION */(function(module) {var root = __webpack_require__(20),
+=======
+/* WEBPACK VAR INJECTION */(function(module) {var root = __webpack_require__(19),
+>>>>>>> feat: tiger popups redesign
     stubFalse = __webpack_require__(373);
 >>>>>>> feat: add payment and delivery popups
 
@@ -4606,12 +4654,17 @@ var getNative = __webpack_require__(39),
     root = __webpack_require__(19);
 =======
 /* 197 */,
-/* 198 */
+/* 198 */,
+/* 199 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var getNative = __webpack_require__(40),
+<<<<<<< HEAD
     root = __webpack_require__(20);
 >>>>>>> feat: add payment and delivery popups
+=======
+    root = __webpack_require__(19);
+>>>>>>> feat: tiger popups redesign
 
 /* Built-in method references that are verified to be native. */
 var Set = getNative(root, 'Set');
@@ -4620,7 +4673,7 @@ module.exports = Set;
 
 
 /***/ }),
-/* 199 */
+/* 200 */
 /***/ (function(module, exports) {
 
 /**
@@ -4651,9 +4704,9 @@ module.exports = arrayFilter;
 
 
 /***/ }),
-/* 200 */,
 /* 201 */,
-/* 202 */
+/* 202 */,
+/* 203 */
 /***/ (function(module, exports, __webpack_require__) {
 
 <<<<<<< HEAD
@@ -4664,11 +4717,15 @@ var baseTimes = __webpack_require__(327),
     isIndex = __webpack_require__(204),
 =======
 var baseTimes = __webpack_require__(328),
-    isArguments = __webpack_require__(209),
+    isArguments = __webpack_require__(210),
     isArray = __webpack_require__(36),
     isBuffer = __webpack_require__(166),
+<<<<<<< HEAD
     isIndex = __webpack_require__(205),
 >>>>>>> feat: add payment and delivery popups
+=======
+    isIndex = __webpack_require__(206),
+>>>>>>> feat: tiger popups redesign
     isTypedArray = __webpack_require__(169);
 
 /** Used for built-in method references. */
@@ -4716,8 +4773,8 @@ module.exports = arrayLikeKeys;
 
 
 /***/ }),
-/* 203 */,
-/* 204 */
+/* 204 */,
+/* 205 */
 /***/ (function(module, exports) {
 
 /**
@@ -4743,7 +4800,7 @@ module.exports = arrayPush;
 
 
 /***/ }),
-/* 205 */
+/* 206 */
 /***/ (function(module, exports) {
 
 /** Used as references for various `Number` constants. */
@@ -4774,7 +4831,7 @@ module.exports = isIndex;
 
 
 /***/ }),
-/* 206 */
+/* 207 */
 /***/ (function(module, exports) {
 
 /** Used for built-in method references. */
@@ -4798,7 +4855,7 @@ module.exports = isPrototype;
 
 
 /***/ }),
-/* 207 */
+/* 208 */
 /***/ (function(module, exports) {
 
 /**
@@ -4819,7 +4876,7 @@ module.exports = overArg;
 
 
 /***/ }),
-/* 208 */
+/* 209 */
 /***/ (function(module, exports, __webpack_require__) {
 
 <<<<<<< HEAD
@@ -5022,7 +5079,7 @@ module.exports = debounce;
 
 
 /***/ }),
-/* 209 */
+/* 210 */
 /***/ (function(module, exports, __webpack_require__) {
 
 <<<<<<< HEAD
@@ -5068,7 +5125,6 @@ module.exports = isArguments;
 
 
 /***/ }),
-/* 210 */,
 /* 211 */,
 /* 212 */,
 /* 213 */,
@@ -5089,8 +5145,12 @@ module.exports = isArguments;
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__takeEvery__ = __webpack_require__(399);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__takeLatest__ = __webpack_require__(400);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__throttle__ = __webpack_require__(401);
+<<<<<<< HEAD
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__utils__ = __webpack_require__(21);
 >>>>>>> feat: add payment and delivery popups
+=======
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__utils__ = __webpack_require__(20);
+>>>>>>> feat: tiger popups redesign
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_0__takeEvery__["a"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return __WEBPACK_IMPORTED_MODULE_1__takeLatest__["a"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "c", function() { return __WEBPACK_IMPORTED_MODULE_2__throttle__["a"]; });
@@ -9361,8 +9421,12 @@ var getNative = __webpack_require__(39),
 /***/ (function(module, exports, __webpack_require__) {
 
 var getNative = __webpack_require__(40),
+<<<<<<< HEAD
     root = __webpack_require__(20);
 >>>>>>> feat: add payment and delivery popups
+=======
+    root = __webpack_require__(19);
+>>>>>>> feat: tiger popups redesign
 
 /* Built-in method references that are verified to be native. */
 var DataView = getNative(root, 'DataView');
@@ -9425,8 +9489,12 @@ var getNative = __webpack_require__(39),
     root = __webpack_require__(19);
 =======
 var getNative = __webpack_require__(40),
+<<<<<<< HEAD
     root = __webpack_require__(20);
 >>>>>>> feat: add payment and delivery popups
+=======
+    root = __webpack_require__(19);
+>>>>>>> feat: tiger popups redesign
 
 /* Built-in method references that are verified to be native. */
 var Promise = getNative(root, 'Promise');
@@ -9480,10 +9548,14 @@ module.exports = Stack;
 /***/ (function(module, exports, __webpack_require__) {
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 var root = __webpack_require__(19);
 =======
 var root = __webpack_require__(20);
 >>>>>>> feat: add payment and delivery popups
+=======
+var root = __webpack_require__(19);
+>>>>>>> feat: tiger popups redesign
 
 /** Built-in value references. */
 var Uint8Array = root.Uint8Array;
@@ -9500,8 +9572,12 @@ var getNative = __webpack_require__(39),
     root = __webpack_require__(19);
 =======
 var getNative = __webpack_require__(40),
+<<<<<<< HEAD
     root = __webpack_require__(20);
 >>>>>>> feat: add payment and delivery popups
+=======
+    root = __webpack_require__(19);
+>>>>>>> feat: tiger popups redesign
 
 /* Built-in method references that are verified to be native. */
 var WeakMap = getNative(root, 'WeakMap');
@@ -9554,7 +9630,7 @@ module.exports = arraySome;
 >>>>>>> feat: add payment and delivery popups
 /***/ (function(module, exports, __webpack_require__) {
 
-var arrayPush = __webpack_require__(204),
+var arrayPush = __webpack_require__(205),
     isArray = __webpack_require__(36);
 
 /**
@@ -9889,7 +9965,7 @@ var isPrototype = __webpack_require__(205),
 /* 327 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var isPrototype = __webpack_require__(206),
+var isPrototype = __webpack_require__(207),
     nativeKeys = __webpack_require__(356);
 >>>>>>> feat: add payment and delivery popups
 
@@ -9964,8 +10040,12 @@ var root = __webpack_require__(19);
 /* 330 */
 /***/ (function(module, exports, __webpack_require__) {
 
+<<<<<<< HEAD
 var root = __webpack_require__(20);
 >>>>>>> feat: add payment and delivery popups
+=======
+var root = __webpack_require__(19);
+>>>>>>> feat: tiger popups redesign
 
 /** Used to detect overreaching core-js shims. */
 var coreJsData = root['__core-js_shared__'];
@@ -10304,7 +10384,7 @@ var arrayFilter = __webpack_require__(198),
 /* 335 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var arrayFilter = __webpack_require__(199),
+var arrayFilter = __webpack_require__(200),
     stubArray = __webpack_require__(372);
 >>>>>>> feat: add payment and delivery popups
 
@@ -10354,7 +10434,7 @@ var DataView = __webpack_require__(311),
 var DataView = __webpack_require__(312),
     Map = __webpack_require__(108),
     Promise = __webpack_require__(314),
-    Set = __webpack_require__(198),
+    Set = __webpack_require__(199),
     WeakMap = __webpack_require__(317),
 >>>>>>> feat: add payment and delivery popups
     baseGetTag = __webpack_require__(53),
@@ -10992,7 +11072,7 @@ module.exports = mapToArray;
 >>>>>>> feat: add payment and delivery popups
 /***/ (function(module, exports, __webpack_require__) {
 
-var overArg = __webpack_require__(207);
+var overArg = __webpack_require__(208);
 
 /* Built-in method references for those with the same name as other `lodash` methods. */
 var nativeKeys = overArg(Object.keys, Object);
@@ -11327,7 +11407,7 @@ var arrayLikeKeys = __webpack_require__(201),
 /* 368 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var arrayLikeKeys = __webpack_require__(202),
+var arrayLikeKeys = __webpack_require__(203),
     baseKeys = __webpack_require__(327),
 >>>>>>> feat: add payment and delivery popups
     isArrayLike = __webpack_require__(112);
@@ -28552,8 +28632,12 @@ var root = __webpack_require__(19);
 /* 371 */
 /***/ (function(module, exports, __webpack_require__) {
 
+<<<<<<< HEAD
 var root = __webpack_require__(20);
 >>>>>>> feat: add payment and delivery popups
+=======
+var root = __webpack_require__(19);
+>>>>>>> feat: tiger popups redesign
 
 /**
  * Gets the timestamp of the number of milliseconds that have elapsed since
@@ -29070,8 +29154,12 @@ function takeLatest(patternOrChannel, worker) {
 =======
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__channel__ = __webpack_require__(58);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__buffers__ = __webpack_require__(89);
+<<<<<<< HEAD
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__utils__ = __webpack_require__(21);
 >>>>>>> feat: add payment and delivery popups
+=======
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__utils__ = __webpack_require__(20);
+>>>>>>> feat: tiger popups redesign
 
 
 

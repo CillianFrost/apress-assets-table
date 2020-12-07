@@ -3,22 +3,19 @@
 /*! eslint-disable */
 .e-button {
   box-sizing: border-box;
-  text-transform: uppercase;
-  line-height: 1.42857143;
   border-radius: 3px;
   background-color: #028dd8;
   display: inline-block;
   color: #fff;
   cursor: pointer;
-  padding: 6px 20px;
+  padding: 12px 30px;
   white-space: nowrap;
-  border: 1px solid transparent;
+  border: none;
   font-style: inherit;
-  font-size: 12px;
+  font-size: 16px;
   text-align: center;
   transition: opacity .3s;
-  font-family: 'OpenSans';
-  font-weight: bold; }
+  font-family: 'OpenSans'; }
   .e-button:hover {
     opacity: 0.85; }
   .e-button:disabled {
@@ -2471,9 +2468,8 @@ li.rc-select-dropdown-menu-item-divider {
     outline: 0;
     overflow: hidden; }
   .rc-dialog-header {
-    padding: 60px;
-    padding-top: 40px;
-    padding-bottom: 25px; }
+    padding: 50px 0 30px 50px;
+    text-align: initial; }
   .rc-dialog-close {
     cursor: pointer;
     position: absolute;
@@ -2483,23 +2479,20 @@ li.rc-select-dropdown-menu-item-divider {
     text-decoration: none;
     text-indent: -9999999px;
     overflow: hidden;
-    width: 24px;
-    height: 24px;
-    border: 2px solid #9c9da1;
-    border-radius: 12px;
+    width: 20px;
+    height: 20px;
+    border: none;
     background: #fff;
     padding: 0; }
-    .rc-dialog-close-x:after {
-      background: url("data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjOWM5ZGExIiB3aWR0aD0iMTc5MiIgaGVpZ2h0PSIxNzkyIiB2aWV3Qm94PSIwIDAgMTc5MiAxNzkyIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGQ9Ik0xNDkwIDEzMjJxMCA0MC0yOCA2OGwtMTM2IDEzNnEtMjggMjgtNjggMjh0LTY4LTI4bC0yOTQtMjk0LTI5NCAyOTRxLTI4IDI4LTY4IDI4dC02OC0yOGwtMTM2LTEzNnEtMjgtMjgtMjgtNjh0MjgtNjhsMjk0LTI5NC0yOTQtMjk0cS0yOC0yOC0yOC02OHQyOC02OGwxMzYtMTM2cTI4LTI4IDY4LTI4dDY4IDI4bDI5NCAyOTQgMjk0LTI5NHEyOC0yOCA2OC0yOHQ2OCAyOGwxMzYgMTM2cTI4IDI4IDI4IDY4dC0yOCA2OGwtMjk0IDI5NCAyOTQgMjk0cTI4IDI4IDI4IDY4eiIvPjwvc3ZnPg==") 0%/contain no-repeat;
+    .rc-dialog-close-x {
+      background: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTE1LjQ3MTggMTZMMC41MjgzMiAwLjU0NjM2OUwxLjA1NjY1IDBMMTYuMDAwMSAxNS40NTM2TDE1LjQ3MTggMTZaIiBmaWxsPSIjODA4MDgwIi8+PHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0wLjUyODMzIDE2TDE1LjQ3MTggMC41NDYzNjlMMTQuOTQzNCAwTDAgMTUuNDUzNkwwLjUyODMzIDE2WiIgZmlsbD0iIzgwODA4MCIvPjwvc3ZnPg==") 50%/contain no-repeat;
       content: '';
       display: block;
-      width: 12px;
-      height: 12px;
-      margin: 0 auto; }
+      margin: 0 auto;
+      width: 20px;
+      height: 20px; }
     .rc-dialog-close:hover {
-      border-color: #dc6263; }
-    .rc-dialog-close:hover .rc-dialog-close-x:after {
-      background: url("data:image/svg+xml;base64,PHN2ZyBmaWxsPSIjZGM2MjYzIiB3aWR0aD0iMTc5MiIgaGVpZ2h0PSIxNzkyIiB2aWV3Qm94PSIwIDAgMTc5MiAxNzkyIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPjxwYXRoIGQ9Ik0xNDkwIDEzMjJxMCA0MC0yOCA2OGwtMTM2IDEzNnEtMjggMjgtNjggMjh0LTY4LTI4bC0yOTQtMjk0LTI5NCAyOTRxLTI4IDI4LTY4IDI4dC02OC0yOGwtMTM2LTEzNnEtMjgtMjgtMjgtNjh0MjgtNjhsMjk0LTI5NC0yOTQtMjk0cS0yOC0yOC0yOC02OHQyOC02OGwxMzYtMTM2cTI4LTI4IDY4LTI4dDY4IDI4bDI5NCAyOTQgMjk0LTI5NHEyOC0yOCA2OC0yOHQ2OCAyOGwxMzYgMTM2cTI4IDI4IDI4IDY4dC0yOCA2OGwtMjk0IDI5NCAyOTQgMjk0cTI4IDI4IDI4IDY4eiIvPjwvc3ZnPg==") 0%/contain no-repeat; }
+      background: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj48cGF0aCBmaWxsLXJ1bGU9ImV2ZW5vZGQiIGNsaXAtcnVsZT0iZXZlbm9kZCIgZD0iTTE1LjQ3MTggMTZMMC41MjgzMiAwLjU0NjM2OUwxLjA1NjY1IDBMMTYuMDAwMSAxNS40NTM2TDE1LjQ3MTggMTZaIiBmaWxsPSIjODA4MDgwIi8+PHBhdGggZmlsbC1ydWxlPSJldmVub2RkIiBjbGlwLXJ1bGU9ImV2ZW5vZGQiIGQ9Ik0wLjUyODMzIDE2TDE1LjQ3MTggMC41NDYzNjlMMTQuOTQzNCAwTDAgMTUuNDUzNkwwLjUyODMzIDE2WiIgZmlsbD0iIzgwODA4MCIvPjwvc3ZnPg==") 50%/contain no-repeat; }
   .rc-dialog-title {
     margin: 0;
     line-height: 1.42857143;
@@ -2508,14 +2501,16 @@ li.rc-select-dropdown-menu-item-divider {
     font-weight: 600;
     color: #1f2532; }
   .rc-dialog-body {
-    padding: 0px 60px;
-    margin-bottom: 40px;
     font-size: 12px;
-    color: #61656f; }
+    color: #61656f;
+    padding: 0 50px;
+    margin-bottom: 50px; }
   .rc-dialog-footer {
-    padding: 40px 60px; }
+    padding: 50px; }
   .rc-dialog-button {
     margin-right: 20px; }
+    .rc-dialog-button:last-child {
+      margin-right: 0; }
   .rc-dialog-button-container {
     text-align: center; }
   .rc-dialog-mask {
@@ -2573,13 +2568,6 @@ li.rc-select-dropdown-menu-item-divider {
   .rc-dialog-fade-leave.rc-dialog-fade-leave-active {
     animation-name: rcDialogFadeOut;
     animation-play-state: running; }
-  .rc-dialog.is-confirmation {
-    text-align: center; }
-    .rc-dialog.is-confirmation .rc-dialog-body {
-      min-height: 60px;
-      display: flex;
-      align-items: flex-end;
-      justify-content: center; }
   .rc-dialog.is-image-editor .rc-dialog-body {
     background: #f4f4f4;
     margin-bottom: 0;

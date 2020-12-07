@@ -586,10 +586,14 @@ module.exports = __WEBPACK_EXTERNAL_MODULE_10__;
 /***/ (function(module, exports) {
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 var core = module.exports = { version: '2.6.11' };
 =======
 var core = module.exports = { version: '2.6.12' };
 >>>>>>> feat: add payment and delivery popups
+=======
+var core = module.exports = { version: '2.6.11' };
+>>>>>>> feat: tiger popups redesign
 if (typeof __e == 'number') __e = core; // eslint-disable-line no-undef
 
 
@@ -1288,6 +1292,7 @@ module.exports = __WEBPACK_EXTERNAL_MODULE_18__;
 /***/ }),
 /* 19 */
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 /***/ (function(module, exports) {
 
@@ -1303,6 +1308,8 @@ module.exports = function (exec) {
 /***/ }),
 /* 20 */
 >>>>>>> feat: add payment and delivery popups
+=======
+>>>>>>> feat: tiger popups redesign
 /***/ (function(module, exports, __webpack_require__) {
 
 var freeGlobal = __webpack_require__(164);
@@ -1318,10 +1325,14 @@ module.exports = root;
 
 /***/ }),
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* 20 */
 =======
 /* 21 */
 >>>>>>> feat: add payment and delivery popups
+=======
+/* 20 */
+>>>>>>> feat: tiger popups redesign
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1642,6 +1653,9 @@ var cloneableGenerator = function cloneableGenerator(generatorFunc) {
 
 /***/ }),
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> feat: tiger popups redesign
 /* 21 */
 /***/ (function(module, exports) {
 
@@ -1655,8 +1669,11 @@ module.exports = function (exec) {
 
 
 /***/ }),
+<<<<<<< HEAD
 =======
 >>>>>>> feat: add payment and delivery popups
+=======
+>>>>>>> feat: tiger popups redesign
 /* 22 */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -2062,7 +2079,7 @@ module.exports = !__webpack_require__(21)(function () {
 /***/ (function(module, exports, __webpack_require__) {
 
 // Thank's IE8 for his funny defineProperty
-module.exports = !__webpack_require__(19)(function () {
+module.exports = !__webpack_require__(21)(function () {
   return Object.defineProperty({}, 'a', { get: function () { return 7; } }).a != 7;
 });
 
@@ -2501,10 +2518,14 @@ module.exports = function (it) {
 /* harmony export (immutable) */ __webpack_exports__["u"] = throttle;
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "w", function() { return asEffect; });
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__utils__ = __webpack_require__(20);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__sagaHelpers__ = __webpack_require__(213);
 =======
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__utils__ = __webpack_require__(21);
+=======
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__utils__ = __webpack_require__(20);
+>>>>>>> feat: tiger popups redesign
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__sagaHelpers__ = __webpack_require__(215);
 >>>>>>> feat: add payment and delivery popups
 
@@ -3052,11 +3073,15 @@ module.exports = Object.keys || function keys(O) {
 /* harmony export (immutable) */ __webpack_exports__["b"] = eventChannel;
 /* harmony export (immutable) */ __webpack_exports__["d"] = stdChannel;
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__utils__ = __webpack_require__(20);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__buffers__ = __webpack_require__(89);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__scheduler__ = __webpack_require__(214);
 =======
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__utils__ = __webpack_require__(21);
+=======
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__utils__ = __webpack_require__(20);
+>>>>>>> feat: tiger popups redesign
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__buffers__ = __webpack_require__(89);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__scheduler__ = __webpack_require__(216);
 >>>>>>> feat: add payment and delivery popups
@@ -3399,7 +3424,7 @@ var _throttle2 = __webpack_require__(136);
 
 var _throttle3 = _interopRequireDefault(_throttle2);
 
-var _debounce2 = __webpack_require__(208);
+var _debounce2 = __webpack_require__(209);
 
 var _debounce3 = _interopRequireDefault(_debounce2);
 
@@ -3908,7 +3933,7 @@ var fails = __webpack_require__(21);
 var defined = __webpack_require__(121);
 =======
 var $export = __webpack_require__(4);
-var fails = __webpack_require__(19);
+var fails = __webpack_require__(21);
 var defined = __webpack_require__(120);
 >>>>>>> feat: add payment and delivery popups
 var quot = /"/g;
@@ -3934,10 +3959,14 @@ module.exports = function (NAME, exec) {
 /***/ (function(module, exports, __webpack_require__) {
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 var root = __webpack_require__(19);
 =======
 var root = __webpack_require__(20);
 >>>>>>> feat: add payment and delivery popups
+=======
+var root = __webpack_require__(19);
+>>>>>>> feat: tiger popups redesign
 
 /** Built-in value references. */
 var Symbol = root.Symbol;
@@ -4404,10 +4433,14 @@ module.exports = eq;
 /* unused harmony export BUFFER_OVERFLOW */
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return buffers; });
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__utils__ = __webpack_require__(20);
 =======
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__utils__ = __webpack_require__(21);
 >>>>>>> feat: add payment and delivery popups
+=======
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__utils__ = __webpack_require__(20);
+>>>>>>> feat: tiger popups redesign
 
 
 var BUFFER_OVERFLOW = "Channel's Buffer overflow!";
@@ -4754,10 +4787,14 @@ var store = global[SHARED] || (global[SHARED] = {});
   version: core.version,
   mode: __webpack_require__(65) ? 'pure' : 'global',
 <<<<<<< HEAD
+<<<<<<< HEAD
   copyright: '© 2019 Denis Pushkarev (zloirock.ru)'
 =======
   copyright: '© 2020 Denis Pushkarev (zloirock.ru)'
 >>>>>>> feat: add payment and delivery popups
+=======
+  copyright: '© 2019 Denis Pushkarev (zloirock.ru)'
+>>>>>>> feat: tiger popups redesign
 });
 
 
@@ -4865,10 +4902,14 @@ module.exports = function (it) {
 /***/ (function(module, exports) {
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 var core = module.exports = { version: '2.6.11' };
 =======
 var core = module.exports = { version: '2.6.12' };
 >>>>>>> feat: add payment and delivery popups
+=======
+var core = module.exports = { version: '2.6.11' };
+>>>>>>> feat: tiger popups redesign
 if (typeof __e == 'number') __e = core; // eslint-disable-line no-undef
 
 
@@ -4909,10 +4950,14 @@ module.exports = function (fn, that, length) {
 "use strict";
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 var fails = __webpack_require__(21);
 =======
 var fails = __webpack_require__(19);
 >>>>>>> feat: add payment and delivery popups
+=======
+var fails = __webpack_require__(21);
+>>>>>>> feat: tiger popups redesign
 
 module.exports = function (method, arg) {
   return !!method && fails(function () {
@@ -4943,8 +4988,12 @@ var getNative = __webpack_require__(39),
     root = __webpack_require__(19);
 =======
 var getNative = __webpack_require__(40),
+<<<<<<< HEAD
     root = __webpack_require__(20);
 >>>>>>> feat: add payment and delivery popups
+=======
+    root = __webpack_require__(19);
+>>>>>>> feat: tiger popups redesign
 
 /* Built-in method references that are verified to be native. */
 var Map = getNative(root, 'Map');
@@ -5087,6 +5136,7 @@ module.exports = isArrayLike;
 /* harmony export (immutable) */ __webpack_exports__["c"] = safeName;
 /* harmony export (immutable) */ __webpack_exports__["a"] = fsmIterator;
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__utils__ = __webpack_require__(20);
 
 
@@ -5104,6 +5154,9 @@ function safeName(patternOrChannel) {
     return String(patternOrChannel);
 =======
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__utils__ = __webpack_require__(21);
+=======
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__utils__ = __webpack_require__(20);
+>>>>>>> feat: tiger popups redesign
 
 
 var done = { done: true, value: undefined };
@@ -5611,7 +5664,7 @@ module.exports = function (it) {
 // most Object methods by ES6 should accept primitives
 var $export = __webpack_require__(4);
 var core = __webpack_require__(104);
-var fails = __webpack_require__(19);
+var fails = __webpack_require__(21);
 module.exports = function (KEY, exec) {
   var fn = (core.Object || {})[KEY] || Object[KEY];
   var exp = {};
@@ -5700,7 +5753,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "takeEvery", function() { return __WEBPACK_IMPORTED_MODULE_4__internal_sagaHelpers__["d"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "takeLatest", function() { return __WEBPACK_IMPORTED_MODULE_4__internal_sagaHelpers__["e"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "throttle", function() { return __WEBPACK_IMPORTED_MODULE_4__internal_sagaHelpers__["f"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__internal_utils__ = __webpack_require__(21);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__internal_utils__ = __webpack_require__(20);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "delay", function() { return __WEBPACK_IMPORTED_MODULE_5__internal_utils__["i"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "CANCEL", function() { return __WEBPACK_IMPORTED_MODULE_5__internal_utils__["q"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__internal_io__ = __webpack_require__(50);
@@ -6061,6 +6114,7 @@ module.exports = function (fn, that, length) {
   };
 };
 
+<<<<<<< HEAD
 
 /***/ }),
 /* 120 */
@@ -6494,6 +6548,25 @@ if (__webpack_require__(34)) {
   var toIndex = __webpack_require__(732);
   var toAbsoluteIndex = __webpack_require__(191);
   var toPrimitive = __webpack_require__(123);
+=======
+if (__webpack_require__(35)) {
+  var LIBRARY = __webpack_require__(161);
+  var global = __webpack_require__(17);
+  var fails = __webpack_require__(21);
+  var $export = __webpack_require__(4);
+  var $typed = __webpack_require__(422);
+  var $buffer = __webpack_require__(562);
+  var ctx = __webpack_require__(105);
+  var anInstance = __webpack_require__(185);
+  var propertyDesc = __webpack_require__(190);
+  var hide = __webpack_require__(75);
+  var redefineAll = __webpack_require__(191);
+  var toInteger = __webpack_require__(107);
+  var toLength = __webpack_require__(33);
+  var toIndex = __webpack_require__(739);
+  var toAbsoluteIndex = __webpack_require__(193);
+  var toPrimitive = __webpack_require__(122);
+>>>>>>> feat: tiger popups redesign
   var has = __webpack_require__(84);
   var classof = __webpack_require__(218);
   var isObject = __webpack_require__(23);
@@ -7442,8 +7515,13 @@ module.exports = isArrayLikeObject;
 /* 137 */
 /***/ (function(module, exports, __webpack_require__) {
 
+<<<<<<< HEAD
 var debounce = __webpack_require__(207),
     isObject = __webpack_require__(36);
+=======
+var debounce = __webpack_require__(209),
+    isObject = __webpack_require__(37);
+>>>>>>> feat: tiger popups redesign
 
 /** Error message constants. */
 var FUNC_ERROR_TEXT = 'Expected a function';
@@ -10667,7 +10745,63 @@ module.exports = function xhrAdapter(config) {
         request: request
       };
 
+<<<<<<< HEAD
       settle(resolve, reject, response);
+=======
+var META = __webpack_require__(194)('meta');
+var isObject = __webpack_require__(23);
+var has = __webpack_require__(84);
+var setDesc = __webpack_require__(44).f;
+var id = 0;
+var isExtensible = Object.isExtensible || function () {
+  return true;
+};
+var FREEZE = !__webpack_require__(21)(function () {
+  return isExtensible(Object.preventExtensions({}));
+});
+var setMeta = function (it) {
+  setDesc(it, META, { value: {
+    i: 'O' + ++id, // object ID
+    w: {}          // weak collections IDs
+  } });
+};
+var fastKey = function (it, create) {
+  // return primitive with prefix
+  if (!isObject(it)) return typeof it == 'symbol' ? it : (typeof it == 'string' ? 'S' : 'P') + it;
+  if (!has(it, META)) {
+    // can't set metadata to uncaught frozen object
+    if (!isExtensible(it)) return 'F';
+    // not necessary to add metadata
+    if (!create) return 'E';
+    // add missing metadata
+    setMeta(it);
+  // return object ID
+  } return it[META].i;
+};
+var getWeak = function (it, create) {
+  if (!has(it, META)) {
+    // can't set metadata to uncaught frozen object
+    if (!isExtensible(it)) return true;
+    // not necessary to add metadata
+    if (!create) return false;
+    // add missing metadata
+    setMeta(it);
+  // return hash weak collections IDs
+  } return it[META].w;
+};
+// add metadata on freeze-family methods calling
+var onFreeze = function (it) {
+  if (FREEZE && meta.NEED && isExtensible(it) && !has(it, META)) setMeta(it);
+  return it;
+};
+var meta = module.exports = {
+  KEY: META,
+  NEED: false,
+  fastKey: fastKey,
+  getWeak: getWeak,
+  onFreeze: onFreeze
+};
+>>>>>>> feat: tiger popups redesign
 
       // Clean up request
       request = null;
@@ -10795,9 +10929,21 @@ function Cancel(message) {
   this.message = message;
 }
 
+<<<<<<< HEAD
 Cancel.prototype.toString = function toString() {
   return 'Cancel' + (this.message ? ': ' + this.message : '');
 };
+=======
+module.exports = toSource;
+
+
+/***/ }),
+/* 166 */
+/***/ (function(module, exports, __webpack_require__) {
+
+/* WEBPACK VAR INJECTION */(function(module) {var root = __webpack_require__(19),
+    stubFalse = __webpack_require__(373);
+>>>>>>> feat: tiger popups redesign
 
 Cancel.prototype.__CANCEL__ = true;
 
@@ -11773,8 +11919,88 @@ __webpack_require__(425);
 
 var _utils = __webpack_require__(7);
 
+<<<<<<< HEAD
 __webpack_require__(424);
 >>>>>>> feat: add payment and delivery popups
+=======
+"use strict";
+
+
+/**
+ * Copyright 2015, Yahoo! Inc.
+ * Copyrights licensed under the New BSD License. See the accompanying LICENSE file for terms.
+ */
+var REACT_STATICS = {
+    childContextTypes: true,
+    contextTypes: true,
+    defaultProps: true,
+    displayName: true,
+    getDefaultProps: true,
+    getDerivedStateFromProps: true,
+    mixins: true,
+    propTypes: true,
+    type: true
+};
+
+var KNOWN_STATICS = {
+    name: true,
+    length: true,
+    prototype: true,
+    caller: true,
+    callee: true,
+    arguments: true,
+    arity: true
+};
+
+var defineProperty = Object.defineProperty;
+var getOwnPropertyNames = Object.getOwnPropertyNames;
+var getOwnPropertySymbols = Object.getOwnPropertySymbols;
+var getOwnPropertyDescriptor = Object.getOwnPropertyDescriptor;
+var getPrototypeOf = Object.getPrototypeOf;
+var objectPrototype = getPrototypeOf && getPrototypeOf(Object);
+
+function hoistNonReactStatics(targetComponent, sourceComponent, blacklist) {
+    if (typeof sourceComponent !== 'string') { // don't hoist over string (html) components
+
+        if (objectPrototype) {
+            var inheritedComponent = getPrototypeOf(sourceComponent);
+            if (inheritedComponent && inheritedComponent !== objectPrototype) {
+                hoistNonReactStatics(targetComponent, inheritedComponent, blacklist);
+            }
+        }
+
+        var keys = getOwnPropertyNames(sourceComponent);
+
+        if (getOwnPropertySymbols) {
+            keys = keys.concat(getOwnPropertySymbols(sourceComponent));
+        }
+
+        for (var i = 0; i < keys.length; ++i) {
+            var key = keys[i];
+            if (!REACT_STATICS[key] && !KNOWN_STATICS[key] && (!blacklist || !blacklist[key])) {
+                var descriptor = getOwnPropertyDescriptor(sourceComponent, key);
+                try { // Avoid failures from read-only properties
+                    defineProperty(targetComponent, key, descriptor);
+                } catch (e) {}
+            }
+        }
+
+        return targetComponent;
+    }
+
+    return targetComponent;
+}
+
+module.exports = hoistNonReactStatics;
+
+
+/***/ }),
+/* 199 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var getNative = __webpack_require__(40),
+    root = __webpack_require__(19);
+>>>>>>> feat: tiger popups redesign
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -11786,7 +12012,13 @@ function Select(props) {
       mix = props.mix,
       dropdownClassNameMix = props.dropdownClassNameMix;
 
+<<<<<<< HEAD
   var dropdownClassName = (0, _classnames2.default)('e-select-drop-down', (0, _defineProperty3.default)({}, dropdownClassNameMix, true));
+=======
+/***/ }),
+/* 200 */
+/***/ (function(module, exports) {
+>>>>>>> feat: tiger popups redesign
 
   return _react2.default.createElement(_rcSelect2.default, (0, _extends3.default)({
     ref: function ref(select) {
@@ -11803,7 +12035,11 @@ function Select(props) {
 exports.default = Select;
 
 /***/ }),
+<<<<<<< HEAD
 /* 172 */
+=======
+/* 201 */
+>>>>>>> feat: tiger popups redesign
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11813,7 +12049,13 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 
+<<<<<<< HEAD
 var _react = __webpack_require__(0);
+=======
+/***/ }),
+/* 202 */
+/***/ (function(module, exports) {
+>>>>>>> feat: tiger popups redesign
 
 var _react2 = _interopRequireDefault(_react);
 
@@ -11824,11 +12066,24 @@ var _propTypes2 = _interopRequireDefault(_propTypes);
 <<<<<<< HEAD
 var _rcProgress = __webpack_require__(656);
 
+<<<<<<< HEAD
 var _utils = __webpack_require__(7);
 
 __webpack_require__(594);
 =======
 var _rcProgress = __webpack_require__(663);
+=======
+/***/ }),
+/* 203 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var baseTimes = __webpack_require__(328),
+    isArguments = __webpack_require__(210),
+    isArray = __webpack_require__(36),
+    isBuffer = __webpack_require__(166),
+    isIndex = __webpack_require__(206),
+    isTypedArray = __webpack_require__(169);
+>>>>>>> feat: tiger popups redesign
 
 var _utils = __webpack_require__(7);
 
@@ -11876,9 +12131,15 @@ ProgressCircle.propTypes = {
   percent: _propTypes2.default.number
 };
 
+<<<<<<< HEAD
 ProgressCircle.defaultProps = {
   mix: ''
 };
+=======
+/***/ }),
+/* 204 */
+/***/ (function(module, exports) {
+>>>>>>> feat: tiger popups redesign
 
 exports.default = ProgressCircle;
 
@@ -11891,6 +12152,7 @@ exports.default = ProgressCircle;
 "use strict";
 
 
+<<<<<<< HEAD
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
@@ -11900,6 +12162,11 @@ var SAVE_CREATE_DIFF = exports.SAVE_CREATE_DIFF = 'SAVE_CREATE_DIFF';
 var SAVE_DIFF = exports.SAVE_DIFF = 'SAVE_DIFF';
 var CONTINUE_SAVE = exports.CONTINUE_SAVE = 'CONTINUE_SAVE';
 var SUCCESS_REMOVE_MESSAGE = exports.SUCCESS_REMOVE_MESSAGE = 'SUCCESS_REMOVE_MESSAGE';
+=======
+/***/ }),
+/* 205 */
+/***/ (function(module, exports) {
+>>>>>>> feat: tiger popups redesign
 
 var saveStart = exports.saveStart = function saveStart() {
   return {
@@ -11930,9 +12197,14 @@ var continueSave = exports.continueSave = function continueSave(payload) {
 };
 
 /***/ }),
+<<<<<<< HEAD
 /* 174 */
 >>>>>>> feat: add payment and delivery popups
 /***/ (function(module, exports, __webpack_require__) {
+=======
+/* 206 */
+/***/ (function(module, exports) {
+>>>>>>> feat: tiger popups redesign
 
 "use strict";
 
@@ -11961,11 +12233,16 @@ var selectCellActions = exports.selectCellActions = {
 
 /***/ }),
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* 174 */
 =======
 /* 175 */
 >>>>>>> feat: add payment and delivery popups
 /***/ (function(module, exports, __webpack_require__) {
+=======
+/* 207 */
+/***/ (function(module, exports) {
+>>>>>>> feat: tiger popups redesign
 
 "use strict";
 
@@ -11991,11 +12268,16 @@ var UPDATE_HAVE_MAXIMUM_IMAGES_COUNT = exports.UPDATE_HAVE_MAXIMUM_IMAGES_COUNT 
 
 /***/ }),
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* 175 */
 =======
 /* 176 */
 >>>>>>> feat: add payment and delivery popups
 /***/ (function(module, exports, __webpack_require__) {
+=======
+/* 208 */
+/***/ (function(module, exports) {
+>>>>>>> feat: tiger popups redesign
 
 "use strict";
 
@@ -12009,10 +12291,14 @@ var FINISH_ONLINE_STORE_IMPORT = exports.FINISH_ONLINE_STORE_IMPORT = 'FINISH_ON
 
 /***/ }),
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* 176 */
 =======
 /* 177 */
 >>>>>>> feat: add payment and delivery popups
+=======
+/* 209 */
+>>>>>>> feat: tiger popups redesign
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -12097,8 +12383,12 @@ exports.default = statusTextStatuses;
 module.exports = { "default": __webpack_require__(267), __esModule: true };
 
 /***/ }),
+<<<<<<< HEAD
 /* 181 */
 >>>>>>> feat: add payment and delivery popups
+=======
+/* 210 */
+>>>>>>> feat: tiger popups redesign
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -12189,11 +12479,16 @@ var meta = module.exports = {
 
 /***/ }),
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* 181 */
 =======
 /* 183 */
 >>>>>>> feat: add payment and delivery popups
 /***/ (function(module, exports, __webpack_require__) {
+=======
+/* 211 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+>>>>>>> feat: tiger popups redesign
 
 // fallback for IE11 buggy Object.getOwnPropertyNames with iframe and window
 var toIObject = __webpack_require__(48);
@@ -12379,8 +12674,13 @@ exports.f = Object.getOwnPropertyNames || function getOwnPropertyNames(O) {
 
 /***/ }),
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* 187 */
 /***/ (function(module, exports, __webpack_require__) {
+=======
+/* 212 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+>>>>>>> feat: tiger popups redesign
 
 // 19.1.2.14 / 15.2.3.14 Object.keys(O)
 var $keys = __webpack_require__(723);
@@ -12534,7 +12834,11 @@ module.exports = function (it, TYPE) {
 
 
 /***/ }),
+<<<<<<< HEAD
 /* 196 */
+=======
+/* 213 */
+>>>>>>> feat: tiger popups redesign
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -12543,9 +12847,15 @@ module.exports = function (it, TYPE) {
 exports.__esModule = true;
 exports['default'] = isDisposable;
 
+<<<<<<< HEAD
 function isDisposable(obj) {
   return Boolean(obj && typeof obj.dispose === 'function');
 }
+=======
+/***/ }),
+/* 214 */
+/***/ (function(module, exports, __webpack_require__) {
+>>>>>>> feat: tiger popups redesign
 
 module.exports = exports['default'];
 
@@ -12561,6 +12871,7 @@ module.exports = exports['default'];
 /* 196 */
 /***/ (function(module, exports, __webpack_require__) {
 
+<<<<<<< HEAD
 "use strict";
 
 
@@ -12641,6 +12952,45 @@ var getNative = __webpack_require__(39),
 =======
 /* 198 */
 /***/ (function(module, exports, __webpack_require__) {
+=======
+	if (keysA.length !== keysB.length) {
+		return false;
+	}
+
+	// Test for A's keys different from B.
+	var hasOwn = Object.prototype.hasOwnProperty;
+	for (var i = 0; i < keysA.length; i += 1) {
+		if (!hasOwn.call(objB, keysA[i]) || objA[keysA[i]] !== objB[keysA[i]]) {
+			return false;
+		}
+
+		var valA = objA[keysA[i]];
+		var valB = objB[keysA[i]];
+
+		if (valA !== valB) {
+			return false;
+		}
+	}
+
+	return true;
+}
+
+/***/ }),
+/* 215 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "d", function() { return takeEvery; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "e", function() { return takeLatest; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "f", function() { return throttle; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__takeEvery__ = __webpack_require__(399);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__takeLatest__ = __webpack_require__(400);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__throttle__ = __webpack_require__(401);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__utils__ = __webpack_require__(20);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_0__takeEvery__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return __WEBPACK_IMPORTED_MODULE_1__takeLatest__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "c", function() { return __WEBPACK_IMPORTED_MODULE_2__throttle__["a"]; });
+>>>>>>> feat: tiger popups redesign
 
 var getNative = __webpack_require__(40),
     root = __webpack_require__(20);
@@ -13976,6 +14326,7 @@ function findIndexInValueByKey(value, key) {
   return index;
 }
 
+<<<<<<< HEAD
 function findIndexInValueByLabel(value, label) {
   var index = -1;
   for (var i = 0; i < value.length; i++) {
@@ -13986,6 +14337,16 @@ function findIndexInValueByLabel(value, label) {
   }
   return index;
 }
+=======
+var $export = __webpack_require__(4);
+var defined = __webpack_require__(120);
+var fails = __webpack_require__(21);
+var spaces = __webpack_require__(560);
+var space = '[' + spaces + ']';
+var non = '\u200b\u0085';
+var ltrim = RegExp('^' + space + space + '*');
+var rtrim = RegExp(space + space + '*$');
+>>>>>>> feat: tiger popups redesign
 
 function getSelectKeys(menuItems, value) {
   if (value === null || value === undefined) {
@@ -17854,9 +18215,18 @@ exports.default = function (_ref) {
 
 "use strict";
 
+<<<<<<< HEAD
 
 Object.defineProperty(exports, "__esModule", {
   value: true
+=======
+(module.exports = function (key, value) {
+  return store[key] || (store[key] = value !== undefined ? value : {});
+})('versions', []).push({
+  version: core.version,
+  mode: __webpack_require__(161) ? 'pure' : 'global',
+  copyright: '© 2019 Denis Pushkarev (zloirock.ru)'
+>>>>>>> feat: tiger popups redesign
 });
 
 var _react = __webpack_require__(0);
@@ -17972,7 +18342,12 @@ module.exports = { "default": __webpack_require__(273), __esModule: true };
 /* 260 */
 /***/ (function(module, exports, __webpack_require__) {
 
+<<<<<<< HEAD
 "use strict";
+=======
+var getNative = __webpack_require__(40),
+    root = __webpack_require__(19);
+>>>>>>> feat: tiger popups redesign
 
 
 exports.__esModule = true;
@@ -18003,9 +18378,14 @@ exports.default = function () {
     var _d = false;
     var _e = undefined;
 
+<<<<<<< HEAD
     try {
       for (var _i = (0, _getIterator3.default)(arr), _s; !(_n = (_s = _i.next()).done); _n = true) {
         _arr.push(_s.value);
+=======
+var getNative = __webpack_require__(40),
+    root = __webpack_require__(19);
+>>>>>>> feat: tiger popups redesign
 
         if (i && _arr.length === i) break;
       }
@@ -18045,9 +18425,22 @@ exports.default = function () {
  * LICENSE file in the root directory of this source tree.
  */
 
+<<<<<<< HEAD
 // This method of obtaining a reference to the global object needs to be
 // kept identical to the way it is obtained in runtime.js
 var g = (function() { return this })() || Function("return this")();
+=======
+/***/ }),
+/* 316 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var root = __webpack_require__(19);
+
+/** Built-in value references. */
+var Uint8Array = root.Uint8Array;
+
+module.exports = Uint8Array;
+>>>>>>> feat: tiger popups redesign
 
 // Use `getOwnPropertyNames` because not all browsers support calling
 // `hasOwnProperty` on the global `self` object in a worker. See #183.
@@ -18057,8 +18450,13 @@ var hadRuntime = g.regeneratorRuntime &&
 // Save the old regeneratorRuntime in case it needs to be restored later.
 var oldRuntime = hadRuntime && g.regeneratorRuntime;
 
+<<<<<<< HEAD
 // Force reevalutation of runtime.js.
 g.regeneratorRuntime = undefined;
+=======
+var getNative = __webpack_require__(40),
+    root = __webpack_require__(19);
+>>>>>>> feat: tiger popups redesign
 
 module.exports = __webpack_require__(262);
 
@@ -18110,9 +18508,18 @@ if (hadRuntime) {
     return;
   }
 
+<<<<<<< HEAD
   // Define the runtime globally (as expected by generated code) as either
   // module.exports (if we're in a module) or a new, empty object.
   runtime = global.regeneratorRuntime = inModule ? module.exports : {};
+=======
+var SetCache = __webpack_require__(109),
+    arrayIncludes = __webpack_require__(201),
+    arrayIncludesWith = __webpack_require__(202),
+    arrayMap = __webpack_require__(204),
+    baseUnary = __webpack_require__(133),
+    cacheHas = __webpack_require__(111);
+>>>>>>> feat: tiger popups redesign
 
   function wrap(innerFn, outerFn, self, tryLocsList) {
     // If outerFn provided and outerFn.prototype is a Generator, then outerFn.prototype instanceof Generator.
@@ -18152,10 +18559,15 @@ if (hadRuntime) {
 /***/ (function(module, exports, __webpack_require__) {
 >>>>>>> feat: add payment and delivery popups
 
+<<<<<<< HEAD
   var GenStateSuspendedStart = "suspendedStart";
   var GenStateSuspendedYield = "suspendedYield";
   var GenStateExecuting = "executing";
   var GenStateCompleted = "completed";
+=======
+var arrayPush = __webpack_require__(205),
+    isFlattenable = __webpack_require__(628);
+>>>>>>> feat: tiger popups redesign
 
   // Returning this object from the innerFn has the same effect as
   // breaking out of the dispatch switch statement.
@@ -18217,6 +18629,7 @@ var _getPrototypeOf = __webpack_require__(8);
       : false;
   };
 
+<<<<<<< HEAD
   runtime.mark = function(genFun) {
     if (Object.setPrototypeOf) {
       Object.setPrototypeOf(genFun, GeneratorFunctionPrototype);
@@ -18229,6 +18642,10 @@ var _getPrototypeOf = __webpack_require__(8);
     genFun.prototype = Object.create(Gp);
     return genFun;
   };
+=======
+var arrayPush = __webpack_require__(205),
+    isArray = __webpack_require__(36);
+>>>>>>> feat: tiger popups redesign
 
   // Within the body of any async function, `await x` is transformed to
   // `yield regeneratorRuntime.awrap(x)`, so that the runtime can test
@@ -18581,6 +18998,7 @@ var _EditControlPanel = __webpack_require__(503);
 /***/ (function(module, exports, __webpack_require__) {
 >>>>>>> feat: add payment and delivery popups
 
+<<<<<<< HEAD
     // Rather than returning an object with a next method, we keep
     // things simple and return the next function itself.
     return function next() {
@@ -18592,6 +19010,10 @@ var _EditControlPanel = __webpack_require__(503);
           return next;
         }
       }
+=======
+var isPrototype = __webpack_require__(207),
+    nativeKeys = __webpack_require__(356);
+>>>>>>> feat: tiger popups redesign
 
       // To avoid creating an additional object, we just hang the .value
       // and .done properties off the next function object itself. This
@@ -18655,8 +19077,17 @@ var _PopupProportiesCellView = __webpack_require__(504);
 /***/ (function(module, exports, __webpack_require__) {
 >>>>>>> feat: add payment and delivery popups
 
+<<<<<<< HEAD
   Context.prototype = {
     constructor: Context,
+=======
+var SetCache = __webpack_require__(109),
+    arrayIncludes = __webpack_require__(201),
+    arrayIncludesWith = __webpack_require__(202),
+    cacheHas = __webpack_require__(111),
+    createSet = __webpack_require__(625),
+    setToArray = __webpack_require__(134);
+>>>>>>> feat: tiger popups redesign
 
     reset: function(skipTempReset) {
       this.prev = 0;
@@ -18726,8 +19157,17 @@ var _propTypes = __webpack_require__(6);
 /* 256 */
 /***/ (function(module, exports, __webpack_require__) {
 
+<<<<<<< HEAD
 module.exports = { "default": __webpack_require__(527), __esModule: true };
 >>>>>>> feat: add payment and delivery popups
+=======
+var root = __webpack_require__(19);
+
+/** Used to detect overreaching core-js shims. */
+var coreJsData = root['__core-js_shared__'];
+
+module.exports = coreJsData;
+>>>>>>> feat: tiger popups redesign
 
       for (var i = this.tryEntries.length - 1; i >= 0; --i) {
         var entry = this.tryEntries[i];
@@ -19010,10 +19450,15 @@ if (hadRuntime) {
     }
   }
 
+<<<<<<< HEAD
   var GenStateSuspendedStart = "suspendedStart";
   var GenStateSuspendedYield = "suspendedYield";
   var GenStateExecuting = "executing";
   var GenStateCompleted = "completed";
+=======
+var arrayFilter = __webpack_require__(200),
+    stubArray = __webpack_require__(372);
+>>>>>>> feat: tiger popups redesign
 
   // Returning this object from the innerFn has the same effect as
   // breaking out of the dispatch switch statement.
@@ -19044,12 +19489,26 @@ if (hadRuntime) {
     IteratorPrototype = NativeIteratorPrototype;
   }
 
+<<<<<<< HEAD
   var Gp = GeneratorFunctionPrototype.prototype =
     Generator.prototype = Object.create(IteratorPrototype);
   GeneratorFunction.prototype = Gp.constructor = GeneratorFunctionPrototype;
   GeneratorFunctionPrototype.constructor = GeneratorFunction;
   GeneratorFunctionPrototype[toStringTagSymbol] =
     GeneratorFunction.displayName = "GeneratorFunction";
+=======
+/***/ }),
+/* 336 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var DataView = __webpack_require__(312),
+    Map = __webpack_require__(108),
+    Promise = __webpack_require__(314),
+    Set = __webpack_require__(199),
+    WeakMap = __webpack_require__(317),
+    baseGetTag = __webpack_require__(53),
+    toSource = __webpack_require__(165);
+>>>>>>> feat: tiger popups redesign
 
   // Helper for defining the .next, .throw, and .return methods of the
   // Iterator interface in terms of a single ._invoke method.
@@ -19742,11 +20201,15 @@ module.exports = function (IS_INCLUDES) {
 /* 277 */
 /***/ (function(module, exports, __webpack_require__) {
 
+<<<<<<< HEAD
 // getting tag from 19.1.3.6 Object.prototype.toString()
 var cof = __webpack_require__(118);
 var TAG = __webpack_require__(22)('toStringTag');
 // ES3 wrong here
 var ARG = cof(function () { return arguments; }()) == 'Arguments';
+=======
+var overArg = __webpack_require__(208);
+>>>>>>> feat: tiger popups redesign
 
 // fallback for IE11 Script Access Denied error
 var tryGet = function (it, key) {
@@ -20154,7 +20617,13 @@ module.exports = __webpack_require__(11).getIteratorMethod = function (it) {
 =======
 	var _helpers = __webpack_require__(2);
 
+<<<<<<< HEAD
 	var _constants = __webpack_require__(1);
+=======
+var arrayLikeKeys = __webpack_require__(203),
+    baseKeys = __webpack_require__(327),
+    isArrayLike = __webpack_require__(112);
+>>>>>>> feat: tiger popups redesign
 
 	var IS_PREFIX = 'is-';
 	var HAS_PREFIX = 'has-';
@@ -29594,9 +30063,13 @@ module.exports = keys;
       return function(string) {
         string = toString(string);
 
+<<<<<<< HEAD
         var strSymbols = hasUnicode(string)
           ? stringToArray(string)
           : undefined;
+=======
+var root = __webpack_require__(19);
+>>>>>>> feat: tiger popups redesign
 
         var chr = strSymbols
           ? strSymbols[0]
@@ -34456,6 +34929,7 @@ module.exports = keys;
       return func(collection, n);
     }
 
+<<<<<<< HEAD
     /**
      * Creates an array of shuffled values, using a version of the
      * [Fisher-Yates shuffle](https://en.wikipedia.org/wiki/Fisher-Yates_shuffle).
@@ -34475,6 +34949,29 @@ module.exports = keys;
       var func = isArray(collection) ? arrayShuffle : baseShuffle;
       return func(collection);
     }
+=======
+var _invariant2 = _interopRequireDefault(_invariant);
+
+var _hoistNonReactStatics = __webpack_require__(198);
+
+var _hoistNonReactStatics2 = _interopRequireDefault(_hoistNonReactStatics);
+
+var _checkDecoratorArguments = __webpack_require__(142);
+
+var _checkDecoratorArguments2 = _interopRequireDefault(_checkDecoratorArguments);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+
+function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+
+function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; }
+
+var CHILD_CONTEXT_TYPES = exports.CHILD_CONTEXT_TYPES = {
+	dragDropManager: _propTypes2.default.object.isRequired
+};
+>>>>>>> feat: tiger popups redesign
 
     /**
      * Gets the size of `collection` by returning its length for array-like
@@ -34986,11 +35483,15 @@ module.exports = keys;
         var args = lastArgs,
             thisArg = lastThis;
 
+<<<<<<< HEAD
         lastArgs = lastThis = undefined;
         lastInvokeTime = time;
         result = func.apply(thisArg, args);
         return result;
       }
+=======
+var _shallowEqual = __webpack_require__(214);
+>>>>>>> feat: tiger popups redesign
 
       function leadingEdge(time) {
         // Reset any `maxWait` timer.
@@ -35276,6 +35777,7 @@ module.exports = keys;
       return before(2, func);
     }
 
+<<<<<<< HEAD
     /**
      * Creates a function that invokes `func` with its arguments transformed.
      *
@@ -35311,18 +35813,25 @@ module.exports = keys;
       transforms = (transforms.length == 1 && isArray(transforms[0]))
         ? arrayMap(transforms[0], baseUnary(getIteratee()))
         : arrayMap(baseFlatten(transforms, 1), baseUnary(getIteratee()));
+=======
+var _hoistNonReactStatics = __webpack_require__(198);
+>>>>>>> feat: tiger popups redesign
 
       var funcsLength = transforms.length;
       return baseRest(function(args) {
         var index = -1,
             length = nativeMin(args.length, funcsLength);
 
+<<<<<<< HEAD
         while (++index < length) {
           args[index] = transforms[index].call(this, args[index]);
         }
         return apply(func, this, args);
       });
     });
+=======
+var _shallowEqual = __webpack_require__(214);
+>>>>>>> feat: tiger popups redesign
 
     /**
      * Creates a function that invokes `func` with `partials` prepended to the
@@ -48695,6 +49204,19 @@ module.exports = function (exec, skipClosing) {
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
+<<<<<<< HEAD
+=======
+/* unused harmony export NOT_ITERATOR_ERROR */
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return CHANNEL_END; });
+/* unused harmony export TASK_CANCEL */
+/* harmony export (immutable) */ __webpack_exports__["b"] = proc;
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__utils__ = __webpack_require__(20);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__scheduler__ = __webpack_require__(216);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__io__ = __webpack_require__(50);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__channel__ = __webpack_require__(58);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__buffers__ = __webpack_require__(89);
+var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
+>>>>>>> feat: tiger popups redesign
 
 // Forced replacement prototype accessors methods
 <<<<<<< HEAD
@@ -49294,7 +49816,18 @@ function DomEventObject(nativeEvent) {
   this.timeStamp = nativeEvent.timeStamp || Date.now();
 }
 
+<<<<<<< HEAD
 var EventBaseObjectProto = _EventBaseObject2['default'].prototype;
+=======
+/***/ }),
+/* 398 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (immutable) */ __webpack_exports__["a"] = runSaga;
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__utils__ = __webpack_require__(20);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__proc__ = __webpack_require__(397);
+>>>>>>> feat: tiger popups redesign
 
 (0, _objectAssign2['default'])(DomEventObject.prototype, EventBaseObjectProto, {
   constructor: DomEventObject,
@@ -49539,12 +50072,26 @@ if (typeof BrowserMutationObserver === "function") {
     requestFlush = makeRequestCallFromTimer(flush);
 }
 
+<<<<<<< HEAD
 // `requestFlush` requests that the high priority event queue be flushed as
 // soon as possible.
 // This is useful to prevent an error thrown in a task from stalling the event
 // queue if the exception handled by Node.js’s
 // `process.on("uncaughtException")` or by a domain.
 rawAsap.requestFlush = requestFlush;
+=======
+/***/ }),
+/* 401 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (immutable) */ __webpack_exports__["a"] = throttle;
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__fsmIterator__ = __webpack_require__(113);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__io__ = __webpack_require__(50);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__channel__ = __webpack_require__(58);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__buffers__ = __webpack_require__(89);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__utils__ = __webpack_require__(20);
+>>>>>>> feat: tiger popups redesign
 
 // To request a high priority event, we induce a mutation observer by toggling
 // the text of a text node between "1" and "-1".
@@ -50590,6 +51137,21 @@ function loadHelp() {
 
 "use strict";
 
+<<<<<<< HEAD
+=======
+var global = __webpack_require__(17);
+var $export = __webpack_require__(4);
+var redefine = __webpack_require__(76);
+var redefineAll = __webpack_require__(191);
+var meta = __webpack_require__(162);
+var forOf = __webpack_require__(186);
+var anInstance = __webpack_require__(185);
+var isObject = __webpack_require__(23);
+var fails = __webpack_require__(21);
+var $iterDetect = __webpack_require__(415);
+var setToStringTag = __webpack_require__(222);
+var inheritIfRequired = __webpack_require__(547);
+>>>>>>> feat: tiger popups redesign
 
 Object.defineProperty(exports, "__esModule", {
   value: true
@@ -50613,7 +51175,17 @@ var _getPrototypeOf2 = _interopRequireDefault(_getPrototypeOf);
 
 var _classCallCheck2 = __webpack_require__(2);
 
+<<<<<<< HEAD
 var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
+=======
+__webpack_require__(742);
+var redefine = __webpack_require__(76);
+var hide = __webpack_require__(75);
+var fails = __webpack_require__(21);
+var defined = __webpack_require__(120);
+var wks = __webpack_require__(32);
+var regexpExec = __webpack_require__(555);
+>>>>>>> feat: tiger popups redesign
 
 var _createClass2 = __webpack_require__(5);
 
@@ -50663,7 +51235,18 @@ var _ImageDialogFooterView2 = _interopRequireDefault(_ImageDialogFooterView);
 
 var _utils = __webpack_require__(7);
 
+<<<<<<< HEAD
 var _propTypes = __webpack_require__(443);
+=======
+// Forced replacement prototype accessors methods
+module.exports = __webpack_require__(161) || !__webpack_require__(21)(function () {
+  var K = Math.random();
+  // In FF throws only define methods
+  // eslint-disable-next-line no-undef, no-useless-call
+  __defineSetter__.call(null, K, function () { /* empty */ });
+  delete __webpack_require__(17)[K];
+});
+>>>>>>> feat: tiger popups redesign
 
 var _constants = __webpack_require__(74);
 
@@ -57627,6 +58210,61 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
+<<<<<<< HEAD
+=======
+var _propTypes = __webpack_require__(6);
+
+var _propTypes2 = _interopRequireDefault(_propTypes);
+
+var _reactRedux = __webpack_require__(10);
+
+var _rcTrigger = __webpack_require__(212);
+
+var _rcTrigger2 = _interopRequireDefault(_rcTrigger);
+
+var _isEqual2 = __webpack_require__(12);
+
+var _isEqual3 = _interopRequireDefault(_isEqual2);
+
+var _reactDropzone = __webpack_require__(396);
+
+var _reactDropzone2 = _interopRequireDefault(_reactDropzone);
+
+__webpack_require__(615);
+
+var _Price = __webpack_require__(474);
+
+var _Price2 = _interopRequireDefault(_Price);
+
+var _Exists = __webpack_require__(469);
+
+var _Exists2 = _interopRequireDefault(_Exists);
+
+var _CheckRelatedProducts = __webpack_require__(468);
+
+var _CheckRelatedProducts2 = _interopRequireDefault(_CheckRelatedProducts);
+
+var _containers = __webpack_require__(502);
+
+var _utils = __webpack_require__(7);
+
+var _Actions = __webpack_require__(402);
+
+var _Actions2 = _interopRequireDefault(_Actions);
+
+var _actions = __webpack_require__(55);
+
+var _cellsWithDragging = __webpack_require__(477);
+
+var _imageEditor = __webpack_require__(116);
+
+var _actions2 = __webpack_require__(41);
+
+var _constants = __webpack_require__(74);
+
+var _actions3 = __webpack_require__(125);
+
+>>>>>>> feat: tiger popups redesign
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 function getDisplayName(Cell) {
@@ -66196,6 +66834,47 @@ function reduce() {
 
 "use strict";
 
+<<<<<<< HEAD
+=======
+var global = __webpack_require__(17);
+var DESCRIPTORS = __webpack_require__(35);
+var LIBRARY = __webpack_require__(161);
+var $typed = __webpack_require__(422);
+var hide = __webpack_require__(75);
+var redefineAll = __webpack_require__(191);
+var fails = __webpack_require__(21);
+var anInstance = __webpack_require__(185);
+var toInteger = __webpack_require__(107);
+var toLength = __webpack_require__(33);
+var toIndex = __webpack_require__(739);
+var gOPN = __webpack_require__(188).f;
+var dP = __webpack_require__(44).f;
+var arrayFill = __webpack_require__(540);
+var setToStringTag = __webpack_require__(222);
+var ARRAY_BUFFER = 'ArrayBuffer';
+var DATA_VIEW = 'DataView';
+var PROTOTYPE = 'prototype';
+var WRONG_LENGTH = 'Wrong length!';
+var WRONG_INDEX = 'Wrong index!';
+var $ArrayBuffer = global[ARRAY_BUFFER];
+var $DataView = global[DATA_VIEW];
+var Math = global.Math;
+var RangeError = global.RangeError;
+// eslint-disable-next-line no-shadow-restricted-names
+var Infinity = global.Infinity;
+var BaseBuffer = $ArrayBuffer;
+var abs = Math.abs;
+var pow = Math.pow;
+var floor = Math.floor;
+var log = Math.log;
+var LN2 = Math.LN2;
+var BUFFER = 'buffer';
+var BYTE_LENGTH = 'byteLength';
+var BYTE_OFFSET = 'byteOffset';
+var $BUFFER = DESCRIPTORS ? '_b' : BUFFER;
+var $LENGTH = DESCRIPTORS ? '_l' : BYTE_LENGTH;
+var $OFFSET = DESCRIPTORS ? '_o' : BYTE_OFFSET;
+>>>>>>> feat: tiger popups redesign
 
 Object.defineProperty(exports, "__esModule", {
 	value: true
@@ -72664,9 +73343,9 @@ module.exports = baseIndexOf;
 /***/ (function(module, exports, __webpack_require__) {
 
 var SetCache = __webpack_require__(109),
-    arrayIncludes = __webpack_require__(200),
-    arrayIncludesWith = __webpack_require__(201),
-    arrayMap = __webpack_require__(203),
+    arrayIncludes = __webpack_require__(201),
+    arrayIncludesWith = __webpack_require__(202),
+    arrayMap = __webpack_require__(204),
     baseUnary = __webpack_require__(133),
     cacheHas = __webpack_require__(111);
 
@@ -72828,7 +73507,7 @@ var _extends3 = _interopRequireDefault(_extends2);
 /***/ (function(module, exports, __webpack_require__) {
 
 var isObject = __webpack_require__(37),
-    isPrototype = __webpack_require__(206),
+    isPrototype = __webpack_require__(207),
     nativeKeysIn = __webpack_require__(630);
 
 /** Used for built-in method references. */
@@ -73003,7 +73682,7 @@ module.exports = castArrayLikeObject;
 /* 625 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var Set = __webpack_require__(198),
+var Set = __webpack_require__(199),
     noop = __webpack_require__(370),
     setToArray = __webpack_require__(134);
 
@@ -73045,7 +73724,7 @@ module.exports = defineProperty;
 /* 627 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var overArg = __webpack_require__(207);
+var overArg = __webpack_require__(208);
 
 /** Built-in value references. */
 var getPrototype = overArg(Object.getPrototypeOf, Object);
@@ -73058,7 +73737,7 @@ module.exports = getPrototype;
 /***/ (function(module, exports, __webpack_require__) {
 
 var Symbol = __webpack_require__(78),
-    isArguments = __webpack_require__(209),
+    isArguments = __webpack_require__(210),
     isArray = __webpack_require__(36);
 
 /** Built-in value references. */
@@ -73085,7 +73764,7 @@ module.exports = isFlattenable;
 
 var eq = __webpack_require__(88),
     isArrayLike = __webpack_require__(112),
-    isIndex = __webpack_require__(205),
+    isIndex = __webpack_require__(206),
     isObject = __webpack_require__(37);
 >>>>>>> feat: add payment and delivery popups
 
@@ -73902,7 +74581,7 @@ module.exports = defaults;
 >>>>>>> feat: add payment and delivery popups
 /***/ (function(module, exports, __webpack_require__) {
 
-var arrayMap = __webpack_require__(203),
+var arrayMap = __webpack_require__(204),
     baseIntersection = __webpack_require__(619),
     baseRest = __webpack_require__(110),
     castArrayLikeObject = __webpack_require__(624);
@@ -73945,7 +74624,7 @@ module.exports = intersection;
 /* 638 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var arrayLikeKeys = __webpack_require__(202),
+var arrayLikeKeys = __webpack_require__(203),
     baseKeysIn = __webpack_require__(621),
     isArrayLike = __webpack_require__(112);
 
@@ -74135,7 +74814,7 @@ module.exports = union;
 /* 641 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var arrayFilter = __webpack_require__(199),
+var arrayFilter = __webpack_require__(200),
     baseRest = __webpack_require__(110),
     baseXor = __webpack_require__(623),
     isArrayLikeObject = __webpack_require__(135);
@@ -75238,7 +75917,7 @@ var _reactDom = __webpack_require__(18);
 
 var _reactDom2 = _interopRequireDefault(_reactDom);
 
-var _rcTrigger = __webpack_require__(211);
+var _rcTrigger = __webpack_require__(212);
 
 var _rcTrigger2 = _interopRequireDefault(_rcTrigger);
 
@@ -78749,6 +79428,32 @@ Option.isSelectOption = true;
 
 
 
+<<<<<<< HEAD
+=======
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_extends__ = __webpack_require__(9);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_extends___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_extends__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_babel_runtime_helpers_classCallCheck__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_babel_runtime_helpers_classCallCheck___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_babel_runtime_helpers_classCallCheck__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_babel_runtime_helpers_createClass__ = __webpack_require__(5);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_babel_runtime_helpers_createClass___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_babel_runtime_helpers_createClass__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_babel_runtime_helpers_possibleConstructorReturn__ = __webpack_require__(3);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_babel_runtime_helpers_possibleConstructorReturn___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_babel_runtime_helpers_possibleConstructorReturn__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_babel_runtime_helpers_inherits__ = __webpack_require__(2);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_babel_runtime_helpers_inherits___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_babel_runtime_helpers_inherits__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_react__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5_react__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_react_dom__ = __webpack_require__(18);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_react_dom___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6_react_dom__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_prop_types__ = __webpack_require__(6);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_prop_types___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_7_prop_types__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_rc_util_es_Children_toArray__ = __webpack_require__(671);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9_rc_menu__ = __webpack_require__(380);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9_rc_menu___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_9_rc_menu__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10_dom_scroll_into_view__ = __webpack_require__(309);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10_dom_scroll_into_view___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_10_dom_scroll_into_view__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__util__ = __webpack_require__(211);
+>>>>>>> feat: tiger popups redesign
 
 >>>>>>> feat: add payment and delivery popups
 
@@ -79414,9 +80119,42 @@ var _initialiseProps = function _initialiseProps() {
     return _this2.inputMirrorInstance;
   };
 
+<<<<<<< HEAD
   this.getPopupDOMNode = function () {
     return _this2.refs.trigger.getPopupDOMNode();
   };
+=======
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_extends__ = __webpack_require__(9);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_extends___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_extends__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_babel_runtime_helpers_defineProperty__ = __webpack_require__(13);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_babel_runtime_helpers_defineProperty___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_babel_runtime_helpers_defineProperty__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_babel_runtime_helpers_classCallCheck__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_babel_runtime_helpers_classCallCheck___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_babel_runtime_helpers_classCallCheck__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_babel_runtime_helpers_createClass__ = __webpack_require__(5);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_babel_runtime_helpers_createClass___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_babel_runtime_helpers_createClass__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_babel_runtime_helpers_possibleConstructorReturn__ = __webpack_require__(3);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_babel_runtime_helpers_possibleConstructorReturn___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_babel_runtime_helpers_possibleConstructorReturn__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_babel_runtime_helpers_inherits__ = __webpack_require__(2);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_babel_runtime_helpers_inherits___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5_babel_runtime_helpers_inherits__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_react__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6_react__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_react_dom__ = __webpack_require__(18);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_react_dom___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_7_react_dom__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_rc_util_es_KeyCode__ = __webpack_require__(387);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9_classnames__ = __webpack_require__(24);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9_classnames___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_9_classnames__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10_rc_animate__ = __webpack_require__(138);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11_component_classes__ = __webpack_require__(265);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11_component_classes___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_11_component_classes__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__util__ = __webpack_require__(211);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__SelectTrigger__ = __webpack_require__(668);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__PropTypes__ = __webpack_require__(383);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15_rc_menu__ = __webpack_require__(380);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15_rc_menu___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_15_rc_menu__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16_warning__ = __webpack_require__(708);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16_warning___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_16_warning__);
+>>>>>>> feat: tiger popups redesign
 
   this.getPopupMenuComponent = function () {
     return _this2.refs.trigger.getInnerMenu();
@@ -81657,6 +82395,7 @@ var _initialiseProps = function _initialiseProps() {
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
+<<<<<<< HEAD
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_classCallCheck__ = __webpack_require__(1);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_classCallCheck___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_classCallCheck__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_babel_runtime_helpers_createClass__ = __webpack_require__(5);
@@ -81671,6 +82410,34 @@ var _initialiseProps = function _initialiseProps() {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_prop_types___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5_prop_types__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__LazyRenderBox__ = __webpack_require__(384);
 >>>>>>> feat: add payment and delivery popups
+=======
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_defineProperty__ = __webpack_require__(13);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_defineProperty___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_defineProperty__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_babel_runtime_helpers_objectWithoutProperties__ = __webpack_require__(181);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_babel_runtime_helpers_objectWithoutProperties___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_babel_runtime_helpers_objectWithoutProperties__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_babel_runtime_helpers_extends__ = __webpack_require__(9);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_babel_runtime_helpers_extends___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_babel_runtime_helpers_extends__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_babel_runtime_helpers_classCallCheck__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_babel_runtime_helpers_classCallCheck___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_babel_runtime_helpers_classCallCheck__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_babel_runtime_helpers_createClass__ = __webpack_require__(5);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_babel_runtime_helpers_createClass___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_babel_runtime_helpers_createClass__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_babel_runtime_helpers_possibleConstructorReturn__ = __webpack_require__(3);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_babel_runtime_helpers_possibleConstructorReturn___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5_babel_runtime_helpers_possibleConstructorReturn__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_babel_runtime_helpers_inherits__ = __webpack_require__(2);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_babel_runtime_helpers_inherits___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6_babel_runtime_helpers_inherits__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_rc_trigger__ = __webpack_require__(212);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_react__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_8_react__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9_prop_types__ = __webpack_require__(6);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9_prop_types___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_9_prop_types__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10_classnames__ = __webpack_require__(24);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10_classnames___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_10_classnames__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__DropdownMenu__ = __webpack_require__(664);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12_react_dom__ = __webpack_require__(18);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12_react_dom___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_12_react_dom__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__util__ = __webpack_require__(211);
+
+>>>>>>> feat: tiger popups redesign
 
 
 
@@ -83665,7 +84432,11 @@ var _OffsetUtils = __webpack_require__(676);
 
 var _NativeDragSources = __webpack_require__(675);
 
+<<<<<<< HEAD
 var _NativeTypes = __webpack_require__(211);
+=======
+var _NativeTypes = __webpack_require__(213);
+>>>>>>> feat: tiger popups redesign
 
 var NativeTypes = _interopRequireWildcard(_NativeTypes);
 
@@ -85120,7 +85891,11 @@ var _nativeTypesConfig;
 exports.createNativeDragSource = createNativeDragSource;
 exports.matchNativeItemType = matchNativeItemType;
 
+<<<<<<< HEAD
 var _NativeTypes = __webpack_require__(211);
+=======
+var _NativeTypes = __webpack_require__(213);
+>>>>>>> feat: tiger popups redesign
 
 var NativeTypes = _interopRequireWildcard(_NativeTypes);
 
@@ -85607,7 +86382,11 @@ var _getEmptyImage = __webpack_require__(677);
 
 var _getEmptyImage2 = _interopRequireDefault(_getEmptyImage);
 
+<<<<<<< HEAD
 var _NativeTypes = __webpack_require__(211);
+=======
+var _NativeTypes = __webpack_require__(213);
+>>>>>>> feat: tiger popups redesign
 
 var NativeTypes = _interopRequireWildcard(_NativeTypes);
 
@@ -85988,7 +86767,11 @@ var _propTypes = __webpack_require__(6);
 
 var _propTypes2 = _interopRequireDefault(_propTypes);
 
+<<<<<<< HEAD
 var _hoistNonReactStatics = __webpack_require__(196);
+=======
+var _hoistNonReactStatics = __webpack_require__(198);
+>>>>>>> feat: tiger popups redesign
 
 var _hoistNonReactStatics2 = _interopRequireDefault(_hoistNonReactStatics);
 
@@ -86000,7 +86783,11 @@ var _invariant = __webpack_require__(25);
 
 var _invariant2 = _interopRequireDefault(_invariant);
 
+<<<<<<< HEAD
 var _shallowEqual = __webpack_require__(212);
+=======
+var _shallowEqual = __webpack_require__(214);
+>>>>>>> feat: tiger popups redesign
 
 var _shallowEqual2 = _interopRequireDefault(_shallowEqual);
 
@@ -88131,8 +88918,13 @@ if (true) {
 "use strict";
 /* harmony export (immutable) */ __webpack_exports__["a"] = sagaMiddlewareFactory;
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__utils__ = __webpack_require__(20);
+<<<<<<< HEAD
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__channel__ = __webpack_require__(57);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__runSaga__ = __webpack_require__(397);
+=======
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__channel__ = __webpack_require__(58);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__runSaga__ = __webpack_require__(398);
+>>>>>>> feat: tiger popups redesign
 function _objectWithoutProperties(obj, keys) { var target = {}; for (var i in obj) { if (keys.indexOf(i) >= 0) continue; if (!Object.prototype.hasOwnProperty.call(obj, i)) continue; target[i] = obj[i]; } return target; }
 
 
@@ -88402,11 +89194,28 @@ var result = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_0__ponyfill_js__["a
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
+<<<<<<< HEAD
 /* harmony export (immutable) */ __webpack_exports__["a"] = symbolObservablePonyfill;
 function symbolObservablePonyfill(root) {
 	var result;
 	var Symbol = root.Symbol;
 >>>>>>> feat: add payment and delivery popups
+=======
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__internal_utils__ = __webpack_require__(20);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "TASK", function() { return __WEBPACK_IMPORTED_MODULE_0__internal_utils__["r"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "SAGA_ACTION", function() { return __WEBPACK_IMPORTED_MODULE_0__internal_utils__["n"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "noop", function() { return __WEBPACK_IMPORTED_MODULE_0__internal_utils__["p"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "is", function() { return __WEBPACK_IMPORTED_MODULE_0__internal_utils__["c"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "deferred", function() { return __WEBPACK_IMPORTED_MODULE_0__internal_utils__["s"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "arrayOfDeffered", function() { return __WEBPACK_IMPORTED_MODULE_0__internal_utils__["t"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "createMockTask", function() { return __WEBPACK_IMPORTED_MODULE_0__internal_utils__["u"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "cloneableGenerator", function() { return __WEBPACK_IMPORTED_MODULE_0__internal_utils__["v"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__internal_io__ = __webpack_require__(50);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "asEffect", function() { return __WEBPACK_IMPORTED_MODULE_1__internal_io__["w"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__internal_proc__ = __webpack_require__(397);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "CHANNEL_END", function() { return __WEBPACK_IMPORTED_MODULE_2__internal_proc__["a"]; });
+>>>>>>> feat: tiger popups redesign
 
 	if (typeof Symbol === 'function') {
 		if (Symbol.observable) {
@@ -89936,8 +90745,13 @@ module.exports = flattenIntoArray;
 /* 712 */
 /***/ (function(module, exports, __webpack_require__) {
 
+<<<<<<< HEAD
 module.exports = !__webpack_require__(34) && !__webpack_require__(21)(function () {
   return Object.defineProperty(__webpack_require__(537)('div'), 'a', { get: function () { return 7; } }).a != 7;
+=======
+module.exports = !__webpack_require__(35) && !__webpack_require__(21)(function () {
+  return Object.defineProperty(__webpack_require__(543)('div'), 'a', { get: function () { return 7; } }).a != 7;
+>>>>>>> feat: tiger popups redesign
 });
 
 
@@ -93655,6 +94469,7 @@ var DialogExample = function (_React$Component) {
               null,
               '\u0417\u0430\u0433\u0440\u0443\u0437\u043A\u0430 \u0444\u043E\u0442\u043E\u0433\u0440\u0430\u0444\u0438\u0439'
             ),
+            className: 'dialogs-extra-styles',
             footer: _react2.default.createElement(
               'div',
               null,
@@ -96373,8 +97188,12 @@ var $export = __webpack_require__(4);
 var createProperty = __webpack_require__(542);
 
 // WebKit Array.of isn't generic
+<<<<<<< HEAD
 $export($export.S + $export.F * __webpack_require__(19)(function () {
 >>>>>>> feat: add payment and delivery popups
+=======
+$export($export.S + $export.F * __webpack_require__(21)(function () {
+>>>>>>> feat: tiger popups redesign
   function F() { /* empty */ }
   return !(Array.of.call(F) instanceof F);
 }), 'Array', {
@@ -96471,8 +97290,12 @@ var toLength = __webpack_require__(33);
 var arraySlice = [].slice;
 
 // fallback for not array-like ES3 strings and DOM objects
+<<<<<<< HEAD
 $export($export.P + $export.F * __webpack_require__(19)(function () {
 >>>>>>> feat: add payment and delivery popups
+=======
+$export($export.P + $export.F * __webpack_require__(21)(function () {
+>>>>>>> feat: tiger popups redesign
   if (html) arraySlice.call(html);
 }), 'Array', {
   slice: function slice(begin, end) {
@@ -96538,8 +97361,12 @@ var fails = __webpack_require__(21);
 var $export = __webpack_require__(4);
 var aFunction = __webpack_require__(63);
 var toObject = __webpack_require__(49);
+<<<<<<< HEAD
 var fails = __webpack_require__(19);
 >>>>>>> feat: add payment and delivery popups
+=======
+var fails = __webpack_require__(21);
+>>>>>>> feat: tiger popups redesign
 var $sort = [].sort;
 var test = [1, 2, 3];
 
@@ -96636,8 +97463,12 @@ var $export = __webpack_require__(4);
 var toObject = __webpack_require__(49);
 var toPrimitive = __webpack_require__(122);
 
+<<<<<<< HEAD
 $export($export.P + $export.F * __webpack_require__(19)(function () {
 >>>>>>> feat: add payment and delivery popups
+=======
+$export($export.P + $export.F * __webpack_require__(21)(function () {
+>>>>>>> feat: tiger popups redesign
   return new Date(NaN).toJSON() !== null
     || Date.prototype.toJSON.call({ toISOString: function () { return 1; } }) !== 1;
 }), 'Date', {
@@ -97038,7 +97869,7 @@ var $export = __webpack_require__(4);
 var $imul = Math.imul;
 
 // some WebKit versions fails with big numbers, some has wrong arity
-$export($export.S + $export.F * __webpack_require__(19)(function () {
+$export($export.S + $export.F * __webpack_require__(21)(function () {
   return $imul(0xffffffff, 5) != -5 || $imul.length != 2;
 }), 'Math', {
   imul: function imul(x, y) {
@@ -97514,10 +98345,17 @@ var $export = __webpack_require__(4);
 var global = __webpack_require__(17);
 var has = __webpack_require__(84);
 var cof = __webpack_require__(103);
+<<<<<<< HEAD
 var inheritIfRequired = __webpack_require__(541);
 var toPrimitive = __webpack_require__(123);
 var fails = __webpack_require__(21);
 var gOPN = __webpack_require__(186).f;
+=======
+var inheritIfRequired = __webpack_require__(547);
+var toPrimitive = __webpack_require__(122);
+var fails = __webpack_require__(21);
+var gOPN = __webpack_require__(188).f;
+>>>>>>> feat: tiger popups redesign
 var gOPD = __webpack_require__(85).f;
 var dP = __webpack_require__(44).f;
 var $trim = __webpack_require__(221).trim;
@@ -98091,9 +98929,15 @@ __webpack_require__(121)('isExtensible', function ($isExtensible) {
 
 "use strict";
 
+<<<<<<< HEAD
 var $export = __webpack_require__(1);
 var $fails = __webpack_require__(21);
 var aNumberValue = __webpack_require__(703);
+=======
+var $export = __webpack_require__(4);
+var $fails = __webpack_require__(21);
+var aNumberValue = __webpack_require__(710);
+>>>>>>> feat: tiger popups redesign
 var $toPrecision = 1.0.toPrecision;
 
 $export($export.P + $export.F * ($fails(function () {
@@ -99245,7 +100089,11 @@ var aFunction = __webpack_require__(62);
 var anObject = __webpack_require__(14);
 var isObject = __webpack_require__(23);
 var fails = __webpack_require__(21);
+<<<<<<< HEAD
 var bind = __webpack_require__(707);
+=======
+var bind = __webpack_require__(714);
+>>>>>>> feat: tiger popups redesign
 var rConstruct = (__webpack_require__(17).Reflect || {}).construct;
 
 // MS Edge supports only 2 arguments and argumentsList argument is optional
@@ -99681,7 +100529,7 @@ var re2 = /a/g;
 // "new" creates a new object, old webkit buggy here
 var CORRECT_NEW = new $RegExp(re1) !== re1;
 
-if (__webpack_require__(35) && (!CORRECT_NEW || __webpack_require__(19)(function () {
+if (__webpack_require__(35) && (!CORRECT_NEW || __webpack_require__(21)(function () {
   re2[__webpack_require__(32)('match')] = false;
   // RegExp constructor can alter flags and IsRegExp works correct with @@match
   return $RegExp(re1) != re1 || $RegExp(re2) == re2 || $RegExp(re1, 'i') != '/a/i';
@@ -100281,7 +101129,7 @@ var advanceStringIndex = __webpack_require__(539);
 var toLength = __webpack_require__(33);
 var callRegExpExec = __webpack_require__(418);
 var regexpExec = __webpack_require__(555);
-var fails = __webpack_require__(19);
+var fails = __webpack_require__(21);
 var $min = Math.min;
 var $push = [].push;
 var $SPLIT = 'split';
@@ -100439,10 +101287,14 @@ var define = function (fn) {
 
 // 21.2.5.14 RegExp.prototype.toString()
 <<<<<<< HEAD
+<<<<<<< HEAD
 if (__webpack_require__(21)(function () { return $toString.call({ source: 'a', flags: 'b' }) != '/a/b'; })) {
 =======
 if (__webpack_require__(19)(function () { return $toString.call({ source: 'a', flags: 'b' }) != '/a/b'; })) {
 >>>>>>> feat: add payment and delivery popups
+=======
+if (__webpack_require__(21)(function () { return $toString.call({ source: 'a', flags: 'b' }) != '/a/b'; })) {
+>>>>>>> feat: tiger popups redesign
   define(function toString() {
     var R = anObject(this);
     return '/'.concat(R.source, '/',
@@ -101008,7 +101860,7 @@ var DESCRIPTORS = __webpack_require__(35);
 var $export = __webpack_require__(4);
 var redefine = __webpack_require__(76);
 var META = __webpack_require__(162).KEY;
-var $fails = __webpack_require__(19);
+var $fails = __webpack_require__(21);
 var shared = __webpack_require__(304);
 var setToStringTag = __webpack_require__(222);
 var uid = __webpack_require__(194);
@@ -101313,10 +102165,14 @@ $export($export.S + $export.F * !$typed.CONSTR, ARRAY_BUFFER, {
 });
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 $export($export.P + $export.U + $export.F * __webpack_require__(21)(function () {
 =======
 $export($export.P + $export.U + $export.F * __webpack_require__(19)(function () {
 >>>>>>> feat: add payment and delivery popups
+=======
+$export($export.P + $export.U + $export.F * __webpack_require__(21)(function () {
+>>>>>>> feat: tiger popups redesign
   return !new $ArrayBuffer(2).slice(1, undefined).byteLength;
 }), ARRAY_BUFFER, {
   // 24.1.4.3 ArrayBuffer.prototype.slice(start, end)
@@ -103485,13 +104341,8 @@ $export($export.P + $export.F * WEBKIT_BUG, 'String', {
 // https://github.com/mathiasbynens/String.prototype.at
 var $export = __webpack_require__(4);
 var $at = __webpack_require__(421)(true);
-var $fails = __webpack_require__(19);
 
-var FORCED = $fails(function () {
-  return '𠮷'.at(0) !== '𠮷';
-});
-
-$export($export.P + $export.F * FORCED, 'String', {
+$export($export.P, 'String', {
   at: function at(pos) {
     return $at(this, pos);
 >>>>>>> feat: add payment and delivery popups
