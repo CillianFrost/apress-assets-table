@@ -16,6 +16,7 @@ const initialState = {
   selected: [],
   isLoaded: false,
   tmpSelectedNode: null,
+  filter: null,
 };
 
 const isSelected = (treeState, action) => {
@@ -203,7 +204,8 @@ export default function tree(state = initialState, action) {
     case TREE_LOAD_START:
       return {
         ...state,
-        isLoaded: false
+        isLoaded: false,
+        filter: action.payload
       };
 
     case TREE_LOAD_SUCCESS: {

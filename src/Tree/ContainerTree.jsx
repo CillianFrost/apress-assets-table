@@ -12,6 +12,8 @@ import {
 } from './import';
 import {removeGroup} from '../remove/actions';
 
+import DropDownMenu from '../DropDownMenu/DropDownMenu';
+
 class ContainerTree extends Component {
   static propTypes = {
     tree: PropTypes.object,
@@ -67,6 +69,18 @@ class ContainerTree extends Component {
     return filteredTreeData;
   }
 
+  handleFilterSelect = (id) => {
+    if (!id) {
+      this.props.dispatch(actions.load(null));
+      return;
+    }
+
+    this.props.dispatch(actions.load({
+      order_name: 'name',
+      order_direction: id === 'up' ? 'desc' : 'asc',
+    }));
+  }
+
   renderEmpty = (treeData) => {
     if (!treeData.length && this.state.filter) {
       return (
@@ -85,6 +99,32 @@ class ContainerTree extends Component {
     const searchHtml = (
       <div className={b('search')}>
         <Search onChange={value => this.setState({filter: value})} />
+        <DropDownMenu
+          title='Сортировать'
+          items={[
+            {
+              title: 'Все',
+              id: '',
+            },
+            {
+              title: 'А - Я',
+              id: 'up',
+            },
+            {
+              title: 'Я - А',
+              id: 'down',
+            },
+          ]}
+          onSelect={id => this.handleFilterSelect(id)}
+        >
+          <div
+            title='от А до Я'
+            className={b('sorter').is({
+              sorted: this.props.tree.filter,
+              'sorted-down': this.props.tree.filter && this.props.tree.filter.order_direction === 'asc'
+            })}
+          />
+        </DropDownMenu>
       </div>
     );
 
