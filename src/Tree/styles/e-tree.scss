@@ -137,6 +137,7 @@
     padding: 15px 20px;
     border-bottom: solid 1px #e0e0e0;
     height: 30px;
+    display: flex;
   }
   &-empty {
     padding: 0 0 0 30px;
@@ -158,6 +159,30 @@
       height: 100%;
       background-color: rgba(255, 255, 255, .5);
       z-index: 1;
+    }
+  }
+  &-sorter {
+    @include sort-amount-desc-icon(#1f2532);
+    background-color: #f8f8f8;
+    background-size: 13px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 19px;
+    width: 35px;
+    height: 30px;
+    border-radius: 3px;
+    border: solid 1px #e0e0e0;
+    cursor: pointer;
+    &:hover {
+      background-color: #ffffff;
+    }
+    &.is-sorted {
+      @include sort-amount-desc-icon(#028dd8);
+      background-size: 13px;
+      border-color: #028dd8;
+    }
+    &.is-sorted-down {
+      transform: scale(1, -1);
     }
   }
 }

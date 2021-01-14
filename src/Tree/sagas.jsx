@@ -5,11 +5,21 @@ const {ERROR_ADD, ERROR_REMOVE} = actionsError;
 const {
   TREE_UPDATE_SUCCESS,
   TREE_LOAD_SUCCESS,
-  TREE_LOAD_START
+  TREE_LOAD_START,
 } = actions;
 
-const getRubricatorData = config =>
-  api.post(app.config.rubricatorUrl, {config}).then(response => response.data);
+const getRubricatorData = (filter, config) => {
+  const sendData = {config};
+
+  if (filter) {
+    sendData.order_name = filter.order_name;
+    sendData.order_direction = filter.order_direction;
+  }
+
+  return api.post(app.config.rubricatorUrl,
+    sendData
+  ).then(response => response.data);
+};
 
 const putRubricatorData = (url, config) =>
   api.put(`${app.config.rubricatorUrl}/${url}`, {config}).then(response => response.data);
@@ -22,11 +32,11 @@ const updateRubricatorPosition = payload =>
 
 const getConfig = props => props.config.config;
 
-export function* loadRubricatorData() {
+export function* loadRubricatorData(data) {
   try {
     yield put({type: ERROR_REMOVE, payload: {target: 'tree'}});
     const config = yield select(getConfig);
-    const rubricatorData = yield call(getRubricatorData.bind({}, config));
+    const rubricatorData = yield call(getRubricatorData.bind({}, data.payload, config));
     yield put({type: TREE_LOAD_SUCCESS, payload: rubricatorData.tree_nodes});
   } catch (err) {
     yield put({
