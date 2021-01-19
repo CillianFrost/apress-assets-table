@@ -36815,10 +36815,10 @@ var ContainerTree = function (_Component) {
             }
           },
           _import.React.createElement('div', {
-            title: '\u043E\u0442 \u0410 \u0434\u043E \u042F',
+            title: this.getSorterTitle(),
             className: (0, _import.b)('sorter').is({
-              sorted: this.props.tree.filter,
-              'sorted-down': this.props.tree.filter && this.props.tree.filter.order_direction === 'asc'
+              sorted: this.props.tree.filter.order_column,
+              'sorted-down': this.props.tree.filter.order_direction === 'desc'
             })
           })
         )
@@ -36847,7 +36847,8 @@ var ContainerTree = function (_Component) {
               actionShowRemoveConfirmation: this.actionShowRemoveConfirmation,
               actionConfigSetId: this.actionConfigSetId,
               actionSaveStart: this.actionSaveStart,
-              isProgress: this.props.save.isProgress
+              isProgress: this.props.save.isProgress,
+              filter: this.props.tree.filter
             },
             this.props.children,
             this.renderEmpty(treeData)
@@ -36868,6 +36869,22 @@ var _initialiseProps = function _initialiseProps() {
 
   this.state = {
     filter: ''
+  };
+
+  this.getSorterTitle = function () {
+    var filter = _this3.props.tree.filter;
+
+
+    var orderDirection = filter['order_direction'];
+
+    switch (orderDirection) {
+      case 'asc':
+        return 'от А до Я';
+      case 'desc':
+        return 'от Я до А';
+      default:
+        return 'Все';
+    }
   };
 
   this.actionMoveNodeRequest = function () {
@@ -36930,14 +36947,25 @@ var _initialiseProps = function _initialiseProps() {
 
   this.handleFilterSelect = function (id) {
     if (!id) {
-      _this3.props.dispatch(_import.actions.load(null));
+      sessionStorage.removeItem('treeFilterOrderColumn');
+      sessionStorage.removeItem('treeFilterOrderDirection');
+      _this3.props.dispatch(_import.actions.load({
+        order_column: undefined,
+        order_direction: undefined
+      }));
       return;
     }
 
+    var orderColumn = 'name';
+    var orderDirection = id === 'up' ? 'asc' : 'desc';
+
     _this3.props.dispatch(_import.actions.load({
-      order_name: 'name',
-      order_direction: id === 'up' ? 'desc' : 'asc'
+      order_column: orderColumn,
+      order_direction: orderDirection
     }));
+
+    sessionStorage.setItem('treeFilterOrderColumn', orderColumn);
+    sessionStorage.setItem('treeFilterOrderDirection', orderDirection);
   };
 
   this.renderEmpty = function (treeData) {
@@ -44484,7 +44512,9 @@ var Tree = function (_Component) {
             hoverNode: _this2.state.hover,
             hasDragNode: _this2.props.hasDragNode,
             hasSettingsNode: _this2.props.hasSettingsNode,
-            parentId: parentId
+            parentId: parentId,
+
+            filter: _this2.props.filter
           }),
           Array.isArray(node.tree_nodes) && _import.React.createElement(
             'div',
@@ -44525,7 +44555,12 @@ Tree.propTypes = {
 
   tree: _import.PropTypes.array.isRequired,
   config: _import.PropTypes.object.isRequired,
-  hasDragNode: _import.PropTypes.bool.isRequired
+  hasDragNode: _import.PropTypes.bool.isRequired,
+
+  filter: _import.PropTypes.shape({
+    order_column: _import.PropTypes.string,
+    order_direction: _import.PropTypes.string
+  })
 };
 
 var _initialiseProps = function _initialiseProps() {
@@ -44638,7 +44673,8 @@ var setExpanded = function setExpanded(props, expanded) {
     props.actionUpdate({
       id: props.id,
       urlName: props.urlName,
-      config: props.config
+      config: props.config,
+      filter: props.filter
     });
   }
 }; /* eslint react/no-find-dom-node: 0 */
@@ -44854,6 +44890,11 @@ TreeItem.propTypes = {
     id: _import.PropTypes.number,
     index: _import.PropTypes.number,
     target: _import.PropTypes.string
+  }),
+
+  filter: _import.PropTypes.shape({
+    order_column: _import.PropTypes.string,
+    order_direction: _import.PropTypes.string
   })
 };
 
@@ -45136,7 +45177,10 @@ var initialState = {
   selected: [],
   isLoaded: false,
   tmpSelectedNode: null,
-  filter: null
+  filter: {
+    order_column: sessionStorage.getItem('treeFilterOrderColumn'),
+    order_direction: sessionStorage.getItem('treeFilterOrderDirection')
+  }
 };
 
 var isSelected = function isSelected(treeState, action) {
@@ -45321,7 +45365,7 @@ function tree() {
     case TREE_LOAD_START:
       return (0, _extends3.default)({}, state, {
         isLoaded: false,
-        filter: action.payload
+        filter: action.payload || state.filter
       });
 
     case TREE_LOAD_SUCCESS:
@@ -45448,8 +45492,18 @@ var TREE_UPDATE_SUCCESS = _import.actions.TREE_UPDATE_SUCCESS,
 var getRubricatorData = function getRubricatorData(filter, config) {
   var sendData = { config: config };
 
+  var sessionOrderColumn = sessionStorage.getItem('treeFilterOrderColumn');
+  var sessionOrderDirection = sessionStorage.getItem('treeFilterOrderDirection');
+
+  var isFilterFromSessionStorage = sessionOrderColumn && sessionOrderDirection;
+
+  if (isFilterFromSessionStorage && !filter) {
+    sendData.order_column = sessionOrderColumn;
+    sendData.order_direction = sessionOrderDirection;
+  }
+
   if (filter) {
-    sendData.order_name = filter.order_name;
+    sendData.order_column = filter.order_column;
     sendData.order_direction = filter.order_direction;
   }
 
@@ -45458,8 +45512,19 @@ var getRubricatorData = function getRubricatorData(filter, config) {
   });
 };
 
-var putRubricatorData = function putRubricatorData(url, config) {
-  return _import.api.put(app.config.rubricatorUrl + '/' + url, { config: config }).then(function (response) {
+var putRubricatorData = function putRubricatorData(payload, config) {
+  var urlName = payload.urlName,
+      filter = payload.filter;
+
+
+  var sendData = { config: config };
+
+  if (filter.order_column) {
+    sendData.order_column = filter.order_column;
+    sendData.order_direction = filter.order_direction;
+  }
+
+  return _import.api.put(app.config.rubricatorUrl + '/' + urlName, sendData).then(function (response) {
     return response.data;
   });
 };
@@ -45541,7 +45606,7 @@ function updateRubricatorData(data) {
         case 5:
           config = _context2.sent;
           _context2.next = 8;
-          return (0, _import.call)(putRubricatorData.bind({}, data.payload.urlName, config));
+          return (0, _import.call)(putRubricatorData.bind({}, data.payload, config));
 
         case 8:
           rubricatorData = _context2.sent;

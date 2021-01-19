@@ -28,6 +28,21 @@ class ContainerTree extends Component {
     return !_isEqual(this.props, nextProps) || !_isEqual(this.state, nextState);
   }
 
+  getSorterTitle = () => {
+    const {filter} = this.props.tree;
+
+    const orderDirection = filter['order_direction'];
+
+    switch (orderDirection) {
+      case 'asc':
+        return 'от А до Я';
+      case 'desc':
+        return 'от Я до А';
+      default:
+        return 'Все';
+    }
+  }
+
   actionMoveNodeRequest = (...args) => this.props.dispatch(actions.moveNodeRequest(...args))
 
   actionMoveNode = (...args) => this.props.dispatch(actions.moveNode(...args))
@@ -74,14 +89,25 @@ class ContainerTree extends Component {
 
   handleFilterSelect = (id) => {
     if (!id) {
-      this.props.dispatch(actions.load(null));
+      sessionStorage.removeItem('treeFilterOrderColumn');
+      sessionStorage.removeItem('treeFilterOrderDirection');
+      this.props.dispatch(actions.load({
+        order_column: undefined,
+        order_direction: undefined,
+      }));
       return;
     }
 
+    const orderColumn = 'name';
+    const orderDirection = id === 'up' ? 'asc' : 'desc';
+
     this.props.dispatch(actions.load({
-      order_name: 'name',
-      order_direction: id === 'up' ? 'desc' : 'asc',
+      order_column: orderColumn,
+      order_direction: orderDirection,
     }));
+
+    sessionStorage.setItem('treeFilterOrderColumn', orderColumn);
+    sessionStorage.setItem('treeFilterOrderDirection', orderDirection);
   }
 
   renderEmpty = (treeData) => {
@@ -121,10 +147,10 @@ class ContainerTree extends Component {
           onSelect={id => this.handleFilterSelect(id)}
         >
           <div
-            title='от А до Я'
+            title={this.getSorterTitle()}
             className={b('sorter').is({
-              sorted: this.props.tree.filter,
-              'sorted-down': this.props.tree.filter && this.props.tree.filter.order_direction === 'asc'
+              sorted: this.props.tree.filter.order_column,
+              'sorted-down': this.props.tree.filter.order_direction === 'desc'
             })}
           />
         </DropDownMenu>
@@ -151,6 +177,7 @@ class ContainerTree extends Component {
             actionConfigSetId={this.actionConfigSetId}
             actionSaveStart={this.actionSaveStart}
             isProgress={this.props.save.isProgress}
+            filter={this.props.tree.filter}
           >
             {this.props.children}
 

@@ -22,7 +22,8 @@ const setExpanded = (props, expanded) => {
     props.actionUpdate({
       id: props.id,
       urlName: props.urlName,
-      config: props.config
+      config: props.config,
+      filter: props.filter,
     });
   }
 };
@@ -60,6 +61,11 @@ class TreeItem extends Component {
       id: PropTypes.number,
       index: PropTypes.number,
       target: PropTypes.string,
+    }),
+
+    filter: PropTypes.shape({
+      order_column: PropTypes.string,
+      order_direction: PropTypes.string,
     }),
   };
 
