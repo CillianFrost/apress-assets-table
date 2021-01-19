@@ -46,7 +46,11 @@ class Tree extends Component {
   setHoverNode = (id, index, target, parentId) =>
     this.setState({hover: {id, index, target, parentId}});
 
-  moveStart = isMove => this.setState({isMove});
+  moveStart = (isMove) => {
+    const {isProgress} = this.props;
+
+    !isProgress && this.setState({isMove});
+  }
 
   moveStep = _throttle((...args) => {
     if (this.state.isMove) { this.setHoverNode(...args); }
@@ -62,6 +66,7 @@ class Tree extends Component {
 
     this.moveStart(false);
     this.setHoverNode(null, null, null, null);
+    this.props.actionSaveStart();
   }
 
   hasChildrenById = (parent, childId) => {

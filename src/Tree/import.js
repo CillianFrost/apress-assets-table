@@ -12,6 +12,7 @@ import {api, block} from '../utils';
 import * as actions from './actions';
 import * as actionsError from '../Error/actions';
 import * as actionsTable from '../Table/actions';
+import * as actionsSaveControl from '../SaveControl/actions';
 import {configSetId} from '../Filter/actions';
 import DropDownMenu from '../DropDownMenu/DropDownMenu';
 import Search from '../Search/Search';
@@ -48,6 +49,7 @@ export {
   actions,
   actionsError,
   actionsTable,
+  actionsSaveControl,
   configSetId,
   DropDownMenu,
 

@@ -8,6 +8,7 @@ import {
   actions,
   configSetId,
   Search,
+  actionsSaveControl,
   b
 } from './import';
 import {removeGroup} from '../remove/actions';
@@ -40,6 +41,8 @@ class ContainerTree extends Component {
   actionShowRemoveConfirmation = (...args) => this.props.dispatch(removeGroup(...args))
 
   actionConfigSetId = (...args) => this.props.dispatch(configSetId(...args))
+
+  actionSaveStart = (...args) => this.props.dispatch(actionsSaveControl.saveStart(...args))
 
   filterTree = (nodes, regexp) => {
     const filteredTreeData = [];
@@ -146,6 +149,8 @@ class ContainerTree extends Component {
             hasSettingsNode
             actionShowRemoveConfirmation={this.actionShowRemoveConfirmation}
             actionConfigSetId={this.actionConfigSetId}
+            actionSaveStart={this.actionSaveStart}
+            isProgress={this.props.save.isProgress}
           >
             {this.props.children}
 
@@ -160,7 +165,8 @@ class ContainerTree extends Component {
 const mapStateToProps = state => ({
   tree: state.tree,
   isLoaded: state.tree.isLoaded,
-  config: state.config
+  config: state.config,
+  save: state.save,
 });
 
 export default connect(mapStateToProps)(ContainerTree);
