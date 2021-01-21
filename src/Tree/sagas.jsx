@@ -11,8 +11,18 @@ const {
 const getRubricatorData = (filter, config) => {
   const sendData = {config};
 
+  const sessionOrderColumn = sessionStorage.getItem('treeFilterOrderColumn');
+  const sessionOrderDirection = sessionStorage.getItem('treeFilterOrderDirection');
+
+  const isFilterFromSessionStorage = sessionOrderColumn && sessionOrderDirection;
+
+  if (isFilterFromSessionStorage && !filter) {
+    sendData.order_column = sessionOrderColumn;
+    sendData.order_direction = sessionOrderDirection;
+  }
+
   if (filter) {
-    sendData.order_name = filter.order_name;
+    sendData.order_column = filter.order_column;
     sendData.order_direction = filter.order_direction;
   }
 
@@ -21,8 +31,21 @@ const getRubricatorData = (filter, config) => {
   ).then(response => response.data);
 };
 
-const putRubricatorData = (url, config) =>
-  api.put(`${app.config.rubricatorUrl}/${url}`, {config}).then(response => response.data);
+const putRubricatorData = (payload, config) => {
+  const {urlName, filter} = payload;
+
+  const sendData = {config};
+
+  if (filter.order_column) {
+    sendData.order_column = filter.order_column;
+    sendData.order_direction = filter.order_direction;
+  }
+
+  return api.put(`${app.config.rubricatorUrl}/${urlName}`,
+    sendData
+  ).then(response => response.data);
+};
+
 
 const updateRubricatorPosition = payload =>
   api.put(
@@ -55,7 +78,7 @@ export function* updateRubricatorData(data) {
   try {
     yield put({type: ERROR_REMOVE, payload: {target: 'tree'}});
     const config = yield select(getConfig);
-    const rubricatorData = yield call(putRubricatorData.bind({}, data.payload.urlName, config));
+    const rubricatorData = yield call(putRubricatorData.bind({}, data.payload, config));
     yield put({
       type: TREE_UPDATE_SUCCESS,
       payload: {

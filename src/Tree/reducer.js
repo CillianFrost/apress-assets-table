@@ -16,7 +16,10 @@ const initialState = {
   selected: [],
   isLoaded: false,
   tmpSelectedNode: null,
-  filter: null,
+  filter: {
+    order_column: sessionStorage.getItem('treeFilterOrderColumn'),
+    order_direction: sessionStorage.getItem('treeFilterOrderDirection'),
+  },
 };
 
 const isSelected = (treeState, action) => {
@@ -205,7 +208,7 @@ export default function tree(state = initialState, action) {
       return {
         ...state,
         isLoaded: false,
-        filter: action.payload
+        filter: action.payload || state.filter,
       };
 
     case TREE_LOAD_SUCCESS: {

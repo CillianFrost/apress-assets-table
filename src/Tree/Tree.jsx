@@ -24,6 +24,11 @@ class Tree extends Component {
     tree: PropTypes.array.isRequired,
     config: PropTypes.object.isRequired,
     hasDragNode: PropTypes.bool.isRequired,
+
+    filter: PropTypes.shape({
+      order_column: PropTypes.string,
+      order_direction: PropTypes.string,
+    }),
   };
 
   state = {
@@ -119,6 +124,8 @@ class Tree extends Component {
           hasDragNode={this.props.hasDragNode}
           hasSettingsNode={this.props.hasSettingsNode}
           parentId={parentId}
+
+          filter={this.props.filter}
         />
         {Array.isArray(node.tree_nodes) &&
           <div className={b('list')}>
