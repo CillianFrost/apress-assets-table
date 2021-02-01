@@ -134,6 +134,16 @@ const getTraitFiltersDisplayingDifference = (currentState, previousState) => {
   } : null;
 };
 
+const getPaymentDeliveryDifference = (currentState, previousState, currentCellKey) => {
+  const currentData = currentState[currentCellKey].common;
+  const previousData = previousState[currentCellKey].common;
+  return (!_isEqual(currentData, previousData)) ? {
+    [currentCellKey]: {
+      common: currentData
+    }
+  } : null;
+};
+
 const getProductProportiesDisplayingDifference = (currentState, previousState) => {
   const currentProporties = currentState.product_properties.common;
   const previousProporties = previousState.product_properties.common;
@@ -195,6 +205,13 @@ export const getRowDifference = (currentState, previousState) => {
         differenceRow = {
           ...differenceRow,
           ...getProductProportiesDisplayingDifference(currentState, previousState)
+        };
+        break;
+      case 'payment_methods_unbinds':
+      case 'delivery_methods_unbinds':
+        differenceRow = {
+          ...differenceRow,
+          ...getPaymentDeliveryDifference(currentState, previousState, currentCellKey)
         };
         break;
 
