@@ -5,14 +5,47 @@ const {ERROR_ADD, ERROR_REMOVE} = actionsError;
 const {
   TREE_UPDATE_SUCCESS,
   TREE_LOAD_SUCCESS,
-  TREE_LOAD_START
+  TREE_LOAD_START,
 } = actions;
 
-const getRubricatorData = config =>
-  api.post(app.config.rubricatorUrl, {config}).then(response => response.data);
+const getRubricatorData = (filter, config) => {
+  const sendData = {config};
 
-const putRubricatorData = (url, config) =>
-  api.put(`${app.config.rubricatorUrl}/${url}`, {config}).then(response => response.data);
+  const sessionOrderColumn = sessionStorage.getItem('treeFilterOrderColumn');
+  const sessionOrderDirection = sessionStorage.getItem('treeFilterOrderDirection');
+
+  const isFilterFromSessionStorage = sessionOrderColumn && sessionOrderDirection;
+
+  if (isFilterFromSessionStorage && !filter) {
+    sendData.order_column = sessionOrderColumn;
+    sendData.order_direction = sessionOrderDirection;
+  }
+
+  if (filter) {
+    sendData.order_column = filter.order_column;
+    sendData.order_direction = filter.order_direction;
+  }
+
+  return api.post(app.config.rubricatorUrl,
+    sendData
+  ).then(response => response.data);
+};
+
+const putRubricatorData = (payload, config) => {
+  const {urlName, filter} = payload;
+
+  const sendData = {config};
+
+  if (filter.order_column) {
+    sendData.order_column = filter.order_column;
+    sendData.order_direction = filter.order_direction;
+  }
+
+  return api.put(`${app.config.rubricatorUrl}/${urlName}`,
+    sendData
+  ).then(response => response.data);
+};
+
 
 const updateRubricatorPosition = payload =>
   api.put(
@@ -22,11 +55,11 @@ const updateRubricatorPosition = payload =>
 
 const getConfig = props => props.config.config;
 
-export function* loadRubricatorData() {
+export function* loadRubricatorData(data) {
   try {
     yield put({type: ERROR_REMOVE, payload: {target: 'tree'}});
     const config = yield select(getConfig);
-    const rubricatorData = yield call(getRubricatorData.bind({}, config));
+    const rubricatorData = yield call(getRubricatorData.bind({}, data.payload, config));
     yield put({type: TREE_LOAD_SUCCESS, payload: rubricatorData.tree_nodes});
   } catch (err) {
     yield put({
@@ -45,7 +78,7 @@ export function* updateRubricatorData(data) {
   try {
     yield put({type: ERROR_REMOVE, payload: {target: 'tree'}});
     const config = yield select(getConfig);
-    const rubricatorData = yield call(putRubricatorData.bind({}, data.payload.urlName, config));
+    const rubricatorData = yield call(putRubricatorData.bind({}, data.payload, config));
     yield put({
       type: TREE_UPDATE_SUCCESS,
       payload: {
