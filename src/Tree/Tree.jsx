@@ -24,6 +24,11 @@ class Tree extends Component {
     tree: PropTypes.array.isRequired,
     config: PropTypes.object.isRequired,
     hasDragNode: PropTypes.bool.isRequired,
+
+    filter: PropTypes.shape({
+      order_column: PropTypes.string,
+      order_direction: PropTypes.string,
+    }),
   };
 
   state = {
@@ -46,7 +51,11 @@ class Tree extends Component {
   setHoverNode = (id, index, target, parentId) =>
     this.setState({hover: {id, index, target, parentId}});
 
-  moveStart = isMove => this.setState({isMove});
+  moveStart = (isMove) => {
+    const {isProgress} = this.props;
+
+    !isProgress && this.setState({isMove});
+  }
 
   moveStep = _throttle((...args) => {
     if (this.state.isMove) { this.setHoverNode(...args); }
@@ -62,6 +71,7 @@ class Tree extends Component {
 
     this.moveStart(false);
     this.setHoverNode(null, null, null, null);
+    this.props.actionSaveStart();
   }
 
   hasChildrenById = (parent, childId) => {
@@ -114,6 +124,8 @@ class Tree extends Component {
           hasDragNode={this.props.hasDragNode}
           hasSettingsNode={this.props.hasSettingsNode}
           parentId={parentId}
+
+          filter={this.props.filter}
         />
         {Array.isArray(node.tree_nodes) &&
           <div className={b('list')}>

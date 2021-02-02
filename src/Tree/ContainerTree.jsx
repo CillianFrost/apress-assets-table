@@ -8,9 +8,12 @@ import {
   actions,
   configSetId,
   Search,
+  actionsSaveControl,
   b
 } from './import';
 import {removeGroup} from '../remove/actions';
+
+import DropDownMenu from '../DropDownMenu/DropDownMenu';
 
 class ContainerTree extends Component {
   static propTypes = {
@@ -23,6 +26,21 @@ class ContainerTree extends Component {
 
   shouldComponentUpdate(nextProps, nextState) {
     return !_isEqual(this.props, nextProps) || !_isEqual(this.state, nextState);
+  }
+
+  getSorterTitle = () => {
+    const {filter} = this.props.tree;
+
+    const orderDirection = filter['order_direction'];
+
+    switch (orderDirection) {
+      case 'asc':
+        return 'от А до Я';
+      case 'desc':
+        return 'от Я до А';
+      default:
+        return 'Все';
+    }
   }
 
   actionMoveNodeRequest = (...args) => this.props.dispatch(actions.moveNodeRequest(...args))
@@ -38,6 +56,8 @@ class ContainerTree extends Component {
   actionShowRemoveConfirmation = (...args) => this.props.dispatch(removeGroup(...args))
 
   actionConfigSetId = (...args) => this.props.dispatch(configSetId(...args))
+
+  actionSaveStart = (...args) => this.props.dispatch(actionsSaveControl.saveStart(...args))
 
   filterTree = (nodes, regexp) => {
     const filteredTreeData = [];
@@ -67,6 +87,29 @@ class ContainerTree extends Component {
     return filteredTreeData;
   }
 
+  handleFilterSelect = (id) => {
+    if (!id) {
+      sessionStorage.removeItem('treeFilterOrderColumn');
+      sessionStorage.removeItem('treeFilterOrderDirection');
+      this.props.dispatch(actions.load({
+        order_column: undefined,
+        order_direction: undefined,
+      }));
+      return;
+    }
+
+    const orderColumn = 'name';
+    const orderDirection = id === 'up' ? 'asc' : 'desc';
+
+    this.props.dispatch(actions.load({
+      order_column: orderColumn,
+      order_direction: orderDirection,
+    }));
+
+    sessionStorage.setItem('treeFilterOrderColumn', orderColumn);
+    sessionStorage.setItem('treeFilterOrderDirection', orderDirection);
+  }
+
   renderEmpty = (treeData) => {
     if (!treeData.length && this.state.filter) {
       return (
@@ -85,6 +128,32 @@ class ContainerTree extends Component {
     const searchHtml = (
       <div className={b('search')}>
         <Search onChange={value => this.setState({filter: value})} />
+        <DropDownMenu
+          title='Сортировать'
+          items={[
+            {
+              title: 'Все',
+              id: '',
+            },
+            {
+              title: 'А - Я',
+              id: 'up',
+            },
+            {
+              title: 'Я - А',
+              id: 'down',
+            },
+          ]}
+          onSelect={id => this.handleFilterSelect(id)}
+        >
+          <div
+            title={this.getSorterTitle()}
+            className={b('sorter').is({
+              sorted: this.props.tree.filter.order_column,
+              'sorted-down': this.props.tree.filter.order_direction === 'desc'
+            })}
+          />
+        </DropDownMenu>
       </div>
     );
 
@@ -106,6 +175,9 @@ class ContainerTree extends Component {
             hasSettingsNode
             actionShowRemoveConfirmation={this.actionShowRemoveConfirmation}
             actionConfigSetId={this.actionConfigSetId}
+            actionSaveStart={this.actionSaveStart}
+            isProgress={this.props.save.isProgress}
+            filter={this.props.tree.filter}
           >
             {this.props.children}
 
@@ -120,7 +192,8 @@ class ContainerTree extends Component {
 const mapStateToProps = state => ({
   tree: state.tree,
   isLoaded: state.tree.isLoaded,
-  config: state.config
+  config: state.config,
+  save: state.save,
 });
 
 export default connect(mapStateToProps)(ContainerTree);
