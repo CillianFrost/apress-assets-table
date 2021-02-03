@@ -24,7 +24,6 @@
   }
   &-content {
     background-color: #fff;
-    border-radius: 5px;
     box-shadow: 0 0 9px 0 rgba(59, 61, 77, .52);
     background-clip: padding-box;
     outline: 0;
@@ -82,9 +81,6 @@
     &:last-child {
       margin-right: 0;
     }
-  }
-  &-button-container {
-    text-align: center;
   }
   &-mask {
     position: fixed;
