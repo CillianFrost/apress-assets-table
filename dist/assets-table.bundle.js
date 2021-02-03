@@ -61017,7 +61017,45 @@ var _utils = __webpack_require__(173);
 =======
 var _PaymentDelivery = __webpack_require__(473);
 
+<<<<<<< HEAD
 var _PaymentDelivery2 = _interopRequireDefault(_PaymentDelivery);
+=======
+      return _react2.default.createElement(
+        'div',
+        { className: b('content-options-line') },
+        _react2.default.createElement(
+          'div',
+          { className: b('content-options-line-control') },
+          _react2.default.createElement('button', {
+            className: b('content-options-line-control-button') + ' ' + (isOptionActive && 'is-option-button-active'),
+            onClick: this.changeOptionState
+          }),
+          _react2.default.createElement(
+            'div',
+            { className: b('content-options-line-control-text') },
+            name
+          )
+        ),
+        isAddressesVisible && _react2.default.createElement(
+          'div',
+          { className: b('content-options-line-addresses') },
+          addresses.map(function (address, i) {
+            return _react2.default.createElement(_CheckboxElement2.default, {
+              name: address.name,
+              selected: address.selected,
+              index: i,
+              optionIndex: index,
+              handleDataChange: handleDataChange,
+              key: address.id
+            });
+          })
+        )
+      );
+    }
+  }]);
+  return OptionElement;
+}(_react2.default.Component);
+>>>>>>> fix: remove popups border radius and replace popups buttons
 
 var _utils = __webpack_require__(174);
 >>>>>>> feat: add payment and delivery popups
@@ -61265,6 +61303,7 @@ function getCopyVars(lowerCell, upperCell, cellDragged) {
   var isDraggingDown = cellDragged.row > lowerCell.row;
   var selectionHeight = lowerCell.row - upperCell.row + 1;
 
+<<<<<<< HEAD
   return {
     column: upperCell.column,
     rowNum: isDraggingDown ? lowerCell.row + 1 : upperCell.row - 1,
@@ -61283,6 +61322,117 @@ function getCopyVars(lowerCell, upperCell, cellDragged) {
     }
   };
 }
+=======
+      return _react2.default.createElement(
+        'div',
+        {
+          className: b,
+          onClick: function onClick(e) {
+            return _this2.handleOutsideClick(e);
+          }
+        },
+        _react2.default.createElement(
+          'div',
+          { className: b('content'), ref: this.setPopupRef },
+          _react2.default.createElement(
+            'div',
+            { className: b('content-titles') },
+            _react2.default.createElement(
+              'div',
+              { className: b('content-titles-title') },
+              '\u041D\u0430\u0441\u0442\u0440\u043E\u0438\u0442\u044C \u0443\u0441\u043B\u043E\u0432\u0438\u044F ',
+              mainDiffText
+            ),
+            _react2.default.createElement(
+              'div',
+              { className: b('content-titles-name') },
+              '\u041D\u0430\u0437\u0432\u0430\u043D\u0438\u0435 \u0442\u043E\u0432\u0430\u0440\u043D\u043E\u0439 \u0433\u0440\u0443\u043F\u043F\u044B'
+            )
+          ),
+          _react2.default.createElement(
+            'div',
+            { className: b('content-hint') },
+            _react2.default.createElement(
+              'span',
+              null,
+              hintDiffText
+            )
+          ),
+          _react2.default.createElement(
+            'div',
+            { className: b('content-options') },
+            isEmptyData && _react2.default.createElement(
+              'h3',
+              null,
+              '\u0423\u0441\u043B\u043E\u0432\u0438\u0439 ',
+              mainDiffText,
+              ' \u043D\u0435\u0442'
+            ),
+            this.state.changingDataToSend.map(function (_ref2, index) {
+              var name = _ref2.name,
+                  id = _ref2.id,
+                  selected = _ref2.selected,
+                  _ref2$addresses = _ref2.addresses,
+                  addresses = _ref2$addresses === undefined ? [] : _ref2$addresses;
+              return _react2.default.createElement(_OptionElement2.default, {
+                name: name,
+                selected: selected,
+                index: index,
+                handleDataChange: _this2.handleDataChange,
+                addresses: addresses,
+                key: id
+              });
+            })
+          ),
+          _react2.default.createElement(
+            'div',
+            { className: b('content-extra-link') },
+            _react2.default.createElement(
+              'a',
+              {
+                href: app.config.paymentDeliveryUrl,
+                target: '_blank',
+                rel: 'noopener noreferrer'
+              },
+              '\u0414\u043E\u0431\u0430\u0432\u0438\u0442\u044C \u0438\u043B\u0438 \u0438\u0437\u043C\u0435\u043D\u0438\u0442\u044C \u0441\u043F\u043E\u0441\u043E\u0431\u044B ',
+              mainDiffText
+            )
+          ),
+          _react2.default.createElement(
+            'div',
+            { className: b('content-buttons') },
+            !isEmptyData && _react2.default.createElement(
+              'button',
+              {
+                className: b('content-buttons-save'),
+                onClick: this.handleSave
+              },
+              '\u0421\u043E\u0445\u0440\u0430\u043D\u0438\u0442\u044C'
+            ),
+            _react2.default.createElement(
+              'button',
+              {
+                className: b('content-buttons-cancel'),
+                onClick: function onClick() {
+                  return _this2.props.showPaymentDeliveryPopup();
+                }
+              },
+              isEmptyData ? 'Закрыть' : 'Отменить'
+            )
+          ),
+          _react2.default.createElement('button', {
+            className: b('content-close'),
+            onClick: function onClick() {
+              return _this2.props.showPaymentDeliveryPopup();
+            }
+          })
+        )
+      );
+    }
+  }]);
+  return PaymentDeliveryPopup;
+}(_react2.default.Component);
+>>>>>>> fix: remove popups border radius and replace popups buttons
 
 exports.default = function () {
   var state = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : initialState;
@@ -64196,12 +64346,96 @@ exports.default = SelectCellView;
 /* 507 */
 /***/ (function(module, exports, __webpack_require__) {
 
+<<<<<<< HEAD
 "use strict";
+=======
+      if (existedImages.length + unsavedImages.length <= maxLength && !rejectedFiles.length) {
+        saveProductGroupImages({ existedImages: existedImages, unsavedImages: unsavedImages });
+      } else {
+        showImageEditor();
+      }
+    }, _this.returnCellTextProporties = function (dataRow) {
+      var str = [];
+      (0, _keys2.default)(dataRow.data.common).forEach(function (item) {
+        if (app.config.productPropertiesMeasure[item]) {
+          str.push(dataRow.data.common[item] + '(' + app.config.productPropertiesMeasure[item].measure + ')');
+        }
+      });
+      return str.join(' x ');
+    }, _this.renderCell = function (row, rowId, cell, columnIndex, rowIndex) {
+      var _this$props2 = _this.props,
+          placeholder = _this$props2.placeholder,
+          config = _this$props2.config,
+          actions = _this$props2.actions,
+          table = _this$props2.table,
+          readonly = _this$props2.readonly,
+          isTouchDevice = _this$props2.isTouchDevice;
+      var focus = table.focus,
+          selected = table.selected;
+>>>>>>> fix: remove popups border radius and replace popups buttons
 
 
+<<<<<<< HEAD
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
+=======
+      var componentsCell = {
+        text: _react2.default.createElement(_cellsWithDragging.TextWithDragging, {
+          key: key,
+          cell: dataRow,
+          setData: actions.setText
+        }),
+        check: _react2.default.createElement(_cellsWithDragging.CheckWithDragging, {
+          key: key,
+          cell: dataRow,
+          setCheck: actions.setCheck,
+          checked: _this.isRowChecked(rowId)
+        }),
+        img: _react2.default.createElement(_cellsWithDragging.ImageWithDragging, {
+          key: key,
+          cell: dataRow,
+          row: row
+        }),
+        path: _react2.default.createElement(_cellsWithDragging.PathWithDragging, {
+          key: key,
+          cell: dataRow
+        }),
+        price: _react2.default.createElement(_Price2.default, {
+          key: key,
+          cell: dataRow
+        }),
+        paymentDelivery: _react2.default.createElement(_cellsWithDragging.PaymentDeliveryWithDragging, {
+          key: key,
+          cell: dataRow,
+          row: row
+        }),
+        exists: _react2.default.createElement(_Exists2.default, {
+          key: key,
+          cell: dataRow
+        }),
+        check_related_products: _react2.default.createElement(_CheckRelatedProducts2.default, {
+          key: key,
+          cell: dataRow,
+          actions: actions.relatedProducts
+        }),
+        select: _react2.default.createElement(_containers.SelectCellContainer, {
+          key: key,
+          cell: dataRow,
+          options: traitFiltersDisplayingOptions,
+          activeOption: traitFiltersDisplayingOptions.find(function (option) {
+            return option.value === dataRow.data.common.enabled;
+          }),
+          handleSelect: actions.setTraitFiltersDisplaying
+        }),
+        product_properties_popup: _react2.default.createElement(_containers.PopupProportiesCellContainer, {
+          key: key,
+          cell: dataRow,
+          activeOption: _this.returnCellTextProporties(dataRow),
+          handleSelect: actions.setProductProportiesDisplaying
+        })
+      };
+>>>>>>> fix: remove popups border radius and replace popups buttons
 
 var _views = __webpack_require__(510);
 
@@ -64211,6 +64445,7 @@ exports.default = _views.UrlFieldView;
 /* 508 */
 /***/ (function(module, exports, __webpack_require__) {
 
+<<<<<<< HEAD
 "use strict";
 
 
@@ -64218,6 +64453,25 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports.urlFieldwPropType = undefined;
+=======
+  (0, _createClass3.default)(Body, [{
+    key: 'shouldComponentUpdate',
+    value: function shouldComponentUpdate(nextProps, nextState) {
+      return !(0, _isEqual3.default)(this.props, nextProps) || !(0, _isEqual3.default)(this.state, nextState);
+    }
+  }, {
+    key: 'render',
+    value: function render() {
+      return _react2.default.createElement(
+        'div',
+        { className: b('body') },
+        this.props.table.rows.map(this.renderRow)
+      );
+    }
+  }]);
+  return Body;
+}(_react.Component);
+>>>>>>> fix: remove popups border radius and replace popups buttons
 
 var _propTypes = __webpack_require__(6);
 
