@@ -20,6 +20,7 @@
     width: 760px;
     height: 680px;
     position: relative;
+    top: -60px;
     &-titles {
       font-family: Arial;
       color: #383838;
@@ -48,8 +49,9 @@
       align-items: center;
     }
     &-options {
-      padding: 0 50px;
+      padding-left: 50px;
       height: 350px;
+      width: 660px;
       margin-bottom: 25px;
       overflow-y: auto;
       &-line {
@@ -85,6 +87,7 @@
           padding-left: 20px;
           margin-top: 20px;
           max-height: 150px;
+          width: 610px;
           overflow-y: auto;
           &-block {
             display: flex;
@@ -92,6 +95,9 @@
             margin-bottom: 10px;
             &-checkbox {
               margin-right: 10px;
+            }
+            &-text {
+              font-size: 14px;
             }
           }
         }
@@ -142,4 +148,9 @@
     left: 25px;
     background-color: #a3bd49;
   }
+}
+
+.not-scrollable {
+  overflow: hidden;
+  padding-right: 15px;
 }
