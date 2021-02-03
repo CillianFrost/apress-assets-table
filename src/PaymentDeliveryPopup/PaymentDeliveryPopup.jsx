@@ -18,6 +18,10 @@ class PaymentDeliveryPopup extends React.Component {
     changingDataToSend: [...this.props.paymentDeliveryData.data],
   };
 
+  componentWillUnmount() {
+    document.querySelector('body').classList.remove('not-scrollable');
+  }
+
   setPopupRef = (element) => {
     this.popupRef = element;
   };
@@ -114,7 +118,7 @@ class PaymentDeliveryPopup extends React.Component {
               target='_blank'
               rel='noopener noreferrer'
             >
-              Добавить или изменить способ {mainDiffText}
+              Добавить или изменить способы {mainDiffText}
             </a>
           </div>
           <div className={b('content-buttons')}>
@@ -128,7 +132,7 @@ class PaymentDeliveryPopup extends React.Component {
               className={b('content-buttons-cancel')}
               onClick={() => this.props.showPaymentDeliveryPopup()}
             >
-              {isEmptyData ? 'Закрыть' : 'Отмена'}
+              {isEmptyData ? 'Закрыть' : 'Отменить'}
             </button>
           </div>
           <button

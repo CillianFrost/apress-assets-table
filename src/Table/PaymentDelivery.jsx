@@ -26,6 +26,8 @@ class PaymentDeliveryCell extends Component {
 
     this.props.sendDataToPaymentDeliveryPopup(id, common, name);
     this.props.showPaymentDeliveryPopup(true);
+
+    document.querySelector('body').classList.add('not-scrollable');
   };
 
   render() {

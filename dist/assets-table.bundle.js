@@ -192,7 +192,11 @@ exports.default = function (self, call) {
 
 exports.__esModule = true;
 
+<<<<<<< HEAD
 var _defineProperty = __webpack_require__(150);
+=======
+var _defineProperty = __webpack_require__(151);
+>>>>>>> fix: delivery and payment text and popup fixes
 
 var _defineProperty2 = _interopRequireDefault(_defineProperty);
 
@@ -491,6 +495,7 @@ module.exports = __WEBPACK_EXTERNAL_MODULE_10__;
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 var core = module.exports = { version: '2.6.11' };
 =======
 var core = module.exports = { version: '2.6.12' };
@@ -498,6 +503,9 @@ var core = module.exports = { version: '2.6.12' };
 =======
 var core = module.exports = { version: '2.6.11' };
 >>>>>>> feat: tiger popups redesign
+=======
+var core = module.exports = { version: '2.6.12' };
+>>>>>>> fix: delivery and payment text and popup fixes
 if (typeof __e == 'number') __e = core; // eslint-disable-line no-undef
 
 
@@ -555,7 +563,11 @@ module.exports = isEqual;
 
 exports.__esModule = true;
 
+<<<<<<< HEAD
 var _defineProperty = __webpack_require__(150);
+=======
+var _defineProperty = __webpack_require__(151);
+>>>>>>> fix: delivery and payment text and popup fixes
 
 var _defineProperty2 = _interopRequireDefault(_defineProperty);
 
@@ -585,10 +597,14 @@ exports.default = function (obj, key, value) {
 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 var bind = __webpack_require__(148);
 =======
 var bind = __webpack_require__(147);
 >>>>>>> feat: add payment and delivery popups
+=======
+var bind = __webpack_require__(149);
+>>>>>>> fix: delivery and payment text and popup fixes
 
 /*global toString:true*/
 
@@ -1175,6 +1191,7 @@ module.exports = __WEBPACK_EXTERNAL_MODULE_18__;
 /***/ }),
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* 19 */
 =======
 /* 19 */,
@@ -1186,6 +1203,13 @@ module.exports = __WEBPACK_EXTERNAL_MODULE_18__;
 /***/ (function(module, exports, __webpack_require__) {
 
 var freeGlobal = __webpack_require__(164);
+=======
+/* 19 */,
+/* 20 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var freeGlobal = __webpack_require__(165);
+>>>>>>> fix: delivery and payment text and popup fixes
 
 /** Detect free variable `self`. */
 var freeSelf = typeof self == 'object' && self && self.Object === Object && self;
@@ -1199,6 +1223,7 @@ module.exports = root;
 /***/ }),
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* 20 */
 =======
 /* 21 */
@@ -1206,6 +1231,9 @@ module.exports = root;
 =======
 /* 20 */
 >>>>>>> feat: tiger popups redesign
+=======
+/* 21 */
+>>>>>>> fix: delivery and payment text and popup fixes
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1527,12 +1555,15 @@ var cloneableGenerator = function cloneableGenerator(generatorFunc) {
 /***/ }),
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* 21 */,
 =======
 >>>>>>> feat: add payment and delivery popups
 =======
 /* 21 */,
 >>>>>>> feat: tiger popups redesign
+=======
+>>>>>>> fix: delivery and payment text and popup fixes
 /* 22 */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -1702,12 +1733,15 @@ if (typeof __g == 'number') __g = global; // eslint-disable-line no-undef
 /***/ (function(module, exports, __webpack_require__) {
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 var global = __webpack_require__(28);
 var core = __webpack_require__(11);
 var ctx = __webpack_require__(119);
 var hide = __webpack_require__(47);
 var has = __webpack_require__(33);
 =======
+=======
+>>>>>>> fix: delivery and payment text and popup fixes
 "use strict";
 
 
@@ -1737,10 +1771,16 @@ exports.default = function (arr) {
 
 var global = __webpack_require__(28);
 var core = __webpack_require__(11);
+<<<<<<< HEAD
 var ctx = __webpack_require__(118);
 var hide = __webpack_require__(47);
 var has = __webpack_require__(34);
 >>>>>>> feat: add payment and delivery popups
+=======
+var ctx = __webpack_require__(119);
+var hide = __webpack_require__(47);
+var has = __webpack_require__(34);
+>>>>>>> fix: delivery and payment text and popup fixes
 var PROTOTYPE = 'prototype';
 
 var $export = function (type, name, source) {
@@ -1809,7 +1849,11 @@ module.exports = $export;
 /***/ (function(module, exports, __webpack_require__) {
 
 var anObject = __webpack_require__(43);
+<<<<<<< HEAD
 var IE8_DOM_DEFINE = __webpack_require__(152);
+=======
+var IE8_DOM_DEFINE = __webpack_require__(153);
+>>>>>>> fix: delivery and payment text and popup fixes
 var toPrimitive = __webpack_require__(99);
 var dP = Object.defineProperty;
 
@@ -2203,7 +2247,11 @@ module.exports = __webpack_require__(27) ? function (object, key, value) {
 /***/ (function(module, exports, __webpack_require__) {
 
 // to indexed object, toObject with fallback for non-array-like ES3 strings
+<<<<<<< HEAD
 var IObject = __webpack_require__(153);
+=======
+var IObject = __webpack_require__(154);
+>>>>>>> fix: delivery and payment text and popup fixes
 var defined = __webpack_require__(91);
 module.exports = function (it) {
   return IObject(defined(it));
@@ -2241,6 +2289,7 @@ module.exports = function (it) {
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "w", function() { return asEffect; });
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__utils__ = __webpack_require__(20);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__sagaHelpers__ = __webpack_require__(213);
 =======
@@ -2248,6 +2297,9 @@ module.exports = function (it) {
 =======
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__utils__ = __webpack_require__(20);
 >>>>>>> feat: tiger popups redesign
+=======
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__utils__ = __webpack_require__(21);
+>>>>>>> fix: delivery and payment text and popup fixes
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__sagaHelpers__ = __webpack_require__(215);
 >>>>>>> feat: add payment and delivery popups
 
@@ -2803,7 +2855,7 @@ module.exports = {};
 /***/ (function(module, exports, __webpack_require__) {
 
 // 19.1.2.14 / 15.2.3.14 Object.keys(O)
-var $keys = __webpack_require__(158);
+var $keys = __webpack_require__(159);
 var enumBugKeys = __webpack_require__(92);
 
 module.exports = Object.keys || function keys(O) {
@@ -2830,6 +2882,7 @@ module.exports = Object.keys || function keys(O) {
 /* harmony export (immutable) */ __webpack_exports__["d"] = stdChannel;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__utils__ = __webpack_require__(20);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__buffers__ = __webpack_require__(89);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__scheduler__ = __webpack_require__(214);
@@ -2838,6 +2891,9 @@ module.exports = Object.keys || function keys(O) {
 =======
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__utils__ = __webpack_require__(20);
 >>>>>>> feat: tiger popups redesign
+=======
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__utils__ = __webpack_require__(21);
+>>>>>>> fix: delivery and payment text and popup fixes
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__buffers__ = __webpack_require__(89);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__scheduler__ = __webpack_require__(216);
 >>>>>>> feat: add payment and delivery popups
@@ -3175,12 +3231,16 @@ var _reactDndHtml5Backend = __webpack_require__(685);
 
 var _reactDndHtml5Backend2 = _interopRequireDefault(_reactDndHtml5Backend);
 
+<<<<<<< HEAD
 var _throttle2 = __webpack_require__(136);
 >>>>>>> feat: add payment and delivery popups
+=======
+var _throttle2 = __webpack_require__(138);
+>>>>>>> fix: delivery and payment text and popup fixes
 
 var _throttle3 = _interopRequireDefault(_throttle2);
 
-var _debounce2 = __webpack_require__(209);
+var _debounce2 = __webpack_require__(208);
 
 var _debounce3 = _interopRequireDefault(_debounce2);
 
@@ -3214,11 +3274,14 @@ var actionsSaveControl = _interopRequireWildcard(_actions4);
 var _actions5 = __webpack_require__(81);
 
 var _DropDownMenu = __webpack_require__(115);
+<<<<<<< HEAD
 =======
 var _actions4 = __webpack_require__(81);
 
 var _DropDownMenu = __webpack_require__(148);
 >>>>>>> feat: add payment and delivery popups
+=======
+>>>>>>> fix: delivery and payment text and popup fixes
 
 var _DropDownMenu2 = _interopRequireDefault(_DropDownMenu);
 
@@ -3615,6 +3678,7 @@ var imageEditorSettings = exports.imageEditorSettings = {
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 var root = __webpack_require__(19);
 =======
 var root = __webpack_require__(20);
@@ -3622,6 +3686,9 @@ var root = __webpack_require__(20);
 =======
 var root = __webpack_require__(19);
 >>>>>>> feat: tiger popups redesign
+=======
+var root = __webpack_require__(20);
+>>>>>>> fix: delivery and payment text and popup fixes
 
 /** Built-in value references. */
 var Symbol = root.Symbol;
@@ -3998,6 +4065,7 @@ module.exports = eq;
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return buffers; });
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__utils__ = __webpack_require__(20);
 =======
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__utils__ = __webpack_require__(21);
@@ -4005,6 +4073,9 @@ module.exports = eq;
 =======
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__utils__ = __webpack_require__(20);
 >>>>>>> feat: tiger popups redesign
+=======
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__utils__ = __webpack_require__(21);
+>>>>>>> fix: delivery and payment text and popup fixes
 
 
 var BUFFER_OVERFLOW = "Channel's Buffer overflow!";
@@ -4138,6 +4209,7 @@ function getDefaultAdapter() {
   if (typeof XMLHttpRequest !== 'undefined') {
     // For browsers use XHR adapter
 <<<<<<< HEAD
+<<<<<<< HEAD
     adapter = __webpack_require__(144);
   } else if (typeof process !== 'undefined') {
     // For node use HTTP adapter
@@ -4148,6 +4220,12 @@ function getDefaultAdapter() {
     // For node use HTTP adapter
     adapter = __webpack_require__(143);
 >>>>>>> feat: add payment and delivery popups
+=======
+    adapter = __webpack_require__(145);
+  } else if (typeof process !== 'undefined') {
+    // For node use HTTP adapter
+    adapter = __webpack_require__(145);
+>>>>>>> fix: delivery and payment text and popup fixes
   }
   return adapter;
 }
@@ -4264,7 +4342,11 @@ var PROTOTYPE = 'prototype';
 // Create object with fake `null` prototype: use iframe Object with cleared prototype
 var createDict = function () {
   // Thrash, waste and sodomy: IE GC bug
+<<<<<<< HEAD
   var iframe = __webpack_require__(151)('iframe');
+=======
+  var iframe = __webpack_require__(152)('iframe');
+>>>>>>> fix: delivery and payment text and popup fixes
   var i = enumBugKeys.length;
   var lt = '<';
   var gt = '>';
@@ -4352,6 +4434,7 @@ var store = global[SHARED] || (global[SHARED] = {});
   mode: __webpack_require__(65) ? 'pure' : 'global',
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   copyright: '© 2019 Denis Pushkarev (zloirock.ru)'
 =======
   copyright: '© 2020 Denis Pushkarev (zloirock.ru)'
@@ -4359,6 +4442,9 @@ var store = global[SHARED] || (global[SHARED] = {});
 =======
   copyright: '© 2019 Denis Pushkarev (zloirock.ru)'
 >>>>>>> feat: tiger popups redesign
+=======
+  copyright: '© 2020 Denis Pushkarev (zloirock.ru)'
+>>>>>>> fix: delivery and payment text and popup fixes
 });
 
 
@@ -4435,7 +4521,11 @@ var $at = __webpack_require__(287)(true);
 >>>>>>> feat: add payment and delivery popups
 
 // 21.1.3.27 String.prototype[@@iterator]()
+<<<<<<< HEAD
 __webpack_require__(154)(String, 'String', function (iterated) {
+=======
+__webpack_require__(155)(String, 'String', function (iterated) {
+>>>>>>> fix: delivery and payment text and popup fixes
   this._t = String(iterated); // target
   this._i = 0;                // next index
 // 21.1.5.2.1 %StringIteratorPrototype%.next()
@@ -4469,7 +4559,7 @@ var Map = getNative(root, 'Map');
 module.exports = Map;
 =======
 var getNative = __webpack_require__(40),
-    root = __webpack_require__(19);
+    root = __webpack_require__(20);
 
 /* Built-in method references that are verified to be native. */
 var Map = getNative(root, 'Map');
@@ -4504,7 +4594,7 @@ function SetCache(values) {
 /* 109 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var MapCache = __webpack_require__(123),
+var MapCache = __webpack_require__(124),
     setCacheAdd = __webpack_require__(359),
     setCacheHas = __webpack_require__(360);
 
@@ -4586,6 +4676,7 @@ module.exports = cacheHas;
 /* 112 */
 /***/ (function(module, exports, __webpack_require__) {
 
+<<<<<<< HEAD
 var isFunction = __webpack_require__(167),
     isLength = __webpack_require__(168);
 <<<<<<< HEAD
@@ -4637,6 +4728,10 @@ var done = { done: true, value: undefined };
 var qEnd = {};
 
 =======
+=======
+var isFunction = __webpack_require__(168),
+    isLength = __webpack_require__(169);
+>>>>>>> fix: delivery and payment text and popup fixes
 
 /**
  * Checks if `value` is array-like. A value is considered array-like if it's
@@ -4678,7 +4773,7 @@ module.exports = isArrayLike;
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return qEnd; });
 /* harmony export (immutable) */ __webpack_exports__["c"] = safeName;
 /* harmony export (immutable) */ __webpack_exports__["a"] = fsmIterator;
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__utils__ = __webpack_require__(20);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__utils__ = __webpack_require__(21);
 
 
 var done = { done: true, value: undefined };
@@ -4757,6 +4852,7 @@ module.exports = function(module) {
 	}
 	return module;
 };
+<<<<<<< HEAD
 
 
 /***/ }),
@@ -4854,6 +4950,8 @@ module.exports = function(module) {
 	}
 	return module;
 };
+=======
+>>>>>>> fix: delivery and payment text and popup fixes
 
 
 /***/ }),
@@ -4866,237 +4964,36 @@ module.exports = function(module) {
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-var SWITCH_CATEGORY_REQUEST_START = exports.SWITCH_CATEGORY_REQUEST_START = 'SWITCH_CATEGORY_REQUEST_START';
-var SWITCH_CATEGORY_REQUEST_ERROR = exports.SWITCH_CATEGORY_REQUEST_ERROR = 'SWITCH_CATEGORY_REQUEST_ERROR';
-var SWITCH_CATEGORY_REQUEST_SUCCESS = exports.SWITCH_CATEGORY_REQUEST_SUCCESS = 'SWITCH_CATEGORY_REQUEST_SUCCESS';
 
-var SWITCH_CATEGORY_UPDATE_START = exports.SWITCH_CATEGORY_UPDATE_START = 'SWITCH_CATEGORY_UPDATE_START';
-var SWITCH_CATEGORY_UPDATE_ERROR = exports.SWITCH_CATEGORY_UPDATE_ERROR = 'SWITCH_CATEGORY_UPDATE_ERROR';
-var SWITCH_CATEGORY_UPDATE_SUCCESS = exports.SWITCH_CATEGORY_UPDATE_SUCCESS = 'SWITCH_CATEGORY_UPDATE_SUCCESS';
+var _getPrototypeOf = __webpack_require__(8);
 
-var SWITCH_CATEGORY_UPDATE = exports.SWITCH_CATEGORY_UPDATE = 'SWITCH_CATEGORY_UPDATE';
-var SWITCH_CATEGORY_INIT = exports.SWITCH_CATEGORY_INIT = 'SWITCH_CATEGORY_INIT';
+var _getPrototypeOf2 = _interopRequireDefault(_getPrototypeOf);
 
-var SWITCH_CATEGORY_SHOW_TOOLTIP = exports.SWITCH_CATEGORY_SHOW_TOOLTIP = 'SWITCH_CATEGORY_SHOW_TOOLTIP';
-var SWITCH_CATEGORY_HIDE_TOOLTIP = exports.SWITCH_CATEGORY_HIDE_TOOLTIP = 'SWITCH_CATEGORY_HIDE_TOOLTIP';
+var _classCallCheck2 = __webpack_require__(1);
 
-var init = exports.init = function init() {
-  return {
-    type: SWITCH_CATEGORY_INIT
-  };
-};
+var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
 
-var getStart = exports.getStart = function getStart() {
-  return {
-    type: SWITCH_CATEGORY_REQUEST_START
-  };
-};
+var _createClass2 = __webpack_require__(5);
 
-var getDone = exports.getDone = function getDone(payload) {
-  return {
-    type: SWITCH_CATEGORY_REQUEST_SUCCESS,
-    payload: payload
-  };
-};
+var _createClass3 = _interopRequireDefault(_createClass2);
 
-var getFail = exports.getFail = function getFail(payload) {
-  return {
-    type: SWITCH_CATEGORY_REQUEST_ERROR,
-    payload: payload,
-    error: true
-  };
-};
+var _possibleConstructorReturn2 = __webpack_require__(3);
 
-var updateStart = exports.updateStart = function updateStart(payload) {
-  return {
-    type: SWITCH_CATEGORY_UPDATE_START,
-    payload: payload
-  };
-};
+var _possibleConstructorReturn3 = _interopRequireDefault(_possibleConstructorReturn2);
 
-var updateDone = exports.updateDone = function updateDone(payload) {
-  return {
-    type: SWITCH_CATEGORY_UPDATE_SUCCESS,
-    payload: payload
-  };
-};
+var _inherits2 = __webpack_require__(2);
 
-var updateFail = exports.updateFail = function updateFail(payload) {
-  return {
-    type: SWITCH_CATEGORY_UPDATE_ERROR,
-    payload: payload,
-    error: true
-  };
-};
+var _inherits3 = _interopRequireDefault(_inherits2);
 
-var switchCategoryUpdate = exports.switchCategoryUpdate = function switchCategoryUpdate(payload) {
-  return {
-    type: SWITCH_CATEGORY_UPDATE,
-    payload: payload
-  };
-};
+var _react = __webpack_require__(0);
 
-var showTooltip = exports.showTooltip = function showTooltip() {
-  return {
-    type: SWITCH_CATEGORY_SHOW_TOOLTIP
-  };
-};
-
-var hideTooltip = exports.hideTooltip = function hideTooltip() {
-  return {
-    type: SWITCH_CATEGORY_HIDE_TOOLTIP
-  };
-};
-
-/***/ }),
-/* 116 */
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-exports.updateHaveMaximumImagesCount = exports.setRejectedFiles = exports.errorLoadingRecommendedImages = exports.successLoadingRecommendedImages = exports.startLoadingRecommendedImages = exports.getRecommendedImages = exports.errorSavingProductGroupImages = exports.successSavingProductGroupImages = exports.startSavingProductGroupImages = exports.saveProductGroupImages = exports.editProductGroupImages = exports.clearImageEditor = undefined;
-
-var _imageEditor = __webpack_require__(175);
-
-var imageEditorActionsTypes = _interopRequireWildcard(_imageEditor);
-
-function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj.default = obj; return newObj; } }
-
-var clearImageEditor = exports.clearImageEditor = function clearImageEditor() {
-  return {
-    type: imageEditorActionsTypes.CLEAR_IMAGE_EDITOR
-  };
-};
-
-var editProductGroupImages = exports.editProductGroupImages = function editProductGroupImages(_ref) {
-  var productGroupId = _ref.productGroupId,
-      productGroupName = _ref.productGroupName,
-      productGroupImages = _ref.productGroupImages,
-      columnName = _ref.columnName;
-  return {
-    type: imageEditorActionsTypes.EDIT_PRODUCT_GROUP_IMAGES,
-    payload: { productGroupId: productGroupId, productGroupName: productGroupName, productGroupImages: productGroupImages, columnName: columnName }
-  };
-};
-
-var saveProductGroupImages = exports.saveProductGroupImages = function saveProductGroupImages(_ref2) {
-  var existedImages = _ref2.existedImages,
-      unsavedImages = _ref2.unsavedImages;
-  return {
-    type: imageEditorActionsTypes.SAVE_PRODUCT_GROUP_IMAGES,
-    payload: { existedImages: existedImages, unsavedImages: unsavedImages }
-  };
-};
-
-var startSavingProductGroupImages = exports.startSavingProductGroupImages = function startSavingProductGroupImages() {
-  return {
-    type: imageEditorActionsTypes.START_SAVING_PRODUCT_GROUP_IMAGES
-  };
-};
-
-var successSavingProductGroupImages = exports.successSavingProductGroupImages = function successSavingProductGroupImages() {
-  return {
-    type: imageEditorActionsTypes.SUCCESS_SAVING_PRODUCT_GROUP_IMAGES
-  };
-};
-
-var errorSavingProductGroupImages = exports.errorSavingProductGroupImages = function errorSavingProductGroupImages() {
-  return {
-    type: imageEditorActionsTypes.ERROR_SAVING_PRODUCT_GROUP_IMAGES
-  };
-};
-
-var getRecommendedImages = exports.getRecommendedImages = function getRecommendedImages(_ref3) {
-  var productGroupId = _ref3.productGroupId;
-  return {
-    type: imageEditorActionsTypes.GET_RECOMMENDED_IMAGES,
-    payload: { productGroupId: productGroupId }
-  };
-};
-
-var startLoadingRecommendedImages = exports.startLoadingRecommendedImages = function startLoadingRecommendedImages() {
-  return {
-    type: imageEditorActionsTypes.START_LOADING_RECOMMENDED_IMAGES
-  };
-};
-
-var successLoadingRecommendedImages = exports.successLoadingRecommendedImages = function successLoadingRecommendedImages(_ref4) {
-  var recommendedImages = _ref4.recommendedImages;
-  return {
-    type: imageEditorActionsTypes.SUCCESS_LOADING_RECOMMENDED_IMAGES,
-    payload: { recommendedImages: recommendedImages }
-  };
-};
-
-var errorLoadingRecommendedImages = exports.errorLoadingRecommendedImages = function errorLoadingRecommendedImages() {
-  return {
-    type: imageEditorActionsTypes.ERROR_LOADING_RECOMMENDED_IMAGES
-  };
-};
-
-var setRejectedFiles = exports.setRejectedFiles = function setRejectedFiles(_ref5) {
-  var rejectedFiles = _ref5.rejectedFiles;
-  return {
-    type: imageEditorActionsTypes.SET_REJECTED_FILES,
-    payload: { rejectedFiles: rejectedFiles }
-  };
-};
-
-var updateHaveMaximumImagesCount = exports.updateHaveMaximumImagesCount = function updateHaveMaximumImagesCount(_ref6) {
-  var haveMaximumImagesCount = _ref6.haveMaximumImagesCount;
-  return {
-    type: imageEditorActionsTypes.UPDATE_HAVE_MAXIMUM_IMAGES_COUNT,
-    payload: { haveMaximumImagesCount: haveMaximumImagesCount }
-  };
-};
-
-/***/ }),
-/* 117 */
-/***/ (function(module, exports) {
-
-var toString = {}.toString;
-
-module.exports = function (it) {
-  return toString.call(it).slice(8, -1);
-};
-
-
-/***/ }),
-/* 118 */
-/***/ (function(module, exports, __webpack_require__) {
-
-// optional / simple context binding
-var aFunction = __webpack_require__(275);
-module.exports = function (fn, that, length) {
-  aFunction(fn);
-  if (that === undefined) return fn;
-  switch (length) {
-    case 1: return function (a) {
-      return fn.call(that, a);
-    };
-    case 2: return function (a, b) {
-      return fn.call(that, a, b);
-    };
-    case 3: return function (a, b, c) {
-      return fn.call(that, a, b, c);
-    };
-  }
-  return function (/* ...args */) {
-    return fn.apply(that, arguments);
-  };
-};
->>>>>>> feat: add payment and delivery popups
+var _react2 = _interopRequireDefault(_react);
 
 var _propTypes = __webpack_require__(6);
 
-<<<<<<< HEAD
 var _propTypes2 = _interopRequireDefault(_propTypes);
 
-var _rcDropdown = __webpack_require__(140);
+var _rcDropdown = __webpack_require__(141);
 
 var _rcDropdown2 = _interopRequireDefault(_rcDropdown);
 
@@ -5104,53 +5001,10 @@ var _isEqual2 = __webpack_require__(12);
 
 var _isEqual3 = _interopRequireDefault(_isEqual2);
 
-__webpack_require__(587);
-=======
-/***/ }),
-/* 119 */,
-/* 120 */,
-/* 121 */,
-/* 122 */,
-/* 123 */
-/***/ (function(module, exports, __webpack_require__) {
-
-var mapCacheClear = __webpack_require__(350),
-    mapCacheDelete = __webpack_require__(351),
-    mapCacheGet = __webpack_require__(352),
-    mapCacheHas = __webpack_require__(353),
-    mapCacheSet = __webpack_require__(354);
-
-/**
- * Creates a map cache object to store key-value pairs.
- *
- * @private
- * @constructor
- * @param {Array} [entries] The key-value pairs to cache.
- */
-function MapCache(entries) {
-  var index = -1,
-      length = entries == null ? 0 : entries.length;
-
-  this.clear();
-  while (++index < length) {
-    var entry = entries[index];
-    this.set(entry[0], entry[1]);
-  }
-}
-
-// Add methods to `MapCache`.
-MapCache.prototype.clear = mapCacheClear;
-MapCache.prototype['delete'] = mapCacheDelete;
-MapCache.prototype.get = mapCacheGet;
-MapCache.prototype.has = mapCacheHas;
-MapCache.prototype.set = mapCacheSet;
-
-module.exports = MapCache;
->>>>>>> feat: add payment and delivery popups
+__webpack_require__(593);
 
 var _utils = __webpack_require__(7);
 
-<<<<<<< HEAD
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
 /* eslint react/no-unused-prop-types: 0 */
@@ -5158,54 +5012,10 @@ var b = (0, _utils.block)('e-dropdown-menu');
 
 var DropDownMenu = function (_React$Component) {
   (0, _inherits3.default)(DropDownMenu, _React$Component);
-=======
-/***/ }),
-/* 124 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__internal_middleware__ = __webpack_require__(703);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__internal_runSaga__ = __webpack_require__(398);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "runSaga", function() { return __WEBPACK_IMPORTED_MODULE_1__internal_runSaga__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__internal_channel__ = __webpack_require__(58);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "END", function() { return __WEBPACK_IMPORTED_MODULE_2__internal_channel__["a"]; });
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "eventChannel", function() { return __WEBPACK_IMPORTED_MODULE_2__internal_channel__["b"]; });
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "channel", function() { return __WEBPACK_IMPORTED_MODULE_2__internal_channel__["c"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__internal_buffers__ = __webpack_require__(89);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "buffers", function() { return __WEBPACK_IMPORTED_MODULE_3__internal_buffers__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__internal_sagaHelpers__ = __webpack_require__(215);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "takeEvery", function() { return __WEBPACK_IMPORTED_MODULE_4__internal_sagaHelpers__["d"]; });
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "takeLatest", function() { return __WEBPACK_IMPORTED_MODULE_4__internal_sagaHelpers__["e"]; });
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "throttle", function() { return __WEBPACK_IMPORTED_MODULE_4__internal_sagaHelpers__["f"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__internal_utils__ = __webpack_require__(20);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "delay", function() { return __WEBPACK_IMPORTED_MODULE_5__internal_utils__["i"]; });
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "CANCEL", function() { return __WEBPACK_IMPORTED_MODULE_5__internal_utils__["q"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__internal_io__ = __webpack_require__(50);
-/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "detach", function() { return __WEBPACK_IMPORTED_MODULE_6__internal_io__["v"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__effects__ = __webpack_require__(38);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__utils__ = __webpack_require__(704);
-/* harmony reexport (module object) */ __webpack_require__.d(__webpack_exports__, "effects", function() { return __WEBPACK_IMPORTED_MODULE_7__effects__; });
-/* harmony reexport (module object) */ __webpack_require__.d(__webpack_exports__, "utils", function() { return __WEBPACK_IMPORTED_MODULE_8__utils__; });
-
-/* harmony default export */ __webpack_exports__["default"] = (__WEBPACK_IMPORTED_MODULE_0__internal_middleware__["a" /* default */]);
-
-
-
-
-
-
-
-
-
-
-
->>>>>>> feat: add payment and delivery popups
 
   function DropDownMenu() {
     var _ref;
 
-<<<<<<< HEAD
     var _temp, _this, _ret;
 
     (0, _classCallCheck3.default)(this, DropDownMenu);
@@ -5309,9 +5119,6 @@ exports.default = DropDownMenu;
 
 /***/ }),
 /* 116 */
-=======
-/***/ }),
-/* 125 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -5320,40 +5127,6 @@ exports.default = DropDownMenu;
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-var SHOW_PAYMENT_DELIVERY_POPUP = exports.SHOW_PAYMENT_DELIVERY_POPUP = 'SHOW_PAYMENT_DELIVERY_POPUP';
-var SEND_DATA_TO_PAYMENT_DELIVERY_POPUP = exports.SEND_DATA_TO_PAYMENT_DELIVERY_POPUP = 'SEND_DATA_TO_PAYMENT_DELIVERY_POPUP';
-var CHANGE_OPTION_DATA = exports.CHANGE_OPTION_DATA = 'CHANGE_OPTION_DATA';
-
-var showPaymentDeliveryPopup = exports.showPaymentDeliveryPopup = function showPaymentDeliveryPopup(isVisible) {
-  return {
-    type: SHOW_PAYMENT_DELIVERY_POPUP,
-    isVisible: isVisible
-  };
-};
-
-var sendDataToPaymentDeliveryPopup = exports.sendDataToPaymentDeliveryPopup = function sendDataToPaymentDeliveryPopup(groupId, data, name) {
-  return {
-    type: SEND_DATA_TO_PAYMENT_DELIVERY_POPUP,
-    payload: {
-      groupId: groupId,
-      data: data,
-      name: name
-    }
-  };
-};
-
-/***/ }),
-/* 126 */
->>>>>>> feat: add payment and delivery popups
-/***/ (function(module, exports, __webpack_require__) {
-
-"use strict";
-
-
-Object.defineProperty(exports, "__esModule", {
-  value: true
-});
-<<<<<<< HEAD
 var SWITCH_CATEGORY_REQUEST_START = exports.SWITCH_CATEGORY_REQUEST_START = 'SWITCH_CATEGORY_REQUEST_START';
 var SWITCH_CATEGORY_REQUEST_ERROR = exports.SWITCH_CATEGORY_REQUEST_ERROR = 'SWITCH_CATEGORY_REQUEST_ERROR';
 var SWITCH_CATEGORY_REQUEST_SUCCESS = exports.SWITCH_CATEGORY_REQUEST_SUCCESS = 'SWITCH_CATEGORY_REQUEST_SUCCESS';
@@ -5448,7 +5221,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.updateHaveMaximumImagesCount = exports.setRejectedFiles = exports.errorLoadingRecommendedImages = exports.successLoadingRecommendedImages = exports.startLoadingRecommendedImages = exports.getRecommendedImages = exports.errorSavingProductGroupImages = exports.successSavingProductGroupImages = exports.startSavingProductGroupImages = exports.saveProductGroupImages = exports.editProductGroupImages = exports.clearImageEditor = undefined;
 
-var _imageEditor = __webpack_require__(174);
+var _imageEditor = __webpack_require__(175);
 
 var imageEditorActionsTypes = _interopRequireWildcard(_imageEditor);
 
@@ -5558,7 +5331,7 @@ module.exports = function (it) {
 /***/ (function(module, exports, __webpack_require__) {
 
 // optional / simple context binding
-var aFunction = __webpack_require__(274);
+var aFunction = __webpack_require__(275);
 module.exports = function (fn, that, length) {
   aFunction(fn);
   if (that === undefined) return fn;
@@ -5577,8 +5350,23 @@ module.exports = function (fn, that, length) {
     return fn.apply(that, arguments);
   };
 };
+>>>>>>> feat: add payment and delivery popups
 
+var _propTypes = __webpack_require__(6);
 
+<<<<<<< HEAD
+var _propTypes2 = _interopRequireDefault(_propTypes);
+
+var _rcDropdown = __webpack_require__(140);
+
+var _rcDropdown2 = _interopRequireDefault(_rcDropdown);
+
+var _isEqual2 = __webpack_require__(12);
+
+var _isEqual3 = _interopRequireDefault(_isEqual2);
+
+__webpack_require__(587);
+=======
 /***/ }),
 /* 120 */,
 /* 121 */,
@@ -5587,11 +5375,11 @@ module.exports = function (fn, that, length) {
 /* 124 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var mapCacheClear = __webpack_require__(349),
-    mapCacheDelete = __webpack_require__(350),
-    mapCacheGet = __webpack_require__(351),
-    mapCacheHas = __webpack_require__(352),
-    mapCacheSet = __webpack_require__(353);
+var mapCacheClear = __webpack_require__(350),
+    mapCacheDelete = __webpack_require__(351),
+    mapCacheGet = __webpack_require__(352),
+    mapCacheHas = __webpack_require__(353),
+    mapCacheSet = __webpack_require__(354);
 
 /**
  * Creates a map cache object to store key-value pairs.
@@ -5619,34 +5407,45 @@ MapCache.prototype.has = mapCacheHas;
 MapCache.prototype.set = mapCacheSet;
 
 module.exports = MapCache;
+>>>>>>> feat: add payment and delivery popups
 
+var _utils = __webpack_require__(7);
 
+<<<<<<< HEAD
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+/* eslint react/no-unused-prop-types: 0 */
+var b = (0, _utils.block)('e-dropdown-menu');
+
+var DropDownMenu = function (_React$Component) {
+  (0, _inherits3.default)(DropDownMenu, _React$Component);
+=======
 /***/ }),
 /* 125 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__internal_middleware__ = __webpack_require__(696);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__internal_runSaga__ = __webpack_require__(397);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__internal_middleware__ = __webpack_require__(703);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__internal_runSaga__ = __webpack_require__(398);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "runSaga", function() { return __WEBPACK_IMPORTED_MODULE_1__internal_runSaga__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__internal_channel__ = __webpack_require__(57);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__internal_channel__ = __webpack_require__(58);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "END", function() { return __WEBPACK_IMPORTED_MODULE_2__internal_channel__["a"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "eventChannel", function() { return __WEBPACK_IMPORTED_MODULE_2__internal_channel__["b"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "channel", function() { return __WEBPACK_IMPORTED_MODULE_2__internal_channel__["c"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__internal_buffers__ = __webpack_require__(89);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "buffers", function() { return __WEBPACK_IMPORTED_MODULE_3__internal_buffers__["a"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__internal_sagaHelpers__ = __webpack_require__(213);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__internal_sagaHelpers__ = __webpack_require__(215);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "takeEvery", function() { return __WEBPACK_IMPORTED_MODULE_4__internal_sagaHelpers__["d"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "takeLatest", function() { return __WEBPACK_IMPORTED_MODULE_4__internal_sagaHelpers__["e"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "throttle", function() { return __WEBPACK_IMPORTED_MODULE_4__internal_sagaHelpers__["f"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__internal_utils__ = __webpack_require__(20);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__internal_utils__ = __webpack_require__(21);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "delay", function() { return __WEBPACK_IMPORTED_MODULE_5__internal_utils__["i"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "CANCEL", function() { return __WEBPACK_IMPORTED_MODULE_5__internal_utils__["q"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__internal_io__ = __webpack_require__(50);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "detach", function() { return __WEBPACK_IMPORTED_MODULE_6__internal_io__["v"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__effects__ = __webpack_require__(37);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__utils__ = __webpack_require__(697);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__effects__ = __webpack_require__(38);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__utils__ = __webpack_require__(704);
 /* harmony reexport (module object) */ __webpack_require__.d(__webpack_exports__, "effects", function() { return __WEBPACK_IMPORTED_MODULE_7__effects__; });
 /* harmony reexport (module object) */ __webpack_require__.d(__webpack_exports__, "utils", function() { return __WEBPACK_IMPORTED_MODULE_8__utils__; });
 
@@ -5662,10 +5461,45 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 
 
+<<<<<<< HEAD
+>>>>>>> feat: add payment and delivery popups
+=======
 
 
 /***/ }),
 /* 126 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+var SHOW_PAYMENT_DELIVERY_POPUP = exports.SHOW_PAYMENT_DELIVERY_POPUP = 'SHOW_PAYMENT_DELIVERY_POPUP';
+var SEND_DATA_TO_PAYMENT_DELIVERY_POPUP = exports.SEND_DATA_TO_PAYMENT_DELIVERY_POPUP = 'SEND_DATA_TO_PAYMENT_DELIVERY_POPUP';
+var CHANGE_OPTION_DATA = exports.CHANGE_OPTION_DATA = 'CHANGE_OPTION_DATA';
+
+var showPaymentDeliveryPopup = exports.showPaymentDeliveryPopup = function showPaymentDeliveryPopup(isVisible) {
+  return {
+    type: SHOW_PAYMENT_DELIVERY_POPUP,
+    isVisible: isVisible
+  };
+};
+
+var sendDataToPaymentDeliveryPopup = exports.sendDataToPaymentDeliveryPopup = function sendDataToPaymentDeliveryPopup(groupId, data, name) {
+  return {
+    type: SEND_DATA_TO_PAYMENT_DELIVERY_POPUP,
+    payload: {
+      groupId: groupId,
+      data: data,
+      name: name
+    }
+  };
+};
+
+/***/ }),
+/* 127 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -5710,7 +5544,7 @@ var continueSave = exports.continueSave = function continueSave(payload) {
 };
 
 /***/ }),
-/* 127 */
+/* 128 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -5733,22 +5567,6 @@ var cellPropType = _propTypes2.default.shape({
   classMix: _propTypes2.default.string.isRequired
 });
 
-=======
-exports.popupProportiesCellViewPropType = exports.popupProportiesCellContainerPropType = exports.selectCellViewPropType = exports.selectCellContainerPropType = undefined;
-
-var _propTypes = __webpack_require__(6);
-
-var _propTypes2 = _interopRequireDefault(_propTypes);
-
-function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
-
-var cellPropType = _propTypes2.default.shape({
-  id: _propTypes2.default.number.isRequired,
-  isFocus: _propTypes2.default.bool.isRequired,
-  classMix: _propTypes2.default.string.isRequired
-});
-
->>>>>>> feat: add payment and delivery popups
 var selectCellContainerPropType = exports.selectCellContainerPropType = _propTypes2.default.shape({
   cell: cellPropType.isRequired,
   options: _propTypes2.default.array.isRequired,
@@ -5782,11 +5600,7 @@ var popupProportiesCellViewPropType = exports.popupProportiesCellViewPropType = 
 });
 
 /***/ }),
-<<<<<<< HEAD
-/* 128 */
-=======
-/* 127 */
->>>>>>> feat: add payment and delivery popups
+/* 129 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -5807,23 +5621,13 @@ var imageTypes = exports.imageTypes = {
 };
 
 /***/ }),
-<<<<<<< HEAD
-/* 129 */
-/***/ (function(module, exports, __webpack_require__) {
-
-__webpack_require__(289);
-var global = __webpack_require__(28);
-var hide = __webpack_require__(47);
-var Iterators = __webpack_require__(55);
-=======
-/* 128 */
+/* 130 */
 /***/ (function(module, exports, __webpack_require__) {
 
 __webpack_require__(290);
 var global = __webpack_require__(28);
 var hide = __webpack_require__(47);
 var Iterators = __webpack_require__(56);
->>>>>>> feat: add payment and delivery popups
 var TO_STRING_TAG = __webpack_require__(22)('toStringTag');
 
 var DOMIterables = ('CSSRuleList,CSSStyleDeclaration,CSSValueList,ClientRectList,DOMRectList,DOMStringList,' +
@@ -5842,15 +5646,9 @@ for (var i = 0; i < DOMIterables.length; i++) {
 
 
 /***/ }),
-<<<<<<< HEAD
-/* 130 */,
 /* 131 */,
-/* 132 */
-=======
-/* 129 */,
-/* 130 */,
-/* 131 */
->>>>>>> feat: add payment and delivery popups
+/* 132 */,
+/* 133 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -5873,11 +5671,7 @@ var _invariant = __webpack_require__(25);
 
 var _invariant2 = _interopRequireDefault(_invariant);
 
-<<<<<<< HEAD
-var _isArray = __webpack_require__(35);
-=======
 var _isArray = __webpack_require__(36);
->>>>>>> feat: add payment and delivery popups
 
 var _isArray2 = _interopRequireDefault(_isArray);
 
@@ -5885,11 +5679,7 @@ var _isObject = __webpack_require__(37);
 
 var _isObject2 = _interopRequireDefault(_isObject);
 
-<<<<<<< HEAD
-var _matchesType = __webpack_require__(307);
-=======
 var _matchesType = __webpack_require__(308);
->>>>>>> feat: add payment and delivery popups
 
 var _matchesType2 = _interopRequireDefault(_matchesType);
 
@@ -5906,15 +5696,9 @@ function beginDrag(sourceIds) {
 	var publishSource = options.publishSource,
 	    clientOffset = options.clientOffset,
 	    getSourceClientOffset = options.getSourceClientOffset;
-<<<<<<< HEAD
 
 	(0, _invariant2.default)((0, _isArray2.default)(sourceIds), 'Expected sourceIds to be an array.');
 
-=======
-
-	(0, _invariant2.default)((0, _isArray2.default)(sourceIds), 'Expected sourceIds to be an array.');
-
->>>>>>> feat: add payment and delivery popups
 	var monitor = this.getMonitor();
 	var registry = this.getRegistry();
 	(0, _invariant2.default)(!monitor.isDragging(), 'Cannot call beginDrag while dragging.');
@@ -5939,12 +5723,18 @@ function beginDrag(sourceIds) {
 		(0, _invariant2.default)(typeof getSourceClientOffset === 'function', 'When clientOffset is provided, getSourceClientOffset must be a function.');
 		sourceClientOffset = getSourceClientOffset(sourceId);
 	}
+>>>>>>> fix: delivery and payment text and popup fixes
 
 	var source = registry.getSource(sourceId);
 	var item = source.beginDrag(monitor, sourceId);
 	(0, _invariant2.default)((0, _isObject2.default)(item), 'Item must be an object.');
 
+<<<<<<< HEAD
+<<<<<<< HEAD
+    var _temp, _this, _ret;
+=======
 	registry.pinSource(sourceId);
+>>>>>>> fix: delivery and payment text and popup fixes
 
 	var itemType = registry.getSourceType(sourceId);
 	return {
@@ -5980,10 +5770,52 @@ function hover(targetIdsArg) {
 	(0, _invariant2.default)(monitor.isDragging(), 'Cannot call hover while not dragging.');
 	(0, _invariant2.default)(!monitor.didDrop(), 'Cannot call hover after drop.');
 
+<<<<<<< HEAD
+/***/ }),
+/* 116 */
+=======
+/***/ }),
+/* 125 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+var SHOW_PAYMENT_DELIVERY_POPUP = exports.SHOW_PAYMENT_DELIVERY_POPUP = 'SHOW_PAYMENT_DELIVERY_POPUP';
+var SEND_DATA_TO_PAYMENT_DELIVERY_POPUP = exports.SEND_DATA_TO_PAYMENT_DELIVERY_POPUP = 'SEND_DATA_TO_PAYMENT_DELIVERY_POPUP';
+var CHANGE_OPTION_DATA = exports.CHANGE_OPTION_DATA = 'CHANGE_OPTION_DATA';
+
+var showPaymentDeliveryPopup = exports.showPaymentDeliveryPopup = function showPaymentDeliveryPopup(isVisible) {
+  return {
+    type: SHOW_PAYMENT_DELIVERY_POPUP,
+    isVisible: isVisible
+  };
+};
+
+var sendDataToPaymentDeliveryPopup = exports.sendDataToPaymentDeliveryPopup = function sendDataToPaymentDeliveryPopup(groupId, data, name) {
+  return {
+    type: SEND_DATA_TO_PAYMENT_DELIVERY_POPUP,
+    payload: {
+      groupId: groupId,
+      data: data,
+      name: name
+    }
+  };
+};
+
+/***/ }),
+/* 126 */
+>>>>>>> feat: add payment and delivery popups
+/***/ (function(module, exports, __webpack_require__) {
+=======
 	// First check invariants.
 	for (var i = 0; i < targetIds.length; i++) {
 		var targetId = targetIds[i];
 		(0, _invariant2.default)(targetIds.lastIndexOf(targetId) === i, 'Expected targetIds to be unique in the passed array.');
+>>>>>>> fix: delivery and payment text and popup fixes
 
 		var target = registry.getTarget(targetId);
 		(0, _invariant2.default)(target, 'Expected targetIds to be registered.');
@@ -5991,6 +5823,31 @@ function hover(targetIdsArg) {
 
 	var draggedItemType = monitor.getItemType();
 
+<<<<<<< HEAD
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+<<<<<<< HEAD
+var SWITCH_CATEGORY_REQUEST_START = exports.SWITCH_CATEGORY_REQUEST_START = 'SWITCH_CATEGORY_REQUEST_START';
+var SWITCH_CATEGORY_REQUEST_ERROR = exports.SWITCH_CATEGORY_REQUEST_ERROR = 'SWITCH_CATEGORY_REQUEST_ERROR';
+var SWITCH_CATEGORY_REQUEST_SUCCESS = exports.SWITCH_CATEGORY_REQUEST_SUCCESS = 'SWITCH_CATEGORY_REQUEST_SUCCESS';
+
+var SWITCH_CATEGORY_UPDATE_START = exports.SWITCH_CATEGORY_UPDATE_START = 'SWITCH_CATEGORY_UPDATE_START';
+var SWITCH_CATEGORY_UPDATE_ERROR = exports.SWITCH_CATEGORY_UPDATE_ERROR = 'SWITCH_CATEGORY_UPDATE_ERROR';
+var SWITCH_CATEGORY_UPDATE_SUCCESS = exports.SWITCH_CATEGORY_UPDATE_SUCCESS = 'SWITCH_CATEGORY_UPDATE_SUCCESS';
+
+var SWITCH_CATEGORY_UPDATE = exports.SWITCH_CATEGORY_UPDATE = 'SWITCH_CATEGORY_UPDATE';
+var SWITCH_CATEGORY_INIT = exports.SWITCH_CATEGORY_INIT = 'SWITCH_CATEGORY_INIT';
+
+var SWITCH_CATEGORY_SHOW_TOOLTIP = exports.SWITCH_CATEGORY_SHOW_TOOLTIP = 'SWITCH_CATEGORY_SHOW_TOOLTIP';
+var SWITCH_CATEGORY_HIDE_TOOLTIP = exports.SWITCH_CATEGORY_HIDE_TOOLTIP = 'SWITCH_CATEGORY_HIDE_TOOLTIP';
+
+var init = exports.init = function init() {
+  return {
+    type: SWITCH_CATEGORY_INIT
+  };
+};
+=======
 	// Remove those targetIds that don't match the targetType.  This
 	// fixes shallow isOver which would only be non-shallow because of
 	// non-matching targets.
@@ -6020,6 +5877,7 @@ function drop() {
 	var _this = this;
 
 	var options = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : {};
+>>>>>>> fix: delivery and payment text and popup fixes
 
 	var monitor = this.getMonitor();
 	var registry = this.getRegistry();
@@ -6061,10 +5919,10 @@ function endDrag() {
 
 /***/ }),
 <<<<<<< HEAD
-/* 133 */
+/* 117 */
 =======
-/* 132 */
->>>>>>> feat: add payment and delivery popups
+/* 134 */
+>>>>>>> fix: delivery and payment text and popup fixes
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6082,12 +5940,16 @@ var ADD_TARGET = exports.ADD_TARGET = 'dnd-core/ADD_TARGET';
 var REMOVE_SOURCE = exports.REMOVE_SOURCE = 'dnd-core/REMOVE_SOURCE';
 var REMOVE_TARGET = exports.REMOVE_TARGET = 'dnd-core/REMOVE_TARGET';
 
+<<<<<<< HEAD
+var _imageEditor = __webpack_require__(174);
+=======
 function addSource(sourceId) {
 	return {
 		type: ADD_SOURCE,
 		sourceId: sourceId
 	};
 }
+>>>>>>> fix: delivery and payment text and popup fixes
 
 function addTarget(targetId) {
 	return {
@@ -6111,11 +5973,7 @@ function removeTarget(targetId) {
 }
 
 /***/ }),
-<<<<<<< HEAD
-/* 134 */
-=======
-/* 133 */
->>>>>>> feat: add payment and delivery popups
+/* 135 */
 /***/ (function(module, exports) {
 
 /**
@@ -6135,11 +5993,7 @@ module.exports = baseUnary;
 
 
 /***/ }),
-<<<<<<< HEAD
-/* 135 */
-=======
-/* 134 */
->>>>>>> feat: add payment and delivery popups
+/* 136 */
 /***/ (function(module, exports) {
 
 /**
@@ -6159,15 +6013,94 @@ function setToArray(set) {
   return result;
 }
 
+<<<<<<< HEAD
+var successLoadingRecommendedImages = exports.successLoadingRecommendedImages = function successLoadingRecommendedImages(_ref4) {
+  var recommendedImages = _ref4.recommendedImages;
+  return {
+    type: imageEditorActionsTypes.SUCCESS_LOADING_RECOMMENDED_IMAGES,
+    payload: { recommendedImages: recommendedImages }
+  };
+};
+
+var errorLoadingRecommendedImages = exports.errorLoadingRecommendedImages = function errorLoadingRecommendedImages() {
+  return {
+    type: imageEditorActionsTypes.ERROR_LOADING_RECOMMENDED_IMAGES
+  };
+};
+
+var setRejectedFiles = exports.setRejectedFiles = function setRejectedFiles(_ref5) {
+  var rejectedFiles = _ref5.rejectedFiles;
+  return {
+    type: imageEditorActionsTypes.SET_REJECTED_FILES,
+    payload: { rejectedFiles: rejectedFiles }
+  };
+};
+
+var updateHaveMaximumImagesCount = exports.updateHaveMaximumImagesCount = function updateHaveMaximumImagesCount(_ref6) {
+  var haveMaximumImagesCount = _ref6.haveMaximumImagesCount;
+  return {
+    type: imageEditorActionsTypes.UPDATE_HAVE_MAXIMUM_IMAGES_COUNT,
+    payload: { haveMaximumImagesCount: haveMaximumImagesCount }
+  };
+};
+
+/***/ }),
+/* 118 */
+/***/ (function(module, exports) {
+
+var toString = {}.toString;
+
+module.exports = function (it) {
+  return toString.call(it).slice(8, -1);
+};
+=======
 module.exports = setToArray;
+
+>>>>>>> fix: delivery and payment text and popup fixes
 
 
 /***/ }),
 <<<<<<< HEAD
-/* 136 */
+/* 119 */
+/***/ (function(module, exports, __webpack_require__) {
+
+// optional / simple context binding
+var aFunction = __webpack_require__(274);
+module.exports = function (fn, that, length) {
+  aFunction(fn);
+  if (that === undefined) return fn;
+  switch (length) {
+    case 1: return function (a) {
+      return fn.call(that, a);
+    };
+    case 2: return function (a, b) {
+      return fn.call(that, a, b);
+    };
+    case 3: return function (a, b, c) {
+      return fn.call(that, a, b, c);
+    };
+  }
+  return function (/* ...args */) {
+    return fn.apply(that, arguments);
+  };
+};
+
+
+/***/ }),
+/* 120 */,
+/* 121 */,
+/* 122 */,
+/* 123 */,
+/* 124 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var mapCacheClear = __webpack_require__(349),
+    mapCacheDelete = __webpack_require__(350),
+    mapCacheGet = __webpack_require__(351),
+    mapCacheHas = __webpack_require__(352),
+    mapCacheSet = __webpack_require__(353);
 =======
-/* 135 */
->>>>>>> feat: add payment and delivery popups
+/* 137 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var isArrayLike = __webpack_require__(112),
@@ -6206,18 +6139,15 @@ module.exports = isArrayLikeObject;
 
 
 /***/ }),
-<<<<<<< HEAD
-/* 137 */
-=======
-/* 136 */
->>>>>>> feat: add payment and delivery popups
+/* 138 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var debounce = __webpack_require__(209),
+var debounce = __webpack_require__(208),
     isObject = __webpack_require__(37);
 
 /** Error message constants. */
 var FUNC_ERROR_TEXT = 'Expected a function';
+>>>>>>> fix: delivery and payment text and popup fixes
 
 /**
  * Creates a throttled function that only invokes `func` at most once per
@@ -6286,10 +6216,41 @@ module.exports = throttle;
 
 /***/ }),
 <<<<<<< HEAD
-/* 138 */
+/* 125 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__internal_middleware__ = __webpack_require__(696);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__internal_runSaga__ = __webpack_require__(397);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "runSaga", function() { return __WEBPACK_IMPORTED_MODULE_1__internal_runSaga__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__internal_channel__ = __webpack_require__(57);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "END", function() { return __WEBPACK_IMPORTED_MODULE_2__internal_channel__["a"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "eventChannel", function() { return __WEBPACK_IMPORTED_MODULE_2__internal_channel__["b"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "channel", function() { return __WEBPACK_IMPORTED_MODULE_2__internal_channel__["c"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__internal_buffers__ = __webpack_require__(89);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "buffers", function() { return __WEBPACK_IMPORTED_MODULE_3__internal_buffers__["a"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__internal_sagaHelpers__ = __webpack_require__(213);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "takeEvery", function() { return __WEBPACK_IMPORTED_MODULE_4__internal_sagaHelpers__["d"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "takeLatest", function() { return __WEBPACK_IMPORTED_MODULE_4__internal_sagaHelpers__["e"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "throttle", function() { return __WEBPACK_IMPORTED_MODULE_4__internal_sagaHelpers__["f"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__internal_utils__ = __webpack_require__(20);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "delay", function() { return __WEBPACK_IMPORTED_MODULE_5__internal_utils__["i"]; });
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "CANCEL", function() { return __WEBPACK_IMPORTED_MODULE_5__internal_utils__["q"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__internal_io__ = __webpack_require__(50);
+/* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "detach", function() { return __WEBPACK_IMPORTED_MODULE_6__internal_io__["v"]; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__effects__ = __webpack_require__(37);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__utils__ = __webpack_require__(697);
+/* harmony reexport (module object) */ __webpack_require__.d(__webpack_exports__, "effects", function() { return __WEBPACK_IMPORTED_MODULE_7__effects__; });
+/* harmony reexport (module object) */ __webpack_require__.d(__webpack_exports__, "utils", function() { return __WEBPACK_IMPORTED_MODULE_8__utils__; });
+
+/* harmony default export */ __webpack_exports__["default"] = (__WEBPACK_IMPORTED_MODULE_0__internal_middleware__["a" /* default */]);
+
+
+
+
 =======
-/* 137 */
->>>>>>> feat: add payment and delivery popups
+/* 139 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6298,6 +6259,7 @@ object-assign
 (c) Sindre Sorhus
 @license MIT
 */
+>>>>>>> fix: delivery and payment text and popup fixes
 
 
 /* eslint-disable no-unused-vars */
@@ -6340,6 +6302,11 @@ function shouldUseNative() {
 			return false;
 		}
 
+<<<<<<< HEAD
+/***/ }),
+/* 126 */
+/***/ (function(module, exports, __webpack_require__) {
+=======
 		// https://bugs.chromium.org/p/v8/issues/detail?id=3056
 		var test3 = {};
 		'abcdefghijklmnopqrst'.split('').forEach(function (letter) {
@@ -6349,6 +6316,7 @@ function shouldUseNative() {
 				'abcdefghijklmnopqrst') {
 			return false;
 		}
+>>>>>>> fix: delivery and payment text and popup fixes
 
 		return true;
 	} catch (err) {
@@ -6385,6 +6353,914 @@ module.exports = shouldUseNative() ? Object.assign : function (target, source) {
 };
 
 
+/***/ }),
+<<<<<<< HEAD
+/* 127 */
+/***/ (function(module, exports, __webpack_require__) {
+=======
+/* 140 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+>>>>>>> fix: delivery and payment text and popup fixes
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_extends__ = __webpack_require__(9);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_extends___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_extends__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_babel_runtime_helpers_defineProperty__ = __webpack_require__(13);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_babel_runtime_helpers_defineProperty___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_babel_runtime_helpers_defineProperty__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_babel_runtime_helpers_classCallCheck__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_babel_runtime_helpers_classCallCheck___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_babel_runtime_helpers_classCallCheck__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_babel_runtime_helpers_createClass__ = __webpack_require__(5);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_babel_runtime_helpers_createClass___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_babel_runtime_helpers_createClass__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_babel_runtime_helpers_possibleConstructorReturn__ = __webpack_require__(3);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_babel_runtime_helpers_possibleConstructorReturn___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_babel_runtime_helpers_possibleConstructorReturn__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_babel_runtime_helpers_inherits__ = __webpack_require__(2);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_babel_runtime_helpers_inherits___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5_babel_runtime_helpers_inherits__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_react__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6_react__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_prop_types__ = __webpack_require__(6);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_prop_types___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_7_prop_types__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_rc_util_es_unsafeLifecyclesPolyfill__ = __webpack_require__(674);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__ChildrenUtils__ = __webpack_require__(647);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__AnimateChild__ = __webpack_require__(646);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__util_animate__ = __webpack_require__(378);
+
+
+<<<<<<< HEAD
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.popupProportiesCellViewPropType = exports.popupProportiesCellContainerPropType = exports.selectCellViewPropType = exports.selectCellContainerPropType = undefined;
+
+var _propTypes = __webpack_require__(6);
+
+var _propTypes2 = _interopRequireDefault(_propTypes);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+=======
+>>>>>>> fix: delivery and payment text and popup fixes
+
+
+<<<<<<< HEAD
+=======
+exports.popupProportiesCellViewPropType = exports.popupProportiesCellContainerPropType = exports.selectCellViewPropType = exports.selectCellContainerPropType = undefined;
+
+var _propTypes = __webpack_require__(6);
+
+var _propTypes2 = _interopRequireDefault(_propTypes);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var cellPropType = _propTypes2.default.shape({
+  id: _propTypes2.default.number.isRequired,
+  isFocus: _propTypes2.default.bool.isRequired,
+  classMix: _propTypes2.default.string.isRequired
+});
+
+>>>>>>> feat: add payment and delivery popups
+var selectCellContainerPropType = exports.selectCellContainerPropType = _propTypes2.default.shape({
+  cell: cellPropType.isRequired,
+  options: _propTypes2.default.array.isRequired,
+  activeOption: _propTypes2.default.object.isRequired,
+  handleSelect: _propTypes2.default.func.isRequired
+});
+=======
+>>>>>>> fix: delivery and payment text and popup fixes
+
+
+
+
+<<<<<<< HEAD
+/***/ }),
+<<<<<<< HEAD
+/* 128 */
+=======
+/* 127 */
+>>>>>>> feat: add payment and delivery popups
+/***/ (function(module, exports, __webpack_require__) {
+=======
+>>>>>>> fix: delivery and payment text and popup fixes
+
+
+
+
+
+<<<<<<< HEAD
+/***/ }),
+<<<<<<< HEAD
+/* 129 */
+/***/ (function(module, exports, __webpack_require__) {
+
+__webpack_require__(289);
+var global = __webpack_require__(28);
+var hide = __webpack_require__(47);
+var Iterators = __webpack_require__(55);
+=======
+/* 128 */
+/***/ (function(module, exports, __webpack_require__) {
+
+__webpack_require__(290);
+var global = __webpack_require__(28);
+var hide = __webpack_require__(47);
+var Iterators = __webpack_require__(56);
+>>>>>>> feat: add payment and delivery popups
+var TO_STRING_TAG = __webpack_require__(22)('toStringTag');
+
+var DOMIterables = ('CSSRuleList,CSSStyleDeclaration,CSSValueList,ClientRectList,DOMRectList,DOMStringList,' +
+  'DOMTokenList,DataTransferItemList,FileList,HTMLAllCollection,HTMLCollection,HTMLFormElement,HTMLSelectElement,' +
+  'MediaList,MimeTypeArray,NamedNodeMap,NodeList,PaintRequestList,Plugin,PluginArray,SVGLengthList,SVGNumberList,' +
+  'SVGPathSegList,SVGPointList,SVGStringList,SVGTransformList,SourceBufferList,StyleSheetList,TextTrackCueList,' +
+  'TextTrackList,TouchList').split(',');
+
+for (var i = 0; i < DOMIterables.length; i++) {
+  var NAME = DOMIterables[i];
+  var Collection = global[NAME];
+  var proto = Collection && Collection.prototype;
+  if (proto && !proto[TO_STRING_TAG]) hide(proto, TO_STRING_TAG, NAME);
+  Iterators[NAME] = Iterators.Array;
+}
+
+
+/***/ }),
+<<<<<<< HEAD
+/* 130 */,
+/* 131 */,
+/* 132 */
+=======
+/* 129 */,
+/* 130 */,
+/* 131 */
+>>>>>>> feat: add payment and delivery popups
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+	value: true
+});
+exports.END_DRAG = exports.DROP = exports.HOVER = exports.PUBLISH_DRAG_SOURCE = exports.BEGIN_DRAG = undefined;
+=======
+var defaultKey = 'rc_animate_' + Date.now();
+
+function getChildrenFromProps(props) {
+  var children = props.children;
+  if (__WEBPACK_IMPORTED_MODULE_6_react___default.a.isValidElement(children)) {
+    if (!children.key) {
+      return __WEBPACK_IMPORTED_MODULE_6_react___default.a.cloneElement(children, {
+        key: defaultKey
+      });
+    }
+  }
+  return children;
+}
+
+function noop() {}
+>>>>>>> fix: delivery and payment text and popup fixes
+
+var Animate = function (_React$Component) {
+  __WEBPACK_IMPORTED_MODULE_5_babel_runtime_helpers_inherits___default()(Animate, _React$Component);
+
+  // eslint-disable-line
+
+<<<<<<< HEAD
+var _invariant = __webpack_require__(25);
+=======
+  function Animate(props) {
+    __WEBPACK_IMPORTED_MODULE_2_babel_runtime_helpers_classCallCheck___default()(this, Animate);
+>>>>>>> fix: delivery and payment text and popup fixes
+
+    var _this = __WEBPACK_IMPORTED_MODULE_4_babel_runtime_helpers_possibleConstructorReturn___default()(this, (Animate.__proto__ || Object.getPrototypeOf(Animate)).call(this, props));
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+var _isArray = __webpack_require__(35);
+=======
+var _isArray = __webpack_require__(36);
+>>>>>>> feat: add payment and delivery popups
+=======
+    _initialiseProps.call(_this);
+>>>>>>> fix: delivery and payment text and popup fixes
+
+    _this.currentlyAnimatingKeys = {};
+    _this.keysToEnter = [];
+    _this.keysToLeave = [];
+
+    _this.state = {
+      children: __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_9__ChildrenUtils__["a" /* toArrayChildren */])(getChildrenFromProps(props))
+    };
+
+    _this.childrenRefs = {};
+    return _this;
+  }
+
+<<<<<<< HEAD
+<<<<<<< HEAD
+var _matchesType = __webpack_require__(307);
+=======
+var _matchesType = __webpack_require__(308);
+>>>>>>> feat: add payment and delivery popups
+=======
+  __WEBPACK_IMPORTED_MODULE_3_babel_runtime_helpers_createClass___default()(Animate, [{
+    key: 'componentDidMount',
+    value: function componentDidMount() {
+      var _this2 = this;
+>>>>>>> fix: delivery and payment text and popup fixes
+
+      var showProp = this.props.showProp;
+      var children = this.state.children;
+      if (showProp) {
+        children = children.filter(function (child) {
+          return !!child.props[showProp];
+        });
+      }
+      children.forEach(function (child) {
+        if (child) {
+          _this2.performAppear(child.key);
+        }
+      });
+    }
+  }, {
+    key: 'componentWillReceiveProps',
+    value: function componentWillReceiveProps(nextProps) {
+      var _this3 = this;
+
+      this.nextProps = nextProps;
+      var nextChildren = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_9__ChildrenUtils__["a" /* toArrayChildren */])(getChildrenFromProps(nextProps));
+      var props = this.props;
+      // exclusive needs immediate response
+      if (props.exclusive) {
+        Object.keys(this.currentlyAnimatingKeys).forEach(function (key) {
+          _this3.stop(key);
+        });
+      }
+      var showProp = props.showProp;
+      var currentlyAnimatingKeys = this.currentlyAnimatingKeys;
+      // last props children if exclusive
+      var currentChildren = props.exclusive ? __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_9__ChildrenUtils__["a" /* toArrayChildren */])(getChildrenFromProps(props)) : this.state.children;
+      // in case destroy in showProp mode
+      var newChildren = [];
+      if (showProp) {
+        currentChildren.forEach(function (currentChild) {
+          var nextChild = currentChild && __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_9__ChildrenUtils__["b" /* findChildInChildrenByKey */])(nextChildren, currentChild.key);
+          var newChild = void 0;
+          if ((!nextChild || !nextChild.props[showProp]) && currentChild.props[showProp]) {
+            newChild = __WEBPACK_IMPORTED_MODULE_6_react___default.a.cloneElement(nextChild || currentChild, __WEBPACK_IMPORTED_MODULE_1_babel_runtime_helpers_defineProperty___default()({}, showProp, true));
+          } else {
+            newChild = nextChild;
+          }
+          if (newChild) {
+            newChildren.push(newChild);
+          }
+        });
+        nextChildren.forEach(function (nextChild) {
+          if (!nextChild || !__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_9__ChildrenUtils__["b" /* findChildInChildrenByKey */])(currentChildren, nextChild.key)) {
+            newChildren.push(nextChild);
+          }
+        });
+      } else {
+        newChildren = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_9__ChildrenUtils__["c" /* mergeChildren */])(currentChildren, nextChildren);
+      }
+
+      // need render to avoid update
+      this.setState({
+        children: newChildren
+      });
+
+<<<<<<< HEAD
+function beginDrag(sourceIds) {
+	var options = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : { publishSource: true, clientOffset: null };
+	var publishSource = options.publishSource,
+	    clientOffset = options.clientOffset,
+	    getSourceClientOffset = options.getSourceClientOffset;
+<<<<<<< HEAD
+
+	(0, _invariant2.default)((0, _isArray2.default)(sourceIds), 'Expected sourceIds to be an array.');
+
+=======
+=======
+      nextChildren.forEach(function (child) {
+        var key = child && child.key;
+        if (child && currentlyAnimatingKeys[key]) {
+          return;
+        }
+        var hasPrev = child && __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_9__ChildrenUtils__["b" /* findChildInChildrenByKey */])(currentChildren, key);
+        if (showProp) {
+          var showInNext = child.props[showProp];
+          if (hasPrev) {
+            var showInNow = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_9__ChildrenUtils__["d" /* findShownChildInChildrenByKey */])(currentChildren, key, showProp);
+            if (!showInNow && showInNext) {
+              _this3.keysToEnter.push(key);
+            }
+          } else if (showInNext) {
+            _this3.keysToEnter.push(key);
+          }
+        } else if (!hasPrev) {
+          _this3.keysToEnter.push(key);
+        }
+      });
+>>>>>>> fix: delivery and payment text and popup fixes
+
+      currentChildren.forEach(function (child) {
+        var key = child && child.key;
+        if (child && currentlyAnimatingKeys[key]) {
+          return;
+        }
+        var hasNext = child && __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_9__ChildrenUtils__["b" /* findChildInChildrenByKey */])(nextChildren, key);
+        if (showProp) {
+          var showInNow = child.props[showProp];
+          if (hasNext) {
+            var showInNext = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_9__ChildrenUtils__["d" /* findShownChildInChildrenByKey */])(nextChildren, key, showProp);
+            if (!showInNext && showInNow) {
+              _this3.keysToLeave.push(key);
+            }
+          } else if (showInNow) {
+            _this3.keysToLeave.push(key);
+          }
+        } else if (!hasNext) {
+          _this3.keysToLeave.push(key);
+        }
+      });
+    }
+  }, {
+    key: 'componentDidUpdate',
+    value: function componentDidUpdate() {
+      var keysToEnter = this.keysToEnter;
+      this.keysToEnter = [];
+      keysToEnter.forEach(this.performEnter);
+      var keysToLeave = this.keysToLeave;
+      this.keysToLeave = [];
+      keysToLeave.forEach(this.performLeave);
+    }
+  }, {
+    key: 'isValidChildByKey',
+    value: function isValidChildByKey(currentChildren, key) {
+      var showProp = this.props.showProp;
+      if (showProp) {
+        return __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_9__ChildrenUtils__["d" /* findShownChildInChildrenByKey */])(currentChildren, key, showProp);
+      }
+      return __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_9__ChildrenUtils__["b" /* findChildInChildrenByKey */])(currentChildren, key);
+    }
+  }, {
+    key: 'stop',
+    value: function stop(key) {
+      delete this.currentlyAnimatingKeys[key];
+      var component = this.childrenRefs[key];
+      if (component) {
+        component.stop();
+      }
+    }
+  }, {
+    key: 'render',
+    value: function render() {
+      var _this4 = this;
+
+<<<<<<< HEAD
+>>>>>>> feat: add payment and delivery popups
+	var monitor = this.getMonitor();
+	var registry = this.getRegistry();
+	(0, _invariant2.default)(!monitor.isDragging(), 'Cannot call beginDrag while dragging.');
+=======
+      var props = this.props;
+      this.nextProps = props;
+      var stateChildren = this.state.children;
+      var children = null;
+      if (stateChildren) {
+        children = stateChildren.map(function (child) {
+          if (child === null || child === undefined) {
+            return child;
+          }
+          if (!child.key) {
+            throw new Error('must set key for <rc-animate> children');
+          }
+          return __WEBPACK_IMPORTED_MODULE_6_react___default.a.createElement(
+            __WEBPACK_IMPORTED_MODULE_10__AnimateChild__["a" /* default */],
+            {
+              key: child.key,
+              ref: function ref(node) {
+                _this4.childrenRefs[child.key] = node;
+              },
+              animation: props.animation,
+              transitionName: props.transitionName,
+              transitionEnter: props.transitionEnter,
+              transitionAppear: props.transitionAppear,
+              transitionLeave: props.transitionLeave
+            },
+            child
+          );
+        });
+      }
+      var Component = props.component;
+      if (Component) {
+        var passedProps = props;
+        if (typeof Component === 'string') {
+          passedProps = __WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_extends___default()({
+            className: props.className,
+            style: props.style
+          }, props.componentProps);
+        }
+        return __WEBPACK_IMPORTED_MODULE_6_react___default.a.createElement(
+          Component,
+          passedProps,
+          children
+        );
+      }
+      return children[0] || null;
+    }
+  }]);
+>>>>>>> fix: delivery and payment text and popup fixes
+
+  return Animate;
+}(__WEBPACK_IMPORTED_MODULE_6_react___default.a.Component);
+
+Animate.isAnimate = true;
+Animate.propTypes = {
+  className: __WEBPACK_IMPORTED_MODULE_7_prop_types___default.a.string,
+  style: __WEBPACK_IMPORTED_MODULE_7_prop_types___default.a.object,
+  component: __WEBPACK_IMPORTED_MODULE_7_prop_types___default.a.any,
+  componentProps: __WEBPACK_IMPORTED_MODULE_7_prop_types___default.a.object,
+  animation: __WEBPACK_IMPORTED_MODULE_7_prop_types___default.a.object,
+  transitionName: __WEBPACK_IMPORTED_MODULE_7_prop_types___default.a.oneOfType([__WEBPACK_IMPORTED_MODULE_7_prop_types___default.a.string, __WEBPACK_IMPORTED_MODULE_7_prop_types___default.a.object]),
+  transitionEnter: __WEBPACK_IMPORTED_MODULE_7_prop_types___default.a.bool,
+  transitionAppear: __WEBPACK_IMPORTED_MODULE_7_prop_types___default.a.bool,
+  exclusive: __WEBPACK_IMPORTED_MODULE_7_prop_types___default.a.bool,
+  transitionLeave: __WEBPACK_IMPORTED_MODULE_7_prop_types___default.a.bool,
+  onEnd: __WEBPACK_IMPORTED_MODULE_7_prop_types___default.a.func,
+  onEnter: __WEBPACK_IMPORTED_MODULE_7_prop_types___default.a.func,
+  onLeave: __WEBPACK_IMPORTED_MODULE_7_prop_types___default.a.func,
+  onAppear: __WEBPACK_IMPORTED_MODULE_7_prop_types___default.a.func,
+  showProp: __WEBPACK_IMPORTED_MODULE_7_prop_types___default.a.string,
+  children: __WEBPACK_IMPORTED_MODULE_7_prop_types___default.a.node
+};
+Animate.defaultProps = {
+  animation: {},
+  component: 'span',
+  componentProps: {},
+  transitionEnter: true,
+  transitionLeave: true,
+  transitionAppear: false,
+  onEnd: noop,
+  onEnter: noop,
+  onLeave: noop,
+  onAppear: noop
+};
+
+var _initialiseProps = function _initialiseProps() {
+  var _this5 = this;
+
+  this.performEnter = function (key) {
+    // may already remove by exclusive
+    if (_this5.childrenRefs[key]) {
+      _this5.currentlyAnimatingKeys[key] = true;
+      _this5.childrenRefs[key].componentWillEnter(_this5.handleDoneAdding.bind(_this5, key, 'enter'));
+    }
+  };
+
+  this.performAppear = function (key) {
+    if (_this5.childrenRefs[key]) {
+      _this5.currentlyAnimatingKeys[key] = true;
+      _this5.childrenRefs[key].componentWillAppear(_this5.handleDoneAdding.bind(_this5, key, 'appear'));
+    }
+  };
+
+  this.handleDoneAdding = function (key, type) {
+    var props = _this5.props;
+    delete _this5.currentlyAnimatingKeys[key];
+    // if update on exclusive mode, skip check
+    if (props.exclusive && props !== _this5.nextProps) {
+      return;
+    }
+    var currentChildren = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_9__ChildrenUtils__["a" /* toArrayChildren */])(getChildrenFromProps(props));
+    if (!_this5.isValidChildByKey(currentChildren, key)) {
+      // exclusive will not need this
+      _this5.performLeave(key);
+    } else if (type === 'appear') {
+      if (__WEBPACK_IMPORTED_MODULE_11__util_animate__["a" /* default */].allowAppearCallback(props)) {
+        props.onAppear(key);
+        props.onEnd(key, true);
+      }
+    } else if (__WEBPACK_IMPORTED_MODULE_11__util_animate__["a" /* default */].allowEnterCallback(props)) {
+      props.onEnter(key);
+      props.onEnd(key, true);
+    }
+  };
+
+  this.performLeave = function (key) {
+    // may already remove by exclusive
+    if (_this5.childrenRefs[key]) {
+      _this5.currentlyAnimatingKeys[key] = true;
+      _this5.childrenRefs[key].componentWillLeave(_this5.handleDoneLeaving.bind(_this5, key));
+    }
+  };
+
+  this.handleDoneLeaving = function (key) {
+    var props = _this5.props;
+    delete _this5.currentlyAnimatingKeys[key];
+    // if update on exclusive mode, skip check
+    if (props.exclusive && props !== _this5.nextProps) {
+      return;
+    }
+    var currentChildren = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_9__ChildrenUtils__["a" /* toArrayChildren */])(getChildrenFromProps(props));
+    // in case state change is too fast
+    if (_this5.isValidChildByKey(currentChildren, key)) {
+      _this5.performEnter(key);
+    } else {
+      var end = function end() {
+        if (__WEBPACK_IMPORTED_MODULE_11__util_animate__["a" /* default */].allowLeaveCallback(props)) {
+          props.onLeave(key);
+          props.onEnd(key, false);
+        }
+      };
+      if (!__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_9__ChildrenUtils__["e" /* isSameChildren */])(_this5.state.children, currentChildren, props.showProp)) {
+        _this5.setState({
+          children: currentChildren
+        }, end);
+      } else {
+        end();
+      }
+    }
+  };
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_8_rc_util_es_unsafeLifecyclesPolyfill__["a" /* default */])(Animate));
+
+/***/ }),
+/* 141 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _Dropdown = __webpack_require__(651);
+
+var _Dropdown2 = _interopRequireDefault(_Dropdown);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
+
+exports["default"] = _Dropdown2["default"];
+module.exports = exports['default'];
+
+/***/ }),
+/* 142 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.noop = noop;
+exports.getKeyFromChildrenIndex = getKeyFromChildrenIndex;
+exports.loopMenuItem = loopMenuItem;
+exports.loopMenuItemRecusively = loopMenuItemRecusively;
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
+
+function noop() {}
+
+function getKeyFromChildrenIndex(child, menuEventKey, index) {
+  var prefix = menuEventKey || '';
+  return child.key || prefix + 'item_' + index;
+}
+
+function loopMenuItem(children, cb) {
+  var index = -1;
+  _react2['default'].Children.forEach(children, function (c) {
+    index++;
+    if (c && c.type && c.type.isMenuItemGroup) {
+      _react2['default'].Children.forEach(c.props.children, function (c2) {
+        index++;
+        cb(c2, index);
+      });
+    } else {
+      cb(c, index);
+    }
+  });
+}
+
+function loopMenuItemRecusively(children, keys, ret) {
+  if (!children || ret.find) {
+    return;
+  }
+  _react2['default'].Children.forEach(children, function (c) {
+    if (ret.find) {
+      return;
+    }
+    if (c) {
+      var construt = c.type;
+      if (!construt || !(construt.isSubMenu || construt.isMenuItem || construt.isMenuItemGroup)) {
+        return;
+      }
+      if (keys.indexOf(c.key) !== -1) {
+        ret.find = true;
+      } else if (c.props.children) {
+        loopMenuItemRecusively(c.props.children, keys, ret);
+      }
+    }
+  });
+}
+
+/***/ }),
+<<<<<<< HEAD
+<<<<<<< HEAD
+/* 133 */
+=======
+/* 132 */
+>>>>>>> feat: add payment and delivery popups
+=======
+/* 143 */
+>>>>>>> fix: delivery and payment text and popup fixes
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+exports.default = void 0;
+
+/**
+ * @ignore
+ * some key-codes definition and utils from closure-library
+ * @author yiminghe@gmail.com
+ */
+var KeyCode = {
+  /**
+   * MAC_ENTER
+   */
+  MAC_ENTER: 3,
+
+  /**
+   * BACKSPACE
+   */
+  BACKSPACE: 8,
+
+  /**
+   * TAB
+   */
+  TAB: 9,
+
+  /**
+   * NUMLOCK on FF/Safari Mac
+   */
+  NUM_CENTER: 12,
+
+<<<<<<< HEAD
+/***/ }),
+<<<<<<< HEAD
+/* 134 */
+=======
+/* 133 */
+>>>>>>> feat: add payment and delivery popups
+/***/ (function(module, exports) {
+=======
+  /**
+   * ENTER
+   */
+  ENTER: 13,
+>>>>>>> fix: delivery and payment text and popup fixes
+
+  /**
+   * SHIFT
+   */
+  SHIFT: 16,
+
+  /**
+   * CTRL
+   */
+  CTRL: 17,
+
+  /**
+   * ALT
+   */
+  ALT: 18,
+
+<<<<<<< HEAD
+/***/ }),
+<<<<<<< HEAD
+/* 135 */
+=======
+/* 134 */
+>>>>>>> feat: add payment and delivery popups
+/***/ (function(module, exports) {
+=======
+  /**
+   * PAUSE
+   */
+  PAUSE: 19,
+>>>>>>> fix: delivery and payment text and popup fixes
+
+  /**
+   * CAPS_LOCK
+   */
+  CAPS_LOCK: 20,
+
+  /**
+   * ESC
+   */
+  ESC: 27,
+
+  /**
+   * SPACE
+   */
+  SPACE: 32,
+
+  /**
+   * PAGE_UP
+   */
+  PAGE_UP: 33,
+
+<<<<<<< HEAD
+/***/ }),
+<<<<<<< HEAD
+/* 136 */
+=======
+/* 135 */
+>>>>>>> feat: add payment and delivery popups
+/***/ (function(module, exports, __webpack_require__) {
+=======
+  /**
+   * PAGE_DOWN
+   */
+  PAGE_DOWN: 34,
+>>>>>>> fix: delivery and payment text and popup fixes
+
+  /**
+   * END
+   */
+  END: 35,
+
+  /**
+   * HOME
+   */
+  HOME: 36,
+
+  /**
+   * LEFT
+   */
+  LEFT: 37,
+
+  /**
+   * UP
+   */
+  UP: 38,
+
+<<<<<<< HEAD
+/***/ }),
+<<<<<<< HEAD
+/* 137 */
+=======
+/* 136 */
+>>>>>>> feat: add payment and delivery popups
+/***/ (function(module, exports, __webpack_require__) {
+=======
+  /**
+   * RIGHT
+   */
+  RIGHT: 39,
+>>>>>>> fix: delivery and payment text and popup fixes
+
+  /**
+   * DOWN
+   */
+  DOWN: 40,
+
+  /**
+   * PRINT_SCREEN
+   */
+  PRINT_SCREEN: 44,
+
+  /**
+   * INSERT
+   */
+  INSERT: 45,
+
+  /**
+   * DELETE
+   */
+  DELETE: 46,
+
+  /**
+   * ZERO
+   */
+  ZERO: 48,
+
+  /**
+   * ONE
+   */
+  ONE: 49,
+
+<<<<<<< HEAD
+/***/ }),
+<<<<<<< HEAD
+/* 138 */
+=======
+/* 137 */
+>>>>>>> feat: add payment and delivery popups
+/***/ (function(module, exports, __webpack_require__) {
+=======
+  /**
+   * TWO
+   */
+  TWO: 50,
+>>>>>>> fix: delivery and payment text and popup fixes
+
+  /**
+   * THREE
+   */
+  THREE: 51,
+
+  /**
+   * FOUR
+   */
+  FOUR: 52,
+
+  /**
+   * FIVE
+   */
+  FIVE: 53,
+
+  /**
+   * SIX
+   */
+  SIX: 54,
+
+  /**
+   * SEVEN
+   */
+  SEVEN: 55,
+
+  /**
+   * EIGHT
+   */
+  EIGHT: 56,
+
+  /**
+   * NINE
+   */
+  NINE: 57,
+
+  /**
+   * QUESTION_MARK
+   */
+  QUESTION_MARK: 63,
+
+  /**
+   * A
+   */
+  A: 65,
+
+  /**
+   * B
+   */
+  B: 66,
+
+  /**
+   * C
+   */
+  C: 67,
+
+  /**
+   * D
+   */
+  D: 68,
+
+  /**
+   * E
+   */
+  E: 69,
+
+  /**
+   * F
+   */
+  F: 70,
+
+  /**
+   * G
+   */
+  G: 71,
+
+  /**
+   * H
+   */
+  H: 72,
+
+  /**
+   * I
+   */
+  I: 73,
+
+<<<<<<< HEAD
 /***/ }),
 <<<<<<< HEAD
 /* 139 */
@@ -6426,64 +7302,145 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__ChildrenUtils__ = __webpack_require__(640);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__AnimateChild__ = __webpack_require__(639);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__util_animate__ = __webpack_require__(377);
+=======
+  /**
+   * J
+   */
+  J: 74,
 
+  /**
+   * K
+   */
+  K: 75,
+>>>>>>> fix: delivery and payment text and popup fixes
 
+  /**
+   * L
+   */
+  L: 76,
 
+  /**
+   * M
+   */
+  M: 77,
 
+<<<<<<< HEAD
+=======
+  /**
+   * N
+   */
+  N: 78,
+>>>>>>> fix: delivery and payment text and popup fixes
 
+  /**
+   * O
+   */
+  O: 79,
 
+  /**
+   * P
+   */
+  P: 80,
 
+  /**
+   * Q
+   */
+  Q: 81,
 
+  /**
+   * R
+   */
+  R: 82,
 
+  /**
+   * S
+   */
+  S: 83,
 
+  /**
+   * T
+   */
+  T: 84,
 
+  /**
+   * U
+   */
+  U: 85,
 
+<<<<<<< HEAD
+=======
+  /**
+   * V
+   */
+  V: 86,
+>>>>>>> fix: delivery and payment text and popup fixes
 
-var defaultKey = 'rc_animate_' + Date.now();
+  /**
+   * W
+   */
+  W: 87,
 
-function getChildrenFromProps(props) {
-  var children = props.children;
-  if (__WEBPACK_IMPORTED_MODULE_6_react___default.a.isValidElement(children)) {
-    if (!children.key) {
-      return __WEBPACK_IMPORTED_MODULE_6_react___default.a.cloneElement(children, {
-        key: defaultKey
-      });
-    }
-  }
-  return children;
-}
+  /**
+   * X
+   */
+  X: 88,
 
-function noop() {}
+  /**
+   * Y
+   */
+  Y: 89,
 
-var Animate = function (_React$Component) {
-  __WEBPACK_IMPORTED_MODULE_5_babel_runtime_helpers_inherits___default()(Animate, _React$Component);
+  /**
+   * Z
+   */
+  Z: 90,
 
-  // eslint-disable-line
+  /**
+   * META
+   */
+  META: 91,
 
-  function Animate(props) {
-    __WEBPACK_IMPORTED_MODULE_2_babel_runtime_helpers_classCallCheck___default()(this, Animate);
+  /**
+   * WIN_KEY_RIGHT
+   */
+  WIN_KEY_RIGHT: 92,
 
-    var _this = __WEBPACK_IMPORTED_MODULE_4_babel_runtime_helpers_possibleConstructorReturn___default()(this, (Animate.__proto__ || Object.getPrototypeOf(Animate)).call(this, props));
+  /**
+   * CONTEXT_MENU
+   */
+  CONTEXT_MENU: 93,
 
-    _initialiseProps.call(_this);
+  /**
+   * NUM_ZERO
+   */
+  NUM_ZERO: 96,
 
-    _this.currentlyAnimatingKeys = {};
-    _this.keysToEnter = [];
-    _this.keysToLeave = [];
+  /**
+   * NUM_ONE
+   */
+  NUM_ONE: 97,
 
-    _this.state = {
-      children: __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_9__ChildrenUtils__["a" /* toArrayChildren */])(getChildrenFromProps(props))
-    };
+  /**
+   * NUM_TWO
+   */
+  NUM_TWO: 98,
 
-    _this.childrenRefs = {};
-    return _this;
-  }
+  /**
+   * NUM_THREE
+   */
+  NUM_THREE: 99,
 
-  __WEBPACK_IMPORTED_MODULE_3_babel_runtime_helpers_createClass___default()(Animate, [{
-    key: 'componentDidMount',
-    value: function componentDidMount() {
-      var _this2 = this;
+  /**
+   * NUM_FOUR
+   */
+  NUM_FOUR: 100,
 
+  /**
+   * NUM_FIVE
+   */
+  NUM_FIVE: 101,
+
+<<<<<<< HEAD
       var showProp = this.props.showProp;
       var children = this.state.children;
       if (showProp) {
@@ -6978,89 +7935,97 @@ exports.default = void 0;
  * @author yiminghe@gmail.com
  */
 var KeyCode = {
+=======
   /**
-   * MAC_ENTER
+   * NUM_SIX
    */
-  MAC_ENTER: 3,
+  NUM_SIX: 102,
+
+>>>>>>> fix: delivery and payment text and popup fixes
+  /**
+   * NUM_SEVEN
+   */
+  NUM_SEVEN: 103,
 
   /**
-   * BACKSPACE
+   * NUM_EIGHT
    */
-  BACKSPACE: 8,
+  NUM_EIGHT: 104,
 
   /**
-   * TAB
+   * NUM_NINE
    */
-  TAB: 9,
+  NUM_NINE: 105,
 
   /**
-   * NUMLOCK on FF/Safari Mac
+   * NUM_MULTIPLY
    */
-  NUM_CENTER: 12,
+  NUM_MULTIPLY: 106,
 
   /**
-   * ENTER
+   * NUM_PLUS
    */
-  ENTER: 13,
+  NUM_PLUS: 107,
 
   /**
-   * SHIFT
+   * NUM_MINUS
    */
-  SHIFT: 16,
+  NUM_MINUS: 109,
 
   /**
-   * CTRL
+   * NUM_PERIOD
    */
-  CTRL: 17,
+  NUM_PERIOD: 110,
 
   /**
-   * ALT
+   * NUM_DIVISION
    */
-  ALT: 18,
+  NUM_DIVISION: 111,
 
   /**
-   * PAUSE
+   * F1
    */
-  PAUSE: 19,
+  F1: 112,
 
   /**
-   * CAPS_LOCK
+   * F2
    */
-  CAPS_LOCK: 20,
+  F2: 113,
 
   /**
-   * ESC
+   * F3
    */
-  ESC: 27,
+  F3: 114,
 
   /**
-   * SPACE
+   * F4
    */
-  SPACE: 32,
+  F4: 115,
 
   /**
-   * PAGE_UP
+   * F5
    */
-  PAGE_UP: 33,
+  F5: 116,
 
   /**
-   * PAGE_DOWN
+   * F6
    */
-  PAGE_DOWN: 34,
+  F6: 117,
 
   /**
-   * END
+   * F7
    */
-  END: 35,
+  F7: 118,
 
   /**
-   * HOME
+   * F8
    */
-  HOME: 36,
+  F8: 119,
 
   /**
-   * LEFT
+   * F9
    */
+<<<<<<< HEAD
   LEFT: 37,
 =======
       nextChildren.forEach(function (child) {
@@ -7324,26 +8289,30 @@ module.exports = exports['default'];
 /* 140 */
 /***/ (function(module, exports, __webpack_require__) {
 >>>>>>> feat: add payment and delivery popups
+=======
+  F9: 120,
+>>>>>>> fix: delivery and payment text and popup fixes
 
   /**
-   * UP
+   * F10
    */
-  UP: 38,
+  F10: 121,
 
   /**
-   * RIGHT
+   * F11
    */
-  RIGHT: 39,
+  F11: 122,
 
 <<<<<<< HEAD
   /**
-   * DOWN
+   * F12
    */
-  DOWN: 40,
+  F12: 123,
 
   /**
-   * PRINT_SCREEN
+   * NUMLOCK
    */
+<<<<<<< HEAD
   PRINT_SCREEN: 44,
 =======
 Object.defineProperty(exports, "__esModule", {
@@ -7408,66 +8377,74 @@ function loopMenuItemRecusively(children, keys, ret) {
 /* 141 */
 /***/ (function(module, exports, __webpack_require__) {
 >>>>>>> feat: add payment and delivery popups
+=======
+  NUMLOCK: 144,
+>>>>>>> fix: delivery and payment text and popup fixes
 
   /**
-   * INSERT
+   * SEMICOLON
    */
-  INSERT: 45,
+  SEMICOLON: 186,
 
   /**
-   * DELETE
+   * DASH
    */
-  DELETE: 46,
+  DASH: 189,
 
 <<<<<<< HEAD
   /**
-   * ZERO
+   * EQUALS
    */
-  ZERO: 48,
+  EQUALS: 187,
 
   /**
-   * ONE
+   * COMMA
    */
-  ONE: 49,
+  COMMA: 188,
 
   /**
-   * TWO
+   * PERIOD
    */
-  TWO: 50,
+  PERIOD: 190,
 
   /**
-   * THREE
+   * SLASH
    */
-  THREE: 51,
+  SLASH: 191,
 
   /**
-   * FOUR
+   * APOSTROPHE
    */
-  FOUR: 52,
+  APOSTROPHE: 192,
 
   /**
-   * FIVE
+   * SINGLE_QUOTE
    */
+<<<<<<< HEAD
   FIVE: 53,
 
   /**
    * SIX
    */
   SIX: 54,
+=======
+  SINGLE_QUOTE: 222,
+>>>>>>> fix: delivery and payment text and popup fixes
 
   /**
-   * SEVEN
+   * OPEN_SQUARE_BRACKET
    */
-  SEVEN: 55,
+  OPEN_SQUARE_BRACKET: 219,
 
   /**
-   * EIGHT
+   * BACKSLASH
    */
-  EIGHT: 56,
+  BACKSLASH: 220,
 
   /**
-   * NINE
+   * CLOSE_SQUARE_BRACKET
    */
+<<<<<<< HEAD
   NINE: 57,
 
   /**
@@ -7644,6 +8621,14 @@ function loopMenuItemRecusively(children, keys, ret) {
    * NUM_FOUR
    */
   NUM_FOUR: 100,
+=======
+  CLOSE_SQUARE_BRACKET: 221,
+
+  /**
+   * WIN_KEY
+   */
+  WIN_KEY: 224,
+>>>>>>> fix: delivery and payment text and popup fixes
 
   /**
    * NUM_FIVE
@@ -7651,9 +8636,16 @@ function loopMenuItemRecusively(children, keys, ret) {
   NUM_FIVE: 101,
 
   /**
+<<<<<<< HEAD
    * NUM_SIX
    */
   NUM_SIX: 102,
+=======
+   * WIN_IME
+   */
+  WIN_IME: 229,
+  // ======================== Function ========================
+>>>>>>> fix: delivery and payment text and popup fixes
 
   /**
    * NUM_SEVEN
@@ -7675,10 +8667,17 @@ function loopMenuItemRecusively(children, keys, ret) {
    */
   NUM_MULTIPLY: 106,
 
+<<<<<<< HEAD
   /**
    * NUM_PLUS
    */
   NUM_PLUS: 107,
+=======
+      default:
+        return true;
+    }
+  },
+>>>>>>> fix: delivery and payment text and popup fixes
 
   /**
    * NUM_MINUS
@@ -7925,7 +8924,11 @@ var _default = KeyCode;
 exports.default = _default;
 
 /***/ }),
+<<<<<<< HEAD
 /* 143 */
+=======
+/* 144 */
+>>>>>>> fix: delivery and payment text and popup fixes
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -7949,7 +8952,11 @@ function checkDecoratorArguments(functionName, signature) {
 }
 
 /***/ }),
+<<<<<<< HEAD
 /* 144 */
+=======
+/* 145 */
+>>>>>>> fix: delivery and payment text and popup fixes
 /***/ (function(module, exports, __webpack_require__) {
 =======
 Object.defineProperty(exports, "__esModule", {
@@ -7968,10 +8975,20 @@ var KeyCode = {
    */
   MAC_ENTER: 3,
 
+<<<<<<< HEAD
   /**
    * BACKSPACE
    */
   BACKSPACE: 8,
+=======
+var utils = __webpack_require__(15);
+var settle = __webpack_require__(233);
+var buildURL = __webpack_require__(236);
+var parseHeaders = __webpack_require__(242);
+var isURLSameOrigin = __webpack_require__(240);
+var createError = __webpack_require__(148);
+var btoa = (typeof window !== 'undefined' && window.btoa && window.btoa.bind(window)) || __webpack_require__(235);
+>>>>>>> fix: delivery and payment text and popup fixes
 
   /**
    * TAB
@@ -8008,10 +9025,18 @@ var KeyCode = {
    */
   PAUSE: 19,
 
+<<<<<<< HEAD
   /**
    * CAPS_LOCK
    */
   CAPS_LOCK: 20,
+=======
+    // Listen for ready state
+    request[loadEvent] = function handleLoad() {
+      if (!request || (request.readyState !== 4 && !xDomain)) {
+        return;
+      }
+>>>>>>> fix: delivery and payment text and popup fixes
 
   /**
    * ESC
@@ -8028,10 +9053,16 @@ var KeyCode = {
    */
   PAGE_UP: 33,
 
+<<<<<<< HEAD
   /**
    * PAGE_DOWN
    */
   PAGE_DOWN: 34,
+=======
+      // Clean up request
+      request = null;
+    };
+>>>>>>> fix: delivery and payment text and popup fixes
 
   /**
    * END
@@ -8058,10 +9089,17 @@ var KeyCode = {
    */
   RIGHT: 39,
 
+<<<<<<< HEAD
   /**
    * DOWN
    */
   DOWN: 40,
+=======
+      // Add xsrf header
+      var xsrfValue = (config.withCredentials || isURLSameOrigin(config.url)) && config.xsrfCookieName ?
+          cookies.read(config.xsrfCookieName) :
+          undefined;
+>>>>>>> fix: delivery and payment text and popup fixes
 
   /**
    * PRINT_SCREEN
@@ -8118,10 +9156,16 @@ var KeyCode = {
    */
   SEVEN: 55,
 
+<<<<<<< HEAD
   /**
    * EIGHT
    */
   EIGHT: 56,
+=======
+/***/ }),
+/* 146 */
+/***/ (function(module, exports, __webpack_require__) {
+>>>>>>> fix: delivery and payment text and popup fixes
 
   /**
    * NINE
@@ -8153,10 +9197,16 @@ var KeyCode = {
    */
   D: 68,
 
+<<<<<<< HEAD
   /**
    * E
    */
   E: 69,
+=======
+/***/ }),
+/* 147 */
+/***/ (function(module, exports, __webpack_require__) {
+>>>>>>> fix: delivery and payment text and popup fixes
 
   /**
    * F
@@ -8178,6 +9228,7 @@ var KeyCode = {
    */
   I: 73,
 
+<<<<<<< HEAD
   /**
    * J
    */
@@ -8187,6 +9238,14 @@ var KeyCode = {
    * K
    */
   K: 75,
+=======
+/***/ }),
+/* 148 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+>>>>>>> fix: delivery and payment text and popup fixes
 
   /**
    * L
@@ -8203,10 +9262,16 @@ var KeyCode = {
    */
   N: 78,
 
+<<<<<<< HEAD
   /**
    * O
    */
   O: 79,
+=======
+/***/ }),
+/* 149 */
+/***/ (function(module, exports, __webpack_require__) {
+>>>>>>> fix: delivery and payment text and popup fixes
 
   /**
    * P
@@ -8228,6 +9293,7 @@ var KeyCode = {
    */
   S: 83,
 
+<<<<<<< HEAD
   /**
    * T
    */
@@ -8407,6 +9473,18 @@ var KeyCode = {
    * F11
    */
   F11: 122,
+=======
+/***/ }),
+/* 150 */,
+/* 151 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = { "default": __webpack_require__(269), __esModule: true };
+
+/***/ }),
+/* 152 */
+/***/ (function(module, exports, __webpack_require__) {
+>>>>>>> fix: delivery and payment text and popup fixes
 
   /**
    * F12
@@ -8418,6 +9496,7 @@ var KeyCode = {
    */
   NUMLOCK: 144,
 
+<<<<<<< HEAD
   /**
    * SEMICOLON
    */
@@ -8427,12 +9506,22 @@ var KeyCode = {
    * DASH
    */
   DASH: 189,
+=======
+/***/ }),
+/* 153 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = !__webpack_require__(27) && !__webpack_require__(46)(function () {
+  return Object.defineProperty(__webpack_require__(152)('div'), 'a', { get: function () { return 7; } }).a != 7;
+});
+>>>>>>> fix: delivery and payment text and popup fixes
 
   /**
    * EQUALS
    */
   EQUALS: 187,
 
+<<<<<<< HEAD
   /**
    * COMMA
    */
@@ -8442,6 +9531,18 @@ var KeyCode = {
    * PERIOD
    */
   PERIOD: 190,
+=======
+/***/ }),
+/* 154 */
+/***/ (function(module, exports, __webpack_require__) {
+
+// fallback for non-array-like ES3 and non-enumerable old V8 strings
+var cof = __webpack_require__(118);
+// eslint-disable-next-line no-prototype-builtins
+module.exports = Object('z').propertyIsEnumerable(0) ? Object : function (it) {
+  return cof(it) == 'String' ? it.split('') : Object(it);
+};
+>>>>>>> fix: delivery and payment text and popup fixes
 
   /**
    * SLASH
@@ -8449,13 +9550,20 @@ var KeyCode = {
   SLASH: 191,
 >>>>>>> feat: add payment and delivery popups
 
+<<<<<<< HEAD
   /**
    * APOSTROPHE
    */
   APOSTROPHE: 192,
+=======
+/***/ }),
+/* 155 */
+/***/ (function(module, exports, __webpack_require__) {
+>>>>>>> fix: delivery and payment text and popup fixes
 
 <<<<<<< HEAD
 
+<<<<<<< HEAD
 var utils = __webpack_require__(15);
 var settle = __webpack_require__(231);
 var buildURL = __webpack_require__(234);
@@ -8463,6 +9571,21 @@ var parseHeaders = __webpack_require__(240);
 var isURLSameOrigin = __webpack_require__(238);
 var createError = __webpack_require__(147);
 var btoa = (typeof window !== 'undefined' && window.btoa && window.btoa.bind(window)) || __webpack_require__(233);
+=======
+var LIBRARY = __webpack_require__(65);
+var $export = __webpack_require__(30);
+var redefine = __webpack_require__(160);
+var hide = __webpack_require__(47);
+var Iterators = __webpack_require__(56);
+var $iterCreate = __webpack_require__(282);
+var setToStringTag = __webpack_require__(95);
+var getPrototypeOf = __webpack_require__(158);
+var ITERATOR = __webpack_require__(22)('iterator');
+var BUGGY = !([].keys && 'next' in [].keys()); // Safari has buggy iterators w/o `next`
+var FF_ITERATOR = '@@iterator';
+var KEYS = 'keys';
+var VALUES = 'values';
+>>>>>>> fix: delivery and payment text and popup fixes
 
 module.exports = function xhrAdapter(config) {
   return new Promise(function dispatchXhrRequest(resolve, reject) {
@@ -8831,15 +9954,20 @@ module.exports = function (Base, NAME, Constructor, next, DEFAULT, IS_SET, FORCE
 
 
 /***/ }),
-/* 155 */
+/* 156 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var pIE = __webpack_require__(66);
 var createDesc = __webpack_require__(60);
 var toIObject = __webpack_require__(48);
 var toPrimitive = __webpack_require__(99);
+<<<<<<< HEAD
 var has = __webpack_require__(33);
 var IE8_DOM_DEFINE = __webpack_require__(152);
+=======
+var has = __webpack_require__(34);
+var IE8_DOM_DEFINE = __webpack_require__(153);
+>>>>>>> fix: delivery and payment text and popup fixes
 var gOPD = Object.getOwnPropertyDescriptor;
 
 exports.f = __webpack_require__(27) ? gOPD : function getOwnPropertyDescriptor(O, P) {
@@ -8853,11 +9981,11 @@ exports.f = __webpack_require__(27) ? gOPD : function getOwnPropertyDescriptor(O
 
 
 /***/ }),
-/* 156 */
+/* 157 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // 19.1.2.7 / 15.2.3.4 Object.getOwnPropertyNames(O)
-var $keys = __webpack_require__(158);
+var $keys = __webpack_require__(159);
 var hiddenKeys = __webpack_require__(92).concat('length', 'prototype');
 
 exports.f = Object.getOwnPropertyNames || function getOwnPropertyNames(O) {
@@ -8866,7 +9994,7 @@ exports.f = Object.getOwnPropertyNames || function getOwnPropertyNames(O) {
 
 
 /***/ }),
-/* 157 */
+/* 158 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // 19.1.2.9 / 15.2.3.2 Object.getPrototypeOf(O)
@@ -8885,12 +10013,18 @@ module.exports = Object.getPrototypeOf || function (O) {
 
 
 /***/ }),
-/* 158 */
+/* 159 */
 /***/ (function(module, exports, __webpack_require__) {
 
+<<<<<<< HEAD
 var has = __webpack_require__(33);
 var toIObject = __webpack_require__(48);
 var arrayIndexOf = __webpack_require__(276)(false);
+=======
+var has = __webpack_require__(34);
+var toIObject = __webpack_require__(48);
+var arrayIndexOf = __webpack_require__(277)(false);
+>>>>>>> fix: delivery and payment text and popup fixes
 var IE_PROTO = __webpack_require__(96)('IE_PROTO');
 
 module.exports = function (object, names) {
@@ -8908,17 +10042,17 @@ module.exports = function (object, names) {
 
 
 /***/ }),
-/* 159 */
+/* 160 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__(47);
 
 
 /***/ }),
-/* 160 */,
 /* 161 */,
 /* 162 */,
-/* 163 */
+/* 163 */,
+/* 164 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var SetCache = __webpack_require__(109),
@@ -8973,6 +10107,12 @@ var SetCache = __webpack_require__(109),
     } // The following keys are quite harmless, even in combination with
     // CTRL, ALT or SHIFT.
 
+<<<<<<< HEAD
+=======
+/***/ }),
+/* 165 */
+/***/ (function(module, exports, __webpack_require__) {
+>>>>>>> fix: delivery and payment text and popup fixes
 
     switch (keyCode) {
       case KeyCode.ALT:
@@ -9013,9 +10153,15 @@ var SetCache = __webpack_require__(109),
       return true;
     }
 
+<<<<<<< HEAD
     if (keyCode >= KeyCode.NUM_ZERO && keyCode <= KeyCode.NUM_MULTIPLY) {
       return true;
     }
+=======
+/***/ }),
+/* 166 */
+/***/ (function(module, exports) {
+>>>>>>> fix: delivery and payment text and popup fixes
 
     if (keyCode >= KeyCode.A && keyCode <= KeyCode.Z) {
       return true;
@@ -9221,9 +10367,10 @@ module.exports = function xhrAdapter(config) {
 
 <<<<<<< HEAD
 /***/ }),
-/* 166 */
+/* 167 */
 /***/ (function(module, exports, __webpack_require__) {
 
+<<<<<<< HEAD
 /* WEBPACK VAR INJECTION */(function(module) {var root = __webpack_require__(19),
 <<<<<<< HEAD
     stubFalse = __webpack_require__(372);
@@ -9233,6 +10380,9 @@ module.exports = function xhrAdapter(config) {
           cookies.read(config.xsrfCookieName) :
           undefined;
 =======
+=======
+/* WEBPACK VAR INJECTION */(function(module) {var root = __webpack_require__(20),
+>>>>>>> fix: delivery and payment text and popup fixes
     stubFalse = __webpack_require__(373);
 >>>>>>> feat: tiger popups redesign
 
@@ -9308,7 +10458,7 @@ module.exports = function xhrAdapter(config) {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(114)(module)))
 
 /***/ }),
-/* 167 */
+/* 168 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var baseGetTag = __webpack_require__(53),
@@ -9344,7 +10494,11 @@ module.exports = Cancel;
 
 /***/ }),
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* 168 */
+=======
+/* 169 */
+>>>>>>> fix: delivery and payment text and popup fixes
 /***/ (function(module, exports) {
 =======
 /* 145 */
@@ -9361,6 +10515,7 @@ module.exports = function isCancel(value) {
 
 /***/ }),
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* 169 */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -9372,6 +10527,14 @@ var baseIsTypedArray = __webpack_require__(325),
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
+=======
+/* 170 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var baseIsTypedArray = __webpack_require__(326),
+    baseUnary = __webpack_require__(135),
+    nodeUtil = __webpack_require__(357);
+>>>>>>> fix: delivery and payment text and popup fixes
 
 >>>>>>> feat: add payment and delivery popups
 
@@ -9394,7 +10557,11 @@ module.exports = function createError(message, config, code, response) {
 
 /***/ }),
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* 170 */
+=======
+/* 171 */
+>>>>>>> fix: delivery and payment text and popup fixes
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -9432,12 +10599,16 @@ __WEBPACK_IMPORTED_MODULE_0__Select__["a" /* default */].OptGroup = __WEBPACK_IM
 /* harmony default export */ __webpack_exports__["default"] = (__WEBPACK_IMPORTED_MODULE_0__Select__["a" /* default */]);
 
 /***/ }),
+<<<<<<< HEAD
 /* 171 */
 =======
 
 /***/ }),
 /* 148 */
 >>>>>>> feat: add payment and delivery popups
+=======
+/* 172 */
+>>>>>>> fix: delivery and payment text and popup fixes
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -9462,10 +10633,14 @@ var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
 var _createClass2 = __webpack_require__(5);
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 var _rcSelect = __webpack_require__(170);
 =======
 var _createClass3 = _interopRequireDefault(_createClass2);
 >>>>>>> feat: add payment and delivery popups
+=======
+var _rcSelect = __webpack_require__(171);
+>>>>>>> fix: delivery and payment text and popup fixes
 
 var _possibleConstructorReturn2 = __webpack_require__(3);
 
@@ -9497,7 +10672,7 @@ var _rcDropdown2 = _interopRequireDefault(_rcDropdown);
 
 <<<<<<< HEAD
 /***/ }),
-/* 172 */
+/* 173 */
 /***/ (function(module, exports, __webpack_require__) {
 =======
 var _isEqual2 = __webpack_require__(12);
@@ -9540,6 +10715,7 @@ __webpack_require__(594);
     }
 >>>>>>> feat: add payment and delivery popups
 
+<<<<<<< HEAD
     return _ret = (_temp = (_this = (0, _possibleConstructorReturn3.default)(this, (_ref = DropDownMenu.__proto__ || (0, _getPrototypeOf2.default)(DropDownMenu)).call.apply(_ref, [this].concat(args))), _this), _this.state = {
       visible: false
     }, _this.close = function () {
@@ -9636,6 +10812,53 @@ exports.default = DropDownMenu;
 /***/ }),
 <<<<<<< HEAD
 /* 173 */
+=======
+var ProgressCircle = function ProgressCircle(props) {
+  return _react2.default.createElement(
+    'div',
+    { className: b.mix(props.mix) },
+    _react2.default.createElement(
+      'div',
+      { className: b('box') },
+      _react2.default.createElement(_rcProgress.Circle, {
+        percent: props.percent,
+        strokeWidth: '10',
+        strokeLinecap: 'square',
+        strokeColor: '#e0e0e0'
+      })
+    ),
+    _react2.default.createElement(
+      'div',
+      { className: b('text') },
+      _react2.default.createElement(
+        'b',
+        null,
+        props.percent
+      ),
+      ' ',
+      _react2.default.createElement(
+        'span',
+        { className: b('sumbol') },
+        '%'
+      )
+    )
+  );
+};
+
+ProgressCircle.propTypes = {
+  mix: _propTypes2.default.string,
+  percent: _propTypes2.default.number
+};
+
+ProgressCircle.defaultProps = {
+  mix: ''
+};
+
+exports.default = ProgressCircle;
+
+/***/ }),
+/* 174 */
+>>>>>>> fix: delivery and payment text and popup fixes
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -9953,7 +11176,7 @@ module.exports = Object.getPrototypeOf || function (O) {
 
 // fallback for IE11 buggy Object.getOwnPropertyNames with iframe and window
 var toIObject = __webpack_require__(48);
-var gOPN = __webpack_require__(156).f;
+var gOPN = __webpack_require__(157).f;
 var toString = {}.toString;
 
 var windowNames = typeof window == 'object' && window && Object.getOwnPropertyNames
@@ -10009,8 +11232,11 @@ module.exports = function (it) {
 
 /***/ }),
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* 183 */,
 /* 184 */,
+=======
+>>>>>>> fix: delivery and payment text and popup fixes
 /* 185 */,
 /* 186 */,
 /* 187 */,
@@ -10020,7 +11246,13 @@ module.exports = function (it) {
 /* 191 */,
 /* 192 */,
 /* 193 */,
+<<<<<<< HEAD
 /* 194 */
+=======
+/* 194 */,
+/* 195 */,
+/* 196 */
+>>>>>>> fix: delivery and payment text and popup fixes
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -10051,6 +11283,7 @@ module.exports = __webpack_require__(47);
 /* 196 */
 /***/ (function(module, exports, __webpack_require__) {
 
+<<<<<<< HEAD
 "use strict";
 <<<<<<< HEAD
 =======
@@ -10131,6 +11364,10 @@ module.exports = hoistNonReactStatics;
 var getNative = __webpack_require__(40),
     root = __webpack_require__(19);
 >>>>>>> feat: tiger popups redesign
+=======
+var getNative = __webpack_require__(40),
+    root = __webpack_require__(20);
+>>>>>>> fix: delivery and payment text and popup fixes
 
 
 /**
@@ -10168,7 +11405,7 @@ var getPrototypeOf = Object.getPrototypeOf;
 var objectPrototype = getPrototypeOf && getPrototypeOf(Object);
 =======
 /***/ }),
-/* 200 */
+/* 199 */
 /***/ (function(module, exports) {
 >>>>>>> feat: tiger popups redesign
 
@@ -10200,7 +11437,7 @@ function hoistNonReactStatics(targetComponent, sourceComponent, blacklist) {
         }
 =======
 /***/ }),
-/* 201 */
+/* 200 */
 /***/ (function(module, exports, __webpack_require__) {
 >>>>>>> feat: tiger popups redesign
 
@@ -10228,7 +11465,7 @@ var COMPARE_PARTIAL_FLAG = 1,
     COMPARE_UNORDERED_FLAG = 2;
 =======
 /***/ }),
-/* 202 */
+/* 201 */
 /***/ (function(module, exports) {
 >>>>>>> feat: tiger popups redesign
 
@@ -10263,8 +11500,18 @@ function equalArrays(array, other, bitmask, customizer, equalFunc, stack) {
       result = true,
       seen = (bitmask & COMPARE_UNORDERED_FLAG) ? new SetCache : undefined;
 
+<<<<<<< HEAD
   stack.set(array, other);
   stack.set(other, array);
+=======
+  while (++index < length) {
+    if (comparator(value, array[index])) {
+      return true;
+    }
+  }
+  return false;
+}
+>>>>>>> fix: delivery and payment text and popup fixes
 
   // Ignore non-index properties.
   while (++index < arrLength) {
@@ -10323,19 +11570,29 @@ module.exports = freeGlobal;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(72)))
 
 /***/ }),
+<<<<<<< HEAD
 /* 165 */
 /***/ (function(module, exports) {
 =======
 /* 203 */
+=======
+/* 202 */
+>>>>>>> fix: delivery and payment text and popup fixes
 /***/ (function(module, exports, __webpack_require__) {
 
 var baseTimes = __webpack_require__(328),
-    isArguments = __webpack_require__(210),
+    isArguments = __webpack_require__(209),
     isArray = __webpack_require__(36),
+<<<<<<< HEAD
     isBuffer = __webpack_require__(166),
     isIndex = __webpack_require__(206),
     isTypedArray = __webpack_require__(169);
 >>>>>>> feat: tiger popups redesign
+=======
+    isBuffer = __webpack_require__(167),
+    isIndex = __webpack_require__(205),
+    isTypedArray = __webpack_require__(170);
+>>>>>>> fix: delivery and payment text and popup fixes
 
 /** Used for built-in method references. */
 var funcProto = Function.prototype;
@@ -10368,10 +11625,14 @@ module.exports = toSource;
 
 /***/ }),
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* 166 */
 /***/ (function(module, exports, __webpack_require__) {
 =======
 /* 204 */
+=======
+/* 203 */
+>>>>>>> fix: delivery and payment text and popup fixes
 /***/ (function(module, exports) {
 >>>>>>> feat: tiger popups redesign
 
@@ -10400,7 +11661,7 @@ var Buffer = moduleExports ? root.Buffer : undefined;
 var nativeIsBuffer = Buffer ? Buffer.isBuffer : undefined;
 =======
 /***/ }),
-/* 205 */
+/* 204 */
 /***/ (function(module, exports) {
 >>>>>>> feat: tiger popups redesign
 
@@ -10476,10 +11737,14 @@ module.exports = isFunction;
 
 /***/ }),
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* 168 */
 =======
 /* 206 */
 >>>>>>> feat: tiger popups redesign
+=======
+/* 205 */
+>>>>>>> fix: delivery and payment text and popup fixes
 /***/ (function(module, exports) {
 
 /** Used as references for various `Number` constants. */
@@ -10521,6 +11786,7 @@ module.exports = isLength;
 
 /***/ }),
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* 169 */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -10533,6 +11799,9 @@ var baseTimes = __webpack_require__(327),
     isTypedArray = __webpack_require__(169);
 =======
 /* 207 */
+=======
+/* 206 */
+>>>>>>> fix: delivery and payment text and popup fixes
 /***/ (function(module, exports) {
 >>>>>>> feat: tiger popups redesign
 
@@ -10593,6 +11862,7 @@ __WEBPACK_IMPORTED_MODULE_0__Select__["a" /* default */].OptGroup = __WEBPACK_IM
 
 /***/ }),
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* 171 */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -10608,6 +11878,9 @@ var _extends2 = __webpack_require__(9);
 var _extends3 = _interopRequireDefault(_extends2);
 =======
 /* 208 */
+=======
+/* 207 */
+>>>>>>> fix: delivery and payment text and popup fixes
 /***/ (function(module, exports) {
 >>>>>>> feat: tiger popups redesign
 
@@ -10681,10 +11954,14 @@ exports.default = Select;
 
 /***/ }),
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* 172 */
 =======
 /* 209 */
 >>>>>>> feat: tiger popups redesign
+=======
+/* 208 */
+>>>>>>> fix: delivery and payment text and popup fixes
 /***/ (function(module, exports, __webpack_require__) {
 
 <<<<<<< HEAD
@@ -10894,10 +12171,14 @@ exports.default = ProgressCircle;
 
 /***/ }),
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* 173 */
 =======
 /* 210 */
 >>>>>>> feat: tiger popups redesign
+=======
+/* 209 */
+>>>>>>> fix: delivery and payment text and popup fixes
 /***/ (function(module, exports, __webpack_require__) {
 
 <<<<<<< HEAD
@@ -10949,10 +12230,14 @@ var continueSave = exports.continueSave = function continueSave(payload) {
 /***/ }),
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* 209 */
 =======
 /* 211 */
 >>>>>>> feat: tiger popups redesign
+=======
+/* 210 */
+>>>>>>> fix: delivery and payment text and popup fixes
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 =======
 /* 174 */
@@ -11189,10 +12474,14 @@ function defaultFilterFn(input, child) {
 
 /***/ }),
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* 210 */
 =======
 /* 212 */
 >>>>>>> feat: tiger popups redesign
+=======
+/* 211 */
+>>>>>>> fix: delivery and payment text and popup fixes
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -11832,10 +13121,14 @@ var Trigger = __WEBPACK_IMPORTED_MODULE_4_create_react_class___default()({
 
 /***/ }),
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* 211 */
 =======
 /* 213 */
 >>>>>>> feat: tiger popups redesign
+=======
+/* 212 */
+>>>>>>> fix: delivery and payment text and popup fixes
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11850,10 +13143,14 @@ var TEXT = exports.TEXT = '__NATIVE_TEXT__';
 
 /***/ }),
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* 212 */
 =======
 /* 214 */
 >>>>>>> feat: tiger popups redesign
+=======
+/* 213 */
+>>>>>>> fix: delivery and payment text and popup fixes
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -11895,8 +13192,86 @@ function shallowEqual(objA, objB) {
 
 /***/ }),
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* 213 */
 =======
+=======
+/* 214 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+/**
+ * Copyright 2015, Yahoo! Inc.
+ * Copyrights licensed under the New BSD License. See the accompanying LICENSE file for terms.
+ */
+var REACT_STATICS = {
+    childContextTypes: true,
+    contextTypes: true,
+    defaultProps: true,
+    displayName: true,
+    getDefaultProps: true,
+    getDerivedStateFromProps: true,
+    mixins: true,
+    propTypes: true,
+    type: true
+};
+
+var KNOWN_STATICS = {
+    name: true,
+    length: true,
+    prototype: true,
+    caller: true,
+    callee: true,
+    arguments: true,
+    arity: true
+};
+
+var defineProperty = Object.defineProperty;
+var getOwnPropertyNames = Object.getOwnPropertyNames;
+var getOwnPropertySymbols = Object.getOwnPropertySymbols;
+var getOwnPropertyDescriptor = Object.getOwnPropertyDescriptor;
+var getPrototypeOf = Object.getPrototypeOf;
+var objectPrototype = getPrototypeOf && getPrototypeOf(Object);
+
+function hoistNonReactStatics(targetComponent, sourceComponent, blacklist) {
+    if (typeof sourceComponent !== 'string') { // don't hoist over string (html) components
+
+        if (objectPrototype) {
+            var inheritedComponent = getPrototypeOf(sourceComponent);
+            if (inheritedComponent && inheritedComponent !== objectPrototype) {
+                hoistNonReactStatics(targetComponent, inheritedComponent, blacklist);
+            }
+        }
+
+        var keys = getOwnPropertyNames(sourceComponent);
+
+        if (getOwnPropertySymbols) {
+            keys = keys.concat(getOwnPropertySymbols(sourceComponent));
+        }
+
+        for (var i = 0; i < keys.length; ++i) {
+            var key = keys[i];
+            if (!REACT_STATICS[key] && !KNOWN_STATICS[key] && (!blacklist || !blacklist[key])) {
+                var descriptor = getOwnPropertyDescriptor(sourceComponent, key);
+                try { // Avoid failures from read-only properties
+                    defineProperty(targetComponent, key, descriptor);
+                } catch (e) {}
+            }
+        }
+
+        return targetComponent;
+    }
+
+    return targetComponent;
+}
+
+module.exports = hoistNonReactStatics;
+
+
+/***/ }),
+>>>>>>> fix: delivery and payment text and popup fixes
 /* 215 */
 >>>>>>> feat: tiger popups redesign
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
@@ -11913,8 +13288,12 @@ function shallowEqual(objA, objB) {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__takeEvery__ = __webpack_require__(399);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__takeLatest__ = __webpack_require__(400);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__throttle__ = __webpack_require__(401);
+<<<<<<< HEAD
 >>>>>>> feat: tiger popups redesign
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__utils__ = __webpack_require__(20);
+=======
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__utils__ = __webpack_require__(21);
+>>>>>>> fix: delivery and payment text and popup fixes
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_0__takeEvery__["a"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return __WEBPACK_IMPORTED_MODULE_1__takeLatest__["a"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "c", function() { return __WEBPACK_IMPORTED_MODULE_2__throttle__["a"]; });
@@ -12054,6 +13433,7 @@ module.exports = function (it) {
 "use strict";
 
 
+<<<<<<< HEAD
 exports.__esModule = true;
 exports['default'] = isDisposable;
 
@@ -12282,6 +13662,11 @@ var MAX_SAFE_INTEGER = 9007199254740991;
 
 /** Used to detect unsigned integer values. */
 var reIsUint = /^(?:0|[1-9]\d*)$/;
+=======
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+>>>>>>> fix: delivery and payment text and popup fixes
 
 <<<<<<< HEAD
 var _getPrototypeOf = __webpack_require__(8);
@@ -12312,7 +13697,11 @@ var _propTypes = __webpack_require__(6);
 
 var _propTypes2 = _interopRequireDefault(_propTypes);
 
+<<<<<<< HEAD
 var _throttle2 = __webpack_require__(137);
+=======
+var _throttle2 = __webpack_require__(138);
+>>>>>>> fix: delivery and payment text and popup fixes
 
 var _throttle3 = _interopRequireDefault(_throttle2);
 
@@ -12540,7 +13929,11 @@ var _propTypes = __webpack_require__(6);
 
 var _propTypes2 = _interopRequireDefault(_propTypes);
 
+<<<<<<< HEAD
 var _throttle2 = __webpack_require__(137);
+=======
+var _throttle2 = __webpack_require__(138);
+>>>>>>> fix: delivery and payment text and popup fixes
 
 var _throttle3 = _interopRequireDefault(_throttle2);
 
@@ -13174,8 +14567,13 @@ module.exports = __webpack_require__(225);
 
 
 var utils = __webpack_require__(15);
+<<<<<<< HEAD
 var bind = __webpack_require__(148);
 var Axios = __webpack_require__(227);
+=======
+var bind = __webpack_require__(149);
+var Axios = __webpack_require__(229);
+>>>>>>> fix: delivery and payment text and popup fixes
 var defaults = __webpack_require__(90);
 
 /**
@@ -13209,9 +14607,15 @@ axios.create = function create(instanceConfig) {
 };
 
 // Expose Cancel & CancelToken
+<<<<<<< HEAD
 axios.Cancel = __webpack_require__(145);
 axios.CancelToken = __webpack_require__(226);
 axios.isCancel = __webpack_require__(146);
+=======
+axios.Cancel = __webpack_require__(146);
+axios.CancelToken = __webpack_require__(228);
+axios.isCancel = __webpack_require__(147);
+>>>>>>> fix: delivery and payment text and popup fixes
 
 // Expose all/spread
 axios.all = function all(promises) {
@@ -13232,7 +14636,11 @@ module.exports.default = axios;
 "use strict";
 
 
+<<<<<<< HEAD
 var Cancel = __webpack_require__(145);
+=======
+var Cancel = __webpack_require__(146);
+>>>>>>> fix: delivery and payment text and popup fixes
 
 /**
  * A `CancelToken` is an object that can be used to request cancellation of an operation.
@@ -13448,8 +14856,13 @@ module.exports = InterceptorManager;
 
 
 var utils = __webpack_require__(15);
+<<<<<<< HEAD
 var transformData = __webpack_require__(232);
 var isCancel = __webpack_require__(146);
+=======
+var transformData = __webpack_require__(234);
+var isCancel = __webpack_require__(147);
+>>>>>>> fix: delivery and payment text and popup fixes
 var defaults = __webpack_require__(90);
 
 /**
@@ -13570,6 +14983,7 @@ function findIndexInValueByKey(value, key) {
   return index;
 }
 
+<<<<<<< HEAD
 function findIndexInValueByLabel(value, label) {
   var index = -1;
   for (var i = 0; i < value.length; i++) {
@@ -13580,6 +14994,9 @@ function findIndexInValueByLabel(value, label) {
   }
   return index;
 }
+=======
+var createError = __webpack_require__(148);
+>>>>>>> fix: delivery and payment text and popup fixes
 
 function getSelectKeys(menuItems, value) {
   if (value === null || value === undefined) {
@@ -15789,6 +17206,7 @@ module.exports = function dispatchRequest(config) {
 "use strict";
 
 
+<<<<<<< HEAD
 /**
  * Update an Error with the specified config, error code, and response.
  *
@@ -15806,6 +17224,10 @@ module.exports = function enhanceError(error, config, code, response) {
   error.response = response;
   return error;
 };
+=======
+      return ContinueSentinel;
+    },
+>>>>>>> fix: delivery and payment text and popup fixes
 
 <<<<<<< HEAD
 var _getPrototypeOf = __webpack_require__(8);
@@ -15861,11 +17283,32 @@ var _possibleConstructorReturn2 = __webpack_require__(4);
 /***/ (function(module, exports, __webpack_require__) {
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 var _inherits2 = __webpack_require__(3);
 =======
 "use strict";
 >>>>>>> feat: add payment and delivery popups
 
+=======
+/*!
+ * bem-cn v2.1.3
+ * Friendly BEM class names generator, greate for React
+ * @author Alexander Burtsev, https://github.com/albburtsev
+ */
+(function webpackUniversalModuleDefinition(root, factory) {
+	if(true)
+		module.exports = factory();
+	else if(typeof define === 'function' && define.amd)
+		define([], factory);
+	else if(typeof exports === 'object')
+		exports["block"] = factory();
+	else
+		root["block"] = factory();
+})(this, function() {
+return /******/ (function(modules) { // webpackBootstrap
+/******/ 	// The module cache
+/******/ 	var installedModules = {};
+>>>>>>> fix: delivery and payment text and popup fixes
 
 var utils = __webpack_require__(15);
 
@@ -15893,8 +17336,11 @@ var _propTypes = __webpack_require__(253);
 
 var _utils = __webpack_require__(7);
 
+<<<<<<< HEAD
 var _actions = __webpack_require__(58);
 =======
+=======
+>>>>>>> fix: delivery and payment text and popup fixes
 
 /***/ }),
 /* 235 */
@@ -15915,6 +17361,7 @@ E.prototype = new Error;
 E.prototype.code = 5;
 E.prototype.name = 'InvalidCharacterError';
 
+<<<<<<< HEAD
 function btoa(input) {
   var str = String(input);
   var output = '';
@@ -15946,6 +17393,34 @@ module.exports = btoa;
 
 "use strict";
 
+=======
+	var _typeof = typeof Symbol === "function" && typeof Symbol.iterator === "symbol" ? function (obj) { return typeof obj; } : function (obj) { return obj && typeof Symbol === "function" && obj.constructor === Symbol ? "symbol" : typeof obj; }; /**
+	                                                                                                                                                                                                                                                   * How it's working?
+	                                                                                                                                                                                                                                                   * The essential part of this module is based on using currying pattern.
+	                                                                                                                                                                                                                                                   * Just take a look at the interface:
+	                                                                                                                                                                                                                                                   *
+	                                                                                                                                                                                                                                                   * @example
+	                                                                                                                                                                                                                                                  const selector = (settings, context) => {
+	                                                                                                                                                                                                                                                  	const inner = () => {
+	                                                                                                                                                                                                                                                  		return selector(...);
+	                                                                                                                                                                                                                                                  	};
+	                                                                                                                                                                                                                                                  
+	                                                                                                                                                                                                                                                  	inner.toString = inner.valueOf = () => {
+	                                                                                                                                                                                                                                                  		// ...
+	                                                                                                                                                                                                                                                  	}
+	                                                                                                                                                                                                                                                  
+	                                                                                                                                                                                                                                                  	// ...
+	                                                                                                                                                                                                                                                  
+	                                                                                                                                                                                                                                                  	return inner;
+	                                                                                                                                                                                                                                                  };
+	                                                                                                                                                                                                                                                  
+	                                                                                                                                                                                                                                                  const block = (name) => {
+	                                                                                                                                                                                                                                                  	// ...
+	                                                                                                                                                                                                                                                  
+	                                                                                                                                                                                                                                                  	return selector(defaultSettings, {name});
+	                                                                                                                                                                                                                                                  };
+	                                                                                                                                                                                                                                                   */
+>>>>>>> fix: delivery and payment text and popup fixes
 
 var utils = __webpack_require__(15);
 
@@ -15981,10 +17456,20 @@ module.exports = function buildURL(url, params, paramsSerializer) {
   } else {
     var parts = [];
 
+<<<<<<< HEAD
     utils.forEach(params, function serialize(val, key) {
       if (val === null || typeof val === 'undefined') {
         return;
       }
+=======
+	var defaultSettings = {
+		ns: '',
+		el: '__',
+		mod: '_',
+		modValue: '_',
+		classMap: null
+	},
+>>>>>>> fix: delivery and payment text and popup fixes
 
       if (utils.isArray(val)) {
         key = key + '[]';
@@ -16011,8 +17496,17 @@ module.exports = function buildURL(url, params, paramsSerializer) {
     url += (url.indexOf('?') === -1 ? '?' : '&') + serializedParams;
   }
 
+<<<<<<< HEAD
   return url;
 };
+=======
+		// Add list of modifiers
+		if (mods) {
+			classes = classes.concat(Object.keys(mods).filter(function (key) {
+				return mods[key];
+			}).map(function (key) {
+				var value = mods[key];
+>>>>>>> fix: delivery and payment text and popup fixes
 
 
 /***/ }),
@@ -16034,6 +17528,7 @@ module.exports = function combineURLs(baseURL, relativeURL) {
 };
 
 
+<<<<<<< HEAD
 /***/ }),
 <<<<<<< HEAD
 /* 249 */
@@ -16041,6 +17536,11 @@ module.exports = function combineURLs(baseURL, relativeURL) {
 /* 238 */
 >>>>>>> feat: add payment and delivery popups
 /***/ (function(module, exports, __webpack_require__) {
+=======
+		for (var _len = arguments.length, mixes = Array(_len > 2 ? _len - 2 : 0), _key = 2; _key < _len; _key++) {
+			mixes[_key - 2] = arguments[_key];
+		}
+>>>>>>> fix: delivery and payment text and popup fixes
 
 "use strict";
 
@@ -16077,9 +17577,16 @@ var _classCallCheck2 = __webpack_require__(2);
         }
 >>>>>>> feat: add payment and delivery popups
 
+<<<<<<< HEAD
         if (secure === true) {
           cookie.push('secure');
         }
+=======
+			// Call without arguments, time to return class names as a string
+			if (!args.length) {
+				return toString(settings, context);
+			}
+>>>>>>> fix: delivery and payment text and popup fixes
 
 <<<<<<< HEAD
 var _createClass2 = __webpack_require__(5);
@@ -16145,9 +17652,18 @@ module.exports = function isAbsoluteURL(url) {
 
 >>>>>>> feat: add payment and delivery popups
 
+<<<<<<< HEAD
 /***/ }),
 /* 240 */
 /***/ (function(module, exports, __webpack_require__) {
+=======
+	/**
+	 * Updates settings object
+	 * @param  {Object} custom New custom settings
+	 */
+	block.setup = function () {
+		var custom = arguments.length <= 0 || arguments[0] === undefined ? {} : arguments[0];
+>>>>>>> fix: delivery and payment text and popup fixes
 
 "use strict";
 
@@ -16164,6 +17680,7 @@ module.exports = (
     var urlParsingNode = document.createElement('a');
     var originURL;
 
+<<<<<<< HEAD
     /**
     * Parse a URL to discover it's components
     *
@@ -16172,6 +17689,13 @@ module.exports = (
     */
     function resolveURL(url) {
       var href = url;
+=======
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+	var ERROR_BLOCK_NAME_TYPE = exports.ERROR_BLOCK_NAME_TYPE = 'Block name should be a string';
+	var ERROR_BLOCK_NAME_EMPTY = exports.ERROR_BLOCK_NAME_EMPTY = 'Block name should be non-empty';
+>>>>>>> fix: delivery and payment text and popup fixes
 
       if (msie) {
         // IE needs attribute set twice to normalize properties
@@ -16273,6 +17797,7 @@ module.exports = function parseHeaders(headers) {
 
   if (!headers) { return parsed; }
 
+<<<<<<< HEAD
   utils.forEach(headers.split('\n'), function parser(line) {
     i = line.indexOf(':');
     key = utils.trim(line.substr(0, i)).toLowerCase();
@@ -16282,6 +17807,22 @@ module.exports = function parseHeaders(headers) {
       parsed[key] = parsed[key] ? parsed[key] + ', ' + val : val;
     }
   });
+=======
+/**
+ * Add class `name` if not already present.
+ *
+ * @param {String} name
+ * @return {ClassList}
+ * @api public
+ */
+
+ClassList.prototype.add = function(name){
+  // classList
+  if (this.list) {
+    this.list.add(name);
+    return this;
+  }
+>>>>>>> fix: delivery and payment text and popup fixes
 
   return parsed;
 };
@@ -16342,7 +17883,12 @@ var _getPrototypeOf2 = _interopRequireDefault(_getPrototypeOf);
 
 var _classCallCheck2 = __webpack_require__(1);
 
+<<<<<<< HEAD
 var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
+=======
+__webpack_require__(291);
+module.exports = __webpack_require__(11).Object.assign;
+>>>>>>> fix: delivery and payment text and popup fixes
 
 var _createClass2 = __webpack_require__(5);
 
@@ -16417,7 +17963,13 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.finishOnlineStoreImport = exports.startOnlineStoreImport = exports.pollingOnlineStoreImportStatus = undefined;
 
+<<<<<<< HEAD
 var _onlineStoreImport = __webpack_require__(176);
+=======
+__webpack_require__(102);
+__webpack_require__(130);
+module.exports = __webpack_require__(101).f('iterator');
+>>>>>>> fix: delivery and payment text and popup fixes
 
 var actionTypes = _interopRequireWildcard(_onlineStoreImport);
 
@@ -16463,7 +18015,15 @@ var _propTypes2 = _interopRequireDefault(_propTypes);
 
 var _imageEditor = __webpack_require__(127);
 
+<<<<<<< HEAD
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+=======
+// getting tag from 19.1.3.6 Object.prototype.toString()
+var cof = __webpack_require__(118);
+var TAG = __webpack_require__(22)('toStringTag');
+// ES3 wrong here
+var ARG = cof(function () { return arguments; }()) == 'Arguments';
+>>>>>>> fix: delivery and payment text and popup fixes
 
 var previewImageViewPropType = exports.previewImageViewPropType = {
   preview: _propTypes2.default.string.isRequired,
@@ -16520,7 +18080,15 @@ module.exports = { "default": __webpack_require__(271), __esModule: true };
 var _defineProperty3 = _interopRequireDefault(_defineProperty2);
 >>>>>>> feat: add payment and delivery popups
 
+<<<<<<< HEAD
 var _react = __webpack_require__(0);
+=======
+// 7.2.2 IsArray(argument)
+var cof = __webpack_require__(118);
+module.exports = Array.isArray || function isArray(arg) {
+  return cof(arg) == 'Array';
+};
+>>>>>>> fix: delivery and payment text and popup fixes
 
 <<<<<<< HEAD
 module.exports = { "default": __webpack_require__(272), __esModule: true };
@@ -16585,6 +18153,17 @@ exports.default = PreviewImageView;
 >>>>>>> feat: add payment and delivery popups
 "use strict";
 
+<<<<<<< HEAD
+=======
+// 19.1.2.1 Object.assign(target, source, ...)
+var DESCRIPTORS = __webpack_require__(27);
+var getKeys = __webpack_require__(57);
+var gOPS = __webpack_require__(94);
+var pIE = __webpack_require__(66);
+var toObject = __webpack_require__(51);
+var IObject = __webpack_require__(154);
+var $assign = Object.assign;
+>>>>>>> fix: delivery and payment text and popup fixes
 
 Object.defineProperty(exports, "__esModule", {
   value: true
@@ -16601,9 +18180,37 @@ exports.default = _views.PseudoLinkView;
 "use strict";
 
 
+<<<<<<< HEAD
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
+=======
+// Works with __proto__ only. Old v8 can't work with null proto objects.
+/* eslint-disable no-proto */
+var isObject = __webpack_require__(39);
+var anObject = __webpack_require__(43);
+var check = function (O, proto) {
+  anObject(O);
+  if (!isObject(proto) && proto !== null) throw TypeError(proto + ": can't set as prototype!");
+};
+module.exports = {
+  set: Object.setPrototypeOf || ('__proto__' in {} ? // eslint-disable-line
+    function (test, buggy, set) {
+      try {
+        set = __webpack_require__(119)(Function.call, __webpack_require__(156).f(Object.prototype, '__proto__').set, 2);
+        set(test, []);
+        buggy = !(test instanceof Array);
+      } catch (e) { buggy = true; }
+      return function setPrototypeOf(O, proto) {
+        check(O, proto);
+        if (buggy) O.__proto__ = proto;
+        else set(O, proto);
+        return O;
+      };
+    }({}, false) : undefined),
+  check: check
+};
+>>>>>>> fix: delivery and payment text and popup fixes
 
 var _views = __webpack_require__(499);
 
@@ -16659,6 +18266,38 @@ if (hadRuntime) {
 
 "use strict";
 
+<<<<<<< HEAD
+=======
+var addToUnscopables = __webpack_require__(276);
+var step = __webpack_require__(283);
+var Iterators = __webpack_require__(56);
+var toIObject = __webpack_require__(48);
+
+// 22.1.3.4 Array.prototype.entries()
+// 22.1.3.13 Array.prototype.keys()
+// 22.1.3.29 Array.prototype.values()
+// 22.1.3.30 Array.prototype[@@iterator]()
+module.exports = __webpack_require__(155)(Array, 'Array', function (iterated, kind) {
+  this._t = toIObject(iterated); // target
+  this._i = 0;                   // next index
+  this._k = kind;                // kind
+// 22.1.5.2.1 %ArrayIteratorPrototype%.next()
+}, function () {
+  var O = this._t;
+  var kind = this._k;
+  var index = this._i++;
+  if (!O || index >= O.length) {
+    this._t = undefined;
+    return step(1);
+  }
+  if (kind == 'keys') return step(0, index);
+  if (kind == 'values') return step(0, O[index]);
+  return step(0, [index, O[index]]);
+}, 'values');
+
+// argumentsList[@@iterator] is %ArrayProto_values% (9.4.4.6, 9.4.4.7)
+Iterators.Arguments = Iterators.Array;
+>>>>>>> fix: delivery and payment text and popup fixes
 
 Object.defineProperty(exports, "__esModule", {
   value: true
@@ -16716,11 +18355,17 @@ var _createClass2 = __webpack_require__(5);
   // module.exports (if we're in a module) or a new, empty object.
   runtime = global.regeneratorRuntime = inModule ? module.exports : {};
 
+<<<<<<< HEAD
   function wrap(innerFn, outerFn, self, tryLocsList) {
     // If outerFn provided and outerFn.prototype is a Generator, then outerFn.prototype instanceof Generator.
     var protoGenerator = outerFn && outerFn.prototype instanceof Generator ? outerFn : Generator;
     var generator = Object.create(protoGenerator.prototype);
     var context = new Context(tryLocsList || []);
+=======
+// 19.1.2.9 Object.getPrototypeOf(O)
+var toObject = __webpack_require__(51);
+var $getPrototypeOf = __webpack_require__(158);
+>>>>>>> fix: delivery and payment text and popup fixes
 
     // The ._invoke method unifies the implementations of the .next,
     // .throw, and .return methods.
@@ -16748,10 +18393,16 @@ var _createClass2 = __webpack_require__(5);
     }
   }
 
+<<<<<<< HEAD
   var GenStateSuspendedStart = "suspendedStart";
   var GenStateSuspendedYield = "suspendedYield";
   var GenStateExecuting = "executing";
   var GenStateCompleted = "completed";
+=======
+// 19.1.2.14 Object.keys(O)
+var toObject = __webpack_require__(51);
+var $keys = __webpack_require__(57);
+>>>>>>> fix: delivery and payment text and popup fixes
 
   // Returning this object from the innerFn has the same effect as
   // breaking out of the dispatch switch statement.
@@ -16848,6 +18499,7 @@ var _createClass2 = __webpack_require__(5);
           });
         }
 
+<<<<<<< HEAD
         return Promise.resolve(value).then(function(unwrapped) {
           // When a yielded Promise is resolved, its final value becomes
           // the .value of the Promise<{value,done}> result for the
@@ -16869,6 +18521,54 @@ var _createClass2 = __webpack_require__(5);
         }, reject);
       }
     }
+=======
+// ECMAScript 6 symbols shim
+var global = __webpack_require__(28);
+var has = __webpack_require__(34);
+var DESCRIPTORS = __webpack_require__(27);
+var $export = __webpack_require__(30);
+var redefine = __webpack_require__(160);
+var META = __webpack_require__(182).KEY;
+var $fails = __webpack_require__(46);
+var shared = __webpack_require__(97);
+var setToStringTag = __webpack_require__(95);
+var uid = __webpack_require__(67);
+var wks = __webpack_require__(22);
+var wksExt = __webpack_require__(101);
+var wksDefine = __webpack_require__(100);
+var enumKeys = __webpack_require__(279);
+var isArray = __webpack_require__(281);
+var anObject = __webpack_require__(43);
+var isObject = __webpack_require__(39);
+var toObject = __webpack_require__(51);
+var toIObject = __webpack_require__(48);
+var toPrimitive = __webpack_require__(99);
+var createDesc = __webpack_require__(61);
+var _create = __webpack_require__(93);
+var gOPNExt = __webpack_require__(183);
+var $GOPD = __webpack_require__(156);
+var $GOPS = __webpack_require__(94);
+var $DP = __webpack_require__(31);
+var $keys = __webpack_require__(57);
+var gOPD = $GOPD.f;
+var dP = $DP.f;
+var gOPN = gOPNExt.f;
+var $Symbol = global.Symbol;
+var $JSON = global.JSON;
+var _stringify = $JSON && $JSON.stringify;
+var PROTOTYPE = 'prototype';
+var HIDDEN = wks('_hidden');
+var TO_PRIMITIVE = wks('toPrimitive');
+var isEnum = {}.propertyIsEnumerable;
+var SymbolRegistry = shared('symbol-registry');
+var AllSymbols = shared('symbols');
+var OPSymbols = shared('op-symbols');
+var ObjectProto = Object[PROTOTYPE];
+var USE_NATIVE = typeof $Symbol == 'function' && !!$GOPS.f;
+var QObject = global.QObject;
+// Don't use setters in Qt Script, https://github.com/zloirock/core-js/issues/173
+var setter = !QObject || !QObject[PROTOTYPE] || !QObject[PROTOTYPE].findChild;
+>>>>>>> fix: delivery and payment text and popup fixes
 
     var previousPromise;
 
@@ -16909,7 +18609,19 @@ var _createClass2 = __webpack_require__(5);
   AsyncIterator.prototype[asyncIteratorSymbol] = function () {
     return this;
   };
+<<<<<<< HEAD
   runtime.AsyncIterator = AsyncIterator;
+=======
+  redefine($Symbol[PROTOTYPE], 'toString', function toString() {
+    return this._k;
+  });
+
+  $GOPD.f = $getOwnPropertyDescriptor;
+  $DP.f = $defineProperty;
+  __webpack_require__(157).f = gOPNExt.f = $getOwnPropertyNames;
+  __webpack_require__(66).f = $propertyIsEnumerable;
+  $GOPS.f = $getOwnPropertySymbols;
+>>>>>>> fix: delivery and payment text and popup fixes
 
   // Note that simple async functions are implemented on top of
   // AsyncIterator objects; they just return a Promise for the value of
@@ -17056,6 +18768,7 @@ var _createClass2 = __webpack_require__(5);
       return ContinueSentinel;
     }
 
+<<<<<<< HEAD
     if (info.done) {
       // Assign the result of the finished delegate to the temporary
       // variable specified by delegate.resultName (see delegateYield).
@@ -17063,6 +18776,11 @@ var _createClass2 = __webpack_require__(5);
 
       // Resume execution at the desired location (see delegateYield).
       context.next = delegate.nextLoc;
+=======
+var _dragDrop = __webpack_require__(133);
+
+var _registry = __webpack_require__(134);
+>>>>>>> fix: delivery and payment text and popup fixes
 
       // If context.method was "throw" but the delegate handled the
       // exception, let the outer generator proceed normally. If
@@ -17184,8 +18902,12 @@ var _createClass2 = __webpack_require__(5);
             }
           }
 
+<<<<<<< HEAD
           next.value = undefined;
           next.done = true;
+=======
+var _dragDrop = __webpack_require__(133);
+>>>>>>> fix: delivery and payment text and popup fixes
 
           return next;
         };
@@ -17336,8 +19058,12 @@ var getNative = __webpack_require__(40),
       record.arg = arg;
 =======
 var getNative = __webpack_require__(40),
+<<<<<<< HEAD
     root = __webpack_require__(19);
 >>>>>>> feat: tiger popups redesign
+=======
+    root = __webpack_require__(20);
+>>>>>>> fix: delivery and payment text and popup fixes
 
       if (finallyEntry) {
         this.method = "next";
@@ -17396,12 +19122,17 @@ var getNative = __webpack_require__(40),
       throw new Error("illegal catch attempt");
     },
 
+<<<<<<< HEAD
     delegateYield: function(iterable, resultName, nextLoc) {
       this.delegate = {
         iterator: values(iterable),
         resultName: resultName,
         nextLoc: nextLoc
       };
+=======
+var getNative = __webpack_require__(40),
+    root = __webpack_require__(20);
+>>>>>>> fix: delivery and payment text and popup fixes
 
       if (this.method === "next") {
         // Deliberately forget the last sent value so that we don't
@@ -17430,6 +19161,7 @@ var getNative = __webpack_require__(40),
  * Friendly BEM class names generator, greate for React
  * @author Alexander Burtsev, https://github.com/albburtsev
  */
+<<<<<<< HEAD
 (function webpackUniversalModuleDefinition(root, factory) {
 	if(true)
 		module.exports = factory();
@@ -17445,6 +19177,28 @@ return /******/ (function(modules) { // webpackBootstrap
 /******/ 	var installedModules = {};
 =======
 var root = __webpack_require__(19);
+=======
+function Stack(entries) {
+  var data = this.__data__ = new ListCache(entries);
+  this.size = data.size;
+}
+
+// Add methods to `Stack`.
+Stack.prototype.clear = stackClear;
+Stack.prototype['delete'] = stackDelete;
+Stack.prototype.get = stackGet;
+Stack.prototype.has = stackHas;
+Stack.prototype.set = stackSet;
+
+module.exports = Stack;
+
+
+/***/ }),
+/* 316 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var root = __webpack_require__(20);
+>>>>>>> fix: delivery and payment text and popup fixes
 
 /** Built-in value references. */
 var Uint8Array = root.Uint8Array;
@@ -17469,8 +19223,12 @@ var Uint8Array = root.Uint8Array;
 /******/ 		modules[moduleId].call(module.exports, module, module.exports, __webpack_require__);
 =======
 var getNative = __webpack_require__(40),
+<<<<<<< HEAD
     root = __webpack_require__(19);
 >>>>>>> feat: tiger popups redesign
+=======
+    root = __webpack_require__(20);
+>>>>>>> fix: delivery and payment text and popup fixes
 
 /******/ 		// Flag the module as loaded
 /******/ 		module.loaded = true;
@@ -17497,10 +19255,10 @@ var _redux = __webpack_require__(54);
 var _propTypes = __webpack_require__(255);
 =======
 var SetCache = __webpack_require__(109),
-    arrayIncludes = __webpack_require__(201),
-    arrayIncludesWith = __webpack_require__(202),
-    arrayMap = __webpack_require__(204),
-    baseUnary = __webpack_require__(133),
+    arrayIncludes = __webpack_require__(200),
+    arrayIncludesWith = __webpack_require__(201),
+    arrayMap = __webpack_require__(203),
+    baseUnary = __webpack_require__(135),
     cacheHas = __webpack_require__(111);
 >>>>>>> feat: tiger popups redesign
 
@@ -17520,10 +19278,14 @@ var TextCellCKEditor = function (_Component) {
   (0, _inherits3.default)(TextCellCKEditor, _Component);
 
 <<<<<<< HEAD
+<<<<<<< HEAD
   function TextCellCKEditor() {
     var _ref;
 =======
 var arrayPush = __webpack_require__(205),
+=======
+var arrayPush = __webpack_require__(204),
+>>>>>>> fix: delivery and payment text and popup fixes
     isFlattenable = __webpack_require__(628);
 >>>>>>> feat: tiger popups redesign
 
@@ -17570,10 +19332,14 @@ var arrayPush = __webpack_require__(205),
         });
 
 <<<<<<< HEAD
+<<<<<<< HEAD
         return;
       }
 =======
 var arrayPush = __webpack_require__(205),
+=======
+var arrayPush = __webpack_require__(204),
+>>>>>>> fix: delivery and payment text and popup fixes
     isArray = __webpack_require__(36);
 >>>>>>> feat: tiger popups redesign
 
@@ -17646,7 +19412,26 @@ exports.default = (0, _reactRedux.connect)(null, mapDispatchToProps)(TextCellCKE
 /* 251 */
 /***/ (function(module, exports, __webpack_require__) {
 
+<<<<<<< HEAD
 "use strict";
+=======
+var Stack = __webpack_require__(315),
+    equalArrays = __webpack_require__(164),
+    equalByTag = __webpack_require__(331),
+    equalObjects = __webpack_require__(332),
+    getTag = __webpack_require__(336),
+    isArray = __webpack_require__(36),
+    isBuffer = __webpack_require__(167),
+    isTypedArray = __webpack_require__(170);
+
+/** Used to compose bitmasks for value comparisons. */
+var COMPARE_PARTIAL_FLAG = 1;
+
+/** `Object#toString` result references. */
+var argsTag = '[object Arguments]',
+    arrayTag = '[object Array]',
+    objectTag = '[object Object]';
+>>>>>>> fix: delivery and payment text and popup fixes
 
 
 Object.defineProperty(exports, "__esModule", {
@@ -17671,7 +19456,14 @@ var _createClass3 = _interopRequireDefault(_createClass2);
 
 var _possibleConstructorReturn2 = __webpack_require__(3);
 
+<<<<<<< HEAD
 var _possibleConstructorReturn3 = _interopRequireDefault(_possibleConstructorReturn2);
+=======
+var isFunction = __webpack_require__(168),
+    isMasked = __webpack_require__(344),
+    isObject = __webpack_require__(37),
+    toSource = __webpack_require__(166);
+>>>>>>> fix: delivery and payment text and popup fixes
 
 var _inherits2 = __webpack_require__(2);
 
@@ -17693,8 +19485,14 @@ function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { de
 
 var b = (0, _utils.block)('e-table');
 
+<<<<<<< HEAD
 var TextCellEditor = function (_Component) {
   (0, _inherits3.default)(TextCellEditor, _Component);
+=======
+var baseGetTag = __webpack_require__(53),
+    isLength = __webpack_require__(169),
+    isObjectLike = __webpack_require__(45);
+>>>>>>> fix: delivery and payment text and popup fixes
 
   function TextCellEditor(props) {
     (0, _classCallCheck3.default)(this, TextCellEditor);
@@ -17732,6 +19530,7 @@ var TextCellEditor = function (_Component) {
       _this.props.handlerSave(_this.state.value);
     };
 
+<<<<<<< HEAD
     _this.handleKeyDown = function (e) {
       if (e.keyCode === 13) {
         e.preventDefault();
@@ -17739,6 +19538,10 @@ var TextCellEditor = function (_Component) {
         _this.save();
       }
     };
+=======
+var isPrototype = __webpack_require__(206),
+    nativeKeys = __webpack_require__(356);
+>>>>>>> fix: delivery and payment text and popup fixes
 
     _this.handleInput = function (e) {
       _this.setState({ value: e.currentTarget.value });
@@ -17843,6 +19646,7 @@ exports.default = function (_ref) {
 /***/ (function(module, exports, __webpack_require__) {
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 "use strict";
 =======
 var SetCache = __webpack_require__(109),
@@ -17852,6 +19656,14 @@ var SetCache = __webpack_require__(109),
     createSet = __webpack_require__(625),
     setToArray = __webpack_require__(134);
 >>>>>>> feat: tiger popups redesign
+=======
+var SetCache = __webpack_require__(109),
+    arrayIncludes = __webpack_require__(200),
+    arrayIncludesWith = __webpack_require__(201),
+    cacheHas = __webpack_require__(111),
+    createSet = __webpack_require__(625),
+    setToArray = __webpack_require__(136);
+>>>>>>> fix: delivery and payment text and popup fixes
 
 
 Object.defineProperty(exports, "__esModule", {
@@ -17877,9 +19689,13 @@ exports.default = function (_ref) {
 /***/ (function(module, exports, __webpack_require__) {
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 "use strict";
 =======
 var root = __webpack_require__(19);
+=======
+var root = __webpack_require__(20);
+>>>>>>> fix: delivery and payment text and popup fixes
 
 /** Used to detect overreaching core-js shims. */
 var coreJsData = root['__core-js_shared__'];
@@ -17893,7 +19709,16 @@ exports.PopupProportiesCellView = exports.SelectCellView = undefined;
 
 var _SelectCellView = __webpack_require__(506);
 
+<<<<<<< HEAD
 var _SelectCellView2 = _interopRequireDefault(_SelectCellView);
+=======
+var Symbol = __webpack_require__(78),
+    Uint8Array = __webpack_require__(316),
+    eq = __webpack_require__(88),
+    equalArrays = __webpack_require__(164),
+    mapToArray = __webpack_require__(355),
+    setToArray = __webpack_require__(136);
+>>>>>>> fix: delivery and payment text and popup fixes
 
 var _PopupProportiesCellView = __webpack_require__(504);
 
@@ -18122,6 +19947,7 @@ module.exports = { "default": __webpack_require__(274), __esModule: true };
 >>>>>>> feat: add payment and delivery popups
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 		// Add mixes
 		// Don't do it before adding namespace! @see https://github.com/albburtsev/bem-cn/issues/32
 		if (mixes) {
@@ -18129,6 +19955,9 @@ module.exports = { "default": __webpack_require__(274), __esModule: true };
 		}
 =======
 var arrayFilter = __webpack_require__(200),
+=======
+var arrayFilter = __webpack_require__(199),
+>>>>>>> fix: delivery and payment text and popup fixes
     stubArray = __webpack_require__(372);
 >>>>>>> feat: tiger popups redesign
 
@@ -18182,11 +20011,40 @@ var arrayFilter = __webpack_require__(200),
 var DataView = __webpack_require__(312),
     Map = __webpack_require__(108),
     Promise = __webpack_require__(314),
-    Set = __webpack_require__(199),
+    Set = __webpack_require__(198),
     WeakMap = __webpack_require__(317),
     baseGetTag = __webpack_require__(53),
+<<<<<<< HEAD
     toSource = __webpack_require__(165);
 >>>>>>> feat: tiger popups redesign
+=======
+    toSource = __webpack_require__(166);
+
+/** `Object#toString` result references. */
+var mapTag = '[object Map]',
+    objectTag = '[object Object]',
+    promiseTag = '[object Promise]',
+    setTag = '[object Set]',
+    weakMapTag = '[object WeakMap]';
+
+var dataViewTag = '[object DataView]';
+
+/** Used to detect maps, sets, and weakmaps. */
+var dataViewCtorString = toSource(DataView),
+    mapCtorString = toSource(Map),
+    promiseCtorString = toSource(Promise),
+    setCtorString = toSource(Set),
+    weakMapCtorString = toSource(WeakMap);
+
+/**
+ * Gets the `toStringTag` of `value`.
+ *
+ * @private
+ * @param {*} value The value to query.
+ * @returns {string} Returns the `toStringTag`.
+ */
+var getTag = baseGetTag;
+>>>>>>> fix: delivery and payment text and popup fixes
 
 		// Copy and update object with states
 
@@ -18656,6 +20514,7 @@ ClassList.prototype.contains = function(name){
 /* 265 */
 /***/ (function(module, exports) {
 
+<<<<<<< HEAD
 module.exports = function(arr, obj){
   if (arr.indexOf) return arr.indexOf(obj);
   for (var i = 0; i < arr.length; ++i) {
@@ -18663,6 +20522,9 @@ module.exports = function(arr, obj){
   }
   return -1;
 };
+=======
+var overArg = __webpack_require__(207);
+>>>>>>> fix: delivery and payment text and popup fixes
 
 /***/ }),
 /* 266 */
@@ -18676,11 +20538,18 @@ module.exports = __webpack_require__(11).Object.assign;
 /* 267 */
 /***/ (function(module, exports, __webpack_require__) {
 
+<<<<<<< HEAD
 __webpack_require__(291);
 var $Object = __webpack_require__(11).Object;
 module.exports = function create(P, D) {
   return $Object.create(P, D);
 };
+=======
+/* WEBPACK VAR INJECTION */(function(module) {var freeGlobal = __webpack_require__(165);
+
+/** Detect free variable `exports`. */
+var freeExports = typeof exports == 'object' && exports && !exports.nodeType && exports;
+>>>>>>> fix: delivery and payment text and popup fixes
 
 
 /***/ }),
@@ -18970,10 +20839,16 @@ var overArg = __webpack_require__(208);
         throw new Error("Generator is already running");
       }
 
+<<<<<<< HEAD
       if (state === GenStateCompleted) {
         if (method === "throw") {
           throw arg;
         }
+=======
+var ListCache = __webpack_require__(68),
+    Map = __webpack_require__(108),
+    MapCache = __webpack_require__(124);
+>>>>>>> fix: delivery and payment text and popup fixes
 
         // Be forgiving, per 25.3.3.3.3 of the spec:
         // https://people.mozilla.org/~jorendorff/es6-draft.html#sec-generatorresume
@@ -19066,10 +20941,16 @@ var overArg = __webpack_require__(208);
           }
         }
 
+<<<<<<< HEAD
         context.method = "throw";
         context.arg = new TypeError(
           "The iterator does not provide a 'throw' method");
       }
+=======
+var arrayLikeKeys = __webpack_require__(202),
+    baseKeys = __webpack_require__(327),
+    isArrayLike = __webpack_require__(112);
+>>>>>>> fix: delivery and payment text and popup fixes
 
       return ContinueSentinel;
     }
@@ -49182,7 +51063,11 @@ var setQuery = exports.setQuery = function setQuery(payload) {
 >>>>>>> feat: add payment and delivery popups
 /***/ (function(module, exports, __webpack_require__) {
 
+<<<<<<< HEAD
 "use strict";
+=======
+var root = __webpack_require__(20);
+>>>>>>> fix: delivery and payment text and popup fixes
 
 
 Object.defineProperty(exports, "__esModule", {
@@ -49209,7 +51094,13 @@ var _inherits2 = __webpack_require__(3);
 
 var _inherits3 = _interopRequireDefault(_inherits2);
 
+<<<<<<< HEAD
 var _react = __webpack_require__(0);
+=======
+var baseDifference = __webpack_require__(319),
+    baseRest = __webpack_require__(110),
+    isArrayLikeObject = __webpack_require__(137);
+>>>>>>> fix: delivery and payment text and popup fixes
 
 var _react2 = _interopRequireDefault(_react);
 
@@ -49448,11 +51339,15 @@ var _actions = __webpack_require__(16);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
+<<<<<<< HEAD
 var initialState = {
   prev: [],
   next: [],
   current: []
 };
+=======
+var _KeyCode = __webpack_require__(143);
+>>>>>>> fix: delivery and payment text and popup fixes
 
 var addHistory = exports.addHistory = function addHistory(state, action) {
   var newRows = state.newRows || state.current;
@@ -49512,12 +51407,16 @@ function history() {
         });
       }
 
+<<<<<<< HEAD
     case _actions.TABLE_EDITOR_ROW_COPY_SUCCESS:
       return (0, _extends3.default)({}, state, {
         current: (0, _rowReducer2.default)(state.current, action),
         prev: [],
         next: []
       });
+=======
+var _util = __webpack_require__(142);
+>>>>>>> fix: delivery and payment text and popup fixes
 
     case _actions.HISTORY_PREV:
       return (0, _extends3.default)({}, state, {
@@ -50153,6 +52052,7 @@ var eventNormalizers = [{
       event.which = !isNullOrUndefined(nativeEvent.charCode) ? nativeEvent.charCode : nativeEvent.keyCode;
     }
 
+<<<<<<< HEAD
     // add metaKey to non-Mac browsers (use ctrl for PC 's and Meta for Macs)
     if (event.metaKey === undefined) {
       event.metaKey = event.ctrlKey;
@@ -50179,6 +52079,12 @@ var eventNormalizers = [{
     var wheelDeltaY = nativeEvent.wheelDeltaY;
     var wheelDeltaX = nativeEvent.wheelDeltaX;
     var detail = nativeEvent.detail;
+=======
+  /**
+   * K
+   */
+  K: 75,
+>>>>>>> fix: delivery and payment text and popup fixes
 
     // ie/webkit
     if (wheelDelta) {
@@ -50892,11 +52798,19 @@ var _possibleConstructorReturn3 = _interopRequireDefault(_possibleConstructorRet
 
 var _inherits2 = __webpack_require__(3);
 
+<<<<<<< HEAD
 var _inherits3 = _interopRequireDefault(_inherits2);
+=======
+var _hoistNonReactStatics = __webpack_require__(214);
+>>>>>>> fix: delivery and payment text and popup fixes
 
 var _react = __webpack_require__(0);
 
+<<<<<<< HEAD
 var _react2 = _interopRequireDefault(_react);
+=======
+var _checkDecoratorArguments = __webpack_require__(144);
+>>>>>>> fix: delivery and payment text and popup fixes
 
 var _reactRedux = __webpack_require__(10);
 
@@ -51028,10 +52942,14 @@ Object.defineProperty(exports, "__esModule", {
 });
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 var _toConsumableArray2 = __webpack_require__(41);
 =======
 var _toConsumableArray2 = __webpack_require__(29);
 >>>>>>> feat: add payment and delivery popups
+=======
+var _shallowEqual = __webpack_require__(213);
+>>>>>>> fix: delivery and payment text and popup fixes
 
 var _toConsumableArray3 = _interopRequireDefault(_toConsumableArray2);
 
@@ -51121,7 +53039,11 @@ var actionsTree = _interopRequireWildcard(_actions);
 
 var _actions2 = __webpack_require__(16);
 
+<<<<<<< HEAD
 var actionsTable = _interopRequireWildcard(_actions2);
+=======
+var _hoistNonReactStatics = __webpack_require__(214);
+>>>>>>> fix: delivery and payment text and popup fixes
 
 <<<<<<< HEAD
 var _actions3 = __webpack_require__(402);
@@ -51129,7 +53051,11 @@ var _actions3 = __webpack_require__(402);
 var _actions3 = __webpack_require__(403);
 >>>>>>> feat: add payment and delivery popups
 
+<<<<<<< HEAD
 var actionsCable = _interopRequireWildcard(_actions3);
+=======
+var _shallowEqual = __webpack_require__(213);
+>>>>>>> fix: delivery and payment text and popup fixes
 
 var _actions4 = __webpack_require__(81);
 
@@ -51479,6 +53405,7 @@ var ImageEditor = function (_React$Component) {
         return;
       }
 
+<<<<<<< HEAD
       if (haveMaximumImagesCount) {
         images.splice(0, nextImagesCount - maxLength);
       }
@@ -51899,9 +53826,610 @@ var _RecommendedImagesView = __webpack_require__(448);
 var _RecommendedImagesView2 = _interopRequireDefault(_RecommendedImagesView);
 
 var _constants = __webpack_require__(74);
+=======
+	/* WEBPACK VAR INJECTION */(function(process) {'use strict';
+	
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+	
+	var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
+	
+	var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
+	
+	var _react = __webpack_require__(2);
+	
+	var _react2 = _interopRequireDefault(_react);
+	
+	var _propTypes = __webpack_require__(3);
+	
+	var _propTypes2 = _interopRequireDefault(_propTypes);
+	
+	var _attrAccept = __webpack_require__(4);
+	
+	var _attrAccept2 = _interopRequireDefault(_attrAccept);
+	
+	var _getDataTransferItems = __webpack_require__(5);
+	
+	var _getDataTransferItems2 = _interopRequireDefault(_getDataTransferItems);
+	
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+	
+	function _objectWithoutProperties(obj, keys) { var target = {}; for (var i in obj) { if (keys.indexOf(i) >= 0) continue; if (!Object.prototype.hasOwnProperty.call(obj, i)) continue; target[i] = obj[i]; } return target; }
+	
+	function _toConsumableArray(arr) { if (Array.isArray(arr)) { for (var i = 0, arr2 = Array(arr.length); i < arr.length; i++) { arr2[i] = arr[i]; } return arr2; } else { return Array.from(arr); } }
+	
+	function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
+	
+	function _possibleConstructorReturn(self, call) { if (!self) { throw new ReferenceError("this hasn't been initialised - super() hasn't been called"); } return call && (typeof call === "object" || typeof call === "function") ? call : self; }
+	
+	function _inherits(subClass, superClass) { if (typeof superClass !== "function" && superClass !== null) { throw new TypeError("Super expression must either be null or a function, not " + typeof superClass); } subClass.prototype = Object.create(superClass && superClass.prototype, { constructor: { value: subClass, enumerable: false, writable: true, configurable: true } }); if (superClass) Object.setPrototypeOf ? Object.setPrototypeOf(subClass, superClass) : subClass.__proto__ = superClass; } /* eslint prefer-template: 0 */
+	
+	var supportMultiple = typeof document !== 'undefined' && document && document.createElement ? 'multiple' in document.createElement('input') : true;
+	
+	function fileAccepted(file, accept) {
+	  // Firefox versions prior to 53 return a bogus MIME type for every file drag, so dragovers with
+	  // that MIME type will always be accepted
+	  return file.type === 'application/x-moz-file' || (0, _attrAccept2.default)(file, accept);
+	}
+	
+	var Dropzone = function (_React$Component) {
+	  _inherits(Dropzone, _React$Component);
+	
+	  _createClass(Dropzone, null, [{
+	    key: 'onDocumentDragOver',
+	    value: function onDocumentDragOver(evt) {
+	      // allow the entire document to be a drag target
+	      evt.preventDefault();
+	    }
+	  }]);
+	
+	  function Dropzone(props, context) {
+	    _classCallCheck(this, Dropzone);
+	
+	    var _this = _possibleConstructorReturn(this, (Dropzone.__proto__ || Object.getPrototypeOf(Dropzone)).call(this, props, context));
+	
+	    _this.renderChildren = function (children, isDragActive, isDragReject) {
+	      if (typeof children === 'function') {
+	        return children(_extends({}, _this.state, { isDragActive: isDragActive, isDragReject: isDragReject }));
+	      }
+	      return children;
+	    };
+	
+	    _this.onClick = _this.onClick.bind(_this);
+	    _this.onDocumentDrop = _this.onDocumentDrop.bind(_this);
+	    _this.onDragStart = _this.onDragStart.bind(_this);
+	    _this.onDragEnter = _this.onDragEnter.bind(_this);
+	    _this.onDragLeave = _this.onDragLeave.bind(_this);
+	    _this.onDragOver = _this.onDragOver.bind(_this);
+	    _this.onDrop = _this.onDrop.bind(_this);
+	    _this.onFileDialogCancel = _this.onFileDialogCancel.bind(_this);
+	    _this.setRef = _this.setRef.bind(_this);
+	    _this.setRefs = _this.setRefs.bind(_this);
+	    _this.onInputElementClick = _this.onInputElementClick.bind(_this);
+	    _this.isFileDialogActive = false;
+	    _this.state = {
+	      draggedFiles: [],
+	      acceptedFiles: [],
+	      rejectedFiles: []
+	    };
+	    return _this;
+	  }
+	
+	  _createClass(Dropzone, [{
+	    key: 'componentDidMount',
+	    value: function componentDidMount() {
+	      var preventDropOnDocument = this.props.preventDropOnDocument;
+	
+	      this.dragTargets = [];
+	
+	      if (preventDropOnDocument) {
+	        document.addEventListener('dragover', Dropzone.onDocumentDragOver, false);
+	        document.addEventListener('drop', this.onDocumentDrop, false);
+	      }
+	      this.fileInputEl.addEventListener('click', this.onInputElementClick, false);
+	      // Tried implementing addEventListener, but didn't work out
+	      document.body.onfocus = this.onFileDialogCancel;
+	    }
+	  }, {
+	    key: 'componentWillUnmount',
+	    value: function componentWillUnmount() {
+	      var preventDropOnDocument = this.props.preventDropOnDocument;
+	
+	      if (preventDropOnDocument) {
+	        document.removeEventListener('dragover', Dropzone.onDocumentDragOver);
+	        document.removeEventListener('drop', this.onDocumentDrop);
+	      }
+	      this.fileInputEl.removeEventListener('click', this.onInputElementClick, false);
+	      // Can be replaced with removeEventListener, if addEventListener works
+	      document.body.onfocus = null;
+	    }
+	  }, {
+	    key: 'onDocumentDrop',
+	    value: function onDocumentDrop(evt) {
+	      if (this.node.contains(evt.target)) {
+	        // if we intercepted an event for our instance, let it propagate down to the instance's onDrop handler
+	        return;
+	      }
+	      evt.preventDefault();
+	      this.dragTargets = [];
+	    }
+	  }, {
+	    key: 'onDragStart',
+	    value: function onDragStart(evt) {
+	      if (this.props.onDragStart) {
+	        this.props.onDragStart.call(this, evt);
+	      }
+	    }
+	  }, {
+	    key: 'onDragEnter',
+	    value: function onDragEnter(evt) {
+	      evt.preventDefault();
+	
+	      // Count the dropzone and any children that are entered.
+	      if (this.dragTargets.indexOf(evt.target) === -1) {
+	        this.dragTargets.push(evt.target);
+	      }
+	
+	      this.setState({ draggedFiles: (0, _getDataTransferItems2.default)(evt) });
+	
+	      if (this.props.onDragEnter) {
+	        this.props.onDragEnter.call(this, evt);
+	      }
+	    }
+	  }, {
+	    key: 'onDragOver',
+	    value: function onDragOver(evt) {
+	      // eslint-disable-line class-methods-use-this
+	      evt.preventDefault();
+	      evt.stopPropagation();
+	      try {
+	        evt.dataTransfer.dropEffect = 'copy'; // eslint-disable-line no-param-reassign
+	      } catch (err) {
+	        // continue regardless of error
+	      }
+	
+	      if (this.props.onDragOver) {
+	        this.props.onDragOver.call(this, evt);
+	      }
+	      return false;
+	    }
+	  }, {
+	    key: 'onDragLeave',
+	    value: function onDragLeave(evt) {
+	      var _this2 = this;
+	
+	      evt.preventDefault();
+	
+	      // Only deactivate once the dropzone and all children have been left.
+	      this.dragTargets = this.dragTargets.filter(function (el) {
+	        return el !== evt.target && _this2.node.contains(el);
+	      });
+	      if (this.dragTargets.length > 0) {
+	        return;
+	      }
+	
+	      // Clear dragging files state
+	      this.setState({ draggedFiles: [] });
+	
+	      if (this.props.onDragLeave) {
+	        this.props.onDragLeave.call(this, evt);
+	      }
+	    }
+	  }, {
+	    key: 'onDrop',
+	    value: function onDrop(evt) {
+	      var _this3 = this;
+	
+	      var _props = this.props,
+	          onDrop = _props.onDrop,
+	          onDropAccepted = _props.onDropAccepted,
+	          onDropRejected = _props.onDropRejected,
+	          multiple = _props.multiple,
+	          disablePreview = _props.disablePreview,
+	          accept = _props.accept;
+	
+	      var fileList = (0, _getDataTransferItems2.default)(evt);
+	      var acceptedFiles = [];
+	      var rejectedFiles = [];
+	
+	      // Stop default browser behavior
+	      evt.preventDefault();
+	
+	      // Reset the counter along with the drag on a drop.
+	      this.dragTargets = [];
+	      this.isFileDialogActive = false;
+	
+	      fileList.forEach(function (file) {
+	        if (!disablePreview) {
+	          try {
+	            file.preview = window.URL.createObjectURL(file); // eslint-disable-line no-param-reassign
+	          } catch (err) {
+	            if (process.env.NODE_ENV !== 'production') {
+	              console.error('Failed to generate preview for file', file, err); // eslint-disable-line no-console
+	            }
+	          }
+	        }
+	
+	        if (fileAccepted(file, accept) && _this3.fileMatchSize(file)) {
+	          acceptedFiles.push(file);
+	        } else {
+	          rejectedFiles.push(file);
+	        }
+	      });
+	
+	      if (!multiple) {
+	        // if not in multi mode add any extra accepted files to rejected.
+	        // This will allow end users to easily ignore a multi file drop in "single" mode.
+	        rejectedFiles.push.apply(rejectedFiles, _toConsumableArray(acceptedFiles.splice(1)));
+	      }
+	
+	      if (onDrop) {
+	        onDrop.call(this, acceptedFiles, rejectedFiles, evt);
+	      }
+	
+	      if (rejectedFiles.length > 0 && onDropRejected) {
+	        onDropRejected.call(this, rejectedFiles, evt);
+	      }
+	
+	      if (acceptedFiles.length > 0 && onDropAccepted) {
+	        onDropAccepted.call(this, acceptedFiles, evt);
+	      }
+	
+	      // Clear files value
+	      this.draggedFiles = null;
+	
+	      // Reset drag state
+	      this.setState({
+	        draggedFiles: [],
+	        acceptedFiles: acceptedFiles,
+	        rejectedFiles: rejectedFiles
+	      });
+	    }
+	  }, {
+	    key: 'onClick',
+	    value: function onClick(evt) {
+	      var _props2 = this.props,
+	          onClick = _props2.onClick,
+	          disableClick = _props2.disableClick;
+	
+	      if (!disableClick) {
+	        evt.stopPropagation();
+	
+	        if (onClick) {
+	          onClick.call(this, evt);
+	        }
+	
+	        // in IE11/Edge the file-browser dialog is blocking, ensure this is behind setTimeout
+	        // this is so react can handle state changes in the onClick prop above above
+	        // see: https://github.com/okonet/react-dropzone/issues/450
+	        setTimeout(this.open.bind(this), 0);
+	      }
+	    }
+	  }, {
+	    key: 'onInputElementClick',
+	    value: function onInputElementClick(evt) {
+	      evt.stopPropagation();
+	      if (this.props.inputProps && this.props.inputProps.onClick) {
+	        this.props.inputProps.onClick();
+	      }
+	    }
+	  }, {
+	    key: 'onFileDialogCancel',
+	    value: function onFileDialogCancel() {
+	      // timeout will not recognize context of this method
+	      var onFileDialogCancel = this.props.onFileDialogCancel;
+	      var fileInputEl = this.fileInputEl;
+	      var isFileDialogActive = this.isFileDialogActive;
+	      // execute the timeout only if the onFileDialogCancel is defined and FileDialog
+	      // is opened in the browser
+	
+	      if (onFileDialogCancel && isFileDialogActive) {
+	        setTimeout(function () {
+	          // Returns an object as FileList
+	          var FileList = fileInputEl.files;
+	          if (!FileList.length) {
+	            isFileDialogActive = false;
+	            onFileDialogCancel();
+	          }
+	        }, 300);
+	      }
+	    }
+	  }, {
+	    key: 'setRef',
+	    value: function setRef(ref) {
+	      this.node = ref;
+	    }
+	  }, {
+	    key: 'setRefs',
+	    value: function setRefs(ref) {
+	      this.fileInputEl = ref;
+	    }
+	  }, {
+	    key: 'fileMatchSize',
+	    value: function fileMatchSize(file) {
+	      return file.size <= this.props.maxSize && file.size >= this.props.minSize;
+	    }
+	  }, {
+	    key: 'allFilesAccepted',
+	    value: function allFilesAccepted(files) {
+	      var _this4 = this;
+	
+	      return files.every(function (file) {
+	        return fileAccepted(file, _this4.props.accept);
+	      });
+	    }
+	
+	    /**
+	     * Open system file upload dialog.
+	     *
+	     * @public
+	     */
+	
+	  }, {
+	    key: 'open',
+	    value: function open() {
+	      this.isFileDialogActive = true;
+	      this.fileInputEl.value = null;
+	      this.fileInputEl.click();
+	    }
+	  }, {
+	    key: 'render',
+	    value: function render() {
+	      var _props3 = this.props,
+	          accept = _props3.accept,
+	          activeClassName = _props3.activeClassName,
+	          inputProps = _props3.inputProps,
+	          multiple = _props3.multiple,
+	          name = _props3.name,
+	          rejectClassName = _props3.rejectClassName,
+	          children = _props3.children,
+	          rest = _objectWithoutProperties(_props3, ['accept', 'activeClassName', 'inputProps', 'multiple', 'name', 'rejectClassName', 'children']);
+	
+	      var activeStyle = rest.activeStyle,
+	          className = rest.className,
+	          rejectStyle = rest.rejectStyle,
+	          style = rest.style,
+	          props = _objectWithoutProperties(rest, ['activeStyle', 'className', 'rejectStyle', 'style']);
+	
+	      var draggedFiles = this.state.draggedFiles;
+	
+	      var filesCount = draggedFiles.length;
+	      var isMultipleAllowed = multiple || filesCount <= 1;
+	      var isDragActive = filesCount > 0 && this.allFilesAccepted(draggedFiles);
+	      var isDragReject = filesCount > 0 && (!isDragActive || !isMultipleAllowed);
+	
+	      className = className || '';
+	
+	      if (isDragActive && activeClassName) {
+	        className += ' ' + activeClassName;
+	      }
+	      if (isDragReject && rejectClassName) {
+	        className += ' ' + rejectClassName;
+	      }
+	
+	      if (!className && !style && !activeStyle && !rejectStyle) {
+	        style = {
+	          width: 200,
+	          height: 200,
+	          borderWidth: 2,
+	          borderColor: '#666',
+	          borderStyle: 'dashed',
+	          borderRadius: 5
+	        };
+	        activeStyle = {
+	          borderStyle: 'solid',
+	          borderColor: '#6c6',
+	          backgroundColor: '#eee'
+	        };
+	        rejectStyle = {
+	          borderStyle: 'solid',
+	          borderColor: '#c66',
+	          backgroundColor: '#eee'
+	        };
+	      }
+	
+	      var appliedStyle = void 0;
+	      if (activeStyle && isDragActive) {
+	        appliedStyle = _extends({}, style, activeStyle);
+	      } else if (rejectStyle && isDragReject) {
+	        appliedStyle = _extends({}, style, rejectStyle);
+	      } else {
+	        appliedStyle = _extends({}, style);
+	      }
+	
+	      var inputAttributes = {
+	        accept: accept,
+	        type: 'file',
+	        style: { display: 'none' },
+	        multiple: supportMultiple && multiple,
+	        ref: this.setRefs,
+	        onChange: this.onDrop
+	      };
+	
+	      if (name && name.length) {
+	        inputAttributes.name = name;
+	      }
+	
+	      // Remove custom properties before passing them to the wrapper div element
+	      var customProps = ['acceptedFiles', 'preventDropOnDocument', 'disablePreview', 'disableClick', 'onDropAccepted', 'onDropRejected', 'onFileDialogCancel', 'maxSize', 'minSize'];
+	      var divProps = _extends({}, props);
+	      customProps.forEach(function (prop) {
+	        return delete divProps[prop];
+	      });
+	
+	      return _react2.default.createElement(
+	        'div',
+	        _extends({
+	          className: className,
+	          style: appliedStyle
+	        }, divProps /* expand user provided props first so event handlers are never overridden */, {
+	          onClick: this.onClick,
+	          onDragStart: this.onDragStart,
+	          onDragEnter: this.onDragEnter,
+	          onDragOver: this.onDragOver,
+	          onDragLeave: this.onDragLeave,
+	          onDrop: this.onDrop,
+	          ref: this.setRef
+	        }),
+	        this.renderChildren(children, isDragActive, isDragReject),
+	        _react2.default.createElement('input', _extends({}, inputProps /* expand user provided inputProps first so inputAttributes override them */, inputAttributes))
+	      );
+	    }
+	  }]);
+	
+	  return Dropzone;
+	}(_react2.default.Component);
+	
+	Dropzone.propTypes = {
+	  /**
+	   * Allow specific types of files. See https://github.com/okonet/attr-accept for more information.
+	   * Keep in mind that mime type determination is not reliable accross platforms. CSV files,
+	   * for example, are reported as text/plain under macOS but as application/vnd.ms-excel under
+	   * Windows. In some cases there might not be a mime type set at all.
+	   * See: https://github.com/okonet/react-dropzone/issues/276
+	   */
+	  accept: _propTypes2.default.string,
+	
+	  /**
+	   * Contents of the dropzone
+	   */
+	  children: _propTypes2.default.oneOfType([_propTypes2.default.node, _propTypes2.default.func]),
+	
+	  /**
+	   * Disallow clicking on the dropzone container to open file dialog
+	   */
+	  disableClick: _propTypes2.default.bool,
+	
+	  /**
+	   * Enable/disable preview generation
+	   */
+	  disablePreview: _propTypes2.default.bool,
+	
+	  /**
+	   * If false, allow dropped items to take over the current browser window
+	   */
+	  preventDropOnDocument: _propTypes2.default.bool,
+	
+	  /**
+	   * Pass additional attributes to the `<input type="file"/>` tag
+	   */
+	  inputProps: _propTypes2.default.object,
+	
+	  /**
+	   * Allow dropping multiple files
+	   */
+	  multiple: _propTypes2.default.bool,
+	
+	  /**
+	   * `name` attribute for the input tag
+	   */
+	  name: _propTypes2.default.string,
+	
+	  /**
+	   * Maximum file size
+	   */
+	  maxSize: _propTypes2.default.number,
+	
+	  /**
+	   * Minimum file size
+	   */
+	  minSize: _propTypes2.default.number,
+	
+	  /**
+	   * className
+	   */
+	  className: _propTypes2.default.string,
+	
+	  /**
+	   * className for accepted state
+	   */
+	  activeClassName: _propTypes2.default.string,
+	
+	  /**
+	   * className for rejected state
+	   */
+	  rejectClassName: _propTypes2.default.string,
+	
+	  /**
+	   * CSS styles to apply
+	   */
+	  style: _propTypes2.default.object,
+	
+	  /**
+	   * CSS styles to apply when drop will be accepted
+	   */
+	  activeStyle: _propTypes2.default.object,
+	
+	  /**
+	   * CSS styles to apply when drop will be rejected
+	   */
+	  rejectStyle: _propTypes2.default.object,
+	
+	  /**
+	   * onClick callback
+	   * @param {Event} event
+	   */
+	  onClick: _propTypes2.default.func,
+	
+	  /**
+	   * onDrop callback
+	   */
+	  onDrop: _propTypes2.default.func,
+	
+	  /**
+	   * onDropAccepted callback
+	   */
+	  onDropAccepted: _propTypes2.default.func,
+	
+	  /**
+	   * onDropRejected callback
+	   */
+	  onDropRejected: _propTypes2.default.func,
+	
+	  /**
+	   * onDragStart callback
+	   */
+	  onDragStart: _propTypes2.default.func,
+	
+	  /**
+	   * onDragEnter callback
+	   */
+	  onDragEnter: _propTypes2.default.func,
+	
+	  /**
+	   * onDragOver callback
+	   */
+	  onDragOver: _propTypes2.default.func,
+	
+	  /**
+	   * onDragLeave callback
+	   */
+	  onDragLeave: _propTypes2.default.func,
+	
+	  /**
+	   * Provide a callback on clicking the cancel button of the file dialog
+	   */
+	  onFileDialogCancel: _propTypes2.default.func
+	};
+	
+	Dropzone.defaultProps = {
+	  preventDropOnDocument: true,
+	  disablePreview: false,
+	  disableClick: false,
+	  multiple: true,
+	  maxSize: Infinity,
+	  minSize: 0
+	};
+	
+	exports.default = Dropzone;
+	module.exports = exports['default'];
+	/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
+>>>>>>> fix: delivery and payment text and popup fixes
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
+<<<<<<< HEAD
 var ImageDialogBodyView = function ImageDialogBodyView(props) {
   var addImage = props.addImage,
       haveMaximumImagesCount = props.haveMaximumImagesCount,
@@ -52043,6 +54571,192 @@ var ImageDialogFooterView = function ImageDialogFooterView(_ref) {
     )
   );
 };
+=======
+	// shim for using process in browser
+	var process = module.exports = {};
+	
+	// cached from whatever global is present so that test runners that stub it
+	// don't break things.  But we need to wrap it in a try catch in case it is
+	// wrapped in strict mode code which doesn't define any globals.  It's inside a
+	// function because try/catches deoptimize in certain engines.
+	
+	var cachedSetTimeout;
+	var cachedClearTimeout;
+	
+	function defaultSetTimout() {
+	    throw new Error('setTimeout has not been defined');
+	}
+	function defaultClearTimeout () {
+	    throw new Error('clearTimeout has not been defined');
+	}
+	(function () {
+	    try {
+	        if (typeof setTimeout === 'function') {
+	            cachedSetTimeout = setTimeout;
+	        } else {
+	            cachedSetTimeout = defaultSetTimout;
+	        }
+	    } catch (e) {
+	        cachedSetTimeout = defaultSetTimout;
+	    }
+	    try {
+	        if (typeof clearTimeout === 'function') {
+	            cachedClearTimeout = clearTimeout;
+	        } else {
+	            cachedClearTimeout = defaultClearTimeout;
+	        }
+	    } catch (e) {
+	        cachedClearTimeout = defaultClearTimeout;
+	    }
+	} ())
+	function runTimeout(fun) {
+	    if (cachedSetTimeout === setTimeout) {
+	        //normal enviroments in sane situations
+	        return setTimeout(fun, 0);
+	    }
+	    // if setTimeout wasn't available but was latter defined
+	    if ((cachedSetTimeout === defaultSetTimout || !cachedSetTimeout) && setTimeout) {
+	        cachedSetTimeout = setTimeout;
+	        return setTimeout(fun, 0);
+	    }
+	    try {
+	        // when when somebody has screwed with setTimeout but no I.E. maddness
+	        return cachedSetTimeout(fun, 0);
+	    } catch(e){
+	        try {
+	            // When we are in I.E. but the script has been evaled so I.E. doesn't trust the global object when called normally
+	            return cachedSetTimeout.call(null, fun, 0);
+	        } catch(e){
+	            // same as above but when it's a version of I.E. that must have the global object for 'this', hopfully our context correct otherwise it will throw a global error
+	            return cachedSetTimeout.call(this, fun, 0);
+	        }
+	    }
+	
+	
+	}
+	function runClearTimeout(marker) {
+	    if (cachedClearTimeout === clearTimeout) {
+	        //normal enviroments in sane situations
+	        return clearTimeout(marker);
+	    }
+	    // if clearTimeout wasn't available but was latter defined
+	    if ((cachedClearTimeout === defaultClearTimeout || !cachedClearTimeout) && clearTimeout) {
+	        cachedClearTimeout = clearTimeout;
+	        return clearTimeout(marker);
+	    }
+	    try {
+	        // when when somebody has screwed with setTimeout but no I.E. maddness
+	        return cachedClearTimeout(marker);
+	    } catch (e){
+	        try {
+	            // When we are in I.E. but the script has been evaled so I.E. doesn't  trust the global object when called normally
+	            return cachedClearTimeout.call(null, marker);
+	        } catch (e){
+	            // same as above but when it's a version of I.E. that must have the global object for 'this', hopfully our context correct otherwise it will throw a global error.
+	            // Some versions of I.E. have different rules for clearTimeout vs setTimeout
+	            return cachedClearTimeout.call(this, marker);
+	        }
+	    }
+	
+	
+	
+	}
+	var queue = [];
+	var draining = false;
+	var currentQueue;
+	var queueIndex = -1;
+	
+	function cleanUpNextTick() {
+	    if (!draining || !currentQueue) {
+	        return;
+	    }
+	    draining = false;
+	    if (currentQueue.length) {
+	        queue = currentQueue.concat(queue);
+	    } else {
+	        queueIndex = -1;
+	    }
+	    if (queue.length) {
+	        drainQueue();
+	    }
+	}
+	
+	function drainQueue() {
+	    if (draining) {
+	        return;
+	    }
+	    var timeout = runTimeout(cleanUpNextTick);
+	    draining = true;
+	
+	    var len = queue.length;
+	    while(len) {
+	        currentQueue = queue;
+	        queue = [];
+	        while (++queueIndex < len) {
+	            if (currentQueue) {
+	                currentQueue[queueIndex].run();
+	            }
+	        }
+	        queueIndex = -1;
+	        len = queue.length;
+	    }
+	    currentQueue = null;
+	    draining = false;
+	    runClearTimeout(timeout);
+	}
+	
+	process.nextTick = function (fun) {
+	    var args = new Array(arguments.length - 1);
+	    if (arguments.length > 1) {
+	        for (var i = 1; i < arguments.length; i++) {
+	            args[i - 1] = arguments[i];
+	        }
+	    }
+	    queue.push(new Item(fun, args));
+	    if (queue.length === 1 && !draining) {
+	        runTimeout(drainQueue);
+	    }
+	};
+	
+	// v8 likes predictible objects
+	function Item(fun, array) {
+	    this.fun = fun;
+	    this.array = array;
+	}
+	Item.prototype.run = function () {
+	    this.fun.apply(null, this.array);
+	};
+	process.title = 'browser';
+	process.browser = true;
+	process.env = {};
+	process.argv = [];
+	process.version = ''; // empty string to avoid regexp issues
+	process.versions = {};
+	
+	function noop() {}
+	
+	process.on = noop;
+	process.addListener = noop;
+	process.once = noop;
+	process.off = noop;
+	process.removeListener = noop;
+	process.removeAllListeners = noop;
+	process.emit = noop;
+	process.prependListener = noop;
+	process.prependOnceListener = noop;
+	
+	process.listeners = function (name) { return [] }
+	
+	process.binding = function (name) {
+	    throw new Error('process.binding is not supported');
+	};
+	
+	process.cwd = function () { return '/' };
+	process.chdir = function (dir) {
+	    throw new Error('process.chdir is not supported');
+	};
+	process.umask = function() { return 0; };
+>>>>>>> fix: delivery and payment text and popup fixes
 
 exports.default = ImageDialogFooterView;
 
@@ -52067,15 +54781,56 @@ var _objectWithoutProperties2 = __webpack_require__(179);
 var _objectWithoutProperties2 = __webpack_require__(181);
 >>>>>>> feat: add payment and delivery popups
 
+<<<<<<< HEAD
 var _objectWithoutProperties3 = _interopRequireDefault(_objectWithoutProperties2);
 
 var _react = __webpack_require__(0);
+=======
+	"use strict";
+	
+	Object.defineProperty(exports, "__esModule", {
+	  value: true
+	});
+	exports.default = getDataTransferFiles;
+	function getDataTransferFiles(event) {
+	  var dataTransferItemsList = [];
+	  if (event.dataTransfer) {
+	    var dt = event.dataTransfer;
+	    if (dt.files && dt.files.length) {
+	      dataTransferItemsList = dt.files;
+	    } else if (dt.items && dt.items.length) {
+	      // During the drag even the dataTransfer.files is null
+	      // but Chrome implements some drag store, which is accesible via dataTransfer.items
+	      dataTransferItemsList = dt.items;
+	    }
+	  } else if (event.target && event.target.files) {
+	    dataTransferItemsList = event.target.files;
+	  }
+	  // Convert from DataTransferItemsList to the native Array
+	  return Array.prototype.slice.call(dataTransferItemsList);
+	}
+	module.exports = exports["default"];
+>>>>>>> fix: delivery and payment text and popup fixes
 
 var _react2 = _interopRequireDefault(_react);
 
 var _SelectedImagesContainer = __webpack_require__(442);
 
+<<<<<<< HEAD
 var _SelectedImagesContainer2 = _interopRequireDefault(_SelectedImagesContainer);
+=======
+"use strict";
+/* unused harmony export NOT_ITERATOR_ERROR */
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return CHANNEL_END; });
+/* unused harmony export TASK_CANCEL */
+/* harmony export (immutable) */ __webpack_exports__["b"] = proc;
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__utils__ = __webpack_require__(21);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__scheduler__ = __webpack_require__(216);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__io__ = __webpack_require__(50);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__channel__ = __webpack_require__(58);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__buffers__ = __webpack_require__(89);
+var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
+>>>>>>> fix: delivery and payment text and popup fixes
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -52503,6 +55258,12 @@ exports.default = OptionElement;
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
+<<<<<<< HEAD
+=======
+/* harmony export (immutable) */ __webpack_exports__["a"] = runSaga;
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__utils__ = __webpack_require__(21);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__proc__ = __webpack_require__(397);
+>>>>>>> fix: delivery and payment text and popup fixes
 
 
 Object.defineProperty(exports, "__esModule", {
@@ -52658,7 +55419,17 @@ var _inherits3 = _interopRequireDefault(_inherits2);
 
 var _react = __webpack_require__(0);
 
+<<<<<<< HEAD
 var _react2 = _interopRequireDefault(_react);
+=======
+"use strict";
+/* harmony export (immutable) */ __webpack_exports__["a"] = throttle;
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__fsmIterator__ = __webpack_require__(113);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__io__ = __webpack_require__(50);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__channel__ = __webpack_require__(58);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__buffers__ = __webpack_require__(89);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__utils__ = __webpack_require__(21);
+>>>>>>> fix: delivery and payment text and popup fixes
 
 var _reactRedux = __webpack_require__(10);
 
@@ -53573,7 +56344,11 @@ var _reactRedux = __webpack_require__(10);
 
 var _Dialog = __webpack_require__(80);
 
+<<<<<<< HEAD
 var _Dialog2 = _interopRequireDefault(_Dialog);
+=======
+var _DropDownMenu = __webpack_require__(115);
+>>>>>>> fix: delivery and payment text and popup fixes
 
 var _ProgressCircle = __webpack_require__(172);
 
@@ -53753,7 +56528,11 @@ var _possibleConstructorReturn3 = _interopRequireDefault(_possibleConstructorRet
 
 var _inherits2 = __webpack_require__(3);
 
+<<<<<<< HEAD
 var _inherits3 = _interopRequireDefault(_inherits2);
+=======
+var _objectAssign = __webpack_require__(139);
+>>>>>>> fix: delivery and payment text and popup fixes
 
 var _react = __webpack_require__(0);
 
@@ -54804,10 +57583,14 @@ function updateRows(rows) {
           _context5.next = 3;
           return (0, _effects.select)(getNewRow);
 
+<<<<<<< HEAD
         case 3:
           newRowTemplate = _context5.sent;
           _context5.next = 6;
           return (0, _effects.put)((0, _actions2.updateTableEditorRows)({ rows: rows, new_row: newRowTemplate }));
+=======
+var _imageEditor = __webpack_require__(117);
+>>>>>>> fix: delivery and payment text and popup fixes
 
         case 6:
         case 'end':
@@ -55578,7 +58361,11 @@ var _containers = __webpack_require__(502);
 var _utils = __webpack_require__(7);
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 var _Actions = __webpack_require__(401);
+=======
+var _DropDownMenu = __webpack_require__(115);
+>>>>>>> fix: delivery and payment text and popup fixes
 
 var _Actions2 = _interopRequireDefault(_Actions);
 
@@ -55949,6 +58736,7 @@ var mapDispatchToProps = {
 exports.default = (0, _reactRedux.connect)(mapStateToProps, mapDispatchToProps)(Body);
 
 /***/ }),
+<<<<<<< HEAD
 /* 467 */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -56094,6 +58882,9 @@ exports.default = CheckCell;
 
 /***/ }),
 /* 468 */
+=======
+/* 449 */
+>>>>>>> fix: delivery and payment text and popup fixes
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -56198,6 +58989,7 @@ var CheckRelatedProducts = function (_React$Component) {
       var props = this.props;
       return _react2.default.createElement(
         'div',
+<<<<<<< HEAD
         {
           tabIndex: -1,
           ref: function ref($td) {
@@ -56214,6 +59006,18 @@ var CheckRelatedProducts = function (_React$Component) {
             return item.product.id === _this2.props.cell.id;
           })
         })
+=======
+        { className: b('content-options-line-addresses-block') },
+        _react2.default.createElement('div', {
+          className: 'e-checkbox ' + b('content-options-line-addresses-block-checkbox') + ' ' + checkedClass,
+          onClick: this.changeCheckboxState
+        }),
+        _react2.default.createElement(
+          'div',
+          { className: b('content-options-line-addresses-block-text') },
+          name || 'Новый адрес'
+        )
+>>>>>>> fix: delivery and payment text and popup fixes
       );
     }
   }]);
@@ -56322,6 +59126,7 @@ var Exists = function (_React$Component) {
 
       return _react2.default.createElement(
         'div',
+<<<<<<< HEAD
         {
           tabIndex: -1,
           ref: function ref($td) {
@@ -56330,6 +59135,56 @@ var Exists = function (_React$Component) {
           className: b('cell').is((0, _defineProperty3.default)({ focus: props.cell.isFocus }, props.cell.classMix, true))
         },
         existenceText
+=======
+        { className: b('content-options-line') },
+        _react2.default.createElement(
+          'div',
+          { className: b('content-options-line-control') },
+          _react2.default.createElement('button', {
+            className: b('content-options-line-control-button') + ' ' + (isOptionActive && 'is-option-button-active'),
+            onClick: this.changeOptionState
+          }),
+          _react2.default.createElement(
+            'div',
+            { className: b('content-options-line-control-text') },
+            name
+          )
+        ),
+        isAddressesVisible && _react2.default.createElement(
+          'div',
+          { className: b('content-options-line-addresses') },
+          addresses.map(function (address, i) {
+            return _react2.default.createElement(_CheckboxElement2.default, {
+              name: address.name,
+              selected: address.selected,
+              index: i,
+              optionIndex: index,
+              handleDataChange: handleDataChange,
+              key: address.id
+            });
+          }),
+          addresses.map(function (address, i) {
+            return _react2.default.createElement(_CheckboxElement2.default, {
+              name: address.name,
+              selected: address.selected,
+              index: i,
+              optionIndex: index,
+              handleDataChange: handleDataChange,
+              key: address.id
+            });
+          }),
+          addresses.map(function (address, i) {
+            return _react2.default.createElement(_CheckboxElement2.default, {
+              name: address.name,
+              selected: address.selected,
+              index: i,
+              optionIndex: index,
+              handleDataChange: handleDataChange,
+              key: address.id
+            });
+          })
+        )
+>>>>>>> fix: delivery and payment text and popup fixes
       );
     }
   }]);
@@ -56377,15 +59232,23 @@ var _propTypes = __webpack_require__(6);
 
 var _propTypes2 = _interopRequireDefault(_propTypes);
 
+<<<<<<< HEAD
 var _isEqual2 = __webpack_require__(12);
+=======
+var _rcSelect = __webpack_require__(171);
+>>>>>>> fix: delivery and payment text and popup fixes
 
 var _isEqual3 = _interopRequireDefault(_isEqual2);
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 var _DropDownMenu = __webpack_require__(115);
 =======
 var _DropDownMenu = __webpack_require__(148);
 >>>>>>> feat: add payment and delivery popups
+=======
+var _ComboSelect = __webpack_require__(172);
+>>>>>>> fix: delivery and payment text and popup fixes
 
 var _DropDownMenu2 = _interopRequireDefault(_DropDownMenu);
 
@@ -56600,7 +59463,11 @@ var _TouchEditTool = __webpack_require__(251);
 
 var _TouchEditTool2 = _interopRequireDefault(_TouchEditTool);
 
+<<<<<<< HEAD
 var _DragTool = __webpack_require__(250);
+=======
+var _actions = __webpack_require__(126);
+>>>>>>> fix: delivery and payment text and popup fixes
 
 var _DragTool2 = _interopRequireDefault(_DragTool);
 
@@ -56677,10 +59544,17 @@ var ImageCell = function (_Component) {
     }, _temp), (0, _possibleConstructorReturn3.default)(_this, _ret);
   }
 
+<<<<<<< HEAD
   (0, _createClass3.default)(ImageCell, [{
     key: 'shouldComponentUpdate',
     value: function shouldComponentUpdate(nextProps) {
       return !(0, _isEqual3.default)(this.props, nextProps);
+=======
+  (0, _createClass3.default)(PaymentDeliveryPopup, [{
+    key: 'componentWillUnmount',
+    value: function componentWillUnmount() {
+      document.querySelector('body').classList.remove('not-scrollable');
+>>>>>>> fix: delivery and payment text and popup fixes
     }
   }, {
     key: 'render',
@@ -56736,6 +59610,7 @@ var ImageCell = function (_Component) {
             return e.preventDefault;
           }
         },
+<<<<<<< HEAD
         duringSavingProductGroupImages && productGroupId === id ? _react2.default.createElement(_Preloader2.default, null) : img,
         isLast && !isTouchDevice && _react2.default.createElement(_DragTool2.default, {
           onMouseDown: handleDrag
@@ -56747,6 +59622,149 @@ var ImageCell = function (_Component) {
           title: '\u0412\u044B\u043F\u043E\u043B\u043D\u044F\u0435\u0442\u0441\u044F \u043A\u043E\u043F\u0438\u0440\u043E\u0432\u0430\u043D\u0438\u0435 \u0438\u0437\u043E\u0431\u0440\u0430\u0436\u0435\u043D\u0438\u0439',
           className: b('loader')
         })
+=======
+        _react2.default.createElement(
+          'div',
+          { className: b('content'), ref: this.setPopupRef },
+          _react2.default.createElement(
+            'div',
+            { className: b('content-titles') },
+            _react2.default.createElement(
+              'div',
+              { className: b('content-titles-title') },
+              '\u041D\u0430\u0441\u0442\u0440\u043E\u0438\u0442\u044C \u0443\u0441\u043B\u043E\u0432\u0438\u044F ',
+              mainDiffText
+            ),
+            _react2.default.createElement(
+              'div',
+              { className: b('content-titles-name') },
+              '\u041D\u0430\u0437\u0432\u0430\u043D\u0438\u0435 \u0442\u043E\u0432\u0430\u0440\u043D\u043E\u0439 \u0433\u0440\u0443\u043F\u043F\u044B'
+            )
+          ),
+          _react2.default.createElement(
+            'div',
+            { className: b('content-hint') },
+            _react2.default.createElement(
+              'span',
+              null,
+              hintDiffText
+            )
+          ),
+          _react2.default.createElement(
+            'div',
+            { className: b('content-options') },
+            isEmptyData && _react2.default.createElement(
+              'h3',
+              null,
+              '\u0423\u0441\u043B\u043E\u0432\u0438\u0439 ',
+              mainDiffText,
+              ' \u043D\u0435\u0442'
+            ),
+            this.state.changingDataToSend.map(function (_ref2, index) {
+              var name = _ref2.name,
+                  id = _ref2.id,
+                  selected = _ref2.selected,
+                  _ref2$addresses = _ref2.addresses,
+                  addresses = _ref2$addresses === undefined ? [] : _ref2$addresses;
+              return _react2.default.createElement(_OptionElement2.default, {
+                name: name,
+                selected: selected,
+                index: index,
+                handleDataChange: _this2.handleDataChange,
+                addresses: addresses,
+                key: id
+              });
+            }),
+            this.state.changingDataToSend.map(function (_ref3, index) {
+              var name = _ref3.name,
+                  id = _ref3.id,
+                  selected = _ref3.selected,
+                  _ref3$addresses = _ref3.addresses,
+                  addresses = _ref3$addresses === undefined ? [] : _ref3$addresses;
+              return _react2.default.createElement(_OptionElement2.default, {
+                name: name,
+                selected: selected,
+                index: index,
+                handleDataChange: _this2.handleDataChange,
+                addresses: addresses,
+                key: id
+              });
+            }),
+            this.state.changingDataToSend.map(function (_ref4, index) {
+              var name = _ref4.name,
+                  id = _ref4.id,
+                  selected = _ref4.selected,
+                  _ref4$addresses = _ref4.addresses,
+                  addresses = _ref4$addresses === undefined ? [] : _ref4$addresses;
+              return _react2.default.createElement(_OptionElement2.default, {
+                name: name,
+                selected: selected,
+                index: index,
+                handleDataChange: _this2.handleDataChange,
+                addresses: addresses,
+                key: id
+              });
+            }),
+            this.state.changingDataToSend.map(function (_ref5, index) {
+              var name = _ref5.name,
+                  id = _ref5.id,
+                  selected = _ref5.selected,
+                  _ref5$addresses = _ref5.addresses,
+                  addresses = _ref5$addresses === undefined ? [] : _ref5$addresses;
+              return _react2.default.createElement(_OptionElement2.default, {
+                name: name,
+                selected: selected,
+                index: index,
+                handleDataChange: _this2.handleDataChange,
+                addresses: addresses,
+                key: id
+              });
+            })
+          ),
+          _react2.default.createElement(
+            'div',
+            { className: b('content-extra-link') },
+            _react2.default.createElement(
+              'a',
+              {
+                href: app.config.paymentDeliveryUrl,
+                target: '_blank',
+                rel: 'noopener noreferrer'
+              },
+              '\u0414\u043E\u0431\u0430\u0432\u0438\u0442\u044C \u0438\u043B\u0438 \u0438\u0437\u043C\u0435\u043D\u0438\u0442\u044C \u0441\u043F\u043E\u0441\u043E\u0431\u044B ',
+              mainDiffText
+            )
+          ),
+          _react2.default.createElement(
+            'div',
+            { className: b('content-buttons') },
+            !isEmptyData && _react2.default.createElement(
+              'button',
+              {
+                className: b('content-buttons-save'),
+                onClick: this.handleSave
+              },
+              '\u0421\u043E\u0445\u0440\u0430\u043D\u0438\u0442\u044C'
+            ),
+            _react2.default.createElement(
+              'button',
+              {
+                className: b('content-buttons-cancel'),
+                onClick: function onClick() {
+                  return _this2.props.showPaymentDeliveryPopup();
+                }
+              },
+              isEmptyData ? 'Закрыть' : 'Отмена'
+            )
+          ),
+          _react2.default.createElement('button', {
+            className: b('content-close'),
+            onClick: function onClick() {
+              return _this2.props.showPaymentDeliveryPopup();
+            }
+          })
+        )
+>>>>>>> fix: delivery and payment text and popup fixes
       );
     }
   }]);
@@ -56821,7 +59839,11 @@ var _getPrototypeOf2 = _interopRequireDefault(_getPrototypeOf);
 
 var _classCallCheck2 = __webpack_require__(2);
 
+<<<<<<< HEAD
 var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
+=======
+var _actions = __webpack_require__(126);
+>>>>>>> fix: delivery and payment text and popup fixes
 
 var _createClass2 = __webpack_require__(5);
 
@@ -57054,7 +60076,29 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
+<<<<<<< HEAD
 var _propTypes = __webpack_require__(6);
+=======
+var _reactRedux = __webpack_require__(10);
+
+var _Dialog = __webpack_require__(80);
+
+var _Dialog2 = _interopRequireDefault(_Dialog);
+
+var _ProgressCircle = __webpack_require__(173);
+
+var _ProgressCircle2 = _interopRequireDefault(_ProgressCircle);
+
+var _Checkbox = __webpack_require__(79);
+
+var _Checkbox2 = _interopRequireDefault(_Checkbox);
+
+var _Button = __webpack_require__(73);
+
+var _Button2 = _interopRequireDefault(_Button);
+
+var _actions = __webpack_require__(41);
+>>>>>>> fix: delivery and payment text and popup fixes
 
 var _propTypes2 = _interopRequireDefault(_propTypes);
 
@@ -57217,7 +60261,25 @@ var _react2 = _interopRequireDefault(_react);
 
 var _reactRedux = __webpack_require__(10);
 
+<<<<<<< HEAD
 var _isEqual2 = __webpack_require__(12);
+=======
+var _Dialog = __webpack_require__(80);
+
+var _Dialog2 = _interopRequireDefault(_Dialog);
+
+var _ProgressCircle = __webpack_require__(173);
+
+var _ProgressCircle2 = _interopRequireDefault(_ProgressCircle);
+
+var _Button = __webpack_require__(73);
+
+var _Button2 = _interopRequireDefault(_Button);
+
+var _actions = __webpack_require__(55);
+
+var remove = _interopRequireWildcard(_actions);
+>>>>>>> fix: delivery and payment text and popup fixes
 
 var _isEqual3 = _interopRequireDefault(_isEqual2);
 
@@ -57367,7 +60429,11 @@ var _propTypes2 = _interopRequireDefault(_propTypes);
 
 var _reactRedux = __webpack_require__(10);
 
+<<<<<<< HEAD
 var _isEqual2 = __webpack_require__(12);
+=======
+var _ProgressCircle = __webpack_require__(173);
+>>>>>>> fix: delivery and payment text and popup fixes
 
 var _isEqual3 = _interopRequireDefault(_isEqual2);
 
@@ -58041,11 +61107,15 @@ function loadTableData(action) {
           _context.next = 6;
           return (0, _effects.put)({ type: _actions2.CONFIG_SET_SCENARIO, payload: scenario });
 
+<<<<<<< HEAD
         case 6:
           if (!action.payload.config) {
             _context.next = 10;
             break;
           }
+=======
+var _reduxSaga = __webpack_require__(125);
+>>>>>>> fix: delivery and payment text and popup fixes
 
           _context.t0 = action.payload.config;
           _context.next = 13;
@@ -58726,7 +61796,33 @@ var _inherits2 = __webpack_require__(3);
 
 var _inherits3 = _interopRequireDefault(_inherits2);
 
+<<<<<<< HEAD
 var _import = __webpack_require__(62);
+=======
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _rcDropdown = __webpack_require__(141);
+
+var _rcDropdown2 = _interopRequireDefault(_rcDropdown);
+
+var _reactRedux = __webpack_require__(10);
+
+var _utils = __webpack_require__(7);
+
+var _SetItem = __webpack_require__(462);
+
+var _SetItem2 = _interopRequireDefault(_SetItem);
+
+var _actions = __webpack_require__(116);
+
+__webpack_require__(604);
+
+__webpack_require__(603);
+
+__webpack_require__(605);
+>>>>>>> fix: delivery and payment text and popup fixes
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -58922,10 +62018,14 @@ var TreeItem = function (_Component) {
   return TreeItem;
 }(_import.Component);
 
+<<<<<<< HEAD
 TreeItem.propTypes = {
   connectDragSource: _import.PropTypes.func.isRequired,
   connectDragPreview: _import.PropTypes.func.isRequired,
   connectDropTarget: _import.PropTypes.func.isRequired,
+=======
+var _actions = __webpack_require__(116);
+>>>>>>> fix: delivery and payment text and popup fixes
 
   moveStart: _import.PropTypes.func.isRequired,
   moveStep: _import.PropTypes.func.isRequired,
@@ -59039,11 +62139,19 @@ var _classCallCheck2 = __webpack_require__(2);
 
 var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
 
+<<<<<<< HEAD
 var _createClass2 = __webpack_require__(5);
+=======
+var _reduxSaga = __webpack_require__(125);
+>>>>>>> fix: delivery and payment text and popup fixes
 
 var _createClass3 = _interopRequireDefault(_createClass2);
 
+<<<<<<< HEAD
 var _possibleConstructorReturn2 = __webpack_require__(4);
+=======
+var _actions = __webpack_require__(116);
+>>>>>>> fix: delivery and payment text and popup fixes
 
 var _possibleConstructorReturn3 = _interopRequireDefault(_possibleConstructorReturn2);
 
@@ -59215,7 +62323,11 @@ Object.defineProperty(exports, "__esModule", {
 
 var _extends2 = __webpack_require__(9);
 
+<<<<<<< HEAD
 var _extends3 = _interopRequireDefault(_extends2);
+=======
+var _rcTrigger = __webpack_require__(211);
+>>>>>>> fix: delivery and payment text and popup fixes
 
 <<<<<<< HEAD
 var _toConsumableArray2 = __webpack_require__(41);
@@ -59300,6 +62412,7 @@ var deleteNode = function deleteNode(state, id) {
         if (childNode.moveNode) {
           moveNode = childNode.moveNode;
 
+<<<<<<< HEAD
           newNode = (0, _extends3.default)({}, newNode, {
             expandable: !!newNode.tree_nodes.length,
             items_count: newNode['items_count'] - moveNode['items_count']
@@ -59310,6 +62423,11 @@ var deleteNode = function deleteNode(state, id) {
       newState = [].concat((0, _toConsumableArray3.default)(newState), [newNode]);
     }
   });
+=======
+var _imageEditor = __webpack_require__(117);
+
+var _actions2 = __webpack_require__(41);
+>>>>>>> fix: delivery and payment text and popup fixes
 
   return {
     newState: newState,
@@ -59317,10 +62435,14 @@ var deleteNode = function deleteNode(state, id) {
   };
 };
 
+<<<<<<< HEAD
 var addNode = function addNode(state, hover, currentNode) {
   var newState = [];
   var isAdd = false;
   var position = void 0;
+=======
+var _actions3 = __webpack_require__(126);
+>>>>>>> fix: delivery and payment text and popup fixes
 
   state.forEach(function (node, index) {
     var newNode = (0, _extends3.default)({}, node);
@@ -59438,6 +62560,7 @@ function tree() {
         filter: action.payload || state.filter
       });
 
+<<<<<<< HEAD
     case TREE_LOAD_SUCCESS:
       {
         if (state.tmpSelectedNode) {
@@ -59450,6 +62573,25 @@ function tree() {
             tmpSelectedNode: null
           });
         }
+=======
+      setRejectedFiles({ rejectedFiles: rejectedFiles });
+
+      if (existedImages.length + unsavedImages.length <= maxLength && !rejectedFiles.length) {
+        saveProductGroupImages({ existedImages: existedImages, unsavedImages: unsavedImages });
+      } else {
+        showImageEditor();
+      }
+    }, _this.renderCell = function (row, rowId, cell, columnIndex, rowIndex) {
+      var _this$props2 = _this.props,
+          placeholder = _this$props2.placeholder,
+          config = _this$props2.config,
+          actions = _this$props2.actions,
+          table = _this$props2.table,
+          readonly = _this$props2.readonly,
+          isTouchDevice = _this$props2.isTouchDevice;
+      var focus = table.focus,
+          selected = table.selected;
+>>>>>>> fix: delivery and payment text and popup fixes
 
         return (0, _extends3.default)({}, state, {
           data: action.payload,
@@ -59457,10 +62599,66 @@ function tree() {
         });
       }
 
+<<<<<<< HEAD
     case TREE_UPDATE_SUCCESS:
       return (0, _extends3.default)({}, state, {
         data: state.data.map(function (node) {
           return treeNode(node, action);
+=======
+      var componentsCell = {
+        text: _react2.default.createElement(_cellsWithDragging.TextWithDragging, {
+          key: key,
+          cell: dataRow,
+          setData: actions.setText
+        }),
+        check: _react2.default.createElement(_cellsWithDragging.CheckWithDragging, {
+          key: key,
+          cell: dataRow,
+          setCheck: actions.setCheck,
+          checked: _this.isRowChecked(rowId)
+        }),
+        img: _react2.default.createElement(_cellsWithDragging.ImageWithDragging, {
+          key: key,
+          cell: dataRow,
+          row: row
+        }),
+        path: _react2.default.createElement(_cellsWithDragging.PathWithDragging, {
+          key: key,
+          cell: dataRow
+        }),
+        price: _react2.default.createElement(_Price2.default, {
+          key: key,
+          cell: dataRow
+        }),
+        paymentDelivery: _react2.default.createElement(_cellsWithDragging.PaymentDeliveryWithDragging, {
+          key: key,
+          cell: dataRow,
+          row: row
+        }),
+        exists: _react2.default.createElement(_Exists2.default, {
+          key: key,
+          cell: dataRow
+        }),
+        check_related_products: _react2.default.createElement(_CheckRelatedProducts2.default, {
+          key: key,
+          cell: dataRow,
+          actions: actions.relatedProducts
+        }),
+        select: _react2.default.createElement(_containers.SelectCellContainer, {
+          key: key,
+          cell: dataRow,
+          options: traitFiltersDisplayingOptions,
+          activeOption: traitFiltersDisplayingOptions.find(function (option) {
+            return option.value === dataRow.data.common.enabled;
+          }),
+          handleSelect: actions.setTraitFiltersDisplaying
+        }),
+        product_properties_popup: _react2.default.createElement(_containers.PopupProportiesCellContainer, {
+          key: key,
+          cell: dataRow
+          // activeOption={this.returnCellTextProporties(dataRow)}
+          , handleSelect: actions.setProductProportiesDisplaying
+>>>>>>> fix: delivery and payment text and popup fixes
         })
       });
 
@@ -59479,9 +62677,55 @@ function tree() {
           data: state.data.map(function (node) {
             return treeNode(node, action);
           }),
+<<<<<<< HEAD
           tmpSelectedNode: action.payload
         });
       }
+=======
+          popupAlign: {
+            points: ['cl', 'cl'],
+            destroyPopupOnHide: true,
+            offset: [-12, 0],
+            overflow: {
+              adjustX: false,
+              adjustY: false
+            }
+          }
+        },
+        rowHtml
+      );
+    }, _temp), (0, _possibleConstructorReturn3.default)(_this, _ret);
+  }
+
+  (0, _createClass3.default)(Body, [{
+    key: 'shouldComponentUpdate',
+    value: function shouldComponentUpdate(nextProps, nextState) {
+      return !(0, _isEqual3.default)(this.props, nextProps) || !(0, _isEqual3.default)(this.state, nextState);
+    }
+
+    /* returnCellTextProporties = (dataRow) => {
+      const str = [];
+      Object.keys(dataRow.data.common).forEach((item) => {
+        if (app.config.productPropertiesMeasure[item]) {
+          str.push(`${dataRow.data.common[item]}(${app.config.productPropertiesMeasure[item].measure})`);
+        }
+      });
+      return str.join(' x ');
+    } */
+
+  }, {
+    key: 'render',
+    value: function render() {
+      return _react2.default.createElement(
+        'div',
+        { className: b('body') },
+        this.props.table.rows.map(this.renderRow)
+      );
+    }
+  }]);
+  return Body;
+}(_react.Component);
+>>>>>>> fix: delivery and payment text and popup fixes
 
     case TREE_SET_EXPANDED:
       return (0, _extends3.default)({}, state, {
@@ -60040,8 +63284,12 @@ __webpack_require__(610);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
+<<<<<<< HEAD
 function PreloaderView(_ref) {
   var mix = _ref.mix;
+=======
+var _DropDownMenu = __webpack_require__(115);
+>>>>>>> fix: delivery and payment text and popup fixes
 
   return _react2.default.createElement('div', { className: (0, _classnames2.default)('preloader', mix) });
 }
@@ -60170,10 +63418,14 @@ Object.defineProperty(exports, "__esModule", {
 });
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 var _getOwnPropertyNames = __webpack_require__(517);
 =======
 var _getOwnPropertyNames = __webpack_require__(523);
 >>>>>>> feat: add payment and delivery popups
+=======
+var _imageEditor = __webpack_require__(117);
+>>>>>>> fix: delivery and payment text and popup fixes
 
 var _getOwnPropertyNames2 = _interopRequireDefault(_getOwnPropertyNames);
 
@@ -60304,10 +63556,24 @@ var _react = __webpack_require__(0);
 var _react2 = _interopRequireDefault(_react);
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 var _views = __webpack_require__(252);
 =======
 var _views = __webpack_require__(254);
 >>>>>>> feat: add payment and delivery popups
+=======
+var _propTypes = __webpack_require__(6);
+
+var _propTypes2 = _interopRequireDefault(_propTypes);
+
+var _rcDropdown = __webpack_require__(141);
+
+var _rcDropdown2 = _interopRequireDefault(_rcDropdown);
+
+var _isEqual2 = __webpack_require__(12);
+
+var _isEqual3 = _interopRequireDefault(_isEqual2);
+>>>>>>> fix: delivery and payment text and popup fixes
 
 var _propTypes = __webpack_require__(127);
 
@@ -60407,7 +63673,11 @@ var _views = __webpack_require__(252);
 var _views = __webpack_require__(254);
 >>>>>>> feat: add payment and delivery popups
 
+<<<<<<< HEAD
 var _propTypes = __webpack_require__(127);
+=======
+var _actions = __webpack_require__(126);
+>>>>>>> fix: delivery and payment text and popup fixes
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -60439,8 +63709,15 @@ var SelectCellContainer = function (_Component) {
         return value === String(opt.value);
       });
 
+<<<<<<< HEAD
       _this.setEditState(false);
       handleSelect(id, option.value);
+=======
+      _this.props.sendDataToPaymentDeliveryPopup(id, common, name);
+      _this.props.showPaymentDeliveryPopup(true);
+
+      document.querySelector('body').classList.add('not-scrollable');
+>>>>>>> fix: delivery and payment text and popup fixes
     }, _temp), (0, _possibleConstructorReturn3.default)(_this, _ret);
   }
 
@@ -61075,7 +64352,17 @@ var _react2 = _interopRequireDefault(_react);
 
 var _reactRedux = __webpack_require__(10);
 
+<<<<<<< HEAD
 var _propTypes = __webpack_require__(6);
+=======
+var _redux = __webpack_require__(54);
+
+var _rcDropdown = __webpack_require__(141);
+
+var _rcDropdown2 = _interopRequireDefault(_rcDropdown);
+
+var _isEqual2 = __webpack_require__(12);
+>>>>>>> fix: delivery and payment text and popup fixes
 
 var _propTypes2 = _interopRequireDefault(_propTypes);
 
@@ -64970,8 +68257,12 @@ var DragSource = function () {
 		value: function endDrag() {}
 	}]);
 
+<<<<<<< HEAD
 	return DragSource;
 }();
+=======
+var _rcSelect = __webpack_require__(171);
+>>>>>>> fix: delivery and payment text and popup fixes
 
 exports.default = DragSource;
 
@@ -64980,10 +68271,14 @@ exports.default = DragSource;
 /***/ (function(module, exports, __webpack_require__) {
 =======
 
+<<<<<<< HEAD
 cssAnimation.style = function (node, style, callback) {
   if (node.rcEndListener) {
     node.rcEndListener();
   }
+=======
+var _ComboSelect = __webpack_require__(172);
+>>>>>>> fix: delivery and payment text and popup fixes
 
   node.rcEndListener = function (e) {
     if (e && e.target !== node) {
@@ -66038,9 +69333,13 @@ function ownKeys(object, enumerableOnly) {
   return keys;
 }
 
+<<<<<<< HEAD
 function _objectSpread2(target) {
   for (var i = 1; i < arguments.length; i++) {
     var source = arguments[i] != null ? arguments[i] : {};
+=======
+var _reduxSaga = __webpack_require__(125);
+>>>>>>> fix: delivery and payment text and popup fixes
 
     if (i % 2) {
       ownKeys(source, true).forEach(function (key) {
@@ -66807,8 +70106,12 @@ function css(el, name, v) {
     return undefined;
   }
 
+<<<<<<< HEAD
   return getComputedStyleX(el, name);
 }
+=======
+var _imageEditor = __webpack_require__(117);
+>>>>>>> fix: delivery and payment text and popup fixes
 
 function getClientPosition(elem) {
   var box;
@@ -67029,9 +70332,13 @@ function getDocument(node) {
     return node.document;
   }
 
+<<<<<<< HEAD
   if (node.nodeType === 9) {
     return node;
   }
+=======
+var _reduxSaga = __webpack_require__(125);
+>>>>>>> fix: delivery and payment text and popup fixes
 
   return node.ownerDocument;
 }
@@ -67238,6 +70545,7 @@ function setOffset(elem, offset, option) {
     }
   }
 
+<<<<<<< HEAD
   if (option.useCssRight || option.useCssBottom) {
     setLeftTop(elem, offset, option);
   } else if (option.useCssTransform && getTransformName() in document.body.style) {
@@ -67246,6 +70554,12 @@ function setOffset(elem, offset, option) {
     setLeftTop(elem, offset, option);
   }
 }
+=======
+__webpack_require__(130);
+__webpack_require__(102);
+module.exports = __webpack_require__(534);
+
+>>>>>>> fix: delivery and payment text and popup fixes
 
 function each(arr, fn) {
   for (var i = 0; i < arr.length; i++) {
@@ -67254,7 +70568,14 @@ function each(arr, fn) {
 =======
 var _dragOperation = __webpack_require__(580);
 
+<<<<<<< HEAD
 var _dragOperation2 = _interopRequireDefault(_dragOperation);
+=======
+__webpack_require__(130);
+__webpack_require__(102);
+module.exports = __webpack_require__(535);
+
+>>>>>>> fix: delivery and payment text and popup fixes
 
 var _refCount = __webpack_require__(582);
 
@@ -67419,10 +70740,21 @@ function getWH(elem, name, ex) {
   var borderBoxValueOrIsBorderBox = borderBoxValue !== undefined || isBorderBox;
   var val = borderBoxValue || cssBoxValue;
 
+<<<<<<< HEAD
   if (extra === CONTENT_INDEX) {
     if (borderBoxValueOrIsBorderBox) {
       return val - getPBMWidth(elem, ['border', 'padding'], which);
     }
+=======
+var ctx = __webpack_require__(119);
+var $export = __webpack_require__(30);
+var toObject = __webpack_require__(51);
+var call = __webpack_require__(532);
+var isArrayIter = __webpack_require__(531);
+var toLength = __webpack_require__(184);
+var createProperty = __webpack_require__(530);
+var getIterFn = __webpack_require__(289);
+>>>>>>> fix: delivery and payment text and popup fixes
 
     return cssBoxValue;
   } else if (borderBoxValueOrIsBorderBox) {
@@ -67460,6 +70792,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = refCount;
 
+<<<<<<< HEAD
 var _registry = __webpack_require__(132);
 
 function refCount() {
@@ -67477,6 +70810,8 @@ function refCount() {
 			return state;
 	}
 }
+=======
+>>>>>>> fix: delivery and payment text and popup fixes
 
 /***/ }),
 /* 583 */
@@ -67501,6 +70836,18 @@ function stateId() {
 
 "use strict";
 
+<<<<<<< HEAD
+=======
+var _assign = __webpack_require__(139);
+
+// -- Inlined from fbjs --
+
+var emptyObject = {};
+
+if (false) {
+  Object.freeze(emptyObject);
+}
+>>>>>>> fix: delivery and payment text and popup fixes
 
 Object.defineProperty(exports, "__esModule", {
 	value: true
@@ -68877,7 +72224,11 @@ function scrollIntoView(elem, container, config) {
   var offsetBottom = config.offsetBottom || 0;
   var offsetRight = config.offsetRight || 0;
 
+<<<<<<< HEAD
   allowHorizontalScroll = allowHorizontalScroll === undefined ? true : allowHorizontalScroll;
+=======
+var _dragDrop = __webpack_require__(133);
+>>>>>>> fix: delivery and payment text and popup fixes
 
   var isWin = util.isWindow(container);
   var elemOffset = util.offset(elem);
@@ -69631,10 +72982,14 @@ function getOffsetParent(element) {
   for (parent = getParent(element); parent && parent !== body && parent.nodeType !== 9; parent = getParent(parent)) {
     positionStyle = utils.css(parent, 'position');
 
+<<<<<<< HEAD
     if (positionStyle !== 'static') {
       return parent;
     }
   }
+=======
+var _registry = __webpack_require__(134);
+>>>>>>> fix: delivery and payment text and popup fixes
 
   return null;
 }
@@ -69981,11 +73336,17 @@ function doAlign(el, tgtRegion, align, isTgtRegionVisible) {
 /* 589 */
 /***/ (function(module, exports) {
 
+<<<<<<< HEAD
 // removed by extract-text-webpack-plugin
 
 /***/ }),
 /* 590 */
 /***/ (function(module, exports) {
+=======
+var _dragDrop = __webpack_require__(133);
+
+var _registry = __webpack_require__(134);
+>>>>>>> fix: delivery and payment text and popup fixes
 
 // removed by extract-text-webpack-plugin
 
@@ -70077,7 +73438,11 @@ function doAlign(el, tgtRegion, align, isTgtRegionVisible) {
 /* 603 */
 /***/ (function(module, exports) {
 
+<<<<<<< HEAD
 // removed by extract-text-webpack-plugin
+=======
+var _registry = __webpack_require__(134);
+>>>>>>> fix: delivery and payment text and popup fixes
 
 /***/ }),
 /* 604 */
@@ -71536,6 +74901,28 @@ var union = baseRest(function(arrays) {
 
 module.exports = union;
 
+<<<<<<< HEAD
+=======
+function doAlign(el, tgtRegion, align, isTgtRegionVisible) {
+  var points = align.points;
+  var offset = align.offset || [0, 0];
+  var targetOffset = align.targetOffset || [0, 0];
+  var overflow = align.overflow;
+  var source = align.source || el;
+  offset = [].concat(offset);
+  targetOffset = [].concat(targetOffset);
+  overflow = overflow || {};
+  var newOverflowCfg = {};
+  var fail = 0;
+  var alwaysByViewport = !!(overflow && overflow.alwaysByViewport); // 当前节点可以被放置的显示区域
+
+  var visibleRect = getVisibleRectForElement(source, alwaysByViewport); // 当前节点所占的区域, left/top/width/height
+
+  var elRegion = getRegion(source); // 将 offset 转换成数值，支持百分比
+
+  normalizeOffset(offset, elRegion);
+  normalizeOffset(targetOffset, tgtRegion); // 当前节点将要被放置的位置
+>>>>>>> fix: delivery and payment text and popup fixes
 
 /***/ }),
 /* 634 */
@@ -71692,6 +75079,7 @@ var Align = function (_Component) {
           result = __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_7_dom_align__["b" /* alignPoint */])(source, point, align);
         }
 
+<<<<<<< HEAD
         __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_9__util__["a" /* restoreFocus */])(activeElement, source);
 
         if (onAlign) {
@@ -71700,6 +75088,9 @@ var Align = function (_Component) {
       }
     }, _temp), __WEBPACK_IMPORTED_MODULE_2_babel_runtime_helpers_possibleConstructorReturn___default()(_this, _ret);
   }
+=======
+"use strict";
+>>>>>>> fix: delivery and payment text and popup fixes
 
   __WEBPACK_IMPORTED_MODULE_1_babel_runtime_helpers_createClass___default()(Align, [{
     key: 'componentDidMount',
@@ -72505,7 +75896,11 @@ var SetCache = __webpack_require__(109),
     arrayIncludes = __webpack_require__(200),
     arrayIncludesWith = __webpack_require__(201),
     arrayMap = __webpack_require__(203),
+<<<<<<< HEAD
     baseUnary = __webpack_require__(133),
+=======
+    baseUnary = __webpack_require__(135),
+>>>>>>> fix: delivery and payment text and popup fixes
     cacheHas = __webpack_require__(111);
 
 /* Built-in method references for those with the same name as other `lodash` methods. */
@@ -72718,7 +76113,7 @@ module.exports = baseXor;
 /***/ (function(module, exports, __webpack_require__) {
 >>>>>>> feat: add payment and delivery popups
 
-var isArrayLikeObject = __webpack_require__(135);
+var isArrayLikeObject = __webpack_require__(137);
 
 /**
  * Casts `value` to an empty array if it's not an array like object.
@@ -72767,6 +76162,7 @@ module.exports = castArrayLikeObject;
 /* 625 */
 /***/ (function(module, exports, __webpack_require__) {
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 
 
@@ -72986,9 +76382,11 @@ var Dialog = function (_React$Component) {
         };
         return _this;
 =======
+=======
+>>>>>>> fix: delivery and payment text and popup fixes
 var Set = __webpack_require__(198),
     noop = __webpack_require__(370),
-    setToArray = __webpack_require__(134);
+    setToArray = __webpack_require__(136);
 
 /** Used as references for various `Number` constants. */
 var INFINITY = 1 / 0;
@@ -73636,7 +77034,7 @@ module.exports = keysIn;
 /* 639 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var MapCache = __webpack_require__(123);
+var MapCache = __webpack_require__(124);
 
 /** Error message constants. */
 var FUNC_ERROR_TEXT = 'Expected a function';
@@ -73718,7 +77116,7 @@ module.exports = memoize;
 var baseFlatten = __webpack_require__(320),
     baseRest = __webpack_require__(110),
     baseUniq = __webpack_require__(329),
-    isArrayLikeObject = __webpack_require__(135);
+    isArrayLikeObject = __webpack_require__(137);
 
 /**
  * Creates an array of unique values, in order, from all given arrays using
@@ -73750,7 +77148,7 @@ module.exports = union;
 var arrayFilter = __webpack_require__(199),
     baseRest = __webpack_require__(110),
     baseXor = __webpack_require__(623),
-    isArrayLikeObject = __webpack_require__(135);
+    isArrayLikeObject = __webpack_require__(137);
 
 /**
  * Creates an array of unique values that is the
@@ -74715,11 +78113,11 @@ var _classnames = __webpack_require__(24);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_react_dom__ = __webpack_require__(18);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_react_dom___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6_react_dom__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_rc_util_es_KeyCode__ = __webpack_require__(387);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_rc_animate__ = __webpack_require__(138);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_rc_animate__ = __webpack_require__(140);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__LazyRenderBox__ = __webpack_require__(650);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_10_rc_util_lib_getScrollBarSize__ = __webpack_require__(678);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_10_rc_util_lib_getScrollBarSize___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_10_rc_util_lib_getScrollBarSize__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11_object_assign__ = __webpack_require__(137);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11_object_assign__ = __webpack_require__(139);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_11_object_assign___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_11_object_assign__);
 >>>>>>> feat: add payment and delivery popups
 
@@ -75828,7 +79226,7 @@ module.exports = exports['default'];
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_babel_runtime_helpers_inherits___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_babel_runtime_helpers_inherits__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_react__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5_react__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_object_assign__ = __webpack_require__(137);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_object_assign__ = __webpack_require__(139);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_object_assign___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6_object_assign__);
 
 
@@ -75984,10 +79382,14 @@ var _reactDom = __webpack_require__(18);
 var _reactDom2 = _interopRequireDefault(_reactDom);
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 var _MenuMixin = __webpack_require__(378);
 =======
 var _rcTrigger = __webpack_require__(211);
 >>>>>>> feat: add payment and delivery popups
+=======
+var _rcTrigger = __webpack_require__(211);
+>>>>>>> fix: delivery and payment text and popup fixes
 
 var _rcTrigger2 = _interopRequireDefault(_rcTrigger);
 
@@ -77119,6 +80521,7 @@ var Option = function (_React$Component) {
 var _rcTrigger = __webpack_require__(212);
 >>>>>>> feat: tiger popups redesign
 
+<<<<<<< HEAD
   function Option() {
     __WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_classCallCheck___default()(this, Option);
 
@@ -77169,8 +80572,15 @@ Option.isSelectOption = true;
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_16_warning__ = __webpack_require__(701);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_16_warning___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_16_warning__);
 
+=======
+var _MenuMixin = __webpack_require__(379);
+>>>>>>> fix: delivery and payment text and popup fixes
 
 
+<<<<<<< HEAD
+=======
+var _util = __webpack_require__(142);
+>>>>>>> fix: delivery and payment text and popup fixes
 
 
 
@@ -77387,6 +80797,285 @@ Option.isSelectOption = true;
       openSubMenuOnMouseEnter: this.props.openSubMenuOnMouseEnter
     };
     return this.renderCommonMenuItem(c, i, subIndex, extraProps);
+<<<<<<< HEAD
+=======
+  },
+  render: function render() {
+    var props = (0, _extends3['default'])({}, this.props);
+    props.className += ' ' + props.prefixCls + '-root';
+    return this.renderRoot(props);
+  }
+});
+
+exports['default'] = Menu;
+module.exports = exports['default'];
+
+/***/ }),
+/* 656 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _extends2 = __webpack_require__(9);
+
+var _extends3 = _interopRequireDefault(_extends2);
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _propTypes = __webpack_require__(6);
+
+var _propTypes2 = _interopRequireDefault(_propTypes);
+
+var _createReactClass = __webpack_require__(52);
+
+var _createReactClass2 = _interopRequireDefault(_createReactClass);
+
+var _KeyCode = __webpack_require__(143);
+
+var _KeyCode2 = _interopRequireDefault(_KeyCode);
+
+var _classnames = __webpack_require__(24);
+
+var _classnames2 = _interopRequireDefault(_classnames);
+
+var _util = __webpack_require__(142);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
+
+/* eslint react/no-is-mounted:0 */
+
+var MenuItem = (0, _createReactClass2['default'])({
+  displayName: 'MenuItem',
+
+  propTypes: {
+    rootPrefixCls: _propTypes2['default'].string,
+    eventKey: _propTypes2['default'].string,
+    active: _propTypes2['default'].bool,
+    children: _propTypes2['default'].any,
+    selectedKeys: _propTypes2['default'].array,
+    disabled: _propTypes2['default'].bool,
+    title: _propTypes2['default'].string,
+    onSelect: _propTypes2['default'].func,
+    onClick: _propTypes2['default'].func,
+    onDeselect: _propTypes2['default'].func,
+    parentMenu: _propTypes2['default'].object,
+    onItemHover: _propTypes2['default'].func,
+    onDestroy: _propTypes2['default'].func,
+    onMouseEnter: _propTypes2['default'].func,
+    onMouseLeave: _propTypes2['default'].func
+  },
+
+  getDefaultProps: function getDefaultProps() {
+    return {
+      onSelect: _util.noop,
+      onMouseEnter: _util.noop,
+      onMouseLeave: _util.noop
+    };
+  },
+  componentWillUnmount: function componentWillUnmount() {
+    var props = this.props;
+    if (props.onDestroy) {
+      props.onDestroy(props.eventKey);
+    }
+    if (props.parentMenu.menuItemInstance === this) {
+      this.clearMenuItemMouseLeaveTimer();
+    }
+  },
+  onKeyDown: function onKeyDown(e) {
+    var keyCode = e.keyCode;
+    if (keyCode === _KeyCode2['default'].ENTER) {
+      this.onClick(e);
+      return true;
+    }
+  },
+  onMouseLeave: function onMouseLeave(e) {
+    var _this = this;
+
+    var props = this.props;
+    var eventKey = props.eventKey,
+        parentMenu = props.parentMenu;
+
+    parentMenu.menuItemInstance = this;
+    parentMenu.menuItemMouseLeaveFn = function () {
+      if (props.active) {
+        props.onItemHover({
+          key: eventKey,
+          item: _this,
+          hover: false,
+          domEvent: e,
+          trigger: 'mouseleave'
+        });
+      }
+    };
+    parentMenu.menuItemMouseLeaveTimer = setTimeout(parentMenu.menuItemMouseLeaveFn, 30);
+    props.onMouseLeave({
+      key: eventKey,
+      domEvent: e
+    });
+  },
+  onMouseEnter: function onMouseEnter(e) {
+    var props = this.props;
+    var eventKey = props.eventKey,
+        parentMenu = props.parentMenu;
+
+    this.clearMenuItemMouseLeaveTimer();
+    if (parentMenu.subMenuInstance) {
+      parentMenu.subMenuInstance.clearSubMenuTimers();
+    }
+    props.onItemHover({
+      key: eventKey,
+      item: this,
+      hover: true,
+      domEvent: e,
+      trigger: 'mouseenter'
+    });
+    props.onMouseEnter({
+      key: eventKey,
+      domEvent: e
+    });
+  },
+  onClick: function onClick(e) {
+    var props = this.props;
+    var selected = this.isSelected();
+    var eventKey = props.eventKey;
+    var info = {
+      key: eventKey,
+      keyPath: [eventKey],
+      item: this,
+      domEvent: e
+    };
+    props.onClick(info);
+    if (props.multiple) {
+      if (selected) {
+        props.onDeselect(info);
+      } else {
+        props.onSelect(info);
+      }
+    } else if (!selected) {
+      props.onSelect(info);
+    }
+  },
+  getPrefixCls: function getPrefixCls() {
+    return this.props.rootPrefixCls + '-item';
+  },
+  getActiveClassName: function getActiveClassName() {
+    return this.getPrefixCls() + '-active';
+  },
+  getSelectedClassName: function getSelectedClassName() {
+    return this.getPrefixCls() + '-selected';
+  },
+  getDisabledClassName: function getDisabledClassName() {
+    return this.getPrefixCls() + '-disabled';
+  },
+  clearMenuItemMouseLeaveTimer: function clearMenuItemMouseLeaveTimer() {
+    var props = this.props;
+    var parentMenu = props.parentMenu;
+    if (parentMenu.menuItemMouseLeaveTimer) {
+      clearTimeout(parentMenu.menuItemMouseLeaveTimer);
+      parentMenu.menuItemMouseLeaveTimer = null;
+      parentMenu.menuItemMouseLeaveFn = null;
+    }
+  },
+  isSelected: function isSelected() {
+    return this.props.selectedKeys.indexOf(this.props.eventKey) !== -1;
+  },
+  render: function render() {
+    var props = this.props;
+    var selected = this.isSelected();
+    var classes = {};
+    classes[this.getActiveClassName()] = !props.disabled && props.active;
+    classes[this.getSelectedClassName()] = selected;
+    classes[this.getDisabledClassName()] = props.disabled;
+    classes[this.getPrefixCls()] = true;
+    classes[props.className] = !!props.className;
+    var attrs = (0, _extends3['default'])({}, props.attribute, {
+      title: props.title,
+      className: (0, _classnames2['default'])(classes),
+      role: 'menuitem',
+      'aria-selected': selected,
+      'aria-disabled': props.disabled
+    });
+    var mouseEvent = {};
+    if (!props.disabled) {
+      mouseEvent = {
+        onClick: this.onClick,
+        onMouseLeave: this.onMouseLeave,
+        onMouseEnter: this.onMouseEnter
+      };
+    }
+    var style = (0, _extends3['default'])({}, props.style);
+    if (props.mode === 'inline') {
+      style.paddingLeft = props.inlineIndent * props.level;
+    }
+    return _react2['default'].createElement(
+      'li',
+      (0, _extends3['default'])({
+        style: style
+      }, attrs, mouseEvent),
+      props.children
+    );
+  }
+});
+
+MenuItem.isMenuItem = 1;
+
+exports['default'] = MenuItem;
+module.exports = exports['default'];
+
+/***/ }),
+/* 657 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _propTypes = __webpack_require__(6);
+
+var _propTypes2 = _interopRequireDefault(_propTypes);
+
+var _createReactClass = __webpack_require__(52);
+
+var _createReactClass2 = _interopRequireDefault(_createReactClass);
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
+
+var MenuItemGroup = (0, _createReactClass2['default'])({
+  displayName: 'MenuItemGroup',
+
+  propTypes: {
+    renderMenuItem: _propTypes2['default'].func,
+    index: _propTypes2['default'].number,
+    className: _propTypes2['default'].string,
+    rootPrefixCls: _propTypes2['default'].string
+  },
+
+  getDefaultProps: function getDefaultProps() {
+    return {
+      disabled: true
+    };
+  },
+  renderInnerMenuItem: function renderInnerMenuItem(item, subIndex) {
+    var _props = this.props,
+        renderMenuItem = _props.renderMenuItem,
+        index = _props.index;
+
+    return renderMenuItem(item, index, subIndex);
+>>>>>>> fix: delivery and payment text and popup fixes
   },
   render: function render() {
     var props = (0, _extends3['default'])({}, this.props);
@@ -77426,7 +81115,15 @@ var _createReactClass = __webpack_require__(52);
 
 var _createReactClass2 = _interopRequireDefault(_createReactClass);
 
+<<<<<<< HEAD
 var _KeyCode = __webpack_require__(141);
+=======
+var _SubPopupMenu = __webpack_require__(660);
+
+var _SubPopupMenu2 = _interopRequireDefault(_SubPopupMenu);
+
+var _KeyCode = __webpack_require__(143);
+>>>>>>> fix: delivery and payment text and popup fixes
 
 var _KeyCode2 = _interopRequireDefault(_KeyCode);
 
@@ -77434,7 +81131,7 @@ var _classnames = __webpack_require__(24);
 
 var _classnames2 = _interopRequireDefault(_classnames);
 
-var _util = __webpack_require__(140);
+var _util = __webpack_require__(142);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
 
@@ -77926,6 +81623,7 @@ var MenuItem = (0, _createReactClass2['default'])({
 });
 
 <<<<<<< HEAD
+<<<<<<< HEAD
     if (state.open) {
       var menu = _this2.refs.trigger.getInnerMenu();
       if (menu && menu.onKeyDown(event, _this2.handleBackfill)) {
@@ -77934,6 +81632,33 @@ var MenuItem = (0, _createReactClass2['default'])({
       }
     }
   };
+=======
+SubMenu.isSubMenu = 1;
+
+exports['default'] = SubMenu;
+module.exports = exports['default'];
+
+/***/ }),
+/* 659 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _KeyCode = __webpack_require__(143);
+
+var _KeyCode2 = _interopRequireDefault(_KeyCode);
+
+var _addEventListener = __webpack_require__(388);
+
+var _addEventListener2 = _interopRequireDefault(_addEventListener);
+
+var _contains = __webpack_require__(675);
+>>>>>>> fix: delivery and payment text and popup fixes
 
   this.onMenuSelect = function (_ref) {
     var item = _ref.item;
@@ -78112,6 +81837,7 @@ var MenuItem = (0, _createReactClass2['default'])({
     return label;
   };
 
+<<<<<<< HEAD
   this.getValueByLabel = function (children, label) {
     if (label === undefined) {
       return null;
@@ -78132,6 +81858,9 @@ var MenuItem = (0, _createReactClass2['default'])({
     });
     return value;
   };
+=======
+var _rcAnimate = __webpack_require__(140);
+>>>>>>> fix: delivery and payment text and popup fixes
 
   this.getLabelFromOption = function (child) {
     return __webpack_require__.i(__WEBPACK_IMPORTED_MODULE_12__util__["k" /* getPropValue */])(child, _this2.props.optionLabelProp);
@@ -78705,9 +82434,35 @@ var SubMenu = (0, _createReactClass2['default'])({
   onMouseLeave: function onMouseLeave(e) {
     var _this = this;
 
+<<<<<<< HEAD
     var props = this.props;
     var parentMenu = props.parentMenu,
         eventKey = props.eventKey;
+=======
+"use strict";
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_extends__ = __webpack_require__(9);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_extends___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_extends__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_babel_runtime_helpers_classCallCheck__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_babel_runtime_helpers_classCallCheck___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_babel_runtime_helpers_classCallCheck__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_babel_runtime_helpers_createClass__ = __webpack_require__(5);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_babel_runtime_helpers_createClass___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_babel_runtime_helpers_createClass__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_babel_runtime_helpers_possibleConstructorReturn__ = __webpack_require__(3);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_babel_runtime_helpers_possibleConstructorReturn___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_babel_runtime_helpers_possibleConstructorReturn__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_babel_runtime_helpers_inherits__ = __webpack_require__(2);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_babel_runtime_helpers_inherits___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_babel_runtime_helpers_inherits__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_react__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5_react__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_react_dom__ = __webpack_require__(18);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_react_dom___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6_react_dom__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_prop_types__ = __webpack_require__(6);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_prop_types___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_7_prop_types__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_rc_util_es_Children_toArray__ = __webpack_require__(671);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9_rc_menu__ = __webpack_require__(380);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9_rc_menu___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_9_rc_menu__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10_dom_scroll_into_view__ = __webpack_require__(309);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10_dom_scroll_into_view___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_10_dom_scroll_into_view__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__util__ = __webpack_require__(210);
+>>>>>>> fix: delivery and payment text and popup fixes
 
     parentMenu.subMenuInstance = this;
     parentMenu.subMenuLeaveFn = function () {
@@ -79045,6 +82800,7 @@ var SubMenu = (0, _createReactClass2['default'])({
         onMouseLeave: this.onTitleMouseLeave
       };
     }
+<<<<<<< HEAD
     var style = {};
     if (props.mode === 'inline') {
       style.paddingLeft = props.inlineIndent * props.level;
@@ -79086,6 +82842,8 @@ module.exports = exports['default'];
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
+=======
+>>>>>>> fix: delivery and payment text and popup fixes
 
 var _KeyCode = __webpack_require__(141);
 
@@ -79305,6 +83063,7 @@ module.exports = exports['default'];
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
+<<<<<<< HEAD
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_prop_types__ = __webpack_require__(6);
@@ -79312,6 +83071,37 @@ module.exports = exports['default'];
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__enhancer__ = __webpack_require__(381);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__types__ = __webpack_require__(382);
 function ownKeys(object, enumerableOnly) { var keys = Object.keys(object); if (Object.getOwnPropertySymbols) { var symbols = Object.getOwnPropertySymbols(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return Object.getOwnPropertyDescriptor(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
+=======
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_extends__ = __webpack_require__(9);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_extends___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_extends__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_babel_runtime_helpers_defineProperty__ = __webpack_require__(13);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_babel_runtime_helpers_defineProperty___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_babel_runtime_helpers_defineProperty__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_babel_runtime_helpers_classCallCheck__ = __webpack_require__(1);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_babel_runtime_helpers_classCallCheck___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_babel_runtime_helpers_classCallCheck__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_babel_runtime_helpers_createClass__ = __webpack_require__(5);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_babel_runtime_helpers_createClass___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_babel_runtime_helpers_createClass__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_babel_runtime_helpers_possibleConstructorReturn__ = __webpack_require__(3);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_babel_runtime_helpers_possibleConstructorReturn___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_babel_runtime_helpers_possibleConstructorReturn__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_babel_runtime_helpers_inherits__ = __webpack_require__(2);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_babel_runtime_helpers_inherits___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_5_babel_runtime_helpers_inherits__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_react__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6_react__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_react_dom__ = __webpack_require__(18);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_react_dom___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_7_react_dom__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_rc_util_es_KeyCode__ = __webpack_require__(387);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9_classnames__ = __webpack_require__(24);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9_classnames___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_9_classnames__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10_rc_animate__ = __webpack_require__(140);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11_component_classes__ = __webpack_require__(265);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11_component_classes___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_11_component_classes__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__util__ = __webpack_require__(210);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__SelectTrigger__ = __webpack_require__(668);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__PropTypes__ = __webpack_require__(383);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15_rc_menu__ = __webpack_require__(380);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_15_rc_menu___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_15_rc_menu__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16_warning__ = __webpack_require__(708);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_16_warning___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_16_warning__);
+>>>>>>> fix: delivery and payment text and popup fixes
 
 function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { ownKeys(Object(source), true).forEach(function (key) { _defineProperty(target, key, source[key]); }); } else if (Object.getOwnPropertyDescriptors) { Object.defineProperties(target, Object.getOwnPropertyDescriptors(source)); } else { ownKeys(Object(source)).forEach(function (key) { Object.defineProperty(target, key, Object.getOwnPropertyDescriptor(source, key)); }); } } return target; }
 
@@ -79321,9 +83111,12 @@ function _objectWithoutProperties(source, excluded) { if (source == null) return
 
 function _objectWithoutPropertiesLoose(source, excluded) { if (source == null) return {}; var target = {}; var sourceKeys = Object.keys(source); var key, i; for (i = 0; i < sourceKeys.length; i++) { key = sourceKeys[i]; if (excluded.indexOf(key) >= 0) continue; target[key] = source[key]; } return target; }
 
+<<<<<<< HEAD
 function _classCallCheck(instance, Constructor) { if (!(instance instanceof Constructor)) { throw new TypeError("Cannot call a class as a function"); } }
 
 function _defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } }
+=======
+>>>>>>> fix: delivery and payment text and popup fixes
 
 function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _defineProperties(Constructor.prototype, protoProps); if (staticProps) _defineProperties(Constructor, staticProps); return Constructor; }
 
@@ -79588,12 +83381,20 @@ var Line = /*#__PURE__*/function (_Component) {
       args[_key] = arguments[_key];
     }
 
+<<<<<<< HEAD
     _this = _super.call.apply(_super, [this].concat(args));
 
     _defineProperty(_assertThisInitialized(_this), "paths", {});
 
     return _this;
   }
+=======
+    
+  }, {
+    key: 'render',
+    value: function render() {
+      var _rootCls;
+>>>>>>> fix: delivery and payment text and popup fixes
 
   _createClass(Line, [{
     key: "render",
@@ -79948,7 +83749,20 @@ OptGroup.isSelectOptGroup = true;
 
 
 
+<<<<<<< HEAD
 
+=======
+  this.updateFocusClassName = function () {
+    var refs = _this2.refs,
+        props = _this2.props;
+    
+    if (_this2._focused) {
+      __WEBPACK_IMPORTED_MODULE_11_component_classes___default()(refs.root).add(props.prefixCls + '-focused');
+    } else {
+      __WEBPACK_IMPORTED_MODULE_11_component_classes___default()(refs.root).remove(props.prefixCls + '-focused');
+    }
+  };
+>>>>>>> fix: delivery and payment text and popup fixes
 
 
 var Option = function (_React$Component) {
@@ -80102,6 +83916,7 @@ var Select = function (_React$Component) {
         } else {
           inputNode.style.width = '';
         }
+<<<<<<< HEAD
       }
     }
   }, {
@@ -81170,6 +84985,80 @@ var _initialiseProps = function _initialiseProps() {
         _this2.getInputElement()
       ));
 
+=======
+        var singleValue = value[0];
+        selectedValue = __WEBPACK_IMPORTED_MODULE_6_react___default.a.createElement(
+          'div',
+          {
+            key: 'value',
+            className: prefixCls + '-selection-selected-value',
+            title: singleValue.title || singleValue.label,
+            style: {
+              display: showSelectedValue ? 'block' : 'none',
+              opacity: opacity
+            }
+          },
+          value[0].label
+        );
+      }
+      if (!showSearch) {
+        innerNode = [selectedValue];
+      } else {
+        innerNode = [selectedValue, __WEBPACK_IMPORTED_MODULE_6_react___default.a.createElement(
+          'div',
+          {
+            className: prefixCls + '-search ' + prefixCls + '-search--inline',
+            key: 'input',
+            style: {
+              display: open ? 'block' : 'none'
+            }
+          },
+          _this2.getInputElement()
+        )];
+      }
+    } else {
+      var selectedValueNodes = [];
+      if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_12__util__["b" /* isMultipleOrTags */])(props)) {
+        selectedValueNodes = value.map(function (singleValue) {
+          var content = singleValue.label;
+          var title = singleValue.title || content;
+          if (maxTagTextLength && typeof content === 'string' && content.length > maxTagTextLength) {
+            content = content.slice(0, maxTagTextLength) + '...';
+          }
+          var disabled = _this2.isChildDisabled(singleValue.key);
+          var choiceClassName = disabled ? prefixCls + '-selection__choice ' + prefixCls + '-selection__choice__disabled' : prefixCls + '-selection__choice';
+          return __WEBPACK_IMPORTED_MODULE_6_react___default.a.createElement(
+            'li',
+            __WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_extends___default()({
+              style: __WEBPACK_IMPORTED_MODULE_12__util__["e" /* UNSELECTABLE_STYLE */]
+            }, __WEBPACK_IMPORTED_MODULE_12__util__["g" /* UNSELECTABLE_ATTRIBUTE */], {
+              onMouseDown: __WEBPACK_IMPORTED_MODULE_12__util__["f" /* preventDefaultEvent */],
+              className: choiceClassName,
+              key: singleValue.key,
+              title: title
+            }),
+            __WEBPACK_IMPORTED_MODULE_6_react___default.a.createElement(
+              'div',
+              { className: prefixCls + '-selection__choice__content' },
+              content
+            ),
+            disabled ? null : __WEBPACK_IMPORTED_MODULE_6_react___default.a.createElement('span', {
+              className: prefixCls + '-selection__choice__remove',
+              onClick: _this2.removeSelected.bind(_this2, singleValue.key)
+            })
+          );
+        });
+      }
+      selectedValueNodes.push(__WEBPACK_IMPORTED_MODULE_6_react___default.a.createElement(
+        'li',
+        {
+          className: prefixCls + '-search ' + prefixCls + '-search--inline',
+          key: '__input'
+        },
+        _this2.getInputElement()
+      ));
+
+>>>>>>> fix: delivery and payment text and popup fixes
       if (__webpack_require__.i(__WEBPACK_IMPORTED_MODULE_12__util__["b" /* isMultipleOrTags */])(props) && choiceTransitionName) {
         innerNode = __WEBPACK_IMPORTED_MODULE_6_react___default.a.createElement(
           __WEBPACK_IMPORTED_MODULE_10_rc_animate__["default"],
@@ -81243,11 +85132,15 @@ Select.displayName = 'Select';
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_babel_runtime_helpers_inherits__ = __webpack_require__(2);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_babel_runtime_helpers_inherits___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6_babel_runtime_helpers_inherits__);
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_rc_trigger__ = __webpack_require__(211);
 >>>>>>> feat: add payment and delivery popups
 =======
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_rc_trigger__ = __webpack_require__(212);
 >>>>>>> feat: tiger popups redesign
+=======
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_rc_trigger__ = __webpack_require__(211);
+>>>>>>> fix: delivery and payment text and popup fixes
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_react__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_8_react__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9_prop_types__ = __webpack_require__(6);
@@ -81264,11 +85157,15 @@ Select.displayName = 'Select';
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_12_react_dom__ = __webpack_require__(18);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_12_react_dom___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_12_react_dom__);
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__util__ = __webpack_require__(210);
 >>>>>>> feat: add payment and delivery popups
 =======
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__util__ = __webpack_require__(211);
 >>>>>>> feat: tiger popups redesign
+=======
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__util__ = __webpack_require__(210);
+>>>>>>> fix: delivery and payment text and popup fixes
 
 
 
@@ -81499,7 +85396,7 @@ SelectTrigger.displayName = 'SelectTrigger';
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__utils__ = __webpack_require__(384);
 =======
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_rc_align__ = __webpack_require__(644);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9_rc_animate__ = __webpack_require__(138);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9_rc_animate__ = __webpack_require__(140);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__PopupInner__ = __webpack_require__(670);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__LazyRenderBox__ = __webpack_require__(384);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__utils__ = __webpack_require__(385);
@@ -82425,7 +86322,7 @@ var _OffsetUtils = __webpack_require__(683);
 var _NativeDragSources = __webpack_require__(682);
 >>>>>>> feat: add payment and delivery popups
 
-var _NativeTypes = __webpack_require__(213);
+var _NativeTypes = __webpack_require__(212);
 
 var NativeTypes = _interopRequireWildcard(_NativeTypes);
 
@@ -83252,7 +87149,7 @@ var _nativeTypesConfig;
 exports.createNativeDragSource = createNativeDragSource;
 exports.matchNativeItemType = matchNativeItemType;
 
-var _NativeTypes = __webpack_require__(213);
+var _NativeTypes = __webpack_require__(212);
 
 var NativeTypes = _interopRequireWildcard(_NativeTypes);
 
@@ -83562,7 +87459,7 @@ var _getEmptyImage = __webpack_require__(684);
 
 var _getEmptyImage2 = _interopRequireDefault(_getEmptyImage);
 
-var _NativeTypes = __webpack_require__(213);
+var _NativeTypes = __webpack_require__(212);
 
 var NativeTypes = _interopRequireWildcard(_NativeTypes);
 
@@ -83761,7 +87658,7 @@ var _propTypes = __webpack_require__(6);
 
 var _propTypes2 = _interopRequireDefault(_propTypes);
 
-var _hoistNonReactStatics = __webpack_require__(198);
+var _hoistNonReactStatics = __webpack_require__(214);
 
 var _hoistNonReactStatics2 = _interopRequireDefault(_hoistNonReactStatics);
 
@@ -83777,7 +87674,7 @@ var _invariant = __webpack_require__(25);
 
 var _invariant2 = _interopRequireDefault(_invariant);
 
-var _shallowEqual = __webpack_require__(214);
+var _shallowEqual = __webpack_require__(213);
 
 var _shallowEqual2 = _interopRequireDefault(_shallowEqual);
 
@@ -83786,10 +87683,14 @@ var _shallowEqualScalar = __webpack_require__(393);
 var _shallowEqualScalar2 = _interopRequireDefault(_shallowEqualScalar);
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 var _checkDecoratorArguments = __webpack_require__(143);
 =======
 var _checkDecoratorArguments = __webpack_require__(142);
 >>>>>>> feat: add payment and delivery popups
+=======
+var _checkDecoratorArguments = __webpack_require__(144);
+>>>>>>> fix: delivery and payment text and popup fixes
 
 var _checkDecoratorArguments2 = _interopRequireDefault(_checkDecoratorArguments);
 
@@ -83937,8 +87838,12 @@ var _isPlainObject = __webpack_require__(64);
 
 var _isPlainObject2 = _interopRequireDefault(_isPlainObject);
 
+<<<<<<< HEAD
 var _checkDecoratorArguments = __webpack_require__(142);
 >>>>>>> feat: add payment and delivery popups
+=======
+var _checkDecoratorArguments = __webpack_require__(144);
+>>>>>>> fix: delivery and payment text and popup fixes
 
 var _checkDecoratorArguments2 = _interopRequireDefault(_checkDecoratorArguments);
 
@@ -84049,8 +87954,12 @@ var _isPlainObject = __webpack_require__(64);
 
 var _isPlainObject2 = _interopRequireDefault(_isPlainObject);
 
+<<<<<<< HEAD
 var _checkDecoratorArguments = __webpack_require__(142);
 >>>>>>> feat: add payment and delivery popups
+=======
+var _checkDecoratorArguments = __webpack_require__(144);
+>>>>>>> fix: delivery and payment text and popup fixes
 
 var _checkDecoratorArguments2 = _interopRequireDefault(_checkDecoratorArguments);
 
@@ -85022,6 +88931,7 @@ if (true) {
 /* harmony export (immutable) */ __webpack_exports__["a"] = sagaMiddlewareFactory;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__utils__ = __webpack_require__(20);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__channel__ = __webpack_require__(57);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__runSaga__ = __webpack_require__(397);
@@ -85030,6 +88940,9 @@ if (true) {
 =======
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__utils__ = __webpack_require__(20);
 >>>>>>> feat: tiger popups redesign
+=======
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__utils__ = __webpack_require__(21);
+>>>>>>> fix: delivery and payment text and popup fixes
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__channel__ = __webpack_require__(58);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__runSaga__ = __webpack_require__(398);
 >>>>>>> feat: add payment and delivery popups
@@ -85129,6 +89042,7 @@ function sagaMiddlewareFactory() {
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__internal_utils__ = __webpack_require__(20);
 =======
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__internal_utils__ = __webpack_require__(21);
@@ -85136,6 +89050,9 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 =======
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__internal_utils__ = __webpack_require__(20);
 >>>>>>> feat: tiger popups redesign
+=======
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__internal_utils__ = __webpack_require__(21);
+>>>>>>> fix: delivery and payment text and popup fixes
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "TASK", function() { return __WEBPACK_IMPORTED_MODULE_0__internal_utils__["r"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "SAGA_ACTION", function() { return __WEBPACK_IMPORTED_MODULE_0__internal_utils__["n"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "noop", function() { return __WEBPACK_IMPORTED_MODULE_0__internal_utils__["p"]; });
@@ -85585,6 +89502,7 @@ module.exports = warning;
  * of patent rights can be found in the PATENTS file in the same directory.
  */
 
+<<<<<<< HEAD
 
 
 /**
@@ -85636,6 +89554,32 @@ if (false) {
 }
 
 module.exports = warning;
+=======
+module.exports = function(originalModule) {
+	if(!originalModule.webpackPolyfill) {
+		var module = Object.create(originalModule);
+		// module.parent = undefined by default
+		if(!module.children) module.children = [];
+		Object.defineProperty(module, "loaded", {
+			enumerable: true,
+			get: function() {
+				return module.l;
+			}
+		});
+		Object.defineProperty(module, "id", {
+			enumerable: true,
+			get: function() {
+				return module.i;
+			}
+		});
+		Object.defineProperty(module, "exports", {
+			enumerable: true,
+		});
+		module.webpackPolyfill = 1;
+	}
+	return module;
+};
+>>>>>>> fix: delivery and payment text and popup fixes
 
 
 /***/ }),
@@ -85743,7 +89687,11 @@ var _TableWithPaste = __webpack_require__(778);
 
 var _TableWithPaste2 = _interopRequireDefault(_TableWithPaste);
 
+<<<<<<< HEAD
 var _ComboSelect = __webpack_require__(171);
+=======
+var _ComboSelect = __webpack_require__(172);
+>>>>>>> fix: delivery and payment text and popup fixes
 
 var _ComboSelect2 = _interopRequireDefault(_ComboSelect);
 
@@ -85950,7 +89898,11 @@ var _imageEditor2 = __webpack_require__(513);
 
 var _imageEditor3 = _interopRequireDefault(_imageEditor2);
 
+<<<<<<< HEAD
 var _imageEditor4 = __webpack_require__(116);
+=======
+var _imageEditor4 = __webpack_require__(117);
+>>>>>>> fix: delivery and payment text and popup fixes
 
 var imageEditorActions = _interopRequireWildcard(_imageEditor4);
 
@@ -86018,7 +89970,11 @@ var _reducer13 = __webpack_require__(464);
 
 var _reducer14 = _interopRequireDefault(_reducer13);
 
+<<<<<<< HEAD
 var _actions9 = __webpack_require__(115);
+=======
+var _actions9 = __webpack_require__(116);
+>>>>>>> fix: delivery and payment text and popup fixes
 
 var switchCategoryAction = _interopRequireWildcard(_actions9);
 

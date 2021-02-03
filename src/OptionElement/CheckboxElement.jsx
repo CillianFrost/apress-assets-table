@@ -37,7 +37,9 @@ class CheckboxElement extends React.Component {
           className={`e-checkbox ${b('content-options-line-addresses-block-checkbox')} ${checkedClass}`}
           onClick={this.changeCheckboxState}
         />
-        <div>{name || 'Новый адрес'}</div>
+        <div className={b('content-options-line-addresses-block-text')}>
+          {name || 'Новый адрес'}
+        </div>
       </div>
     );
   }

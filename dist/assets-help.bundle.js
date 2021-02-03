@@ -192,7 +192,11 @@ exports.default = function (self, call) {
 
 exports.__esModule = true;
 
+<<<<<<< HEAD
 var _defineProperty = __webpack_require__(150);
+=======
+var _defineProperty = __webpack_require__(151);
+>>>>>>> fix: delivery and payment text and popup fixes
 
 var _defineProperty2 = _interopRequireDefault(_defineProperty);
 
@@ -491,6 +495,7 @@ module.exports = __WEBPACK_EXTERNAL_MODULE_10__;
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 var core = module.exports = { version: '2.6.11' };
 =======
 var core = module.exports = { version: '2.6.12' };
@@ -498,6 +503,9 @@ var core = module.exports = { version: '2.6.12' };
 =======
 var core = module.exports = { version: '2.6.11' };
 >>>>>>> feat: tiger popups redesign
+=======
+var core = module.exports = { version: '2.6.12' };
+>>>>>>> fix: delivery and payment text and popup fixes
 if (typeof __e == 'number') __e = core; // eslint-disable-line no-undef
 
 
@@ -555,7 +563,11 @@ module.exports = isEqual;
 
 exports.__esModule = true;
 
+<<<<<<< HEAD
 var _defineProperty = __webpack_require__(150);
+=======
+var _defineProperty = __webpack_require__(151);
+>>>>>>> fix: delivery and payment text and popup fixes
 
 var _defineProperty2 = _interopRequireDefault(_defineProperty);
 
@@ -585,10 +597,14 @@ exports.default = function (obj, key, value) {
 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 var bind = __webpack_require__(148);
 =======
 var bind = __webpack_require__(147);
 >>>>>>> feat: add payment and delivery popups
+=======
+var bind = __webpack_require__(149);
+>>>>>>> fix: delivery and payment text and popup fixes
 
 /*global toString:true*/
 
@@ -893,6 +909,7 @@ module.exports = {
 /* 18 */,
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* 19 */
 =======
 /* 19 */,
@@ -904,6 +921,13 @@ module.exports = {
 /***/ (function(module, exports, __webpack_require__) {
 
 var freeGlobal = __webpack_require__(164);
+=======
+/* 19 */,
+/* 20 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var freeGlobal = __webpack_require__(165);
+>>>>>>> fix: delivery and payment text and popup fixes
 
 /** Detect free variable `self`. */
 var freeSelf = typeof self == 'object' && self && self.Object === Object && self;
@@ -917,6 +941,7 @@ module.exports = root;
 /***/ }),
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* 20 */
 =======
 /* 21 */
@@ -924,6 +949,9 @@ module.exports = root;
 =======
 /* 20 */
 >>>>>>> feat: tiger popups redesign
+=======
+/* 21 */
+>>>>>>> fix: delivery and payment text and popup fixes
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1245,12 +1273,15 @@ var cloneableGenerator = function cloneableGenerator(generatorFunc) {
 /***/ }),
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* 21 */,
 =======
 >>>>>>> feat: add payment and delivery popups
 =======
 /* 21 */,
 >>>>>>> feat: tiger popups redesign
+=======
+>>>>>>> fix: delivery and payment text and popup fixes
 /* 22 */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -1314,6 +1345,7 @@ if (typeof __g == 'number') __g = global; // eslint-disable-line no-undef
 var global = __webpack_require__(28);
 var core = __webpack_require__(11);
 <<<<<<< HEAD
+<<<<<<< HEAD
 var ctx = __webpack_require__(119);
 var hide = __webpack_require__(47);
 var has = __webpack_require__(33);
@@ -1322,6 +1354,11 @@ var ctx = __webpack_require__(118);
 var hide = __webpack_require__(47);
 var has = __webpack_require__(34);
 >>>>>>> feat: add payment and delivery popups
+=======
+var ctx = __webpack_require__(119);
+var hide = __webpack_require__(47);
+var has = __webpack_require__(34);
+>>>>>>> fix: delivery and payment text and popup fixes
 var PROTOTYPE = 'prototype';
 
 var $export = function (type, name, source) {
@@ -1390,7 +1427,11 @@ module.exports = $export;
 /***/ (function(module, exports, __webpack_require__) {
 
 var anObject = __webpack_require__(43);
+<<<<<<< HEAD
 var IE8_DOM_DEFINE = __webpack_require__(152);
+=======
+var IE8_DOM_DEFINE = __webpack_require__(153);
+>>>>>>> fix: delivery and payment text and popup fixes
 var toPrimitive = __webpack_require__(99);
 var dP = Object.defineProperty;
 
@@ -1676,7 +1717,11 @@ module.exports = __webpack_require__(27) ? function (object, key, value) {
 /***/ (function(module, exports, __webpack_require__) {
 
 // to indexed object, toObject with fallback for non-array-like ES3 strings
+<<<<<<< HEAD
 var IObject = __webpack_require__(153);
+=======
+var IObject = __webpack_require__(154);
+>>>>>>> fix: delivery and payment text and popup fixes
 var defined = __webpack_require__(91);
 module.exports = function (it) {
   return IObject(defined(it));
@@ -1714,6 +1759,7 @@ module.exports = function (it) {
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "w", function() { return asEffect; });
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__utils__ = __webpack_require__(20);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__sagaHelpers__ = __webpack_require__(213);
 =======
@@ -1721,6 +1767,9 @@ module.exports = function (it) {
 =======
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__utils__ = __webpack_require__(20);
 >>>>>>> feat: tiger popups redesign
+=======
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__utils__ = __webpack_require__(21);
+>>>>>>> fix: delivery and payment text and popup fixes
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__sagaHelpers__ = __webpack_require__(215);
 >>>>>>> feat: add payment and delivery popups
 
@@ -2087,7 +2136,7 @@ module.exports = __WEBPACK_EXTERNAL_MODULE_54__;
 /***/ (function(module, exports, __webpack_require__) {
 
 // 19.1.2.14 / 15.2.3.14 Object.keys(O)
-var $keys = __webpack_require__(158);
+var $keys = __webpack_require__(159);
 var enumBugKeys = __webpack_require__(92);
 
 module.exports = Object.keys || function keys(O) {
@@ -2111,6 +2160,7 @@ module.exports = Object.keys || function keys(O) {
 /* harmony export (immutable) */ __webpack_exports__["d"] = stdChannel;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__utils__ = __webpack_require__(20);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__buffers__ = __webpack_require__(89);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__scheduler__ = __webpack_require__(214);
@@ -2119,6 +2169,9 @@ module.exports = Object.keys || function keys(O) {
 =======
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__utils__ = __webpack_require__(20);
 >>>>>>> feat: tiger popups redesign
+=======
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__utils__ = __webpack_require__(21);
+>>>>>>> fix: delivery and payment text and popup fixes
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__buffers__ = __webpack_require__(89);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__scheduler__ = __webpack_require__(216);
 >>>>>>> feat: add payment and delivery popups
@@ -2569,6 +2622,7 @@ module.exports = g;
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 var root = __webpack_require__(19);
 =======
 var root = __webpack_require__(20);
@@ -2576,6 +2630,9 @@ var root = __webpack_require__(20);
 =======
 var root = __webpack_require__(19);
 >>>>>>> feat: tiger popups redesign
+=======
+var root = __webpack_require__(20);
+>>>>>>> fix: delivery and payment text and popup fixes
 
 /** Built-in value references. */
 var Symbol = root.Symbol;
@@ -2663,6 +2720,7 @@ module.exports = eq;
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return buffers; });
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__utils__ = __webpack_require__(20);
 =======
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__utils__ = __webpack_require__(21);
@@ -2670,6 +2728,9 @@ module.exports = eq;
 =======
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__utils__ = __webpack_require__(20);
 >>>>>>> feat: tiger popups redesign
+=======
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__utils__ = __webpack_require__(21);
+>>>>>>> fix: delivery and payment text and popup fixes
 
 
 var BUFFER_OVERFLOW = "Channel's Buffer overflow!";
@@ -2803,6 +2864,7 @@ function getDefaultAdapter() {
   if (typeof XMLHttpRequest !== 'undefined') {
     // For browsers use XHR adapter
 <<<<<<< HEAD
+<<<<<<< HEAD
     adapter = __webpack_require__(144);
   } else if (typeof process !== 'undefined') {
     // For node use HTTP adapter
@@ -2813,6 +2875,12 @@ function getDefaultAdapter() {
     // For node use HTTP adapter
     adapter = __webpack_require__(143);
 >>>>>>> feat: add payment and delivery popups
+=======
+    adapter = __webpack_require__(145);
+  } else if (typeof process !== 'undefined') {
+    // For node use HTTP adapter
+    adapter = __webpack_require__(145);
+>>>>>>> fix: delivery and payment text and popup fixes
   }
   return adapter;
 }
@@ -2929,7 +2997,11 @@ var PROTOTYPE = 'prototype';
 // Create object with fake `null` prototype: use iframe Object with cleared prototype
 var createDict = function () {
   // Thrash, waste and sodomy: IE GC bug
+<<<<<<< HEAD
   var iframe = __webpack_require__(151)('iframe');
+=======
+  var iframe = __webpack_require__(152)('iframe');
+>>>>>>> fix: delivery and payment text and popup fixes
   var i = enumBugKeys.length;
   var lt = '<';
   var gt = '>';
@@ -3017,6 +3089,7 @@ var store = global[SHARED] || (global[SHARED] = {});
   mode: __webpack_require__(65) ? 'pure' : 'global',
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   copyright: '© 2019 Denis Pushkarev (zloirock.ru)'
 =======
   copyright: '© 2020 Denis Pushkarev (zloirock.ru)'
@@ -3024,6 +3097,9 @@ var store = global[SHARED] || (global[SHARED] = {});
 =======
   copyright: '© 2019 Denis Pushkarev (zloirock.ru)'
 >>>>>>> feat: tiger popups redesign
+=======
+  copyright: '© 2020 Denis Pushkarev (zloirock.ru)'
+>>>>>>> fix: delivery and payment text and popup fixes
 });
 
 
@@ -3100,7 +3176,11 @@ var $at = __webpack_require__(287)(true);
 >>>>>>> feat: add payment and delivery popups
 
 // 21.1.3.27 String.prototype[@@iterator]()
+<<<<<<< HEAD
 __webpack_require__(154)(String, 'String', function (iterated) {
+=======
+__webpack_require__(155)(String, 'String', function (iterated) {
+>>>>>>> fix: delivery and payment text and popup fixes
   this._t = String(iterated); // target
   this._i = 0;                // next index
 // 21.1.5.2.1 %StringIteratorPrototype%.next()
@@ -3130,11 +3210,15 @@ var getNative = __webpack_require__(39),
 =======
 var getNative = __webpack_require__(40),
 <<<<<<< HEAD
+<<<<<<< HEAD
     root = __webpack_require__(20);
 >>>>>>> feat: add payment and delivery popups
 =======
     root = __webpack_require__(19);
 >>>>>>> feat: tiger popups redesign
+=======
+    root = __webpack_require__(20);
+>>>>>>> fix: delivery and payment text and popup fixes
 
 /* Built-in method references that are verified to be native. */
 var Map = getNative(root, 'Map');
@@ -3147,6 +3231,7 @@ module.exports = Map;
 /***/ (function(module, exports, __webpack_require__) {
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 var MapCache = __webpack_require__(124),
     setCacheAdd = __webpack_require__(358),
     setCacheHas = __webpack_require__(359);
@@ -3155,6 +3240,11 @@ var MapCache = __webpack_require__(123),
     setCacheAdd = __webpack_require__(359),
     setCacheHas = __webpack_require__(360);
 >>>>>>> feat: add payment and delivery popups
+=======
+var MapCache = __webpack_require__(124),
+    setCacheAdd = __webpack_require__(359),
+    setCacheHas = __webpack_require__(360);
+>>>>>>> fix: delivery and payment text and popup fixes
 
 /**
  *
@@ -3205,8 +3295,13 @@ module.exports = cacheHas;
 /* 112 */
 /***/ (function(module, exports, __webpack_require__) {
 
+<<<<<<< HEAD
 var isFunction = __webpack_require__(167),
     isLength = __webpack_require__(168);
+=======
+var isFunction = __webpack_require__(168),
+    isLength = __webpack_require__(169);
+>>>>>>> fix: delivery and payment text and popup fixes
 
 /**
  * Checks if `value` is array-like. A value is considered array-like if it's
@@ -3250,6 +3345,7 @@ module.exports = isArrayLike;
 /* harmony export (immutable) */ __webpack_exports__["a"] = fsmIterator;
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__utils__ = __webpack_require__(20);
 =======
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__utils__ = __webpack_require__(21);
@@ -3257,6 +3353,9 @@ module.exports = isArrayLike;
 =======
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__utils__ = __webpack_require__(20);
 >>>>>>> feat: tiger popups redesign
+=======
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__utils__ = __webpack_require__(21);
+>>>>>>> fix: delivery and payment text and popup fixes
 
 
 var done = { done: true, value: undefined };
@@ -3338,7 +3437,12 @@ module.exports = function(module) {
 /***/ }),
 /* 115 */,
 /* 116 */,
+<<<<<<< HEAD
 /* 117 */
+=======
+/* 117 */,
+/* 118 */
+>>>>>>> fix: delivery and payment text and popup fixes
 /***/ (function(module, exports) {
 
 var toString = {}.toString;
@@ -3349,7 +3453,11 @@ module.exports = function (it) {
 
 
 /***/ }),
+<<<<<<< HEAD
 /* 118 */
+=======
+/* 119 */
+>>>>>>> fix: delivery and payment text and popup fixes
 /***/ (function(module, exports, __webpack_require__) {
 
 // optional / simple context binding
@@ -3380,6 +3488,7 @@ module.exports = function (fn, that, length) {
 
 /***/ }),
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 /* 119 */,
 >>>>>>> feat: add payment and delivery popups
@@ -3387,6 +3496,13 @@ module.exports = function (fn, that, length) {
 /* 121 */,
 /* 122 */,
 /* 123 */
+=======
+/* 120 */,
+/* 121 */,
+/* 122 */,
+/* 123 */,
+/* 124 */
+>>>>>>> fix: delivery and payment text and popup fixes
 /***/ (function(module, exports, __webpack_require__) {
 
 <<<<<<< HEAD
@@ -3432,7 +3548,10 @@ module.exports = MapCache;
 
 
 /***/ }),
+<<<<<<< HEAD
 /* 124 */,
+=======
+>>>>>>> fix: delivery and payment text and popup fixes
 /* 125 */,
 /* 126 */,
 /* 127 */,
@@ -3474,10 +3593,15 @@ for (var i = 0; i < DOMIterables.length; i++) {
 /* 132 */,
 <<<<<<< HEAD
 /* 133 */,
+<<<<<<< HEAD
 /* 134 */
 =======
 /* 133 */
 >>>>>>> feat: add payment and delivery popups
+=======
+/* 134 */,
+/* 135 */
+>>>>>>> fix: delivery and payment text and popup fixes
 /***/ (function(module, exports) {
 
 /**
@@ -3498,10 +3622,14 @@ module.exports = baseUnary;
 
 /***/ }),
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* 135 */
 =======
 /* 134 */
 >>>>>>> feat: add payment and delivery popups
+=======
+/* 136 */
+>>>>>>> fix: delivery and payment text and popup fixes
 /***/ (function(module, exports) {
 
 /**
@@ -3526,15 +3654,20 @@ module.exports = setToArray;
 
 /***/ }),
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* 136 */,
 /* 137 */
 =======
 /* 135 */,
 /* 136 */
 >>>>>>> feat: add payment and delivery popups
+=======
+/* 137 */,
+/* 138 */
+>>>>>>> fix: delivery and payment text and popup fixes
 /***/ (function(module, exports, __webpack_require__) {
 
-var debounce = __webpack_require__(209),
+var debounce = __webpack_require__(208),
     isObject = __webpack_require__(37);
 
 /** Error message constants. */
@@ -3607,26 +3740,35 @@ module.exports = throttle;
 
 /***/ }),
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 /* 137 */,
 >>>>>>> feat: add payment and delivery popups
 /* 138 */,
+=======
+>>>>>>> fix: delivery and payment text and popup fixes
 /* 139 */,
 /* 140 */,
 /* 141 */,
 /* 142 */,
 <<<<<<< HEAD
 /* 143 */,
+<<<<<<< HEAD
 /* 144 */
 =======
 /* 143 */
 >>>>>>> feat: add payment and delivery popups
+=======
+/* 144 */,
+/* 145 */
+>>>>>>> fix: delivery and payment text and popup fixes
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
 var utils = __webpack_require__(15);
+<<<<<<< HEAD
 <<<<<<< HEAD
 var settle = __webpack_require__(231);
 var buildURL = __webpack_require__(234);
@@ -3635,13 +3777,20 @@ var isURLSameOrigin = __webpack_require__(238);
 var createError = __webpack_require__(147);
 var btoa = (typeof window !== 'undefined' && window.btoa && window.btoa.bind(window)) || __webpack_require__(233);
 =======
+=======
+>>>>>>> fix: delivery and payment text and popup fixes
 var settle = __webpack_require__(233);
 var buildURL = __webpack_require__(236);
 var parseHeaders = __webpack_require__(242);
 var isURLSameOrigin = __webpack_require__(240);
+<<<<<<< HEAD
 var createError = __webpack_require__(146);
 var btoa = (typeof window !== 'undefined' && window.btoa && window.btoa.bind(window)) || __webpack_require__(235);
 >>>>>>> feat: add payment and delivery popups
+=======
+var createError = __webpack_require__(148);
+var btoa = (typeof window !== 'undefined' && window.btoa && window.btoa.bind(window)) || __webpack_require__(235);
+>>>>>>> fix: delivery and payment text and popup fixes
 
 module.exports = function xhrAdapter(config) {
   return new Promise(function dispatchXhrRequest(resolve, reject) {
@@ -3818,10 +3967,14 @@ module.exports = function xhrAdapter(config) {
 
 /***/ }),
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* 145 */
 =======
 /* 144 */
 >>>>>>> feat: add payment and delivery popups
+=======
+/* 146 */
+>>>>>>> fix: delivery and payment text and popup fixes
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3848,10 +4001,14 @@ module.exports = Cancel;
 
 /***/ }),
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* 146 */
 =======
 /* 145 */
 >>>>>>> feat: add payment and delivery popups
+=======
+/* 147 */
+>>>>>>> fix: delivery and payment text and popup fixes
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3864,10 +4021,14 @@ module.exports = function isCancel(value) {
 
 /***/ }),
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* 147 */
 =======
 /* 146 */
 >>>>>>> feat: add payment and delivery popups
+=======
+/* 148 */
+>>>>>>> fix: delivery and payment text and popup fixes
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3896,10 +4057,14 @@ module.exports = function createError(message, config, code, response) {
 
 /***/ }),
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* 148 */
 =======
 /* 147 */
 >>>>>>> feat: add payment and delivery popups
+=======
+/* 149 */
+>>>>>>> fix: delivery and payment text and popup fixes
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3918,10 +4083,14 @@ module.exports = function bind(fn, thisArg) {
 
 /***/ }),
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 /* 148 */,
 >>>>>>> feat: add payment and delivery popups
 /* 149 */
+=======
+/* 150 */
+>>>>>>> fix: delivery and payment text and popup fixes
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3941,7 +4110,11 @@ var helpLoadStart = exports.helpLoadStart = function helpLoadStart(payload) {
 };
 
 /***/ }),
+<<<<<<< HEAD
 /* 150 */
+=======
+/* 151 */
+>>>>>>> fix: delivery and payment text and popup fixes
 /***/ (function(module, exports, __webpack_require__) {
 
 <<<<<<< HEAD
@@ -3951,7 +4124,11 @@ module.exports = { "default": __webpack_require__(269), __esModule: true };
 >>>>>>> feat: add payment and delivery popups
 
 /***/ }),
+<<<<<<< HEAD
 /* 151 */
+=======
+/* 152 */
+>>>>>>> fix: delivery and payment text and popup fixes
 /***/ (function(module, exports, __webpack_require__) {
 
 <<<<<<< HEAD
@@ -3968,15 +4145,24 @@ module.exports = function (it) {
 
 
 /***/ }),
+<<<<<<< HEAD
 /* 152 */
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = !__webpack_require__(27) && !__webpack_require__(46)(function () {
   return Object.defineProperty(__webpack_require__(151)('div'), 'a', { get: function () { return 7; } }).a != 7;
+=======
+/* 153 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = !__webpack_require__(27) && !__webpack_require__(46)(function () {
+  return Object.defineProperty(__webpack_require__(152)('div'), 'a', { get: function () { return 7; } }).a != 7;
+>>>>>>> fix: delivery and payment text and popup fixes
 });
 
 
 /***/ }),
+<<<<<<< HEAD
 /* 153 */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -3986,6 +4172,13 @@ var cof = __webpack_require__(118);
 =======
 var cof = __webpack_require__(117);
 >>>>>>> feat: add payment and delivery popups
+=======
+/* 154 */
+/***/ (function(module, exports, __webpack_require__) {
+
+// fallback for non-array-like ES3 and non-enumerable old V8 strings
+var cof = __webpack_require__(118);
+>>>>>>> fix: delivery and payment text and popup fixes
 // eslint-disable-next-line no-prototype-builtins
 module.exports = Object('z').propertyIsEnumerable(0) ? Object : function (it) {
   return cof(it) == 'String' ? it.split('') : Object(it);
@@ -3993,12 +4186,17 @@ module.exports = Object('z').propertyIsEnumerable(0) ? Object : function (it) {
 
 
 /***/ }),
+<<<<<<< HEAD
 /* 154 */
+=======
+/* 155 */
+>>>>>>> fix: delivery and payment text and popup fixes
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 var LIBRARY = __webpack_require__(65);
+<<<<<<< HEAD
 <<<<<<< HEAD
 var $export = __webpack_require__(29);
 var redefine = __webpack_require__(159);
@@ -4014,6 +4212,15 @@ var $iterCreate = __webpack_require__(282);
 >>>>>>> feat: add payment and delivery popups
 var setToStringTag = __webpack_require__(95);
 var getPrototypeOf = __webpack_require__(157);
+=======
+var $export = __webpack_require__(30);
+var redefine = __webpack_require__(160);
+var hide = __webpack_require__(47);
+var Iterators = __webpack_require__(56);
+var $iterCreate = __webpack_require__(282);
+var setToStringTag = __webpack_require__(95);
+var getPrototypeOf = __webpack_require__(158);
+>>>>>>> fix: delivery and payment text and popup fixes
 var ITERATOR = __webpack_require__(22)('iterator');
 var BUGGY = !([].keys && 'next' in [].keys()); // Safari has buggy iterators w/o `next`
 var FF_ITERATOR = '@@iterator';
@@ -4077,6 +4284,7 @@ module.exports = function (Base, NAME, Constructor, next, DEFAULT, IS_SET, FORCE
 
 
 /***/ }),
+<<<<<<< HEAD
 /* 155 */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -4087,12 +4295,22 @@ var toIObject = __webpack_require__(48);
 var toPrimitive = __webpack_require__(99);
 var has = __webpack_require__(33);
 =======
+=======
+/* 156 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var pIE = __webpack_require__(66);
+>>>>>>> fix: delivery and payment text and popup fixes
 var createDesc = __webpack_require__(61);
 var toIObject = __webpack_require__(48);
 var toPrimitive = __webpack_require__(99);
 var has = __webpack_require__(34);
+<<<<<<< HEAD
 >>>>>>> feat: add payment and delivery popups
 var IE8_DOM_DEFINE = __webpack_require__(152);
+=======
+var IE8_DOM_DEFINE = __webpack_require__(153);
+>>>>>>> fix: delivery and payment text and popup fixes
 var gOPD = Object.getOwnPropertyDescriptor;
 
 exports.f = __webpack_require__(27) ? gOPD : function getOwnPropertyDescriptor(O, P) {
@@ -4106,11 +4324,19 @@ exports.f = __webpack_require__(27) ? gOPD : function getOwnPropertyDescriptor(O
 
 
 /***/ }),
+<<<<<<< HEAD
 /* 156 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // 19.1.2.7 / 15.2.3.4 Object.getOwnPropertyNames(O)
 var $keys = __webpack_require__(158);
+=======
+/* 157 */
+/***/ (function(module, exports, __webpack_require__) {
+
+// 19.1.2.7 / 15.2.3.4 Object.getOwnPropertyNames(O)
+var $keys = __webpack_require__(159);
+>>>>>>> fix: delivery and payment text and popup fixes
 var hiddenKeys = __webpack_require__(92).concat('length', 'prototype');
 
 exports.f = Object.getOwnPropertyNames || function getOwnPropertyNames(O) {
@@ -4119,7 +4345,11 @@ exports.f = Object.getOwnPropertyNames || function getOwnPropertyNames(O) {
 
 
 /***/ }),
+<<<<<<< HEAD
 /* 157 */
+=======
+/* 158 */
+>>>>>>> fix: delivery and payment text and popup fixes
 /***/ (function(module, exports, __webpack_require__) {
 
 // 19.1.2.9 / 15.2.3.2 Object.getPrototypeOf(O)
@@ -4142,7 +4372,11 @@ module.exports = Object.getPrototypeOf || function (O) {
 
 
 /***/ }),
+<<<<<<< HEAD
 /* 158 */
+=======
+/* 159 */
+>>>>>>> fix: delivery and payment text and popup fixes
 /***/ (function(module, exports, __webpack_require__) {
 
 <<<<<<< HEAD
@@ -4171,17 +4405,28 @@ module.exports = function (object, names) {
 
 
 /***/ }),
+<<<<<<< HEAD
 /* 159 */
+=======
+/* 160 */
+>>>>>>> fix: delivery and payment text and popup fixes
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__(47);
 
 
 /***/ }),
+<<<<<<< HEAD
 /* 160 */,
 /* 161 */,
 /* 162 */,
 /* 163 */
+=======
+/* 161 */,
+/* 162 */,
+/* 163 */,
+/* 164 */
+>>>>>>> fix: delivery and payment text and popup fixes
 /***/ (function(module, exports, __webpack_require__) {
 
 var SetCache = __webpack_require__(109),
@@ -4275,7 +4520,11 @@ module.exports = equalArrays;
 
 
 /***/ }),
+<<<<<<< HEAD
 /* 164 */
+=======
+/* 165 */
+>>>>>>> fix: delivery and payment text and popup fixes
 /***/ (function(module, exports, __webpack_require__) {
 
 /* WEBPACK VAR INJECTION */(function(global) {/** Detect free variable `global` from Node.js. */
@@ -4286,7 +4535,11 @@ module.exports = freeGlobal;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(72)))
 
 /***/ }),
+<<<<<<< HEAD
 /* 165 */
+=======
+/* 166 */
+>>>>>>> fix: delivery and payment text and popup fixes
 /***/ (function(module, exports) {
 
 /** Used for built-in method references. */
@@ -4318,6 +4571,7 @@ module.exports = toSource;
 
 
 /***/ }),
+<<<<<<< HEAD
 /* 166 */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -4330,6 +4584,12 @@ module.exports = toSource;
 =======
 /* WEBPACK VAR INJECTION */(function(module) {var root = __webpack_require__(19),
 >>>>>>> feat: tiger popups redesign
+=======
+/* 167 */
+/***/ (function(module, exports, __webpack_require__) {
+
+/* WEBPACK VAR INJECTION */(function(module) {var root = __webpack_require__(20),
+>>>>>>> fix: delivery and payment text and popup fixes
     stubFalse = __webpack_require__(373);
 >>>>>>> feat: add payment and delivery popups
 
@@ -4372,7 +4632,11 @@ module.exports = isBuffer;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(114)(module)))
 
 /***/ }),
+<<<<<<< HEAD
 /* 167 */
+=======
+/* 168 */
+>>>>>>> fix: delivery and payment text and popup fixes
 /***/ (function(module, exports, __webpack_require__) {
 
 var baseGetTag = __webpack_require__(53),
@@ -4419,7 +4683,11 @@ module.exports = isFunction;
 
 
 /***/ }),
+<<<<<<< HEAD
 /* 168 */
+=======
+/* 169 */
+>>>>>>> fix: delivery and payment text and popup fixes
 /***/ (function(module, exports) {
 
 /** Used as references for various `Number` constants. */
@@ -4460,6 +4728,7 @@ module.exports = isLength;
 
 
 /***/ }),
+<<<<<<< HEAD
 /* 169 */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -4472,6 +4741,14 @@ var baseIsTypedArray = __webpack_require__(326),
     baseUnary = __webpack_require__(133),
     nodeUtil = __webpack_require__(357);
 >>>>>>> feat: add payment and delivery popups
+=======
+/* 170 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var baseIsTypedArray = __webpack_require__(326),
+    baseUnary = __webpack_require__(135),
+    nodeUtil = __webpack_require__(357);
+>>>>>>> fix: delivery and payment text and popup fixes
 
 /* Node.js helper references. */
 var nodeIsTypedArray = nodeUtil && nodeUtil.isTypedArray;
@@ -4499,7 +4776,10 @@ module.exports = isTypedArray;
 
 
 /***/ }),
+<<<<<<< HEAD
 /* 170 */,
+=======
+>>>>>>> fix: delivery and payment text and popup fixes
 /* 171 */,
 /* 172 */,
 /* 173 */,
@@ -4593,7 +4873,11 @@ var meta = module.exports = {
 
 // fallback for IE11 buggy Object.getOwnPropertyNames with iframe and window
 var toIObject = __webpack_require__(48);
+<<<<<<< HEAD
 var gOPN = __webpack_require__(156).f;
+=======
+var gOPN = __webpack_require__(157).f;
+>>>>>>> fix: delivery and payment text and popup fixes
 var toString = {}.toString;
 
 var windowNames = typeof window == 'object' && window && Object.getOwnPropertyNames
@@ -4654,17 +4938,20 @@ var getNative = __webpack_require__(39),
     root = __webpack_require__(19);
 =======
 /* 197 */,
-/* 198 */,
-/* 199 */
+/* 198 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var getNative = __webpack_require__(40),
+<<<<<<< HEAD
 <<<<<<< HEAD
     root = __webpack_require__(20);
 >>>>>>> feat: add payment and delivery popups
 =======
     root = __webpack_require__(19);
 >>>>>>> feat: tiger popups redesign
+=======
+    root = __webpack_require__(20);
+>>>>>>> fix: delivery and payment text and popup fixes
 
 /* Built-in method references that are verified to be native. */
 var Set = getNative(root, 'Set');
@@ -4673,7 +4960,7 @@ module.exports = Set;
 
 
 /***/ }),
-/* 200 */
+/* 199 */
 /***/ (function(module, exports) {
 
 /**
@@ -4704,11 +4991,12 @@ module.exports = arrayFilter;
 
 
 /***/ }),
+/* 200 */,
 /* 201 */,
-/* 202 */,
-/* 203 */
+/* 202 */
 /***/ (function(module, exports, __webpack_require__) {
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 var baseTimes = __webpack_require__(327),
     isArguments = __webpack_require__(208),
@@ -4727,6 +5015,14 @@ var baseTimes = __webpack_require__(328),
     isIndex = __webpack_require__(206),
 >>>>>>> feat: tiger popups redesign
     isTypedArray = __webpack_require__(169);
+=======
+var baseTimes = __webpack_require__(328),
+    isArguments = __webpack_require__(209),
+    isArray = __webpack_require__(36),
+    isBuffer = __webpack_require__(167),
+    isIndex = __webpack_require__(205),
+    isTypedArray = __webpack_require__(170);
+>>>>>>> fix: delivery and payment text and popup fixes
 
 /** Used for built-in method references. */
 var objectProto = Object.prototype;
@@ -4773,8 +5069,8 @@ module.exports = arrayLikeKeys;
 
 
 /***/ }),
-/* 204 */,
-/* 205 */
+/* 203 */,
+/* 204 */
 /***/ (function(module, exports) {
 
 /**
@@ -4800,7 +5096,7 @@ module.exports = arrayPush;
 
 
 /***/ }),
-/* 206 */
+/* 205 */
 /***/ (function(module, exports) {
 
 /** Used as references for various `Number` constants. */
@@ -4831,7 +5127,7 @@ module.exports = isIndex;
 
 
 /***/ }),
-/* 207 */
+/* 206 */
 /***/ (function(module, exports) {
 
 /** Used for built-in method references. */
@@ -4855,7 +5151,7 @@ module.exports = isPrototype;
 
 
 /***/ }),
-/* 208 */
+/* 207 */
 /***/ (function(module, exports) {
 
 /**
@@ -4876,7 +5172,7 @@ module.exports = overArg;
 
 
 /***/ }),
-/* 209 */
+/* 208 */
 /***/ (function(module, exports, __webpack_require__) {
 
 <<<<<<< HEAD
@@ -5079,7 +5375,7 @@ module.exports = debounce;
 
 
 /***/ }),
-/* 210 */
+/* 209 */
 /***/ (function(module, exports, __webpack_require__) {
 
 <<<<<<< HEAD
@@ -5125,6 +5421,7 @@ module.exports = isArguments;
 
 
 /***/ }),
+/* 210 */,
 /* 211 */,
 /* 212 */,
 /* 213 */,
@@ -5146,11 +5443,15 @@ module.exports = isArguments;
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__takeLatest__ = __webpack_require__(400);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__throttle__ = __webpack_require__(401);
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__utils__ = __webpack_require__(21);
 >>>>>>> feat: add payment and delivery popups
 =======
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__utils__ = __webpack_require__(20);
 >>>>>>> feat: tiger popups redesign
+=======
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__utils__ = __webpack_require__(21);
+>>>>>>> fix: delivery and payment text and popup fixes
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_0__takeEvery__["a"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return __WEBPACK_IMPORTED_MODULE_1__takeLatest__["a"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "c", function() { return __WEBPACK_IMPORTED_MODULE_2__throttle__["a"]; });
@@ -5282,10 +5583,14 @@ var _propTypes = __webpack_require__(6);
 var _propTypes2 = _interopRequireDefault(_propTypes);
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 var _throttle2 = __webpack_require__(137);
 =======
 var _throttle2 = __webpack_require__(136);
 >>>>>>> feat: add payment and delivery popups
+=======
+var _throttle2 = __webpack_require__(138);
+>>>>>>> fix: delivery and payment text and popup fixes
 
 var _throttle3 = _interopRequireDefault(_throttle2);
 
@@ -5460,10 +5765,14 @@ module.exports = __webpack_require__(227);
 
 var utils = __webpack_require__(15);
 <<<<<<< HEAD
+<<<<<<< HEAD
 var bind = __webpack_require__(148);
 var Axios = __webpack_require__(227);
 =======
 var bind = __webpack_require__(147);
+=======
+var bind = __webpack_require__(149);
+>>>>>>> fix: delivery and payment text and popup fixes
 var Axios = __webpack_require__(229);
 >>>>>>> feat: add payment and delivery popups
 var defaults = __webpack_require__(90);
@@ -5500,6 +5809,7 @@ axios.create = function create(instanceConfig) {
 
 // Expose Cancel & CancelToken
 <<<<<<< HEAD
+<<<<<<< HEAD
 axios.Cancel = __webpack_require__(145);
 axios.CancelToken = __webpack_require__(226);
 axios.isCancel = __webpack_require__(146);
@@ -5508,6 +5818,11 @@ axios.Cancel = __webpack_require__(144);
 axios.CancelToken = __webpack_require__(228);
 axios.isCancel = __webpack_require__(145);
 >>>>>>> feat: add payment and delivery popups
+=======
+axios.Cancel = __webpack_require__(146);
+axios.CancelToken = __webpack_require__(228);
+axios.isCancel = __webpack_require__(147);
+>>>>>>> fix: delivery and payment text and popup fixes
 
 // Expose all/spread
 axios.all = function all(promises) {
@@ -5537,10 +5852,14 @@ module.exports.default = axios;
 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 var Cancel = __webpack_require__(145);
 =======
 var Cancel = __webpack_require__(144);
 >>>>>>> feat: add payment and delivery popups
+=======
+var Cancel = __webpack_require__(146);
+>>>>>>> fix: delivery and payment text and popup fixes
 
 /**
  * A `CancelToken` is an object that can be used to request cancellation of an operation.
@@ -5780,8 +6099,12 @@ var transformData = __webpack_require__(232);
 var isCancel = __webpack_require__(146);
 =======
 var transformData = __webpack_require__(234);
+<<<<<<< HEAD
 var isCancel = __webpack_require__(145);
 >>>>>>> feat: add payment and delivery popups
+=======
+var isCancel = __webpack_require__(147);
+>>>>>>> fix: delivery and payment text and popup fixes
 var defaults = __webpack_require__(90);
 
 /**
@@ -5892,7 +6215,11 @@ module.exports = function enhanceError(error, config, code, response) {
 "use strict";
 
 
+<<<<<<< HEAD
 var createError = __webpack_require__(147);
+=======
+var createError = __webpack_require__(148);
+>>>>>>> fix: delivery and payment text and popup fixes
 
 /**
  * Resolve or reject a Promise based on response status.
@@ -6084,6 +6411,7 @@ module.exports = function buildURL(url, params, paramsSerializer) {
     }
   );
 
+<<<<<<< HEAD
   var adapter = config.adapter || defaults.adapter;
 
   return adapter(config).then(function onAdapterResolution(response) {
@@ -6331,6 +6659,8 @@ module.exports = function buildURL(url, params, paramsSerializer) {
 "use strict";
 
 
+=======
+>>>>>>> fix: delivery and payment text and popup fixes
 /**
  * Creates a new URL by combining the specified URLs
  *
@@ -8623,8 +8953,12 @@ __webpack_require__(129);
 /***/ (function(module, exports, __webpack_require__) {
 
 __webpack_require__(102);
+<<<<<<< HEAD
 __webpack_require__(128);
 >>>>>>> feat: add payment and delivery popups
+=======
+__webpack_require__(130);
+>>>>>>> fix: delivery and payment text and popup fixes
 module.exports = __webpack_require__(101).f('iterator');
 
 
@@ -8746,8 +9080,12 @@ var cof = __webpack_require__(118);
 /***/ (function(module, exports, __webpack_require__) {
 
 // 7.2.2 IsArray(argument)
+<<<<<<< HEAD
 var cof = __webpack_require__(117);
 >>>>>>> feat: add payment and delivery popups
+=======
+var cof = __webpack_require__(118);
+>>>>>>> fix: delivery and payment text and popup fixes
 module.exports = Array.isArray || function isArray(arg) {
   return cof(arg) == 'Array';
 };
@@ -8811,6 +9149,7 @@ module.exports = function (done, value) {
 // 19.1.2.1 Object.assign(target, source, ...)
 var DESCRIPTORS = __webpack_require__(27);
 <<<<<<< HEAD
+<<<<<<< HEAD
 var getKeys = __webpack_require__(56);
 =======
 var getKeys = __webpack_require__(57);
@@ -8819,6 +9158,13 @@ var gOPS = __webpack_require__(94);
 var pIE = __webpack_require__(66);
 var toObject = __webpack_require__(51);
 var IObject = __webpack_require__(153);
+=======
+var getKeys = __webpack_require__(57);
+var gOPS = __webpack_require__(94);
+var pIE = __webpack_require__(66);
+var toObject = __webpack_require__(51);
+var IObject = __webpack_require__(154);
+>>>>>>> fix: delivery and payment text and popup fixes
 var $assign = Object.assign;
 
 // should work with symbols and should have deterministic property order (V8 bug)
@@ -8897,10 +9243,14 @@ module.exports = {
     function (test, buggy, set) {
       try {
 <<<<<<< HEAD
+<<<<<<< HEAD
         set = __webpack_require__(119)(Function.call, __webpack_require__(155).f(Object.prototype, '__proto__').set, 2);
 =======
         set = __webpack_require__(118)(Function.call, __webpack_require__(155).f(Object.prototype, '__proto__').set, 2);
 >>>>>>> feat: add payment and delivery popups
+=======
+        set = __webpack_require__(119)(Function.call, __webpack_require__(156).f(Object.prototype, '__proto__').set, 2);
+>>>>>>> fix: delivery and payment text and popup fixes
         set(test, []);
         buggy = !(test instanceof Array);
       } catch (e) { buggy = true; }
@@ -8973,7 +9323,11 @@ var toIObject = __webpack_require__(48);
 // 22.1.3.13 Array.prototype.keys()
 // 22.1.3.29 Array.prototype.values()
 // 22.1.3.30 Array.prototype[@@iterator]()
+<<<<<<< HEAD
 module.exports = __webpack_require__(154)(Array, 'Array', function (iterated, kind) {
+=======
+module.exports = __webpack_require__(155)(Array, 'Array', function (iterated, kind) {
+>>>>>>> fix: delivery and payment text and popup fixes
   this._t = toIObject(iterated); // target
   this._i = 0;                   // next index
   this._k = kind;                // kind
@@ -9049,7 +9403,11 @@ $export($export.S + $export.F * !__webpack_require__(27), 'Object', { defineProp
 
 // 19.1.2.9 Object.getPrototypeOf(O)
 var toObject = __webpack_require__(51);
+<<<<<<< HEAD
 var $getPrototypeOf = __webpack_require__(157);
+=======
+var $getPrototypeOf = __webpack_require__(158);
+>>>>>>> fix: delivery and payment text and popup fixes
 
 __webpack_require__(83)('getPrototypeOf', function () {
   return function getPrototypeOf(it) {
@@ -9106,6 +9464,7 @@ $export($export.S, 'Object', { setPrototypeOf: __webpack_require__(286).set });
 // ECMAScript 6 symbols shim
 var global = __webpack_require__(28);
 <<<<<<< HEAD
+<<<<<<< HEAD
 var has = __webpack_require__(33);
 var DESCRIPTORS = __webpack_require__(27);
 var $export = __webpack_require__(29);
@@ -9118,6 +9477,13 @@ var $export = __webpack_require__(30);
 var redefine = __webpack_require__(159);
 var META = __webpack_require__(182).KEY;
 >>>>>>> feat: add payment and delivery popups
+=======
+var has = __webpack_require__(34);
+var DESCRIPTORS = __webpack_require__(27);
+var $export = __webpack_require__(30);
+var redefine = __webpack_require__(160);
+var META = __webpack_require__(182).KEY;
+>>>>>>> fix: delivery and payment text and popup fixes
 var $fails = __webpack_require__(46);
 var shared = __webpack_require__(97);
 var setToStringTag = __webpack_require__(95);
@@ -9125,6 +9491,7 @@ var uid = __webpack_require__(67);
 var wks = __webpack_require__(22);
 var wksExt = __webpack_require__(101);
 var wksDefine = __webpack_require__(100);
+<<<<<<< HEAD
 <<<<<<< HEAD
 var enumKeys = __webpack_require__(278);
 var isArray = __webpack_require__(280);
@@ -9141,6 +9508,8 @@ var $GOPS = __webpack_require__(94);
 var $DP = __webpack_require__(30);
 var $keys = __webpack_require__(56);
 =======
+=======
+>>>>>>> fix: delivery and payment text and popup fixes
 var enumKeys = __webpack_require__(279);
 var isArray = __webpack_require__(281);
 var anObject = __webpack_require__(43);
@@ -9151,11 +9520,18 @@ var toPrimitive = __webpack_require__(99);
 var createDesc = __webpack_require__(61);
 var _create = __webpack_require__(93);
 var gOPNExt = __webpack_require__(183);
+<<<<<<< HEAD
 var $GOPD = __webpack_require__(155);
 var $GOPS = __webpack_require__(94);
 var $DP = __webpack_require__(31);
 var $keys = __webpack_require__(57);
 >>>>>>> feat: add payment and delivery popups
+=======
+var $GOPD = __webpack_require__(156);
+var $GOPS = __webpack_require__(94);
+var $DP = __webpack_require__(31);
+var $keys = __webpack_require__(57);
+>>>>>>> fix: delivery and payment text and popup fixes
 var gOPD = $GOPD.f;
 var dP = $DP.f;
 var gOPN = gOPNExt.f;
@@ -9278,7 +9654,11 @@ if (!USE_NATIVE) {
 
   $GOPD.f = $getOwnPropertyDescriptor;
   $DP.f = $defineProperty;
+<<<<<<< HEAD
   __webpack_require__(156).f = gOPNExt.f = $getOwnPropertyNames;
+=======
+  __webpack_require__(157).f = gOPNExt.f = $getOwnPropertyNames;
+>>>>>>> fix: delivery and payment text and popup fixes
   __webpack_require__(66).f = $propertyIsEnumerable;
   $GOPS.f = $getOwnPropertySymbols;
 
@@ -9422,11 +9802,15 @@ var getNative = __webpack_require__(39),
 
 var getNative = __webpack_require__(40),
 <<<<<<< HEAD
+<<<<<<< HEAD
     root = __webpack_require__(20);
 >>>>>>> feat: add payment and delivery popups
 =======
     root = __webpack_require__(19);
 >>>>>>> feat: tiger popups redesign
+=======
+    root = __webpack_require__(20);
+>>>>>>> fix: delivery and payment text and popup fixes
 
 /* Built-in method references that are verified to be native. */
 var DataView = getNative(root, 'DataView');
@@ -9490,11 +9874,15 @@ var getNative = __webpack_require__(39),
 =======
 var getNative = __webpack_require__(40),
 <<<<<<< HEAD
+<<<<<<< HEAD
     root = __webpack_require__(20);
 >>>>>>> feat: add payment and delivery popups
 =======
     root = __webpack_require__(19);
 >>>>>>> feat: tiger popups redesign
+=======
+    root = __webpack_require__(20);
+>>>>>>> fix: delivery and payment text and popup fixes
 
 /* Built-in method references that are verified to be native. */
 var Promise = getNative(root, 'Promise');
@@ -9549,6 +9937,7 @@ module.exports = Stack;
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 var root = __webpack_require__(19);
 =======
 var root = __webpack_require__(20);
@@ -9556,6 +9945,9 @@ var root = __webpack_require__(20);
 =======
 var root = __webpack_require__(19);
 >>>>>>> feat: tiger popups redesign
+=======
+var root = __webpack_require__(20);
+>>>>>>> fix: delivery and payment text and popup fixes
 
 /** Built-in value references. */
 var Uint8Array = root.Uint8Array;
@@ -9573,11 +9965,15 @@ var getNative = __webpack_require__(39),
 =======
 var getNative = __webpack_require__(40),
 <<<<<<< HEAD
+<<<<<<< HEAD
     root = __webpack_require__(20);
 >>>>>>> feat: add payment and delivery popups
 =======
     root = __webpack_require__(19);
 >>>>>>> feat: tiger popups redesign
+=======
+    root = __webpack_require__(20);
+>>>>>>> fix: delivery and payment text and popup fixes
 
 /* Built-in method references that are verified to be native. */
 var WeakMap = getNative(root, 'WeakMap');
@@ -9630,7 +10026,7 @@ module.exports = arraySome;
 >>>>>>> feat: add payment and delivery popups
 /***/ (function(module, exports, __webpack_require__) {
 
-var arrayPush = __webpack_require__(205),
+var arrayPush = __webpack_require__(204),
     isArray = __webpack_require__(36);
 
 /**
@@ -9737,14 +10133,23 @@ var Stack = __webpack_require__(314),
 /***/ (function(module, exports, __webpack_require__) {
 
 var Stack = __webpack_require__(315),
+<<<<<<< HEAD
     equalArrays = __webpack_require__(163),
+=======
+    equalArrays = __webpack_require__(164),
+>>>>>>> fix: delivery and payment text and popup fixes
     equalByTag = __webpack_require__(331),
     equalObjects = __webpack_require__(332),
     getTag = __webpack_require__(336),
     isArray = __webpack_require__(36),
+<<<<<<< HEAD
 >>>>>>> feat: add payment and delivery popups
     isBuffer = __webpack_require__(166),
     isTypedArray = __webpack_require__(169);
+=======
+    isBuffer = __webpack_require__(167),
+    isTypedArray = __webpack_require__(170);
+>>>>>>> fix: delivery and payment text and popup fixes
 
 /** Used to compose bitmasks for value comparisons. */
 var COMPARE_PARTIAL_FLAG = 1;
@@ -9827,6 +10232,7 @@ module.exports = baseIsEqualDeep;
 /* 324 */
 /***/ (function(module, exports, __webpack_require__) {
 
+<<<<<<< HEAD
 var isFunction = __webpack_require__(167),
     isMasked = __webpack_require__(343),
     isObject = __webpack_require__(36),
@@ -9839,6 +10245,12 @@ var isFunction = __webpack_require__(167),
     isObject = __webpack_require__(37),
 >>>>>>> feat: add payment and delivery popups
     toSource = __webpack_require__(165);
+=======
+var isFunction = __webpack_require__(168),
+    isMasked = __webpack_require__(344),
+    isObject = __webpack_require__(37),
+    toSource = __webpack_require__(166);
+>>>>>>> fix: delivery and payment text and popup fixes
 
 /**
  * Used to match `RegExp`
@@ -9893,7 +10305,11 @@ module.exports = baseIsNative;
 /***/ (function(module, exports, __webpack_require__) {
 
 var baseGetTag = __webpack_require__(53),
+<<<<<<< HEAD
     isLength = __webpack_require__(168),
+=======
+    isLength = __webpack_require__(169),
+>>>>>>> fix: delivery and payment text and popup fixes
     isObjectLike = __webpack_require__(45);
 
 /** `Object#toString` result references. */
@@ -9965,7 +10381,7 @@ var isPrototype = __webpack_require__(205),
 /* 327 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var isPrototype = __webpack_require__(207),
+var isPrototype = __webpack_require__(206),
     nativeKeys = __webpack_require__(356);
 >>>>>>> feat: add payment and delivery popups
 
@@ -10041,11 +10457,15 @@ var root = __webpack_require__(19);
 /***/ (function(module, exports, __webpack_require__) {
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 var root = __webpack_require__(20);
 >>>>>>> feat: add payment and delivery popups
 =======
 var root = __webpack_require__(19);
 >>>>>>> feat: tiger popups redesign
+=======
+var root = __webpack_require__(20);
+>>>>>>> fix: delivery and payment text and popup fixes
 
 /** Used to detect overreaching core-js shims. */
 var coreJsData = root['__core-js_shared__'];
@@ -10071,10 +10491,16 @@ var Symbol = __webpack_require__(78),
 var Symbol = __webpack_require__(78),
     Uint8Array = __webpack_require__(316),
     eq = __webpack_require__(88),
+<<<<<<< HEAD
     equalArrays = __webpack_require__(163),
     mapToArray = __webpack_require__(355),
     setToArray = __webpack_require__(134);
 >>>>>>> feat: add payment and delivery popups
+=======
+    equalArrays = __webpack_require__(164),
+    mapToArray = __webpack_require__(355),
+    setToArray = __webpack_require__(136);
+>>>>>>> fix: delivery and payment text and popup fixes
 
 /** Used to compose bitmasks for value comparisons. */
 var COMPARE_PARTIAL_FLAG = 1,
@@ -10384,7 +10810,7 @@ var arrayFilter = __webpack_require__(198),
 /* 335 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var arrayFilter = __webpack_require__(200),
+var arrayFilter = __webpack_require__(199),
     stubArray = __webpack_require__(372);
 >>>>>>> feat: add payment and delivery popups
 
@@ -10434,11 +10860,16 @@ var DataView = __webpack_require__(311),
 var DataView = __webpack_require__(312),
     Map = __webpack_require__(108),
     Promise = __webpack_require__(314),
-    Set = __webpack_require__(199),
+    Set = __webpack_require__(198),
     WeakMap = __webpack_require__(317),
+<<<<<<< HEAD
 >>>>>>> feat: add payment and delivery popups
     baseGetTag = __webpack_require__(53),
     toSource = __webpack_require__(165);
+=======
+    baseGetTag = __webpack_require__(53),
+    toSource = __webpack_require__(166);
+>>>>>>> fix: delivery and payment text and popup fixes
 
 /** `Object#toString` result references. */
 var mapTag = '[object Map]',
@@ -11072,7 +11503,7 @@ module.exports = mapToArray;
 >>>>>>> feat: add payment and delivery popups
 /***/ (function(module, exports, __webpack_require__) {
 
-var overArg = __webpack_require__(208);
+var overArg = __webpack_require__(207);
 
 /* Built-in method references for those with the same name as other `lodash` methods. */
 var nativeKeys = overArg(Object.keys, Object);
@@ -11088,7 +11519,11 @@ module.exports = nativeKeys;
 >>>>>>> feat: add payment and delivery popups
 /***/ (function(module, exports, __webpack_require__) {
 
+<<<<<<< HEAD
 /* WEBPACK VAR INJECTION */(function(module) {var freeGlobal = __webpack_require__(164);
+=======
+/* WEBPACK VAR INJECTION */(function(module) {var freeGlobal = __webpack_require__(165);
+>>>>>>> fix: delivery and payment text and popup fixes
 
 /** Detect free variable `exports`. */
 var freeExports = typeof exports == 'object' && exports && !exports.nodeType && exports;
@@ -11318,10 +11753,14 @@ module.exports = stackHas;
 var ListCache = __webpack_require__(68),
     Map = __webpack_require__(108),
 <<<<<<< HEAD
+<<<<<<< HEAD
     MapCache = __webpack_require__(124);
 =======
     MapCache = __webpack_require__(123);
 >>>>>>> feat: add payment and delivery popups
+=======
+    MapCache = __webpack_require__(124);
+>>>>>>> fix: delivery and payment text and popup fixes
 
 /** Used as the size to enable large array optimizations. */
 var LARGE_ARRAY_SIZE = 200;
@@ -11407,7 +11846,7 @@ var arrayLikeKeys = __webpack_require__(201),
 /* 368 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var arrayLikeKeys = __webpack_require__(203),
+var arrayLikeKeys = __webpack_require__(202),
     baseKeys = __webpack_require__(327),
 >>>>>>> feat: add payment and delivery popups
     isArrayLike = __webpack_require__(112);
@@ -28633,11 +29072,15 @@ var root = __webpack_require__(19);
 /***/ (function(module, exports, __webpack_require__) {
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 var root = __webpack_require__(20);
 >>>>>>> feat: add payment and delivery popups
 =======
 var root = __webpack_require__(19);
 >>>>>>> feat: tiger popups redesign
+=======
+var root = __webpack_require__(20);
+>>>>>>> fix: delivery and payment text and popup fixes
 
 /**
  * Gets the timestamp of the number of milliseconds that have elapsed since
@@ -29155,11 +29598,15 @@ function takeLatest(patternOrChannel, worker) {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__channel__ = __webpack_require__(58);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__buffers__ = __webpack_require__(89);
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__utils__ = __webpack_require__(21);
 >>>>>>> feat: add payment and delivery popups
 =======
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__utils__ = __webpack_require__(20);
 >>>>>>> feat: tiger popups redesign
+=======
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__utils__ = __webpack_require__(21);
+>>>>>>> fix: delivery and payment text and popup fixes
 
 
 
@@ -29301,7 +29748,11 @@ var _Search = __webpack_require__(218);
 
 var _Search2 = _interopRequireDefault(_Search);
 
+<<<<<<< HEAD
 var _actions = __webpack_require__(149);
+=======
+var _actions = __webpack_require__(150);
+>>>>>>> fix: delivery and payment text and popup fixes
 
 var actions = _interopRequireWildcard(_actions);
 
@@ -29544,7 +29995,11 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = help;
 
+<<<<<<< HEAD
 var _actions = __webpack_require__(149);
+=======
+var _actions = __webpack_require__(150);
+>>>>>>> fix: delivery and payment text and popup fixes
 
 function help() {
   var state = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : [];
@@ -29582,7 +30037,11 @@ exports.default = loadHelp;
 
 var _effects = __webpack_require__(38);
 
+<<<<<<< HEAD
 var _actions = __webpack_require__(149);
+=======
+var _actions = __webpack_require__(150);
+>>>>>>> fix: delivery and payment text and popup fixes
 
 var _utils = __webpack_require__(7);
 
@@ -29969,7 +30428,11 @@ var _Help = __webpack_require__(436);
 
 var _Help2 = _interopRequireDefault(_Help);
 
+<<<<<<< HEAD
 var _actions = __webpack_require__(149);
+=======
+var _actions = __webpack_require__(150);
+>>>>>>> fix: delivery and payment text and popup fixes
 
 var actions = _interopRequireWildcard(_actions);
 
