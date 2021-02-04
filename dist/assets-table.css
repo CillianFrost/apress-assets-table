@@ -2462,7 +2462,6 @@ li.rc-select-dropdown-menu-item-divider {
     outline: 0; }
   .rc-dialog-content {
     background-color: #fff;
-    border-radius: 5px;
     box-shadow: 0 0 9px 0 rgba(59, 61, 77, 0.52);
     background-clip: padding-box;
     outline: 0;
@@ -2511,8 +2510,6 @@ li.rc-select-dropdown-menu-item-divider {
     margin-right: 20px; }
     .rc-dialog-button:last-child {
       margin-right: 0; }
-  .rc-dialog-button-container {
-    text-align: center; }
   .rc-dialog-mask {
     position: fixed;
     top: 0;

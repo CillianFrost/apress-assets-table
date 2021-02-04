@@ -42606,26 +42606,6 @@ var OptionElement = function (_React$Component) {
               handleDataChange: handleDataChange,
               key: address.id
             });
-          }),
-          addresses.map(function (address, i) {
-            return _react2.default.createElement(_CheckboxElement2.default, {
-              name: address.name,
-              selected: address.selected,
-              index: i,
-              optionIndex: index,
-              handleDataChange: handleDataChange,
-              key: address.id
-            });
-          }),
-          addresses.map(function (address, i) {
-            return _react2.default.createElement(_CheckboxElement2.default, {
-              name: address.name,
-              selected: address.selected,
-              index: i,
-              optionIndex: index,
-              handleDataChange: handleDataChange,
-              key: address.id
-            });
           })
         )
       );
@@ -42964,51 +42944,6 @@ var PaymentDeliveryPopup = function (_React$Component) {
                 addresses: addresses,
                 key: id
               });
-            }),
-            this.state.changingDataToSend.map(function (_ref3, index) {
-              var name = _ref3.name,
-                  id = _ref3.id,
-                  selected = _ref3.selected,
-                  _ref3$addresses = _ref3.addresses,
-                  addresses = _ref3$addresses === undefined ? [] : _ref3$addresses;
-              return _react2.default.createElement(_OptionElement2.default, {
-                name: name,
-                selected: selected,
-                index: index,
-                handleDataChange: _this2.handleDataChange,
-                addresses: addresses,
-                key: id
-              });
-            }),
-            this.state.changingDataToSend.map(function (_ref4, index) {
-              var name = _ref4.name,
-                  id = _ref4.id,
-                  selected = _ref4.selected,
-                  _ref4$addresses = _ref4.addresses,
-                  addresses = _ref4$addresses === undefined ? [] : _ref4$addresses;
-              return _react2.default.createElement(_OptionElement2.default, {
-                name: name,
-                selected: selected,
-                index: index,
-                handleDataChange: _this2.handleDataChange,
-                addresses: addresses,
-                key: id
-              });
-            }),
-            this.state.changingDataToSend.map(function (_ref5, index) {
-              var name = _ref5.name,
-                  id = _ref5.id,
-                  selected = _ref5.selected,
-                  _ref5$addresses = _ref5.addresses,
-                  addresses = _ref5$addresses === undefined ? [] : _ref5$addresses;
-              return _react2.default.createElement(_OptionElement2.default, {
-                name: name,
-                selected: selected,
-                index: index,
-                handleDataChange: _this2.handleDataChange,
-                addresses: addresses,
-                key: id
-              });
             })
           ),
           _react2.default.createElement(
@@ -43044,7 +42979,7 @@ var PaymentDeliveryPopup = function (_React$Component) {
                   return _this2.props.showPaymentDeliveryPopup();
                 }
               },
-              isEmptyData ? 'Закрыть' : 'Отмена'
+              isEmptyData ? 'Закрыть' : 'Отменить'
             )
           ),
           _react2.default.createElement('button', {
@@ -45765,6 +45700,14 @@ var Body = function (_Component) {
       } else {
         showImageEditor();
       }
+    }, _this.returnCellTextProporties = function (dataRow) {
+      var str = [];
+      (0, _keys2.default)(dataRow.data.common).forEach(function (item) {
+        if (app.config.productPropertiesMeasure[item]) {
+          str.push(dataRow.data.common[item] + '(' + app.config.productPropertiesMeasure[item].measure + ')');
+        }
+      });
+      return str.join(' x ');
     }, _this.renderCell = function (row, rowId, cell, columnIndex, rowIndex) {
       var _this$props2 = _this.props,
           placeholder = _this$props2.placeholder,
@@ -45846,9 +45789,9 @@ var Body = function (_Component) {
         }),
         product_properties_popup: _react2.default.createElement(_containers.PopupProportiesCellContainer, {
           key: key,
-          cell: dataRow
-          // activeOption={this.returnCellTextProporties(dataRow)}
-          , handleSelect: actions.setProductProportiesDisplaying
+          cell: dataRow,
+          activeOption: _this.returnCellTextProporties(dataRow),
+          handleSelect: actions.setProductProportiesDisplaying
         })
       };
 
@@ -45946,17 +45889,6 @@ var Body = function (_Component) {
     value: function shouldComponentUpdate(nextProps, nextState) {
       return !(0, _isEqual3.default)(this.props, nextProps) || !(0, _isEqual3.default)(this.state, nextState);
     }
-
-    /* returnCellTextProporties = (dataRow) => {
-      const str = [];
-      Object.keys(dataRow.data.common).forEach((item) => {
-        if (app.config.productPropertiesMeasure[item]) {
-          str.push(`${dataRow.data.common[item]}(${app.config.productPropertiesMeasure[item].measure})`);
-        }
-      });
-      return str.join(' x ');
-    } */
-
   }, {
     key: 'render',
     value: function render() {
