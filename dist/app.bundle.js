@@ -6259,13 +6259,14 @@ var showPaymentDeliveryPopup = exports.showPaymentDeliveryPopup = function showP
   };
 };
 
-var sendDataToPaymentDeliveryPopup = exports.sendDataToPaymentDeliveryPopup = function sendDataToPaymentDeliveryPopup(groupId, data, name) {
+var sendDataToPaymentDeliveryPopup = exports.sendDataToPaymentDeliveryPopup = function sendDataToPaymentDeliveryPopup(groupId, data, name, groupName) {
   return {
     type: SEND_DATA_TO_PAYMENT_DELIVERY_POPUP,
     payload: {
       groupId: groupId,
       data: data,
-      name: name
+      name: name,
+      groupName: groupName
     }
   };
 };
@@ -57518,6 +57519,7 @@ var Body = function (_Component) {
       var key = rowIndex * tableWidth + columnIndex;
       var traitFiltersDisplayingOptions = app.config.traitFiltersDisplaying.options;
 
+<<<<<<< HEAD
       var componentsCell = {
         text: _react2.default.createElement(_cellsWithDragging.TextWithDragging, {
           key: key,
@@ -57581,6 +57583,15 @@ var Body = function (_Component) {
           readonly = _this$props3.readonly,
           actions = _this$props3.actions,
           removeGroup = _this$props3.removeGroup;
+=======
+      var isPayment = this.props.paymentDeliveryData.name === 'payment_methods_unbinds';
+
+      var groupName = this.props.paymentDeliveryData.groupName;
+
+
+      var mainDiffText = isPayment ? 'оплаты' : 'доставки';
+      var hintDiffText = isPayment ? 'Отключите способ оплаты, если он не должен примениться для товарной группы' : 'Отключите способ доставки или пункт самовывоза, если он не должен примениться для товарной группы';
+>>>>>>> fix: payment delivery popup animations and titles
 
       var rowId = _this.getRowId(row);
       var rowHtml = _react2.default.createElement(
@@ -57613,8 +57624,20 @@ var Body = function (_Component) {
         })
       );
 
+<<<<<<< HEAD
       return readonly ? rowHtml : _react2.default.createElement(
         _rcTrigger2.default,
+=======
+      var paymentDeliveryUrl = app.config.paymentDeliveryUrl;
+
+
+      var resultHash = isPayment ? '#payment' : '#delivery';
+
+      var resultUrl = '' + paymentDeliveryUrl + resultHash;
+
+      return _react2.default.createElement(
+        'div',
+>>>>>>> fix: payment delivery popup animations and titles
         {
           key: rowId,
           action: ['hover'],
@@ -57664,7 +57687,10 @@ var Body = function (_Component) {
         },
         _react2.default.createElement(
           'div',
-          { className: b('content'), ref: this.setPopupRef },
+          {
+            className: '' + b('content'),
+            ref: this.setPopupRef
+          },
           _react2.default.createElement(
             'div',
             { className: b('content-titles') },
@@ -57677,7 +57703,7 @@ var Body = function (_Component) {
             _react2.default.createElement(
               'div',
               { className: b('content-titles-name') },
-              '\u041D\u0430\u0437\u0432\u0430\u043D\u0438\u0435 \u0442\u043E\u0432\u0430\u0440\u043D\u043E\u0439 \u0433\u0440\u0443\u043F\u043F\u044B'
+              groupName || 'Без названия'
             )
           ),
           _react2.default.createElement(
@@ -57721,7 +57747,7 @@ var Body = function (_Component) {
             _react2.default.createElement(
               'a',
               {
-                href: app.config.paymentDeliveryUrl,
+                href: resultUrl,
                 target: '_blank',
                 rel: 'noopener noreferrer'
               },
@@ -57757,7 +57783,307 @@ var Body = function (_Component) {
               return _this2.props.showPaymentDeliveryPopup();
 >>>>>>> fix: remove popups border radius and replace popups buttons
             }
+<<<<<<< HEAD
           }
+=======
+          })
+        )
+      );
+    }
+  }]);
+  return PaymentDeliveryPopup;
+}(_react2.default.Component);
+
+PaymentDeliveryPopup.propTypes = {
+  showPaymentDeliveryPopup: _propTypes2.default.func.isRequired,
+  editPaymentDeliveryData: _propTypes2.default.func.isRequired
+};
+
+var mapStateToProps = function mapStateToProps(state) {
+  return {
+    paymentDeliveryData: state.paymentDelivery
+  };
+};
+
+var mapDispatchToProps = function mapDispatchToProps(dispatch) {
+  return (0, _redux.bindActionCreators)({
+    showPaymentDeliveryPopup: _actions.showPaymentDeliveryPopup,
+    editPaymentDeliveryData: _actions2.editPaymentDeliveryData
+  }, dispatch);
+};
+
+exports.default = (0, _reactRedux.connect)(mapStateToProps, mapDispatchToProps)(PaymentDeliveryPopup);
+
+/***/ }),
+/* 453 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _extends2 = __webpack_require__(9);
+
+var _extends3 = _interopRequireDefault(_extends2);
+
+exports.default = paymentDelivery;
+
+var _actions = __webpack_require__(126);
+
+var types = _interopRequireWildcard(_actions);
+
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj.default = obj; return newObj; } }
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var initialState = {
+  isPaymentDeliveryVisible: false,
+  data: [],
+  groupId: null,
+  name: null,
+  groupName: null
+};
+
+function paymentDelivery() {
+  var state = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : initialState;
+  var action = arguments[1];
+
+  switch (action.type) {
+    case types.SHOW_PAYMENT_DELIVERY_POPUP:
+      return (0, _extends3.default)({}, state, {
+        isPaymentDeliveryVisible: action.isVisible
+      });
+
+    case types.SEND_DATA_TO_PAYMENT_DELIVERY_POPUP:
+      return (0, _extends3.default)({}, state, {
+        data: action.payload.data,
+        groupId: action.payload.groupId,
+        name: action.payload.name,
+        groupName: action.payload.groupName
+      });
+
+    default:
+      return state;
+  }
+}
+
+/***/ }),
+/* 454 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
+Object.defineProperty(exports, "__esModule", {
+  value: true
+});
+
+var _extends2 = __webpack_require__(9);
+
+var _extends3 = _interopRequireDefault(_extends2);
+
+var _getPrototypeOf = __webpack_require__(8);
+
+var _getPrototypeOf2 = _interopRequireDefault(_getPrototypeOf);
+
+var _classCallCheck2 = __webpack_require__(1);
+
+var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
+
+var _createClass2 = __webpack_require__(5);
+
+var _createClass3 = _interopRequireDefault(_createClass2);
+
+var _possibleConstructorReturn2 = __webpack_require__(3);
+
+var _possibleConstructorReturn3 = _interopRequireDefault(_possibleConstructorReturn2);
+
+var _inherits2 = __webpack_require__(2);
+
+var _inherits3 = _interopRequireDefault(_inherits2);
+
+var _react = __webpack_require__(0);
+
+var _react2 = _interopRequireDefault(_react);
+
+var _reactRedux = __webpack_require__(10);
+
+var _Dialog = __webpack_require__(80);
+
+var _Dialog2 = _interopRequireDefault(_Dialog);
+
+var _ProgressCircle = __webpack_require__(173);
+
+var _ProgressCircle2 = _interopRequireDefault(_ProgressCircle);
+
+var _Checkbox = __webpack_require__(79);
+
+var _Checkbox2 = _interopRequireDefault(_Checkbox);
+
+var _Button = __webpack_require__(73);
+
+var _Button2 = _interopRequireDefault(_Button);
+
+var _actions = __webpack_require__(41);
+
+var _TreeDndContext = __webpack_require__(244);
+
+var _TreeDndContext2 = _interopRequireDefault(_TreeDndContext);
+
+var _actions2 = __webpack_require__(82);
+
+var actions = _interopRequireWildcard(_actions2);
+
+var _actions3 = __webpack_require__(55);
+
+var remove = _interopRequireWildcard(_actions3);
+
+function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj.default = obj; return newObj; } }
+
+function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
+
+var moveToWithoutGroup = 'moveToWithoutGroup';
+var moveToListGroup = 'moveToListGroup';
+
+var RemoveConfirmationDialog = function (_React$Component) {
+  (0, _inherits3.default)(RemoveConfirmationDialog, _React$Component);
+
+  function RemoveConfirmationDialog() {
+    var _ref;
+
+    var _temp, _this, _ret;
+
+    (0, _classCallCheck3.default)(this, RemoveConfirmationDialog);
+
+    for (var _len = arguments.length, args = Array(_len), _key = 0; _key < _len; _key++) {
+      args[_key] = arguments[_key];
+    }
+
+    return _ret = (_temp = (_this = (0, _possibleConstructorReturn3.default)(this, (_ref = RemoveConfirmationDialog.__proto__ || (0, _getPrototypeOf2.default)(RemoveConfirmationDialog)).call.apply(_ref, [this].concat(args))), _this), _initialiseProps.call(_this), _temp), (0, _possibleConstructorReturn3.default)(_this, _ret);
+  }
+
+  (0, _createClass3.default)(RemoveConfirmationDialog, [{
+    key: 'renderSelectActions',
+    value: function renderSelectActions() {
+      var _this2 = this;
+
+      var props = this.props,
+          state = this.state;
+
+
+      return _react2.default.createElement(
+        'section',
+        { className: 'e-products-actions' },
+        _react2.default.createElement(
+          'div',
+          { className: 'rc-dialog-attention' },
+          '\u0412\u043D\u0438\u043C\u0430\u043D\u0438\u0435! \u0412 \u0433\u0440\u0443\u043F\u043F\u0435 \u201C',
+          props.rowName,
+          '\u201D \u0435\u0441\u0442\u044C ',
+          ' ',
+          props.childrenGroups ? 'подгруппы.' : 'товары.'
+        ),
+        _react2.default.createElement(
+          'div',
+          { className: 'e-products-actions-radio-title' },
+          '\u0414\u0435\u0439\u0441\u0442\u0432\u0438\u044F \u0441 ',
+          props.childrenGroups ? 'группами' : 'товарами',
+          ' :'
+        ),
+        _react2.default.createElement(
+          'div',
+          null,
+          _react2.default.createElement(
+            'div',
+            { className: 'e-products-actions-radio-set' },
+            _react2.default.createElement(_Checkbox2.default, {
+              mix: 'is-radio e-products-actions-radio',
+              onChange: function onChange() {
+                return _this2.changeAction(moveToWithoutGroup);
+              },
+              checked: state.selectedAction === moveToWithoutGroup
+            }),
+            _react2.default.createElement(
+              'label',
+              {
+                className: 'e-label',
+                htmlFor: true,
+                onClick: function onClick() {
+                  return _this2.changeAction(moveToWithoutGroup);
+                }
+              },
+              props.childrenGroups ? 'Удалить подгруппы и переместить товары в группу “Товары без группы”' : 'Переместить товары в группу “Товары без группы”:'
+            )
+          ),
+          _react2.default.createElement(
+            'div',
+            { className: 'e-products-actions-radio-set' },
+            _react2.default.createElement(_Checkbox2.default, {
+              mix: 'is-radio e-products-actions-radio',
+              onChange: function onChange() {
+                return _this2.changeAction(moveToListGroup);
+              },
+              checked: state.selectedAction === moveToListGroup
+            }),
+            _react2.default.createElement(
+              'label',
+              {
+                className: 'e-label',
+                htmlFor: true,
+                onClick: function onClick() {
+                  return _this2.changeAction(moveToListGroup);
+                }
+              },
+              '\u041F\u0435\u0440\u0435\u043C\u0435\u0441\u0442\u0438\u0442\u044C ',
+              props.childrenGroups ? 'группы' : 'товары',
+              ' \u0432 \u0433\u0440\u0443\u043F\u043F\u0443 \u0438\u0437 \u0441\u043F\u0438\u0441\u043A\u0430:'
+            )
+          ),
+          state.error && _react2.default.createElement(
+            'p',
+            { className: 'e-simple-error' },
+            state.error
+          ),
+          props.error && _react2.default.createElement(
+            'p',
+            { className: 'e-simple-error' },
+            props.error
+          ),
+          _react2.default.createElement(
+            'div',
+            { className: 'e-products-actions-tree-box' },
+            this.props.isLoaded && state.selectedAction === moveToListGroup && _react2.default.createElement(_TreeDndContext2.default, {
+              tree: this.props.tree,
+              config: this.props.config,
+              actionSetExpanded: this.actionSetExpanded,
+              actionUpdate: this.actionUpdate,
+              actionSetNode: this.actionSetNode,
+              hasDragNode: false,
+              hasSettingsNode: false,
+              actionShowRemoveConfirmation: function actionShowRemoveConfirmation() {}
+            })
+          )
+        )
+      );
+    }
+  }, {
+    key: 'render',
+    value: function render() {
+      var props = this.props;
+
+
+      return _react2.default.createElement(
+        _Dialog2.default,
+        {
+          className: 'is-remove-confirmation',
+          closable: !props.removeInProgress,
+          visible: props.removeRowConfirmOpen,
+          onClose: this.cancel,
+          title: !props.removeInProgress ? 'Удалить выбранную группу ?' : 'Удаляем группу, пожалуйста ожидайте ...'
+>>>>>>> fix: payment delivery popup animations and titles
         },
         rowHtml
       );
@@ -61821,12 +62147,26 @@ var _react = __webpack_require__(0);
 
 var _react2 = _interopRequireDefault(_react);
 
+<<<<<<< HEAD
 var _classnames = __webpack_require__(24);
+=======
+    return _ret = (_temp = (_this = (0, _possibleConstructorReturn3.default)(this, (_ref = PaymentDeliveryCell.__proto__ || (0, _getPrototypeOf2.default)(PaymentDeliveryCell)).call.apply(_ref, [this].concat(args))), _this), _this.handleClick = function () {
+      var _this$props$cell = _this.props.cell,
+          id = _this$props$cell.id,
+          common = _this$props$cell.data.common,
+          name = _this$props$cell.name;
+      var text = _this.props.row.name.common.text;
+>>>>>>> fix: payment delivery popup animations and titles
 
 var _classnames2 = _interopRequireDefault(_classnames);
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 var _PreviewImageView = __webpack_require__(245);
+=======
+      _this.props.sendDataToPaymentDeliveryPopup(id, common, name, text);
+      _this.props.showPaymentDeliveryPopup(true);
+>>>>>>> fix: payment delivery popup animations and titles
 
 var _PreviewImageView2 = _interopRequireDefault(_PreviewImageView);
 

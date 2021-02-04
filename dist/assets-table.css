@@ -2877,7 +2877,7 @@ li.rc-select-dropdown-menu-item-divider {
   display: flex;
   align-items: center;
   justify-content: center;
-  z-index: 2; }
+  z-index: 2002; }
   .e-payment-delivery-popup-content {
     border: 1px #999 solid;
     border-radius: 3px;
@@ -2886,8 +2886,7 @@ li.rc-select-dropdown-menu-item-divider {
     padding: 50px 0;
     width: 760px;
     height: 680px;
-    position: relative;
-    top: -60px; }
+    position: relative; }
     .e-payment-delivery-popup-content-titles {
       font-family: Arial;
       color: #383838;
@@ -2901,7 +2900,7 @@ li.rc-select-dropdown-menu-item-divider {
       .e-payment-delivery-popup-content-titles-name {
         font-size: 16px; }
     .e-payment-delivery-popup-content-hint {
-      background-color: #FFFFCC;
+      background-color: #ffffcc;
       padding: 0 50px;
       color: #6D5200;
       font-style: italic;

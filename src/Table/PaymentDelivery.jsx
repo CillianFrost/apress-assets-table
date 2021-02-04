@@ -24,7 +24,9 @@ class PaymentDeliveryCell extends Component {
       name,
     } = this.props.cell;
 
-    this.props.sendDataToPaymentDeliveryPopup(id, common, name);
+    const {text} = this.props.row.name.common;
+
+    this.props.sendDataToPaymentDeliveryPopup(id, common, name, text);
     this.props.showPaymentDeliveryPopup(true);
 
     document.querySelector('body').classList.add('not-scrollable');

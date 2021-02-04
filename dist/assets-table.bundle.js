@@ -5487,13 +5487,14 @@ var showPaymentDeliveryPopup = exports.showPaymentDeliveryPopup = function showP
   };
 };
 
-var sendDataToPaymentDeliveryPopup = exports.sendDataToPaymentDeliveryPopup = function sendDataToPaymentDeliveryPopup(groupId, data, name) {
+var sendDataToPaymentDeliveryPopup = exports.sendDataToPaymentDeliveryPopup = function sendDataToPaymentDeliveryPopup(groupId, data, name, groupName) {
   return {
     type: SEND_DATA_TO_PAYMENT_DELIVERY_POPUP,
     payload: {
       groupId: groupId,
       data: data,
-      name: name
+      name: name,
+      groupName: groupName
     }
   };
 };
@@ -61285,6 +61286,7 @@ function changePhotoColumnData(sourceRowId, destinationCell) {
   return cell;
 }
 
+<<<<<<< HEAD
 function copySelectedCell(columnName, destinationRow, sourceRow) {
   var sourceCell = sourceRow[columnName];
   var destinationCell = destinationRow[columnName];
@@ -61295,6 +61297,15 @@ function copySelectedCell(columnName, destinationRow, sourceRow) {
       destinationCell = changePhotoColumnData(sourceRow.check.common.id, destinationCell);
     }
   }
+=======
+      var isPayment = this.props.paymentDeliveryData.name === 'payment_methods_unbinds';
+
+      var groupName = this.props.paymentDeliveryData.groupName;
+
+
+      var mainDiffText = isPayment ? 'оплаты' : 'доставки';
+      var hintDiffText = isPayment ? 'Отключите способ оплаты, если он не должен примениться для товарной группы' : 'Отключите способ доставки или пункт самовывоза, если он не должен примениться для товарной группы';
+>>>>>>> fix: payment delivery popup animations and titles
 
   return destinationCell;
 }
@@ -61303,6 +61314,7 @@ function getCopyVars(lowerCell, upperCell, cellDragged) {
   var isDraggingDown = cellDragged.row > lowerCell.row;
   var selectionHeight = lowerCell.row - upperCell.row + 1;
 
+<<<<<<< HEAD
 <<<<<<< HEAD
   return {
     column: upperCell.column,
@@ -61323,6 +61335,15 @@ function getCopyVars(lowerCell, upperCell, cellDragged) {
   };
 }
 =======
+=======
+      var paymentDeliveryUrl = app.config.paymentDeliveryUrl;
+
+
+      var resultHash = isPayment ? '#payment' : '#delivery';
+
+      var resultUrl = '' + paymentDeliveryUrl + resultHash;
+
+>>>>>>> fix: payment delivery popup animations and titles
       return _react2.default.createElement(
         'div',
         {
@@ -61333,7 +61354,10 @@ function getCopyVars(lowerCell, upperCell, cellDragged) {
         },
         _react2.default.createElement(
           'div',
-          { className: b('content'), ref: this.setPopupRef },
+          {
+            className: '' + b('content'),
+            ref: this.setPopupRef
+          },
           _react2.default.createElement(
             'div',
             { className: b('content-titles') },
@@ -61346,7 +61370,7 @@ function getCopyVars(lowerCell, upperCell, cellDragged) {
             _react2.default.createElement(
               'div',
               { className: b('content-titles-name') },
-              '\u041D\u0430\u0437\u0432\u0430\u043D\u0438\u0435 \u0442\u043E\u0432\u0430\u0440\u043D\u043E\u0439 \u0433\u0440\u0443\u043F\u043F\u044B'
+              groupName || 'Без названия'
             )
           ),
           _react2.default.createElement(
@@ -61390,7 +61414,7 @@ function getCopyVars(lowerCell, upperCell, cellDragged) {
             _react2.default.createElement(
               'a',
               {
-                href: app.config.paymentDeliveryUrl,
+                href: resultUrl,
                 target: '_blank',
                 rel: 'noopener noreferrer'
               },
@@ -61517,6 +61541,7 @@ exports.default = function () {
     case _actions2.TABLE_EDITOR_ROW_ADD_ID:
       return (0, _extends3.default)({}, state, { focus: (0, _focus2.default)(state.focus, action), history: (0, _history2.default)(state.history, action) });
 
+<<<<<<< HEAD
     case _actions2.TABLE_EDITOR_ROW_REMOVE:
     case _actions2.TABLE_EDITOR_SET_TEXT:
     case _actions2.TABLE_EDITOR_ROW_ADD:
@@ -61530,6 +61555,15 @@ exports.default = function () {
     case _actions2.EDIT_PAYMENT_DELIVERY_DATA:
     case _actions2.SET_PRODUCT_PROPORTIES_DISPLAYING:
       return (0, _extends3.default)({}, state, { history: (0, _history2.default)(state.history, action) });
+=======
+var initialState = {
+  isPaymentDeliveryVisible: false,
+  data: [],
+  groupId: null,
+  name: null,
+  groupName: null
+};
+>>>>>>> fix: payment delivery popup animations and titles
 
     case _actions2.INSERT_DATA:
       {
@@ -61545,6 +61579,7 @@ exports.default = function () {
         var _columnName = void 0;
         var rowNumber = void 0;
 
+<<<<<<< HEAD
         if (activeCell && activeRow) {
           _columnName = activeCell;
           rowNumber = _newRows.findIndex(function (row) {
@@ -61575,6 +61610,15 @@ exports.default = function () {
 
         return (0, _extends3.default)({}, state, { history: (0, _history2.default)((0, _extends3.default)({}, historyState, { newRows: _newRows }), action) });
       }
+=======
+    case types.SEND_DATA_TO_PAYMENT_DELIVERY_POPUP:
+      return (0, _extends3.default)({}, state, {
+        data: action.payload.data,
+        groupId: action.payload.groupId,
+        name: action.payload.name,
+        groupName: action.payload.groupName
+      });
+>>>>>>> fix: payment delivery popup animations and titles
 
     default:
       return (0, _extends3.default)({}, state, {
@@ -65981,10 +66025,19 @@ function pollingOnlineStoreImportStatus() {
   }, _marked, this, [[1, 22]]);
 }
 
+<<<<<<< HEAD
 /***/ }),
 <<<<<<< HEAD
 /* 513 */
 /***/ (function(module, exports, __webpack_require__) {
+=======
+    return _ret = (_temp = (_this = (0, _possibleConstructorReturn3.default)(this, (_ref = PaymentDeliveryCell.__proto__ || (0, _getPrototypeOf2.default)(PaymentDeliveryCell)).call.apply(_ref, [this].concat(args))), _this), _this.handleClick = function () {
+      var _this$props$cell = _this.props.cell,
+          id = _this$props$cell.id,
+          common = _this$props$cell.data.common,
+          name = _this$props$cell.name;
+      var text = _this.props.row.name.common.text;
+>>>>>>> fix: payment delivery popup animations and titles
 
 module.exports = { "default": __webpack_require__(518), __esModule: true };
 
@@ -66078,6 +66131,11 @@ __webpack_require__(128);
 __webpack_require__(102);
 module.exports = __webpack_require__(535);
 
+<<<<<<< HEAD
+=======
+      _this.props.sendDataToPaymentDeliveryPopup(id, common, name, text);
+      _this.props.showPaymentDeliveryPopup(true);
+>>>>>>> fix: payment delivery popup animations and titles
 
 /***/ }),
 /* 527 */
