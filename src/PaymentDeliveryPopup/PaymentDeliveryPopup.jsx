@@ -71,27 +71,38 @@ class PaymentDeliveryPopup extends React.Component {
   }
 
   render() {
-    const isPaymentText = this.props.paymentDeliveryData.name === 'payment_methods_unbinds';
+    const isPayment = this.props.paymentDeliveryData.name === 'payment_methods_unbinds';
 
-    const mainDiffText = isPaymentText ? 'оплаты' : 'доставки';
-    const hintDiffText = isPaymentText
+    const {groupName} = this.props.paymentDeliveryData;
+
+    const mainDiffText = isPayment ? 'оплаты' : 'доставки';
+    const hintDiffText = isPayment
                          ? 'Отключите способ оплаты, если он не должен примениться для товарной группы'
                          : 'Отключите способ доставки или пункт самовывоза, если он не должен примениться для товарной группы';
 
     const isEmptyData = !this.state.changingDataToSend.length;
+
+    const {paymentDeliveryUrl} = app.config;
+
+    const resultHash = isPayment ? '#payment' : '#delivery';
+
+    const resultUrl = `${paymentDeliveryUrl}${resultHash}`;
 
     return (
       <div
         className={b}
         onClick={e => this.handleOutsideClick(e)}
       >
-        <div className={b('content')} ref={this.setPopupRef}>
+        <div
+          className={`${b('content')}`}
+          ref={this.setPopupRef}
+        >
           <div className={b('content-titles')}>
             <div className={b('content-titles-title')}>
               Настроить условия {mainDiffText}
             </div>
             <div className={b('content-titles-name')}>
-              Название товарной группы
+              {groupName || 'Без названия'}
             </div>
           </div>
           <div className={b('content-hint')}>
@@ -114,7 +125,7 @@ class PaymentDeliveryPopup extends React.Component {
           </div>
           <div className={b('content-extra-link')}>
             <a
-              href={app.config.paymentDeliveryUrl}
+              href={resultUrl}
               target='_blank'
               rel='noopener noreferrer'
             >

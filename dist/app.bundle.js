@@ -5214,13 +5214,14 @@ var showPaymentDeliveryPopup = exports.showPaymentDeliveryPopup = function showP
   };
 };
 
-var sendDataToPaymentDeliveryPopup = exports.sendDataToPaymentDeliveryPopup = function sendDataToPaymentDeliveryPopup(groupId, data, name) {
+var sendDataToPaymentDeliveryPopup = exports.sendDataToPaymentDeliveryPopup = function sendDataToPaymentDeliveryPopup(groupId, data, name, groupName) {
   return {
     type: SEND_DATA_TO_PAYMENT_DELIVERY_POPUP,
     payload: {
       groupId: groupId,
       data: data,
-      name: name
+      name: name,
+      groupName: groupName
     }
   };
 };
@@ -42878,12 +42879,22 @@ var PaymentDeliveryPopup = function (_React$Component) {
     value: function render() {
       var _this2 = this;
 
-      var isPaymentText = this.props.paymentDeliveryData.name === 'payment_methods_unbinds';
+      var isPayment = this.props.paymentDeliveryData.name === 'payment_methods_unbinds';
 
-      var mainDiffText = isPaymentText ? 'оплаты' : 'доставки';
-      var hintDiffText = isPaymentText ? 'Отключите способ оплаты, если он не должен примениться для товарной группы' : 'Отключите способ доставки или пункт самовывоза, если он не должен примениться для товарной группы';
+      var groupName = this.props.paymentDeliveryData.groupName;
+
+
+      var mainDiffText = isPayment ? 'оплаты' : 'доставки';
+      var hintDiffText = isPayment ? 'Отключите способ оплаты, если он не должен примениться для товарной группы' : 'Отключите способ доставки или пункт самовывоза, если он не должен примениться для товарной группы';
 
       var isEmptyData = !this.state.changingDataToSend.length;
+
+      var paymentDeliveryUrl = app.config.paymentDeliveryUrl;
+
+
+      var resultHash = isPayment ? '#payment' : '#delivery';
+
+      var resultUrl = '' + paymentDeliveryUrl + resultHash;
 
       return _react2.default.createElement(
         'div',
@@ -42895,7 +42906,10 @@ var PaymentDeliveryPopup = function (_React$Component) {
         },
         _react2.default.createElement(
           'div',
-          { className: b('content'), ref: this.setPopupRef },
+          {
+            className: '' + b('content'),
+            ref: this.setPopupRef
+          },
           _react2.default.createElement(
             'div',
             { className: b('content-titles') },
@@ -42908,7 +42922,7 @@ var PaymentDeliveryPopup = function (_React$Component) {
             _react2.default.createElement(
               'div',
               { className: b('content-titles-name') },
-              '\u041D\u0430\u0437\u0432\u0430\u043D\u0438\u0435 \u0442\u043E\u0432\u0430\u0440\u043D\u043E\u0439 \u0433\u0440\u0443\u043F\u043F\u044B'
+              groupName || 'Без названия'
             )
           ),
           _react2.default.createElement(
@@ -42952,7 +42966,7 @@ var PaymentDeliveryPopup = function (_React$Component) {
             _react2.default.createElement(
               'a',
               {
-                href: app.config.paymentDeliveryUrl,
+                href: resultUrl,
                 target: '_blank',
                 rel: 'noopener noreferrer'
               },
@@ -43044,7 +43058,8 @@ var initialState = {
   isPaymentDeliveryVisible: false,
   data: [],
   groupId: null,
-  name: null
+  name: null,
+  groupName: null
 };
 
 function paymentDelivery() {
@@ -43061,7 +43076,8 @@ function paymentDelivery() {
       return (0, _extends3.default)({}, state, {
         data: action.payload.data,
         groupId: action.payload.groupId,
-        name: action.payload.name
+        name: action.payload.name,
+        groupName: action.payload.groupName
       });
 
     default:
@@ -47054,9 +47070,10 @@ var PaymentDeliveryCell = function (_Component) {
           id = _this$props$cell.id,
           common = _this$props$cell.data.common,
           name = _this$props$cell.name;
+      var text = _this.props.row.name.common.text;
 
 
-      _this.props.sendDataToPaymentDeliveryPopup(id, common, name);
+      _this.props.sendDataToPaymentDeliveryPopup(id, common, name, text);
       _this.props.showPaymentDeliveryPopup(true);
 
       document.querySelector('body').classList.add('not-scrollable');
