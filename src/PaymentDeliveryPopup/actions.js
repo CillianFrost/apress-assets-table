@@ -7,11 +7,12 @@ export const showPaymentDeliveryPopup = isVisible => ({
   isVisible,
 });
 
-export const sendDataToPaymentDeliveryPopup = (groupId, data, name) => ({
+export const sendDataToPaymentDeliveryPopup = (groupId, data, name, groupName) => ({
   type: SEND_DATA_TO_PAYMENT_DELIVERY_POPUP,
   payload: {
     groupId,
     data,
     name,
+    groupName,
   },
 });

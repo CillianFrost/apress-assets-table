@@ -5,6 +5,7 @@ const initialState = {
   data: [],
   groupId: null,
   name: null,
+  groupName: null,
 };
 
 export default function paymentDelivery(state = initialState, action) {
@@ -21,6 +22,7 @@ export default function paymentDelivery(state = initialState, action) {
         data: action.payload.data,
         groupId: action.payload.groupId,
         name: action.payload.name,
+        groupName: action.payload.groupName,
       };
 
     default:
