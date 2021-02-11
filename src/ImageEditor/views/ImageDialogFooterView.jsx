@@ -15,7 +15,7 @@ const ImageDialogFooterView = ({saveImages, closeImageEditor}) => (
       onClick={closeImageEditor}
       mix='rc-dialog-button is-cancel is-big-size'
     >
-      Отмена
+      Отменить
     </Button>
   </div>
 );
