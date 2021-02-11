@@ -76,7 +76,7 @@ class RemoveMassConfirmDialog extends React.Component {
         visible={props.open}
         onClose={this.cancel}
         title={!props.removeInProgress ?
-          'Удалить выбранные группы ?' : 'Удаляем группы, пожалуйста ожидайте ...'}
+          'Удалить выбранные группы?' : 'Удаляем группы, пожалуйста ожидайте ...'}
       >
         {props.removeInProgress ? this.renderRemoveInProgress() : this.renderConfirmation() }
       </Dialog>);

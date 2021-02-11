@@ -53689,7 +53689,7 @@ var ImageDialogFooterView = function ImageDialogFooterView(_ref) {
         onClick: closeImageEditor,
         mix: 'rc-dialog-button is-cancel is-big-size'
       },
-      '\u041E\u0442\u043C\u0435\u043D\u0430'
+      '\u041E\u0442\u043C\u0435\u043D\u0438\u0442\u044C'
     )
   );
 };
@@ -54900,7 +54900,7 @@ var RemoveConfirmationDialog = function (_React$Component) {
           closable: !props.removeInProgress,
           visible: props.removeRowConfirmOpen,
           onClose: this.cancel,
-          title: !props.removeInProgress ? 'Удалить выбранную группу ?' : 'Удаляем группу, пожалуйста ожидайте ...'
+          title: !props.removeInProgress ? 'Удалить выбранную группу?' : 'Удаляем группу, пожалуйста ожидайте ...'
         },
         props.removeInProgress ? this.renderRemoveInProgress() : this.renderConfirmation()
       );
@@ -55415,7 +55415,7 @@ var RemoveMassConfirmDialog = function (_React$Component) {
           closable: !props.removeInProgress,
           visible: props.open,
           onClose: this.cancel,
-          title: !props.removeInProgress ? 'Удалить выбранные группы ?' : 'Удаляем группы, пожалуйста ожидайте ...'
+          title: !props.removeInProgress ? 'Удалить выбранные группы?' : 'Удаляем группы, пожалуйста ожидайте ...'
         },
         props.removeInProgress ? this.renderRemoveInProgress() : this.renderConfirmation()
       );
