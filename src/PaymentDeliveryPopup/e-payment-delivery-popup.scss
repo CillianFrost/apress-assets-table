@@ -8,18 +8,18 @@
   right: 0;
   background-color: rgba(0, 0, 0, .5);
   display: flex;
-  align-items: center;
-  justify-content: center;
   z-index: 2002;
+  overflow: auto;
   &-content {
     border: 1px #999 solid;
-    border-radius: 3px;
     box-shadow: 0 0 4px #000;
     background-color: #fff;
     padding: 50px 0;
     width: 760px;
     height: 680px;
     position: relative;
+    margin: 0 auto;
+    top: 50px;
     &-titles {
       font-family: Arial;
       color: #383838;
