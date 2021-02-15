@@ -11,10 +11,14 @@
 	else
 		root["Assets-table"] = factory(root["React"], root["ReactRedux"], root["Redux"]);
 <<<<<<< HEAD
+<<<<<<< HEAD
 })(this, function(__WEBPACK_EXTERNAL_MODULE_0__, __WEBPACK_EXTERNAL_MODULE_10__, __WEBPACK_EXTERNAL_MODULE_64__) {
 =======
 })(this, function(__WEBPACK_EXTERNAL_MODULE_0__, __WEBPACK_EXTERNAL_MODULE_10__, __WEBPACK_EXTERNAL_MODULE_54__) {
 >>>>>>> feat: add payment and delivery popups
+=======
+})(this, function(__WEBPACK_EXTERNAL_MODULE_0__, __WEBPACK_EXTERNAL_MODULE_10__, __WEBPACK_EXTERNAL_MODULE_64__) {
+>>>>>>> feat: increase groups tree opening time while dragging
 return /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
 /******/ 	var installedModules = {};
@@ -81,10 +85,14 @@ return /******/ (function(modules) { // webpackBootstrap
 /******/
 /******/ 	// Load entry module and return exports
 <<<<<<< HEAD
+<<<<<<< HEAD
 /******/ 	return __webpack_require__(__webpack_require__.s = 984);
 =======
 /******/ 	return __webpack_require__(__webpack_require__.s = 992);
 >>>>>>> feat: add payment and delivery popups
+=======
+/******/ 	return __webpack_require__(__webpack_require__.s = 984);
+>>>>>>> feat: increase groups tree opening time while dragging
 /******/ })
 /************************************************************************/
 /******/ ([
@@ -127,10 +135,14 @@ var _create = __webpack_require__(256);
 var _create2 = _interopRequireDefault(_create);
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 var _typeof2 = __webpack_require__(59);
 =======
 var _typeof2 = __webpack_require__(60);
 >>>>>>> feat: add payment and delivery popups
+=======
+var _typeof2 = __webpack_require__(59);
+>>>>>>> feat: increase groups tree opening time while dragging
 
 var _typeof3 = _interopRequireDefault(_typeof2);
 
@@ -162,10 +174,14 @@ exports.default = function (subClass, superClass) {
 exports.__esModule = true;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 var _typeof2 = __webpack_require__(59);
 =======
 var _typeof2 = __webpack_require__(60);
 >>>>>>> feat: add payment and delivery popups
+=======
+var _typeof2 = __webpack_require__(59);
+>>>>>>> feat: increase groups tree opening time while dragging
 
 var _typeof3 = _interopRequireDefault(_typeof2);
 
@@ -181,9 +197,12 @@ exports.default = function (self, call) {
 
 /***/ }),
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 /* 4 */,
 >>>>>>> feat: add payment and delivery popups
+=======
+>>>>>>> feat: increase groups tree opening time while dragging
 /* 5 */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -193,10 +212,14 @@ exports.default = function (self, call) {
 exports.__esModule = true;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 var _defineProperty = __webpack_require__(150);
 =======
 var _defineProperty = __webpack_require__(151);
 >>>>>>> fix: delivery and payment text and popup fixes
+=======
+var _defineProperty = __webpack_require__(150);
+>>>>>>> feat: increase groups tree opening time while dragging
 
 var _defineProperty2 = _interopRequireDefault(_defineProperty);
 
@@ -242,10 +265,14 @@ if (false) {
   // By explicitly using `prop-types` you are opting into new production behavior.
   // http://fb.me/prop-types-in-prod
 <<<<<<< HEAD
+<<<<<<< HEAD
   module.exports = __webpack_require__(375)();
 =======
   module.exports = __webpack_require__(376)();
 >>>>>>> feat: add payment and delivery popups
+=======
+  module.exports = __webpack_require__(375)();
+>>>>>>> feat: increase groups tree opening time while dragging
 }
 
 
@@ -274,10 +301,14 @@ var _defineProperty2 = __webpack_require__(13);
 var _defineProperty3 = _interopRequireDefault(_defineProperty2);
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 var _lodash = __webpack_require__(368);
 =======
 var _lodash = __webpack_require__(369);
 >>>>>>> feat: add payment and delivery popups
+=======
+var _lodash = __webpack_require__(368);
+>>>>>>> feat: increase groups tree opening time while dragging
 
 Object.defineProperty(exports, 'cloneDeep', {
   enumerable: true,
@@ -335,6 +366,7 @@ exports.swap = swap;
 exports.getDisplayName = getDisplayName;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 var _bemCn = __webpack_require__(263);
 
 var _bemCn2 = _interopRequireDefault(_bemCn);
@@ -347,6 +379,13 @@ var _bemCn2 = _interopRequireDefault(_bemCn);
 
 var _axios = __webpack_require__(226);
 >>>>>>> feat: add payment and delivery popups
+=======
+var _bemCn = __webpack_require__(263);
+
+var _bemCn2 = _interopRequireDefault(_bemCn);
+
+var _axios = __webpack_require__(224);
+>>>>>>> feat: increase groups tree opening time while dragging
 
 var _axios2 = _interopRequireDefault(_axios);
 
@@ -445,10 +484,14 @@ var getCallback = exports.getCallback = function getCallback(callback, withCallb
 /***/ (function(module, exports, __webpack_require__) {
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 module.exports = { "default": __webpack_require__(269), __esModule: true };
 =======
 module.exports = { "default": __webpack_require__(270), __esModule: true };
 >>>>>>> feat: add payment and delivery popups
+=======
+module.exports = { "default": __webpack_require__(269), __esModule: true };
+>>>>>>> feat: increase groups tree opening time while dragging
 
 /***/ }),
 /* 9 */
@@ -460,10 +503,14 @@ module.exports = { "default": __webpack_require__(270), __esModule: true };
 exports.__esModule = true;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 var _assign = __webpack_require__(255);
 =======
 var _assign = __webpack_require__(180);
 >>>>>>> feat: add payment and delivery popups
+=======
+var _assign = __webpack_require__(255);
+>>>>>>> feat: increase groups tree opening time while dragging
 
 var _assign2 = _interopRequireDefault(_assign);
 
@@ -514,10 +561,14 @@ if (typeof __e == 'number') __e = core; // eslint-disable-line no-undef
 /***/ (function(module, exports, __webpack_require__) {
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 var baseIsEqual = __webpack_require__(322);
 =======
 var baseIsEqual = __webpack_require__(323);
 >>>>>>> feat: add payment and delivery popups
+=======
+var baseIsEqual = __webpack_require__(322);
+>>>>>>> feat: increase groups tree opening time while dragging
 
 /**
  * Performs a deep comparison between two values to determine if they are
@@ -564,10 +615,14 @@ module.exports = isEqual;
 exports.__esModule = true;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 var _defineProperty = __webpack_require__(150);
 =======
 var _defineProperty = __webpack_require__(151);
 >>>>>>> fix: delivery and payment text and popup fixes
+=======
+var _defineProperty = __webpack_require__(150);
+>>>>>>> feat: increase groups tree opening time while dragging
 
 var _defineProperty2 = _interopRequireDefault(_defineProperty);
 
@@ -598,6 +653,7 @@ exports.default = function (obj, key, value) {
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 var bind = __webpack_require__(148);
 =======
 var bind = __webpack_require__(147);
@@ -605,6 +661,9 @@ var bind = __webpack_require__(147);
 =======
 var bind = __webpack_require__(149);
 >>>>>>> fix: delivery and payment text and popup fixes
+=======
+var bind = __webpack_require__(148);
+>>>>>>> feat: increase groups tree opening time while dragging
 
 /*global toString:true*/
 
@@ -926,8 +985,12 @@ var freeGlobal = __webpack_require__(164);
 /* 20 */
 /***/ (function(module, exports, __webpack_require__) {
 
+<<<<<<< HEAD
 var freeGlobal = __webpack_require__(165);
 >>>>>>> fix: delivery and payment text and popup fixes
+=======
+var freeGlobal = __webpack_require__(164);
+>>>>>>> feat: increase groups tree opening time while dragging
 
 /** Detect free variable `self`. */
 var freeSelf = typeof self == 'object' && self && self.Object === Object && self;
@@ -1306,10 +1369,14 @@ $exports.store = store;
 /***/ (function(module, exports, __webpack_require__) {
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 module.exports = { "default": __webpack_require__(270), __esModule: true };
 =======
 module.exports = { "default": __webpack_require__(271), __esModule: true };
 >>>>>>> feat: add payment and delivery popups
+=======
+module.exports = { "default": __webpack_require__(270), __esModule: true };
+>>>>>>> feat: increase groups tree opening time while dragging
 
 /***/ }),
 /* 27 */
@@ -1335,11 +1402,15 @@ if (typeof __g == 'number') __g = global; // eslint-disable-line no-undef
 
 /***/ }),
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* 29 */
 =======
 /* 29 */,
 /* 30 */
 >>>>>>> feat: add payment and delivery popups
+=======
+/* 29 */
+>>>>>>> feat: increase groups tree opening time while dragging
 /***/ (function(module, exports, __webpack_require__) {
 
 var global = __webpack_require__(28);
@@ -1357,8 +1428,12 @@ var has = __webpack_require__(34);
 =======
 var ctx = __webpack_require__(119);
 var hide = __webpack_require__(47);
+<<<<<<< HEAD
 var has = __webpack_require__(34);
 >>>>>>> fix: delivery and payment text and popup fixes
+=======
+var has = __webpack_require__(33);
+>>>>>>> feat: increase groups tree opening time while dragging
 var PROTOTYPE = 'prototype';
 
 var $export = function (type, name, source) {
@@ -1420,6 +1495,7 @@ module.exports = $export;
 
 /***/ }),
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* 30 */
 =======
 /* 31 */
@@ -1432,6 +1508,13 @@ var IE8_DOM_DEFINE = __webpack_require__(152);
 =======
 var IE8_DOM_DEFINE = __webpack_require__(153);
 >>>>>>> fix: delivery and payment text and popup fixes
+=======
+/* 30 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var anObject = __webpack_require__(43);
+var IE8_DOM_DEFINE = __webpack_require__(152);
+>>>>>>> feat: increase groups tree opening time while dragging
 var toPrimitive = __webpack_require__(99);
 var dP = Object.defineProperty;
 
@@ -1451,11 +1534,15 @@ exports.f = __webpack_require__(27) ? Object.defineProperty : function definePro
 /***/ }),
 /* 32 */,
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* 33 */
 =======
 /* 33 */,
 /* 34 */
 >>>>>>> feat: add payment and delivery popups
+=======
+/* 33 */
+>>>>>>> feat: increase groups tree opening time while dragging
 /***/ (function(module, exports) {
 
 var hasOwnProperty = {}.hasOwnProperty;
@@ -1466,12 +1553,17 @@ module.exports = function (it, key) {
 
 /***/ }),
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* 34 */,
 /* 35 */
 =======
 /* 35 */,
 /* 36 */
 >>>>>>> feat: add payment and delivery popups
+=======
+/* 34 */,
+/* 35 */
+>>>>>>> feat: increase groups tree opening time while dragging
 /***/ (function(module, exports) {
 
 /**
@@ -1571,10 +1663,14 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 
 /***/ }),
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* 38 */
 =======
 /* 39 */
 >>>>>>> feat: add payment and delivery popups
+=======
+/* 38 */
+>>>>>>> feat: increase groups tree opening time while dragging
 /***/ (function(module, exports) {
 
 module.exports = function (it) {
@@ -1583,6 +1679,7 @@ module.exports = function (it) {
 
 
 /***/ }),
+<<<<<<< HEAD
 <<<<<<< HEAD
 /* 39 */
 /***/ (function(module, exports, __webpack_require__) {
@@ -1596,6 +1693,13 @@ var baseIsNative = __webpack_require__(324),
 var baseIsNative = __webpack_require__(325),
     getValue = __webpack_require__(337);
 >>>>>>> feat: add payment and delivery popups
+=======
+/* 39 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var baseIsNative = __webpack_require__(324),
+    getValue = __webpack_require__(336);
+>>>>>>> feat: increase groups tree opening time while dragging
 
 /**
  * Gets the native function at `key` of `object`.
@@ -1615,18 +1719,26 @@ module.exports = getNative;
 
 /***/ }),
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* 40 */,
 =======
 >>>>>>> feat: add payment and delivery popups
+=======
+/* 40 */,
+>>>>>>> feat: increase groups tree opening time while dragging
 /* 41 */,
 /* 42 */
 /***/ (function(module, exports, __webpack_require__) {
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 module.exports = __webpack_require__(261);
 =======
 module.exports = __webpack_require__(262);
 >>>>>>> feat: add payment and delivery popups
+=======
+module.exports = __webpack_require__(261);
+>>>>>>> feat: increase groups tree opening time while dragging
 
 
 /***/ }),
@@ -1634,10 +1746,14 @@ module.exports = __webpack_require__(262);
 /***/ (function(module, exports, __webpack_require__) {
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 var isObject = __webpack_require__(38);
 =======
 var isObject = __webpack_require__(39);
 >>>>>>> feat: add payment and delivery popups
+=======
+var isObject = __webpack_require__(38);
+>>>>>>> feat: increase groups tree opening time while dragging
 module.exports = function (it) {
   if (!isObject(it)) throw TypeError(it + ' is not an object!');
   return it;
@@ -1698,12 +1814,17 @@ module.exports = function (exec) {
 /***/ (function(module, exports, __webpack_require__) {
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 var dP = __webpack_require__(30);
 var createDesc = __webpack_require__(60);
 =======
 var dP = __webpack_require__(31);
 var createDesc = __webpack_require__(61);
 >>>>>>> feat: add payment and delivery popups
+=======
+var dP = __webpack_require__(30);
+var createDesc = __webpack_require__(60);
+>>>>>>> feat: increase groups tree opening time while dragging
 module.exports = __webpack_require__(27) ? function (object, key, value) {
   return dP.f(object, key, createDesc(1, value));
 } : function (object, key, value) {
@@ -1718,10 +1839,14 @@ module.exports = __webpack_require__(27) ? function (object, key, value) {
 
 // to indexed object, toObject with fallback for non-array-like ES3 strings
 <<<<<<< HEAD
+<<<<<<< HEAD
 var IObject = __webpack_require__(153);
 =======
 var IObject = __webpack_require__(154);
 >>>>>>> fix: delivery and payment text and popup fixes
+=======
+var IObject = __webpack_require__(153);
+>>>>>>> feat: increase groups tree opening time while dragging
 var defined = __webpack_require__(91);
 module.exports = function (it) {
   return IObject(defined(it));
@@ -1769,9 +1894,13 @@ module.exports = function (it) {
 >>>>>>> feat: tiger popups redesign
 =======
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__utils__ = __webpack_require__(21);
+<<<<<<< HEAD
 >>>>>>> fix: delivery and payment text and popup fixes
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__sagaHelpers__ = __webpack_require__(215);
 >>>>>>> feat: add payment and delivery popups
+=======
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__sagaHelpers__ = __webpack_require__(213);
+>>>>>>> feat: increase groups tree opening time while dragging
 
 
 
@@ -2062,12 +2191,17 @@ module.exports = function (it) {
 
 var Symbol = __webpack_require__(78),
 <<<<<<< HEAD
+<<<<<<< HEAD
     getRawTag = __webpack_require__(333),
     objectToString = __webpack_require__(357);
 =======
     getRawTag = __webpack_require__(334),
     objectToString = __webpack_require__(358);
 >>>>>>> feat: add payment and delivery popups
+=======
+    getRawTag = __webpack_require__(333),
+    objectToString = __webpack_require__(357);
+>>>>>>> feat: increase groups tree opening time while dragging
 
 /** `Object#toString` result references. */
 var nullTag = '[object Null]',
@@ -2097,6 +2231,7 @@ module.exports = baseGetTag;
 
 /***/ }),
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* 54 */,
 /* 55 */
 /***/ (function(module, exports) {
@@ -2124,19 +2259,27 @@ module.exports = __WEBPACK_EXTERNAL_MODULE_54__;
 /***/ }),
 /* 55 */,
 /* 56 */
+=======
+/* 54 */,
+/* 55 */
+>>>>>>> feat: increase groups tree opening time while dragging
 /***/ (function(module, exports) {
 >>>>>>> feat: add payment and delivery popups
 
 
 
 /***/ }),
+<<<<<<< HEAD
 /* 57 */
 <<<<<<< HEAD
 =======
+=======
+/* 56 */
+>>>>>>> feat: increase groups tree opening time while dragging
 /***/ (function(module, exports, __webpack_require__) {
 
 // 19.1.2.14 / 15.2.3.14 Object.keys(O)
-var $keys = __webpack_require__(159);
+var $keys = __webpack_require__(158);
 var enumBugKeys = __webpack_require__(92);
 
 module.exports = Object.keys || function keys(O) {
@@ -2144,9 +2287,14 @@ module.exports = Object.keys || function keys(O) {
 };
 
 
+
 /***/ }),
+<<<<<<< HEAD
 /* 58 */
 >>>>>>> feat: add payment and delivery popups
+=======
+/* 57 */
+>>>>>>> feat: increase groups tree opening time while dragging
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -2173,8 +2321,12 @@ module.exports = Object.keys || function keys(O) {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__utils__ = __webpack_require__(21);
 >>>>>>> fix: delivery and payment text and popup fixes
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__buffers__ = __webpack_require__(89);
+<<<<<<< HEAD
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__scheduler__ = __webpack_require__(216);
 >>>>>>> feat: add payment and delivery popups
+=======
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__scheduler__ = __webpack_require__(214);
+>>>>>>> feat: increase groups tree opening time while dragging
 var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
 
 
@@ -2378,12 +2530,17 @@ function stdChannel(subscribe) {
 
 /***/ }),
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* 58 */,
 /* 59 */
 =======
 /* 59 */,
 /* 60 */
 >>>>>>> feat: add payment and delivery popups
+=======
+/* 58 */,
+/* 59 */
+>>>>>>> feat: increase groups tree opening time while dragging
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2411,10 +2568,14 @@ exports.default = typeof _symbol2.default === "function" && _typeof(_iterator2.d
 
 /***/ }),
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* 60 */
 =======
 /* 61 */
 >>>>>>> feat: add payment and delivery popups
+=======
+/* 60 */
+>>>>>>> feat: increase groups tree opening time while dragging
 /***/ (function(module, exports) {
 
 module.exports = function (bitmap, value) {
@@ -2428,6 +2589,7 @@ module.exports = function (bitmap, value) {
 
 
 /***/ }),
+<<<<<<< HEAD
 <<<<<<< HEAD
 /* 61 */,
 /* 62 */,
@@ -2443,6 +2605,17 @@ module.exports = __WEBPACK_EXTERNAL_MODULE_64__;
 /* 63 */,
 /* 64 */,
 >>>>>>> feat: add payment and delivery popups
+=======
+/* 61 */,
+/* 62 */,
+/* 63 */,
+/* 64 */
+/***/ (function(module, exports) {
+
+module.exports = __WEBPACK_EXTERNAL_MODULE_64__;
+
+/***/ }),
+>>>>>>> feat: increase groups tree opening time while dragging
 /* 65 */
 /***/ (function(module, exports) {
 
@@ -2472,11 +2645,15 @@ module.exports = function (key) {
 /***/ (function(module, exports, __webpack_require__) {
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> feat: increase groups tree opening time while dragging
 var listCacheClear = __webpack_require__(344),
     listCacheDelete = __webpack_require__(345),
     listCacheGet = __webpack_require__(346),
     listCacheHas = __webpack_require__(347),
     listCacheSet = __webpack_require__(348);
+<<<<<<< HEAD
 =======
 var listCacheClear = __webpack_require__(345),
     listCacheDelete = __webpack_require__(346),
@@ -2484,6 +2661,8 @@ var listCacheClear = __webpack_require__(345),
     listCacheHas = __webpack_require__(348),
     listCacheSet = __webpack_require__(349);
 >>>>>>> feat: add payment and delivery popups
+=======
+>>>>>>> feat: increase groups tree opening time while dragging
 
 /**
  * Creates an list cache object.
@@ -2545,10 +2724,14 @@ module.exports = assocIndexOf;
 /***/ (function(module, exports, __webpack_require__) {
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 var isKeyable = __webpack_require__(342);
 =======
 var isKeyable = __webpack_require__(343);
 >>>>>>> feat: add payment and delivery popups
+=======
+var isKeyable = __webpack_require__(342);
+>>>>>>> feat: increase groups tree opening time while dragging
 
 /**
  * Gets the data for `map`.
@@ -2573,10 +2756,14 @@ module.exports = getMapData;
 /***/ (function(module, exports, __webpack_require__) {
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 var getNative = __webpack_require__(39);
 =======
 var getNative = __webpack_require__(40);
 >>>>>>> feat: add payment and delivery popups
+=======
+var getNative = __webpack_require__(39);
+>>>>>>> feat: increase groups tree opening time while dragging
 
 /* Built-in method references that are verified to be native. */
 var nativeCreate = getNative(Object, 'create');
@@ -2650,10 +2837,14 @@ module.exports = Symbol;
 
 // most Object methods by ES6 should accept primitives
 <<<<<<< HEAD
+<<<<<<< HEAD
 var $export = __webpack_require__(29);
 =======
 var $export = __webpack_require__(30);
 >>>>>>> feat: add payment and delivery popups
+=======
+var $export = __webpack_require__(29);
+>>>>>>> feat: increase groups tree opening time while dragging
 var core = __webpack_require__(11);
 var fails = __webpack_require__(46);
 module.exports = function (KEY, exec) {
@@ -2843,10 +3034,14 @@ var buffers = {
 
 var utils = __webpack_require__(15);
 <<<<<<< HEAD
+<<<<<<< HEAD
 var normalizeHeaderName = __webpack_require__(239);
 =======
 var normalizeHeaderName = __webpack_require__(241);
 >>>>>>> feat: add payment and delivery popups
+=======
+var normalizeHeaderName = __webpack_require__(239);
+>>>>>>> feat: increase groups tree opening time while dragging
 
 var PROTECTION_PREFIX = /^\)\]\}',?\n/;
 var DEFAULT_CONTENT_TYPE = {
@@ -2865,6 +3060,7 @@ function getDefaultAdapter() {
     // For browsers use XHR adapter
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
     adapter = __webpack_require__(144);
   } else if (typeof process !== 'undefined') {
     // For node use HTTP adapter
@@ -2881,6 +3077,12 @@ function getDefaultAdapter() {
     // For node use HTTP adapter
     adapter = __webpack_require__(145);
 >>>>>>> fix: delivery and payment text and popup fixes
+=======
+    adapter = __webpack_require__(144);
+  } else if (typeof process !== 'undefined') {
+    // For node use HTTP adapter
+    adapter = __webpack_require__(144);
+>>>>>>> feat: increase groups tree opening time while dragging
   }
   return adapter;
 }
@@ -2952,10 +3154,14 @@ utils.forEach(['post', 'put', 'patch'], function forEachMethodWithData(method) {
 module.exports = defaults;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(374)))
 =======
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(375)))
 >>>>>>> feat: add payment and delivery popups
+=======
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(374)))
+>>>>>>> feat: increase groups tree opening time while dragging
 
 /***/ }),
 /* 91 */
@@ -2985,10 +3191,14 @@ module.exports = (
 // 19.1.2.2 / 15.2.3.5 Object.create(O [, Properties])
 var anObject = __webpack_require__(43);
 <<<<<<< HEAD
+<<<<<<< HEAD
 var dPs = __webpack_require__(284);
 =======
 var dPs = __webpack_require__(285);
 >>>>>>> feat: add payment and delivery popups
+=======
+var dPs = __webpack_require__(284);
+>>>>>>> feat: increase groups tree opening time while dragging
 var enumBugKeys = __webpack_require__(92);
 var IE_PROTO = __webpack_require__(96)('IE_PROTO');
 var Empty = function () { /* empty */ };
@@ -2998,20 +3208,28 @@ var PROTOTYPE = 'prototype';
 var createDict = function () {
   // Thrash, waste and sodomy: IE GC bug
 <<<<<<< HEAD
+<<<<<<< HEAD
   var iframe = __webpack_require__(151)('iframe');
 =======
   var iframe = __webpack_require__(152)('iframe');
 >>>>>>> fix: delivery and payment text and popup fixes
+=======
+  var iframe = __webpack_require__(151)('iframe');
+>>>>>>> feat: increase groups tree opening time while dragging
   var i = enumBugKeys.length;
   var lt = '<';
   var gt = '>';
   var iframeDocument;
   iframe.style.display = 'none';
 <<<<<<< HEAD
+<<<<<<< HEAD
   __webpack_require__(279).appendChild(iframe);
 =======
   __webpack_require__(280).appendChild(iframe);
 >>>>>>> feat: add payment and delivery popups
+=======
+  __webpack_require__(279).appendChild(iframe);
+>>>>>>> feat: increase groups tree opening time while dragging
   iframe.src = 'javascript:'; // eslint-disable-line no-script-url
   // createDict = iframe.contentWindow.Object;
   // html.removeChild(iframe);
@@ -3049,12 +3267,17 @@ exports.f = Object.getOwnPropertySymbols;
 /***/ (function(module, exports, __webpack_require__) {
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 var def = __webpack_require__(30).f;
 var has = __webpack_require__(33);
 =======
 var def = __webpack_require__(31).f;
 var has = __webpack_require__(34);
 >>>>>>> feat: add payment and delivery popups
+=======
+var def = __webpack_require__(30).f;
+var has = __webpack_require__(33);
+>>>>>>> feat: increase groups tree opening time while dragging
 var TAG = __webpack_require__(22)('toStringTag');
 
 module.exports = function (it, tag, stat) {
@@ -3121,10 +3344,14 @@ module.exports = function (it) {
 
 // 7.1.1 ToPrimitive(input [, PreferredType])
 <<<<<<< HEAD
+<<<<<<< HEAD
 var isObject = __webpack_require__(38);
 =======
 var isObject = __webpack_require__(39);
 >>>>>>> feat: add payment and delivery popups
+=======
+var isObject = __webpack_require__(38);
+>>>>>>> feat: increase groups tree opening time while dragging
 // instead of the ES6 spec version, we didn't implement @@toPrimitive case
 // and the second argument - flag - preferred type is a string
 module.exports = function (it, S) {
@@ -3146,10 +3373,14 @@ var core = __webpack_require__(11);
 var LIBRARY = __webpack_require__(65);
 var wksExt = __webpack_require__(101);
 <<<<<<< HEAD
+<<<<<<< HEAD
 var defineProperty = __webpack_require__(30).f;
 =======
 var defineProperty = __webpack_require__(31).f;
 >>>>>>> feat: add payment and delivery popups
+=======
+var defineProperty = __webpack_require__(30).f;
+>>>>>>> feat: increase groups tree opening time while dragging
 module.exports = function (name) {
   var $Symbol = core.Symbol || (core.Symbol = LIBRARY ? {} : global.Symbol || {});
   if (name.charAt(0) != '_' && !(name in $Symbol)) defineProperty($Symbol, name, { value: wksExt.f(name) });
@@ -3170,6 +3401,7 @@ exports.f = __webpack_require__(22);
 "use strict";
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 var $at = __webpack_require__(286)(true);
 =======
 var $at = __webpack_require__(287)(true);
@@ -3181,6 +3413,12 @@ __webpack_require__(154)(String, 'String', function (iterated) {
 =======
 __webpack_require__(155)(String, 'String', function (iterated) {
 >>>>>>> fix: delivery and payment text and popup fixes
+=======
+var $at = __webpack_require__(286)(true);
+
+// 21.1.3.27 String.prototype[@@iterator]()
+__webpack_require__(154)(String, 'String', function (iterated) {
+>>>>>>> feat: increase groups tree opening time while dragging
   this._t = String(iterated); // target
   this._i = 0;                // next index
 // 21.1.5.2.1 %StringIteratorPrototype%.next()
@@ -3205,12 +3443,16 @@ __webpack_require__(155)(String, 'String', function (iterated) {
 /***/ (function(module, exports, __webpack_require__) {
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 var getNative = __webpack_require__(39),
     root = __webpack_require__(19);
 =======
 var getNative = __webpack_require__(40),
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+var getNative = __webpack_require__(39),
+>>>>>>> feat: increase groups tree opening time while dragging
     root = __webpack_require__(20);
 >>>>>>> feat: add payment and delivery popups
 =======
@@ -3242,9 +3484,14 @@ var MapCache = __webpack_require__(123),
 >>>>>>> feat: add payment and delivery popups
 =======
 var MapCache = __webpack_require__(124),
+<<<<<<< HEAD
     setCacheAdd = __webpack_require__(359),
     setCacheHas = __webpack_require__(360);
 >>>>>>> fix: delivery and payment text and popup fixes
+=======
+    setCacheAdd = __webpack_require__(358),
+    setCacheHas = __webpack_require__(359);
+>>>>>>> feat: increase groups tree opening time while dragging
 
 /**
  *
@@ -3296,12 +3543,17 @@ module.exports = cacheHas;
 /***/ (function(module, exports, __webpack_require__) {
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 var isFunction = __webpack_require__(167),
     isLength = __webpack_require__(168);
 =======
 var isFunction = __webpack_require__(168),
     isLength = __webpack_require__(169);
 >>>>>>> fix: delivery and payment text and popup fixes
+=======
+var isFunction = __webpack_require__(167),
+    isLength = __webpack_require__(168);
+>>>>>>> feat: increase groups tree opening time while dragging
 
 /**
  * Checks if `value` is array-like. A value is considered array-like if it's
@@ -3462,10 +3714,14 @@ module.exports = function (it) {
 
 // optional / simple context binding
 <<<<<<< HEAD
+<<<<<<< HEAD
 var aFunction = __webpack_require__(274);
 =======
 var aFunction = __webpack_require__(275);
 >>>>>>> feat: add payment and delivery popups
+=======
+var aFunction = __webpack_require__(274);
+>>>>>>> feat: increase groups tree opening time while dragging
 module.exports = function (fn, that, length) {
   aFunction(fn);
   if (that === undefined) return fn;
@@ -3506,11 +3762,15 @@ module.exports = function (fn, that, length) {
 /***/ (function(module, exports, __webpack_require__) {
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> feat: increase groups tree opening time while dragging
 var mapCacheClear = __webpack_require__(349),
     mapCacheDelete = __webpack_require__(350),
     mapCacheGet = __webpack_require__(351),
     mapCacheHas = __webpack_require__(352),
     mapCacheSet = __webpack_require__(353);
+<<<<<<< HEAD
 =======
 var mapCacheClear = __webpack_require__(350),
     mapCacheDelete = __webpack_require__(351),
@@ -3518,6 +3778,8 @@ var mapCacheClear = __webpack_require__(350),
     mapCacheHas = __webpack_require__(353),
     mapCacheSet = __webpack_require__(354);
 >>>>>>> feat: add payment and delivery popups
+=======
+>>>>>>> feat: increase groups tree opening time while dragging
 
 /**
  * Creates a map cache object to store key-value pairs.
@@ -3560,6 +3822,7 @@ module.exports = MapCache;
 /***/ (function(module, exports, __webpack_require__) {
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 __webpack_require__(289);
 var global = __webpack_require__(28);
 var hide = __webpack_require__(47);
@@ -3570,6 +3833,12 @@ var global = __webpack_require__(28);
 var hide = __webpack_require__(47);
 var Iterators = __webpack_require__(56);
 >>>>>>> feat: add payment and delivery popups
+=======
+__webpack_require__(289);
+var global = __webpack_require__(28);
+var hide = __webpack_require__(47);
+var Iterators = __webpack_require__(55);
+>>>>>>> feat: increase groups tree opening time while dragging
 var TO_STRING_TAG = __webpack_require__(22)('toStringTag');
 
 var DOMIterables = ('CSSRuleList,CSSStyleDeclaration,CSSValueList,ClientRectList,DOMRectList,DOMStringList,' +
@@ -3594,6 +3863,7 @@ for (var i = 0; i < DOMIterables.length; i++) {
 <<<<<<< HEAD
 /* 133 */,
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* 134 */
 =======
 /* 133 */
@@ -3602,6 +3872,9 @@ for (var i = 0; i < DOMIterables.length; i++) {
 /* 134 */,
 /* 135 */
 >>>>>>> fix: delivery and payment text and popup fixes
+=======
+/* 134 */
+>>>>>>> feat: increase groups tree opening time while dragging
 /***/ (function(module, exports) {
 
 /**
@@ -3623,6 +3896,7 @@ module.exports = baseUnary;
 /***/ }),
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* 135 */
 =======
 /* 134 */
@@ -3630,6 +3904,9 @@ module.exports = baseUnary;
 =======
 /* 136 */
 >>>>>>> fix: delivery and payment text and popup fixes
+=======
+/* 135 */
+>>>>>>> feat: increase groups tree opening time while dragging
 /***/ (function(module, exports) {
 
 /**
@@ -3655,6 +3932,7 @@ module.exports = setToArray;
 /***/ }),
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* 136 */,
 /* 137 */
 =======
@@ -3665,10 +3943,14 @@ module.exports = setToArray;
 /* 137 */,
 /* 138 */
 >>>>>>> fix: delivery and payment text and popup fixes
+=======
+/* 136 */,
+/* 137 */
+>>>>>>> feat: increase groups tree opening time while dragging
 /***/ (function(module, exports, __webpack_require__) {
 
-var debounce = __webpack_require__(208),
-    isObject = __webpack_require__(37);
+var debounce = __webpack_require__(206),
+    isObject = __webpack_require__(36);
 
 /** Error message constants. */
 var FUNC_ERROR_TEXT = 'Expected a function';
@@ -3741,18 +4023,23 @@ module.exports = throttle;
 /***/ }),
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 /* 137 */,
 >>>>>>> feat: add payment and delivery popups
 /* 138 */,
 =======
 >>>>>>> fix: delivery and payment text and popup fixes
+=======
+/* 138 */,
+>>>>>>> feat: increase groups tree opening time while dragging
 /* 139 */,
 /* 140 */,
 /* 141 */,
 /* 142 */,
 <<<<<<< HEAD
 /* 143 */,
+<<<<<<< HEAD
 <<<<<<< HEAD
 /* 144 */
 =======
@@ -3762,6 +4049,9 @@ module.exports = throttle;
 /* 144 */,
 /* 145 */
 >>>>>>> fix: delivery and payment text and popup fixes
+=======
+/* 144 */
+>>>>>>> feat: increase groups tree opening time while dragging
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -3770,12 +4060,16 @@ module.exports = throttle;
 var utils = __webpack_require__(15);
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> feat: increase groups tree opening time while dragging
 var settle = __webpack_require__(231);
 var buildURL = __webpack_require__(234);
 var parseHeaders = __webpack_require__(240);
 var isURLSameOrigin = __webpack_require__(238);
 var createError = __webpack_require__(147);
 var btoa = (typeof window !== 'undefined' && window.btoa && window.btoa.bind(window)) || __webpack_require__(233);
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> fix: delivery and payment text and popup fixes
@@ -3791,6 +4085,8 @@ var btoa = (typeof window !== 'undefined' && window.btoa && window.btoa.bind(win
 var createError = __webpack_require__(148);
 var btoa = (typeof window !== 'undefined' && window.btoa && window.btoa.bind(window)) || __webpack_require__(235);
 >>>>>>> fix: delivery and payment text and popup fixes
+=======
+>>>>>>> feat: increase groups tree opening time while dragging
 
 module.exports = function xhrAdapter(config) {
   return new Promise(function dispatchXhrRequest(resolve, reject) {
@@ -3887,10 +4183,14 @@ module.exports = function xhrAdapter(config) {
     // Specifically not if we're in a web worker, or react-native.
     if (utils.isStandardBrowserEnv()) {
 <<<<<<< HEAD
+<<<<<<< HEAD
       var cookies = __webpack_require__(236);
 =======
       var cookies = __webpack_require__(238);
 >>>>>>> feat: add payment and delivery popups
+=======
+      var cookies = __webpack_require__(236);
+>>>>>>> feat: increase groups tree opening time while dragging
 
       // Add xsrf header
       var xsrfValue = (config.withCredentials || isURLSameOrigin(config.url)) && config.xsrfCookieName ?
@@ -3968,6 +4268,7 @@ module.exports = function xhrAdapter(config) {
 /***/ }),
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* 145 */
 =======
 /* 144 */
@@ -3975,6 +4276,9 @@ module.exports = function xhrAdapter(config) {
 =======
 /* 146 */
 >>>>>>> fix: delivery and payment text and popup fixes
+=======
+/* 145 */
+>>>>>>> feat: increase groups tree opening time while dragging
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -4002,6 +4306,7 @@ module.exports = Cancel;
 /***/ }),
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* 146 */
 =======
 /* 145 */
@@ -4009,6 +4314,9 @@ module.exports = Cancel;
 =======
 /* 147 */
 >>>>>>> fix: delivery and payment text and popup fixes
+=======
+/* 146 */
+>>>>>>> feat: increase groups tree opening time while dragging
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -4022,6 +4330,7 @@ module.exports = function isCancel(value) {
 /***/ }),
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* 147 */
 =======
 /* 146 */
@@ -4029,16 +4338,23 @@ module.exports = function isCancel(value) {
 =======
 /* 148 */
 >>>>>>> fix: delivery and payment text and popup fixes
+=======
+/* 147 */
+>>>>>>> feat: increase groups tree opening time while dragging
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 var enhanceError = __webpack_require__(230);
 =======
 var enhanceError = __webpack_require__(232);
 >>>>>>> feat: add payment and delivery popups
+=======
+var enhanceError = __webpack_require__(230);
+>>>>>>> feat: increase groups tree opening time while dragging
 
 /**
  * Create an Error with the specified message, config, error code, and response.
@@ -4058,6 +4374,7 @@ module.exports = function createError(message, config, code, response) {
 /***/ }),
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* 148 */
 =======
 /* 147 */
@@ -4065,6 +4382,9 @@ module.exports = function createError(message, config, code, response) {
 =======
 /* 149 */
 >>>>>>> fix: delivery and payment text and popup fixes
+=======
+/* 148 */
+>>>>>>> feat: increase groups tree opening time while dragging
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -4084,6 +4404,7 @@ module.exports = function bind(fn, thisArg) {
 /***/ }),
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 /* 148 */,
 >>>>>>> feat: add payment and delivery popups
@@ -4091,6 +4412,9 @@ module.exports = function bind(fn, thisArg) {
 =======
 /* 150 */
 >>>>>>> fix: delivery and payment text and popup fixes
+=======
+/* 149 */
+>>>>>>> feat: increase groups tree opening time while dragging
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -4110,6 +4434,7 @@ var helpLoadStart = exports.helpLoadStart = function helpLoadStart(payload) {
 };
 
 /***/ }),
+<<<<<<< HEAD
 <<<<<<< HEAD
 /* 150 */
 =======
@@ -4136,6 +4461,18 @@ var isObject = __webpack_require__(38);
 =======
 var isObject = __webpack_require__(39);
 >>>>>>> feat: add payment and delivery popups
+=======
+/* 150 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = { "default": __webpack_require__(268), __esModule: true };
+
+/***/ }),
+/* 151 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var isObject = __webpack_require__(38);
+>>>>>>> feat: increase groups tree opening time while dragging
 var document = __webpack_require__(28).document;
 // typeof document.createElement is 'object' in old IE
 var is = isObject(document) && isObject(document.createElement);
@@ -4145,6 +4482,7 @@ module.exports = function (it) {
 
 
 /***/ }),
+<<<<<<< HEAD
 <<<<<<< HEAD
 /* 152 */
 /***/ (function(module, exports, __webpack_require__) {
@@ -4158,10 +4496,18 @@ module.exports = !__webpack_require__(27) && !__webpack_require__(46)(function (
 module.exports = !__webpack_require__(27) && !__webpack_require__(46)(function () {
   return Object.defineProperty(__webpack_require__(152)('div'), 'a', { get: function () { return 7; } }).a != 7;
 >>>>>>> fix: delivery and payment text and popup fixes
+=======
+/* 152 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = !__webpack_require__(27) && !__webpack_require__(46)(function () {
+  return Object.defineProperty(__webpack_require__(151)('div'), 'a', { get: function () { return 7; } }).a != 7;
+>>>>>>> feat: increase groups tree opening time while dragging
 });
 
 
 /***/ }),
+<<<<<<< HEAD
 <<<<<<< HEAD
 /* 153 */
 /***/ (function(module, exports, __webpack_require__) {
@@ -4174,6 +4520,9 @@ var cof = __webpack_require__(117);
 >>>>>>> feat: add payment and delivery popups
 =======
 /* 154 */
+=======
+/* 153 */
+>>>>>>> feat: increase groups tree opening time while dragging
 /***/ (function(module, exports, __webpack_require__) {
 
 // fallback for non-array-like ES3 and non-enumerable old V8 strings
@@ -4187,15 +4536,20 @@ module.exports = Object('z').propertyIsEnumerable(0) ? Object : function (it) {
 
 /***/ }),
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* 154 */
 =======
 /* 155 */
 >>>>>>> fix: delivery and payment text and popup fixes
+=======
+/* 154 */
+>>>>>>> feat: increase groups tree opening time while dragging
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 var LIBRARY = __webpack_require__(65);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 var $export = __webpack_require__(29);
@@ -4215,12 +4569,20 @@ var getPrototypeOf = __webpack_require__(157);
 =======
 var $export = __webpack_require__(30);
 var redefine = __webpack_require__(160);
+=======
+var $export = __webpack_require__(29);
+var redefine = __webpack_require__(159);
+>>>>>>> feat: increase groups tree opening time while dragging
 var hide = __webpack_require__(47);
-var Iterators = __webpack_require__(56);
-var $iterCreate = __webpack_require__(282);
+var Iterators = __webpack_require__(55);
+var $iterCreate = __webpack_require__(281);
 var setToStringTag = __webpack_require__(95);
+<<<<<<< HEAD
 var getPrototypeOf = __webpack_require__(158);
 >>>>>>> fix: delivery and payment text and popup fixes
+=======
+var getPrototypeOf = __webpack_require__(157);
+>>>>>>> feat: increase groups tree opening time while dragging
 var ITERATOR = __webpack_require__(22)('iterator');
 var BUGGY = !([].keys && 'next' in [].keys()); // Safari has buggy iterators w/o `next`
 var FF_ITERATOR = '@@iterator';
@@ -4285,6 +4647,7 @@ module.exports = function (Base, NAME, Constructor, next, DEFAULT, IS_SET, FORCE
 
 /***/ }),
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* 155 */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -4311,6 +4674,17 @@ var IE8_DOM_DEFINE = __webpack_require__(152);
 =======
 var IE8_DOM_DEFINE = __webpack_require__(153);
 >>>>>>> fix: delivery and payment text and popup fixes
+=======
+/* 155 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var pIE = __webpack_require__(66);
+var createDesc = __webpack_require__(60);
+var toIObject = __webpack_require__(48);
+var toPrimitive = __webpack_require__(99);
+var has = __webpack_require__(33);
+var IE8_DOM_DEFINE = __webpack_require__(152);
+>>>>>>> feat: increase groups tree opening time while dragging
 var gOPD = Object.getOwnPropertyDescriptor;
 
 exports.f = __webpack_require__(27) ? gOPD : function getOwnPropertyDescriptor(O, P) {
@@ -4325,6 +4699,7 @@ exports.f = __webpack_require__(27) ? gOPD : function getOwnPropertyDescriptor(O
 
 /***/ }),
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* 156 */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -4337,6 +4712,13 @@ var $keys = __webpack_require__(158);
 // 19.1.2.7 / 15.2.3.4 Object.getOwnPropertyNames(O)
 var $keys = __webpack_require__(159);
 >>>>>>> fix: delivery and payment text and popup fixes
+=======
+/* 156 */
+/***/ (function(module, exports, __webpack_require__) {
+
+// 19.1.2.7 / 15.2.3.4 Object.getOwnPropertyNames(O)
+var $keys = __webpack_require__(158);
+>>>>>>> feat: increase groups tree opening time while dragging
 var hiddenKeys = __webpack_require__(92).concat('length', 'prototype');
 
 exports.f = Object.getOwnPropertyNames || function getOwnPropertyNames(O) {
@@ -4345,6 +4727,7 @@ exports.f = Object.getOwnPropertyNames || function getOwnPropertyNames(O) {
 
 
 /***/ }),
+<<<<<<< HEAD
 <<<<<<< HEAD
 /* 157 */
 =======
@@ -4358,6 +4741,13 @@ var has = __webpack_require__(33);
 =======
 var has = __webpack_require__(34);
 >>>>>>> feat: add payment and delivery popups
+=======
+/* 157 */
+/***/ (function(module, exports, __webpack_require__) {
+
+// 19.1.2.9 / 15.2.3.2 Object.getPrototypeOf(O)
+var has = __webpack_require__(33);
+>>>>>>> feat: increase groups tree opening time while dragging
 var toObject = __webpack_require__(51);
 var IE_PROTO = __webpack_require__(96)('IE_PROTO');
 var ObjectProto = Object.prototype;
@@ -4372,6 +4762,7 @@ module.exports = Object.getPrototypeOf || function (O) {
 
 
 /***/ }),
+<<<<<<< HEAD
 <<<<<<< HEAD
 /* 158 */
 =======
@@ -4388,6 +4779,14 @@ var has = __webpack_require__(34);
 var toIObject = __webpack_require__(48);
 var arrayIndexOf = __webpack_require__(277)(false);
 >>>>>>> feat: add payment and delivery popups
+=======
+/* 158 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var has = __webpack_require__(33);
+var toIObject = __webpack_require__(48);
+var arrayIndexOf = __webpack_require__(276)(false);
+>>>>>>> feat: increase groups tree opening time while dragging
 var IE_PROTO = __webpack_require__(96)('IE_PROTO');
 
 module.exports = function (object, names) {
@@ -4406,16 +4805,21 @@ module.exports = function (object, names) {
 
 /***/ }),
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* 159 */
 =======
 /* 160 */
 >>>>>>> fix: delivery and payment text and popup fixes
+=======
+/* 159 */
+>>>>>>> feat: increase groups tree opening time while dragging
 /***/ (function(module, exports, __webpack_require__) {
 
 module.exports = __webpack_require__(47);
 
 
 /***/ }),
+<<<<<<< HEAD
 <<<<<<< HEAD
 /* 160 */,
 /* 161 */,
@@ -4435,6 +4839,16 @@ var SetCache = __webpack_require__(109),
 =======
     arraySome = __webpack_require__(318),
 >>>>>>> feat: add payment and delivery popups
+=======
+/* 160 */,
+/* 161 */,
+/* 162 */,
+/* 163 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var SetCache = __webpack_require__(109),
+    arraySome = __webpack_require__(317),
+>>>>>>> feat: increase groups tree opening time while dragging
     cacheHas = __webpack_require__(111);
 
 /** Used to compose bitmasks for value comparisons. */
@@ -4521,10 +4935,14 @@ module.exports = equalArrays;
 
 /***/ }),
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* 164 */
 =======
 /* 165 */
 >>>>>>> fix: delivery and payment text and popup fixes
+=======
+/* 164 */
+>>>>>>> feat: increase groups tree opening time while dragging
 /***/ (function(module, exports, __webpack_require__) {
 
 /* WEBPACK VAR INJECTION */(function(global) {/** Detect free variable `global` from Node.js. */
@@ -4536,10 +4954,14 @@ module.exports = freeGlobal;
 
 /***/ }),
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* 165 */
 =======
 /* 166 */
 >>>>>>> fix: delivery and payment text and popup fixes
+=======
+/* 165 */
+>>>>>>> feat: increase groups tree opening time while dragging
 /***/ (function(module, exports) {
 
 /** Used for built-in method references. */
@@ -4572,6 +4994,7 @@ module.exports = toSource;
 
 /***/ }),
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* 166 */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -4592,6 +5015,13 @@ module.exports = toSource;
 >>>>>>> fix: delivery and payment text and popup fixes
     stubFalse = __webpack_require__(373);
 >>>>>>> feat: add payment and delivery popups
+=======
+/* 166 */
+/***/ (function(module, exports, __webpack_require__) {
+
+/* WEBPACK VAR INJECTION */(function(module) {var root = __webpack_require__(20),
+    stubFalse = __webpack_require__(372);
+>>>>>>> feat: increase groups tree opening time while dragging
 
 /** Detect free variable `exports`. */
 var freeExports = typeof exports == 'object' && exports && !exports.nodeType && exports;
@@ -4633,6 +5063,7 @@ module.exports = isBuffer;
 
 /***/ }),
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* 167 */
 =======
 /* 168 */
@@ -4645,6 +5076,13 @@ var baseGetTag = __webpack_require__(53),
 =======
     isObject = __webpack_require__(37);
 >>>>>>> feat: add payment and delivery popups
+=======
+/* 167 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var baseGetTag = __webpack_require__(53),
+    isObject = __webpack_require__(36);
+>>>>>>> feat: increase groups tree opening time while dragging
 
 /** `Object#toString` result references. */
 var asyncTag = '[object AsyncFunction]',
@@ -4684,10 +5122,14 @@ module.exports = isFunction;
 
 /***/ }),
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* 168 */
 =======
 /* 169 */
 >>>>>>> fix: delivery and payment text and popup fixes
+=======
+/* 168 */
+>>>>>>> feat: increase groups tree opening time while dragging
 /***/ (function(module, exports) {
 
 /** Used as references for various `Number` constants. */
@@ -4729,6 +5171,7 @@ module.exports = isLength;
 
 /***/ }),
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* 169 */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -4749,6 +5192,14 @@ var baseIsTypedArray = __webpack_require__(326),
     baseUnary = __webpack_require__(135),
     nodeUtil = __webpack_require__(357);
 >>>>>>> fix: delivery and payment text and popup fixes
+=======
+/* 169 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var baseIsTypedArray = __webpack_require__(325),
+    baseUnary = __webpack_require__(134),
+    nodeUtil = __webpack_require__(356);
+>>>>>>> feat: increase groups tree opening time while dragging
 
 /* Node.js helper references. */
 var nodeIsTypedArray = nodeUtil && nodeUtil.isTypedArray;
@@ -4777,9 +5228,13 @@ module.exports = isTypedArray;
 
 /***/ }),
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* 170 */,
 =======
 >>>>>>> fix: delivery and payment text and popup fixes
+=======
+/* 170 */,
+>>>>>>> feat: increase groups tree opening time while dragging
 /* 171 */,
 /* 172 */,
 /* 173 */,
@@ -4800,18 +5255,17 @@ var setDesc = __webpack_require__(30).f;
 =======
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = { "default": __webpack_require__(267), __esModule: true };
-
-/***/ }),
-/* 181 */,
-/* 182 */
-/***/ (function(module, exports, __webpack_require__) {
-
 var META = __webpack_require__(67)('meta');
+<<<<<<< HEAD
 var isObject = __webpack_require__(39);
 var has = __webpack_require__(34);
 var setDesc = __webpack_require__(31).f;
 >>>>>>> feat: add payment and delivery popups
+=======
+var isObject = __webpack_require__(38);
+var has = __webpack_require__(33);
+var setDesc = __webpack_require__(30).f;
+>>>>>>> feat: increase groups tree opening time while dragging
 var id = 0;
 var isExtensible = Object.isExtensible || function () {
   return true;
@@ -4865,19 +5319,27 @@ var meta = module.exports = {
 
 /***/ }),
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* 181 */
 =======
 /* 183 */
 >>>>>>> feat: add payment and delivery popups
+=======
+/* 181 */
+>>>>>>> feat: increase groups tree opening time while dragging
 /***/ (function(module, exports, __webpack_require__) {
 
 // fallback for IE11 buggy Object.getOwnPropertyNames with iframe and window
 var toIObject = __webpack_require__(48);
 <<<<<<< HEAD
+<<<<<<< HEAD
 var gOPN = __webpack_require__(156).f;
 =======
 var gOPN = __webpack_require__(157).f;
 >>>>>>> fix: delivery and payment text and popup fixes
+=======
+var gOPN = __webpack_require__(156).f;
+>>>>>>> feat: increase groups tree opening time while dragging
 var toString = {}.toString;
 
 var windowNames = typeof window == 'object' && window && Object.getOwnPropertyNames
@@ -4898,10 +5360,14 @@ module.exports.f = function getOwnPropertyNames(it) {
 
 /***/ }),
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* 182 */
 =======
 /* 184 */
 >>>>>>> feat: add payment and delivery popups
+=======
+/* 182 */
+>>>>>>> feat: increase groups tree opening time while dragging
 /***/ (function(module, exports, __webpack_require__) {
 
 // 7.1.15 ToLength
@@ -4914,10 +5380,15 @@ module.exports = function (it) {
 
 /***/ }),
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* 183 */,
 /* 184 */,
 =======
 >>>>>>> feat: add payment and delivery popups
+=======
+/* 183 */,
+/* 184 */,
+>>>>>>> feat: increase groups tree opening time while dragging
 /* 185 */,
 /* 186 */,
 /* 187 */,
@@ -4929,6 +5400,7 @@ module.exports = function (it) {
 /* 193 */,
 /* 194 */,
 /* 195 */,
+<<<<<<< HEAD
 /* 196 */,
 <<<<<<< HEAD
 /* 197 */
@@ -4950,6 +5422,12 @@ var getNative = __webpack_require__(40),
     root = __webpack_require__(19);
 >>>>>>> feat: tiger popups redesign
 =======
+=======
+/* 196 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var getNative = __webpack_require__(39),
+>>>>>>> feat: increase groups tree opening time while dragging
     root = __webpack_require__(20);
 >>>>>>> fix: delivery and payment text and popup fixes
 
@@ -4960,7 +5438,7 @@ module.exports = Set;
 
 
 /***/ }),
-/* 199 */
+/* 197 */
 /***/ (function(module, exports) {
 
 /**
@@ -4991,11 +5469,12 @@ module.exports = arrayFilter;
 
 
 /***/ }),
-/* 200 */,
-/* 201 */,
-/* 202 */
+/* 198 */,
+/* 199 */,
+/* 200 */
 /***/ (function(module, exports, __webpack_require__) {
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 var baseTimes = __webpack_require__(327),
@@ -5023,6 +5502,14 @@ var baseTimes = __webpack_require__(328),
     isIndex = __webpack_require__(205),
     isTypedArray = __webpack_require__(170);
 >>>>>>> fix: delivery and payment text and popup fixes
+=======
+var baseTimes = __webpack_require__(327),
+    isArguments = __webpack_require__(207),
+    isArray = __webpack_require__(35),
+    isBuffer = __webpack_require__(166),
+    isIndex = __webpack_require__(203),
+    isTypedArray = __webpack_require__(169);
+>>>>>>> feat: increase groups tree opening time while dragging
 
 /** Used for built-in method references. */
 var objectProto = Object.prototype;
@@ -5069,8 +5556,8 @@ module.exports = arrayLikeKeys;
 
 
 /***/ }),
-/* 203 */,
-/* 204 */
+/* 201 */,
+/* 202 */
 /***/ (function(module, exports) {
 
 /**
@@ -5096,7 +5583,7 @@ module.exports = arrayPush;
 
 
 /***/ }),
-/* 205 */
+/* 203 */
 /***/ (function(module, exports) {
 
 /** Used as references for various `Number` constants. */
@@ -5127,7 +5614,7 @@ module.exports = isIndex;
 
 
 /***/ }),
-/* 206 */
+/* 204 */
 /***/ (function(module, exports) {
 
 /** Used for built-in method references. */
@@ -5151,7 +5638,7 @@ module.exports = isPrototype;
 
 
 /***/ }),
-/* 207 */
+/* 205 */
 /***/ (function(module, exports) {
 
 /**
@@ -5172,9 +5659,10 @@ module.exports = overArg;
 
 
 /***/ }),
-/* 208 */
+/* 206 */
 /***/ (function(module, exports, __webpack_require__) {
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 var isObject = __webpack_require__(36),
     now = __webpack_require__(370),
@@ -5184,6 +5672,11 @@ var isObject = __webpack_require__(37),
     now = __webpack_require__(371),
     toNumber = __webpack_require__(224);
 >>>>>>> feat: add payment and delivery popups
+=======
+var isObject = __webpack_require__(36),
+    now = __webpack_require__(370),
+    toNumber = __webpack_require__(222);
+>>>>>>> feat: increase groups tree opening time while dragging
 
 /** Error message constants. */
 var FUNC_ERROR_TEXT = 'Expected a function';
@@ -5375,14 +5868,18 @@ module.exports = debounce;
 
 
 /***/ }),
-/* 209 */
+/* 207 */
 /***/ (function(module, exports, __webpack_require__) {
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 var baseIsArguments = __webpack_require__(321),
 =======
 var baseIsArguments = __webpack_require__(322),
 >>>>>>> feat: add payment and delivery popups
+=======
+var baseIsArguments = __webpack_require__(321),
+>>>>>>> feat: increase groups tree opening time while dragging
     isObjectLike = __webpack_require__(45);
 
 /** Used for built-in method references. */
@@ -5421,6 +5918,8 @@ module.exports = isArguments;
 
 
 /***/ }),
+/* 208 */,
+/* 209 */,
 /* 210 */,
 /* 211 */,
 /* 212 */,
@@ -5433,6 +5932,7 @@ module.exports = isArguments;
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "d", function() { return takeEvery; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "e", function() { return takeLatest; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "f", function() { return throttle; });
+<<<<<<< HEAD
 <<<<<<< HEAD
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__takeEvery__ = __webpack_require__(398);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__takeLatest__ = __webpack_require__(399);
@@ -5450,6 +5950,11 @@ module.exports = isArguments;
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__utils__ = __webpack_require__(20);
 >>>>>>> feat: tiger popups redesign
 =======
+=======
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__takeEvery__ = __webpack_require__(398);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__takeLatest__ = __webpack_require__(399);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__throttle__ = __webpack_require__(400);
+>>>>>>> feat: increase groups tree opening time while dragging
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__utils__ = __webpack_require__(21);
 >>>>>>> fix: delivery and payment text and popup fixes
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_0__takeEvery__["a"]; });
@@ -5584,6 +6089,7 @@ var _propTypes2 = _interopRequireDefault(_propTypes);
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 var _throttle2 = __webpack_require__(137);
 =======
 var _throttle2 = __webpack_require__(136);
@@ -5591,6 +6097,9 @@ var _throttle2 = __webpack_require__(136);
 =======
 var _throttle2 = __webpack_require__(138);
 >>>>>>> fix: delivery and payment text and popup fixes
+=======
+var _throttle2 = __webpack_require__(137);
+>>>>>>> feat: increase groups tree opening time while dragging
 
 var _throttle3 = _interopRequireDefault(_throttle2);
 
@@ -5656,6 +6165,7 @@ exports.default = Search;
 /* 220 */,
 /* 221 */,
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* 222 */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -5670,6 +6180,13 @@ var isObject = __webpack_require__(36),
 var isObject = __webpack_require__(37),
     isSymbol = __webpack_require__(367);
 >>>>>>> feat: add payment and delivery popups
+=======
+/* 222 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var isObject = __webpack_require__(36),
+    isSymbol = __webpack_require__(366);
+>>>>>>> feat: increase groups tree opening time while dragging
 
 /** Used as references for various `Number` constants. */
 var NAN = 0 / 0;
@@ -5738,6 +6255,7 @@ module.exports = toNumber;
 
 /***/ }),
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* 223 */,
 /* 224 */
 /***/ (function(module, exports, __webpack_require__) {
@@ -5751,12 +6269,16 @@ module.exports = __webpack_require__(225);
 =======
 /* 225 */,
 /* 226 */
+=======
+/* 223 */,
+/* 224 */
+>>>>>>> feat: increase groups tree opening time while dragging
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(227);
+module.exports = __webpack_require__(225);
 
 /***/ }),
-/* 227 */
+/* 225 */
 /***/ (function(module, exports, __webpack_require__) {
 
 >>>>>>> feat: add payment and delivery popups
@@ -5764,6 +6286,7 @@ module.exports = __webpack_require__(227);
 
 
 var utils = __webpack_require__(15);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 var bind = __webpack_require__(148);
@@ -5775,6 +6298,10 @@ var bind = __webpack_require__(149);
 >>>>>>> fix: delivery and payment text and popup fixes
 var Axios = __webpack_require__(229);
 >>>>>>> feat: add payment and delivery popups
+=======
+var bind = __webpack_require__(148);
+var Axios = __webpack_require__(227);
+>>>>>>> feat: increase groups tree opening time while dragging
 var defaults = __webpack_require__(90);
 
 /**
@@ -5810,6 +6337,7 @@ axios.create = function create(instanceConfig) {
 // Expose Cancel & CancelToken
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 axios.Cancel = __webpack_require__(145);
 axios.CancelToken = __webpack_require__(226);
 axios.isCancel = __webpack_require__(146);
@@ -5823,16 +6351,25 @@ axios.Cancel = __webpack_require__(146);
 axios.CancelToken = __webpack_require__(228);
 axios.isCancel = __webpack_require__(147);
 >>>>>>> fix: delivery and payment text and popup fixes
+=======
+axios.Cancel = __webpack_require__(145);
+axios.CancelToken = __webpack_require__(226);
+axios.isCancel = __webpack_require__(146);
+>>>>>>> feat: increase groups tree opening time while dragging
 
 // Expose all/spread
 axios.all = function all(promises) {
   return Promise.all(promises);
 };
 <<<<<<< HEAD
+<<<<<<< HEAD
 axios.spread = __webpack_require__(241);
 =======
 axios.spread = __webpack_require__(243);
 >>>>>>> feat: add payment and delivery popups
+=======
+axios.spread = __webpack_require__(241);
+>>>>>>> feat: increase groups tree opening time while dragging
 
 module.exports = axios;
 
@@ -5842,15 +6379,20 @@ module.exports.default = axios;
 
 /***/ }),
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* 226 */
 =======
 /* 228 */
 >>>>>>> feat: add payment and delivery popups
+=======
+/* 226 */
+>>>>>>> feat: increase groups tree opening time while dragging
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 var Cancel = __webpack_require__(145);
@@ -5860,6 +6402,9 @@ var Cancel = __webpack_require__(144);
 =======
 var Cancel = __webpack_require__(146);
 >>>>>>> fix: delivery and payment text and popup fixes
+=======
+var Cancel = __webpack_require__(145);
+>>>>>>> feat: increase groups tree opening time while dragging
 
 /**
  * A `CancelToken` is an object that can be used to request cancellation of an operation.
@@ -5918,10 +6463,14 @@ module.exports = CancelToken;
 
 /***/ }),
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* 227 */
 =======
 /* 229 */
 >>>>>>> feat: add payment and delivery popups
+=======
+/* 227 */
+>>>>>>> feat: increase groups tree opening time while dragging
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -5930,16 +6479,22 @@ module.exports = CancelToken;
 var defaults = __webpack_require__(90);
 var utils = __webpack_require__(15);
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> feat: increase groups tree opening time while dragging
 var InterceptorManager = __webpack_require__(228);
 var dispatchRequest = __webpack_require__(229);
 var isAbsoluteURL = __webpack_require__(237);
 var combineURLs = __webpack_require__(235);
+<<<<<<< HEAD
 =======
 var InterceptorManager = __webpack_require__(230);
 var dispatchRequest = __webpack_require__(231);
 var isAbsoluteURL = __webpack_require__(239);
 var combineURLs = __webpack_require__(237);
 >>>>>>> feat: add payment and delivery popups
+=======
+>>>>>>> feat: increase groups tree opening time while dragging
 
 /**
  * Create a new instance of Axios
@@ -6021,10 +6576,14 @@ module.exports = Axios;
 
 /***/ }),
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* 228 */
 =======
 /* 230 */
 >>>>>>> feat: add payment and delivery popups
+=======
+/* 228 */
+>>>>>>> feat: increase groups tree opening time while dragging
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6084,16 +6643,21 @@ module.exports = InterceptorManager;
 
 /***/ }),
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* 229 */
 =======
 /* 231 */
 >>>>>>> feat: add payment and delivery popups
+=======
+/* 229 */
+>>>>>>> feat: increase groups tree opening time while dragging
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
 var utils = __webpack_require__(15);
+<<<<<<< HEAD
 <<<<<<< HEAD
 var transformData = __webpack_require__(232);
 var isCancel = __webpack_require__(146);
@@ -6105,6 +6669,10 @@ var isCancel = __webpack_require__(145);
 =======
 var isCancel = __webpack_require__(147);
 >>>>>>> fix: delivery and payment text and popup fixes
+=======
+var transformData = __webpack_require__(232);
+var isCancel = __webpack_require__(146);
+>>>>>>> feat: increase groups tree opening time while dragging
 var defaults = __webpack_require__(90);
 
 /**
@@ -6216,10 +6784,14 @@ module.exports = function enhanceError(error, config, code, response) {
 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 var createError = __webpack_require__(147);
 =======
 var createError = __webpack_require__(148);
 >>>>>>> fix: delivery and payment text and popup fixes
+=======
+var createError = __webpack_require__(147);
+>>>>>>> feat: increase groups tree opening time while dragging
 
 /**
  * Resolve or reject a Promise based on response status.
@@ -6445,7 +7017,11 @@ module.exports = function buildURL(url, params, paramsSerializer) {
 
 
 /***/ }),
+<<<<<<< HEAD
 /* 232 */
+=======
+/* 235 */
+>>>>>>> feat: increase groups tree opening time while dragging
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6471,7 +7047,11 @@ module.exports = function enhanceError(error, config, code, response) {
 
 
 /***/ }),
+<<<<<<< HEAD
 /* 233 */
+=======
+/* 236 */
+>>>>>>> feat: increase groups tree opening time while dragging
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6739,10 +7319,14 @@ module.exports = (
 
 /***/ }),
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* 237 */
 =======
 /* 239 */
 >>>>>>> feat: add payment and delivery popups
+=======
+/* 237 */
+>>>>>>> feat: increase groups tree opening time while dragging
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6764,10 +7348,14 @@ module.exports = function isAbsoluteURL(url) {
 
 /***/ }),
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* 238 */
 =======
 /* 240 */
 >>>>>>> feat: add payment and delivery popups
+=======
+/* 238 */
+>>>>>>> feat: increase groups tree opening time while dragging
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6843,10 +7431,14 @@ module.exports = (
 
 /***/ }),
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* 239 */
 =======
 /* 241 */
 >>>>>>> feat: add payment and delivery popups
+=======
+/* 239 */
+>>>>>>> feat: increase groups tree opening time while dragging
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6866,10 +7458,14 @@ module.exports = function normalizeHeaderName(headers, normalizedName) {
 
 /***/ }),
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* 240 */
 =======
 /* 242 */
 >>>>>>> feat: add payment and delivery popups
+=======
+/* 240 */
+>>>>>>> feat: increase groups tree opening time while dragging
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6914,10 +7510,14 @@ module.exports = function parseHeaders(headers) {
 
 /***/ }),
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* 241 */
 =======
 /* 243 */
 >>>>>>> feat: add payment and delivery popups
+=======
+/* 241 */
+>>>>>>> feat: increase groups tree opening time while dragging
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -6952,10 +7552,15 @@ module.exports = function spread(callback) {
 
 /***/ }),
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* 242 */,
 /* 243 */,
 =======
 >>>>>>> feat: add payment and delivery popups
+=======
+/* 242 */,
+/* 243 */,
+>>>>>>> feat: increase groups tree opening time while dragging
 /* 244 */,
 /* 245 */,
 /* 246 */,
@@ -6968,6 +7573,9 @@ module.exports = function spread(callback) {
 /* 253 */,
 /* 254 */,
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> feat: increase groups tree opening time while dragging
 /* 255 */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -6980,6 +7588,7 @@ module.exports = { "default": __webpack_require__(266), __esModule: true };
 module.exports = { "default": __webpack_require__(267), __esModule: true };
 
 /***/ }),
+<<<<<<< HEAD
 /* 257 */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -7003,10 +7612,12 @@ module.exports = { "default": __webpack_require__(273), __esModule: true };
 =======
 /* 255 */,
 /* 256 */,
+=======
+>>>>>>> feat: increase groups tree opening time while dragging
 /* 257 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = { "default": __webpack_require__(268), __esModule: true };
+module.exports = { "default": __webpack_require__(271), __esModule: true };
 
 /***/ }),
 /* 258 */
@@ -7021,6 +7632,7 @@ module.exports = { "default": __webpack_require__(272), __esModule: true };
 module.exports = { "default": __webpack_require__(273), __esModule: true };
 
 /***/ }),
+<<<<<<< HEAD
 /* 260 */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -7030,6 +7642,10 @@ module.exports = { "default": __webpack_require__(274), __esModule: true };
 /* 261 */,
 /* 262 */
 >>>>>>> feat: add payment and delivery popups
+=======
+/* 260 */,
+/* 261 */
+>>>>>>> feat: increase groups tree opening time while dragging
 /***/ (function(module, exports, __webpack_require__) {
 
 /**
@@ -7071,10 +7687,14 @@ if (hadRuntime) {
 =======
 >>>>>>> feat: add payment and delivery popups
 
+<<<<<<< HEAD
 // Use `getOwnPropertyNames` because not all browsers support calling
 // `hasOwnProperty` on the global `self` object in a worker. See #183.
 var hadRuntime = g.regeneratorRuntime &&
   Object.getOwnPropertyNames(g).indexOf("regeneratorRuntime") >= 0;
+=======
+module.exports = { "default": __webpack_require__(274), __esModule: true };
+>>>>>>> feat: increase groups tree opening time while dragging
 
 <<<<<<< HEAD
 /***/ }),
@@ -7332,6 +7952,7 @@ var hadRuntime = g.regeneratorRuntime &&
     return function invoke(method, arg) {
       if (state === GenStateExecuting) {
         throw new Error("Generator is already running");
+<<<<<<< HEAD
 =======
 // Save the old regeneratorRuntime in case it needs to be restored later.
 var oldRuntime = hadRuntime && g.regeneratorRuntime;
@@ -7494,12 +8115,15 @@ if (hadRuntime) {
       if (!(toStringTagSymbol in genFun)) {
         genFun[toStringTagSymbol] = "GeneratorFunction";
 >>>>>>> feat: add payment and delivery popups
+=======
+>>>>>>> feat: increase groups tree opening time while dragging
       }
     }
     genFun.prototype = Object.create(Gp);
     return genFun;
   };
 
+<<<<<<< HEAD
 <<<<<<< HEAD
       if (state === GenStateCompleted) {
         if (method === "throw") {
@@ -7624,6 +8248,8 @@ if (hadRuntime) {
         throw new Error("Generator is already running");
       }
 
+=======
+>>>>>>> feat: increase groups tree opening time while dragging
       if (state === GenStateCompleted) {
         if (method === "throw") {
           throw arg;
@@ -8426,10 +9052,14 @@ if (hadRuntime) {
 
 /***/ }),
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* 263 */
 =======
 /* 264 */
 >>>>>>> feat: add payment and delivery popups
+=======
+/* 263 */
+>>>>>>> feat: increase groups tree opening time while dragging
 /***/ (function(module, exports, __webpack_require__) {
 
 /*!
@@ -8509,19 +9139,19 @@ return /******/ (function(modules) { // webpackBootstrap
 	                                                                                                                                                                                                                                                  	const inner = () => {
 	                                                                                                                                                                                                                                                  		return selector(...);
 	                                                                                                                                                                                                                                                  	};
-	                                                                                                                                                                                                                                                  
+
 	                                                                                                                                                                                                                                                  	inner.toString = inner.valueOf = () => {
 	                                                                                                                                                                                                                                                  		// ...
 	                                                                                                                                                                                                                                                  	}
-	                                                                                                                                                                                                                                                  
+
 	                                                                                                                                                                                                                                                  	// ...
-	                                                                                                                                                                                                                                                  
+
 	                                                                                                                                                                                                                                                  	return inner;
 	                                                                                                                                                                                                                                                  };
-	                                                                                                                                                                                                                                                  
+
 	                                                                                                                                                                                                                                                  const block = (name) => {
 	                                                                                                                                                                                                                                                  	// ...
-	                                                                                                                                                                                                                                                  
+
 	                                                                                                                                                                                                                                                  	return selector(defaultSettings, {name});
 	                                                                                                                                                                                                                                                  };
 	                                                                                                                                                                                                                                                   */
@@ -8846,6 +9476,7 @@ return /******/ (function(modules) { // webpackBootstrap
 
 /***/ }),
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* 264 */,
 /* 265 */,
 /* 266 */
@@ -8854,6 +9485,11 @@ return /******/ (function(modules) { // webpackBootstrap
 /* 266 */,
 /* 267 */
 >>>>>>> feat: add payment and delivery popups
+=======
+/* 264 */,
+/* 265 */,
+/* 266 */
+>>>>>>> feat: increase groups tree opening time while dragging
 /***/ (function(module, exports, __webpack_require__) {
 
 __webpack_require__(291);
@@ -8862,10 +9498,14 @@ module.exports = __webpack_require__(11).Object.assign;
 
 /***/ }),
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* 267 */
 =======
 /* 268 */
 >>>>>>> feat: add payment and delivery popups
+=======
+/* 267 */
+>>>>>>> feat: increase groups tree opening time while dragging
 /***/ (function(module, exports, __webpack_require__) {
 
 __webpack_require__(292);
@@ -8877,10 +9517,14 @@ module.exports = function create(P, D) {
 
 /***/ }),
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* 268 */
 =======
 /* 269 */
 >>>>>>> feat: add payment and delivery popups
+=======
+/* 268 */
+>>>>>>> feat: increase groups tree opening time while dragging
 /***/ (function(module, exports, __webpack_require__) {
 
 __webpack_require__(293);
@@ -8892,10 +9536,14 @@ module.exports = function defineProperty(it, key, desc) {
 
 /***/ }),
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* 269 */
 =======
 /* 270 */
 >>>>>>> feat: add payment and delivery popups
+=======
+/* 269 */
+>>>>>>> feat: increase groups tree opening time while dragging
 /***/ (function(module, exports, __webpack_require__) {
 
 __webpack_require__(294);
@@ -8904,10 +9552,14 @@ module.exports = __webpack_require__(11).Object.getPrototypeOf;
 
 /***/ }),
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* 270 */
 =======
 /* 271 */
 >>>>>>> feat: add payment and delivery popups
+=======
+/* 270 */
+>>>>>>> feat: increase groups tree opening time while dragging
 /***/ (function(module, exports, __webpack_require__) {
 
 __webpack_require__(295);
@@ -8916,10 +9568,14 @@ module.exports = __webpack_require__(11).Object.keys;
 
 /***/ }),
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* 271 */
 =======
 /* 272 */
 >>>>>>> feat: add payment and delivery popups
+=======
+/* 271 */
+>>>>>>> feat: increase groups tree opening time while dragging
 /***/ (function(module, exports, __webpack_require__) {
 
 __webpack_require__(296);
@@ -8928,10 +9584,14 @@ module.exports = __webpack_require__(11).Object.setPrototypeOf;
 
 /***/ }),
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* 272 */
 =======
 /* 273 */
 >>>>>>> feat: add payment and delivery popups
+=======
+/* 272 */
+>>>>>>> feat: increase groups tree opening time while dragging
 /***/ (function(module, exports, __webpack_require__) {
 
 __webpack_require__(298);
@@ -8942,6 +9602,7 @@ module.exports = __webpack_require__(11).Symbol;
 
 
 /***/ }),
+<<<<<<< HEAD
 <<<<<<< HEAD
 /* 273 */
 /***/ (function(module, exports, __webpack_require__) {
@@ -8959,15 +9620,26 @@ __webpack_require__(128);
 =======
 __webpack_require__(130);
 >>>>>>> fix: delivery and payment text and popup fixes
+=======
+/* 273 */
+/***/ (function(module, exports, __webpack_require__) {
+
+__webpack_require__(102);
+__webpack_require__(129);
+>>>>>>> feat: increase groups tree opening time while dragging
 module.exports = __webpack_require__(101).f('iterator');
 
 
 /***/ }),
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* 274 */
 =======
 /* 275 */
 >>>>>>> feat: add payment and delivery popups
+=======
+/* 274 */
+>>>>>>> feat: increase groups tree opening time while dragging
 /***/ (function(module, exports) {
 
 module.exports = function (it) {
@@ -8978,10 +9650,14 @@ module.exports = function (it) {
 
 /***/ }),
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* 275 */
 =======
 /* 276 */
 >>>>>>> feat: add payment and delivery popups
+=======
+/* 275 */
+>>>>>>> feat: increase groups tree opening time while dragging
 /***/ (function(module, exports) {
 
 module.exports = function () { /* empty */ };
@@ -8989,15 +9665,20 @@ module.exports = function () { /* empty */ };
 
 /***/ }),
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* 276 */
 =======
 /* 277 */
 >>>>>>> feat: add payment and delivery popups
+=======
+/* 276 */
+>>>>>>> feat: increase groups tree opening time while dragging
 /***/ (function(module, exports, __webpack_require__) {
 
 // false -> Array#indexOf
 // true  -> Array#includes
 var toIObject = __webpack_require__(48);
+<<<<<<< HEAD
 <<<<<<< HEAD
 var toLength = __webpack_require__(182);
 var toAbsoluteIndex = __webpack_require__(287);
@@ -9005,6 +9686,10 @@ var toAbsoluteIndex = __webpack_require__(287);
 var toLength = __webpack_require__(184);
 var toAbsoluteIndex = __webpack_require__(288);
 >>>>>>> feat: add payment and delivery popups
+=======
+var toLength = __webpack_require__(182);
+var toAbsoluteIndex = __webpack_require__(287);
+>>>>>>> feat: increase groups tree opening time while dragging
 module.exports = function (IS_INCLUDES) {
   return function ($this, el, fromIndex) {
     var O = toIObject($this);
@@ -9027,6 +9712,7 @@ module.exports = function (IS_INCLUDES) {
 
 /***/ }),
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* 277 */,
 /* 278 */
 /***/ (function(module, exports, __webpack_require__) {
@@ -9041,6 +9727,14 @@ var getKeys = __webpack_require__(56);
 // all enumerable object keys, includes symbols
 var getKeys = __webpack_require__(57);
 >>>>>>> feat: add payment and delivery popups
+=======
+/* 277 */,
+/* 278 */
+/***/ (function(module, exports, __webpack_require__) {
+
+// all enumerable object keys, includes symbols
+var getKeys = __webpack_require__(56);
+>>>>>>> feat: increase groups tree opening time while dragging
 var gOPS = __webpack_require__(94);
 var pIE = __webpack_require__(66);
 module.exports = function (it) {
@@ -9058,10 +9752,14 @@ module.exports = function (it) {
 
 /***/ }),
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* 279 */
 =======
 /* 280 */
 >>>>>>> feat: add payment and delivery popups
+=======
+/* 279 */
+>>>>>>> feat: increase groups tree opening time while dragging
 /***/ (function(module, exports, __webpack_require__) {
 
 var document = __webpack_require__(28).document;
@@ -9070,6 +9768,7 @@ module.exports = document && document.documentElement;
 
 /***/ }),
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* 280 */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -9077,6 +9776,9 @@ module.exports = document && document.documentElement;
 var cof = __webpack_require__(118);
 =======
 /* 281 */
+=======
+/* 280 */
+>>>>>>> feat: increase groups tree opening time while dragging
 /***/ (function(module, exports, __webpack_require__) {
 
 // 7.2.2 IsArray(argument)
@@ -9093,20 +9795,28 @@ module.exports = Array.isArray || function isArray(arg) {
 
 /***/ }),
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* 281 */
 =======
 /* 282 */
 >>>>>>> feat: add payment and delivery popups
+=======
+/* 281 */
+>>>>>>> feat: increase groups tree opening time while dragging
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 var create = __webpack_require__(93);
 <<<<<<< HEAD
+<<<<<<< HEAD
 var descriptor = __webpack_require__(60);
 =======
 var descriptor = __webpack_require__(61);
 >>>>>>> feat: add payment and delivery popups
+=======
+var descriptor = __webpack_require__(60);
+>>>>>>> feat: increase groups tree opening time while dragging
 var setToStringTag = __webpack_require__(95);
 var IteratorPrototype = {};
 
@@ -9130,7 +9840,7 @@ module.exports = function (done, value) {
 =======
 
 /***/ }),
-/* 283 */
+/* 282 */
 /***/ (function(module, exports) {
 
 module.exports = function (done, value) {
@@ -9150,6 +9860,7 @@ module.exports = function (done, value) {
 var DESCRIPTORS = __webpack_require__(27);
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 var getKeys = __webpack_require__(56);
 =======
 var getKeys = __webpack_require__(57);
@@ -9165,6 +9876,13 @@ var pIE = __webpack_require__(66);
 var toObject = __webpack_require__(51);
 var IObject = __webpack_require__(154);
 >>>>>>> fix: delivery and payment text and popup fixes
+=======
+var getKeys = __webpack_require__(56);
+var gOPS = __webpack_require__(94);
+var pIE = __webpack_require__(66);
+var toObject = __webpack_require__(51);
+var IObject = __webpack_require__(153);
+>>>>>>> feat: increase groups tree opening time while dragging
 var $assign = Object.assign;
 
 // should work with symbols and should have deterministic property order (V8 bug)
@@ -9202,6 +9920,7 @@ module.exports = !$assign || __webpack_require__(46)(function () {
 /***/ (function(module, exports, __webpack_require__) {
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 var dP = __webpack_require__(30);
 var anObject = __webpack_require__(43);
 var getKeys = __webpack_require__(56);
@@ -9210,6 +9929,11 @@ var dP = __webpack_require__(31);
 var anObject = __webpack_require__(43);
 var getKeys = __webpack_require__(57);
 >>>>>>> feat: add payment and delivery popups
+=======
+var dP = __webpack_require__(30);
+var anObject = __webpack_require__(43);
+var getKeys = __webpack_require__(56);
+>>>>>>> feat: increase groups tree opening time while dragging
 
 module.exports = __webpack_require__(27) ? Object.defineProperties : function defineProperties(O, Properties) {
   anObject(O);
@@ -9229,10 +9953,14 @@ module.exports = __webpack_require__(27) ? Object.defineProperties : function de
 // Works with __proto__ only. Old v8 can't work with null proto objects.
 /* eslint-disable no-proto */
 <<<<<<< HEAD
+<<<<<<< HEAD
 var isObject = __webpack_require__(38);
 =======
 var isObject = __webpack_require__(39);
 >>>>>>> feat: add payment and delivery popups
+=======
+var isObject = __webpack_require__(38);
+>>>>>>> feat: increase groups tree opening time while dragging
 var anObject = __webpack_require__(43);
 var check = function (O, proto) {
   anObject(O);
@@ -9244,6 +9972,7 @@ module.exports = {
       try {
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
         set = __webpack_require__(119)(Function.call, __webpack_require__(155).f(Object.prototype, '__proto__').set, 2);
 =======
         set = __webpack_require__(118)(Function.call, __webpack_require__(155).f(Object.prototype, '__proto__').set, 2);
@@ -9251,6 +9980,9 @@ module.exports = {
 =======
         set = __webpack_require__(119)(Function.call, __webpack_require__(156).f(Object.prototype, '__proto__').set, 2);
 >>>>>>> fix: delivery and payment text and popup fixes
+=======
+        set = __webpack_require__(119)(Function.call, __webpack_require__(155).f(Object.prototype, '__proto__').set, 2);
+>>>>>>> feat: increase groups tree opening time while dragging
         set(test, []);
         buggy = !(test instanceof Array);
       } catch (e) { buggy = true; }
@@ -9309,6 +10041,7 @@ module.exports = function (index, length) {
 "use strict";
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 var addToUnscopables = __webpack_require__(275);
 var step = __webpack_require__(282);
 var Iterators = __webpack_require__(55);
@@ -9317,6 +10050,11 @@ var addToUnscopables = __webpack_require__(276);
 var step = __webpack_require__(283);
 var Iterators = __webpack_require__(56);
 >>>>>>> feat: add payment and delivery popups
+=======
+var addToUnscopables = __webpack_require__(275);
+var step = __webpack_require__(282);
+var Iterators = __webpack_require__(55);
+>>>>>>> feat: increase groups tree opening time while dragging
 var toIObject = __webpack_require__(48);
 
 // 22.1.3.4 Array.prototype.entries()
@@ -9324,10 +10062,14 @@ var toIObject = __webpack_require__(48);
 // 22.1.3.29 Array.prototype.values()
 // 22.1.3.30 Array.prototype[@@iterator]()
 <<<<<<< HEAD
+<<<<<<< HEAD
 module.exports = __webpack_require__(154)(Array, 'Array', function (iterated, kind) {
 =======
 module.exports = __webpack_require__(155)(Array, 'Array', function (iterated, kind) {
 >>>>>>> fix: delivery and payment text and popup fixes
+=======
+module.exports = __webpack_require__(154)(Array, 'Array', function (iterated, kind) {
+>>>>>>> feat: increase groups tree opening time while dragging
   this._t = toIObject(iterated); // target
   this._i = 0;                   // next index
   this._k = kind;                // kind
@@ -9359,6 +10101,7 @@ addToUnscopables('entries');
 
 // 19.1.3.1 Object.assign(target, source)
 <<<<<<< HEAD
+<<<<<<< HEAD
 var $export = __webpack_require__(29);
 
 $export($export.S + $export.F, 'Object', { assign: __webpack_require__(283) });
@@ -9367,6 +10110,11 @@ var $export = __webpack_require__(30);
 
 $export($export.S + $export.F, 'Object', { assign: __webpack_require__(284) });
 >>>>>>> feat: add payment and delivery popups
+=======
+var $export = __webpack_require__(29);
+
+$export($export.S + $export.F, 'Object', { assign: __webpack_require__(283) });
+>>>>>>> feat: increase groups tree opening time while dragging
 
 
 /***/ }),
@@ -9374,10 +10122,14 @@ $export($export.S + $export.F, 'Object', { assign: __webpack_require__(284) });
 /***/ (function(module, exports, __webpack_require__) {
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 var $export = __webpack_require__(29);
 =======
 var $export = __webpack_require__(30);
 >>>>>>> feat: add payment and delivery popups
+=======
+var $export = __webpack_require__(29);
+>>>>>>> feat: increase groups tree opening time while dragging
 // 19.1.2.2 / 15.2.3.5 Object.create(O [, Properties])
 $export($export.S, 'Object', { create: __webpack_require__(93) });
 
@@ -9387,6 +10139,7 @@ $export($export.S, 'Object', { create: __webpack_require__(93) });
 /***/ (function(module, exports, __webpack_require__) {
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 var $export = __webpack_require__(29);
 // 19.1.2.4 / 15.2.3.6 Object.defineProperty(O, P, Attributes)
 $export($export.S + $export.F * !__webpack_require__(27), 'Object', { defineProperty: __webpack_require__(30).f });
@@ -9395,6 +10148,11 @@ var $export = __webpack_require__(30);
 // 19.1.2.4 / 15.2.3.6 Object.defineProperty(O, P, Attributes)
 $export($export.S + $export.F * !__webpack_require__(27), 'Object', { defineProperty: __webpack_require__(31).f });
 >>>>>>> feat: add payment and delivery popups
+=======
+var $export = __webpack_require__(29);
+// 19.1.2.4 / 15.2.3.6 Object.defineProperty(O, P, Attributes)
+$export($export.S + $export.F * !__webpack_require__(27), 'Object', { defineProperty: __webpack_require__(30).f });
+>>>>>>> feat: increase groups tree opening time while dragging
 
 
 /***/ }),
@@ -9404,10 +10162,14 @@ $export($export.S + $export.F * !__webpack_require__(27), 'Object', { defineProp
 // 19.1.2.9 Object.getPrototypeOf(O)
 var toObject = __webpack_require__(51);
 <<<<<<< HEAD
+<<<<<<< HEAD
 var $getPrototypeOf = __webpack_require__(157);
 =======
 var $getPrototypeOf = __webpack_require__(158);
 >>>>>>> fix: delivery and payment text and popup fixes
+=======
+var $getPrototypeOf = __webpack_require__(157);
+>>>>>>> feat: increase groups tree opening time while dragging
 
 __webpack_require__(83)('getPrototypeOf', function () {
   return function getPrototypeOf(it) {
@@ -9423,10 +10185,14 @@ __webpack_require__(83)('getPrototypeOf', function () {
 // 19.1.2.14 Object.keys(O)
 var toObject = __webpack_require__(51);
 <<<<<<< HEAD
+<<<<<<< HEAD
 var $keys = __webpack_require__(56);
 =======
 var $keys = __webpack_require__(57);
 >>>>>>> feat: add payment and delivery popups
+=======
+var $keys = __webpack_require__(56);
+>>>>>>> feat: increase groups tree opening time while dragging
 
 __webpack_require__(83)('keys', function () {
   return function keys(it) {
@@ -9441,12 +10207,17 @@ __webpack_require__(83)('keys', function () {
 
 // 19.1.3.19 Object.setPrototypeOf(O, proto)
 <<<<<<< HEAD
+<<<<<<< HEAD
 var $export = __webpack_require__(29);
 $export($export.S, 'Object', { setPrototypeOf: __webpack_require__(285).set });
 =======
 var $export = __webpack_require__(30);
 $export($export.S, 'Object', { setPrototypeOf: __webpack_require__(286).set });
 >>>>>>> feat: add payment and delivery popups
+=======
+var $export = __webpack_require__(29);
+$export($export.S, 'Object', { setPrototypeOf: __webpack_require__(285).set });
+>>>>>>> feat: increase groups tree opening time while dragging
 
 
 /***/ }),
@@ -9463,6 +10234,7 @@ $export($export.S, 'Object', { setPrototypeOf: __webpack_require__(286).set });
 
 // ECMAScript 6 symbols shim
 var global = __webpack_require__(28);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 var has = __webpack_require__(33);
@@ -9484,6 +10256,13 @@ var $export = __webpack_require__(30);
 var redefine = __webpack_require__(160);
 var META = __webpack_require__(182).KEY;
 >>>>>>> fix: delivery and payment text and popup fixes
+=======
+var has = __webpack_require__(33);
+var DESCRIPTORS = __webpack_require__(27);
+var $export = __webpack_require__(29);
+var redefine = __webpack_require__(159);
+var META = __webpack_require__(180).KEY;
+>>>>>>> feat: increase groups tree opening time while dragging
 var $fails = __webpack_require__(46);
 var shared = __webpack_require__(97);
 var setToStringTag = __webpack_require__(95);
@@ -9491,6 +10270,7 @@ var uid = __webpack_require__(67);
 var wks = __webpack_require__(22);
 var wksExt = __webpack_require__(101);
 var wksDefine = __webpack_require__(100);
+<<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
 var enumKeys = __webpack_require__(278);
@@ -9512,13 +10292,18 @@ var $keys = __webpack_require__(56);
 >>>>>>> fix: delivery and payment text and popup fixes
 var enumKeys = __webpack_require__(279);
 var isArray = __webpack_require__(281);
+=======
+var enumKeys = __webpack_require__(278);
+var isArray = __webpack_require__(280);
+>>>>>>> feat: increase groups tree opening time while dragging
 var anObject = __webpack_require__(43);
-var isObject = __webpack_require__(39);
+var isObject = __webpack_require__(38);
 var toObject = __webpack_require__(51);
 var toIObject = __webpack_require__(48);
 var toPrimitive = __webpack_require__(99);
-var createDesc = __webpack_require__(61);
+var createDesc = __webpack_require__(60);
 var _create = __webpack_require__(93);
+<<<<<<< HEAD
 var gOPNExt = __webpack_require__(183);
 <<<<<<< HEAD
 var $GOPD = __webpack_require__(155);
@@ -9532,6 +10317,13 @@ var $GOPS = __webpack_require__(94);
 var $DP = __webpack_require__(31);
 var $keys = __webpack_require__(57);
 >>>>>>> fix: delivery and payment text and popup fixes
+=======
+var gOPNExt = __webpack_require__(181);
+var $GOPD = __webpack_require__(155);
+var $GOPS = __webpack_require__(94);
+var $DP = __webpack_require__(30);
+var $keys = __webpack_require__(56);
+>>>>>>> feat: increase groups tree opening time while dragging
 var gOPD = $GOPD.f;
 var dP = $DP.f;
 var gOPN = gOPNExt.f;
@@ -9655,10 +10447,14 @@ if (!USE_NATIVE) {
   $GOPD.f = $getOwnPropertyDescriptor;
   $DP.f = $defineProperty;
 <<<<<<< HEAD
+<<<<<<< HEAD
   __webpack_require__(156).f = gOPNExt.f = $getOwnPropertyNames;
 =======
   __webpack_require__(157).f = gOPNExt.f = $getOwnPropertyNames;
 >>>>>>> fix: delivery and payment text and popup fixes
+=======
+  __webpack_require__(156).f = gOPNExt.f = $getOwnPropertyNames;
+>>>>>>> feat: increase groups tree opening time while dragging
   __webpack_require__(66).f = $propertyIsEnumerable;
   $GOPS.f = $getOwnPropertySymbols;
 
@@ -9787,6 +10583,7 @@ __webpack_require__(100)('observable');
 /***/ }),
 /* 311 */
 <<<<<<< HEAD
+<<<<<<< HEAD
 /***/ (function(module, exports, __webpack_require__) {
 
 var getNative = __webpack_require__(39),
@@ -9809,6 +10606,11 @@ var getNative = __webpack_require__(40),
     root = __webpack_require__(19);
 >>>>>>> feat: tiger popups redesign
 =======
+=======
+/***/ (function(module, exports, __webpack_require__) {
+
+var getNative = __webpack_require__(39),
+>>>>>>> feat: increase groups tree opening time while dragging
     root = __webpack_require__(20);
 >>>>>>> fix: delivery and payment text and popup fixes
 
@@ -9823,11 +10625,15 @@ module.exports = DataView;
 /***/ (function(module, exports, __webpack_require__) {
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> feat: increase groups tree opening time while dragging
 var hashClear = __webpack_require__(337),
     hashDelete = __webpack_require__(338),
     hashGet = __webpack_require__(339),
     hashHas = __webpack_require__(340),
     hashSet = __webpack_require__(341);
+<<<<<<< HEAD
 =======
 var hashClear = __webpack_require__(338),
     hashDelete = __webpack_require__(339),
@@ -9835,6 +10641,8 @@ var hashClear = __webpack_require__(338),
     hashHas = __webpack_require__(341),
     hashSet = __webpack_require__(342);
 >>>>>>> feat: add payment and delivery popups
+=======
+>>>>>>> feat: increase groups tree opening time while dragging
 
 /**
  * Creates a hash object.
@@ -9869,12 +10677,16 @@ module.exports = Hash;
 /***/ (function(module, exports, __webpack_require__) {
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 var getNative = __webpack_require__(39),
     root = __webpack_require__(19);
 =======
 var getNative = __webpack_require__(40),
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+var getNative = __webpack_require__(39),
+>>>>>>> feat: increase groups tree opening time while dragging
     root = __webpack_require__(20);
 >>>>>>> feat: add payment and delivery popups
 =======
@@ -9896,11 +10708,15 @@ module.exports = Promise;
 
 var ListCache = __webpack_require__(68),
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> feat: increase groups tree opening time while dragging
     stackClear = __webpack_require__(360),
     stackDelete = __webpack_require__(361),
     stackGet = __webpack_require__(362),
     stackHas = __webpack_require__(363),
     stackSet = __webpack_require__(364);
+<<<<<<< HEAD
 =======
     stackClear = __webpack_require__(361),
     stackDelete = __webpack_require__(362),
@@ -9908,6 +10724,8 @@ var ListCache = __webpack_require__(68),
     stackHas = __webpack_require__(364),
     stackSet = __webpack_require__(365);
 >>>>>>> feat: add payment and delivery popups
+=======
+>>>>>>> feat: increase groups tree opening time while dragging
 
 /**
  * Creates a stack cache object to store key-value pairs.
@@ -9960,12 +10778,16 @@ module.exports = Uint8Array;
 /***/ (function(module, exports, __webpack_require__) {
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 var getNative = __webpack_require__(39),
     root = __webpack_require__(19);
 =======
 var getNative = __webpack_require__(40),
 <<<<<<< HEAD
 <<<<<<< HEAD
+=======
+var getNative = __webpack_require__(39),
+>>>>>>> feat: increase groups tree opening time while dragging
     root = __webpack_require__(20);
 >>>>>>> feat: add payment and delivery popups
 =======
@@ -9983,10 +10805,14 @@ module.exports = WeakMap;
 
 /***/ }),
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* 317 */
 =======
 /* 318 */
 >>>>>>> feat: add payment and delivery popups
+=======
+/* 317 */
+>>>>>>> feat: increase groups tree opening time while dragging
 /***/ (function(module, exports) {
 
 /**
@@ -10016,6 +10842,7 @@ module.exports = arraySome;
 
 /***/ }),
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* 318 */,
 /* 319 */,
 /* 320 */
@@ -10024,10 +10851,15 @@ module.exports = arraySome;
 /* 320 */,
 /* 321 */
 >>>>>>> feat: add payment and delivery popups
+=======
+/* 318 */,
+/* 319 */,
+/* 320 */
+>>>>>>> feat: increase groups tree opening time while dragging
 /***/ (function(module, exports, __webpack_require__) {
 
-var arrayPush = __webpack_require__(204),
-    isArray = __webpack_require__(36);
+var arrayPush = __webpack_require__(202),
+    isArray = __webpack_require__(35);
 
 /**
  * The base implementation of `getAllKeys` and `getAllKeysIn` which uses
@@ -10050,10 +10882,14 @@ module.exports = baseGetAllKeys;
 
 /***/ }),
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* 321 */
 =======
 /* 322 */
 >>>>>>> feat: add payment and delivery popups
+=======
+/* 321 */
+>>>>>>> feat: increase groups tree opening time while dragging
 /***/ (function(module, exports, __webpack_require__) {
 
 var baseGetTag = __webpack_require__(53),
@@ -10078,6 +10914,7 @@ module.exports = baseIsArguments;
 
 /***/ }),
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* 322 */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -10088,6 +10925,12 @@ var baseIsEqualDeep = __webpack_require__(323),
 
 var baseIsEqualDeep = __webpack_require__(324),
 >>>>>>> feat: add payment and delivery popups
+=======
+/* 322 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var baseIsEqualDeep = __webpack_require__(323),
+>>>>>>> feat: increase groups tree opening time while dragging
     isObjectLike = __webpack_require__(45);
 
 /**
@@ -10118,6 +10961,7 @@ module.exports = baseIsEqual;
 
 
 /***/ }),
+<<<<<<< HEAD
 <<<<<<< HEAD
 /* 323 */
 /***/ (function(module, exports, __webpack_require__) {
@@ -10150,6 +10994,19 @@ var Stack = __webpack_require__(315),
     isBuffer = __webpack_require__(167),
     isTypedArray = __webpack_require__(170);
 >>>>>>> fix: delivery and payment text and popup fixes
+=======
+/* 323 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var Stack = __webpack_require__(314),
+    equalArrays = __webpack_require__(163),
+    equalByTag = __webpack_require__(330),
+    equalObjects = __webpack_require__(331),
+    getTag = __webpack_require__(335),
+    isArray = __webpack_require__(35),
+    isBuffer = __webpack_require__(166),
+    isTypedArray = __webpack_require__(169);
+>>>>>>> feat: increase groups tree opening time while dragging
 
 /** Used to compose bitmasks for value comparisons. */
 var COMPARE_PARTIAL_FLAG = 1;
@@ -10229,6 +11086,7 @@ module.exports = baseIsEqualDeep;
 
 /***/ }),
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* 324 */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -10251,6 +11109,15 @@ var isFunction = __webpack_require__(168),
     isObject = __webpack_require__(37),
     toSource = __webpack_require__(166);
 >>>>>>> fix: delivery and payment text and popup fixes
+=======
+/* 324 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var isFunction = __webpack_require__(167),
+    isMasked = __webpack_require__(343),
+    isObject = __webpack_require__(36),
+    toSource = __webpack_require__(165);
+>>>>>>> feat: increase groups tree opening time while dragging
 
 /**
  * Used to match `RegExp`
@@ -10298,6 +11165,7 @@ module.exports = baseIsNative;
 
 /***/ }),
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* 325 */
 =======
 /* 326 */
@@ -10310,6 +11178,13 @@ var baseGetTag = __webpack_require__(53),
 =======
     isLength = __webpack_require__(169),
 >>>>>>> fix: delivery and payment text and popup fixes
+=======
+/* 325 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var baseGetTag = __webpack_require__(53),
+    isLength = __webpack_require__(168),
+>>>>>>> feat: increase groups tree opening time while dragging
     isObjectLike = __webpack_require__(45);
 
 /** `Object#toString` result references. */
@@ -10372,6 +11247,7 @@ module.exports = baseIsTypedArray;
 
 /***/ }),
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* 326 */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -10384,6 +11260,13 @@ var isPrototype = __webpack_require__(205),
 var isPrototype = __webpack_require__(206),
     nativeKeys = __webpack_require__(356);
 >>>>>>> feat: add payment and delivery popups
+=======
+/* 326 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var isPrototype = __webpack_require__(204),
+    nativeKeys = __webpack_require__(355);
+>>>>>>> feat: increase groups tree opening time while dragging
 
 /** Used for built-in method references. */
 var objectProto = Object.prototype;
@@ -10416,10 +11299,14 @@ module.exports = baseKeys;
 
 /***/ }),
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* 327 */
 =======
 /* 328 */
 >>>>>>> feat: add payment and delivery popups
+=======
+/* 327 */
+>>>>>>> feat: increase groups tree opening time while dragging
 /***/ (function(module, exports) {
 
 /**
@@ -10446,6 +11333,7 @@ module.exports = baseTimes;
 
 /***/ }),
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* 328 */,
 /* 329 */
 /***/ (function(module, exports, __webpack_require__) {
@@ -10454,6 +11342,10 @@ var root = __webpack_require__(19);
 =======
 /* 329 */,
 /* 330 */
+=======
+/* 328 */,
+/* 329 */
+>>>>>>> feat: increase groups tree opening time while dragging
 /***/ (function(module, exports, __webpack_require__) {
 
 <<<<<<< HEAD
@@ -10475,6 +11367,7 @@ module.exports = coreJsData;
 
 /***/ }),
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* 330 */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -10486,11 +11379,15 @@ var Symbol = __webpack_require__(78),
     setToArray = __webpack_require__(135);
 =======
 /* 331 */
+=======
+/* 330 */
+>>>>>>> feat: increase groups tree opening time while dragging
 /***/ (function(module, exports, __webpack_require__) {
 
 var Symbol = __webpack_require__(78),
-    Uint8Array = __webpack_require__(316),
+    Uint8Array = __webpack_require__(315),
     eq = __webpack_require__(88),
+<<<<<<< HEAD
 <<<<<<< HEAD
     equalArrays = __webpack_require__(163),
     mapToArray = __webpack_require__(355),
@@ -10501,6 +11398,11 @@ var Symbol = __webpack_require__(78),
     mapToArray = __webpack_require__(355),
     setToArray = __webpack_require__(136);
 >>>>>>> fix: delivery and payment text and popup fixes
+=======
+    equalArrays = __webpack_require__(163),
+    mapToArray = __webpack_require__(354),
+    setToArray = __webpack_require__(135);
+>>>>>>> feat: increase groups tree opening time while dragging
 
 /** Used to compose bitmasks for value comparisons. */
 var COMPARE_PARTIAL_FLAG = 1,
@@ -10611,6 +11513,7 @@ module.exports = equalByTag;
 
 /***/ }),
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* 331 */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -10621,6 +11524,12 @@ var getAllKeys = __webpack_require__(332);
 
 var getAllKeys = __webpack_require__(333);
 >>>>>>> feat: add payment and delivery popups
+=======
+/* 331 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var getAllKeys = __webpack_require__(332);
+>>>>>>> feat: increase groups tree opening time while dragging
 
 /** Used to compose bitmasks for value comparisons. */
 var COMPARE_PARTIAL_FLAG = 1;
@@ -10714,6 +11623,7 @@ module.exports = equalObjects;
 
 /***/ }),
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* 332 */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -10728,6 +11638,14 @@ var baseGetAllKeys = __webpack_require__(321),
     getSymbols = __webpack_require__(335),
     keys = __webpack_require__(368);
 >>>>>>> feat: add payment and delivery popups
+=======
+/* 332 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var baseGetAllKeys = __webpack_require__(320),
+    getSymbols = __webpack_require__(334),
+    keys = __webpack_require__(367);
+>>>>>>> feat: increase groups tree opening time while dragging
 
 /**
  * Creates an array of own enumerable property names and symbols of `object`.
@@ -10745,10 +11663,14 @@ module.exports = getAllKeys;
 
 /***/ }),
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* 333 */
 =======
 /* 334 */
 >>>>>>> feat: add payment and delivery popups
+=======
+/* 333 */
+>>>>>>> feat: increase groups tree opening time while dragging
 /***/ (function(module, exports, __webpack_require__) {
 
 var Symbol = __webpack_require__(78);
@@ -10801,6 +11723,7 @@ module.exports = getRawTag;
 
 /***/ }),
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* 334 */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -10813,6 +11736,13 @@ var arrayFilter = __webpack_require__(198),
 var arrayFilter = __webpack_require__(199),
     stubArray = __webpack_require__(372);
 >>>>>>> feat: add payment and delivery popups
+=======
+/* 334 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var arrayFilter = __webpack_require__(197),
+    stubArray = __webpack_require__(371);
+>>>>>>> feat: increase groups tree opening time while dragging
 
 /** Used for built-in method references. */
 var objectProto = Object.prototype;
@@ -10845,6 +11775,7 @@ module.exports = getSymbols;
 
 /***/ }),
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* 335 */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -10855,10 +11786,14 @@ var DataView = __webpack_require__(311),
     WeakMap = __webpack_require__(316),
 =======
 /* 336 */
+=======
+/* 335 */
+>>>>>>> feat: increase groups tree opening time while dragging
 /***/ (function(module, exports, __webpack_require__) {
 
-var DataView = __webpack_require__(312),
+var DataView = __webpack_require__(311),
     Map = __webpack_require__(108),
+<<<<<<< HEAD
     Promise = __webpack_require__(314),
     Set = __webpack_require__(198),
     WeakMap = __webpack_require__(317),
@@ -10870,6 +11805,13 @@ var DataView = __webpack_require__(312),
     baseGetTag = __webpack_require__(53),
     toSource = __webpack_require__(166);
 >>>>>>> fix: delivery and payment text and popup fixes
+=======
+    Promise = __webpack_require__(313),
+    Set = __webpack_require__(196),
+    WeakMap = __webpack_require__(316),
+    baseGetTag = __webpack_require__(53),
+    toSource = __webpack_require__(165);
+>>>>>>> feat: increase groups tree opening time while dragging
 
 /** `Object#toString` result references. */
 var mapTag = '[object Map]',
@@ -10925,10 +11867,14 @@ module.exports = getTag;
 
 /***/ }),
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* 336 */
 =======
 /* 337 */
 >>>>>>> feat: add payment and delivery popups
+=======
+/* 336 */
+>>>>>>> feat: increase groups tree opening time while dragging
 /***/ (function(module, exports) {
 
 /**
@@ -10948,10 +11894,14 @@ module.exports = getValue;
 
 /***/ }),
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* 337 */
 =======
 /* 338 */
 >>>>>>> feat: add payment and delivery popups
+=======
+/* 337 */
+>>>>>>> feat: increase groups tree opening time while dragging
 /***/ (function(module, exports, __webpack_require__) {
 
 var nativeCreate = __webpack_require__(71);
@@ -10973,10 +11923,14 @@ module.exports = hashClear;
 
 /***/ }),
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* 338 */
 =======
 /* 339 */
 >>>>>>> feat: add payment and delivery popups
+=======
+/* 338 */
+>>>>>>> feat: increase groups tree opening time while dragging
 /***/ (function(module, exports) {
 
 /**
@@ -11000,10 +11954,14 @@ module.exports = hashDelete;
 
 /***/ }),
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* 339 */
 =======
 /* 340 */
 >>>>>>> feat: add payment and delivery popups
+=======
+/* 339 */
+>>>>>>> feat: increase groups tree opening time while dragging
 /***/ (function(module, exports, __webpack_require__) {
 
 var nativeCreate = __webpack_require__(71);
@@ -11040,10 +11998,14 @@ module.exports = hashGet;
 
 /***/ }),
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* 340 */
 =======
 /* 341 */
 >>>>>>> feat: add payment and delivery popups
+=======
+/* 340 */
+>>>>>>> feat: increase groups tree opening time while dragging
 /***/ (function(module, exports, __webpack_require__) {
 
 var nativeCreate = __webpack_require__(71);
@@ -11073,10 +12035,14 @@ module.exports = hashHas;
 
 /***/ }),
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* 341 */
 =======
 /* 342 */
 >>>>>>> feat: add payment and delivery popups
+=======
+/* 341 */
+>>>>>>> feat: increase groups tree opening time while dragging
 /***/ (function(module, exports, __webpack_require__) {
 
 var nativeCreate = __webpack_require__(71);
@@ -11106,10 +12072,14 @@ module.exports = hashSet;
 
 /***/ }),
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* 342 */
 =======
 /* 343 */
 >>>>>>> feat: add payment and delivery popups
+=======
+/* 342 */
+>>>>>>> feat: increase groups tree opening time while dragging
 /***/ (function(module, exports) {
 
 /**
@@ -11131,6 +12101,7 @@ module.exports = isKeyable;
 
 /***/ }),
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* 343 */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -11141,6 +12112,12 @@ var coreJsData = __webpack_require__(329);
 
 var coreJsData = __webpack_require__(330);
 >>>>>>> feat: add payment and delivery popups
+=======
+/* 343 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var coreJsData = __webpack_require__(329);
+>>>>>>> feat: increase groups tree opening time while dragging
 
 /** Used to detect methods masquerading as native. */
 var maskSrcKey = (function() {
@@ -11164,10 +12141,14 @@ module.exports = isMasked;
 
 /***/ }),
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* 344 */
 =======
 /* 345 */
 >>>>>>> feat: add payment and delivery popups
+=======
+/* 344 */
+>>>>>>> feat: increase groups tree opening time while dragging
 /***/ (function(module, exports) {
 
 /**
@@ -11187,10 +12168,14 @@ module.exports = listCacheClear;
 
 /***/ }),
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* 345 */
 =======
 /* 346 */
 >>>>>>> feat: add payment and delivery popups
+=======
+/* 345 */
+>>>>>>> feat: increase groups tree opening time while dragging
 /***/ (function(module, exports, __webpack_require__) {
 
 var assocIndexOf = __webpack_require__(69);
@@ -11232,10 +12217,14 @@ module.exports = listCacheDelete;
 
 /***/ }),
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* 346 */
 =======
 /* 347 */
 >>>>>>> feat: add payment and delivery popups
+=======
+/* 346 */
+>>>>>>> feat: increase groups tree opening time while dragging
 /***/ (function(module, exports, __webpack_require__) {
 
 var assocIndexOf = __webpack_require__(69);
@@ -11261,10 +12250,14 @@ module.exports = listCacheGet;
 
 /***/ }),
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* 347 */
 =======
 /* 348 */
 >>>>>>> feat: add payment and delivery popups
+=======
+/* 347 */
+>>>>>>> feat: increase groups tree opening time while dragging
 /***/ (function(module, exports, __webpack_require__) {
 
 var assocIndexOf = __webpack_require__(69);
@@ -11287,10 +12280,14 @@ module.exports = listCacheHas;
 
 /***/ }),
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* 348 */
 =======
 /* 349 */
 >>>>>>> feat: add payment and delivery popups
+=======
+/* 348 */
+>>>>>>> feat: increase groups tree opening time while dragging
 /***/ (function(module, exports, __webpack_require__) {
 
 var assocIndexOf = __webpack_require__(69);
@@ -11323,6 +12320,7 @@ module.exports = listCacheSet;
 
 /***/ }),
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* 349 */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -11333,6 +12331,12 @@ var Hash = __webpack_require__(312),
 
 var Hash = __webpack_require__(313),
 >>>>>>> feat: add payment and delivery popups
+=======
+/* 349 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var Hash = __webpack_require__(312),
+>>>>>>> feat: increase groups tree opening time while dragging
     ListCache = __webpack_require__(68),
     Map = __webpack_require__(108);
 
@@ -11357,10 +12361,14 @@ module.exports = mapCacheClear;
 
 /***/ }),
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* 350 */
 =======
 /* 351 */
 >>>>>>> feat: add payment and delivery popups
+=======
+/* 350 */
+>>>>>>> feat: increase groups tree opening time while dragging
 /***/ (function(module, exports, __webpack_require__) {
 
 var getMapData = __webpack_require__(70);
@@ -11385,10 +12393,14 @@ module.exports = mapCacheDelete;
 
 /***/ }),
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* 351 */
 =======
 /* 352 */
 >>>>>>> feat: add payment and delivery popups
+=======
+/* 351 */
+>>>>>>> feat: increase groups tree opening time while dragging
 /***/ (function(module, exports, __webpack_require__) {
 
 var getMapData = __webpack_require__(70);
@@ -11411,10 +12423,14 @@ module.exports = mapCacheGet;
 
 /***/ }),
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* 352 */
 =======
 /* 353 */
 >>>>>>> feat: add payment and delivery popups
+=======
+/* 352 */
+>>>>>>> feat: increase groups tree opening time while dragging
 /***/ (function(module, exports, __webpack_require__) {
 
 var getMapData = __webpack_require__(70);
@@ -11437,10 +12453,14 @@ module.exports = mapCacheHas;
 
 /***/ }),
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* 353 */
 =======
 /* 354 */
 >>>>>>> feat: add payment and delivery popups
+=======
+/* 353 */
+>>>>>>> feat: increase groups tree opening time while dragging
 /***/ (function(module, exports, __webpack_require__) {
 
 var getMapData = __webpack_require__(70);
@@ -11469,10 +12489,14 @@ module.exports = mapCacheSet;
 
 /***/ }),
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* 354 */
 =======
 /* 355 */
 >>>>>>> feat: add payment and delivery popups
+=======
+/* 354 */
+>>>>>>> feat: increase groups tree opening time while dragging
 /***/ (function(module, exports) {
 
 /**
@@ -11497,13 +12521,17 @@ module.exports = mapToArray;
 
 /***/ }),
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* 355 */
 =======
 /* 356 */
 >>>>>>> feat: add payment and delivery popups
+=======
+/* 355 */
+>>>>>>> feat: increase groups tree opening time while dragging
 /***/ (function(module, exports, __webpack_require__) {
 
-var overArg = __webpack_require__(207);
+var overArg = __webpack_require__(205);
 
 /* Built-in method references for those with the same name as other `lodash` methods. */
 var nativeKeys = overArg(Object.keys, Object);
@@ -11512,6 +12540,7 @@ module.exports = nativeKeys;
 
 
 /***/ }),
+<<<<<<< HEAD
 <<<<<<< HEAD
 /* 356 */
 =======
@@ -11524,6 +12553,12 @@ module.exports = nativeKeys;
 =======
 /* WEBPACK VAR INJECTION */(function(module) {var freeGlobal = __webpack_require__(165);
 >>>>>>> fix: delivery and payment text and popup fixes
+=======
+/* 356 */
+/***/ (function(module, exports, __webpack_require__) {
+
+/* WEBPACK VAR INJECTION */(function(module) {var freeGlobal = __webpack_require__(164);
+>>>>>>> feat: increase groups tree opening time while dragging
 
 /** Detect free variable `exports`. */
 var freeExports = typeof exports == 'object' && exports && !exports.nodeType && exports;
@@ -11558,10 +12593,14 @@ module.exports = nodeUtil;
 
 /***/ }),
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* 357 */
 =======
 /* 358 */
 >>>>>>> feat: add payment and delivery popups
+=======
+/* 357 */
+>>>>>>> feat: increase groups tree opening time while dragging
 /***/ (function(module, exports) {
 
 /** Used for built-in method references. */
@@ -11590,10 +12629,14 @@ module.exports = objectToString;
 
 /***/ }),
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* 358 */
 =======
 /* 359 */
 >>>>>>> feat: add payment and delivery popups
+=======
+/* 358 */
+>>>>>>> feat: increase groups tree opening time while dragging
 /***/ (function(module, exports) {
 
 /** Used to stand-in for `undefined` hash values. */
@@ -11619,10 +12662,14 @@ module.exports = setCacheAdd;
 
 /***/ }),
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* 359 */
 =======
 /* 360 */
 >>>>>>> feat: add payment and delivery popups
+=======
+/* 359 */
+>>>>>>> feat: increase groups tree opening time while dragging
 /***/ (function(module, exports) {
 
 /**
@@ -11643,10 +12690,14 @@ module.exports = setCacheHas;
 
 /***/ }),
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* 360 */
 =======
 /* 361 */
 >>>>>>> feat: add payment and delivery popups
+=======
+/* 360 */
+>>>>>>> feat: increase groups tree opening time while dragging
 /***/ (function(module, exports, __webpack_require__) {
 
 var ListCache = __webpack_require__(68);
@@ -11668,10 +12719,14 @@ module.exports = stackClear;
 
 /***/ }),
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* 361 */
 =======
 /* 362 */
 >>>>>>> feat: add payment and delivery popups
+=======
+/* 361 */
+>>>>>>> feat: increase groups tree opening time while dragging
 /***/ (function(module, exports) {
 
 /**
@@ -11696,10 +12751,14 @@ module.exports = stackDelete;
 
 /***/ }),
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* 362 */
 =======
 /* 363 */
 >>>>>>> feat: add payment and delivery popups
+=======
+/* 362 */
+>>>>>>> feat: increase groups tree opening time while dragging
 /***/ (function(module, exports) {
 
 /**
@@ -11720,10 +12779,14 @@ module.exports = stackGet;
 
 /***/ }),
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* 363 */
 =======
 /* 364 */
 >>>>>>> feat: add payment and delivery popups
+=======
+/* 363 */
+>>>>>>> feat: increase groups tree opening time while dragging
 /***/ (function(module, exports) {
 
 /**
@@ -11744,10 +12807,14 @@ module.exports = stackHas;
 
 /***/ }),
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* 364 */
 =======
 /* 365 */
 >>>>>>> feat: add payment and delivery popups
+=======
+/* 364 */
+>>>>>>> feat: increase groups tree opening time while dragging
 /***/ (function(module, exports, __webpack_require__) {
 
 var ListCache = __webpack_require__(68),
@@ -11796,12 +12863,17 @@ module.exports = stackSet;
 
 /***/ }),
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* 365 */,
 /* 366 */
 =======
 /* 366 */,
 /* 367 */
 >>>>>>> feat: add payment and delivery popups
+=======
+/* 365 */,
+/* 366 */
+>>>>>>> feat: increase groups tree opening time while dragging
 /***/ (function(module, exports, __webpack_require__) {
 
 var baseGetTag = __webpack_require__(53),
@@ -11837,6 +12909,7 @@ module.exports = isSymbol;
 
 /***/ }),
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* 367 */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -11849,6 +12922,13 @@ var arrayLikeKeys = __webpack_require__(201),
 var arrayLikeKeys = __webpack_require__(202),
     baseKeys = __webpack_require__(327),
 >>>>>>> feat: add payment and delivery popups
+=======
+/* 367 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var arrayLikeKeys = __webpack_require__(200),
+    baseKeys = __webpack_require__(326),
+>>>>>>> feat: increase groups tree opening time while dragging
     isArrayLike = __webpack_require__(112);
 
 /**
@@ -11888,10 +12968,14 @@ module.exports = keys;
 
 /***/ }),
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* 368 */
 =======
 /* 369 */
 >>>>>>> feat: add payment and delivery popups
+=======
+/* 368 */
+>>>>>>> feat: increase groups tree opening time while dragging
 /***/ (function(module, exports, __webpack_require__) {
 
 /* WEBPACK VAR INJECTION */(function(global, module) {var __WEBPACK_AMD_DEFINE_RESULT__;/**
@@ -29061,6 +30145,7 @@ module.exports = keys;
 
 /***/ }),
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* 369 */,
 /* 370 */
 /***/ (function(module, exports, __webpack_require__) {
@@ -29069,6 +30154,10 @@ var root = __webpack_require__(19);
 =======
 /* 370 */,
 /* 371 */
+=======
+/* 369 */,
+/* 370 */
+>>>>>>> feat: increase groups tree opening time while dragging
 /***/ (function(module, exports, __webpack_require__) {
 
 <<<<<<< HEAD
@@ -29107,10 +30196,14 @@ module.exports = now;
 
 /***/ }),
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* 371 */
 =======
 /* 372 */
 >>>>>>> feat: add payment and delivery popups
+=======
+/* 371 */
+>>>>>>> feat: increase groups tree opening time while dragging
 /***/ (function(module, exports) {
 
 /**
@@ -29140,10 +30233,14 @@ module.exports = stubArray;
 
 /***/ }),
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* 372 */
 =======
 /* 373 */
 >>>>>>> feat: add payment and delivery popups
+=======
+/* 372 */
+>>>>>>> feat: increase groups tree opening time while dragging
 /***/ (function(module, exports) {
 
 /**
@@ -29168,12 +30265,17 @@ module.exports = stubFalse;
 
 /***/ }),
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* 373 */,
 /* 374 */
 =======
 /* 374 */,
 /* 375 */
 >>>>>>> feat: add payment and delivery popups
+=======
+/* 373 */,
+/* 374 */
+>>>>>>> feat: increase groups tree opening time while dragging
 /***/ (function(module, exports) {
 
 // shim for using process in browser
@@ -29364,10 +30466,14 @@ process.umask = function() { return 0; };
 
 /***/ }),
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* 375 */
 =======
 /* 376 */
 >>>>>>> feat: add payment and delivery popups
+=======
+/* 375 */
+>>>>>>> feat: increase groups tree opening time while dragging
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -29381,10 +30487,14 @@ process.umask = function() { return 0; };
 
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 var ReactPropTypesSecret = __webpack_require__(376);
 =======
 var ReactPropTypesSecret = __webpack_require__(377);
 >>>>>>> feat: add payment and delivery popups
+=======
+var ReactPropTypesSecret = __webpack_require__(376);
+>>>>>>> feat: increase groups tree opening time while dragging
 
 function emptyFunction() {}
 function emptyFunctionWithReset() {}
@@ -29443,10 +30553,14 @@ module.exports = function() {
 
 /***/ }),
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* 376 */
 =======
 /* 377 */
 >>>>>>> feat: add payment and delivery popups
+=======
+/* 376 */
+>>>>>>> feat: increase groups tree opening time while dragging
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -29466,9 +30580,13 @@ module.exports = ReactPropTypesSecret;
 
 /***/ }),
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* 377 */,
 =======
 >>>>>>> feat: add payment and delivery popups
+=======
+/* 377 */,
+>>>>>>> feat: increase groups tree opening time while dragging
 /* 378 */,
 /* 379 */,
 /* 380 */,
@@ -29497,10 +30615,14 @@ module.exports = ReactPropTypesSecret;
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__fsmIterator__ = __webpack_require__(113);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__io__ = __webpack_require__(50);
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__channel__ = __webpack_require__(57);
 =======
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__channel__ = __webpack_require__(58);
 >>>>>>> feat: add payment and delivery popups
+=======
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__channel__ = __webpack_require__(57);
+>>>>>>> feat: increase groups tree opening time while dragging
 
 
 
@@ -29539,10 +30661,14 @@ function takeEvery(patternOrChannel, worker) {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__fsmIterator__ = __webpack_require__(113);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__io__ = __webpack_require__(50);
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__channel__ = __webpack_require__(57);
 =======
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__channel__ = __webpack_require__(58);
 >>>>>>> feat: add payment and delivery popups
+=======
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__channel__ = __webpack_require__(57);
+>>>>>>> feat: increase groups tree opening time while dragging
 
 
 
@@ -29591,11 +30717,15 @@ function takeLatest(patternOrChannel, worker) {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__fsmIterator__ = __webpack_require__(113);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__io__ = __webpack_require__(50);
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__channel__ = __webpack_require__(57);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__buffers__ = __webpack_require__(89);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__utils__ = __webpack_require__(20);
 =======
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__channel__ = __webpack_require__(58);
+=======
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__channel__ = __webpack_require__(57);
+>>>>>>> feat: increase groups tree opening time while dragging
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__buffers__ = __webpack_require__(89);
 <<<<<<< HEAD
 <<<<<<< HEAD
@@ -29655,9 +30785,13 @@ function throttle(delayLength, pattern, worker) {
 
 /***/ }),
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* 401 */,
 =======
 >>>>>>> feat: add payment and delivery popups
+=======
+/* 401 */,
+>>>>>>> feat: increase groups tree opening time while dragging
 /* 402 */,
 /* 403 */,
 /* 404 */,
@@ -29729,10 +30863,14 @@ var _react2 = _interopRequireDefault(_react);
 var _reactRedux = __webpack_require__(10);
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 var _redux = __webpack_require__(64);
 =======
 var _redux = __webpack_require__(54);
 >>>>>>> feat: add payment and delivery popups
+=======
+var _redux = __webpack_require__(64);
+>>>>>>> feat: increase groups tree opening time while dragging
 
 var _isEqual2 = __webpack_require__(12);
 
@@ -29749,6 +30887,7 @@ var _Search = __webpack_require__(218);
 var _Search2 = _interopRequireDefault(_Search);
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 var _actions = __webpack_require__(149);
 =======
 var _actions = __webpack_require__(150);
@@ -29761,6 +30900,13 @@ __webpack_require__(591);
 =======
 __webpack_require__(597);
 >>>>>>> feat: add payment and delivery popups
+=======
+var _actions = __webpack_require__(149);
+
+var actions = _interopRequireWildcard(_actions);
+
+__webpack_require__(591);
+>>>>>>> feat: increase groups tree opening time while dragging
 
 function _interopRequireWildcard(obj) { if (obj && obj.__esModule) { return obj; } else { var newObj = {}; if (obj != null) { for (var key in obj) { if (Object.prototype.hasOwnProperty.call(obj, key)) newObj[key] = obj[key]; } } newObj.default = obj; return newObj; } }
 
@@ -29996,10 +31142,14 @@ Object.defineProperty(exports, "__esModule", {
 exports.default = help;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 var _actions = __webpack_require__(149);
 =======
 var _actions = __webpack_require__(150);
 >>>>>>> fix: delivery and payment text and popup fixes
+=======
+var _actions = __webpack_require__(149);
+>>>>>>> feat: increase groups tree opening time while dragging
 
 function help() {
   var state = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : [];
@@ -30038,10 +31188,14 @@ exports.default = loadHelp;
 var _effects = __webpack_require__(38);
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 var _actions = __webpack_require__(149);
 =======
 var _actions = __webpack_require__(150);
 >>>>>>> fix: delivery and payment text and popup fixes
+=======
+var _actions = __webpack_require__(149);
+>>>>>>> feat: increase groups tree opening time while dragging
 
 var _utils = __webpack_require__(7);
 
@@ -30240,6 +31394,7 @@ function loadHelp() {
 /* 589 */,
 /* 590 */,
 /* 591 */
+<<<<<<< HEAD
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
@@ -30254,12 +31409,23 @@ function loadHelp() {
 /* 597 */,
 =======
 /* 597 */
+=======
+>>>>>>> feat: increase groups tree opening time while dragging
 /***/ (function(module, exports) {
 
 // removed by extract-text-webpack-plugin
 
 /***/ }),
+<<<<<<< HEAD
 >>>>>>> feat: add payment and delivery popups
+=======
+/* 592 */,
+/* 593 */,
+/* 594 */,
+/* 595 */,
+/* 596 */,
+/* 597 */,
+>>>>>>> feat: increase groups tree opening time while dragging
 /* 598 */,
 /* 599 */,
 /* 600 */,
@@ -30403,6 +31569,7 @@ function loadHelp() {
 /* 738 */,
 /* 739 */,
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* 740 */
 =======
 /* 740 */,
@@ -30414,6 +31581,9 @@ function loadHelp() {
 /* 746 */,
 /* 747 */
 >>>>>>> feat: add payment and delivery popups
+=======
+/* 740 */
+>>>>>>> feat: increase groups tree opening time while dragging
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -30429,10 +31599,14 @@ var _Help = __webpack_require__(436);
 var _Help2 = _interopRequireDefault(_Help);
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 var _actions = __webpack_require__(149);
 =======
 var _actions = __webpack_require__(150);
 >>>>>>> fix: delivery and payment text and popup fixes
+=======
+var _actions = __webpack_require__(149);
+>>>>>>> feat: increase groups tree opening time while dragging
 
 var actions = _interopRequireWildcard(_actions);
 
@@ -30459,6 +31633,9 @@ var sagas = exports.sagas = {
 
 /***/ }),
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+>>>>>>> feat: increase groups tree opening time while dragging
 /* 741 */,
 /* 742 */,
 /* 743 */,
@@ -30466,8 +31643,11 @@ var sagas = exports.sagas = {
 /* 745 */,
 /* 746 */,
 /* 747 */,
+<<<<<<< HEAD
 =======
 >>>>>>> feat: add payment and delivery popups
+=======
+>>>>>>> feat: increase groups tree opening time while dragging
 /* 748 */,
 /* 749 */,
 /* 750 */,
@@ -30705,6 +31885,7 @@ var sagas = exports.sagas = {
 /* 982 */,
 /* 983 */,
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* 984 */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -30723,6 +31904,12 @@ module.exports = __webpack_require__(740);
 
 module.exports = __webpack_require__(747);
 >>>>>>> feat: add payment and delivery popups
+=======
+/* 984 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__(740);
+>>>>>>> feat: increase groups tree opening time while dragging
 
 
 /***/ })
