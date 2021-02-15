@@ -231,7 +231,11 @@ const nodeTarget = {
 
       let target = 'center';
 
-      if (props.expandable && !props.expanded) { setExpanded(props, true); }
+      if (props.expandable && !props.expanded) {
+        setTimeout(() => {
+          setExpanded(props, true);
+        }, 2000);
+      }
 
       if (cursorPosition && (cursorPosition.y - elemPosition.top) < 10) { target = 'top'; }
       if (cursorPosition && (cursorPosition.y - elemPosition.top) > 25) { target = 'bottom'; }

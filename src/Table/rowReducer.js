@@ -176,7 +176,7 @@ export default function rows(state = [], action) {
           const transformedPayloadRow = transformFromServer(payloadRow.columns, action.payload.new_row);
 
           return Object.keys(transformedPayloadRow).reduce((result, nextKey) => {
-            /* eslint no-param-reassign: ['error', { 'props': false }]*/
+            /* eslint no-param-reassign: ['error', { 'props': false }] */
             result[nextKey] = transformedPayloadRow[nextKey];
 
             return result;
