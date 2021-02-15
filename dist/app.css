@@ -1903,6 +1903,9 @@ li.rc-select-dropdown-menu-item-divider {
   display: -webkit-box;
   -webkit-line-clamp: 8;
   -webkit-box-orient: vertical; }
+
+.payment-cell-text-wrapper {
+  overflow: hidden; }
 .e-scroller * {
   box-sizing: border-box; }
 
@@ -2581,7 +2584,7 @@ li.rc-select-dropdown-menu-item-divider {
     margin: 0 0 18px;
     line-height: 1.42;
     font-family: OpenSans;
-    font-size: 24px;
+    font-size: 22px;
     font-weight: 600; }
   .rc-dialog.is-image-editor .rc-dialog-header {
     padding-bottom: 17px; }
