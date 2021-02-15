@@ -51,7 +51,7 @@ class PaymentDeliveryCell extends Component {
         className={b('cell').mix(`is-${classMix}`)
         .is({focus: isFocus})}
       >
-        <div>
+        <div className='payment-cell-text-wrapper'>
           <span className='payment-cell-text'>
             {selectedOptions.map((item, index) => (
               item.selected ? `${item.name}${index === selectedOptions.length - 1 ? '' : ', '}` : ''

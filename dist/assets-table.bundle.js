@@ -53197,7 +53197,7 @@ var Header = function Header(props) {
                 },
                 className: b('nav-lnk'), href: ''
               },
-              '\u0423\u0434\u0430\u043B\u0438\u0442\u044C \u0432\u044B\u0431\u0440\u0430\u043D\u043D\u0443\u044E \u0433\u0440\u0443\u043F\u043F\u0443',
+              '\u0423\u0434\u0430\u043B\u0438\u0442\u044C \u0432\u044B\u0431\u0440\u0430\u043D\u043D\u044B\u0435 \u0433\u0440\u0443\u043F\u043F\u044B',
               ' ',
               !!props.selectedGroupsCount && '(' + props.selectedGroupsCount + ')'
             )
@@ -60175,7 +60175,7 @@ var PaymentDeliveryCell = function (_Component) {
         },
         _react2.default.createElement(
           'div',
-          null,
+          { className: 'payment-cell-text-wrapper' },
           _react2.default.createElement(
             'span',
             { className: 'payment-cell-text' },
