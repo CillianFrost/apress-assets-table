@@ -639,6 +639,7 @@ module.exports = __WEBPACK_EXTERNAL_MODULE_10__;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 var core = module.exports = { version: '2.6.11' };
 =======
 var core = module.exports = { version: '2.6.12' };
@@ -649,6 +650,9 @@ var core = module.exports = { version: '2.6.11' };
 =======
 var core = module.exports = { version: '2.6.12' };
 >>>>>>> fix: delivery and payment text and popup fixes
+=======
+var core = module.exports = { version: '2.6.11' };
+>>>>>>> fix: correct titles in table filters
 if (typeof __e == 'number') __e = core; // eslint-disable-line no-undef
 
 
@@ -1369,6 +1373,7 @@ module.exports = __WEBPACK_EXTERNAL_MODULE_18__;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> fix: delivery and payment text and popup fixes
@@ -1389,6 +1394,8 @@ module.exports = function (exec) {
 >>>>>>> feat: add payment and delivery popups
 =======
 >>>>>>> feat: tiger popups redesign
+=======
+>>>>>>> fix: correct titles in table filters
 /***/ (function(module, exports, __webpack_require__) {
 
 var freeGlobal = __webpack_require__(164);
@@ -1415,6 +1422,7 @@ module.exports = root;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* 20 */
 =======
 /* 21 */
@@ -1425,6 +1433,9 @@ module.exports = root;
 =======
 /* 21 */
 >>>>>>> fix: delivery and payment text and popup fixes
+=======
+/* 20 */
+>>>>>>> fix: correct titles in table filters
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1747,8 +1758,11 @@ var cloneableGenerator = function cloneableGenerator(generatorFunc) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> feat: tiger popups redesign
+=======
+>>>>>>> fix: correct titles in table filters
 /* 21 */
 /***/ (function(module, exports) {
 
@@ -1763,12 +1777,15 @@ module.exports = function (exec) {
 
 /***/ }),
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> feat: add payment and delivery popups
 =======
 >>>>>>> feat: tiger popups redesign
 =======
 >>>>>>> fix: delivery and payment text and popup fixes
+=======
+>>>>>>> fix: correct titles in table filters
 /* 22 */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -2220,7 +2237,7 @@ module.exports = !__webpack_require__(21)(function () {
 /***/ (function(module, exports, __webpack_require__) {
 
 // Thank's IE8 for his funny defineProperty
-module.exports = !__webpack_require__(19)(function () {
+module.exports = !__webpack_require__(21)(function () {
   return Object.defineProperty({}, 'a', { get: function () { return 7; } }).a != 7;
 });
 
@@ -2731,6 +2748,7 @@ module.exports = function (it) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__utils__ = __webpack_require__(20);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__sagaHelpers__ = __webpack_require__(213);
 =======
@@ -2745,6 +2763,9 @@ module.exports = function (it) {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__sagaHelpers__ = __webpack_require__(215);
 >>>>>>> feat: add payment and delivery popups
 =======
+=======
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__utils__ = __webpack_require__(20);
+>>>>>>> fix: correct titles in table filters
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__sagaHelpers__ = __webpack_require__(213);
 >>>>>>> feat: increase groups tree opening time while dragging
 
@@ -3326,10 +3347,14 @@ module.exports = Object.keys || function keys(O) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__utils__ = __webpack_require__(20);
 =======
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__utils__ = __webpack_require__(21);
 >>>>>>> fix: delivery and payment text and popup fixes
+=======
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__utils__ = __webpack_require__(20);
+>>>>>>> fix: correct titles in table filters
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__buffers__ = __webpack_require__(89);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__scheduler__ = __webpack_require__(214);
 =======
@@ -3711,7 +3736,7 @@ var _throttle2 = __webpack_require__(137);
 
 var _throttle3 = _interopRequireDefault(_throttle2);
 
-var _debounce2 = __webpack_require__(206);
+var _debounce2 = __webpack_require__(207);
 
 var _debounce3 = _interopRequireDefault(_debounce2);
 
@@ -4290,8 +4315,12 @@ var defined = __webpack_require__(120);
 =======
 =======
 var $export = __webpack_require__(1);
+<<<<<<< HEAD
 >>>>>>> feat: increase groups tree opening time while dragging
 var fails = __webpack_require__(19);
+=======
+var fails = __webpack_require__(21);
+>>>>>>> fix: correct titles in table filters
 var defined = __webpack_require__(121);
 >>>>>>> fix: delivery and payment text and popup fixes
 var quot = /"/g;
@@ -4319,6 +4348,7 @@ module.exports = function (NAME, exec) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 var root = __webpack_require__(19);
 =======
 var root = __webpack_require__(20);
@@ -4329,6 +4359,9 @@ var root = __webpack_require__(19);
 =======
 var root = __webpack_require__(20);
 >>>>>>> fix: delivery and payment text and popup fixes
+=======
+var root = __webpack_require__(19);
+>>>>>>> fix: correct titles in table filters
 
 /** Built-in value references. */
 var Symbol = root.Symbol;
@@ -4833,6 +4866,7 @@ module.exports = eq;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__utils__ = __webpack_require__(20);
 =======
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__utils__ = __webpack_require__(21);
@@ -4843,6 +4877,9 @@ module.exports = eq;
 =======
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__utils__ = __webpack_require__(21);
 >>>>>>> fix: delivery and payment text and popup fixes
+=======
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__utils__ = __webpack_require__(20);
+>>>>>>> fix: correct titles in table filters
 
 
 var BUFFER_OVERFLOW = "Channel's Buffer overflow!";
@@ -5234,6 +5271,7 @@ var store = global[SHARED] || (global[SHARED] = {});
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   copyright: '© 2019 Denis Pushkarev (zloirock.ru)'
 =======
   copyright: '© 2020 Denis Pushkarev (zloirock.ru)'
@@ -5244,6 +5282,9 @@ var store = global[SHARED] || (global[SHARED] = {});
 =======
   copyright: '© 2020 Denis Pushkarev (zloirock.ru)'
 >>>>>>> fix: delivery and payment text and popup fixes
+=======
+  copyright: '© 2019 Denis Pushkarev (zloirock.ru)'
+>>>>>>> fix: correct titles in table filters
 });
 
 
@@ -5372,6 +5413,7 @@ module.exports = function (it) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 var core = module.exports = { version: '2.6.11' };
 =======
 var core = module.exports = { version: '2.6.12' };
@@ -5382,6 +5424,9 @@ var core = module.exports = { version: '2.6.11' };
 =======
 var core = module.exports = { version: '2.6.12' };
 >>>>>>> fix: delivery and payment text and popup fixes
+=======
+var core = module.exports = { version: '2.6.11' };
+>>>>>>> fix: correct titles in table filters
 if (typeof __e == 'number') __e = core; // eslint-disable-line no-undef
 
 
@@ -5428,6 +5473,7 @@ module.exports = function (fn, that, length) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 var fails = __webpack_require__(21);
 =======
 var fails = __webpack_require__(19);
@@ -5438,6 +5484,9 @@ var fails = __webpack_require__(21);
 =======
 var fails = __webpack_require__(19);
 >>>>>>> fix: delivery and payment text and popup fixes
+=======
+var fails = __webpack_require__(21);
+>>>>>>> fix: correct titles in table filters
 
 module.exports = function (method, arg) {
   return !!method && fails(function () {
@@ -5467,6 +5516,7 @@ module.exports = function (it) {
 <<<<<<< HEAD
 var getNative = __webpack_require__(39),
     root = __webpack_require__(19);
+<<<<<<< HEAD
 =======
 var getNative = __webpack_require__(40),
 <<<<<<< HEAD
@@ -5482,6 +5532,8 @@ var getNative = __webpack_require__(39),
 >>>>>>> feat: increase groups tree opening time while dragging
     root = __webpack_require__(20);
 >>>>>>> fix: delivery and payment text and popup fixes
+=======
+>>>>>>> fix: correct titles in table filters
 
 /* Built-in method references that are verified to be native. */
 var Map = getNative(root, 'Map');
@@ -5639,6 +5691,7 @@ module.exports = isArrayLike;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__utils__ = __webpack_require__(20);
 =======
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__utils__ = __webpack_require__(21);
@@ -5662,6 +5715,9 @@ function safeName(patternOrChannel) {
 =======
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__utils__ = __webpack_require__(20);
 >>>>>>> feat: tiger popups redesign
+=======
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__utils__ = __webpack_require__(20);
+>>>>>>> fix: correct titles in table filters
 
 
 var done = { done: true, value: undefined };
@@ -6384,10 +6440,14 @@ module.exports = function (it) {
 var $export = __webpack_require__(1);
 var core = __webpack_require__(104);
 <<<<<<< HEAD
+<<<<<<< HEAD
 var fails = __webpack_require__(21);
 =======
 var fails = __webpack_require__(19);
 >>>>>>> fix: delivery and payment text and popup fixes
+=======
+var fails = __webpack_require__(21);
+>>>>>>> fix: correct titles in table filters
 module.exports = function (KEY, exec) {
   var fn = (core.Object || {})[KEY] || Object[KEY];
   var exp = {};
@@ -6488,7 +6548,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "takeEvery", function() { return __WEBPACK_IMPORTED_MODULE_4__internal_sagaHelpers__["d"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "takeLatest", function() { return __WEBPACK_IMPORTED_MODULE_4__internal_sagaHelpers__["e"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "throttle", function() { return __WEBPACK_IMPORTED_MODULE_4__internal_sagaHelpers__["f"]; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__internal_utils__ = __webpack_require__(21);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__internal_utils__ = __webpack_require__(20);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "delay", function() { return __WEBPACK_IMPORTED_MODULE_5__internal_utils__["i"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "CANCEL", function() { return __WEBPACK_IMPORTED_MODULE_5__internal_utils__["q"]; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__internal_io__ = __webpack_require__(50);
@@ -6909,7 +6969,7 @@ if (__webpack_require__(34)) {
   var LIBRARY = __webpack_require__(161);
 >>>>>>> feat: increase groups tree opening time while dragging
   var global = __webpack_require__(17);
-  var fails = __webpack_require__(19);
+  var fails = __webpack_require__(21);
   var $export = __webpack_require__(1);
   var $typed = __webpack_require__(421);
   var $buffer = __webpack_require__(556);
@@ -7611,7 +7671,7 @@ var sendDataToPaymentDeliveryPopup = exports.sendDataToPaymentDeliveryPopup = fu
 /* 137 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var debounce = __webpack_require__(206),
+var debounce = __webpack_require__(207),
     isObject = __webpack_require__(36);
 
 /** Error message constants. */
@@ -10089,7 +10149,7 @@ var id = 0;
 var isExtensible = Object.isExtensible || function () {
   return true;
 };
-var FREEZE = !__webpack_require__(19)(function () {
+var FREEZE = !__webpack_require__(21)(function () {
   return isExtensible(Object.preventExtensions({}));
 });
 var setMeta = function (it) {
@@ -10553,7 +10613,7 @@ var _initialiseProps = function _initialiseProps() {
 /* 166 */
 /***/ (function(module, exports, __webpack_require__) {
 
-/* WEBPACK VAR INJECTION */(function(module) {var root = __webpack_require__(20),
+/* WEBPACK VAR INJECTION */(function(module) {var root = __webpack_require__(19),
     stubFalse = __webpack_require__(372);
 >>>>>>> feat: increase groups tree opening time while dragging
 
@@ -11789,9 +11849,88 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* 196 */
 /***/ (function(module, exports, __webpack_require__) {
 
+"use strict";
+
+
+/**
+ * Copyright 2015, Yahoo! Inc.
+ * Copyrights licensed under the New BSD License. See the accompanying LICENSE file for terms.
+ */
+var REACT_STATICS = {
+    childContextTypes: true,
+    contextTypes: true,
+    defaultProps: true,
+    displayName: true,
+    getDefaultProps: true,
+    getDerivedStateFromProps: true,
+    mixins: true,
+    propTypes: true,
+    type: true
+};
+
+var KNOWN_STATICS = {
+    name: true,
+    length: true,
+    prototype: true,
+    caller: true,
+    callee: true,
+    arguments: true,
+    arity: true
+};
+
+var defineProperty = Object.defineProperty;
+var getOwnPropertyNames = Object.getOwnPropertyNames;
+var getOwnPropertySymbols = Object.getOwnPropertySymbols;
+var getOwnPropertyDescriptor = Object.getOwnPropertyDescriptor;
+var getPrototypeOf = Object.getPrototypeOf;
+var objectPrototype = getPrototypeOf && getPrototypeOf(Object);
+
+function hoistNonReactStatics(targetComponent, sourceComponent, blacklist) {
+    if (typeof sourceComponent !== 'string') { // don't hoist over string (html) components
+
+        if (objectPrototype) {
+            var inheritedComponent = getPrototypeOf(sourceComponent);
+            if (inheritedComponent && inheritedComponent !== objectPrototype) {
+                hoistNonReactStatics(targetComponent, inheritedComponent, blacklist);
+            }
+        }
+
+        var keys = getOwnPropertyNames(sourceComponent);
+
+        if (getOwnPropertySymbols) {
+            keys = keys.concat(getOwnPropertySymbols(sourceComponent));
+        }
+
+        for (var i = 0; i < keys.length; ++i) {
+            var key = keys[i];
+            if (!REACT_STATICS[key] && !KNOWN_STATICS[key] && (!blacklist || !blacklist[key])) {
+                var descriptor = getOwnPropertyDescriptor(sourceComponent, key);
+                try { // Avoid failures from read-only properties
+                    defineProperty(targetComponent, key, descriptor);
+                } catch (e) {}
+            }
+        }
+
+        return targetComponent;
+    }
+
+    return targetComponent;
+}
+
+module.exports = hoistNonReactStatics;
+
+
+/***/ }),
+/* 197 */
+/***/ (function(module, exports, __webpack_require__) {
+
 var getNative = __webpack_require__(39),
+<<<<<<< HEAD
     root = __webpack_require__(20);
 >>>>>>> feat: increase groups tree opening time while dragging
+=======
+    root = __webpack_require__(19);
+>>>>>>> fix: correct titles in table filters
 
 
 
@@ -11799,7 +11938,7 @@ var getNative = __webpack_require__(39),
 <<<<<<< HEAD
 =======
 /***/ }),
-/* 197 */
+/* 198 */
 /***/ (function(module, exports) {
 >>>>>>> feat: increase groups tree opening time while dragging
 
@@ -11827,7 +11966,7 @@ var Animate = function (_React$Component) {
   // eslint-disable-line
 =======
 /***/ }),
-/* 198 */
+/* 199 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var baseIndexOf = __webpack_require__(611);
@@ -11846,7 +11985,7 @@ var baseIndexOf = __webpack_require__(611);
     _this.keysToLeave = [];
 =======
 /***/ }),
-/* 199 */
+/* 200 */
 /***/ (function(module, exports) {
 >>>>>>> feat: increase groups tree opening time while dragging
 
@@ -11866,14 +12005,14 @@ module.exports = arrayIncludesWith;
 
 
 /***/ }),
-/* 200 */
+/* 201 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var baseTimes = __webpack_require__(327),
-    isArguments = __webpack_require__(207),
+    isArguments = __webpack_require__(208),
     isArray = __webpack_require__(35),
     isBuffer = __webpack_require__(166),
-    isIndex = __webpack_require__(203),
+    isIndex = __webpack_require__(204),
     isTypedArray = __webpack_require__(169);
 
 /** Used for built-in method references. */
@@ -11971,7 +12110,7 @@ var hasOwnProperty = objectProto.hasOwnProperty;
       });
 =======
 /***/ }),
-/* 201 */
+/* 202 */
 /***/ (function(module, exports) {
 
 /**
@@ -11998,10 +12137,11 @@ module.exports = arrayMap;
 
 
 /***/ }),
-/* 202 */
+/* 203 */
 /***/ (function(module, exports) {
 >>>>>>> feat: increase groups tree opening time while dragging
 
+<<<<<<< HEAD
       currentChildren.forEach(function (child) {
         var key = child && child.key;
         if (child && currentlyAnimatingKeys[key]) {
@@ -12138,13 +12278,79 @@ Animate.defaultProps = {
   onLeave: noop,
   onAppear: noop
 };
+=======
+/**
+ * Appends the elements of `values` to `array`.
+ *
+ * @private
+ * @param {Array} array The array to modify.
+ * @param {Array} values The values to append.
+ * @returns {Array} Returns `array`.
+ */
+function arrayPush(array, values) {
+  var index = -1,
+      length = values.length,
+      offset = array.length;
+
+  while (++index < length) {
+    array[offset + index] = values[index];
+  }
+  return array;
+}
+
+module.exports = arrayPush;
+
+
+/***/ }),
+/* 204 */
+/***/ (function(module, exports) {
+
+/** Used as references for various `Number` constants. */
+var MAX_SAFE_INTEGER = 9007199254740991;
+
+/** Used to detect unsigned integer values. */
+var reIsUint = /^(?:0|[1-9]\d*)$/;
+
+/**
+ * Checks if `value` is a valid array-like index.
+ *
+ * @private
+ * @param {*} value The value to check.
+ * @param {number} [length=MAX_SAFE_INTEGER] The upper bounds of a valid index.
+ * @returns {boolean} Returns `true` if `value` is a valid index, else `false`.
+ */
+function isIndex(value, length) {
+  var type = typeof value;
+  length = length == null ? MAX_SAFE_INTEGER : length;
+
+  return !!length &&
+    (type == 'number' ||
+      (type != 'symbol' && reIsUint.test(value))) &&
+        (value > -1 && value % 1 == 0 && value < length);
+}
+
+function splitBySeparators(string, separators) {
+  var reg = new RegExp('[' + separators.join() + ']');
+  return string.split(reg).filter(function (token) {
+    return token;
+  });
+}
+
+function defaultFilterFn(input, child) {
+  return String(getPropValue(child, this.props.optionFilterProp)).indexOf(input) > -1;
+}
+>>>>>>> fix: correct titles in table filters
 
 <<<<<<< HEAD
 var _initialiseProps = function _initialiseProps() {
   var _this5 = this;
 =======
 /***/ }),
+<<<<<<< HEAD
 /* 203 */
+=======
+/* 205 */
+>>>>>>> fix: correct titles in table filters
 /***/ (function(module, exports) {
 >>>>>>> feat: increase groups tree opening time while dragging
 
@@ -12163,6 +12369,7 @@ var _initialiseProps = function _initialiseProps() {
     }
   };
 
+<<<<<<< HEAD
   this.handleDoneAdding = function (key, type) {
     var props = _this5.props;
     delete _this5.currentlyAnimatingKeys[key];
@@ -12192,6 +12399,462 @@ var _initialiseProps = function _initialiseProps() {
       _this5.childrenRefs[key].componentWillLeave(_this5.handleDoneLeaving.bind(_this5, key));
     }
   };
+=======
+<<<<<<< HEAD
+=======
+  return value === proto;
+}
+
+module.exports = isPrototype;
+
+
+/***/ }),
+/* 206 */
+/***/ (function(module, exports) {
+
+/**
+ * Creates a unary function that invokes `func` with its argument transformed.
+ *
+ * @private
+ * @param {Function} func The function to wrap.
+ * @param {Function} transform The argument transform.
+ * @returns {Function} Returns the new function.
+ */
+function overArg(func, transform) {
+  return function(arg) {
+    return func(transform(arg));
+  };
+}
+
+module.exports = overArg;
+
+
+/***/ }),
+/* 207 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var isObject = __webpack_require__(36),
+    now = __webpack_require__(370),
+    toNumber = __webpack_require__(222);
+
+/** Error message constants. */
+var FUNC_ERROR_TEXT = 'Expected a function';
+
+/* Built-in method references for those with the same name as other `lodash` methods. */
+var nativeMax = Math.max,
+    nativeMin = Math.min;
+
+/**
+ * Creates a debounced function that delays invoking `func` until after `wait`
+ * milliseconds have elapsed since the last time the debounced function was
+ * invoked. The debounced function comes with a `cancel` method to cancel
+ * delayed `func` invocations and a `flush` method to immediately invoke them.
+ * Provide `options` to indicate whether `func` should be invoked on the
+ * leading and/or trailing edge of the `wait` timeout. The `func` is invoked
+ * with the last arguments provided to the debounced function. Subsequent
+ * calls to the debounced function return the result of the last `func`
+ * invocation.
+ *
+ * **Note:** If `leading` and `trailing` options are `true`, `func` is
+ * invoked on the trailing edge of the timeout only if the debounced function
+ * is invoked more than once during the `wait` timeout.
+ *
+ * If `wait` is `0` and `leading` is `false`, `func` invocation is deferred
+ * until to the next tick, similar to `setTimeout` with a timeout of `0`.
+ *
+ * See [David Corbacho's article](https://css-tricks.com/debouncing-throttling-explained-examples/)
+ * for details over the differences between `_.debounce` and `_.throttle`.
+ *
+ * @static
+ * @memberOf _
+ * @since 0.1.0
+ * @category Function
+ * @param {Function} func The function to debounce.
+ * @param {number} [wait=0] The number of milliseconds to delay.
+ * @param {Object} [options={}] The options object.
+ * @param {boolean} [options.leading=false]
+ *  Specify invoking on the leading edge of the timeout.
+ * @param {number} [options.maxWait]
+ *  The maximum time `func` is allowed to be delayed before it's invoked.
+ * @param {boolean} [options.trailing=true]
+ *  Specify invoking on the trailing edge of the timeout.
+ * @returns {Function} Returns the new debounced function.
+ * @example
+ *
+ * // Avoid costly calculations while the window size is in flux.
+ * jQuery(window).on('resize', _.debounce(calculateLayout, 150));
+ *
+ * // Invoke `sendMail` when clicked, debouncing subsequent calls.
+ * jQuery(element).on('click', _.debounce(sendMail, 300, {
+ *   'leading': true,
+ *   'trailing': false
+ * }));
+ *
+ * // Ensure `batchLog` is invoked once after 1 second of debounced calls.
+ * var debounced = _.debounce(batchLog, 250, { 'maxWait': 1000 });
+ * var source = new EventSource('/stream');
+ * jQuery(source).on('message', debounced);
+ *
+ * // Cancel the trailing debounced invocation.
+ * jQuery(window).on('popstate', debounced.cancel);
+ */
+function debounce(func, wait, options) {
+  var lastArgs,
+      lastThis,
+      maxWait,
+      result,
+      timerId,
+      lastCallTime,
+      lastInvokeTime = 0,
+      leading = false,
+      maxing = false,
+      trailing = true;
+
+  if (typeof func != 'function') {
+    throw new TypeError(FUNC_ERROR_TEXT);
+  }
+  wait = toNumber(wait) || 0;
+  if (isObject(options)) {
+    leading = !!options.leading;
+    maxing = 'maxWait' in options;
+    maxWait = maxing ? nativeMax(toNumber(options.maxWait) || 0, wait) : maxWait;
+    trailing = 'trailing' in options ? !!options.trailing : trailing;
+  }
+
+  function invokeFunc(time) {
+    var args = lastArgs,
+        thisArg = lastThis;
+
+    lastArgs = lastThis = undefined;
+    lastInvokeTime = time;
+    result = func.apply(thisArg, args);
+    return result;
+  }
+
+  function leadingEdge(time) {
+    // Reset any `maxWait` timer.
+    lastInvokeTime = time;
+    // Start the timer for the trailing edge.
+    timerId = setTimeout(timerExpired, wait);
+    // Invoke the leading edge.
+    return leading ? invokeFunc(time) : result;
+  }
+
+  function remainingWait(time) {
+    var timeSinceLastCall = time - lastCallTime,
+        timeSinceLastInvoke = time - lastInvokeTime,
+        timeWaiting = wait - timeSinceLastCall;
+
+    return maxing
+      ? nativeMin(timeWaiting, maxWait - timeSinceLastInvoke)
+      : timeWaiting;
+  }
+
+  function shouldInvoke(time) {
+    var timeSinceLastCall = time - lastCallTime,
+        timeSinceLastInvoke = time - lastInvokeTime;
+
+    // Either this is the first call, activity has stopped and we're at the
+    // trailing edge, the system time has gone backwards and we're treating
+    // it as the trailing edge, or we've hit the `maxWait` limit.
+    return (lastCallTime === undefined || (timeSinceLastCall >= wait) ||
+      (timeSinceLastCall < 0) || (maxing && timeSinceLastInvoke >= maxWait));
+  }
+
+  function timerExpired() {
+    var time = now();
+    if (shouldInvoke(time)) {
+      return trailingEdge(time);
+    }
+    // Restart the timer.
+    timerId = setTimeout(timerExpired, remainingWait(time));
+  }
+
+  function trailingEdge(time) {
+    timerId = undefined;
+
+    // Only invoke if we have `lastArgs` which means `func` has been
+    // debounced at least once.
+    if (trailing && lastArgs) {
+      return invokeFunc(time);
+    }
+    lastArgs = lastThis = undefined;
+    return result;
+  }
+
+  function cancel() {
+    if (timerId !== undefined) {
+      clearTimeout(timerId);
+    }
+    lastInvokeTime = 0;
+    lastArgs = lastCallTime = lastThis = timerId = undefined;
+  }
+
+  function flush() {
+    return timerId === undefined ? result : trailingEdge(now());
+  }
+
+  function debounced() {
+    var time = now(),
+        isInvoking = shouldInvoke(time);
+
+    lastArgs = arguments;
+    lastThis = this;
+    lastCallTime = time;
+
+    if (isInvoking) {
+      if (timerId === undefined) {
+        return leadingEdge(lastCallTime);
+      }
+      if (maxing) {
+        // Handle invocations in a tight loop.
+        clearTimeout(timerId);
+        timerId = setTimeout(timerExpired, wait);
+        return invokeFunc(lastCallTime);
+      }
+    }
+    if (timerId === undefined) {
+      timerId = setTimeout(timerExpired, wait);
+    }
+    return result;
+  }
+  debounced.cancel = cancel;
+  debounced.flush = flush;
+  return debounced;
+}
+
+module.exports = debounce;
+
+
+/***/ }),
+/* 208 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var baseIsArguments = __webpack_require__(321),
+    isObjectLike = __webpack_require__(45);
+
+/** Used for built-in method references. */
+var objectProto = Object.prototype;
+
+/** Used to check objects for own properties. */
+var hasOwnProperty = objectProto.hasOwnProperty;
+
+/** Built-in value references. */
+var propertyIsEnumerable = objectProto.propertyIsEnumerable;
+
+/**
+ * Checks if `value` is likely an `arguments` object.
+ *
+ * @static
+ * @memberOf _
+ * @since 0.1.0
+ * @category Lang
+ * @param {*} value The value to check.
+ * @returns {boolean} Returns `true` if `value` is an `arguments` object,
+ *  else `false`.
+ * @example
+ *
+ * _.isArguments(function() { return arguments; }());
+ * // => true
+ *
+ * _.isArguments([1, 2, 3]);
+ * // => false
+ */
+var isArguments = baseIsArguments(function() { return arguments; }()) ? baseIsArguments : function(value) {
+  return isObjectLike(value) && hasOwnProperty.call(value, 'callee') &&
+    !propertyIsEnumerable.call(value, 'callee');
+};
+
+module.exports = isArguments;
+
+
+/***/ }),
+/* 209 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (immutable) */ __webpack_exports__["i"] = getValuePropValue;
+/* harmony export (immutable) */ __webpack_exports__["k"] = getPropValue;
+/* harmony export (immutable) */ __webpack_exports__["d"] = isCombobox;
+/* harmony export (immutable) */ __webpack_exports__["b"] = isMultipleOrTags;
+/* harmony export (immutable) */ __webpack_exports__["c"] = isMultipleOrTagsOrCombobox;
+/* harmony export (immutable) */ __webpack_exports__["l"] = isSingleMode;
+/* harmony export (immutable) */ __webpack_exports__["a"] = toArray;
+/* harmony export (immutable) */ __webpack_exports__["f"] = preventDefaultEvent;
+/* harmony export (immutable) */ __webpack_exports__["j"] = findIndexInValueByKey;
+/* harmony export (immutable) */ __webpack_exports__["p"] = findIndexInValueByLabel;
+/* harmony export (immutable) */ __webpack_exports__["q"] = getSelectKeys;
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "e", function() { return UNSELECTABLE_STYLE; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "g", function() { return UNSELECTABLE_ATTRIBUTE; });
+/* harmony export (immutable) */ __webpack_exports__["m"] = findFirstMenuItem;
+/* harmony export (immutable) */ __webpack_exports__["h"] = includesSeparators;
+/* harmony export (immutable) */ __webpack_exports__["o"] = splitBySeparators;
+/* harmony export (immutable) */ __webpack_exports__["n"] = defaultFilterFn;
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_react__);
+
+
+function getValuePropValue(child) {
+  var props = child.props;
+  if ('value' in props) {
+    return props.value;
+  }
+  if (child.key) {
+    return child.key;
+  }
+  if (child.type && child.type.isSelectOptGroup && props.label) {
+    return props.label;
+  }
+  throw new Error('Need at least a key or a value or a label (only for OptGroup) for ' + child);
+}
+
+function getPropValue(child, prop) {
+  if (prop === 'value') {
+    return getValuePropValue(child);
+  }
+  return child.props[prop];
+}
+
+function isCombobox(props) {
+  return props.combobox;
+}
+
+function isMultipleOrTags(props) {
+  return props.multiple || props.tags;
+}
+
+function isMultipleOrTagsOrCombobox(props) {
+  return isMultipleOrTags(props) || isCombobox(props);
+}
+
+function isSingleMode(props) {
+  return !isMultipleOrTagsOrCombobox(props);
+}
+
+function toArray(value) {
+  var ret = value;
+  if (value === undefined) {
+    ret = [];
+  } else if (!Array.isArray(value)) {
+    ret = [value];
+  }
+  return ret;
+}
+
+function preventDefaultEvent(e) {
+  e.preventDefault();
+}
+
+function findIndexInValueByKey(value, key) {
+  var index = -1;
+  for (var i = 0; i < value.length; i++) {
+    if (value[i].key === key) {
+      index = i;
+      break;
+    }
+  }
+  return index;
+}
+
+function findIndexInValueByLabel(value, label) {
+  var index = -1;
+  for (var i = 0; i < value.length; i++) {
+    if (toArray(value[i].label).join('') === label) {
+      index = i;
+      break;
+    }
+  }
+  return index;
+}
+
+function getSelectKeys(menuItems, value) {
+  if (value === null || value === undefined) {
+    return [];
+  }
+  var selectedKeys = [];
+  __WEBPACK_IMPORTED_MODULE_0_react___default.a.Children.forEach(menuItems, function (item) {
+    if (item.type.isMenuItemGroup) {
+      selectedKeys = selectedKeys.concat(getSelectKeys(item.props.children, value));
+    } else {
+      var itemValue = getValuePropValue(item);
+      var itemKey = item.key;
+      if (findIndexInValueByKey(value, itemValue) !== -1 && itemKey) {
+        selectedKeys.push(itemKey);
+      }
+    }
+  });
+  return selectedKeys;
+}
+
+var UNSELECTABLE_STYLE = {
+  userSelect: 'none',
+  WebkitUserSelect: 'none'
+};
+
+var UNSELECTABLE_ATTRIBUTE = {
+  unselectable: 'unselectable'
+};
+
+function findFirstMenuItem(children) {
+  for (var i = 0; i < children.length; i++) {
+    var child = children[i];
+    if (child.type.isMenuItemGroup) {
+      var found = findFirstMenuItem(child.props.children);
+      if (found) {
+        return found;
+      }
+    } else if (!child.props.disabled) {
+      return child;
+    }
+  }
+  return null;
+}
+
+function includesSeparators(string, separators) {
+  for (var i = 0; i < separators.length; ++i) {
+    if (string.lastIndexOf(separators[i]) > 0) {
+      return true;
+    }
+  }
+  return false;
+}
+
+function splitBySeparators(string, separators) {
+  var reg = new RegExp('[' + separators.join() + ']');
+  return string.split(reg).filter(function (token) {
+    return token;
+  });
+}
+
+function defaultFilterFn(input, child) {
+  return String(getPropValue(child, this.props.optionFilterProp)).indexOf(input) > -1;
+}
+
+/***/ }),
+/* 210 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+>>>>>>> fix: correct titles in table filters
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_extends__ = __webpack_require__(9);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_extends___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_0_babel_runtime_helpers_extends__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_react__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_prop_types__ = __webpack_require__(6);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_prop_types___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_prop_types__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_react_dom__ = __webpack_require__(18);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_react_dom___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_react_dom__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_create_react_class__ = __webpack_require__(52);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4_create_react_class___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_4_create_react_class__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5_rc_util_es_Dom_contains__ = __webpack_require__(386);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_rc_util_lib_Dom_addEventListener__ = __webpack_require__(388);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_rc_util_lib_Dom_addEventListener___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6_rc_util_lib_Dom_addEventListener__);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__Popup__ = __webpack_require__(669);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__utils__ = __webpack_require__(385);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9_rc_util_lib_getContainerRenderMixin__ = __webpack_require__(677);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9_rc_util_lib_getContainerRenderMixin___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_9_rc_util_lib_getContainerRenderMixin__);
+>>>>>>> fix: correct titles in table filters
 
 <<<<<<< HEAD
   this.handleDoneLeaving = function (key) {
@@ -13447,7 +14110,7 @@ var btoa = (typeof window !== 'undefined' && window.btoa && window.btoa.bind(win
   D: 68,
 =======
 /***/ }),
-/* 210 */
+/* 211 */
 /***/ (function(module, exports, __webpack_require__) {
 >>>>>>> feat: increase groups tree opening time while dragging
 
@@ -13475,7 +14138,7 @@ var URL = exports.URL = '__NATIVE_URL__';
 var TEXT = exports.TEXT = '__NATIVE_TEXT__';
 
 /***/ }),
-/* 211 */
+/* 212 */
 /***/ (function(module, exports, __webpack_require__) {
 >>>>>>> feat: increase groups tree opening time while dragging
 
@@ -13531,6 +14194,7 @@ var TEXT = exports.TEXT = '__NATIVE_TEXT__';
   Q: 81,
 =======
 /***/ }),
+<<<<<<< HEAD
 /* 212 */
 /***/ (function(module, exports, __webpack_require__) {
 >>>>>>> feat: increase groups tree opening time while dragging
@@ -13617,6 +14281,8 @@ var TEXT = exports.TEXT = '__NATIVE_TEXT__';
   NUM_THREE: 99,
 =======
 /***/ }),
+=======
+>>>>>>> fix: correct titles in table filters
 /* 213 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
@@ -13627,7 +14293,7 @@ var TEXT = exports.TEXT = '__NATIVE_TEXT__';
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__takeEvery__ = __webpack_require__(398);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__takeLatest__ = __webpack_require__(399);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__throttle__ = __webpack_require__(400);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__utils__ = __webpack_require__(21);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__utils__ = __webpack_require__(20);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_0__takeEvery__["a"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return __WEBPACK_IMPORTED_MODULE_1__takeLatest__["a"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "c", function() { return __WEBPACK_IMPORTED_MODULE_2__throttle__["a"]; });
@@ -14699,7 +15365,7 @@ exports.default = DropDownMenu;
 
 var $export = __webpack_require__(1);
 var defined = __webpack_require__(121);
-var fails = __webpack_require__(19);
+var fails = __webpack_require__(21);
 var spaces = __webpack_require__(554);
 var space = '[' + spaces + ']';
 var non = '\u200b\u0085';
@@ -21169,7 +21835,7 @@ var trim = exporter.trim = function (string, TYPE) {
 })('versions', []).push({
   version: core.version,
   mode: __webpack_require__(161) ? 'pure' : 'global',
-  copyright: '© 2020 Denis Pushkarev (zloirock.ru)'
+  copyright: '© 2019 Denis Pushkarev (zloirock.ru)'
 });
 
 
@@ -21459,8 +22125,12 @@ function rows() {
 /***/ (function(module, exports, __webpack_require__) {
 
 var getNative = __webpack_require__(39),
+<<<<<<< HEAD
     root = __webpack_require__(20);
 >>>>>>> feat: increase groups tree opening time while dragging
+=======
+    root = __webpack_require__(19);
+>>>>>>> fix: correct titles in table filters
 
   switch (action.type) {
     case _actions.TABLE_EDITOR_LOAD_SUCCESS:
@@ -21546,8 +22216,12 @@ var hashClear = __webpack_require__(337),
 /***/ (function(module, exports, __webpack_require__) {
 
 var getNative = __webpack_require__(39),
+<<<<<<< HEAD
     root = __webpack_require__(20);
 >>>>>>> feat: increase groups tree opening time while dragging
+=======
+    root = __webpack_require__(19);
+>>>>>>> fix: correct titles in table filters
 
         return newstate;
       }
@@ -21631,12 +22305,16 @@ var ListCache = __webpack_require__(68),
 /***/ (function(module, exports, __webpack_require__) {
 >>>>>>> feat: increase groups tree opening time while dragging
 
+<<<<<<< HEAD
     case _actions.TABLE_EDITOR_ROW_REMOVE:
       {
         return state.filter(function (row) {
           return row.check.common.id !== action.payload.id;
         });
       }
+=======
+var root = __webpack_require__(19);
+>>>>>>> fix: correct titles in table filters
 
     case _actions.UPDATE_TABLE_EDITOR_ROWS:
       return state.map(function (stateRow) {
@@ -21706,8 +22384,12 @@ var ARG = cof(function () { return arguments; }()) == 'Arguments';
 /***/ (function(module, exports, __webpack_require__) {
 
 var getNative = __webpack_require__(39),
+<<<<<<< HEAD
     root = __webpack_require__(20);
 >>>>>>> feat: increase groups tree opening time while dragging
+=======
+    root = __webpack_require__(19);
+>>>>>>> fix: correct titles in table filters
 
 // fallback for IE11 Script Access Denied error
 var tryGet = function (it, key) {
@@ -21770,9 +22452,9 @@ var rtrim = RegExp(space + space + '*$');
 /***/ (function(module, exports, __webpack_require__) {
 
 var SetCache = __webpack_require__(109),
-    arrayIncludes = __webpack_require__(198),
-    arrayIncludesWith = __webpack_require__(199),
-    arrayMap = __webpack_require__(201),
+    arrayIncludes = __webpack_require__(199),
+    arrayIncludesWith = __webpack_require__(200),
+    arrayMap = __webpack_require__(202),
     baseUnary = __webpack_require__(134),
     cacheHas = __webpack_require__(111);
 >>>>>>> feat: increase groups tree opening time while dragging
@@ -21811,7 +22493,7 @@ var isObject = __webpack_require__(36),
 /* 319 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var arrayPush = __webpack_require__(202),
+var arrayPush = __webpack_require__(203),
     isFlattenable = __webpack_require__(621);
 
 /**
@@ -21853,7 +22535,7 @@ var freeParseInt = parseInt;
 /* 320 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var arrayPush = __webpack_require__(202),
+var arrayPush = __webpack_require__(203),
     isArray = __webpack_require__(35);
 >>>>>>> feat: increase groups tree opening time while dragging
 
@@ -22155,7 +22837,7 @@ module.exports = CancelToken;
 /* 326 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var isPrototype = __webpack_require__(204),
+var isPrototype = __webpack_require__(205),
     nativeKeys = __webpack_require__(355);
 >>>>>>> feat: increase groups tree opening time while dragging
 
@@ -22217,8 +22899,8 @@ Axios.prototype.request = function request(config) {
 /***/ (function(module, exports, __webpack_require__) {
 
 var SetCache = __webpack_require__(109),
-    arrayIncludes = __webpack_require__(198),
-    arrayIncludesWith = __webpack_require__(199),
+    arrayIncludes = __webpack_require__(199),
+    arrayIncludesWith = __webpack_require__(200),
     cacheHas = __webpack_require__(111),
     createSet = __webpack_require__(618),
     setToArray = __webpack_require__(135);
@@ -22252,6 +22934,7 @@ module.exports = baseUniq;
 /***/ (function(module, exports, __webpack_require__) {
 >>>>>>> feat: increase groups tree opening time while dragging
 
+<<<<<<< HEAD
 // Provide aliases for supported request methods
 utils.forEach(['delete', 'get', 'head'], function forEachMethodNoData(method) {
   /*eslint func-names:0*/
@@ -22262,6 +22945,9 @@ utils.forEach(['delete', 'get', 'head'], function forEachMethodNoData(method) {
     }));
   };
 });
+=======
+var root = __webpack_require__(19);
+>>>>>>> fix: correct titles in table filters
 
 utils.forEach(['post', 'put', 'patch'], function forEachMethodWithData(method) {
   /*eslint func-names:0*/
@@ -22518,7 +23204,7 @@ var freeParseInt = parseInt;
 /* 334 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var arrayFilter = __webpack_require__(197),
+var arrayFilter = __webpack_require__(198),
     stubArray = __webpack_require__(371);
 
 /** Used for built-in method references. */
@@ -22591,7 +23277,7 @@ module.exports = toNumber;
 var DataView = __webpack_require__(311),
     Map = __webpack_require__(108),
     Promise = __webpack_require__(313),
-    Set = __webpack_require__(196),
+    Set = __webpack_require__(197),
     WeakMap = __webpack_require__(316),
     baseGetTag = __webpack_require__(53),
     toSource = __webpack_require__(165);
@@ -23341,7 +24027,7 @@ module.exports = btoa;
 /* 355 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var overArg = __webpack_require__(205);
+var overArg = __webpack_require__(206);
 
 /* Built-in method references for those with the same name as other `lodash` methods. */
 var nativeKeys = overArg(Object.keys, Object);
@@ -23762,7 +24448,7 @@ module.exports = function parseHeaders(headers) {
 /* 367 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var arrayLikeKeys = __webpack_require__(200),
+var arrayLikeKeys = __webpack_require__(201),
     baseKeys = __webpack_require__(326),
     isArrayLike = __webpack_require__(112);
 >>>>>>> feat: increase groups tree opening time while dragging
@@ -54932,7 +55618,11 @@ exports.default = Actions;
 >>>>>>> feat: add payment and delivery popups
 /***/ (function(module, exports, __webpack_require__) {
 
+<<<<<<< HEAD
 "use strict";
+=======
+var root = __webpack_require__(19);
+>>>>>>> fix: correct titles in table filters
 
 
 Object.defineProperty(exports, "__esModule", {
@@ -56746,9 +57436,13 @@ var _objectAssign = __webpack_require__(139);
 
 var _objectAssign2 = _interopRequireDefault(_objectAssign);
 
+<<<<<<< HEAD
 var TRUE = true;
 var FALSE = false;
 var commonProps = ['altKey', 'bubbles', 'cancelable', 'ctrlKey', 'currentTarget', 'eventPhase', 'metaKey', 'shiftKey', 'target', 'timeStamp', 'view', 'type'];
+=======
+var _hoistNonReactStatics = __webpack_require__(196);
+>>>>>>> fix: correct titles in table filters
 
 function isNullOrUndefined(w) {
   return w === null || w === undefined;
@@ -56940,11 +57634,15 @@ function DomEventObject(nativeEvent) {
 
   l = props.length;
 
+<<<<<<< HEAD
   // clone properties of the original event object
   while (l) {
     prop = props[--l];
     this[prop] = nativeEvent[prop];
   }
+=======
+var _shallowEqual = __webpack_require__(212);
+>>>>>>> fix: correct titles in table filters
 
   // fix target property, if necessary
   if (!this.target && isNative) {
@@ -57020,6 +57718,10 @@ module.exports = exports['default'];
 
 "use strict";
 
+<<<<<<< HEAD
+=======
+var _hoistNonReactStatics = __webpack_require__(196);
+>>>>>>> fix: correct titles in table filters
 
 // rawAsap provides everything we need except exception management.
 var rawAsap = __webpack_require__(429);
@@ -57030,11 +57732,15 @@ var freeTasks = [];
 var pendingErrors = [];
 var requestErrorThrow = rawAsap.makeRequestCallFromTimer(throwFirstError);
 
+<<<<<<< HEAD
 function throwFirstError() {
     if (pendingErrors.length) {
         throw pendingErrors.shift();
     }
 }
+=======
+var _shallowEqual = __webpack_require__(212);
+>>>>>>> fix: correct titles in table filters
 
 /**
  * Calls a task as soon as possible after returning, in its own event, with priority
@@ -58208,7 +58914,21 @@ var _getPrototypeOf = __webpack_require__(8);
 var _toConsumableArray2 = __webpack_require__(41);
 >>>>>>> feat: increase groups tree opening time while dragging
 
+<<<<<<< HEAD
 var _getPrototypeOf2 = _interopRequireDefault(_getPrototypeOf);
+=======
+"use strict";
+/* unused harmony export NOT_ITERATOR_ERROR */
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return CHANNEL_END; });
+/* unused harmony export TASK_CANCEL */
+/* harmony export (immutable) */ __webpack_exports__["b"] = proc;
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__utils__ = __webpack_require__(20);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__scheduler__ = __webpack_require__(214);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__io__ = __webpack_require__(50);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__channel__ = __webpack_require__(57);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__buffers__ = __webpack_require__(89);
+var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
+>>>>>>> fix: correct titles in table filters
 
 var _classCallCheck2 = __webpack_require__(2);
 
@@ -58617,11 +59337,18 @@ var ImageEditor = function (_React$Component) {
     }, _this.handleUrlFieldChange = function (_ref2) {
       var value = _ref2.currentTarget.value;
 
+<<<<<<< HEAD
       _this.setState({ urlFieldValue: value });
     }, _this.updateHaveMaximumImagesCount = function (currentCount) {
       var _this$props = _this.props,
           updateHaveMaximumImagesCount = _this$props.updateHaveMaximumImagesCount,
           maxLength = _this$props.maxLength;
+=======
+"use strict";
+/* harmony export (immutable) */ __webpack_exports__["a"] = runSaga;
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__utils__ = __webpack_require__(20);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__proc__ = __webpack_require__(396);
+>>>>>>> fix: correct titles in table filters
 
 
       updateHaveMaximumImagesCount({ haveMaximumImagesCount: currentCount >= maxLength });
@@ -58833,6 +59560,15 @@ exports.default = (0, _reactRedux.connect)(mapStateToProps)(ErrorMessageListCont
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
+<<<<<<< HEAD
+=======
+/* harmony export (immutable) */ __webpack_exports__["a"] = throttle;
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__fsmIterator__ = __webpack_require__(113);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__io__ = __webpack_require__(50);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__channel__ = __webpack_require__(57);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__buffers__ = __webpack_require__(89);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__utils__ = __webpack_require__(20);
+>>>>>>> fix: correct titles in table filters
 
 
 Object.defineProperty(exports, "__esModule", {
@@ -59994,6 +60730,83 @@ exports.default = Pagination;
 
 "use strict";
 
+<<<<<<< HEAD
+=======
+var global = __webpack_require__(17);
+var $export = __webpack_require__(1);
+var redefine = __webpack_require__(76);
+var redefineAll = __webpack_require__(189);
+var meta = __webpack_require__(162);
+var forOf = __webpack_require__(184);
+var anInstance = __webpack_require__(183);
+var isObject = __webpack_require__(23);
+var fails = __webpack_require__(21);
+var $iterDetect = __webpack_require__(414);
+var setToStringTag = __webpack_require__(220);
+var inheritIfRequired = __webpack_require__(541);
+
+module.exports = function (NAME, wrapper, methods, common, IS_MAP, IS_WEAK) {
+  var Base = global[NAME];
+  var C = Base;
+  var ADDER = IS_MAP ? 'set' : 'add';
+  var proto = C && C.prototype;
+  var O = {};
+  var fixMethod = function (KEY) {
+    var fn = proto[KEY];
+    redefine(proto, KEY,
+      KEY == 'delete' ? function (a) {
+        return IS_WEAK && !isObject(a) ? false : fn.call(this, a === 0 ? 0 : a);
+      } : KEY == 'has' ? function has(a) {
+        return IS_WEAK && !isObject(a) ? false : fn.call(this, a === 0 ? 0 : a);
+      } : KEY == 'get' ? function get(a) {
+        return IS_WEAK && !isObject(a) ? undefined : fn.call(this, a === 0 ? 0 : a);
+      } : KEY == 'add' ? function add(a) { fn.call(this, a === 0 ? 0 : a); return this; }
+        : function set(a, b) { fn.call(this, a === 0 ? 0 : a, b); return this; }
+    );
+  };
+  if (typeof C != 'function' || !(IS_WEAK || proto.forEach && !fails(function () {
+    new C().entries().next();
+  }))) {
+    // create collection constructor
+    C = common.getConstructor(wrapper, NAME, IS_MAP, ADDER);
+    redefineAll(C.prototype, methods);
+    meta.NEED = true;
+  } else {
+    var instance = new C();
+    // early implementations not supports chaining
+    var HASNT_CHAINING = instance[ADDER](IS_WEAK ? {} : -0, 1) != instance;
+    // V8 ~  Chromium 40- weak-collections throws on primitives, but should return false
+    var THROWS_ON_PRIMITIVES = fails(function () { instance.has(1); });
+    // most early implementations doesn't supports iterables, most modern - not close it correctly
+    var ACCEPT_ITERABLES = $iterDetect(function (iter) { new C(iter); }); // eslint-disable-line no-new
+    // for early implementations -0 and +0 not the same
+    var BUGGY_ZERO = !IS_WEAK && fails(function () {
+      // V8 ~ Chromium 42- fails only with 5+ elements
+      var $instance = new C();
+      var index = 5;
+      while (index--) $instance[ADDER](index, index);
+      return !$instance.has(-0);
+    });
+    if (!ACCEPT_ITERABLES) {
+      C = wrapper(function (target, iterable) {
+        anInstance(target, C, NAME);
+        var that = inheritIfRequired(new Base(), target, C);
+        if (iterable != undefined) forOf(iterable, IS_MAP, that[ADDER], that);
+        return that;
+      });
+      C.prototype = proto;
+      proto.constructor = C;
+    }
+    if (THROWS_ON_PRIMITIVES || BUGGY_ZERO) {
+      fixMethod('delete');
+      fixMethod('has');
+      IS_MAP && fixMethod('get');
+    }
+    if (BUGGY_ZERO || HASNT_CHAINING) fixMethod(ADDER);
+    // weak collections should not contains .clear method
+    if (IS_WEAK && proto.clear) delete proto.clear;
+  }
+>>>>>>> fix: correct titles in table filters
 
 Object.defineProperty(exports, "__esModule", {
   value: true
@@ -60011,7 +60824,17 @@ var _getPrototypeOf = __webpack_require__(8);
 
 var _getPrototypeOf2 = _interopRequireDefault(_getPrototypeOf);
 
+<<<<<<< HEAD
 var _classCallCheck2 = __webpack_require__(1);
+=======
+__webpack_require__(735);
+var redefine = __webpack_require__(76);
+var hide = __webpack_require__(75);
+var fails = __webpack_require__(21);
+var defined = __webpack_require__(121);
+var wks = __webpack_require__(31);
+var regexpExec = __webpack_require__(549);
+>>>>>>> fix: correct titles in table filters
 
 var _classCallCheck3 = _interopRequireDefault(_classCallCheck2);
 
@@ -60062,8 +60885,19 @@ var b = (0, _utils.block)('e-payment-delivery-popup');
 var PaymentDeliveryPopup = function (_React$Component) {
   (0, _inherits3.default)(PaymentDeliveryPopup, _React$Component);
 
+<<<<<<< HEAD
   function PaymentDeliveryPopup() {
     var _ref;
+=======
+// Forced replacement prototype accessors methods
+module.exports = __webpack_require__(161) || !__webpack_require__(21)(function () {
+  var K = Math.random();
+  // In FF throws only define methods
+  // eslint-disable-next-line no-undef, no-useless-call
+  __defineSetter__.call(null, K, function () { /* empty */ });
+  delete __webpack_require__(17)[K];
+});
+>>>>>>> fix: correct titles in table filters
 
     var _temp, _this, _ret;
 
@@ -66114,10 +66948,31 @@ var _extends3 = _interopRequireDefault(_extends2);
 var _reactRedux = __webpack_require__(10);
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 var _redux = __webpack_require__(64);
 =======
 var _redux = __webpack_require__(54);
 >>>>>>> feat: add payment and delivery popups
+=======
+var _rcTrigger = __webpack_require__(211);
+=======
+var _rcTrigger = __webpack_require__(210);
+>>>>>>> fix: correct titles in table filters
+
+var _rcTrigger2 = _interopRequireDefault(_rcTrigger);
+
+var _isEqual2 = __webpack_require__(12);
+
+var _isEqual3 = _interopRequireDefault(_isEqual2);
+
+var _reactDropzone = __webpack_require__(395);
+
+var _reactDropzone2 = _interopRequireDefault(_reactDropzone);
+
+__webpack_require__(608);
+
+var _Price = __webpack_require__(474);
+>>>>>>> fix: correct titles in table filters
 
 var _withDragging = __webpack_require__(480);
 
@@ -66955,6 +67810,7 @@ var Tree = function (_Component) {
       args[_key] = arguments[_key];
     }
 
+<<<<<<< HEAD
     return _ret = (_temp = (_this = (0, _possibleConstructorReturn3.default)(this, (_ref = Tree.__proto__ || (0, _getPrototypeOf2.default)(Tree)).call.apply(_ref, [this].concat(args))), _this), _initialiseProps.call(_this), _temp), (0, _possibleConstructorReturn3.default)(_this, _ret);
   }
 
@@ -66964,6 +67820,71 @@ var Tree = function (_Component) {
       if (nextProps.moveNode) {
         this.props.actionMoveNodeRequest((0, _extends3.default)({}, nextProps.moveNode));
       }
+=======
+    return _ret = (_temp = (_this = (0, _possibleConstructorReturn3.default)(this, (_ref = Header.__proto__ || (0, _getPrototypeOf2.default)(Header)).call.apply(_ref, [this].concat(args))), _this), _this.getSorterTitle = function (orderDirection) {
+      switch (orderDirection) {
+        case 'up':
+          return 'от А до Я';
+        case 'down':
+          return 'от Я до А';
+        default:
+          return 'Все';
+      }
+    }, _this.mapFilterOptionsToMenu = function (options) {
+      return options.map(function (option) {
+        return {
+          title: option.title,
+          id: option.value
+        };
+      });
+    }, _this.createCell = function (cell, index, selectFilter, selectSort) {
+      var renderFilterTitle = function renderFilterTitle() {
+        return _react2.default.createElement(
+          _DropDownMenu2.default,
+          {
+            title: cell.common.title,
+            items: _this.mapFilterOptionsToMenu(cell.filter.options),
+            onSelect: function onSelect(id) {
+              return selectFilter({ id: id, name: cell.name });
+            }
+          },
+          _react2.default.createElement(
+            'div',
+            { className: b('header-title').is({ filter: true }) },
+            cell.common.title
+          )
+        );
+      };
+
+      var renderSorting = function renderSorting() {
+        return _react2.default.createElement(
+          _DropDownMenu2.default,
+          {
+            title: '\u0421\u043E\u0440\u0442\u0438\u0440\u043E\u0432\u0430\u0442\u044C',
+            items: [{
+              title: 'Все',
+              id: ''
+            }, {
+              title: 'А - Я',
+              id: 'up'
+            }, {
+              title: 'Я - А',
+              id: 'down'
+            }],
+            onSelect: function onSelect(id) {
+              return selectSort({ id: id, name: cell.name });
+            }
+          },
+          _react2.default.createElement('div', {
+            title: _this.getSorterTitle(cell.sorter.direction),
+            className: b('sorter').is({
+              sorted: cell.sorter.direction,
+              'sorted-down': cell.sorter.direction === 'down'
+            })
+          })
+        );
+      };
+>>>>>>> fix: correct titles in table filters
 
       return !(0, _import._isEqual)(this.props, nextProps) || !(0, _import._isEqual)(this.state, nextState);
     }
@@ -76557,7 +77478,7 @@ var LIBRARY = __webpack_require__(161);
 var $typed = __webpack_require__(421);
 var hide = __webpack_require__(75);
 var redefineAll = __webpack_require__(189);
-var fails = __webpack_require__(19);
+var fails = __webpack_require__(21);
 var anInstance = __webpack_require__(183);
 >>>>>>> feat: increase groups tree opening time while dragging
 var toInteger = __webpack_require__(107);
@@ -84229,9 +85150,9 @@ module.exports = baseIndexOf;
 /***/ (function(module, exports, __webpack_require__) {
 
 var SetCache = __webpack_require__(109),
-    arrayIncludes = __webpack_require__(198),
-    arrayIncludesWith = __webpack_require__(199),
-    arrayMap = __webpack_require__(201),
+    arrayIncludes = __webpack_require__(199),
+    arrayIncludesWith = __webpack_require__(200),
+    arrayMap = __webpack_require__(202),
     baseUnary = __webpack_require__(134),
     cacheHas = __webpack_require__(111);
 
@@ -84393,7 +85314,7 @@ var _extends3 = _interopRequireDefault(_extends2);
 /***/ (function(module, exports, __webpack_require__) {
 
 var isObject = __webpack_require__(36),
-    isPrototype = __webpack_require__(204),
+    isPrototype = __webpack_require__(205),
     nativeKeysIn = __webpack_require__(623);
 
 /** Used for built-in method references. */
@@ -84574,7 +85495,7 @@ module.exports = castArrayLikeObject;
 /* 618 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var Set = __webpack_require__(196),
+var Set = __webpack_require__(197),
     noop = __webpack_require__(369),
     setToArray = __webpack_require__(135);
 
@@ -84616,7 +85537,7 @@ module.exports = defineProperty;
 /* 620 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var overArg = __webpack_require__(205);
+var overArg = __webpack_require__(206);
 
 /** Built-in value references. */
 var getPrototype = overArg(Object.getPrototypeOf, Object);
@@ -84629,7 +85550,7 @@ module.exports = getPrototype;
 /***/ (function(module, exports, __webpack_require__) {
 
 var Symbol = __webpack_require__(78),
-    isArguments = __webpack_require__(207),
+    isArguments = __webpack_require__(208),
     isArray = __webpack_require__(35);
 
 /** Built-in value references. */
@@ -84656,6 +85577,7 @@ module.exports = isFlattenable;
 
 var eq = __webpack_require__(88),
     isArrayLike = __webpack_require__(112),
+<<<<<<< HEAD
 <<<<<<< HEAD
     isIndex = __webpack_require__(205),
     isObject = __webpack_require__(37);
@@ -84791,6 +85713,9 @@ var Menu = (0, _createReactClass2['default'])({
   displayName: 'Menu',
 =======
     isIndex = __webpack_require__(203),
+=======
+    isIndex = __webpack_require__(204),
+>>>>>>> fix: correct titles in table filters
     isObject = __webpack_require__(36);
 >>>>>>> feat: increase groups tree opening time while dragging
 
@@ -85488,7 +86413,7 @@ module.exports = defaults;
 >>>>>>> feat: increase groups tree opening time while dragging
 /***/ (function(module, exports, __webpack_require__) {
 
-var arrayMap = __webpack_require__(201),
+var arrayMap = __webpack_require__(202),
     baseIntersection = __webpack_require__(612),
     baseRest = __webpack_require__(110),
     castArrayLikeObject = __webpack_require__(617);
@@ -85531,7 +86456,7 @@ module.exports = intersection;
 /* 631 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var arrayLikeKeys = __webpack_require__(200),
+var arrayLikeKeys = __webpack_require__(201),
     baseKeysIn = __webpack_require__(614),
     isArrayLike = __webpack_require__(112);
 
@@ -85730,7 +86655,7 @@ module.exports = union;
 /* 634 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var arrayFilter = __webpack_require__(197),
+var arrayFilter = __webpack_require__(198),
     baseRest = __webpack_require__(110),
     baseXor = __webpack_require__(616),
     isArrayLikeObject = __webpack_require__(136);
@@ -86832,7 +87757,7 @@ var _reactDom = __webpack_require__(18);
 
 var _reactDom2 = _interopRequireDefault(_reactDom);
 
-var _rcTrigger = __webpack_require__(209);
+var _rcTrigger = __webpack_require__(210);
 
 var _rcTrigger2 = _interopRequireDefault(_rcTrigger);
 
@@ -90607,11 +91532,15 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_10_dom_scroll_into_view__ = __webpack_require__(308);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_10_dom_scroll_into_view___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_10_dom_scroll_into_view__);
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__util__ = __webpack_require__(211);
 >>>>>>> feat: tiger popups redesign
 =======
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__util__ = __webpack_require__(208);
 >>>>>>> feat: increase groups tree opening time while dragging
+=======
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__util__ = __webpack_require__(209);
+>>>>>>> fix: correct titles in table filters
 
 >>>>>>> feat: add payment and delivery popups
 
@@ -91347,7 +92276,7 @@ var _initialiseProps = function _initialiseProps() {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_10_rc_animate__ = __webpack_require__(139);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_11_component_classes__ = __webpack_require__(264);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_11_component_classes___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_11_component_classes__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__util__ = __webpack_require__(208);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__util__ = __webpack_require__(209);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__SelectTrigger__ = __webpack_require__(661);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_14__PropTypes__ = __webpack_require__(382);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_15_rc_menu__ = __webpack_require__(379);
@@ -93650,6 +94579,7 @@ var _initialiseProps = function _initialiseProps() {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_6_babel_runtime_helpers_inherits___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_6_babel_runtime_helpers_inherits__);
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_rc_trigger__ = __webpack_require__(212);
 =======
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_rc_trigger__ = __webpack_require__(211);
@@ -93657,6 +94587,9 @@ var _initialiseProps = function _initialiseProps() {
 =======
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_rc_trigger__ = __webpack_require__(209);
 >>>>>>> feat: increase groups tree opening time while dragging
+=======
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7_rc_trigger__ = __webpack_require__(210);
+>>>>>>> fix: correct titles in table filters
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_react__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_8_react___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_8_react__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_9_prop_types__ = __webpack_require__(6);
@@ -93668,6 +94601,7 @@ var _initialiseProps = function _initialiseProps() {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_12_react_dom___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_12_react_dom__);
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__util__ = __webpack_require__(211);
 
 >>>>>>> feat: tiger popups redesign
@@ -93676,6 +94610,9 @@ var _initialiseProps = function _initialiseProps() {
 =======
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__util__ = __webpack_require__(208);
 >>>>>>> feat: increase groups tree opening time while dragging
+=======
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_13__util__ = __webpack_require__(209);
+>>>>>>> fix: correct titles in table filters
 
 >>>>>>> fix: delivery and payment text and popup fixes
 
@@ -95786,6 +96723,7 @@ var _NativeDragSources = __webpack_require__(675);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 var _NativeTypes = __webpack_require__(211);
 =======
 var _NativeTypes = __webpack_require__(213);
@@ -95796,6 +96734,9 @@ var _NativeTypes = __webpack_require__(212);
 =======
 var _NativeTypes = __webpack_require__(210);
 >>>>>>> feat: increase groups tree opening time while dragging
+=======
+var _NativeTypes = __webpack_require__(211);
+>>>>>>> fix: correct titles in table filters
 
 var NativeTypes = _interopRequireWildcard(_NativeTypes);
 
@@ -97271,6 +98212,7 @@ exports.matchNativeItemType = matchNativeItemType;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 var _NativeTypes = __webpack_require__(211);
 =======
 var _NativeTypes = __webpack_require__(213);
@@ -97476,6 +98418,9 @@ Object.defineProperty(exports, "__esModule", {
 	value: true
 });
 exports.default = undefined;
+=======
+var _NativeTypes = __webpack_require__(211);
+>>>>>>> fix: correct titles in table filters
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
@@ -97777,6 +98722,7 @@ var _getEmptyImage2 = _interopRequireDefault(_getEmptyImage);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 var _NativeTypes = __webpack_require__(211);
 =======
 var _NativeTypes = __webpack_require__(213);
@@ -97787,6 +98733,9 @@ var _NativeTypes = __webpack_require__(212);
 =======
 var _NativeTypes = __webpack_require__(210);
 >>>>>>> feat: increase groups tree opening time while dragging
+=======
+var _NativeTypes = __webpack_require__(211);
+>>>>>>> fix: correct titles in table filters
 
 var NativeTypes = _interopRequireWildcard(_NativeTypes);
 
@@ -98178,6 +99127,7 @@ var _propTypes2 = _interopRequireDefault(_propTypes);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 var _hoistNonReactStatics = __webpack_require__(196);
 =======
 var _hoistNonReactStatics = __webpack_require__(198);
@@ -98188,6 +99138,9 @@ var _hoistNonReactStatics = __webpack_require__(214);
 =======
 var _hoistNonReactStatics = __webpack_require__(212);
 >>>>>>> feat: increase groups tree opening time while dragging
+=======
+var _hoistNonReactStatics = __webpack_require__(196);
+>>>>>>> fix: correct titles in table filters
 
 var _hoistNonReactStatics2 = _interopRequireDefault(_hoistNonReactStatics);
 
@@ -98202,6 +99155,7 @@ var _invariant2 = _interopRequireDefault(_invariant);
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 var _shallowEqual = __webpack_require__(212);
 =======
 var _shallowEqual = __webpack_require__(214);
@@ -98212,6 +99166,9 @@ var _shallowEqual = __webpack_require__(213);
 =======
 var _shallowEqual = __webpack_require__(211);
 >>>>>>> feat: increase groups tree opening time while dragging
+=======
+var _shallowEqual = __webpack_require__(212);
+>>>>>>> fix: correct titles in table filters
 
 var _shallowEqual2 = _interopRequireDefault(_shallowEqual);
 
@@ -100452,6 +101409,7 @@ if (true) {
 "use strict";
 /* harmony export (immutable) */ __webpack_exports__["a"] = sagaMiddlewareFactory;
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__utils__ = __webpack_require__(20);
 <<<<<<< HEAD
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__channel__ = __webpack_require__(57);
@@ -100465,6 +101423,9 @@ if (true) {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__runSaga__ = __webpack_require__(398);
 >>>>>>> feat: tiger popups redesign
 =======
+=======
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__utils__ = __webpack_require__(20);
+>>>>>>> fix: correct titles in table filters
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__channel__ = __webpack_require__(57);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__runSaga__ = __webpack_require__(397);
 >>>>>>> feat: increase groups tree opening time while dragging
@@ -100749,7 +101710,7 @@ function symbolObservablePonyfill(root) {
 >>>>>>> feat: add payment and delivery popups
 =======
 Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__internal_utils__ = __webpack_require__(21);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__internal_utils__ = __webpack_require__(20);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "TASK", function() { return __WEBPACK_IMPORTED_MODULE_0__internal_utils__["r"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "SAGA_ACTION", function() { return __WEBPACK_IMPORTED_MODULE_0__internal_utils__["n"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "noop", function() { return __WEBPACK_IMPORTED_MODULE_0__internal_utils__["p"]; });
@@ -102393,6 +103354,7 @@ module.exports = flattenIntoArray;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 module.exports = !__webpack_require__(34) && !__webpack_require__(21)(function () {
   return Object.defineProperty(__webpack_require__(537)('div'), 'a', { get: function () { return 7; } }).a != 7;
 =======
@@ -102404,6 +103366,9 @@ module.exports = !__webpack_require__(35) && !__webpack_require__(19)(function (
 >>>>>>> feat: tiger popups redesign
 =======
 module.exports = !__webpack_require__(34) && !__webpack_require__(19)(function () {
+=======
+module.exports = !__webpack_require__(34) && !__webpack_require__(21)(function () {
+>>>>>>> fix: correct titles in table filters
   return Object.defineProperty(__webpack_require__(537)('div'), 'a', { get: function () { return 7; } }).a != 7;
 >>>>>>> feat: increase groups tree opening time while dragging
 });
@@ -102776,7 +103741,7 @@ var IObject = __webpack_require__(301);
 var $assign = Object.assign;
 
 // should work with symbols and should have deterministic property order (V8 bug)
-module.exports = !$assign || __webpack_require__(19)(function () {
+module.exports = !$assign || __webpack_require__(21)(function () {
   var A = {};
   var B = {};
   // eslint-disable-next-line no-undef
@@ -108760,7 +109725,7 @@ module.exports = function (original) {
 "use strict";
 
 // 20.3.4.36 / 15.9.5.43 Date.prototype.toISOString()
-var fails = __webpack_require__(19);
+var fails = __webpack_require__(21);
 var getTime = Date.prototype.getTime;
 var $toISOString = Date.prototype.toISOString;
 
@@ -109472,6 +110437,7 @@ var createProperty = __webpack_require__(536);
 // WebKit Array.of isn't generic
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 $export($export.S + $export.F * __webpack_require__(19)(function () {
 >>>>>>> feat: add payment and delivery popups
 =======
@@ -109480,6 +110446,9 @@ $export($export.S + $export.F * __webpack_require__(21)(function () {
 =======
 $export($export.S + $export.F * __webpack_require__(19)(function () {
 >>>>>>> fix: delivery and payment text and popup fixes
+=======
+$export($export.S + $export.F * __webpack_require__(21)(function () {
+>>>>>>> fix: correct titles in table filters
   function F() { /* empty */ }
   return !(Array.of.call(F) instanceof F);
 }), 'Array', {
@@ -109605,6 +110574,7 @@ var arraySlice = [].slice;
 // fallback for not array-like ES3 strings and DOM objects
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 $export($export.P + $export.F * __webpack_require__(19)(function () {
 >>>>>>> feat: add payment and delivery popups
 =======
@@ -109613,6 +110583,9 @@ $export($export.P + $export.F * __webpack_require__(21)(function () {
 =======
 $export($export.P + $export.F * __webpack_require__(19)(function () {
 >>>>>>> fix: delivery and payment text and popup fixes
+=======
+$export($export.P + $export.F * __webpack_require__(21)(function () {
+>>>>>>> fix: correct titles in table filters
   if (html) arraySlice.call(html);
 }), 'Array', {
   slice: function slice(begin, end) {
@@ -109701,6 +110674,7 @@ var aFunction = __webpack_require__(62);
 var toObject = __webpack_require__(49);
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 var fails = __webpack_require__(19);
 >>>>>>> feat: add payment and delivery popups
 =======
@@ -109709,6 +110683,9 @@ var fails = __webpack_require__(21);
 =======
 var fails = __webpack_require__(19);
 >>>>>>> fix: delivery and payment text and popup fixes
+=======
+var fails = __webpack_require__(21);
+>>>>>>> fix: correct titles in table filters
 var $sort = [].sort;
 var test = [1, 2, 3];
 
@@ -109822,6 +110799,7 @@ var toObject = __webpack_require__(49);
 var toPrimitive = __webpack_require__(123);
 
 $export($export.P + $export.F * __webpack_require__(21)(function () {
+<<<<<<< HEAD
 =======
 var $export = __webpack_require__(4);
 =======
@@ -109840,6 +110818,8 @@ $export($export.P + $export.F * __webpack_require__(21)(function () {
 =======
 $export($export.P + $export.F * __webpack_require__(19)(function () {
 >>>>>>> fix: delivery and payment text and popup fixes
+=======
+>>>>>>> fix: correct titles in table filters
   return new Date(NaN).toJSON() !== null
     || Date.prototype.toJSON.call({ toISOString: function () { return 1; } }) !== 1;
 }), 'Date', {
@@ -110649,7 +111629,7 @@ var expm1 = __webpack_require__(545);
 var exp = Math.exp;
 
 // V8 near Chromium 38 has a problem with very small numbers
-$export($export.S + $export.F * __webpack_require__(19)(function () {
+$export($export.S + $export.F * __webpack_require__(21)(function () {
   return !Math.sinh(-2e-17) != -2e-17;
 }), 'Math', {
   sinh: function sinh(x) {
@@ -110779,7 +111759,7 @@ var gOPN = __webpack_require__(188).f;
 =======
 var inheritIfRequired = __webpack_require__(541);
 var toPrimitive = __webpack_require__(123);
-var fails = __webpack_require__(19);
+var fails = __webpack_require__(21);
 var gOPN = __webpack_require__(186).f;
 >>>>>>> feat: increase groups tree opening time while dragging
 var gOPD = __webpack_require__(85).f;
@@ -111358,7 +112338,7 @@ $export($export.P + $export.F * (!!$toFixed && (
   0.9.toFixed(0) !== '1' ||
   1.255.toFixed(2) !== '1.25' ||
   1000000000000000128.0.toFixed(0) !== '1000000000000000128'
-) || !__webpack_require__(19)(function () {
+) || !__webpack_require__(21)(function () {
   // V8 ~ Android 4.3-
   $toFixed.call({});
 })), 'Number', {
@@ -111458,7 +112438,7 @@ var aNumberValue = __webpack_require__(710);
 >>>>>>> feat: tiger popups redesign
 =======
 var $export = __webpack_require__(1);
-var $fails = __webpack_require__(19);
+var $fails = __webpack_require__(21);
 var aNumberValue = __webpack_require__(703);
 >>>>>>> feat: increase groups tree opening time while dragging
 var $toPrecision = 1.0.toPrecision;
@@ -112726,7 +113706,7 @@ var anObject = __webpack_require__(14);
 var rApply = (__webpack_require__(17).Reflect || {}).apply;
 var fApply = Function.apply;
 // MS Edge argumentsList argument is optional
-$export($export.S + $export.F * !__webpack_require__(19)(function () {
+$export($export.S + $export.F * !__webpack_require__(21)(function () {
   rApply(function () { /* empty */ });
 }), 'Reflect', {
   apply: function apply(target, thisArgument, argumentsList) {
@@ -112748,6 +113728,7 @@ var aFunction = __webpack_require__(62);
 var anObject = __webpack_require__(14);
 var isObject = __webpack_require__(23);
 <<<<<<< HEAD
+<<<<<<< HEAD
 var fails = __webpack_require__(21);
 <<<<<<< HEAD
 var bind = __webpack_require__(707);
@@ -112759,6 +113740,9 @@ var fails = __webpack_require__(19);
 var bind = __webpack_require__(714);
 >>>>>>> feat: tiger popups redesign
 =======
+=======
+var fails = __webpack_require__(21);
+>>>>>>> fix: correct titles in table filters
 var bind = __webpack_require__(707);
 >>>>>>> feat: increase groups tree opening time while dragging
 var rConstruct = (__webpack_require__(17).Reflect || {}).construct;
@@ -112821,7 +113805,7 @@ var anObject = __webpack_require__(14);
 var toPrimitive = __webpack_require__(123);
 
 // MS Edge has broken Reflect.defineProperty - throwing instead of returning false
-$export($export.S + $export.F * __webpack_require__(19)(function () {
+$export($export.S + $export.F * __webpack_require__(21)(function () {
   // eslint-disable-next-line no-undef
   Reflect.defineProperty(dP.f({}, 1, { value: 1 }), 1, { value: 2 });
 }), 'Reflect', {
@@ -113406,6 +114390,7 @@ var CORRECT_NEW = new $RegExp(re1) !== re1;
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 if (__webpack_require__(34) && (!CORRECT_NEW || __webpack_require__(21)(function () {
   re2[__webpack_require__(31)('match')] = false;
 =======
@@ -113414,6 +114399,9 @@ if (__webpack_require__(35) && (!CORRECT_NEW || __webpack_require__(19)(function
 >>>>>>> fix: delivery and payment text and popup fixes
 =======
 if (__webpack_require__(34) && (!CORRECT_NEW || __webpack_require__(19)(function () {
+=======
+if (__webpack_require__(34) && (!CORRECT_NEW || __webpack_require__(21)(function () {
+>>>>>>> fix: correct titles in table filters
   re2[__webpack_require__(31)('match')] = false;
 >>>>>>> feat: increase groups tree opening time while dragging
   // RegExp constructor can alter flags and IsRegExp works correct with @@match
@@ -113874,7 +114862,7 @@ var advanceStringIndex = __webpack_require__(533);
 var toLength = __webpack_require__(32);
 var callRegExpExec = __webpack_require__(417);
 var regexpExec = __webpack_require__(549);
-var fails = __webpack_require__(19);
+var fails = __webpack_require__(21);
 var $min = Math.min;
 var $push = [].push;
 var $SPLIT = 'split';
@@ -114049,6 +115037,7 @@ var define = function (fn) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 if (__webpack_require__(21)(function () { return $toString.call({ source: 'a', flags: 'b' }) != '/a/b'; })) {
 =======
 if (__webpack_require__(19)(function () { return $toString.call({ source: 'a', flags: 'b' }) != '/a/b'; })) {
@@ -114059,6 +115048,9 @@ if (__webpack_require__(21)(function () { return $toString.call({ source: 'a', f
 =======
 if (__webpack_require__(19)(function () { return $toString.call({ source: 'a', flags: 'b' }) != '/a/b'; })) {
 >>>>>>> fix: delivery and payment text and popup fixes
+=======
+if (__webpack_require__(21)(function () { return $toString.call({ source: 'a', flags: 'b' }) != '/a/b'; })) {
+>>>>>>> fix: correct titles in table filters
   define(function toString() {
     var R = anObject(this);
     return '/'.concat(R.source, '/',
@@ -114796,6 +115788,7 @@ var $export = __webpack_require__(1);
 var redefine = __webpack_require__(76);
 var META = __webpack_require__(162).KEY;
 var $fails = __webpack_require__(21);
+<<<<<<< HEAD
 var shared = __webpack_require__(303);
 var setToStringTag = __webpack_require__(220);
 var uid = __webpack_require__(192);
@@ -114835,6 +115828,8 @@ var isArray = __webpack_require__(413);
 =======
 >>>>>>> fix: delivery and payment text and popup fixes
 =======
+=======
+>>>>>>> fix: correct titles in table filters
 var shared = __webpack_require__(303);
 var setToStringTag = __webpack_require__(220);
 var uid = __webpack_require__(192);
@@ -115174,6 +116169,7 @@ $export($export.S + $export.F * !$typed.CONSTR, ARRAY_BUFFER, {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 $export($export.P + $export.U + $export.F * __webpack_require__(21)(function () {
 =======
 $export($export.P + $export.U + $export.F * __webpack_require__(19)(function () {
@@ -115184,6 +116180,9 @@ $export($export.P + $export.U + $export.F * __webpack_require__(21)(function () 
 =======
 $export($export.P + $export.U + $export.F * __webpack_require__(19)(function () {
 >>>>>>> fix: delivery and payment text and popup fixes
+=======
+$export($export.P + $export.U + $export.F * __webpack_require__(21)(function () {
+>>>>>>> fix: correct titles in table filters
   return !new $ArrayBuffer(2).slice(1, undefined).byteLength;
 }), ARRAY_BUFFER, {
   // 24.1.4.3 ArrayBuffer.prototype.slice(start, end)
@@ -117614,13 +118613,8 @@ $export($export.P, 'String', {
 // https://github.com/mathiasbynens/String.prototype.at
 var $export = __webpack_require__(1);
 var $at = __webpack_require__(420)(true);
-var $fails = __webpack_require__(19);
 
-var FORCED = $fails(function () {
-  return '𠮷'.at(0) !== '𠮷';
-});
-
-$export($export.P + $export.F * FORCED, 'String', {
+$export($export.P, 'String', {
   at: function at(pos) {
     return $at(this, pos);
 >>>>>>> fix: delivery and payment text and popup fixes

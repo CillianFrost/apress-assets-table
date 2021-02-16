@@ -543,6 +543,7 @@ module.exports = __WEBPACK_EXTERNAL_MODULE_10__;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 var core = module.exports = { version: '2.6.11' };
 =======
 var core = module.exports = { version: '2.6.12' };
@@ -553,6 +554,9 @@ var core = module.exports = { version: '2.6.11' };
 =======
 var core = module.exports = { version: '2.6.12' };
 >>>>>>> fix: delivery and payment text and popup fixes
+=======
+var core = module.exports = { version: '2.6.11' };
+>>>>>>> fix: correct titles in table filters
 if (typeof __e == 'number') __e = core; // eslint-disable-line no-undef
 
 
@@ -969,6 +973,7 @@ module.exports = {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* 19 */
 =======
 /* 19 */,
@@ -983,6 +988,9 @@ var freeGlobal = __webpack_require__(164);
 =======
 /* 19 */,
 /* 20 */
+=======
+/* 19 */
+>>>>>>> fix: correct titles in table filters
 /***/ (function(module, exports, __webpack_require__) {
 
 <<<<<<< HEAD
@@ -1005,6 +1013,7 @@ module.exports = root;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* 20 */
 =======
 /* 21 */
@@ -1015,6 +1024,9 @@ module.exports = root;
 =======
 /* 21 */
 >>>>>>> fix: delivery and payment text and popup fixes
+=======
+/* 20 */
+>>>>>>> fix: correct titles in table filters
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1337,6 +1349,7 @@ var cloneableGenerator = function cloneableGenerator(generatorFunc) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* 21 */,
 =======
 >>>>>>> feat: add payment and delivery popups
@@ -1345,6 +1358,9 @@ var cloneableGenerator = function cloneableGenerator(generatorFunc) {
 >>>>>>> feat: tiger popups redesign
 =======
 >>>>>>> fix: delivery and payment text and popup fixes
+=======
+/* 21 */,
+>>>>>>> fix: correct titles in table filters
 /* 22 */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -1885,6 +1901,7 @@ module.exports = function (it) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__utils__ = __webpack_require__(20);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__sagaHelpers__ = __webpack_require__(213);
 =======
@@ -1899,6 +1916,9 @@ module.exports = function (it) {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__sagaHelpers__ = __webpack_require__(215);
 >>>>>>> feat: add payment and delivery popups
 =======
+=======
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__utils__ = __webpack_require__(20);
+>>>>>>> fix: correct titles in table filters
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__sagaHelpers__ = __webpack_require__(213);
 >>>>>>> feat: increase groups tree opening time while dragging
 
@@ -2309,6 +2329,7 @@ module.exports = Object.keys || function keys(O) {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__utils__ = __webpack_require__(20);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__buffers__ = __webpack_require__(89);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__scheduler__ = __webpack_require__(214);
@@ -2320,6 +2341,9 @@ module.exports = Object.keys || function keys(O) {
 =======
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__utils__ = __webpack_require__(21);
 >>>>>>> fix: delivery and payment text and popup fixes
+=======
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__utils__ = __webpack_require__(20);
+>>>>>>> fix: correct titles in table filters
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__buffers__ = __webpack_require__(89);
 <<<<<<< HEAD
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__scheduler__ = __webpack_require__(216);
@@ -2810,6 +2834,7 @@ module.exports = g;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 var root = __webpack_require__(19);
 =======
 var root = __webpack_require__(20);
@@ -2820,6 +2845,9 @@ var root = __webpack_require__(19);
 =======
 var root = __webpack_require__(20);
 >>>>>>> fix: delivery and payment text and popup fixes
+=======
+var root = __webpack_require__(19);
+>>>>>>> fix: correct titles in table filters
 
 /** Built-in value references. */
 var Symbol = root.Symbol;
@@ -2912,6 +2940,7 @@ module.exports = eq;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__utils__ = __webpack_require__(20);
 =======
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__utils__ = __webpack_require__(21);
@@ -2922,6 +2951,9 @@ module.exports = eq;
 =======
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__utils__ = __webpack_require__(21);
 >>>>>>> fix: delivery and payment text and popup fixes
+=======
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__utils__ = __webpack_require__(20);
+>>>>>>> fix: correct titles in table filters
 
 
 var BUFFER_OVERFLOW = "Channel's Buffer overflow!";
@@ -3313,6 +3345,7 @@ var store = global[SHARED] || (global[SHARED] = {});
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
   copyright: '© 2019 Denis Pushkarev (zloirock.ru)'
 =======
   copyright: '© 2020 Denis Pushkarev (zloirock.ru)'
@@ -3323,6 +3356,9 @@ var store = global[SHARED] || (global[SHARED] = {});
 =======
   copyright: '© 2020 Denis Pushkarev (zloirock.ru)'
 >>>>>>> fix: delivery and payment text and popup fixes
+=======
+  copyright: '© 2019 Denis Pushkarev (zloirock.ru)'
+>>>>>>> fix: correct titles in table filters
 });
 
 
@@ -3446,6 +3482,7 @@ __webpack_require__(154)(String, 'String', function (iterated) {
 <<<<<<< HEAD
 var getNative = __webpack_require__(39),
     root = __webpack_require__(19);
+<<<<<<< HEAD
 =======
 var getNative = __webpack_require__(40),
 <<<<<<< HEAD
@@ -3461,6 +3498,8 @@ var getNative = __webpack_require__(39),
 =======
     root = __webpack_require__(20);
 >>>>>>> fix: delivery and payment text and popup fixes
+=======
+>>>>>>> fix: correct titles in table filters
 
 /* Built-in method references that are verified to be native. */
 var Map = getNative(root, 'Map');
@@ -3598,6 +3637,7 @@ module.exports = isArrayLike;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__utils__ = __webpack_require__(20);
 =======
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__utils__ = __webpack_require__(21);
@@ -3608,6 +3648,9 @@ module.exports = isArrayLike;
 =======
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__utils__ = __webpack_require__(21);
 >>>>>>> fix: delivery and payment text and popup fixes
+=======
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__utils__ = __webpack_require__(20);
+>>>>>>> fix: correct titles in table filters
 
 
 var done = { done: true, value: undefined };
@@ -3949,7 +3992,7 @@ module.exports = setToArray;
 >>>>>>> feat: increase groups tree opening time while dragging
 /***/ (function(module, exports, __webpack_require__) {
 
-var debounce = __webpack_require__(206),
+var debounce = __webpack_require__(207),
     isObject = __webpack_require__(36);
 
 /** Error message constants. */
@@ -5019,7 +5062,7 @@ module.exports = toSource;
 /* 166 */
 /***/ (function(module, exports, __webpack_require__) {
 
-/* WEBPACK VAR INJECTION */(function(module) {var root = __webpack_require__(20),
+/* WEBPACK VAR INJECTION */(function(module) {var root = __webpack_require__(19),
     stubFalse = __webpack_require__(372);
 >>>>>>> feat: increase groups tree opening time while dragging
 
@@ -5401,6 +5444,7 @@ module.exports = function (it) {
 /* 194 */,
 /* 195 */,
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* 196 */,
 <<<<<<< HEAD
 /* 197 */
@@ -5430,6 +5474,14 @@ var getNative = __webpack_require__(39),
 >>>>>>> feat: increase groups tree opening time while dragging
     root = __webpack_require__(20);
 >>>>>>> fix: delivery and payment text and popup fixes
+=======
+/* 196 */,
+/* 197 */
+/***/ (function(module, exports, __webpack_require__) {
+
+var getNative = __webpack_require__(39),
+    root = __webpack_require__(19);
+>>>>>>> fix: correct titles in table filters
 
 /* Built-in method references that are verified to be native. */
 var Set = getNative(root, 'Set');
@@ -5438,7 +5490,7 @@ module.exports = Set;
 
 
 /***/ }),
-/* 197 */
+/* 198 */
 /***/ (function(module, exports) {
 
 /**
@@ -5469,9 +5521,9 @@ module.exports = arrayFilter;
 
 
 /***/ }),
-/* 198 */,
 /* 199 */,
-/* 200 */
+/* 200 */,
+/* 201 */
 /***/ (function(module, exports, __webpack_require__) {
 
 <<<<<<< HEAD
@@ -5504,10 +5556,10 @@ var baseTimes = __webpack_require__(328),
 >>>>>>> fix: delivery and payment text and popup fixes
 =======
 var baseTimes = __webpack_require__(327),
-    isArguments = __webpack_require__(207),
+    isArguments = __webpack_require__(208),
     isArray = __webpack_require__(35),
     isBuffer = __webpack_require__(166),
-    isIndex = __webpack_require__(203),
+    isIndex = __webpack_require__(204),
     isTypedArray = __webpack_require__(169);
 >>>>>>> feat: increase groups tree opening time while dragging
 
@@ -5556,8 +5608,8 @@ module.exports = arrayLikeKeys;
 
 
 /***/ }),
-/* 201 */,
-/* 202 */
+/* 202 */,
+/* 203 */
 /***/ (function(module, exports) {
 
 /**
@@ -5583,7 +5635,7 @@ module.exports = arrayPush;
 
 
 /***/ }),
-/* 203 */
+/* 204 */
 /***/ (function(module, exports) {
 
 /** Used as references for various `Number` constants. */
@@ -5614,7 +5666,7 @@ module.exports = isIndex;
 
 
 /***/ }),
-/* 204 */
+/* 205 */
 /***/ (function(module, exports) {
 
 /** Used for built-in method references. */
@@ -5638,7 +5690,7 @@ module.exports = isPrototype;
 
 
 /***/ }),
-/* 205 */
+/* 206 */
 /***/ (function(module, exports) {
 
 /**
@@ -5659,7 +5711,7 @@ module.exports = overArg;
 
 
 /***/ }),
-/* 206 */
+/* 207 */
 /***/ (function(module, exports, __webpack_require__) {
 
 <<<<<<< HEAD
@@ -5868,7 +5920,7 @@ module.exports = debounce;
 
 
 /***/ }),
-/* 207 */
+/* 208 */
 /***/ (function(module, exports, __webpack_require__) {
 
 <<<<<<< HEAD
@@ -5918,7 +5970,6 @@ module.exports = isArguments;
 
 
 /***/ }),
-/* 208 */,
 /* 209 */,
 /* 210 */,
 /* 211 */,
@@ -5954,9 +6005,13 @@ module.exports = isArguments;
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__takeEvery__ = __webpack_require__(398);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__takeLatest__ = __webpack_require__(399);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__throttle__ = __webpack_require__(400);
+<<<<<<< HEAD
 >>>>>>> feat: increase groups tree opening time while dragging
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__utils__ = __webpack_require__(21);
 >>>>>>> fix: delivery and payment text and popup fixes
+=======
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__utils__ = __webpack_require__(20);
+>>>>>>> fix: correct titles in table filters
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_0__takeEvery__["a"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return __WEBPACK_IMPORTED_MODULE_1__takeLatest__["a"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "c", function() { return __WEBPACK_IMPORTED_MODULE_2__throttle__["a"]; });
@@ -10610,9 +10665,13 @@ var getNative = __webpack_require__(40),
 /***/ (function(module, exports, __webpack_require__) {
 
 var getNative = __webpack_require__(39),
+<<<<<<< HEAD
 >>>>>>> feat: increase groups tree opening time while dragging
     root = __webpack_require__(20);
 >>>>>>> fix: delivery and payment text and popup fixes
+=======
+    root = __webpack_require__(19);
+>>>>>>> fix: correct titles in table filters
 
 /* Built-in method references that are verified to be native. */
 var DataView = getNative(root, 'DataView');
@@ -10686,6 +10745,7 @@ var getNative = __webpack_require__(40),
 <<<<<<< HEAD
 =======
 var getNative = __webpack_require__(39),
+<<<<<<< HEAD
 >>>>>>> feat: increase groups tree opening time while dragging
     root = __webpack_require__(20);
 >>>>>>> feat: add payment and delivery popups
@@ -10695,6 +10755,9 @@ var getNative = __webpack_require__(39),
 =======
     root = __webpack_require__(20);
 >>>>>>> fix: delivery and payment text and popup fixes
+=======
+    root = __webpack_require__(19);
+>>>>>>> fix: correct titles in table filters
 
 /* Built-in method references that are verified to be native. */
 var Promise = getNative(root, 'Promise');
@@ -10756,6 +10819,7 @@ module.exports = Stack;
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 var root = __webpack_require__(19);
 =======
 var root = __webpack_require__(20);
@@ -10766,6 +10830,9 @@ var root = __webpack_require__(19);
 =======
 var root = __webpack_require__(20);
 >>>>>>> fix: delivery and payment text and popup fixes
+=======
+var root = __webpack_require__(19);
+>>>>>>> fix: correct titles in table filters
 
 /** Built-in value references. */
 var Uint8Array = root.Uint8Array;
@@ -10781,6 +10848,7 @@ module.exports = Uint8Array;
 <<<<<<< HEAD
 var getNative = __webpack_require__(39),
     root = __webpack_require__(19);
+<<<<<<< HEAD
 =======
 var getNative = __webpack_require__(40),
 <<<<<<< HEAD
@@ -10796,6 +10864,8 @@ var getNative = __webpack_require__(39),
 =======
     root = __webpack_require__(20);
 >>>>>>> fix: delivery and payment text and popup fixes
+=======
+>>>>>>> fix: correct titles in table filters
 
 /* Built-in method references that are verified to be native. */
 var WeakMap = getNative(root, 'WeakMap');
@@ -10858,7 +10928,7 @@ module.exports = arraySome;
 >>>>>>> feat: increase groups tree opening time while dragging
 /***/ (function(module, exports, __webpack_require__) {
 
-var arrayPush = __webpack_require__(202),
+var arrayPush = __webpack_require__(203),
     isArray = __webpack_require__(35);
 
 /**
@@ -11264,7 +11334,7 @@ var isPrototype = __webpack_require__(206),
 /* 326 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var isPrototype = __webpack_require__(204),
+var isPrototype = __webpack_require__(205),
     nativeKeys = __webpack_require__(355);
 >>>>>>> feat: increase groups tree opening time while dragging
 
@@ -11350,6 +11420,7 @@ var root = __webpack_require__(19);
 
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 var root = __webpack_require__(20);
 >>>>>>> feat: add payment and delivery popups
 =======
@@ -11358,6 +11429,9 @@ var root = __webpack_require__(19);
 =======
 var root = __webpack_require__(20);
 >>>>>>> fix: delivery and payment text and popup fixes
+=======
+var root = __webpack_require__(19);
+>>>>>>> fix: correct titles in table filters
 
 /** Used to detect overreaching core-js shims. */
 var coreJsData = root['__core-js_shared__'];
@@ -11740,7 +11814,7 @@ var arrayFilter = __webpack_require__(199),
 /* 334 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var arrayFilter = __webpack_require__(197),
+var arrayFilter = __webpack_require__(198),
     stubArray = __webpack_require__(371);
 >>>>>>> feat: increase groups tree opening time while dragging
 
@@ -11807,7 +11881,7 @@ var DataView = __webpack_require__(311),
 >>>>>>> fix: delivery and payment text and popup fixes
 =======
     Promise = __webpack_require__(313),
-    Set = __webpack_require__(196),
+    Set = __webpack_require__(197),
     WeakMap = __webpack_require__(316),
     baseGetTag = __webpack_require__(53),
     toSource = __webpack_require__(165);
@@ -12531,7 +12605,7 @@ module.exports = mapToArray;
 >>>>>>> feat: increase groups tree opening time while dragging
 /***/ (function(module, exports, __webpack_require__) {
 
-var overArg = __webpack_require__(205);
+var overArg = __webpack_require__(206);
 
 /* Built-in method references for those with the same name as other `lodash` methods. */
 var nativeKeys = overArg(Object.keys, Object);
@@ -12926,7 +13000,7 @@ var arrayLikeKeys = __webpack_require__(202),
 /* 367 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var arrayLikeKeys = __webpack_require__(200),
+var arrayLikeKeys = __webpack_require__(201),
     baseKeys = __webpack_require__(326),
 >>>>>>> feat: increase groups tree opening time while dragging
     isArrayLike = __webpack_require__(112);
@@ -30151,6 +30225,7 @@ module.exports = keys;
 /***/ (function(module, exports, __webpack_require__) {
 
 var root = __webpack_require__(19);
+<<<<<<< HEAD
 =======
 /* 370 */,
 /* 371 */
@@ -30170,6 +30245,8 @@ var root = __webpack_require__(19);
 =======
 var root = __webpack_require__(20);
 >>>>>>> fix: delivery and payment text and popup fixes
+=======
+>>>>>>> fix: correct titles in table filters
 
 /**
  * Gets the timestamp of the number of milliseconds that have elapsed since
@@ -30729,6 +30806,7 @@ function takeLatest(patternOrChannel, worker) {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__buffers__ = __webpack_require__(89);
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__utils__ = __webpack_require__(21);
 >>>>>>> feat: add payment and delivery popups
 =======
@@ -30737,6 +30815,9 @@ function takeLatest(patternOrChannel, worker) {
 =======
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__utils__ = __webpack_require__(21);
 >>>>>>> fix: delivery and payment text and popup fixes
+=======
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__utils__ = __webpack_require__(20);
+>>>>>>> fix: correct titles in table filters
 
 
 
