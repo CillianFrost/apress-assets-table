@@ -65,6 +65,7 @@ export default class DialogExample extends React.Component {
           style={style}
           mousePosition={this.state.mousePosition}
           title={<div>Загрузка фотографий</div>}
+          className='dialogs-extra-styles'
           footer={
             <div>
               <Button mix='is-good rc-dialog-button'>Сохранить и продолжить</Button>
