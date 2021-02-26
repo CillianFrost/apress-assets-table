@@ -16,7 +16,9 @@
     background-color: #fff;
     padding: 50px 0;
     width: 760px;
-    height: 680px;
+    max-height: 667px;
+    min-height: 224px;
+    height: fit-content;
     position: relative;
     margin: 0 auto;
     top: 50px;
@@ -49,7 +51,7 @@
     }
     &-options {
       padding-left: 50px;
-      height: 350px;
+      max-height: 350px;
       width: 660px;
       margin-bottom: 25px;
       overflow-y: auto;
@@ -66,6 +68,7 @@
             border: 1px #e0e0e0 solid;
             cursor: pointer;
             position: relative;
+            background-color: #f6f5f3;
             &::before {
               content: '';
               width: 22px;
@@ -97,6 +100,7 @@
             }
             &-text {
               font-size: 14px;
+              font-family: Arial;
             }
           }
         }
@@ -107,7 +111,8 @@
       margin-bottom: 30px;
       a {
         color: #0088CC;
-        font-size: 18px;
+        font-size: 16px;
+        font-family: Arial;
       }
     }
     &-buttons {
@@ -143,6 +148,7 @@
 }
 
 .is-option-button-active {
+  background-color: #fff;
   &::before {
     left: 25px;
     background-color: #a3bd49;
