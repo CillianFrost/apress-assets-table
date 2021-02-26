@@ -16,10 +16,50 @@ const b = block('e-payment-delivery-popup');
 class PaymentDeliveryPopup extends React.Component {
   state = {
     changingDataToSend: [...this.props.paymentDeliveryData.data],
+    isPayment: this.props.paymentDeliveryData.name === 'payment_methods_unbinds',
+    isEmptyData: !this.props.paymentDeliveryData.data.length,
+    hintText: '',
+    linkText: '',
+    mainDiffText: '',
   };
+
+  componentDidMount() {
+    this.setHintText();
+  }
 
   componentWillUnmount() {
     document.querySelector('body').classList.remove('not-scrollable');
+  }
+
+  setHintText = () => {
+    const {isPayment, isEmptyData} = this.state;
+    const mainDiffText = isPayment ? 'оплаты' : 'доставки';
+    let hintText;
+    let linkText;
+
+    if (isEmptyData) {
+      hintText = `Укажите все доступные способы ${mainDiffText} заказа`;
+      linkText = `Выбрать способы ${mainDiffText}`;
+
+      this.setState({
+        hintText,
+        linkText,
+        mainDiffText,
+      });
+      return;
+    }
+
+    hintText = isPayment
+      ? 'Отключите способ оплаты, если он не должен применяться к товарной группе.'
+      : 'Отключите способ доставки или пункт самовывоза, если они не должны применяться к товарной группе.';
+
+    linkText = `Изменить способы ${mainDiffText}`;
+
+    this.setState({
+      hintText,
+      linkText,
+      mainDiffText,
+    });
   }
 
   setPopupRef = (element) => {
@@ -71,16 +111,16 @@ class PaymentDeliveryPopup extends React.Component {
   }
 
   render() {
-    const isPayment = this.props.paymentDeliveryData.name === 'payment_methods_unbinds';
+    const {
+      mainDiffText,
+      hintText,
+      linkText,
+      changingDataToSend,
+      isPayment,
+      isEmptyData,
+    } = this.state;
 
     const {groupName} = this.props.paymentDeliveryData;
-
-    const mainDiffText = isPayment ? 'оплаты' : 'доставки';
-    const hintDiffText = isPayment
-                         ? 'Отключите способ оплаты, если он не должен примениться для товарной группы'
-                         : 'Отключите способ доставки или пункт самовывоза, если он не должен примениться для товарной группы';
-
-    const isEmptyData = !this.state.changingDataToSend.length;
 
     const {paymentDeliveryUrl} = app.config;
 
@@ -102,50 +142,51 @@ class PaymentDeliveryPopup extends React.Component {
               Настроить условия {mainDiffText}
             </div>
             <div className={b('content-titles-name')}>
-              {groupName || 'Без названия'}
+              {groupName || 'Для группы "Название группы"'}
             </div>
           </div>
           <div className={b('content-hint')}>
             <span>
-              {hintDiffText}
+              {hintText}
             </span>
           </div>
-          <div className={b('content-options')}>
-            {isEmptyData && <h3>Условий {mainDiffText} нет</h3>}
-            {this.state.changingDataToSend.map(({name, id, selected, addresses = []}, index) => (
-              <OptionElement
-                name={name}
-                selected={selected}
-                index={index}
-                handleDataChange={this.handleDataChange}
-                addresses={addresses}
-                key={id}
-              />
-            ))}
-          </div>
+          {!isEmptyData && (
+            <div className={b('content-options')}>
+              {changingDataToSend.map(({name, id, selected, addresses = []}, index) => (
+                <OptionElement
+                  name={name}
+                  selected={selected}
+                  index={index}
+                  handleDataChange={this.handleDataChange}
+                  addresses={addresses}
+                  key={id}
+                />
+              ))}
+            </div>)}
           <div className={b('content-extra-link')}>
             <a
               href={resultUrl}
               target='_blank'
               rel='noopener noreferrer'
             >
-              Добавить или изменить способы {mainDiffText}
+              {linkText}
             </a>
           </div>
-          <div className={b('content-buttons')}>
-            {!isEmptyData && <button
-              className={b('content-buttons-save')}
-              onClick={this.handleSave}
-            >
-              Сохранить
-            </button>}
-            <button
-              className={b('content-buttons-cancel')}
-              onClick={() => this.props.showPaymentDeliveryPopup()}
-            >
-              {isEmptyData ? 'Закрыть' : 'Отменить'}
-            </button>
-          </div>
+          {!isEmptyData && (
+            <div className={b('content-buttons')}>
+              <button
+                className={b('content-buttons-save')}
+                onClick={this.handleSave}
+              >
+                Сохранить
+              </button>
+              <button
+                className={b('content-buttons-cancel')}
+                onClick={() => this.props.showPaymentDeliveryPopup()}
+              >
+                Отменить
+              </button>
+            </div>)}
           <button
             className={b('content-close')}
             onClick={() => this.props.showPaymentDeliveryPopup()}

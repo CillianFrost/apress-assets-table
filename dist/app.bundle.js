@@ -42822,7 +42822,42 @@ var PaymentDeliveryPopup = function (_React$Component) {
     }
 
     return _ret = (_temp = (_this = (0, _possibleConstructorReturn3.default)(this, (_ref = PaymentDeliveryPopup.__proto__ || (0, _getPrototypeOf2.default)(PaymentDeliveryPopup)).call.apply(_ref, [this].concat(args))), _this), _this.state = {
-      changingDataToSend: [].concat((0, _toConsumableArray3.default)(_this.props.paymentDeliveryData.data))
+      changingDataToSend: [].concat((0, _toConsumableArray3.default)(_this.props.paymentDeliveryData.data)),
+      isPayment: _this.props.paymentDeliveryData.name === 'payment_methods_unbinds',
+      isEmptyData: !_this.props.paymentDeliveryData.data.length,
+      hintText: '',
+      linkText: '',
+      mainDiffText: ''
+    }, _this.setHintText = function () {
+      var _this$state = _this.state,
+          isPayment = _this$state.isPayment,
+          isEmptyData = _this$state.isEmptyData;
+
+      var mainDiffText = isPayment ? 'оплаты' : 'доставки';
+      var hintText = void 0;
+      var linkText = void 0;
+
+      if (isEmptyData) {
+        hintText = '\u0423\u043A\u0430\u0436\u0438\u0442\u0435 \u0432\u0441\u0435 \u0434\u043E\u0441\u0442\u0443\u043F\u043D\u044B\u0435 \u0441\u043F\u043E\u0441\u043E\u0431\u044B ' + mainDiffText + ' \u0437\u0430\u043A\u0430\u0437\u0430';
+        linkText = '\u0412\u044B\u0431\u0440\u0430\u0442\u044C \u0441\u043F\u043E\u0441\u043E\u0431\u044B ' + mainDiffText;
+
+        _this.setState({
+          hintText: hintText,
+          linkText: linkText,
+          mainDiffText: mainDiffText
+        });
+        return;
+      }
+
+      hintText = isPayment ? 'Отключите способ оплаты, если он не должен применяться к товарной группе.' : 'Отключите способ доставки или пункт самовывоза, если они не должны применяться к товарной группе.';
+
+      linkText = '\u0418\u0437\u043C\u0435\u043D\u0438\u0442\u044C \u0441\u043F\u043E\u0441\u043E\u0431\u044B ' + mainDiffText;
+
+      _this.setState({
+        hintText: hintText,
+        linkText: linkText,
+        mainDiffText: mainDiffText
+      });
     }, _this.setPopupRef = function (element) {
       _this.popupRef = element;
     }, _this.popupRef = null, _this.handleDataChange = function (newValue, optionIndex) {
@@ -42870,6 +42905,11 @@ var PaymentDeliveryPopup = function (_React$Component) {
   }
 
   (0, _createClass3.default)(PaymentDeliveryPopup, [{
+    key: 'componentDidMount',
+    value: function componentDidMount() {
+      this.setHintText();
+    }
+  }, {
     key: 'componentWillUnmount',
     value: function componentWillUnmount() {
       document.querySelector('body').classList.remove('not-scrollable');
@@ -42879,16 +42919,14 @@ var PaymentDeliveryPopup = function (_React$Component) {
     value: function render() {
       var _this2 = this;
 
-      var isPayment = this.props.paymentDeliveryData.name === 'payment_methods_unbinds';
-
+      var _state = this.state,
+          mainDiffText = _state.mainDiffText,
+          hintText = _state.hintText,
+          linkText = _state.linkText,
+          changingDataToSend = _state.changingDataToSend,
+          isPayment = _state.isPayment,
+          isEmptyData = _state.isEmptyData;
       var groupName = this.props.paymentDeliveryData.groupName;
-
-
-      var mainDiffText = isPayment ? 'оплаты' : 'доставки';
-      var hintDiffText = isPayment ? 'Отключите способ оплаты, если он не должен примениться для товарной группы' : 'Отключите способ доставки или пункт самовывоза, если он не должен примениться для товарной группы';
-
-      var isEmptyData = !this.state.changingDataToSend.length;
-
       var paymentDeliveryUrl = app.config.paymentDeliveryUrl;
 
 
@@ -42922,7 +42960,7 @@ var PaymentDeliveryPopup = function (_React$Component) {
             _react2.default.createElement(
               'div',
               { className: b('content-titles-name') },
-              groupName || 'Без названия'
+              groupName || 'Для группы "Название группы"'
             )
           ),
           _react2.default.createElement(
@@ -42931,20 +42969,13 @@ var PaymentDeliveryPopup = function (_React$Component) {
             _react2.default.createElement(
               'span',
               null,
-              hintDiffText
+              hintText
             )
           ),
-          _react2.default.createElement(
+          !isEmptyData && _react2.default.createElement(
             'div',
             { className: b('content-options') },
-            isEmptyData && _react2.default.createElement(
-              'h3',
-              null,
-              '\u0423\u0441\u043B\u043E\u0432\u0438\u0439 ',
-              mainDiffText,
-              ' \u043D\u0435\u0442'
-            ),
-            this.state.changingDataToSend.map(function (_ref2, index) {
+            changingDataToSend.map(function (_ref2, index) {
               var name = _ref2.name,
                   id = _ref2.id,
                   selected = _ref2.selected,
@@ -42970,14 +43001,13 @@ var PaymentDeliveryPopup = function (_React$Component) {
                 target: '_blank',
                 rel: 'noopener noreferrer'
               },
-              '\u0414\u043E\u0431\u0430\u0432\u0438\u0442\u044C \u0438\u043B\u0438 \u0438\u0437\u043C\u0435\u043D\u0438\u0442\u044C \u0441\u043F\u043E\u0441\u043E\u0431\u044B ',
-              mainDiffText
+              linkText
             )
           ),
-          _react2.default.createElement(
+          !isEmptyData && _react2.default.createElement(
             'div',
             { className: b('content-buttons') },
-            !isEmptyData && _react2.default.createElement(
+            _react2.default.createElement(
               'button',
               {
                 className: b('content-buttons-save'),
@@ -42993,7 +43023,7 @@ var PaymentDeliveryPopup = function (_React$Component) {
                   return _this2.props.showPaymentDeliveryPopup();
                 }
               },
-              isEmptyData ? 'Закрыть' : 'Отменить'
+              '\u041E\u0442\u043C\u0435\u043D\u0438\u0442\u044C'
             )
           ),
           _react2.default.createElement('button', {

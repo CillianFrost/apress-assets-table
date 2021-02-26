@@ -2887,7 +2887,9 @@ li.rc-select-dropdown-menu-item-divider {
     background-color: #fff;
     padding: 50px 0;
     width: 760px;
-    height: 680px;
+    max-height: 667px;
+    min-height: 224px;
+    height: fit-content;
     position: relative;
     margin: 0 auto;
     top: 50px; }
@@ -2916,7 +2918,7 @@ li.rc-select-dropdown-menu-item-divider {
       align-items: center; }
     .e-payment-delivery-popup-content-options {
       padding-left: 50px;
-      height: 350px;
+      max-height: 350px;
       width: 660px;
       margin-bottom: 25px;
       overflow-y: auto; }
@@ -2932,7 +2934,8 @@ li.rc-select-dropdown-menu-item-divider {
             border-radius: 13px;
             border: 1px #e0e0e0 solid;
             cursor: pointer;
-            position: relative; }
+            position: relative;
+            background-color: #f6f5f3; }
             .e-payment-delivery-popup-content-options-line-control-button::before {
               content: '';
               width: 22px;
@@ -2958,13 +2961,15 @@ li.rc-select-dropdown-menu-item-divider {
             .e-payment-delivery-popup-content-options-line-addresses-block-checkbox {
               margin-right: 10px; }
             .e-payment-delivery-popup-content-options-line-addresses-block-text {
-              font-size: 14px; }
+              font-size: 14px;
+              font-family: Arial; }
     .e-payment-delivery-popup-content-extra-link {
       padding: 0 50px;
       margin-bottom: 30px; }
       .e-payment-delivery-popup-content-extra-link a {
         color: #0088CC;
-        font-size: 18px; }
+        font-size: 16px;
+        font-family: Arial; }
     .e-payment-delivery-popup-content-buttons {
       padding: 0 50px; }
       .e-payment-delivery-popup-content-buttons button {
@@ -2990,9 +2995,11 @@ li.rc-select-dropdown-menu-item-divider {
       width: 20px;
       height: 20px; }
 
-.is-option-button-active::before {
-  left: 25px;
-  background-color: #a3bd49; }
+.is-option-button-active {
+  background-color: #fff; }
+  .is-option-button-active::before {
+    left: 25px;
+    background-color: #a3bd49; }
 
 .not-scrollable {
   overflow: hidden;
