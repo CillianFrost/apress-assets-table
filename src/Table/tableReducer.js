@@ -37,7 +37,8 @@ import {
   UPDATE_TABLE_EDITOR_ROWS,
   INSERT_DATA,
   SET_TRAIT_FILTERS_DISPLAYING,
-  SET_PRODUCT_PROPORTIES_DISPLAYING
+  SET_PRODUCT_PROPORTIES_DISPLAYING,
+  EDIT_PAYMENT_DELIVERY_DATA,
 } from './actions';
 
 const initialState = {
@@ -184,6 +185,7 @@ export default (state = initialState, action) => {
     case HISTORY_NEXT:
     case UPDATE_TABLE_EDITOR_ROWS:
     case SET_TRAIT_FILTERS_DISPLAYING:
+    case EDIT_PAYMENT_DELIVERY_DATA:
     case SET_PRODUCT_PROPORTIES_DISPLAYING:
       return {...state, history: history(state.history, action)};
 

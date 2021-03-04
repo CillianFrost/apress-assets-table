@@ -14,7 +14,8 @@ import {
   UPDATE_TABLE_EDITOR_ROWS,
   INSERT_DATA,
   SET_TRAIT_FILTERS_DISPLAYING,
-  SET_PRODUCT_PROPORTIES_DISPLAYING
+  SET_PRODUCT_PROPORTIES_DISPLAYING,
+  EDIT_PAYMENT_DELIVERY_DATA,
 } from '../actions';
 
 const initialState = {
@@ -56,6 +57,7 @@ export default function history(state = initialState, action) {
     case TABLE_EDITOR_SET_IMAGES:
     case INSERT_DATA:
     case SET_PRODUCT_PROPORTIES_DISPLAYING:
+    case EDIT_PAYMENT_DELIVERY_DATA:
     case SET_TRAIT_FILTERS_DISPLAYING: {
       return addHistory(state, action);
     }

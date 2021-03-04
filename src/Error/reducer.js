@@ -2,6 +2,7 @@ import {ERROR_ADD, ERROR_REMOVE} from './actions';
 
 let errorId = 0;
 
+// eslint-disable-next-line no-return-assign
 const gerErrorId = () => (errorId += 1);
 
 export default function (state = [], action) {

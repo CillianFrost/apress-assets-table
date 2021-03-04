@@ -53,7 +53,7 @@ const Header = props =>
                 onClick={(e) => { e.preventDefault(); props.onDeleteSelectedGroup(); }}
                 className={b('nav-lnk')} href=''
               >
-                Удалить выбранную группу{' '}
+                Удалить выбранные группы{' '}
                 {!!props.selectedGroupsCount && `(${props.selectedGroupsCount})`}
               </a>
             </div>

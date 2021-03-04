@@ -16,6 +16,17 @@ export default class Header extends Component {
     return !_isEqual(this.props, nextProps);
   }
 
+  getSorterTitle = (orderDirection) => {
+    switch (orderDirection) {
+      case 'up':
+        return 'от А до Я';
+      case 'down':
+        return 'от Я до А';
+      default:
+        return 'Все';
+    }
+  }
+
   mapFilterOptionsToMenu = options => options.map(option => ({
     title: option.title,
     id: option.value,
@@ -52,7 +63,7 @@ export default class Header extends Component {
         onSelect={id => selectSort({id, name: cell.name})}
       >
         <div
-          title={cell.sorter.direction === 'down' ? 'от А до Я' : 'от Я до А'}
+          title={this.getSorterTitle(cell.sorter.direction)}
           className={b('sorter').is({
             sorted: cell.sorter.direction,
             'sorted-down': cell.sorter.direction === 'down'

@@ -13,11 +13,12 @@ export default class App extends React.Component {
       },
       detailed_description: {
         type: 'text',
-        maxLen: 255
+        maxLen: 15000,
+        ckeditor: true
       },
       h1: {
         type: 'text',
-        maxLen: 255
+        maxLen: 75
       },
       name: {
         type: 'text',
@@ -50,8 +51,24 @@ export default class App extends React.Component {
       },
       html_block: {
         type: 'text',
-        maxLen: 20000
-      }
+        maxLen: 20000,
+        ckeditor: true
+      },
+      description_for_facets: {
+        type: 'text',
+        maxLen: 255
+      },
+      detailed_description_for_facets: {
+        type: 'text',
+        maxLen: 15000,
+        ckeditor: true
+      },
+      payment_methods_unbinds: {
+        type: 'paymentDelivery',
+      },
+      delivery_methods_unbinds: {
+        type: 'paymentDelivery',
+      },
     };
 
     const placeholder = {

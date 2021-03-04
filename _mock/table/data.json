@@ -345,6 +345,86 @@
         "text": null
       },
       "binder": {}
+    },
+    "payment_methods_unbinds": {
+      "common": [
+        {
+          "id": 8,
+          "name": "Наличный расчет",
+          "selected": true
+        },
+        {
+          "id": 5,
+          "name": "Безналичный расчет",
+          "selected": true
+        },
+        {
+          "id": 9,
+          "name": "можем принести справку",
+          "selected": true
+        }
+      ],
+      "filter": {},
+      "sorter": {},
+      "binder": {}
+    },
+    "delivery_methods_unbinds": {
+      "common": [
+        {
+          "addresses": [
+            {
+              "id": 8857188,
+              "name": "Мегаполис",
+              "selected": true
+            },
+            {
+              "id": 8887188,
+              "name": "Главный офис",
+              "selected": true
+            },
+            {
+              "id": 8857288,
+              "name": "Дирижабль",
+              "selected": true
+            }
+          ],
+          "id": 4,
+          "kind": "pickup",
+          "name": "Самовывоз",
+          "selected": true
+        },
+        {
+          "addresses": [],
+          "id": 11,
+          "kind": "courier",
+          "name": "Доставка курьером",
+          "selected": true
+        },
+        {
+          "addresses": [],
+          "id": 6,
+          "kind": "transport_company",
+          "name": "Доставка транспортной компанией",
+          "selected": true
+        },
+        {
+          "addresses": [],
+          "id": 7,
+          "kind": "car_park",
+          "name": "Доставка автопарком компании",
+          "selected": true
+        },
+        {
+          "addresses": [],
+          "id": 8,
+          "kind": "custom",
+          "name": "короче тут все новое",
+          "selected": true
+        }
+      ],
+      "filter": {},
+      "sorter": {},
+      "binder": {}
     }
   },
   "rows": [
@@ -437,6 +517,86 @@
           "text": null
         },
         "binder": {}
+      },
+      "payment_methods_unbinds": {
+        "common": [
+          {
+            "id": 8,
+            "name": "Наличный расчет",
+            "selected": true
+          },
+          {
+            "id": 5,
+            "name": "Безналичный расчет",
+            "selected": true
+          },
+          {
+            "id": 9,
+            "name": "можем принести справку",
+            "selected": true
+          }
+        ],
+        "filter": {},
+        "sorter": {},
+        "binder": {}
+      },
+      "delivery_methods_unbinds": {
+        "common": [
+          {
+            "addresses": [
+              {
+                "id": 8857188,
+                "name": "Мегаполис",
+                "selected": true
+              },
+              {
+                "id": 8887188,
+                "name": "Главный офис",
+                "selected": true
+              },
+              {
+                "id": 8857288,
+                "name": "Дирижабль",
+                "selected": true
+              }
+            ],
+            "id": 4,
+            "kind": "pickup",
+            "name": "Самовывоз",
+            "selected": true
+          },
+          {
+            "addresses": [],
+            "id": 11,
+            "kind": "courier",
+            "name": "Доставка курьером",
+            "selected": true
+          },
+          {
+            "addresses": [],
+            "id": 6,
+            "kind": "transport_company",
+            "name": "Доставка транспортной компанией",
+            "selected": true
+          },
+          {
+            "addresses": [],
+            "id": 7,
+            "kind": "car_park",
+            "name": "Доставка автопарком компании",
+            "selected": true
+          },
+          {
+            "addresses": [],
+            "id": 8,
+            "kind": "custom",
+            "name": "короче тут все новое",
+            "selected": true
+          }
+        ],
+        "filter": {},
+        "sorter": {},
+        "binder": {}
       }
     },
     {
@@ -522,6 +682,86 @@
         "common": {
           "text": null
         },
+        "binder": {}
+      },
+      "payment_methods_unbinds": {
+        "common": [
+          {
+            "id": 8,
+            "name": "Наличный расчет",
+            "selected": true
+          },
+          {
+            "id": 5,
+            "name": "Безналичный расчет",
+            "selected": true
+          },
+          {
+            "id": 9,
+            "name": "можем принести справку",
+            "selected": true
+          }
+        ],
+        "filter": {},
+        "sorter": {},
+        "binder": {}
+      },
+      "delivery_methods_unbinds": {
+        "common": [
+          {
+            "addresses": [
+              {
+                "id": 8857188,
+                "name": "Мегаполис",
+                "selected": true
+              },
+              {
+                "id": 8887188,
+                "name": "Главный офис",
+                "selected": true
+              },
+              {
+                "id": 8857288,
+                "name": "Дирижабль",
+                "selected": true
+              }
+            ],
+            "id": 4,
+            "kind": "pickup",
+            "name": "Самовывоз",
+            "selected": true
+          },
+          {
+            "addresses": [],
+            "id": 11,
+            "kind": "courier",
+            "name": "Доставка курьером",
+            "selected": true
+          },
+          {
+            "addresses": [],
+            "id": 6,
+            "kind": "transport_company",
+            "name": "Доставка транспортной компанией",
+            "selected": true
+          },
+          {
+            "addresses": [],
+            "id": 7,
+            "kind": "car_park",
+            "name": "Доставка автопарком компании",
+            "selected": true
+          },
+          {
+            "addresses": [],
+            "id": 8,
+            "kind": "custom",
+            "name": "короче тут все новое",
+            "selected": true
+          }
+        ],
+        "filter": {},
+        "sorter": {},
         "binder": {}
       }
     },
@@ -609,6 +849,86 @@
           "text": null
         },
         "binder": {}
+      },
+      "payment_methods_unbinds": {
+        "common": [
+          {
+            "id": 8,
+            "name": "Наличный расчет",
+            "selected": true
+          },
+          {
+            "id": 5,
+            "name": "Безналичный расчет",
+            "selected": true
+          },
+          {
+            "id": 9,
+            "name": "можем принести справку",
+            "selected": true
+          }
+        ],
+        "filter": {},
+        "sorter": {},
+        "binder": {}
+      },
+      "delivery_methods_unbinds": {
+        "common": [
+          {
+            "addresses": [
+              {
+                "id": 8857188,
+                "name": "Мегаполис",
+                "selected": true
+              },
+              {
+                "id": 8887188,
+                "name": "Главный офис",
+                "selected": true
+              },
+              {
+                "id": 8857288,
+                "name": "Дирижабль",
+                "selected": true
+              }
+            ],
+            "id": 4,
+            "kind": "pickup",
+            "name": "Самовывоз",
+            "selected": true
+          },
+          {
+            "addresses": [],
+            "id": 11,
+            "kind": "courier",
+            "name": "Доставка курьером",
+            "selected": true
+          },
+          {
+            "addresses": [],
+            "id": 6,
+            "kind": "transport_company",
+            "name": "Доставка транспортной компанией",
+            "selected": true
+          },
+          {
+            "addresses": [],
+            "id": 7,
+            "kind": "car_park",
+            "name": "Доставка автопарком компании",
+            "selected": true
+          },
+          {
+            "addresses": [],
+            "id": 8,
+            "kind": "custom",
+            "name": "короче тут все новое",
+            "selected": true
+          }
+        ],
+        "filter": {},
+        "sorter": {},
+        "binder": {}
       }
     },
     {
@@ -694,6 +1014,86 @@
         "common": {
           "text": null
         },
+        "binder": {}
+      },
+      "payment_methods_unbinds": {
+        "common": [
+          {
+            "id": 8,
+            "name": "Наличный расчет",
+            "selected": true
+          },
+          {
+            "id": 5,
+            "name": "Безналичный расчет",
+            "selected": true
+          },
+          {
+            "id": 9,
+            "name": "можем принести справку",
+            "selected": true
+          }
+        ],
+        "filter": {},
+        "sorter": {},
+        "binder": {}
+      },
+      "delivery_methods_unbinds": {
+        "common": [
+          {
+            "addresses": [
+              {
+                "id": 8857188,
+                "name": "Мегаполис",
+                "selected": true
+              },
+              {
+                "id": 8887188,
+                "name": "Главный офис",
+                "selected": true
+              },
+              {
+                "id": 8857288,
+                "name": "Дирижабль",
+                "selected": true
+              }
+            ],
+            "id": 4,
+            "kind": "pickup",
+            "name": "Самовывоз",
+            "selected": true
+          },
+          {
+            "addresses": [],
+            "id": 11,
+            "kind": "courier",
+            "name": "Доставка курьером",
+            "selected": true
+          },
+          {
+            "addresses": [],
+            "id": 6,
+            "kind": "transport_company",
+            "name": "Доставка транспортной компанией",
+            "selected": true
+          },
+          {
+            "addresses": [],
+            "id": 7,
+            "kind": "car_park",
+            "name": "Доставка автопарком компании",
+            "selected": true
+          },
+          {
+            "addresses": [],
+            "id": 8,
+            "kind": "custom",
+            "name": "короче тут все новое",
+            "selected": true
+          }
+        ],
+        "filter": {},
+        "sorter": {},
         "binder": {}
       }
     },
@@ -781,6 +1181,86 @@
           "text": null
         },
         "binder": {}
+      },
+      "payment_methods_unbinds": {
+        "common": [
+          {
+            "id": 8,
+            "name": "Наличный расчет",
+            "selected": true
+          },
+          {
+            "id": 5,
+            "name": "Безналичный расчет",
+            "selected": true
+          },
+          {
+            "id": 9,
+            "name": "можем принести справку",
+            "selected": true
+          }
+        ],
+        "filter": {},
+        "sorter": {},
+        "binder": {}
+      },
+      "delivery_methods_unbinds": {
+        "common": [
+          {
+            "addresses": [
+              {
+                "id": 8857188,
+                "name": "Мегаполис",
+                "selected": true
+              },
+              {
+                "id": 8887188,
+                "name": "Главный офис",
+                "selected": true
+              },
+              {
+                "id": 8857288,
+                "name": "Дирижабль",
+                "selected": true
+              }
+            ],
+            "id": 4,
+            "kind": "pickup",
+            "name": "Самовывоз",
+            "selected": true
+          },
+          {
+            "addresses": [],
+            "id": 11,
+            "kind": "courier",
+            "name": "Доставка курьером",
+            "selected": true
+          },
+          {
+            "addresses": [],
+            "id": 6,
+            "kind": "transport_company",
+            "name": "Доставка транспортной компанией",
+            "selected": true
+          },
+          {
+            "addresses": [],
+            "id": 7,
+            "kind": "car_park",
+            "name": "Доставка автопарком компании",
+            "selected": true
+          },
+          {
+            "addresses": [],
+            "id": 8,
+            "kind": "custom",
+            "name": "короче тут все новое",
+            "selected": true
+          }
+        ],
+        "filter": {},
+        "sorter": {},
+        "binder": {}
       }
     },
     {
@@ -866,6 +1346,86 @@
         "common": {
           "text": null
         },
+        "binder": {}
+      },
+      "payment_methods_unbinds": {
+        "common": [
+          {
+            "id": 8,
+            "name": "Наличный расчет",
+            "selected": true
+          },
+          {
+            "id": 5,
+            "name": "Безналичный расчет",
+            "selected": true
+          },
+          {
+            "id": 9,
+            "name": "можем принести справку",
+            "selected": true
+          }
+        ],
+        "filter": {},
+        "sorter": {},
+        "binder": {}
+      },
+      "delivery_methods_unbinds": {
+        "common": [
+          {
+            "addresses": [
+              {
+                "id": 8857188,
+                "name": "Мегаполис",
+                "selected": true
+              },
+              {
+                "id": 8887188,
+                "name": "Главный офис",
+                "selected": true
+              },
+              {
+                "id": 8857288,
+                "name": "Дирижабль",
+                "selected": true
+              }
+            ],
+            "id": 4,
+            "kind": "pickup",
+            "name": "Самовывоз",
+            "selected": true
+          },
+          {
+            "addresses": [],
+            "id": 11,
+            "kind": "courier",
+            "name": "Доставка курьером",
+            "selected": true
+          },
+          {
+            "addresses": [],
+            "id": 6,
+            "kind": "transport_company",
+            "name": "Доставка транспортной компанией",
+            "selected": true
+          },
+          {
+            "addresses": [],
+            "id": 7,
+            "kind": "car_park",
+            "name": "Доставка автопарком компании",
+            "selected": true
+          },
+          {
+            "addresses": [],
+            "id": 8,
+            "kind": "custom",
+            "name": "короче тут все новое",
+            "selected": true
+          }
+        ],
+        "filter": {},
+        "sorter": {},
         "binder": {}
       }
     },
@@ -953,6 +1513,86 @@
           "text": null
         },
         "binder": {}
+      },
+      "payment_methods_unbinds": {
+        "common": [
+          {
+            "id": 8,
+            "name": "Наличный расчет",
+            "selected": true
+          },
+          {
+            "id": 5,
+            "name": "Безналичный расчет",
+            "selected": true
+          },
+          {
+            "id": 9,
+            "name": "можем принести справку",
+            "selected": true
+          }
+        ],
+        "filter": {},
+        "sorter": {},
+        "binder": {}
+      },
+      "delivery_methods_unbinds": {
+        "common": [
+          {
+            "addresses": [
+              {
+                "id": 8857188,
+                "name": "Мегаполис",
+                "selected": true
+              },
+              {
+                "id": 8887188,
+                "name": "Главный офис",
+                "selected": true
+              },
+              {
+                "id": 8857288,
+                "name": "Дирижабль",
+                "selected": true
+              }
+            ],
+            "id": 4,
+            "kind": "pickup",
+            "name": "Самовывоз",
+            "selected": true
+          },
+          {
+            "addresses": [],
+            "id": 11,
+            "kind": "courier",
+            "name": "Доставка курьером",
+            "selected": true
+          },
+          {
+            "addresses": [],
+            "id": 6,
+            "kind": "transport_company",
+            "name": "Доставка транспортной компанией",
+            "selected": true
+          },
+          {
+            "addresses": [],
+            "id": 7,
+            "kind": "car_park",
+            "name": "Доставка автопарком компании",
+            "selected": true
+          },
+          {
+            "addresses": [],
+            "id": 8,
+            "kind": "custom",
+            "name": "короче тут все новое",
+            "selected": true
+          }
+        ],
+        "filter": {},
+        "sorter": {},
+        "binder": {}
       }
     },
     {
@@ -1038,6 +1678,86 @@
         "common": {
           "text": null
         },
+        "binder": {}
+      },
+      "payment_methods_unbinds": {
+        "common": [
+          {
+            "id": 8,
+            "name": "Наличный расчет",
+            "selected": true
+          },
+          {
+            "id": 5,
+            "name": "Безналичный расчет",
+            "selected": true
+          },
+          {
+            "id": 9,
+            "name": "можем принести справку",
+            "selected": true
+          }
+        ],
+        "filter": {},
+        "sorter": {},
+        "binder": {}
+      },
+      "delivery_methods_unbinds": {
+        "common": [
+          {
+            "addresses": [
+              {
+                "id": 8857188,
+                "name": "Мегаполис",
+                "selected": true
+              },
+              {
+                "id": 8887188,
+                "name": "Главный офис",
+                "selected": true
+              },
+              {
+                "id": 8857288,
+                "name": "Дирижабль",
+                "selected": true
+              }
+            ],
+            "id": 4,
+            "kind": "pickup",
+            "name": "Самовывоз",
+            "selected": true
+          },
+          {
+            "addresses": [],
+            "id": 11,
+            "kind": "courier",
+            "name": "Доставка курьером",
+            "selected": true
+          },
+          {
+            "addresses": [],
+            "id": 6,
+            "kind": "transport_company",
+            "name": "Доставка транспортной компанией",
+            "selected": true
+          },
+          {
+            "addresses": [],
+            "id": 7,
+            "kind": "car_park",
+            "name": "Доставка автопарком компании",
+            "selected": true
+          },
+          {
+            "addresses": [],
+            "id": 8,
+            "kind": "custom",
+            "name": "короче тут все новое",
+            "selected": true
+          }
+        ],
+        "filter": {},
+        "sorter": {},
         "binder": {}
       }
     },
@@ -1125,6 +1845,86 @@
           "text": null
         },
         "binder": {}
+      },
+      "payment_methods_unbinds": {
+        "common": [
+          {
+            "id": 8,
+            "name": "Наличный расчет",
+            "selected": true
+          },
+          {
+            "id": 5,
+            "name": "Безналичный расчет",
+            "selected": true
+          },
+          {
+            "id": 9,
+            "name": "можем принести справку",
+            "selected": true
+          }
+        ],
+        "filter": {},
+        "sorter": {},
+        "binder": {}
+      },
+      "delivery_methods_unbinds": {
+        "common": [
+          {
+            "addresses": [
+              {
+                "id": 8857188,
+                "name": "Мегаполис",
+                "selected": true
+              },
+              {
+                "id": 8887188,
+                "name": "Главный офис",
+                "selected": true
+              },
+              {
+                "id": 8857288,
+                "name": "Дирижабль",
+                "selected": true
+              }
+            ],
+            "id": 4,
+            "kind": "pickup",
+            "name": "Самовывоз",
+            "selected": true
+          },
+          {
+            "addresses": [],
+            "id": 11,
+            "kind": "courier",
+            "name": "Доставка курьером",
+            "selected": true
+          },
+          {
+            "addresses": [],
+            "id": 6,
+            "kind": "transport_company",
+            "name": "Доставка транспортной компанией",
+            "selected": true
+          },
+          {
+            "addresses": [],
+            "id": 7,
+            "kind": "car_park",
+            "name": "Доставка автопарком компании",
+            "selected": true
+          },
+          {
+            "addresses": [],
+            "id": 8,
+            "kind": "custom",
+            "name": "короче тут все новое",
+            "selected": true
+          }
+        ],
+        "filter": {},
+        "sorter": {},
+        "binder": {}
       }
     },
     {
@@ -1211,6 +2011,86 @@
           "text": null
         },
         "binder": {}
+      },
+      "payment_methods_unbinds": {
+        "common": [
+          {
+            "id": 8,
+            "name": "Наличный расчет",
+            "selected": true
+          },
+          {
+            "id": 5,
+            "name": "Безналичный расчет",
+            "selected": true
+          },
+          {
+            "id": 9,
+            "name": "можем принести справку",
+            "selected": true
+          }
+        ],
+        "filter": {},
+        "sorter": {},
+        "binder": {}
+      },
+      "delivery_methods_unbinds": {
+        "common": [
+          {
+            "addresses": [
+              {
+                "id": 8857188,
+                "name": "Мегаполис",
+                "selected": true
+              },
+              {
+                "id": 8887188,
+                "name": "Главный офис",
+                "selected": true
+              },
+              {
+                "id": 8857288,
+                "name": "Дирижабль",
+                "selected": true
+              }
+            ],
+            "id": 4,
+            "kind": "pickup",
+            "name": "Самовывоз",
+            "selected": true
+          },
+          {
+            "addresses": [],
+            "id": 11,
+            "kind": "courier",
+            "name": "Доставка курьером",
+            "selected": true
+          },
+          {
+            "addresses": [],
+            "id": 6,
+            "kind": "transport_company",
+            "name": "Доставка транспортной компанией",
+            "selected": true
+          },
+          {
+            "addresses": [],
+            "id": 7,
+            "kind": "car_park",
+            "name": "Доставка автопарком компании",
+            "selected": true
+          },
+          {
+            "addresses": [],
+            "id": 8,
+            "kind": "custom",
+            "name": "короче тут все новое",
+            "selected": true
+          }
+        ],
+        "filter": {},
+        "sorter": {},
+        "binder": {}
       }
     },
     {
@@ -1296,6 +2176,86 @@
         "common": {
           "text": null
         },
+        "binder": {}
+      },
+      "payment_methods_unbinds": {
+        "common": [
+          {
+            "id": 8,
+            "name": "Наличный расчет",
+            "selected": true
+          },
+          {
+            "id": 5,
+            "name": "Безналичный расчет",
+            "selected": true
+          },
+          {
+            "id": 9,
+            "name": "можем принести справку",
+            "selected": true
+          }
+        ],
+        "filter": {},
+        "sorter": {},
+        "binder": {}
+      },
+      "delivery_methods_unbinds": {
+        "common": [
+          {
+            "addresses": [
+              {
+                "id": 8857188,
+                "name": "Мегаполис",
+                "selected": true
+              },
+              {
+                "id": 8887188,
+                "name": "Главный офис",
+                "selected": true
+              },
+              {
+                "id": 8857288,
+                "name": "Дирижабль",
+                "selected": true
+              }
+            ],
+            "id": 4,
+            "kind": "pickup",
+            "name": "Самовывоз",
+            "selected": true
+          },
+          {
+            "addresses": [],
+            "id": 11,
+            "kind": "courier",
+            "name": "Доставка курьером",
+            "selected": true
+          },
+          {
+            "addresses": [],
+            "id": 6,
+            "kind": "transport_company",
+            "name": "Доставка транспортной компанией",
+            "selected": true
+          },
+          {
+            "addresses": [],
+            "id": 7,
+            "kind": "car_park",
+            "name": "Доставка автопарком компании",
+            "selected": true
+          },
+          {
+            "addresses": [],
+            "id": 8,
+            "kind": "custom",
+            "name": "короче тут все новое",
+            "selected": true
+          }
+        ],
+        "filter": {},
+        "sorter": {},
         "binder": {}
       }
     },
@@ -1389,6 +2349,86 @@
           "text": null
         },
         "binder": {}
+      },
+      "payment_methods_unbinds": {
+        "common": [
+          {
+            "id": 8,
+            "name": "Наличный расчет",
+            "selected": true
+          },
+          {
+            "id": 5,
+            "name": "Безналичный расчет",
+            "selected": true
+          },
+          {
+            "id": 9,
+            "name": "можем принести справку",
+            "selected": true
+          }
+        ],
+        "filter": {},
+        "sorter": {},
+        "binder": {}
+      },
+      "delivery_methods_unbinds": {
+        "common": [
+          {
+            "addresses": [
+              {
+                "id": 8857188,
+                "name": "Мегаполис",
+                "selected": true
+              },
+              {
+                "id": 8887188,
+                "name": "Главный офис",
+                "selected": true
+              },
+              {
+                "id": 8857288,
+                "name": "Дирижабль",
+                "selected": true
+              }
+            ],
+            "id": 4,
+            "kind": "pickup",
+            "name": "Самовывоз",
+            "selected": true
+          },
+          {
+            "addresses": [],
+            "id": 11,
+            "kind": "courier",
+            "name": "Доставка курьером",
+            "selected": true
+          },
+          {
+            "addresses": [],
+            "id": 6,
+            "kind": "transport_company",
+            "name": "Доставка транспортной компанией",
+            "selected": true
+          },
+          {
+            "addresses": [],
+            "id": 7,
+            "kind": "car_park",
+            "name": "Доставка автопарком компании",
+            "selected": true
+          },
+          {
+            "addresses": [],
+            "id": 8,
+            "kind": "custom",
+            "name": "короче тут все новое",
+            "selected": true
+          }
+        ],
+        "filter": {},
+        "sorter": {},
+        "binder": {}
       }
     },
     {
@@ -1480,6 +2520,86 @@
         "common": {
           "text": null
         },
+        "binder": {}
+      },
+      "payment_methods_unbinds": {
+        "common": [
+          {
+            "id": 8,
+            "name": "Наличный расчет",
+            "selected": true
+          },
+          {
+            "id": 5,
+            "name": "Безналичный расчет",
+            "selected": true
+          },
+          {
+            "id": 9,
+            "name": "можем принести справку",
+            "selected": true
+          }
+        ],
+        "filter": {},
+        "sorter": {},
+        "binder": {}
+      },
+      "delivery_methods_unbinds": {
+        "common": [
+          {
+            "addresses": [
+              {
+                "id": 8857188,
+                "name": "Мегаполис",
+                "selected": true
+              },
+              {
+                "id": 8887188,
+                "name": "Главный офис",
+                "selected": true
+              },
+              {
+                "id": 8857288,
+                "name": "Дирижабль",
+                "selected": true
+              }
+            ],
+            "id": 4,
+            "kind": "pickup",
+            "name": "Самовывоз",
+            "selected": true
+          },
+          {
+            "addresses": [],
+            "id": 11,
+            "kind": "courier",
+            "name": "Доставка курьером",
+            "selected": true
+          },
+          {
+            "addresses": [],
+            "id": 6,
+            "kind": "transport_company",
+            "name": "Доставка транспортной компанией",
+            "selected": true
+          },
+          {
+            "addresses": [],
+            "id": 7,
+            "kind": "car_park",
+            "name": "Доставка автопарком компании",
+            "selected": true
+          },
+          {
+            "addresses": [],
+            "id": 8,
+            "kind": "custom",
+            "name": "короче тут все новое",
+            "selected": true
+          }
+        ],
+        "filter": {},
+        "sorter": {},
         "binder": {}
       }
     },
@@ -1578,6 +2698,86 @@
           "text": null
         },
         "binder": {}
+      },
+      "payment_methods_unbinds": {
+        "common": [
+          {
+            "id": 8,
+            "name": "Наличный расчет",
+            "selected": true
+          },
+          {
+            "id": 5,
+            "name": "Безналичный расчет",
+            "selected": true
+          },
+          {
+            "id": 9,
+            "name": "можем принести справку",
+            "selected": true
+          }
+        ],
+        "filter": {},
+        "sorter": {},
+        "binder": {}
+      },
+      "delivery_methods_unbinds": {
+        "common": [
+          {
+            "addresses": [
+              {
+                "id": 8857188,
+                "name": "Мегаполис",
+                "selected": true
+              },
+              {
+                "id": 8887188,
+                "name": "Главный офис",
+                "selected": true
+              },
+              {
+                "id": 8857288,
+                "name": "Дирижабль",
+                "selected": true
+              }
+            ],
+            "id": 4,
+            "kind": "pickup",
+            "name": "Самовывоз",
+            "selected": true
+          },
+          {
+            "addresses": [],
+            "id": 11,
+            "kind": "courier",
+            "name": "Доставка курьером",
+            "selected": true
+          },
+          {
+            "addresses": [],
+            "id": 6,
+            "kind": "transport_company",
+            "name": "Доставка транспортной компанией",
+            "selected": true
+          },
+          {
+            "addresses": [],
+            "id": 7,
+            "kind": "car_park",
+            "name": "Доставка автопарком компании",
+            "selected": true
+          },
+          {
+            "addresses": [],
+            "id": 8,
+            "kind": "custom",
+            "name": "короче тут все новое",
+            "selected": true
+          }
+        ],
+        "filter": {},
+        "sorter": {},
+        "binder": {}
       }
     },
     {
@@ -1675,6 +2875,86 @@
           "text": null
         },
         "binder": {}
+      },
+      "payment_methods_unbinds": {
+        "common": [
+          {
+            "id": 8,
+            "name": "Наличный расчет",
+            "selected": true
+          },
+          {
+            "id": 5,
+            "name": "Безналичный расчет",
+            "selected": true
+          },
+          {
+            "id": 9,
+            "name": "можем принести справку",
+            "selected": true
+          }
+        ],
+        "filter": {},
+        "sorter": {},
+        "binder": {}
+      },
+      "delivery_methods_unbinds": {
+        "common": [
+          {
+            "addresses": [
+              {
+                "id": 8857188,
+                "name": "Мегаполис",
+                "selected": true
+              },
+              {
+                "id": 8887188,
+                "name": "Главный офис",
+                "selected": true
+              },
+              {
+                "id": 8857288,
+                "name": "Дирижабль",
+                "selected": true
+              }
+            ],
+            "id": 4,
+            "kind": "pickup",
+            "name": "Самовывоз",
+            "selected": true
+          },
+          {
+            "addresses": [],
+            "id": 11,
+            "kind": "courier",
+            "name": "Доставка курьером",
+            "selected": true
+          },
+          {
+            "addresses": [],
+            "id": 6,
+            "kind": "transport_company",
+            "name": "Доставка транспортной компанией",
+            "selected": true
+          },
+          {
+            "addresses": [],
+            "id": 7,
+            "kind": "car_park",
+            "name": "Доставка автопарком компании",
+            "selected": true
+          },
+          {
+            "addresses": [],
+            "id": 8,
+            "kind": "custom",
+            "name": "короче тут все новое",
+            "selected": true
+          }
+        ],
+        "filter": {},
+        "sorter": {},
+        "binder": {}
       }
     },
     {
@@ -1766,6 +3046,86 @@
           "text": null
         },
         "binder": {}
+      },
+      "payment_methods_unbinds": {
+        "common": [
+          {
+            "id": 8,
+            "name": "Наличный расчет",
+            "selected": true
+          },
+          {
+            "id": 5,
+            "name": "Безналичный расчет",
+            "selected": true
+          },
+          {
+            "id": 9,
+            "name": "можем принести справку",
+            "selected": true
+          }
+        ],
+        "filter": {},
+        "sorter": {},
+        "binder": {}
+      },
+      "delivery_methods_unbinds": {
+        "common": [
+          {
+            "addresses": [
+              {
+                "id": 8857188,
+                "name": "Мегаполис",
+                "selected": true
+              },
+              {
+                "id": 8887188,
+                "name": "Главный офис",
+                "selected": true
+              },
+              {
+                "id": 8857288,
+                "name": "Дирижабль",
+                "selected": true
+              }
+            ],
+            "id": 4,
+            "kind": "pickup",
+            "name": "Самовывоз",
+            "selected": true
+          },
+          {
+            "addresses": [],
+            "id": 11,
+            "kind": "courier",
+            "name": "Доставка курьером",
+            "selected": true
+          },
+          {
+            "addresses": [],
+            "id": 6,
+            "kind": "transport_company",
+            "name": "Доставка транспортной компанией",
+            "selected": true
+          },
+          {
+            "addresses": [],
+            "id": 7,
+            "kind": "car_park",
+            "name": "Доставка автопарком компании",
+            "selected": true
+          },
+          {
+            "addresses": [],
+            "id": 8,
+            "kind": "custom",
+            "name": "короче тут все новое",
+            "selected": true
+          }
+        ],
+        "filter": {},
+        "sorter": {},
+        "binder": {}
       }
     },
     {
@@ -1851,6 +3211,86 @@
         "common": {
           "text": null
         },
+        "binder": {}
+      },
+      "payment_methods_unbinds": {
+        "common": [
+          {
+            "id": 8,
+            "name": "Наличный расчет",
+            "selected": true
+          },
+          {
+            "id": 5,
+            "name": "Безналичный расчет",
+            "selected": true
+          },
+          {
+            "id": 9,
+            "name": "можем принести справку",
+            "selected": true
+          }
+        ],
+        "filter": {},
+        "sorter": {},
+        "binder": {}
+      },
+      "delivery_methods_unbinds": {
+        "common": [
+          {
+            "addresses": [
+              {
+                "id": 8857188,
+                "name": "Мегаполис",
+                "selected": true
+              },
+              {
+                "id": 8887188,
+                "name": "Главный офис",
+                "selected": true
+              },
+              {
+                "id": 8857288,
+                "name": "Дирижабль",
+                "selected": true
+              }
+            ],
+            "id": 4,
+            "kind": "pickup",
+            "name": "Самовывоз",
+            "selected": true
+          },
+          {
+            "addresses": [],
+            "id": 11,
+            "kind": "courier",
+            "name": "Доставка курьером",
+            "selected": true
+          },
+          {
+            "addresses": [],
+            "id": 6,
+            "kind": "transport_company",
+            "name": "Доставка транспортной компанией",
+            "selected": true
+          },
+          {
+            "addresses": [],
+            "id": 7,
+            "kind": "car_park",
+            "name": "Доставка автопарком компании",
+            "selected": true
+          },
+          {
+            "addresses": [],
+            "id": 8,
+            "kind": "custom",
+            "name": "короче тут все новое",
+            "selected": true
+          }
+        ],
+        "filter": {},
+        "sorter": {},
         "binder": {}
       }
     }

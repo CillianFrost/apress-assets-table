@@ -188,7 +188,7 @@ class RemoveConfirmationDialog extends React.Component {
         visible={props.removeRowConfirmOpen}
         onClose={this.cancel}
         title={!props.removeInProgress ?
-          'Удалить выбранную группу ?' : 'Удаляем группу, пожалуйста ожидайте ...'}
+          'Удалить выбранную группу?' : 'Удаляем группу, пожалуйста ожидайте ...'}
       >
         {props.removeInProgress ? this.renderRemoveInProgress() : this.renderConfirmation() }
       </Dialog>);
