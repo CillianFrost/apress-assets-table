@@ -3007,9 +3007,7 @@ li.rc-select-dropdown-menu-item-divider {
     box-shadow: 0 0 4px #000;
     background-color: #fff;
     padding: 50px 0;
-    width: 760px;
-    max-height: 667px;
-    min-height: 224px;
+    width: 758px;
     height: fit-content;
     position: relative;
     margin: 0 auto;
@@ -3028,13 +3026,12 @@ li.rc-select-dropdown-menu-item-divider {
         font-size: 16px; }
     .e-payment-delivery-popup-content-hint {
       background-color: #ffffcc;
-      padding: 0 50px;
-      color: #6D5200;
+      padding: 25px 50px;
+      color: #6d5200;
       font-style: italic;
       font-family: Verdana;
       font-size: 14px;
-      margin-bottom: 30px;
-      height: 92px;
+      margin-bottom: 32px;
       display: flex;
       align-items: center; }
     .e-payment-delivery-popup-content-options {
@@ -3068,7 +3065,8 @@ li.rc-select-dropdown-menu-item-divider {
               left: 0;
               transition: left .2s, background-color .2s; }
           .e-payment-delivery-popup-content-options-line-control-text {
-            font-size: 18px; }
+            font-size: 16px;
+            font-family: 'Arial'; }
         .e-payment-delivery-popup-content-options-line-addresses {
           padding-left: 20px;
           margin-top: 20px;
@@ -3085,14 +3083,14 @@ li.rc-select-dropdown-menu-item-divider {
               font-size: 14px;
               font-family: Arial; }
     .e-payment-delivery-popup-content-extra-link {
-      padding: 0 50px;
-      margin-bottom: 30px; }
+      padding: 0 50px; }
       .e-payment-delivery-popup-content-extra-link a {
         color: #0088CC;
         font-size: 16px;
         font-family: Arial; }
     .e-payment-delivery-popup-content-buttons {
-      padding: 0 50px; }
+      padding: 0 50px;
+      margin-top: 30px; }
       .e-payment-delivery-popup-content-buttons button {
         border-radius: 3px;
         font-size: 16px;
