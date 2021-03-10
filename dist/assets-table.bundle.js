@@ -40776,10 +40776,9 @@ var PaymentDeliveryPopup = function (_React$Component) {
       var groupName = this.props.paymentDeliveryData.groupName;
       var paymentDeliveryUrl = app.config.paymentDeliveryUrl;
 
-
       var resultHash = isPayment ? '#payment' : '#delivery';
-
       var resultUrl = '' + paymentDeliveryUrl + resultHash;
+      var groupTitleText = groupName ? '\u0414\u043B\u044F \u0433\u0440\u0443\u043F\u043F\u044B "' + groupName + '"' : 'Для группы "Название группы"';
 
       return _react2.default.createElement(
         'div',
@@ -40807,7 +40806,7 @@ var PaymentDeliveryPopup = function (_React$Component) {
             _react2.default.createElement(
               'div',
               { className: b('content-titles-name') },
-              groupName || 'Для группы "Название группы"'
+              groupTitleText
             )
           ),
           _react2.default.createElement(
