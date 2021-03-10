@@ -144,6 +144,16 @@ const getPaymentDeliveryDifference = (currentState, previousState, currentCellKe
   } : null;
 };
 
+const getListingStyleDifference = (currentState, previousState) => {
+  const currentData = currentState.listing_style.common;
+  const previousData = previousState.listing_style.common;
+  return (!_isEqual(currentData, previousData)) ? {
+    listing_style: {
+      common: currentData
+    }
+  } : null;
+};
+
 const getProductProportiesDisplayingDifference = (currentState, previousState) => {
   const currentProporties = currentState.product_properties.common;
   const previousProporties = previousState.product_properties.common;
@@ -212,6 +222,12 @@ export const getRowDifference = (currentState, previousState) => {
         differenceRow = {
           ...differenceRow,
           ...getPaymentDeliveryDifference(currentState, previousState, currentCellKey)
+        };
+        break;
+      case 'listing_style':
+        differenceRow = {
+          ...differenceRow,
+          ...getListingStyleDifference(currentState, previousState, currentCellKey)
         };
         break;
 

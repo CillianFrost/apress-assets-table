@@ -1,0 +1,132 @@
+@import '../styles/mixins/icons.scss';
+
+.e-listing-style-popup {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, .5);
+  display: flex;
+  z-index: 2002;
+  overflow: auto;
+  &-content {
+    border: 1px #999 solid;
+    box-shadow: 0 0 4px #000;
+    background-color: #fff;
+    padding: 50px;
+    width: 760px;
+    height: 246px;
+    position: relative;
+    margin: 0 auto;
+    top: 50%;
+    transform: translateY(-50%);
+    &-titles {
+      font-family: Arial;
+      color: #383838;
+      margin-bottom: 20px;
+      &-title {
+        font-family: Arial;
+        font-size: 22px;
+        font-weight: 700;
+        margin-bottom: 10px;
+      }
+      &-name {
+        font-size: 16px;
+      }
+    }
+    &-buttons {
+      margin-top: 20px;
+      button {
+        border-radius: 3px;
+        font-size: 16px;
+        color: #fff;
+        padding: 12px 30px;
+        border: none;
+        cursor: pointer;
+      }
+      &-save {
+        margin-right: 20px;
+        background-color: #9FC54D;
+      }
+      &-cancel {
+        background-color: #c1c1c1;
+      }
+    }
+    &-close {
+      position: absolute;
+      top: 50px;
+      right: 50px;
+      cursor: pointer;
+      background: none;
+      border: none;
+      @include close-icon-light(#808080);
+      width: 20px;
+      height: 20px;
+    }
+    &-option {
+      &-item {
+        display: flex;
+        align-items: center;
+        height: 50px;
+      }
+      &-title {
+        font-size: 18px;
+        line-height: 20px;
+        margin-right: 20px;
+      }
+      &-select {
+        width: 230px;
+        height: 28px;
+        font-size: 13px;
+      }
+      &-type-button {
+        position: relative;
+        background: none;
+        border: none;
+        padding-left: 31px;
+        cursor: pointer;
+
+        &:not(:last-child) {
+          padding-right: 15px;
+          margin-right: 17px;
+          border-right: 1px solid #000;
+        }
+
+        &::before {
+          content: '';
+          position: absolute;
+          width: 26px;
+          height: 26px;
+          left: 0;
+          top: -5px;
+        }
+
+        &.active {
+          color: #08c;
+
+          &.list::before {
+            @include list-style-icon(#ffc107);
+          }
+
+          &.gallery::before {
+            @include gallery-style-icon(#ffc107);
+          }
+        }
+
+        &.list::before {
+          @include list-style-icon(#e6e6e6);
+        }
+
+        &.gallery::before {
+          @include gallery-style-icon(#e6e6e6);
+        }
+      }
+    }
+  }
+}
+
+.not-scrollable {
+  overflow: hidden;
+  padding-right: 15px;
+}

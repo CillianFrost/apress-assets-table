@@ -79,6 +79,7 @@
     border-bottom: 1px dotted;
     text-decoration: none;
     white-space: normal;
+    cursor: pointer;
     &:hover {
       color: #00a6ff;
     }
@@ -89,6 +90,10 @@
     &:hover {
       color: #e71a1c;
     }
+  }
+  &-nav-lnk.disabled,
+  &-nav-lnk.disabled:hover {
+    color: #bfbfbf;
   }
   &-sub-nav {
     display: flex;
