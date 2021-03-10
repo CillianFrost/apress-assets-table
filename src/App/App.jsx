@@ -21,6 +21,7 @@ import HelpExample from '../Help/example';
 import ContainerDialog from '../dialogs/ContainerDialog';
 import ErrorExample from '../Error/example';
 import PaymentDeliveryPopupExample from '../PaymentDeliveryPopup/example';
+import ListingStylePopupExample from '../ListingStylePopup/example';
 import SwitchCategoryExample from '../SwitchCategory/example';
 import OnlineStoreImportStatus from '../components/OnlineStoreImportStatus';
 import * as actionsTable from '../Table/actions';
@@ -125,6 +126,7 @@ class App extends React.Component {
         </div>
         <SwitchCategoryExample />
         {this.props.isPaymentDeliveryVisible && <PaymentDeliveryPopupExample />}
+        {this.props.isListingStyleVisible && <ListingStylePopupExample />}
       </div>
     );
   }
@@ -139,6 +141,7 @@ const mapStateToProps = state => ({
   tree: state.tree,
   save: state.save,
   isPaymentDeliveryVisible: state.paymentDelivery.isPaymentDeliveryVisible,
+  isListingStyleVisible: state.listingStyle.isListingStyleVisible,
 });
 
 const mapDispatchToProps = dispatch => ({

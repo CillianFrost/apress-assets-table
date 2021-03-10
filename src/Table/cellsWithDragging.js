@@ -9,6 +9,7 @@ import Image from './Image';
 import Path from './Path';
 import Text from './Text';
 import PaymentDelivery from './PaymentDelivery';
+import ListingStyle from './ListingStyle';
 
 import {selectCellActions} from './utils';
 import {setFocus} from './actions';
@@ -27,3 +28,4 @@ export const ImageWithDragging = enhance(Image);
 export const PathWithDragging = enhance(Path);
 export const TextWithDragging = enhance(Text);
 export const PaymentDeliveryWithDragging = enhance(PaymentDelivery);
+export const ListingStyleWithDragging = enhance(ListingStyle);

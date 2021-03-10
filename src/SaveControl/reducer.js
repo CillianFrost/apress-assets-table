@@ -21,7 +21,7 @@ import {
   INSERT_DATA,
   SET_TRAIT_FILTERS_DISPLAYING,
   SET_PRODUCT_PROPORTIES_DISPLAYING,
-  EDIT_PAYMENT_DELIVERY_DATA,
+  EDIT_ROWS_DATA,
 } from '../Table/actions';
 import rows from '../Table/rowReducer';
 
@@ -54,7 +54,7 @@ export default function (state = initialState, action) {
     case INSERT_DATA:
     case SET_TRAIT_FILTERS_DISPLAYING:
     case SET_PRODUCT_PROPORTIES_DISPLAYING:
-    case EDIT_PAYMENT_DELIVERY_DATA:
+    case EDIT_ROWS_DATA:
       return {
         ...state,
         withUnsavedChanges: true

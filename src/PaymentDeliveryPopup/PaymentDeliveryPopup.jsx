@@ -9,7 +9,7 @@ import './e-payment-delivery-popup.scss';
 import OptionElement from '../OptionElement/OptionElement';
 
 import {showPaymentDeliveryPopup} from './actions';
-import {editPaymentDeliveryData} from '../Table/actions';
+import {editRowsData} from '../Table/actions';
 
 const b = block('e-payment-delivery-popup');
 
@@ -100,7 +100,7 @@ class PaymentDeliveryPopup extends React.Component {
     const {groupId, name} = this.props.paymentDeliveryData;
     const {changingDataToSend} = this.state;
 
-    this.props.editPaymentDeliveryData(groupId, changingDataToSend, name);
+    this.props.editRowsData([groupId], changingDataToSend, name);
     this.props.showPaymentDeliveryPopup();
   }
 
@@ -199,7 +199,7 @@ class PaymentDeliveryPopup extends React.Component {
 
 PaymentDeliveryPopup.propTypes = {
   showPaymentDeliveryPopup: PropTypes.func.isRequired,
-  editPaymentDeliveryData: PropTypes.func.isRequired,
+  editRowsData: PropTypes.func.isRequired,
 };
 
 const mapStateToProps = state => ({
@@ -208,7 +208,7 @@ const mapStateToProps = state => ({
 
 const mapDispatchToProps = dispatch => bindActionCreators({
   showPaymentDeliveryPopup,
-  editPaymentDeliveryData,
+  editRowsData,
 }, dispatch);
 
 export default connect(mapStateToProps, mapDispatchToProps)(PaymentDeliveryPopup);

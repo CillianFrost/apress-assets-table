@@ -10,6 +10,7 @@ import remove from './remove/reducer';
 import switchCategoryView from './SwitchCategory/reducer';
 import onlineStoreImport from './reducers/onlineStoreImport';
 import paymentDelivery from './PaymentDeliveryPopup/reducers';
+import listingStyle from './ListingStylePopup/reducers';
 
 
 export default combineReducers({
@@ -24,6 +25,7 @@ export default combineReducers({
   switchCategoryView,
   onlineStoreImport,
   paymentDelivery,
+  listingStyle,
 
   config: () => ({})
 });

@@ -22,6 +22,7 @@ import {
   PathWithDragging,
   TextWithDragging,
   PaymentDeliveryWithDragging,
+  ListingStyleWithDragging,
 } from './cellsWithDragging';
 import {
   saveProductGroupImages as saveProductGroupImagesAction,
@@ -161,6 +162,7 @@ class Body extends Component {
     const tableWidth = Object.keys(row).length;
     const key = (rowIndex * tableWidth) + columnIndex;
     const {options: traitFiltersDisplayingOptions} = app.config.traitFiltersDisplaying;
+    const columnOptions = this.props.table.columns[columnIndex].common;
     const componentsCell = {
       text: <TextWithDragging
         key={key}
@@ -190,6 +192,12 @@ class Body extends Component {
         key={key}
         cell={dataRow}
         row={row}
+      />,
+      listingStyle: <ListingStyleWithDragging
+        key={key}
+        cell={dataRow}
+        row={row}
+        columnOptions={columnOptions}
       />,
       exists: <Exists
         key={key}
