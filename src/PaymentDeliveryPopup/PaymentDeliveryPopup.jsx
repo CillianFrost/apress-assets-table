@@ -121,12 +121,10 @@ class PaymentDeliveryPopup extends React.Component {
     } = this.state;
 
     const {groupName} = this.props.paymentDeliveryData;
-
     const {paymentDeliveryUrl} = app.config;
-
     const resultHash = isPayment ? '#payment' : '#delivery';
-
     const resultUrl = `${paymentDeliveryUrl}${resultHash}`;
+    const groupTitleText = groupName ? `Для группы "${groupName}"` : 'Для группы "Название группы"';
 
     return (
       <div
@@ -142,7 +140,7 @@ class PaymentDeliveryPopup extends React.Component {
               Настроить условия {mainDiffText}
             </div>
             <div className={b('content-titles-name')}>
-              {groupName || 'Для группы "Название группы"'}
+              {groupTitleText}
             </div>
           </div>
           <div className={b('content-hint')}>
