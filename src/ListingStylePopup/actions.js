@@ -8,10 +8,8 @@ export const showListingStylePopup = isVisible => ({
 
 export const sendDataToListingStylePopup = (groupIds, currentOptions, cellName, columnOptions) => ({
   type: SEND_DATA_TO_LISTING_STYLE_POPUP,
-  payload: {
-    groupIds,
-    currentOptions,
-    cellName,
-    columnOptions,
-  },
+  groupIds,
+  currentOptions,
+  cellName,
+  columnOptions,
 });

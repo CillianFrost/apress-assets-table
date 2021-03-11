@@ -94,7 +94,7 @@ const Header = (props) => {
             <div className={b('nav-box')}>
               <div className={b('nav-item')}>
                 <div
-                  onClick={handleChangeListingStyleClick}
+                  onClick={props.selectedGroupsCount && handleChangeListingStyleClick}
                   className={b('nav-lnk').mix(!props.selectedGroupsCount && 'disabled')}
                 >
                   Выбрать вид товаров

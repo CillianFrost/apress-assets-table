@@ -19,10 +19,10 @@ export default function listingStyle(state = initialState, action) {
     case types.SEND_DATA_TO_LISTING_STYLE_POPUP:
       return {
         ...state,
-        currentOptions: action.payload.currentOptions,
-        groupIds: action.payload.groupIds,
-        cellName: action.payload.cellName,
-        columnOptions: action.payload.columnOptions,
+        currentOptions: action.currentOptions,
+        groupIds: action.groupIds,
+        cellName: action.cellName,
+        columnOptions: action.columnOptions,
       };
 
     default:

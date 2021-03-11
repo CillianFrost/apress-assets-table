@@ -4,6 +4,7 @@ import {bindActionCreators} from 'redux';
 import PropTypes from 'prop-types';
 
 import _isEmpty from 'lodash/isEmpty';
+import {objectToKeyValueArray} from './utils';
 import DEFAULT_OPTIONS from './defaultOptions';
 
 import {block} from '../utils';
@@ -55,8 +56,8 @@ class ListingStylePopup extends React.Component {
     this.props.setCheckAllReset();
   }
 
-  handleOutsideClick = (e) => {
-    if (!this.popupRef || this.popupRef.contains(e.target)) { return; }
+  handleOutsideClick = (event) => {
+    if (!this.popupRef || this.popupRef.contains(event.target)) { return; }
 
     this.props.showListingStylePopup();
   }
@@ -75,7 +76,7 @@ class ListingStylePopup extends React.Component {
     return (
       <div
         className={b}
-        onClick={e => this.handleOutsideClick(e)}
+        onClick={this.handleOutsideClick}
       >
         <div
           className={`${b('content')}`}
@@ -91,24 +92,24 @@ class ListingStylePopup extends React.Component {
           </div>
           <div className={b('content-settings')}>
             <ListingTypeToggler
-              types={Object.entries(listingTypes)}
+              types={objectToKeyValueArray(listingTypes)}
               current={currentType}
               handleChange={this.handleListingTypeChange}
             />
 
             <ButtonTitleToggler
-              titles={Object.entries(buttonTitles)}
+              titles={objectToKeyValueArray(buttonTitles)}
               current={currentTitle}
               handleChange={this.handleButtonTitleChange}
             />
           </div>
           <div className={b('content-buttons')}>
-            {true && <button
+            <button
               className={b('content-buttons-save')}
               onClick={this.handleSave}
             >
               Сохранить
-            </button>}
+            </button>
             <button
               className={b('content-buttons-cancel')}
               onClick={() => this.props.showListingStylePopup()}
