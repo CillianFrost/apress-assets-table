@@ -1885,6 +1885,24 @@ li.rc-select-dropdown-menu-item-divider {
     position: absolute;
     right: 5px;
     top: 5px; }
+  .e-table-listing-style-cell {
+    color: #999;
+    text-align: left;
+    font-size: 12px;
+    line-height: 16px;
+    background: none;
+    border: none;
+    border-bottom: 1px #999 dashed;
+    padding: 0;
+    cursor: pointer; }
+    .e-table-listing-style-cell-item {
+      white-space: nowrap; }
+    .e-table-listing-style-cell-title {
+      display: inline-block;
+      margin-right: 5px;
+      color: #61656f; }
+    .e-table-listing-style-cell-content {
+      color: #000; }
 
 .payment-cell-button {
   background: none;
@@ -1909,28 +1927,6 @@ li.rc-select-dropdown-menu-item-divider {
 
 .payment-cell-text-wrapper {
   overflow: hidden; }
-
-.listing-style-cell {
-  color: #999;
-  text-align: left;
-  font-size: 12px;
-  line-height: 16px;
-  background: none;
-  border: none;
-  border-bottom: 1px #999 dashed;
-  padding: 0;
-  cursor: pointer; }
-
-.listing-style-cell__item {
-  white-space: nowrap; }
-
-.listing-style-cell__item-title {
-  display: inline-block;
-  margin-right: 5px;
-  color: #61656f; }
-
-.listing-style-cell__item-content {
-  color: #000; }
 .e-scroller * {
   box-sizing: border-box; }
 

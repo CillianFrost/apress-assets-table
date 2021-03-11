@@ -41,7 +41,7 @@ class listingStyleCell extends Component {
     const {
       classMix,
       isFocus,
-      data: {common},
+      data: {common: currentOptions},
     } = this.props.cell;
 
     const {
@@ -54,33 +54,31 @@ class listingStyleCell extends Component {
         className={b('cell').mix(`is-${classMix}`)
         .is({focus: isFocus})}
       >
-        <div className='payment-cell-text-wrapper'>
-          <button
-            onClick={this.handleClick}
-            type='button'
-            className='listing-style-cell'
-          >
-            {_isEmpty(common)
-              ? 'Настроить вид товаров'
-              : (
-                <span>
-                  <div className='listing-style-cell__item'>
-                    <span className='listing-style-cell__item-title'>Вид:</span>
-                    <span className='listing-style-cell__item-content'>
-                      {listingTypes[common.listing_type]}
-                    </span>
-                  </div>
-                  <div className='listing-style-cell__item'>
-                    <span className='listing-style-cell__item-title'>Действие:</span>
-                    <span className='listing-style-cell__item-content'>
-                      «{buttonTitles[common.button_title]}»
-                    </span>
-                  </div>
-                </span>
-              )
-            }
-          </button>
-        </div>
+        <button
+          onClick={this.handleClick}
+          type='button'
+          className={b('listing-style-cell')}
+        >
+          {_isEmpty(currentOptions)
+            ? 'Настроить вид товаров'
+            : (
+              <span>
+                <div className={b('listing-style-cell-item')}>
+                  <span className={b('listing-style-cell-title')}>Вид:</span>
+                  <span className={b('listing-style-cell-content')}>
+                    {listingTypes[currentOptions.listing_type]}
+                  </span>
+                </div>
+                <div className={b('listing-style-cell-item')}>
+                  <span className={b('listing-style-cell-title')}>Действие:</span>
+                  <span className={b('listing-style-cell-content')}>
+                    «{buttonTitles[currentOptions.button_title]}»
+                  </span>
+                </div>
+              </span>
+            )
+          }
+        </button>
       </div>
     );
   }

@@ -11,13 +11,13 @@ const ButtonTitleToggler = props => (
       className={b('content-option-select')}
       onClick={(event) => { props.handleChange(event.target.value); }}
     >
-      {props.titles.map(entry => (
+      {props.titles.map(({key, value}) => (
         <option
-          key={entry[0]}
-          value={entry[0]}
-          selected={entry[0] === props.current && 'selected'}
+          key={key}
+          value={key}
+          selected={key === props.current && 'selected'}
         >
-          {entry[1]}
+          {value}
         </option>
       ))}
     </select>
@@ -26,7 +26,10 @@ const ButtonTitleToggler = props => (
 
 ButtonTitleToggler.propTypes = {
   current: PropTypes.string.isRequired,
-  titles: PropTypes.array.isRequired,
+  titles: PropTypes.arrayOf(PropTypes.shape({
+    key: PropTypes.string,
+    value: PropTypes.string,
+  })).isRequired,
   handleChange: PropTypes.func.isRequired,
 };
 

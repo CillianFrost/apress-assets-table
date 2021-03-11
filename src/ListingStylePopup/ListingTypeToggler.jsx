@@ -7,17 +7,17 @@ const b = block('e-listing-style-popup');
 const ListingTypeToggler = props => (
   <div className={b('content-option-item')}>
     <div className={b('content-option-title')}>Вид отображения:</div>
-    {props.types.map(entry => (
+    {props.types.map(({key, value}) => (
       <button
-        key={entry[0]}
-        onClick={() => { props.handleChange(entry[0]); }}
+        key={key}
+        onClick={() => { props.handleChange(key); }}
         className={`
           ${b('content-option-type-button')}
-          ${entry[0]}
-          ${props.current === entry[0] ? 'active' : ''}
+          ${key}
+          ${props.current === key ? 'active' : ''}
         `}
       >
-        {entry[1]}
+        {value}
       </button>
     ))}
   </div>
@@ -25,7 +25,10 @@ const ListingTypeToggler = props => (
 
 ListingTypeToggler.propTypes = {
   current: PropTypes.string.isRequired,
-  types: PropTypes.array.isRequired,
+  types: PropTypes.arrayOf(PropTypes.shape({
+    key: PropTypes.string,
+    value: PropTypes.string,
+  })).isRequired,
 };
 
 export default ListingTypeToggler;
