@@ -3021,9 +3021,11 @@ li.rc-select-dropdown-menu-item-divider {
         font-family: Arial;
         font-size: 22px;
         font-weight: 700;
-        margin-bottom: 10px; }
+        margin-bottom: 10px;
+        line-height: 32px; }
       .e-payment-delivery-popup-content-titles-name {
-        font-size: 16px; }
+        font-size: 16px;
+        line-height: 20px; }
     .e-payment-delivery-popup-content-hint {
       background-color: #ffffcc;
       padding: 25px 50px;
@@ -3031,6 +3033,7 @@ li.rc-select-dropdown-menu-item-divider {
       font-style: italic;
       font-family: Verdana;
       font-size: 14px;
+      line-height: 21px;
       margin-bottom: 32px;
       display: flex;
       align-items: center; }
@@ -3083,14 +3086,17 @@ li.rc-select-dropdown-menu-item-divider {
               font-size: 14px;
               font-family: Arial; }
     .e-payment-delivery-popup-content-extra-link {
-      padding: 0 50px; }
+      padding: 0 50px 10px 50px; }
       .e-payment-delivery-popup-content-extra-link a {
-        color: #0088CC;
+        color: #08c;
         font-size: 16px;
-        font-family: Arial; }
+        font-family: Arial;
+        text-decoration: none;
+        padding-bottom: 1px;
+        border-bottom: 1px #08c solid; }
     .e-payment-delivery-popup-content-buttons {
       padding: 0 50px;
-      margin-top: 30px; }
+      margin-top: 20px; }
       .e-payment-delivery-popup-content-buttons button {
         border-radius: 3px;
         font-size: 16px;
