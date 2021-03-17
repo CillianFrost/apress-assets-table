@@ -1903,6 +1903,8 @@ li.rc-select-dropdown-menu-item-divider {
       color: #61656f; }
     .e-table-listing-style-cell-content {
       color: #000; }
+  .e-table-cell.is-listing-style {
+    width: 210px; }
 
 .payment-cell-button {
   background: none;
@@ -3164,7 +3166,7 @@ li.rc-select-dropdown-menu-item-divider {
   overflow: auto; }
   .e-listing-style-popup-content {
     border: 1px #999 solid;
-    box-shadow: 0 0 4px #000;
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.4);
     background-color: #fff;
     padding: 50px;
     width: 760px;
@@ -3213,6 +3215,7 @@ li.rc-select-dropdown-menu-item-divider {
       align-items: center;
       height: 50px; }
     .e-listing-style-popup-content-option-title {
+      font-family: Arial;
       font-size: 18px;
       line-height: 20px;
       margin-right: 20px; }
@@ -3229,7 +3232,7 @@ li.rc-select-dropdown-menu-item-divider {
       .e-listing-style-popup-content-option-type-button:not(:last-child) {
         padding-right: 15px;
         margin-right: 17px;
-        border-right: 1px solid #000; }
+        border-right: 1px solid #606060; }
       .e-listing-style-popup-content-option-type-button::before {
         content: '';
         position: absolute;

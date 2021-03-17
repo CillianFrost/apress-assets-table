@@ -9,7 +9,7 @@ const ButtonTitleToggler = props => (
     <div className={b('content-option-title')}>Название кнопки:</div>
     <select
       className={b('content-option-select')}
-      onClick={(event) => { props.handleChange(event.target.value); }}
+      onChange={(event) => { props.handleChange(event.target.value); }}
     >
       {props.titles.map(({key, value}) => (
         <option

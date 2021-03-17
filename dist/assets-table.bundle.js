@@ -40430,7 +40430,7 @@ var ButtonTitleToggler = function ButtonTitleToggler(props) {
       'select',
       {
         className: b('content-option-select'),
-        onClick: function onClick(event) {
+        onChange: function onChange(event) {
           props.handleChange(event.target.value);
         }
       },
