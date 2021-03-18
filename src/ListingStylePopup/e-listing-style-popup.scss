@@ -12,7 +12,7 @@
   overflow: auto;
   &-content {
     border: 1px #999 solid;
-    box-shadow: 0 0 4px #000;
+    box-shadow: 0 1px 8px rgba(0, 0, 0, .4);
     background-color: #fff;
     padding: 50px;
     width: 760px;
@@ -71,6 +71,7 @@
         height: 50px;
       }
       &-title {
+        font-family: Arial;
         font-size: 18px;
         line-height: 20px;
         margin-right: 20px;
@@ -90,7 +91,7 @@
         &:not(:last-child) {
           padding-right: 15px;
           margin-right: 17px;
-          border-right: 1px solid #000;
+          border-right: 1px solid #606060;
         }
 
         &::before {
