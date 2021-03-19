@@ -3225,6 +3225,7 @@ li.rc-select-dropdown-menu-item-divider {
       font-size: 13px; }
     .e-listing-style-popup-content-option-type-button {
       position: relative;
+      color: #606060;
       background: none;
       border: none;
       padding-left: 31px;
@@ -3232,7 +3233,7 @@ li.rc-select-dropdown-menu-item-divider {
       .e-listing-style-popup-content-option-type-button:not(:last-child) {
         padding-right: 15px;
         margin-right: 17px;
-        border-right: 1px solid #606060; }
+        border-right: 1px solid #000; }
       .e-listing-style-popup-content-option-type-button::before {
         content: '';
         position: absolute;

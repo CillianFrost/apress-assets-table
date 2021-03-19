@@ -83,6 +83,7 @@
       }
       &-type-button {
         position: relative;
+        color: #606060;
         background: none;
         border: none;
         padding-left: 31px;
@@ -91,7 +92,7 @@
         &:not(:last-child) {
           padding-right: 15px;
           margin-right: 17px;
-          border-right: 1px solid #606060;
+          border-right: 1px solid #000;
         }
 
         &::before {
