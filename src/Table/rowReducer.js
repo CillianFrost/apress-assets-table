@@ -11,7 +11,7 @@ import {
   UPDATE_TABLE_EDITOR_ROWS,
   SET_TRAIT_FILTERS_DISPLAYING,
   SET_PRODUCT_PROPORTIES_DISPLAYING,
-  EDIT_PAYMENT_DELIVERY_DATA,
+  EDIT_ROWS_DATA,
 } from './actions';
 
 let newId = -1;
@@ -206,9 +206,9 @@ export default function rows(state = [], action) {
         return row;
       });
 
-    case EDIT_PAYMENT_DELIVERY_DATA:
+    case EDIT_ROWS_DATA:
       return state.map((row) => {
-        if (row.check.common.id === action.payload.groupId) {
+        if (action.payload.groupIds.includes(row.check.common.id)) {
           const cell = row[action.payload.name];
 
           return {
