@@ -13,6 +13,7 @@ import ComponentError from './Error/Error';
 import Dialog from './Dialog/Dialog';
 import OnlineStoreImportStatus from './components/OnlineStoreImportStatus';
 import PaymentDeliveryPopup from './PaymentDeliveryPopup/PaymentDeliveryPopup';
+import ListingStylePopup from './ListingStylePopup/ListingStylePopup';
 
 import * as actionsTree from './Tree/actions';
 import * as actionsTable from './Table/actions';
@@ -39,6 +40,7 @@ import ContainerDialog from './dialogs/ContainerDialog';
 import reducerCable from './Cable/reducer';
 import onlineStoreImportReducer from './reducers/onlineStoreImport';
 import paymentDelivery from './PaymentDeliveryPopup/reducers';
+import listingStyle from './ListingStylePopup/reducers';
 
 
 import imageEditor from './reducers/imageEditor';
@@ -93,6 +95,7 @@ export const reducers = {
   reducerCable,
   onlineStoreImportReducer,
   paymentDelivery,
+  listingStyle,
 };
 
 export const actions = {
@@ -133,4 +136,5 @@ export const components = {
   Dialog,
   OnlineStoreImportStatus,
   PaymentDeliveryPopup,
+  ListingStylePopup,
 };

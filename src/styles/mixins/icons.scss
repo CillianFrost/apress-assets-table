@@ -170,3 +170,13 @@
   $svg-string: encode-base64('<svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" clip-rule="evenodd" d="M15.4718 16L0.52832 0.546369L1.05665 0L16.0001 15.4536L15.4718 16Z" fill="#808080"/><path fill-rule="evenodd" clip-rule="evenodd" d="M0.52833 16L15.4718 0.546369L14.9434 0L0 15.4536L0.52833 16Z" fill="#808080"/></svg>');
   background: url("data:image/svg+xml;base64,#{$svg-string}") 50% / contain no-repeat;
 }
+
+@mixin list-style-icon($color: #000) {
+  $svg-string: encode-base64('<svg width="26" height="26" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill="#{$color}" d="M0 0h26v26H0z"/><path stroke="#fff" stroke-width="2" d="M0 17h26M0 8h26"/></svg>');
+  background: url("data:image/svg+xml;base64,#{$svg-string}") 50% / contain no-repeat;
+}
+
+@mixin gallery-style-icon($color: #000) {
+  $svg-string: encode-base64('<svg width="26" height="26" fill="none" xmlns="http://www.w3.org/2000/svg"><path fill="#{$color}" d="M0 0h26v26H0z"/><path d="M0 13h26M13 0v26" stroke="#fff" stroke-width="3"/></svg>');
+  background: url("data:image/svg+xml;base64,#{$svg-string}") 50% / contain no-repeat;
+}

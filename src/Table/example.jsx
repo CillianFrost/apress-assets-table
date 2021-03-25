@@ -49,6 +49,9 @@ export default class App extends React.Component {
       product_properties: {
         type: 'product_properties_popup'
       },
+      listing_style: {
+        type: 'listingStyle'
+      },
       html_block: {
         type: 'text',
         maxLen: 20000,

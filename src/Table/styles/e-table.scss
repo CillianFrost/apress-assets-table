@@ -367,6 +367,31 @@
     right: 5px;
     top: 5px;
   }
+  &-listing-style-cell {
+    color: #999;
+    text-align: left;
+    font-size: 12px;
+    line-height: 16px;
+    background: none;
+    border: none;
+    border-bottom: 1px #999 dashed;
+    padding: 0;
+    cursor: pointer;
+    &-item {
+      white-space: nowrap;
+    }
+    &-title {
+      display: inline-block;
+      margin-right: 5px;
+      color: #61656f;
+    }
+    &-content {
+      color: #000;
+    }
+  }
+  &-cell.is-listing-style {
+    width: 210px;
+  }
 }
 
 .payment-cell-button {

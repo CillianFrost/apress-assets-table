@@ -15,9 +15,7 @@
     box-shadow: 0 0 4px #000;
     background-color: #fff;
     padding: 50px 0;
-    width: 760px;
-    max-height: 667px;
-    min-height: 224px;
+    width: 758px;
     height: fit-content;
     position: relative;
     margin: 0 auto;
@@ -32,20 +30,22 @@
         font-size: 22px;
         font-weight: 700;
         margin-bottom: 10px;
+        line-height: 32px;
       }
       &-name {
         font-size: 16px;
+        line-height: 20px;
       }
     }
     &-hint {
       background-color: #ffffcc;
-      padding: 0 50px;
-      color: #6D5200;
+      padding: 25px 50px;
+      color: #6d5200;
       font-style: italic;
       font-family: Verdana;
       font-size: 14px;
-      margin-bottom: 30px;
-      height: 92px;
+      line-height: 21px;
+      margin-bottom: 32px;
       display: flex;
       align-items: center;
     }
@@ -82,7 +82,8 @@
             }
           }
           &-text {
-            font-size: 18px;
+            font-size: 16px;
+            font-family: 'Arial';
           }
         }
         &-addresses {
@@ -107,16 +108,19 @@
       }
     }
     &-extra-link {
-      padding: 0 50px;
-      margin-bottom: 30px;
+      padding: 0 50px 10px 50px;
       a {
-        color: #0088CC;
+        color: #08c;
         font-size: 16px;
         font-family: Arial;
+        text-decoration: none;
+        padding-bottom: 1px;
+        border-bottom: 1px #08c solid;
       }
     }
     &-buttons {
       padding: 0 50px;
+      margin-top: 20px;
       button {
         border-radius: 3px;
         font-size: 16px;
