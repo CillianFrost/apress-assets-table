@@ -445,7 +445,7 @@ module.exports = __WEBPACK_EXTERNAL_MODULE_10__;
 /* 11 */
 /***/ (function(module, exports) {
 
-var core = module.exports = { version: '2.6.12' };
+var core = module.exports = { version: '2.6.11' };
 if (typeof __e == 'number') __e = core; // eslint-disable-line no-undef
 
 
@@ -831,8 +831,7 @@ module.exports = {
 /***/ }),
 /* 17 */,
 /* 18 */,
-/* 19 */,
-/* 20 */
+/* 19 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var freeGlobal = __webpack_require__(170);
@@ -847,7 +846,7 @@ module.exports = root;
 
 
 /***/ }),
-/* 21 */
+/* 20 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1167,6 +1166,7 @@ var cloneableGenerator = function cloneableGenerator(generatorFunc) {
 };
 
 /***/ }),
+/* 21 */,
 /* 22 */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -1578,7 +1578,7 @@ module.exports = function (it) {
 /* harmony export (immutable) */ __webpack_exports__["t"] = takeLatest;
 /* harmony export (immutable) */ __webpack_exports__["u"] = throttle;
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "w", function() { return asEffect; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__utils__ = __webpack_require__(21);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__utils__ = __webpack_require__(20);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__sagaHelpers__ = __webpack_require__(218);
 
 
@@ -1932,7 +1932,7 @@ module.exports = Object.keys || function keys(O) {
 /* harmony export (immutable) */ __webpack_exports__["c"] = channel;
 /* harmony export (immutable) */ __webpack_exports__["b"] = eventChannel;
 /* harmony export (immutable) */ __webpack_exports__["d"] = stdChannel;
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__utils__ = __webpack_require__(21);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__utils__ = __webpack_require__(20);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__buffers__ = __webpack_require__(90);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__scheduler__ = __webpack_require__(219);
 var _extends = Object.assign || function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; };
@@ -2343,7 +2343,7 @@ module.exports = g;
 /* 78 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var root = __webpack_require__(20);
+var root = __webpack_require__(19);
 
 /** Built-in value references. */
 var Symbol = root.Symbol;
@@ -2464,7 +2464,7 @@ module.exports = eq;
 "use strict";
 /* unused harmony export BUFFER_OVERFLOW */
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return buffers; });
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__utils__ = __webpack_require__(21);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__utils__ = __webpack_require__(20);
 
 
 var BUFFER_OVERFLOW = "Channel's Buffer overflow!";
@@ -2782,7 +2782,7 @@ var store = global[SHARED] || (global[SHARED] = {});
 })('versions', []).push({
   version: core.version,
   mode: __webpack_require__(65) ? 'pure' : 'global',
-  copyright: '© 2020 Denis Pushkarev (zloirock.ru)'
+  copyright: '© 2019 Denis Pushkarev (zloirock.ru)'
 });
 
 
@@ -2872,7 +2872,7 @@ __webpack_require__(160)(String, 'String', function (iterated) {
 /***/ (function(module, exports, __webpack_require__) {
 
 var getNative = __webpack_require__(41),
-    root = __webpack_require__(20);
+    root = __webpack_require__(19);
 
 /* Built-in method references that are verified to be native. */
 var Map = getNative(root, 'Map');
@@ -2941,7 +2941,7 @@ module.exports = cacheHas;
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return qEnd; });
 /* harmony export (immutable) */ __webpack_exports__["c"] = safeName;
 /* harmony export (immutable) */ __webpack_exports__["a"] = fsmIterator;
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__utils__ = __webpack_require__(21);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__utils__ = __webpack_require__(20);
 
 
 var done = { done: true, value: undefined };
@@ -3106,7 +3106,7 @@ module.exports = MapCache;
 /* 125 */
 /***/ (function(module, exports, __webpack_require__) {
 
-/* WEBPACK VAR INJECTION */(function(module) {var root = __webpack_require__(20),
+/* WEBPACK VAR INJECTION */(function(module) {var root = __webpack_require__(19),
     stubFalse = __webpack_require__(375);
 
 /** Detect free variable `exports`. */
@@ -3330,7 +3330,7 @@ module.exports = isArguments;
 /* 143 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var debounce = __webpack_require__(212),
+var debounce = __webpack_require__(213),
     isObject = __webpack_require__(38);
 
 /** Error message constants. */
@@ -4237,11 +4237,12 @@ module.exports = function (it) {
 /* 198 */,
 /* 199 */,
 /* 200 */,
-/* 201 */
+/* 201 */,
+/* 202 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var getNative = __webpack_require__(41),
-    root = __webpack_require__(20);
+    root = __webpack_require__(19);
 
 /* Built-in method references that are verified to be native. */
 var Set = getNative(root, 'Set');
@@ -4250,7 +4251,7 @@ module.exports = Set;
 
 
 /***/ }),
-/* 202 */
+/* 203 */
 /***/ (function(module, exports) {
 
 /**
@@ -4281,16 +4282,16 @@ module.exports = arrayFilter;
 
 
 /***/ }),
-/* 203 */,
 /* 204 */,
-/* 205 */
+/* 205 */,
+/* 206 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var baseTimes = __webpack_require__(330),
     isArguments = __webpack_require__(141),
     isArray = __webpack_require__(33),
     isBuffer = __webpack_require__(125),
-    isIndex = __webpack_require__(210),
+    isIndex = __webpack_require__(211),
     isTypedArray = __webpack_require__(126);
 
 /** Used for built-in method references. */
@@ -4338,8 +4339,8 @@ module.exports = arrayLikeKeys;
 
 
 /***/ }),
-/* 206 */,
-/* 207 */
+/* 207 */,
+/* 208 */
 /***/ (function(module, exports) {
 
 /**
@@ -4365,7 +4366,7 @@ module.exports = arrayPush;
 
 
 /***/ }),
-/* 208 */
+/* 209 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var isPrototype = __webpack_require__(139),
@@ -4401,13 +4402,13 @@ module.exports = baseKeys;
 
 
 /***/ }),
-/* 209 */
+/* 210 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var DataView = __webpack_require__(315),
     Map = __webpack_require__(109),
     Promise = __webpack_require__(317),
-    Set = __webpack_require__(201),
+    Set = __webpack_require__(202),
     WeakMap = __webpack_require__(320),
     baseGetTag = __webpack_require__(54),
     toSource = __webpack_require__(171);
@@ -4465,7 +4466,7 @@ module.exports = getTag;
 
 
 /***/ }),
-/* 210 */
+/* 211 */
 /***/ (function(module, exports) {
 
 /** Used as references for various `Number` constants. */
@@ -4496,7 +4497,7 @@ module.exports = isIndex;
 
 
 /***/ }),
-/* 211 */
+/* 212 */
 /***/ (function(module, exports) {
 
 /**
@@ -4517,7 +4518,7 @@ module.exports = overArg;
 
 
 /***/ }),
-/* 212 */
+/* 213 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var isObject = __webpack_require__(38),
@@ -4714,7 +4715,6 @@ module.exports = debounce;
 
 
 /***/ }),
-/* 213 */,
 /* 214 */,
 /* 215 */,
 /* 216 */,
@@ -4729,7 +4729,7 @@ module.exports = debounce;
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__takeEvery__ = __webpack_require__(401);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__takeLatest__ = __webpack_require__(402);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__throttle__ = __webpack_require__(403);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__utils__ = __webpack_require__(21);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__utils__ = __webpack_require__(20);
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return __WEBPACK_IMPORTED_MODULE_0__takeEvery__["a"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "b", function() { return __WEBPACK_IMPORTED_MODULE_1__takeLatest__["a"]; });
 /* harmony reexport (binding) */ __webpack_require__.d(__webpack_exports__, "c", function() { return __WEBPACK_IMPORTED_MODULE_2__throttle__["a"]; });
@@ -7799,7 +7799,7 @@ __webpack_require__(101)('observable');
 /***/ (function(module, exports, __webpack_require__) {
 
 var getNative = __webpack_require__(41),
-    root = __webpack_require__(20);
+    root = __webpack_require__(19);
 
 /* Built-in method references that are verified to be native. */
 var DataView = getNative(root, 'DataView');
@@ -7850,7 +7850,7 @@ module.exports = Hash;
 /***/ (function(module, exports, __webpack_require__) {
 
 var getNative = __webpack_require__(41),
-    root = __webpack_require__(20);
+    root = __webpack_require__(19);
 
 /* Built-in method references that are verified to be native. */
 var Promise = getNative(root, 'Promise');
@@ -7895,7 +7895,7 @@ module.exports = Stack;
 /* 319 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var root = __webpack_require__(20);
+var root = __webpack_require__(19);
 
 /** Built-in value references. */
 var Uint8Array = root.Uint8Array;
@@ -7908,7 +7908,7 @@ module.exports = Uint8Array;
 /***/ (function(module, exports, __webpack_require__) {
 
 var getNative = __webpack_require__(41),
-    root = __webpack_require__(20);
+    root = __webpack_require__(19);
 
 /* Built-in method references that are verified to be native. */
 var WeakMap = getNative(root, 'WeakMap');
@@ -7951,7 +7951,7 @@ module.exports = arraySome;
 /* 324 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var arrayPush = __webpack_require__(207),
+var arrayPush = __webpack_require__(208),
     isArray = __webpack_require__(33);
 
 /**
@@ -8039,7 +8039,7 @@ var Stack = __webpack_require__(318),
     equalArrays = __webpack_require__(169),
     equalByTag = __webpack_require__(333),
     equalObjects = __webpack_require__(334),
-    getTag = __webpack_require__(209),
+    getTag = __webpack_require__(210),
     isArray = __webpack_require__(33),
     isBuffer = __webpack_require__(125),
     isTypedArray = __webpack_require__(126);
@@ -8270,7 +8270,7 @@ module.exports = baseTimes;
 /* 332 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var root = __webpack_require__(20);
+var root = __webpack_require__(19);
 
 /** Used to detect overreaching core-js shims. */
 var coreJsData = root['__core-js_shared__'];
@@ -8570,7 +8570,7 @@ module.exports = getRawTag;
 /* 337 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var arrayFilter = __webpack_require__(202),
+var arrayFilter = __webpack_require__(203),
     stubArray = __webpack_require__(374);
 
 /** Used for built-in method references. */
@@ -9096,7 +9096,7 @@ module.exports = mapToArray;
 /* 357 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var overArg = __webpack_require__(211);
+var overArg = __webpack_require__(212);
 
 /* Built-in method references for those with the same name as other `lodash` methods. */
 var nativeKeys = overArg(Object.keys, Object);
@@ -9380,8 +9380,8 @@ module.exports = isSymbol;
 /* 370 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var arrayLikeKeys = __webpack_require__(205),
-    baseKeys = __webpack_require__(208),
+var arrayLikeKeys = __webpack_require__(206),
+    baseKeys = __webpack_require__(209),
     isArrayLike = __webpack_require__(79);
 
 /**
@@ -26593,7 +26593,7 @@ module.exports = keys;
 /* 373 */
 /***/ (function(module, exports, __webpack_require__) {
 
-var root = __webpack_require__(20);
+var root = __webpack_require__(19);
 
 /**
  * Gets the timestamp of the number of milliseconds that have elapsed since
@@ -27069,7 +27069,7 @@ function takeLatest(patternOrChannel, worker) {
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__io__ = __webpack_require__(51);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__channel__ = __webpack_require__(58);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__buffers__ = __webpack_require__(90);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__utils__ = __webpack_require__(21);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__utils__ = __webpack_require__(20);
 
 
 

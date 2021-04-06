@@ -14,11 +14,13 @@ class ProportiesForm extends Component {
   handleOnChange = (e) => {
     const key = e.target.name;
     const pattern = e.target.pattern;
+
     const validateProportiesField = pattern ?
-      e.target.value.replace(/[^\d,.]*/g, '')
+      e.target.value.replace(/[^\d.]*/g, '')
         .replace(/([,.])[,.]+/g, '$1')
         .replace(/^[^\d]*((\d{6})+([.,]\d{0,3})?).*$/g, '$1') :
-      e.target.value.replace(/[^\d]*/g, '')
+      e.target.value.replace(/[^\d.]*/g, '')
+        .replace(/([,.])[,.]+/g, '$1')
         .replace(/^[^\d]*((\d{7})+).*$/g, '$1');
 
     this.setState({[key]: validateProportiesField});
